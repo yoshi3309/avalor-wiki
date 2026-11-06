@@ -193,8 +193,8 @@ locations:
   - id: karhold
     name: Karhold
     type: settlement
-    x: 78.71
-    y: 72.59
+    x: 78.7
+    y: 74.86
     description: Disputed eastern-peninsula freeport; its independent government is
       not settled by Avalorian claims.
     article: karhold
