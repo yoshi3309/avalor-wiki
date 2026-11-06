@@ -193,11 +193,13 @@ locations:
   - id: karhold
     name: Karhold
     type: settlement
+    x: 78.71
+    y: 72.59
     description: Disputed eastern-peninsula freeport; its independent government is
       not settled by Avalorian claims.
     article: karhold
     published: true
-    provisional: true
+    provisional: false
   - id: black-stair
     name: The Black Stair
     type: historic
