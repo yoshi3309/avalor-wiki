@@ -1,6 +1,6 @@
 # Player-facing map data only. Never include Keeper secrets or unrevealed locations.
 title: The Cartographer's Table
-image: ''
+image: /assets/uploads/avalor-official-map.webp
 image_alt: An illustrated parchment map of Avalor, with its mountains, forests, waterways, and surrounding seas.
 image_credit: New official map of Avalor
 locations:
