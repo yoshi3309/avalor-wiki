@@ -11,7 +11,7 @@ locations:
     y: 20.5
     description: Ancient woodland whose elven communities preserve traditions and
       rights older than the kingdom.
-    article: kingdom-of-avalor
+    article: forest-of-the-fey
     published: true
     provisional: false
   - id: great-desert
@@ -20,7 +20,7 @@ locations:
     x: 67.7
     y: 25.8
     description: A landscape transformed by the consequences of the Black Tower catastrophe.
-    article: kingdom-of-avalor
+    article: great-desert
     published: true
     provisional: false
   - id: denzians-forest
@@ -30,7 +30,7 @@ locations:
     y: 30.9
     description: The forest named for the wizard Denzian, with tales of vanished
       treasure seekers and guarded relics.
-    article: kingdom-of-avalor
+    article: denzians-forest
     published: true
     provisional: false
   - id: dead-marshes
@@ -40,7 +40,7 @@ locations:
     y: 39.7
     description: A dangerous wetland bearing the traces of ancient conflict and
       later magical upheaval.
-    article: kingdom-of-avalor
+    article: dead-marshes
     published: true
     provisional: false
   - id: spine-of-the-world
@@ -50,7 +50,7 @@ locations:
     y: 28
     description: The mountain range associated with Heaven's Heart and the ancient
       Black Tower.
-    article: heavens-heart
+    article: spine-of-the-world
     published: true
     provisional: false
   - id: river-rhys

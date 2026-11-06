@@ -10,14 +10,14 @@ facts: 'Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
 
   Notable institution: Great Library of Aldus Greystone'
-related: lavitz-shawe,the-six,kingdom-of-avalor
+related: lavitz-shawe,the-six,spine-of-the-world,kingdom-of-avalor
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false
 ---
 
 ## At the foot of the mountains
 
-[[Heaven's Heart]] is known for its traditions of paladin training and scholarship near the **Spine of the World**. Its influence reaches beyond the surrounding settlement through travelers, religious houses, and the preservation of the kingdom's historical records.
+[[Heaven's Heart]] is known for its traditions of paladin training and scholarship near the [[Spine of the World]]. Its influence reaches beyond the surrounding settlement through travelers, religious houses, and the preservation of the kingdom's historical records.
 
 ## The teaching of Lowkee
 

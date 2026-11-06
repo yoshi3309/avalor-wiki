@@ -148,7 +148,7 @@ MAP_IMAGE = '../'+raw_map_image if raw_map_image else ''
 MAP_DATA = {'image': MAP_IMAGE, 'root':'../','locations': MAP_LOCATIONS}
 MAP_LINKS = {}
 for loc in MAP_LOCATIONS:
-    if loc['published'] and loc['article'] and loc['type'] in {'settlement','institution','historic'}:
+    if loc['published'] and loc['article']:
         MAP_LINKS.setdefault(loc['article'],loc['id'])
 
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))

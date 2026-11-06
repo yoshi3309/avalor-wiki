@@ -40,3 +40,9 @@ The present monarch, **King Gradvum Frozenroar**, is widely regarded as approach
 For centuries, the drow founding hero [[Jaznaar]] was wrongly remembered as the Betrayer. The truth emerged after the defeat of [[Cid the Blood King]] by [[The Misfits]], obliging Avalor's institutions to confront the harm done by their own histories. The correction of that record and the appointment of [[Lavitz Shawe]] as Lord Marshal have helped transform the place of drow citizens in public life, though inherited prejudice has not vanished overnight.
 
 The years after Cid's defeat are called the **Age of Ascendancy**. Trade and diplomacy have expanded, and Avalor's champions are known far beyond its borders. Prosperity has brought new expectations, and the kingdom must decide how widely its advantages will be shared.
+
+## The land beyond the royal roads
+
+The kingdom's landscapes are as varied as its people. The ancient [[Forest of the Fey]] preserves the memory of elven communities and their negotiated rights; [[Denzians Forest]] holds a separate tradition of a wizard, lost treasure seekers, and disputed relics. The northern [[Great Desert]] bears the long consequences of the Black Tower catastrophe, while the [[Dead Marshes]] recall injuries from more than one age. Above the approaches to [[Heaven's Heart]], the [[Spine of the World]] holds both places of sanctuary and the mountain site of that disaster.
+
+These regions are more than obstacles between settlements. Each has its own history, inhabitants, and claims upon the memory of Avalor.
