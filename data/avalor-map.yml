@@ -165,7 +165,7 @@ locations:
     type: settlement
     description: Hunters Guild settlement within the Dead Marshes.
     article: wayword-sun
-    published: false
+    published: true
     provisional: true
   - id: black-tower
     name: The Black Tower
@@ -173,7 +173,7 @@ locations:
     description: The ruinous site of Aldus Greystone III's experiments within the
       Spine of the World.
     article: black-tower
-    published: false
+    published: true
     provisional: true
   - id: great-citadel
     name: The Great Citadel
@@ -181,14 +181,14 @@ locations:
     description: Royal seat overlooking Renada; its exact position is awaiting
       cartographic approval.
     article: great-citadel
-    published: false
+    published: true
     provisional: true
   - id: lands-end
     name: Land's End
     type: settlement
     description: Fortified seat of the Northern March's sheriff, Sebastian Rubelda.
     article: lands-end
-    published: false
+    published: true
     provisional: true
   - id: karhold
     name: Karhold
@@ -203,7 +203,7 @@ locations:
     type: historic
     description: Difficult mountain approach near Heaven's Heart.
     article: black-stair
-    published: false
+    published: true
     provisional: true
   - id: lord-osmos-tower
     name: Lord Osmo's Tower
