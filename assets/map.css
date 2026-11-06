@@ -5,3 +5,17 @@
 @media(max-width:610px){.atlas-heading h1{font-size:35px}.atlas-topline{font-size:8px;padding:9px}.atlas-viewport{height:420px}.atlas-tools{flex-wrap:wrap}.atlas-tool-note{display:none}.atlas-edit-toggle{margin-left:auto}.atlas-map-foot{display:block}.atlas-map-foot span{display:block}.atlas-map-foot span+span{margin-top:3px}.atlas-panel h2{font-size:22px}.atlas-legend{font-size:9px}.atlas-page{padding:20px 14px 55px}}
 @media(prefers-reduced-motion:reduce){.atlas-pin-symbol{transition:none}}
 .atlas-image[hidden]{display:none}
+/* The index of player-safe articles that still need a cartographic position. */
+.atlas-unplaced{border:1px solid #796447;background:#20323b;margin:22px 0 20px;padding:22px 24px;box-shadow:0 14px 30px #07161b33}
+.atlas-unplaced-intro{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.atlas-unplaced-eyebrow{color:#d0ab72;letter-spacing:.15em;font-size:10px;font-weight:700}
+.atlas-unplaced h2{font:400 clamp(18px,2vw,25px)/1.3 var(--font-display);color:#f2e4c9;margin:7px 0}
+.atlas-unplaced p{font:12px/1.7 var(--font-literary);color:#afc0bc;max-width:710px;margin:4px 0 12px}
+.atlas-unplaced-start{display:inline-block;color:#e5ca92;border:1px solid #84734f;padding:10px 12px;font-size:11px;white-space:nowrap}
+.atlas-unplaced-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:13px}
+.atlas-unplaced-grid a{display:flex;align-items:center;gap:10px;padding:11px;background:#162b34;border:1px solid #405358;color:#e3dccc;font-size:12px;min-width:0}
+.atlas-unplaced-grid a:hover,.atlas-unplaced-grid a:focus-visible{border-color:#c3a67a;background:#2b4048}
+.atlas-unplaced-glyph{color:#ba9d6b}
+.atlas-unplaced-action{font-size:10px;color:#c9a773;margin-left:auto;white-space:nowrap}
+@media(max-width:980px){.atlas-unplaced-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:610px){.atlas-unplaced{padding:16px 14px}.atlas-unplaced-intro{display:block}.atlas-unplaced-start{margin-bottom:10px}.atlas-unplaced-grid{grid-template-columns:1fr}}

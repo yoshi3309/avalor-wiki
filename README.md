@@ -138,3 +138,10 @@ This atlas is **fully public**, including each point's name, description, and im
 The following player-safe landmarks have dedicated articles and a draft marker in **Map settings & locations**: Wayword Sun, the Black Tower, Great Citadel, Land's End, Karhold, Black Stair, Lord Osmo's Tower, Great Fork Tower, and Great Cathedral. Their X/Y coordinates are deliberately blank; the wiki does **not** invent their canonical positions.
 
 In `/map/?edit=1`, open the **Position pins** panel (it opens automatically) and select the landmark in the dropdown. The nine unplaced entries appear first. Click the precise location on the map, copy the reported X/Y, then open Pages CMS → **Map settings & locations**, enter the coordinates for that landmark, enable **Show marker to players**, disable **Mark position as provisional**, and click **Save**. The marker becomes visible on the public map and its article receives a **Locate on map** link. Simply clicking on the map does **not** save a position to GitHub.
+
+
+## Finding unplaced landmark drafts on the public atlas
+
+The map page now has an **Uncharted places** section above the map whenever landmarks lack coordinates. Each place has a **Place** link opening the positioning desk with that location selected. The regular public map's pins remain limited to explicitly approved coordinates, preventing false placements.
+
+When selecting an unplaced landmark from this section, the location list, or the dropdown, the Positioning Desk automatically switches the active target to that location. Click the image, copy X/Y, enter them in Pages CMS → Map settings & locations, then enable Show marker to players and disable Provisional. The visual click itself is never a save operation.

@@ -6,6 +6,20 @@
     <div class="atlas-kicker">THE ROYAL COMMISSION · CARTOGRAPHIC COLLECTION</div>
     <div class="atlas-heading-row"><div><h1>The Cartographer's Table</h1><p>Explore the lands, waters, and places of Avalor. Select a marker to uncover its record, or follow the atlas back into the archives.</p></div><a href="{{root}}articles/kingdom-of-avalor/" class="atlas-kingdom-link">The Kingdom of Avalor ↗</a></div>
   </div>
+  {% set unplaced = map_data.locations | rejectattr("placed") | list %}
+  {% if unplaced %}
+  <section class="atlas-unplaced" aria-label="Landmarks awaiting placement">
+    <div class="atlas-unplaced-intro">
+      <div><div class="atlas-unplaced-eyebrow">THE CARTOGRAPHER'S DESK · UNCHARTED PLACES</div><h2>{{ unplaced|length }} landmarks awaiting placement</h2><p>Their encyclopedia articles are ready, but these places need your approved coordinates before pins appear on the map. Select a location to place it.</p></div>
+      <a class="atlas-unplaced-start" href="{{root}}map/?edit=1">Open positioning desk ↗</a>
+    </div>
+    <div class="atlas-unplaced-grid">
+      {% for location in unplaced %}
+      <a href="{{root}}map/?edit=1&amp;place={{ location.id }}"><span class="atlas-unplaced-glyph" aria-hidden="true">✥</span><span>{{ location.name }}</span><span class="atlas-unplaced-action">Place ↗</span></a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
   <div class="atlas-topline"><div class="atlas-topline-left"><span class="atlas-star">✦</span> THE NORTHERN KINGDOM · EXPLORER'S EDITION</div><div class="atlas-topline-right"><span id="atlas-count">—</span> charted locations</div></div>
   <div class="atlas-layout" id="atlas-app">
     <div class="atlas-map-column">

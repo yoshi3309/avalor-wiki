@@ -66,6 +66,15 @@
   function select(id,shouldFocus=true) {
     if (!find(id) || (!state.editing && !isPublic(find(id)))) return;
     state.selected=id;
+    if (state.editing && editSelect) {
+      // A link or selection in the location list must also set the active
+      // editing target. Otherwise a click can silently move a different pin.
+      state.placing=id;
+      editSelect.value=id;
+      state.position=null;
+      copyButton.disabled=true;
+      editOutput.textContent='Positioning '+find(id).name+'. Click the correct point on the map. This is a preview only; copy X/Y to Pages CMS to save.';
+    }
     document.querySelectorAll('.atlas-pin').forEach(node=>node.classList.toggle('is-selected',node.dataset.id===id));
     renderList();updateDetails();
     if(shouldFocus && find(id).placed)focus(find(id));
@@ -140,8 +149,10 @@
       const x=clamp(((e.clientX-rect.left-view.x)/view.scale)/WIDTH*100,0,100);
       const y=clamp(((e.clientY-rect.top-view.y)/view.scale)/HEIGHT*100,0,100);
       const loc=find(state.placing);if(loc){loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));state.position={id:loc.id,x:loc.x,y:loc.y};
+      renderPins();select(loc.id,false);
+      state.position={id:loc.id,x:loc.x,y:loc.y};
       editOutput.textContent=`${loc.name} — X: ${loc.x}% · Y: ${loc.y}%. LOCAL PREVIEW ONLY: Copy into Pages CMS, enable Show marker to players, untick Provisional, then Save.`;
-      copyButton.disabled=false;renderPins();select(loc.id,false)}
+      copyButton.disabled=false;}
     }
   });
   viewport.addEventListener('pointercancel',()=>{state.pointer=null});
