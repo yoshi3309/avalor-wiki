@@ -11,11 +11,11 @@
   <section class="atlas-unplaced" aria-label="Landmarks awaiting placement">
     <div class="atlas-unplaced-intro">
       <div><div class="atlas-unplaced-eyebrow">THE CARTOGRAPHER'S DESK · UNCHARTED PLACES</div><h2>{{ unplaced|length }} landmarks awaiting placement</h2><p>Their encyclopedia articles are ready, but these places need your approved coordinates before pins appear on the map. Select a location to place it.</p></div>
-      <a class="atlas-unplaced-start" href="{{root}}map/?edit=1">Open positioning desk ↗</a>
+      <a class="atlas-unplaced-start" href="{{root}}map/?edit=1#atlas-viewport">Open positioning desk ↗</a>
     </div>
     <div class="atlas-unplaced-grid">
       {% for location in unplaced %}
-      <a href="{{root}}map/?edit=1&amp;place={{ location.id }}"><span class="atlas-unplaced-glyph" aria-hidden="true">✥</span><span>{{ location.name }}</span><span class="atlas-unplaced-action">Place ↗</span></a>
+      <a href="{{root}}map/?edit=1&amp;place={{ location.id }}#atlas-viewport"><span class="atlas-unplaced-glyph" aria-hidden="true">✥</span><span>{{ location.name }}</span><span class="atlas-unplaced-action">Place ↗</span></a>
       {% endfor %}
     </div>
   </section>
@@ -33,13 +33,21 @@
           <img id="atlas-image" class="atlas-image" alt="{{map.image_alt}}" draggable="false" hidden>
           <div id="atlas-pins" class="atlas-pins"></div>
         </div>
+        <aside id="atlas-placement-tray" class="atlas-placement-tray" aria-label="Unplaced landmarks" hidden>
+          <div class="atlas-placement-head">
+            <div><span class="atlas-placement-eyebrow">✥ THE CARTOGRAPHER'S QUEUE</span><strong id="atlas-placement-count">Unplaced landmarks</strong></div>
+            <button id="atlas-placement-toggle" type="button" aria-expanded="true" aria-controls="atlas-placement-items">Hide list</button>
+          </div>
+          <div id="atlas-placement-items" class="atlas-placement-items"></div>
+          <div class="atlas-placement-note" id="atlas-placement-note">These names are not geographical pins yet. Select one to mark its correct location.</div>
+        </aside>
         <div class="atlas-map-fallback" id="atlas-fallback" hidden><span aria-hidden="true">♜</span><strong>The map awaits its first hanging</strong><p>The cartographer's chart has been prepared. An archivist can attach the illustrated map through <em>Map settings</em> in Pages CMS; the pins and records are already in place.</p></div>
         <div class="atlas-zoom-readout" id="atlas-zoom-readout">100%</div>
       </div>
       <div class="atlas-map-foot"><span>ⓘ Open circles indicate approximate, yet-to-be-verified placements.</span><span>Coordinates refer to the full map image.</span></div>
       <div class="atlas-edit-workspace" id="atlas-editor" hidden>
         <div class="atlas-edit-title"><strong>Archivist's positioning desk</strong><span>Preview only · does not save to GitHub or Pages CMS</span></div>
-        <p>Choose a place from the list, then click its correct location on the map. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗</a>. Enter <strong>both X and Y</strong>, enable <strong>Show marker to players</strong>, turn off <em>Provisional</em>, and <strong>Save</strong> in Pages CMS. Unplaced landmarks are hidden from the public map until you do so.</p>
+        <p>Choose an unplaced landmark from the tray directly on the map, or from the dropdown below. Click its correct location; a provisional preview pin will appear immediately. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗</a>. Enter <strong>both X and Y</strong>, enable <strong>Show marker to players</strong>, turn off <em>Provisional</em>, and <strong>Save</strong> in Pages CMS. Unplaced landmarks are hidden from the public map until you do so.</p>
         <div class="atlas-edit-controls"><label for="atlas-edit-location">Place to position</label><select id="atlas-edit-location"></select><button id="atlas-copy-position" type="button" disabled>Copy coordinates</button></div>
         <div class="atlas-edit-coordinate" id="atlas-edit-output" aria-live="polite">Select a location and click the map to measure its position.</div>
       </div>

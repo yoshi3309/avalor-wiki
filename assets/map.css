@@ -19,3 +19,22 @@
 .atlas-unplaced-action{font-size:10px;color:#c9a773;margin-left:auto;white-space:nowrap}
 @media(max-width:980px){.atlas-unplaced-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:610px){.atlas-unplaced{padding:16px 14px}.atlas-unplaced-intro{display:block}.atlas-unplaced-start{margin-bottom:10px}.atlas-unplaced-grid{grid-template-columns:1fr}}
+
+/* Map-side positioning queue. These are selectable names, NOT guessed pins. */
+.atlas-placement-tray{position:absolute;left:12px;top:12px;z-index:10;width:min(310px,calc(100% - 24px));background:rgba(22,37,46,.97);color:#eee3cd;border:1px solid #bc9f6c;box-shadow:0 10px 34px #06131dcc;backdrop-filter:blur(7px);border-radius:4px}
+.atlas-placement-tray[hidden]{display:none}
+.atlas-placement-head{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:12px 12px 9px}
+.atlas-placement-head>div{display:grid;gap:3px}
+.atlas-placement-eyebrow{font-size:8px;letter-spacing:.13em;color:#c5a675;font-weight:700}
+.atlas-placement-head strong{font:500 16px var(--font-display);color:#f3e4c7}
+.atlas-placement-head button{flex-shrink:0;background:#31464e;border:1px solid #71664f;color:#e5d2aa;border-radius:3px;padding:6px 9px;font-size:10px;cursor:pointer}
+.atlas-placement-head button:hover{background:#4b4d43}
+.atlas-placement-items{max-height:225px;overflow-y:auto;padding:0 8px 5px}
+.atlas-placement-items button{display:flex;width:100%;justify-content:space-between;align-items:center;gap:7px;padding:9px 7px;color:#e5e2d9;background:#253943;border:1px solid #42535a;margin-bottom:5px;text-align:left;cursor:pointer;font-size:11px;border-radius:2px}
+.atlas-placement-items button:hover,.atlas-placement-items button:focus-visible,.atlas-placement-items button.is-current{background:#40504c;border-color:#c7ae82}
+.atlas-placement-items button span{overflow-wrap:anywhere}
+.atlas-placement-items button small{white-space:nowrap;color:#d6b581;font-size:9px}
+.atlas-placement-note{padding:8px 11px 11px;color:#c1c9c5;font:10px/1.5 var(--font-body);border-top:1px solid #405056}
+.atlas-placement-tray.is-collapsed .atlas-placement-items{display:none}
+.atlas-placement-tray.is-collapsed .atlas-placement-note{padding:7px 11px;font-size:10px}
+@media(max-width:610px){.atlas-placement-tray{left:7px;top:7px;width:min(280px,calc(100% - 14px))}.atlas-placement-items{max-height:165px}.atlas-placement-head{padding:8px}.atlas-placement-head strong{font-size:14px}}

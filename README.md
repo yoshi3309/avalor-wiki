@@ -145,3 +145,7 @@ In `/map/?edit=1`, open the **Position pins** panel (it opens automatically) and
 The map page now has an **Uncharted places** section above the map whenever landmarks lack coordinates. Each place has a **Place** link opening the positioning desk with that location selected. The regular public map's pins remain limited to explicitly approved coordinates, preventing false placements.
 
 When selecting an unplaced landmark from this section, the location list, or the dropdown, the Positioning Desk automatically switches the active target to that location. Click the image, copy X/Y, enter them in Pages CMS → Map settings & locations, then enable Show marker to players and disable Provisional. The visual click itself is never a save operation.
+
+
+### On-map draft picker and preview visibility fix
+The interactive map now includes an **Unplaced landmarks** tray floating over the map artwork, listing every landmark without saved coordinates. Select a name to activate the positioning desk; the tray minimizes so it doesn't block map clicks. Click the desired location to see a **provisional pin immediately on the map** and its exact coordinates. This is still a local preview; it is intentionally not a persisted/public location until you copy X/Y to Pages CMS, enable **Show marker to players**, turn off **Provisional**, and save. Previously-approved pins, including Karhold, are preserved unchanged.

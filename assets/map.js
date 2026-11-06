@@ -14,9 +14,17 @@
   const copyButton = el('atlas-copy-position');
   // The public atlas displays only approved, placed markers. The positioning
   // desk also shows player-safe drafts so the archivist can measure them.
-  const locations = data.locations.map(v => ({...v}));
-  const accessible = () => locations.filter(v => state.editing || (v.published && v.placed));
-  const isPublic = loc => Boolean(loc && loc.published && loc.placed);
+  const locations = data.locations.map(v => ({...v, initiallyUnplaced:!v.placed}));
+  // A local preview never becomes a public, approved pin until the actual
+  // coordinates are saved in Pages CMS and a fresh site build is loaded.
+  const isPublic = loc => Boolean(loc && loc.published && loc.placed && !loc.initiallyUnplaced);
+  const accessible = () => locations.filter(v => state.editing || isPublic(v));
+  const placementTray = el('atlas-placement-tray');
+  const placementItems = el('atlas-placement-items');
+  const placementCount = el('atlas-placement-count');
+  const placementToggle = el('atlas-placement-toggle');
+  const placementNote = el('atlas-placement-note');
+  const awaitingPlacement = locations.filter(v => v.initiallyUnplaced);
   let view = {zoom:1, scale:1, x:0, y:0};
   let state = {filter:'all', query:'', selected:null, editing:false, placing:null, position:null, pointer:null};
   const icons = {settlement:'⌂', region:'✦', water:'≈', historic:'⚔', institution:'♜'};
@@ -76,7 +84,7 @@
       editOutput.textContent='Positioning '+find(id).name+'. Click the correct point on the map. This is a preview only; copy X/Y to Pages CMS to save.';
     }
     document.querySelectorAll('.atlas-pin').forEach(node=>node.classList.toggle('is-selected',node.dataset.id===id));
-    renderList();updateDetails();
+    renderList();updateDetails();renderPlacementTray();
     if(shouldFocus && find(id).placed)focus(find(id));
     const url=new URL(window.location.href);url.searchParams.set('place',id);
     history.replaceState(null,'',url.pathname+url.search+url.hash);
@@ -100,7 +108,42 @@
     listEl.innerHTML=choices.length ? choices.map(loc=>`<button type="button" data-id="${escape(loc.id)}" class="${loc.id===state.selected?'is-selected':''}"><span>${escape(loc.name)}${!loc.placed?'<small>✥ Needs placement · not public</small>':loc.provisional?'<small>◇ Approximate location</small>':''}</span><span class="atlas-list-symbol" aria-hidden="true">${icons[loc.type]||'✦'}</span></button>`).join(''):'<p class="atlas-empty">No charted locations match this search.</p>';
     listEl.querySelectorAll('button[data-id]').forEach(button=>button.addEventListener('click',()=>select(button.dataset.id)));
   }
-  function refresh(){renderPins();renderList()}
+  function renderPlacementTray() {
+    if (!placementTray || !awaitingPlacement.length) return;
+    placementTray.hidden=false;
+    placementCount.textContent=awaitingPlacement.length+' awaiting coordinates';
+    placementItems.innerHTML=awaitingPlacement.map(loc=>{
+      const active=state.selected===loc.id;
+      const status=loc.placed ? '✓ Preview placed' : 'Place on map';
+      return `<button type="button" data-place="${escape(loc.id)}" class="${active?'is-current':''}" aria-pressed="${active}"><span>${escape(loc.name)}</span><small>${status} ↗</small></button>`;
+    }).join('');
+    if (state.editing && state.placing) {
+      const chosen=find(state.placing);
+      placementNote.textContent=chosen
+        ? 'Selected: '+chosen.name+'. Click the correct spot on the map. Preview positions are NOT automatically saved.'
+        : 'Choose a landmark to place.';
+    } else {
+      placementNote.textContent='These locations have no approved map position yet. Select a name to place its pin.';
+    }
+  }
+  function refresh(){renderPins();renderList();renderPlacementTray()}
+  if (placementTray) {
+    placementItems.addEventListener('click', event=>{
+      const b=event.target.closest('button[data-place]');
+      if (!b) return;
+      const id=b.dataset.place;
+      if (!state.editing)editToggle.click();
+      select(id,false);
+      placementTray.classList.add('is-collapsed');
+      placementToggle.setAttribute('aria-expanded','false');
+      placementToggle.textContent='Show list';
+    });
+    placementToggle.addEventListener('click',()=>{
+      const collapsed=placementTray.classList.toggle('is-collapsed');
+      placementToggle.setAttribute('aria-expanded',String(!collapsed));
+      placementToggle.textContent=collapsed?'Show list':'Hide list';
+    });
+  }
   if (data.image) {
     mapImage.src=data.image;
     mapImage.hidden=false;
@@ -130,6 +173,9 @@
     applyTransform();
   });
   viewport.addEventListener('pointerdown',e=>{
+    // The floating unplaced-landmarks tray is an interface, not a point
+    // on the map: clicking a name must never accidentally place a pin.
+    if (e.target.closest('.atlas-placement-tray')) return;
     if(!data.image || (e.target.closest('.atlas-pin') && !state.placing))return;
     if(e.button!==0)return;
     state.pointer={x:e.clientX,y:e.clientY,startX:view.x,startY:view.y,travel:0};
@@ -148,7 +194,12 @@
       const rect=viewport.getBoundingClientRect();
       const x=clamp(((e.clientX-rect.left-view.x)/view.scale)/WIDTH*100,0,100);
       const y=clamp(((e.clientY-rect.top-view.y)/view.scale)/HEIGHT*100,0,100);
-      const loc=find(state.placing);if(loc){loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));state.position={id:loc.id,x:loc.x,y:loc.y};
+      const loc=find(state.placing);if(loc){loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));
+      // Crucial: an unplaced draft needs to become a placed preview in
+      // browser state, otherwise renderPins() cannot draw it at all.
+      loc.placed=true;
+      loc.provisional=true;
+      state.position={id:loc.id,x:loc.x,y:loc.y};
       renderPins();select(loc.id,false);
       state.position={id:loc.id,x:loc.x,y:loc.y};
       editOutput.textContent=`${loc.name} — X: ${loc.x}% · Y: ${loc.y}%. LOCAL PREVIEW ONLY: Copy into Pages CMS, enable Show marker to players, untick Provisional, then Save.`;
@@ -180,6 +231,11 @@
       state.placing=null;state.position=null;copyButton.disabled=true;
       if(!isPublic(find(state.selected)))state.selected=locations.find(isPublic)?.id||null;
       if(state.selected)updateDetails();
+      placementTray?.classList.remove('is-collapsed');
+      if (placementToggle) {
+        placementToggle.setAttribute('aria-expanded','true');
+        placementToggle.textContent='Hide list';
+      }
     }
     refresh();
   });
