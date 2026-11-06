@@ -114,8 +114,8 @@ locations:
   - id: renada
     name: Renada
     type: settlement
-    x: 46
-    y: 69
+    x: 43.27
+    y: 58.66
     description: Royal capital of Avalor, on the River Rhys; home to the Great
       Citadel and royal court.
     article: renada
@@ -124,8 +124,8 @@ locations:
   - id: heavens-heart
     name: Heaven's Heart
     type: institution
-    x: 30
-    y: 37
+    x: 31.8
+    y: 30.24
     description: Sacred and scholarly settlement near the foot of the Spine of the World.
     article: heavens-heart
     published: true
@@ -133,8 +133,8 @@ locations:
   - id: stanleyville
     name: Stanleyville
     type: settlement
-    x: 42
-    y: 45
+    x: 38.65
+    y: 40.89
     description: Renowned metalworking town along the King's Road, remembered for
       the Misfits' investigation.
     article: stanleyville
@@ -143,8 +143,8 @@ locations:
   - id: heroes-hill
     name: Heroes Hill
     type: historic
-    x: 34
-    y: 34
+    x: 43.9
+    y: 41.28
     description: The founding-war battlefield where Bradgem Glav defeated Lord Osmo
       at the cost of his own life.
     article: heroes-hill
