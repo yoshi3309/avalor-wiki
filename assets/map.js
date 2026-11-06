@@ -12,7 +12,11 @@
   const editPanel = el('atlas-editor'), editToggle = el('atlas-edit-toggle');
   const editSelect = el('atlas-edit-location'), editOutput = el('atlas-edit-output');
   const copyButton = el('atlas-copy-position');
-  const locations = data.locations.filter(v => v.published).map(v => ({...v}));
+  // The public atlas displays only approved, placed markers. The positioning
+  // desk also shows player-safe drafts so the archivist can measure them.
+  const locations = data.locations.map(v => ({...v}));
+  const accessible = () => locations.filter(v => state.editing || (v.published && v.placed));
+  const isPublic = loc => Boolean(loc && loc.published && loc.placed);
   let view = {zoom:1, scale:1, x:0, y:0};
   let state = {filter:'all', query:'', selected:null, editing:false, placing:null, position:null, pointer:null};
   const icons = {settlement:'⌂', region:'✦', water:'≈', historic:'⚔', institution:'♜'};
@@ -22,7 +26,7 @@
   const fit = () => Math.min(viewport.clientWidth/WIDTH,viewport.clientHeight/HEIGHT);
   const pxFor = (value,size) => Number(value)*size/100;
   const find = id => locations.find(v => v.id === id);
-  const filtered = () => locations.filter(v => (state.filter === 'all' || v.type === state.filter) && (v.name+' '+v.description).toLowerCase().includes(state.query));
+  const filtered = () => accessible().filter(v => (state.filter === 'all' || v.type === state.filter) && (v.name+' '+v.description).toLowerCase().includes(state.query));
   function applyTransform() {
     const w = WIDTH*view.scale, h = HEIGHT*view.scale;
     view.x = w <= viewport.clientWidth ? (viewport.clientWidth-w)/2 : clamp(view.x,viewport.clientWidth-w,0);
@@ -54,24 +58,24 @@
   function updateDetails() {
     const loc=find(state.selected);
     if (!loc){detail.innerHTML='<span class="atlas-detail-empty">Choose a place to reveal its record.</span>';return}
-    const status=loc.provisional?'<div class="atlas-detail-status">◇ Approximate placement · awaiting your confirmation</div>':'';
+    const status=!loc.placed ? '<div class="atlas-detail-status">✥ Not yet placed · select this location in the positioning desk</div>' : loc.provisional ? '<div class="atlas-detail-status">◇ Approximate placement · awaiting your confirmation</div>' : '';
     const href=loc.article ? `${data.root}articles/${encodeURIComponent(loc.article)}/` : null;
     const action=href ? `<a href="${href}">Open the related archive record ↗</a>` : '<span class="atlas-detail-no-link">A dedicated record has not yet been added.</span>';
     detail.innerHTML=`<div class="atlas-detail-tag">${escape(types[loc.type]||'Location')}</div><h3>${escape(loc.name)}</h3>${status}<p>${escape(loc.description)}</p>${action}`;
   }
   function select(id,shouldFocus=true) {
-    if (!find(id)) return;
+    if (!find(id) || (!state.editing && !isPublic(find(id)))) return;
     state.selected=id;
     document.querySelectorAll('.atlas-pin').forEach(node=>node.classList.toggle('is-selected',node.dataset.id===id));
     renderList();updateDetails();
-    if(shouldFocus)focus(find(id));
+    if(shouldFocus && find(id).placed)focus(find(id));
     const url=new URL(window.location.href);url.searchParams.set('place',id);
     history.replaceState(null,'',url.pathname+url.search+url.hash);
   }
   function renderPins() {
     pinsEl.replaceChildren();
     if (!data.image) return;
-    filtered().forEach(loc=>{
+    filtered().filter(loc => loc.placed).forEach(loc=>{
       const btn=document.createElement('button');
       btn.type='button';btn.className='atlas-pin'+(loc.provisional?' is-provisional':'')+(loc.id===state.selected?' is-selected':'');
       btn.dataset.id=loc.id;btn.dataset.type=loc.type;
@@ -84,7 +88,7 @@
   }
   function renderList() {
     const choices=filtered();
-    listEl.innerHTML=choices.length ? choices.map(loc=>`<button type="button" data-id="${escape(loc.id)}" class="${loc.id===state.selected?'is-selected':''}"><span>${escape(loc.name)}${loc.provisional?'<small>◇ Approximate location</small>':''}</span><span class="atlas-list-symbol" aria-hidden="true">${icons[loc.type]||'✦'}</span></button>`).join(''):'<p class="atlas-empty">No charted locations match this search.</p>';
+    listEl.innerHTML=choices.length ? choices.map(loc=>`<button type="button" data-id="${escape(loc.id)}" class="${loc.id===state.selected?'is-selected':''}"><span>${escape(loc.name)}${!loc.placed?'<small>✥ Needs placement · not public</small>':loc.provisional?'<small>◇ Approximate location</small>':''}</span><span class="atlas-list-symbol" aria-hidden="true">${icons[loc.type]||'✦'}</span></button>`).join(''):'<p class="atlas-empty">No charted locations match this search.</p>';
     listEl.querySelectorAll('button[data-id]').forEach(button=>button.addEventListener('click',()=>select(button.dataset.id)));
   }
   function refresh(){renderPins();renderList()}
@@ -94,7 +98,7 @@
     mapImage.addEventListener('error',()=>{mapImage.hidden=true;pinsEl.replaceChildren();fallback.hidden=false});
     mapImage.addEventListener('load',()=>{fallback.hidden=true;renderPins()});
   } else fallback.hidden=false;
-  count.textContent=locations.length;
+  count.textContent=locations.filter(isPublic).length;
   refresh();reset();
   if (typeof ResizeObserver !== "undefined") new ResizeObserver(()=>{const prevZoom=view.zoom;reset();if(prevZoom>1){view.zoom=prevZoom;view.scale=fit()*prevZoom;applyTransform()}}).observe(viewport);
   el('atlas-zoom-in').addEventListener('click',()=>zoomAt(1.25,viewport.clientWidth/2,viewport.clientHeight/2));
@@ -136,7 +140,7 @@
       const x=clamp(((e.clientX-rect.left-view.x)/view.scale)/WIDTH*100,0,100);
       const y=clamp(((e.clientY-rect.top-view.y)/view.scale)/HEIGHT*100,0,100);
       const loc=find(state.placing);if(loc){loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));state.position={id:loc.id,x:loc.x,y:loc.y};
-      editOutput.textContent=`${loc.name} — X: ${loc.x}% · Y: ${loc.y}%. Copy these values to the matching row in Pages CMS.`;
+      editOutput.textContent=`${loc.name} — X: ${loc.x}% · Y: ${loc.y}%. LOCAL PREVIEW ONLY: Copy into Pages CMS, enable Show marker to players, untick Provisional, then Save.`;
       copyButton.disabled=false;renderPins();select(loc.id,false)}
     }
   });
@@ -152,16 +156,27 @@
     editToggle.setAttribute('aria-pressed',String(state.editing));editPanel.hidden=!state.editing;
     viewport.classList.toggle('is-positioning',state.editing);
     if(state.editing){
-      editSelect.innerHTML=locations.map(loc=>`<option value="${escape(loc.id)}">${escape(loc.name)}</option>`).join('');
-      editSelect.value=state.selected||locations[0]?.id||'';
+      // The unplaced queue is first, so no fictitious coordinates are needed.
+      const ordered=[...locations].sort((a,b)=>Number(a.placed)-Number(b.placed)||a.name.localeCompare(b.name));
+      editSelect.innerHTML=ordered.map(loc=>`<option value="${escape(loc.id)}">${loc.placed?'':'✥ TO PLACE · '}${escape(loc.name)}</option>`).join('');
+      editSelect.value=ordered.find(loc=>!loc.placed)?.id || state.selected || ordered[0]?.id || '';
       state.placing=editSelect.value;
-    }else{state.placing=null;state.position=null;copyButton.disabled=true}
+      state.filter='all';state.query='';search.value='';
+      document.querySelectorAll('#atlas-filters button').forEach(b=>{const active=b.dataset.filter==='all';b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active))});
+      if(state.placing)select(state.placing,false);
+      editOutput.textContent='Select a place above and click its position on the map. This is only a preview until saved in Pages CMS.';
+    }else{
+      state.placing=null;state.position=null;copyButton.disabled=true;
+      if(!isPublic(find(state.selected)))state.selected=locations.find(isPublic)?.id||null;
+      if(state.selected)updateDetails();
+    }
+    refresh();
   });
-  editSelect.addEventListener('change',()=>{state.placing=editSelect.value;state.position=null;copyButton.disabled=true;editOutput.textContent='Now click the correct point on the map.'});
+  editSelect.addEventListener('change',()=>{state.placing=editSelect.value;state.position=null;copyButton.disabled=true;select(state.placing,false);editOutput.textContent='Click the exact point on the map. Then copy X/Y into Pages CMS, enable Show marker to players, and save.'});
   copyButton.addEventListener('click',async()=>{
     if(!state.position)return;
     const loc=find(state.position.id);
-    const text=`${loc.name}\nX: ${state.position.x}\nY: ${state.position.y}`;
+    const text=`${loc.name}\nX: ${state.position.x}\nY: ${state.position.y}\nNext: Enter X/Y in Pages CMS, enable Show marker to players, untick Provisional, and Save.`;
     try {await navigator.clipboard.writeText(text);copyButton.textContent='Copied ✓';setTimeout(()=>copyButton.textContent='Copy coordinates',1700)}
     catch(e){editOutput.textContent=text+' — Clipboard unavailable; copy the coordinates above.'}
   });
@@ -169,5 +184,5 @@
   if(params.get('edit')==='1')editToggle.click();
   const requested=params.get('place');
   if(requested && find(requested))select(requested,true);
-  else if(locations.length)select(locations.find(v=>v.id==='renada')?.id||locations[0].id,false);
+  else if(!state.editing && locations.some(isPublic))select(locations.find(v=>v.id==='renada'&&isPublic(v))?.id||locations.find(isPublic).id,false);
 })();

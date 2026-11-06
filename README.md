@@ -131,3 +131,10 @@ The 12 labeled regional/water markers are anchored approximately to their printe
 ### DM safety
 
 This atlas is **fully public**, including each point's name, description, and image in the underlying GitHub files. Never put Keeper secrets, hidden passages, undiscovered plot locations, private campaign maps, or future encounters in Map settings. A secret or unrevealed location belongs only in the separate private DM archive. Provisional means **uncertain placement**, not hidden or confidential.
+
+
+## Nine newly prepared landmarks (unplaced drafts)
+
+The following player-safe landmarks have dedicated articles and a draft marker in **Map settings & locations**: Wayword Sun, the Black Tower, Great Citadel, Land's End, Karhold, Black Stair, Lord Osmo's Tower, Great Fork Tower, and Great Cathedral. Their X/Y coordinates are deliberately blank; the wiki does **not** invent their canonical positions.
+
+In `/map/?edit=1`, open the **Position pins** panel (it opens automatically) and select the landmark in the dropdown. The nine unplaced entries appear first. Click the precise location on the map, copy the reported X/Y, then open Pages CMS → **Map settings & locations**, enter the coordinates for that landmark, enable **Show marker to players**, disable **Mark position as provisional**, and click **Save**. The marker becomes visible on the public map and its article receives a **Locate on map** link. Simply clicking on the map does **not** save a position to GitHub.

@@ -127,14 +127,24 @@ for raw in MAP.get('locations', []):
     MAP_IDS.add(ident)
     kind = str(raw.get('type') or 'region')
     if kind not in MAP_ALLOWED_TYPES: raise ValueError(f'{ident}: unknown marker type')
-    x, y = float(raw.get('x',0)), float(raw.get('y',0))
-    if not (0 <= x <= 100 and 0 <= y <= 100): raise ValueError(f'{ident}: coordinates out of bounds')
+    # Blank coordinates are permitted for draft landmarks. This avoids
+    # inventing canonical positions just to make markers editable.
+    def coordinate(value):
+        if value is None or (isinstance(value, str) and not value.strip()):
+            return None
+        return float(value)
+    x, y = coordinate(raw.get('x')), coordinate(raw.get('y'))
+    if (x is None) != (y is None):
+        raise ValueError(f'{ident}: enter both X and Y, or leave both empty')
+    placed = x is not None and y is not None
+    if placed and not (0 <= x <= 100 and 0 <= y <= 100):
+        raise ValueError(f'{ident}: coordinates out of bounds')
     article_slug = str(raw.get('article') or '').strip()
     if article_slug and article_slug not in BY_SLUG:
         raise ValueError(f'{ident}: article filename {article_slug} does not exist')
     MAP_LOCATIONS.append({
         'id':ident, 'name':str(raw.get('name') or ident),
-        'type':kind,'x':x,'y':y,
+        'type':kind,'x':x,'y':y,'placed':placed,
         'description':str(raw.get('description') or ''),
         'article':article_slug,
         'published':bool(raw.get('published',True)),
@@ -148,7 +158,7 @@ MAP_IMAGE = '../'+raw_map_image if raw_map_image else ''
 MAP_DATA = {'image': MAP_IMAGE, 'root':'../','locations': MAP_LOCATIONS}
 MAP_LINKS = {}
 for loc in MAP_LOCATIONS:
-    if loc['published'] and loc['article']:
+    if loc['published'] and loc['placed'] and loc['article']:
         MAP_LINKS.setdefault(loc['article'],loc['id'])
 
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
