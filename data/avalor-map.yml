@@ -153,8 +153,8 @@ locations:
   - id: shammans-tower
     name: Shamman’s Tower
     type: institution
-    x: 92
-    y: 51
+    x: 83.18
+    y: 45.72
     description: Arcane institution off the eastern coast, revived by High Wizard
       Tel'Lora Ebbenflow.
     article: tellora-ebbenflow
