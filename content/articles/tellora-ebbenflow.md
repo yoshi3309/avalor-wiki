@@ -1,20 +1,21 @@
 ---
 title: Tel'Lora Ebbenflow
 subtitle: High Wizard of Avalor
-summary: A Misfit and the first High Wizard to hold an independent seat on the modern Aegis.
+summary: A Misfit and the first High Wizard to hold an independent seat on the
+  modern Aegis.
 category: People & Legends
+image: /assets/uploads/tellora-ebbenflow.png
+image_alt: Tel'Lora doing water magic
 entry: BIO.003
 era: Age of Ascendancy
-facts: 'Office: High Wizard
-
+facts: |-
+  Office: High Wizard
   Council: The Aegis
-
-  Institution: Shamman’s Tower'
+  Institution: Shamman’s Tower
 related: the-misfits,the-aegis,kingdom-of-avalor,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapter VII
 featured: false
 ---
-
 ## Scholar and companion
 
 **Tel'Lora Ebbenflow** is counted among [[The Misfits]], the adventuring companions whose actions brought the long history of Cid the Blood King to an end. His knowledge of magic and of the dangers associated with its misuse has shaped his later service to Avalor.
