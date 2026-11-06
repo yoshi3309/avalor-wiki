@@ -1,0 +1,54 @@
+# Pages CMS: https://app.pagescms.org
+# Only the public content collection is editable. Keeper material must live elsewhere.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: articles
+    label: Public archive articles
+    type: collection
+    path: content/articles
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, category, era, featured]
+    fields:
+      - name: title
+        label: Article title
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: summary
+        label: Short summary
+        type: text
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: ["Kingdoms & Places", "People & Legends", "Organizations & Factions", "History & Chronicles", "Faith, Magic & Cosmology"]
+      - name: entry
+        label: Archive number
+        type: string
+      - name: era
+        label: Historical period
+        type: string
+      - name: facts
+        label: "At a glance (one Label: Value per line)"
+        type: text
+      - name: related
+        label: Related article filenames (comma separated)
+        type: string
+      - name: source
+        label: Source volume / chapter
+        type: string
+      - name: featured
+        label: Feature on homepage
+        type: boolean
+      - name: body
+        label: The Scholar's Account (PLAYER-VISIBLE)
+        type: rich-text
+        required: true

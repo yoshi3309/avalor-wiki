@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+ <div class="hero-sky"></div>
+ <div class="hero-copy"><div class="hero-overline"><span class="small-star">✦</span> A WORLD OF KINGDOMS, LEGENDS & UNTOLD HISTORY</div>
+ <h1>The Archives<br><em>of Avalor</em></h1>
+ <div class="hero-divider"><i></i><span>❖</span><i></i></div>
+ <p>From the first lion banner to the age of ascendant heroes, discover the people, places, and stories that shaped a kingdom.</p>
+ <a class="hero-button" href="{{root}}articles/">Explore the archives <span aria-hidden="true">↗</span></a>
+ </div>
+ <div class="hero-number">EST. 1 AF <span>·</span> ROYAL COMMISSION</div>
+</section>
+<div class="content-container home-body">
+  <section class="intro-line"><div><div class="kicker">A NOTE FROM THE ARCHIVIST</div><h2>History belongs to those who remember it.</h2></div><p>The kingdom's record is neither simple nor complete. Follow the lives of its rulers, the paths of its champions, and the questions its scholars continue to debate.</p></section>
+  <section class="section-block"><div class="section-heading"><div><div class="kicker">I · THE COLLECTIONS</div><h2>Enter the archives</h2></div><a class="section-link" href="{{root}}articles/">Browse all {{total_count}} records <span>↗</span></a></div>
+  <div class="collection-grid">
+  {% for c in categories %}<a href="{{root}}collections/{{c.slug}}/" class="collection-card collection-{{loop.index}}"><div class="collection-card-top"><span class="collection-glyph">{{c.icon}}</span><span class="collection-count">{{ '%02d'|format(c.count) }} RECORDS</span></div><div><h3>{{c.name}}</h3><p>{{c.description}}</p></div><span class="collection-arrow" aria-hidden="true">↗</span></a>{% endfor %}
+  </div></section>
+  <section class="section-block featured-section"><div class="section-heading"><div><div class="kicker">II · FEATURED RECORDS</div><h2>Begin with the legends</h2></div><span class="section-aside">From the Scholar's Edition</span></div>
+   <div class="featured-grid">{% for a in featured[:6] %}<a class="featured-card" href="{{root}}articles/{{a.slug}}/"><div class="featured-top"><span class="archive-entry">{{a.entry}}</span><span class="featured-arrow">↗</span></div><h3>{{a.title}}</h3><div class="featured-subtitle">{{a.subtitle}}</div><p>{{a.summary}}</p><div class="featured-bottom"><span>{{a.category}}</span><span>Read record ↗</span></div></a>{% endfor %}</div>
+  </section>
+  <section class="chronicle-banner"><div><div class="kicker">III · THROUGH THE AGES</div><h2>The Living Chronicle</h2><p>Trace the founding of Avalor, the Six, the shadow of the Blood King, and the dawning Age of Ascendancy.</p><a href="{{root}}chronicle/">Explore the timeline <span>↗</span></a></div><div class="chronicle-mark" aria-hidden="true"><span>Ⅰ</span><span>Ⅳ</span><span>Ⅶ</span></div></section>
+</div>
+{% endblock %}

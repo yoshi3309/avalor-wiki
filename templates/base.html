@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111d25">
+<meta name="description" content="{{ description|e }}">
+<title>{{ title|e }} · The Archives of Avalor</title>
+<link rel="icon" type="image/svg+xml" href="{{ root }}assets/crest.svg">
+<link rel="stylesheet" href="{{ root }}assets/style.css">
+<script>window.AVALOR_ROOT = {{ root|tojson }};</script>
+<script defer src="{{ root }}assets/app.js"></script>
+</head>
+<body class="page-{{ page_type }}">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="site-shell">
+  <aside class="sidebar" id="sidebar" aria-label="Archive navigation">
+    <a href="{{ root }}" class="sidebar-brand">
+      <img src="{{ root }}assets/crest.svg" width="54" height="62" alt="Avalor lion crest">
+      <span><strong>AVALOR</strong><small>THE ROYAL ARCHIVES</small></span>
+    </a>
+    <p class="sidebar-overline">Royal Commission of Historical Inquiry</p>
+    <button type="button" class="sidebar-search search-trigger" aria-label="Search the archive"><span class="search-icon">⌕</span> Search the archives <kbd>⌘ K</kbd></button>
+    <nav class="side-nav" aria-label="Browse categories">
+      <div class="nav-caption">EXPLORE</div>
+      <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{ root }}"><span class="nav-icon">⌂</span> Archive home</a>
+      <a class="nav-link {% if page_type=='all' %}active{% endif %}" href="{{ root }}articles/"><span class="nav-icon">▦</span> All records <span class="nav-count">{{ total_count }}</span></a>
+      <a class="nav-link {% if page_type=='timeline' %}active{% endif %}" href="{{ root }}chronicle/"><span class="nav-icon">◷</span> Living chronology</a>
+      <div class="nav-caption nav-caption-spaced">COLLECTIONS</div>
+      {% for c in categories %}
+      <a class="nav-link {% if current_category==c.name and page_type=='category' %}active{% endif %}" href="{{ root }}collections/{{ c.slug }}/"><span class="nav-icon">{{ c.icon }}</span><span>{{ c.name }}</span><span class="nav-count">{{ c.count }}</span></a>
+      {% endfor %}
+    </nav>
+    <div class="side-bottom"><div class="side-rule"></div><div class="edition-dot"></div><div><strong>The Scholar's Edition</strong><p>Records fit for the public eye.</p></div></div>
+  </aside>
+  <div class="sidebar-scrim" id="sidebar-scrim"></div>
+  <div class="main-column">
+    <header class="topbar">
+      <button class="menu-trigger" aria-label="Open navigation" id="menu-trigger">☰</button>
+      <div class="topbar-crumb"><span class="topbar-label">THE WORLD OF AVALOR</span>{% if crumbs %}<span class="crumb-slash">/</span><span class="crumb-text">{{ crumbs }}</span>{% endif %}</div>
+      <div class="topbar-actions"><span class="public-pill"><span></span> PUBLIC ARCHIVE</span><button type="button" class="icon-button search-trigger" aria-label="Search records">⌕</button></div>
+    </header>
+    <main id="main-content" class="site-main">{% block main %}{% endblock %}</main>
+    <footer class="site-footer"><span>THE ARCHIVES OF AVALOR <span class="footer-star">✦</span> An ongoing record of a living world</span><span>Prepared for the curious. Preserved for the ages.</span></footer>
+  </div>
+</div>
+<div id="search-modal" class="search-modal" aria-hidden="true">
+  <div class="search-backdrop" data-close-search></div>
+  <div class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="search-heading">
+    <div class="search-form"><span>⌕</span><input id="search-input" type="search" aria-label="Search all public records" placeholder="Search people, places, histories..." autocomplete="off"><kbd>ESC</kbd></div>
+    <div id="search-heading" class="search-result-heading">SEARCH THE PUBLIC ARCHIVE</div>
+    <div id="search-results" class="search-results"><p class="search-empty">Begin typing to search the records.</p></div>
+    <div class="search-dialog-footer">Only public records appear in this archive <span>↵ open record</span></div>
+  </div>
+</div>
+</body>
+</html>

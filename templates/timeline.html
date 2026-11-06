@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container timeline-container"><nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>The Living Chronicle</span></nav><div class="catalog-heading"><div class="kicker">THE CHRONICLES · A SELECTIVE HISTORY</div><h1>The Living Chronicle</h1><p>A concise path through major events recorded by the Royal Commission. This chronology follows the public historical account and leaves uncertain dates as uncertain.</p></div>
+<div class="timeline-intro"><span>AF</span><p>After Founding. The historical record begins the kingdom's calendar at Year 1, though the date of the battle at Heroes Hill is not necessarily identical to the founding.</p></div>
+<div class="history-timeline">
+{% for e in events %}<div class="history-event"><div class="history-date">{{e.date}}</div><div class="history-dot"></div><div class="history-copy"><div class="kicker">{{e.era}}</div><h2>{{e.title}}</h2><p>{{e.text}}</p><a href="{{root}}articles/{{e.article}}/">Read the record ↗</a></div></div>{% endfor %}
+</div><div class="timeline-end">✦ &nbsp; The story is not yet complete. &nbsp; ✦</div></div>
+{% endblock %}
