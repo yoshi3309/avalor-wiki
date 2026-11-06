@@ -160,87 +160,69 @@ locations:
     article: shammans-tower
     published: true
     provisional: false
-
-# Awaiting the archivist's exact placements. These records are player-safe but
-# remain hidden from the public atlas until coordinates are approved in Pages CMS.
   - id: wayword-sun
-    name: "Wayword Sun"
+    name: Wayword Sun
     type: settlement
-    x: null
-    y: null
-    description: "Hunters Guild settlement within the Dead Marshes."
+    description: Hunters Guild settlement within the Dead Marshes.
     article: wayword-sun
     published: false
     provisional: true
   - id: black-tower
-    name: "The Black Tower"
+    name: The Black Tower
     type: historic
-    x: null
-    y: null
-    description: "The ruinous site of Aldus Greystone III's experiments within the Spine of the World."
+    description: The ruinous site of Aldus Greystone III's experiments within the
+      Spine of the World.
     article: black-tower
     published: false
     provisional: true
   - id: great-citadel
-    name: "The Great Citadel"
+    name: The Great Citadel
     type: institution
-    x: null
-    y: null
-    description: "Royal seat overlooking Renada; its exact position is awaiting cartographic approval."
+    description: Royal seat overlooking Renada; its exact position is awaiting
+      cartographic approval.
     article: great-citadel
     published: false
     provisional: true
   - id: lands-end
-    name: "Land's End"
+    name: Land's End
     type: settlement
-    x: null
-    y: null
-    description: "Fortified seat of the Northern March's sheriff, Sebastian Rubelda."
+    description: Fortified seat of the Northern March's sheriff, Sebastian Rubelda.
     article: lands-end
     published: false
     provisional: true
   - id: karhold
-    name: "Karhold"
+    name: Karhold
     type: settlement
-    x: null
-    y: null
-    description: "Disputed eastern-peninsula freeport; its independent government is not settled by Avalorian claims."
+    description: Disputed eastern-peninsula freeport; its independent government is
+      not settled by Avalorian claims.
     article: karhold
-    published: false
+    published: true
     provisional: true
   - id: black-stair
-    name: "The Black Stair"
+    name: The Black Stair
     type: historic
-    x: null
-    y: null
-    description: "Difficult mountain approach near Heaven's Heart."
+    description: Difficult mountain approach near Heaven's Heart.
     article: black-stair
     published: false
     provisional: true
   - id: lord-osmos-tower
-    name: "Lord Osmo's Tower"
+    name: Lord Osmo's Tower
     type: historic
-    x: null
-    y: null
-    description: "A military landmark of the mortal conqueror who fell at Heroes Hill."
+    description: A military landmark of the mortal conqueror who fell at Heroes Hill.
     article: lord-osmos-tower
     published: false
     provisional: true
   - id: great-fork-tower
-    name: "The Great Fork Tower"
+    name: The Great Fork Tower
     type: institution
-    x: null
-    y: null
-    description: "Ancient defensive tower now used to train Avalor's standing army."
+    description: Ancient defensive tower now used to train Avalor's standing army.
     article: great-fork-tower
     published: false
     provisional: true
   - id: great-cathedral
-    name: "The Great Cathedral"
+    name: The Great Cathedral
     type: institution
-    x: null
-    y: null
-    description: "Cathedral Ward institution in Renada honoring Tyr, Helm, and Torm."
+    description: Cathedral Ward institution in Renada honoring Tyr, Helm, and Torm.
     article: great-cathedral
     published: false
     provisional: true
