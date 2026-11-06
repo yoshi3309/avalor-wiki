@@ -22,3 +22,6 @@
 .article-illustration figcaption{color:#c8b691;text-align:center;font:italic 11px/1.6 var(--font-literary);padding:10px 4px 2px}
 .article-body img{display:block;max-width:100%;height:auto;margin:20px auto;border:1px solid #d5c3a4}
 .article-body p>img{max-height:630px;object-fit:contain}
+
+/* Explore the map from the archive home and location records. */
+.home-atlas-banner{border:1px solid #6e6145;background:radial-gradient(circle at 82% 15%,#384845,#21343b 58%,#1a2b34);padding:42px clamp(22px,4vw,52px);margin-top:52px;position:relative;overflow:hidden}.home-atlas-banner:after{content:'✥';position:absolute;right:7%;top:3%;font:180px var(--font-display);color:#bc9c6722;pointer-events:none}.home-atlas-banner h2{font:400 clamp(24px,3vw,36px) var(--font-display);margin:10px 0;color:#f1e4cb}.home-atlas-banner p{font:13px/1.85 var(--font-literary);color:#c2c6bc;max-width:600px;position:relative;z-index:1}.home-atlas-banner a{display:inline-block;margin-top:14px;padding-bottom:6px;border-bottom:1px solid #c4a776;color:#e5cd9b;font-size:12px;position:relative;z-index:1}.home-atlas-banner a:hover{color:#f7e8bc}.article-map-link{display:inline-block;padding:9px 12px;border:1px solid #a18c65;color:#e6c58e;font-size:11px;margin-top:10px}.article-map-link:hover{background:#364047}

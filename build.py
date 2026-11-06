@@ -110,6 +110,47 @@ BY_SLUG={a['slug']:a for a in ALL}
 for cat in CATEGORIES:cat['count']=len([a for a in ALL if a['category']==cat['name']])
 FEATURED=[a for a in ALL if a.get('featured')]
 FEATURED.sort(key=lambda a:['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'].index(a['slug']) if a['slug'] in ['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'] else 50)
+
+# The cartographer's table is public-facing. This file contains no hidden
+# locations; the original Keeper documents are never read by this build.
+MAP_CONFIG = ROOT / 'data' / 'avalor-map.yml'
+MAP = yaml.safe_load(MAP_CONFIG.read_text(encoding='utf-8')) or {}
+if not isinstance(MAP, dict): raise ValueError('Map configuration must be a YAML mapping')
+MAP_ALLOWED_TYPES = {'settlement','region','water','historic','institution'}
+MAP_LOCATIONS = []
+MAP_IDS = set()
+for raw in MAP.get('locations', []):
+    if not isinstance(raw, dict): raise ValueError('Each map location must be an object')
+    ident = str(raw.get('id','')).strip()
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]*', ident) or ident in MAP_IDS:
+        raise ValueError(f'Invalid or duplicate map location id: {ident}')
+    MAP_IDS.add(ident)
+    kind = str(raw.get('type') or 'region')
+    if kind not in MAP_ALLOWED_TYPES: raise ValueError(f'{ident}: unknown marker type')
+    x, y = float(raw.get('x',0)), float(raw.get('y',0))
+    if not (0 <= x <= 100 and 0 <= y <= 100): raise ValueError(f'{ident}: coordinates out of bounds')
+    article_slug = str(raw.get('article') or '').strip()
+    if article_slug and article_slug not in BY_SLUG:
+        raise ValueError(f'{ident}: article filename {article_slug} does not exist')
+    MAP_LOCATIONS.append({
+        'id':ident, 'name':str(raw.get('name') or ident),
+        'type':kind,'x':x,'y':y,
+        'description':str(raw.get('description') or ''),
+        'article':article_slug,
+        'published':bool(raw.get('published',True)),
+        'provisional':bool(raw.get('provisional',False)),
+    })
+raw_map_image = str(MAP.get('image') or '').strip().lstrip('/')
+# No remote URLs, path traversal, or private source files allowed.
+if raw_map_image and (not raw_map_image.startswith('assets/uploads/') or '..' in raw_map_image):
+    raise ValueError('Map image must be a public file in assets/uploads/')
+MAP_IMAGE = '../'+raw_map_image if raw_map_image else ''
+MAP_DATA = {'image': MAP_IMAGE, 'root':'../','locations': MAP_LOCATIONS}
+MAP_LINKS = {}
+for loc in MAP_LOCATIONS:
+    if loc['published'] and loc['article'] and loc['type'] in {'settlement','institution','historic'}:
+        MAP_LINKS.setdefault(loc['article'],loc['id'])
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 def render(template,path,depth=0,**kwargs):
@@ -132,8 +173,9 @@ for cat in CATEGORIES:
 for a in ALL:
     category_slug=next(c['slug'] for c in CATEGORIES if c['name']==a['category'])
     related=[BY_SLUG[s] for s in a['related_slugs'] if s in BY_SLUG and s!=a['slug']][:4]
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug)
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']))
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS)
+render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
 # All search data is intentionally player-facing and comes only from public article sources.
 index=[{k:a.get(k,'') for k in ('slug','title','category','entry','summary','featured','body')} for a in ALL]
 (PUBLIC/'search-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')

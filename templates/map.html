@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="atlas-page">
+  <div class="atlas-heading">
+    <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>Cartographer's Table</span></nav>
+    <div class="atlas-kicker">THE ROYAL COMMISSION · CARTOGRAPHIC COLLECTION</div>
+    <div class="atlas-heading-row"><div><h1>The Cartographer's Table</h1><p>Explore the lands, waters, and places of Avalor. Select a marker to uncover its record, or follow the atlas back into the archives.</p></div><a href="{{root}}articles/kingdom-of-avalor/" class="atlas-kingdom-link">The Kingdom of Avalor ↗</a></div>
+  </div>
+  <div class="atlas-topline"><div class="atlas-topline-left"><span class="atlas-star">✦</span> THE NORTHERN KINGDOM · EXPLORER'S EDITION</div><div class="atlas-topline-right"><span id="atlas-count">—</span> charted locations</div></div>
+  <div class="atlas-layout" id="atlas-app">
+    <div class="atlas-map-column">
+      <div class="atlas-tools" aria-label="Map controls">
+        <div class="atlas-zoom-buttons"><button id="atlas-zoom-in" type="button" title="Zoom in" aria-label="Zoom in">+</button><button id="atlas-zoom-out" type="button" title="Zoom out" aria-label="Zoom out">−</button><button id="atlas-reset" type="button">Fit map</button></div>
+        <div class="atlas-tool-note">Drag to pan · Scroll to zoom</div>
+        <button id="atlas-edit-toggle" type="button" class="atlas-editor-toggle" aria-pressed="false">✧ Position pins</button>
+      </div>
+      <div class="atlas-viewport" id="atlas-viewport" tabindex="0" aria-label="Interactive map. Use the location list on the right to select a place.">
+        <div class="atlas-scene" id="atlas-scene">
+          <img id="atlas-image" class="atlas-image" alt="{{map.image_alt}}" draggable="false" hidden>
+          <div id="atlas-pins" class="atlas-pins"></div>
+        </div>
+        <div class="atlas-map-fallback" id="atlas-fallback" hidden><span aria-hidden="true">♜</span><strong>The map awaits its first hanging</strong><p>The cartographer's chart has been prepared. An archivist can attach the illustrated map through <em>Map settings</em> in Pages CMS; the pins and records are already in place.</p></div>
+        <div class="atlas-zoom-readout" id="atlas-zoom-readout">100%</div>
+      </div>
+      <div class="atlas-map-foot"><span>ⓘ Open circles indicate approximate, yet-to-be-verified placements.</span><span>Coordinates refer to the full map image.</span></div>
+      <div class="atlas-edit-workspace" id="atlas-editor" hidden>
+        <div class="atlas-edit-title"><strong>Archivist's positioning desk</strong><span>Changes here are a local preview only.</span></div>
+        <p>Choose a place from the list, then click its correct location on the map. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗</a>. Turn off <em>Provisional</em> once verified, then save.</p>
+        <div class="atlas-edit-controls"><label for="atlas-edit-location">Place to position</label><select id="atlas-edit-location"></select><button id="atlas-copy-position" type="button" disabled>Copy coordinates</button></div>
+        <div class="atlas-edit-coordinate" id="atlas-edit-output" aria-live="polite">Select a location and click the map to measure its position.</div>
+      </div>
+    </div>
+    <aside class="atlas-panel" aria-label="Locations and records">
+      <div class="atlas-panel-head"><div class="atlas-panel-kicker">IN THE ATLAS</div><h2>Places &amp; regions</h2><label class="atlas-search-label" for="atlas-search">Find a location</label><input type="search" id="atlas-search" placeholder="Search the map…" autocomplete="off"></div>
+      <div class="atlas-filter-row" id="atlas-filters"><button type="button" data-filter="all" class="is-active" aria-pressed="true">All</button><button type="button" data-filter="settlement" aria-pressed="false">Towns</button><button type="button" data-filter="region" aria-pressed="false">Regions</button><button type="button" data-filter="water" aria-pressed="false">Waters</button><button type="button" data-filter="historic" aria-pressed="false">History</button><button type="button" data-filter="institution" aria-pressed="false">Orders</button></div>
+      <div class="atlas-list" id="atlas-location-list" aria-live="polite"></div>
+      <div class="atlas-detail" id="atlas-detail" aria-live="polite"><span class="atlas-detail-empty">Choose a place to reveal its record.</span></div>
+    </aside>
+  </div>
+  <div class="atlas-legend"><span><i class="atlas-key atlas-key-settlement"></i> Settlements</span><span><i class="atlas-key atlas-key-region"></i> Regions</span><span><i class="atlas-key atlas-key-water"></i> Waters</span><span><i class="atlas-key atlas-key-historic"></i> History</span><span><i class="atlas-key atlas-key-institution"></i> Institutions</span><span><i class="atlas-key atlas-key-provisional"></i> Provisional placement</span></div>
+  <p class="atlas-disclaimer">This cartographic record reflects the geographic understanding available to the Royal Commission. Locations marked provisional are awaiting cartographic confirmation.</p>
+</div>
+<script id="atlas-data" type="application/json">{{ map_data | tojson }}</script>
+{% endblock %}

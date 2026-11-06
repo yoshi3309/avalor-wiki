@@ -67,3 +67,67 @@ content:
         label: The Scholar's Account (PLAYER-VISIBLE)
         type: rich-text
         required: true
+  - name: atlas
+    label: Map settings & locations
+    type: file
+    path: data/avalor-map.yml
+    format: yaml
+    fields:
+      - name: title
+        label: Map title
+        type: string
+      - name: image
+        label: Map illustration (upload your new Avalor map here)
+        type: image
+        description: "Public artwork only. Upload your Avalor map PNG/JPG/WebP here, then Save."
+        options:
+          categories: [image]
+          extensions: [png, jpg, jpeg, webp]
+          rename: safe
+      - name: image_alt
+        label: Map description
+        type: text
+      - name: image_credit
+        label: Image credit
+        type: string
+      - name: locations
+        label: Map locations and markers
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: id
+            label: Unique location key (keep unchanged)
+            type: string
+            required: true
+          - name: name
+            label: Display name
+            type: string
+            required: true
+          - name: type
+            label: Marker category
+            type: select
+            options:
+              values: [settlement, region, water, historic, institution]
+          - name: x
+            label: Horizontal position (0–100%)
+            type: number
+            description: "Use the atlas's Position pins tool to measure exact coordinates."
+          - name: y
+            label: Vertical position (0–100%)
+            type: number
+          - name: description
+            label: Player-facing summary
+            type: text
+          - name: article
+            label: Linked article filename (without .md)
+            type: string
+            description: "Example: renada, heavens-heart, heroes-hill. Leave empty for no link."
+          - name: published
+            label: Show marker to players
+            type: boolean
+          - name: provisional
+            label: Mark position as provisional
+            type: boolean

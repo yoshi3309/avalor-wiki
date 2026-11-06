@@ -103,3 +103,31 @@ In [Pages CMS](https://app.pagescms.org), open `yoshi3309/avalor-wiki` and selec
 - Click **Save**. The GitHub Actions workflow rebuilds the website. You never need to edit the code to add art.
 
 **Important:** Every image in the public repository is visible to players. Do not upload secret location maps, villain concept art, or unpublished campaign reveals here. Keep the Keeper archive separate.
+
+
+## Interactive Atlas of Avalor (The Cartographer's Table)
+
+Open the atlas at `/map/`. It supports zoom/pan, searchable and filtered markers, summaries, hyperlinks to articles, and provisional-location markers. The atlas has no paid map service or external map data provider.
+
+### One-time map artwork upload
+
+The original map was supplied in chat, not through GitHub, so the code does not automatically contain that image. To attach the **exact original artwork**:
+
+1. Visit https://app.pagescms.org and open your `yoshi3309/avalor-wiki` repository.
+2. Choose **Map settings & locations** (new section).
+3. Find **Map illustration**. Upload the new Avalor PNG (the one with the White Sea, Forest of the Fey, and Great Desert), then Save.
+4. The Pages CMS media manager commits it into `assets/uploads/`; GitHub Actions rebuilds the atlas. Your original file is preserved, not redrawn.
+
+### Verify the provisional town locations
+
+1. Open `/map/?edit=1` and press **Position pins** if it isn't already active.
+2. Pick Renada, Heaven's Heart, Heroes Hill, Stanleyville, or Shamman’s Tower in **Place to position**.
+3. Click the exact location on your illustrated map. The positioning desk shows X and Y coordinates (percentages).
+4. Open **Map settings & locations** in Pages CMS, expand that place's entry, and enter its new X/Y. Untick **Mark position as provisional** when you're satisfied; Save.
+5. Revisit the atlas. The pin moves and its provisional marker disappears.
+
+The 12 labeled regional/water markers are anchored approximately to their printed labels. You can also move these. Add locations by creating another record in the CMS list; give each an unused lowercase-hyphen key, name, type, coordinates, and optional article filename (without `.md`). For unverified content, set **Show marker to players** to off.
+
+### DM safety
+
+This atlas is **fully public**, including each point's name, description, and image in the underlying GitHub files. Never put Keeper secrets, hidden passages, undiscovered plot locations, private campaign maps, or future encounters in Map settings. A secret or unrevealed location belongs only in the separate private DM archive. Provisional means **uncertain placement**, not hidden or confidential.

@@ -8,8 +8,10 @@
 <title>{{ title|e }} · The Archives of Avalor</title>
 <link rel="icon" type="image/svg+xml" href="{{ root }}assets/crest.svg">
 <link rel="stylesheet" href="{{ root }}assets/style.css">
+{% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
 <script defer src="{{ root }}assets/app.js"></script>
+{% if page_type == "map" %}<script defer src="{{ root }}assets/map.js"></script>{% endif %}
 </head>
 <body class="page-{{ page_type }}">
 <a class="skip-link" href="#main-content">Skip to content</a>
@@ -26,6 +28,7 @@
       <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{ root }}"><span class="nav-icon">⌂</span> Archive home</a>
       <a class="nav-link {% if page_type=='all' %}active{% endif %}" href="{{ root }}articles/"><span class="nav-icon">▦</span> All records <span class="nav-count">{{ total_count }}</span></a>
       <a class="nav-link {% if page_type=='timeline' %}active{% endif %}" href="{{ root }}chronicle/"><span class="nav-icon">◷</span> Living chronology</a>
+      <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{ root }}map/"><span class="nav-icon">✥</span> Interactive map</a>
       <div class="nav-caption nav-caption-spaced">COLLECTIONS</div>
       {% for c in categories %}
       <a class="nav-link {% if current_category==c.name and page_type=='category' %}active{% endif %}" href="{{ root }}collections/{{ c.slug }}/"><span class="nav-icon">{{ c.icon }}</span><span>{{ c.name }}</span><span class="nav-count">{{ c.count }}</span></a>

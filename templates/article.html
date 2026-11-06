@@ -2,7 +2,7 @@
 {% block main %}
 <div class="content-container article-container">
   <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
-  <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT</div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p></div>
+  <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT</div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>{% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
   <div class="article-split"><div class="article-column">
     <div class="document-paper"><div class="paper-top"><span class="ornamental-letter">A</span><span>THE ROYAL COMMISSION OF HISTORICAL INQUIRY</span><span class="paper-sigil">✦</span></div>
       <div class="article-body">{{ article.html | safe }}</div>
