@@ -10,7 +10,7 @@ facts: 'Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
 
   Notable institution: Great Library of Aldus Greystone'
-related: lavitz-shawe,the-six,spine-of-the-world,kingdom-of-avalor
+related: black-stair,great-cathedral,spine-of-the-world,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false
 ---
@@ -29,4 +29,8 @@ The paladins who train here inherit obligations rooted in that conviction. Their
 
 The **Great Library of Aldus Greystone** preserves historical and theological scholarship. Its collections have been especially important in an age when the recovery of the true Black Tower history has forced the kingdom to reconsider once-trusted accounts.
 
-The nearby **Black Stair** marks one of the region's notable approaches toward the Spine of the World.
+The nearby [[The Black Stair]] marks one of the region's notable approaches toward the Spine of the World.
+
+## Sister institutions of the faith
+
+The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The Great Cathedral]] in Renada, though the two institutions serve distinct communities and duties.

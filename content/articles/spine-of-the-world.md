@@ -6,7 +6,7 @@ category: Kingdoms & Places
 entry: LOC.008
 era: Founding Age to Age of Ascendancy
 facts: "Terrain: Major mountain region\nSanctuary near its foot: Heaven's Heart\nHistoric site: Black Tower\nNotable approach: Black Stair"
-related: heavens-heart,the-six,great-desert,dead-marshes
+related: black-tower,black-stair,heavens-heart,great-desert
 source: Compendium II · Entry II.003, II–VI and XX; The Living Chronicle, Chapter IV
 featured: false
 ---
@@ -21,13 +21,13 @@ Although great buildings have made the mountains famous, the region is not simpl
 
 Near the mountains' foot stands [[Heaven's Heart]], a settlement and sanctuary associated with **Lowkee** and the traditions of the Cathedral Paladins. Its students are taught that strength is a duty owed to those who need protection, rather than a privilege granted for the benefit of the powerful.
 
-The **Black Stair** is remembered among the approaches to the mountains and the sanctuary. Its demanding ascent belongs to the ordinary experience of travelers, scholars, and pilgrims who have had reason to make the journey.
+The [[The Black Stair]] is remembered among the approaches to the mountains and the sanctuary. Its demanding ascent belongs to the ordinary experience of travelers, scholars, and pilgrims who have had reason to make the journey.
 
 The nearby **Great Library of Aldus Greystone** preserves manuscripts and contested histories, including evidence through which Avalor has reconsidered its account of the founding heroes.
 
 ## The Black Tower
 
-Within the same mountain region stands the **Black Tower**, the site where **Aldus Greystone III** attempted his catastrophic work upon life and death. The effort was interrupted by his former companions, [[The Six]], but its consequences endured beyond the mountain walls.
+Within the same mountain region stands the [[The Black Tower]], the site where **Aldus Greystone III** attempted his catastrophic work upon life and death. The effort was interrupted by his former companions, [[The Six]], but its consequences endured beyond the mountain walls.
 
 For generations, royal restrictions limited access to the tower. Reports of dangerous terrain and disappearances reinforced its forbidding reputation. The later defeat of Cid the Blood King and the vindication of Jaznaar compelled historians to reconsider the story once attached to the place.
 

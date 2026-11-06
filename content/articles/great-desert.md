@@ -36,3 +36,8 @@ The desert is no empty memorial to an ancient crime. Its inhabitants have develo
 The Great Desert continues to influence travel, political interests, and the practical responsibilities of the crown. Those crossing it must reckon with its present conditions, while those studying it must remember that it was not always as it is.
 
 The [[Dead Marshes]] also bear injuries associated with the Black Tower, but their history began earlier and followed a different course. The two landscapes should not be treated as products of an identical magical event simply because both preserve the consequences of Aldus's work.
+
+
+## The place where the change began
+
+The [[Black Tower]] in the Spine of the World remains central to the historical explanation of the desert's transformation. Its new public record distinguishes the consequences of Aldus's work from legends surrounding the mountain site.

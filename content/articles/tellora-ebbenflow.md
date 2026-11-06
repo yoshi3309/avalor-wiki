@@ -12,7 +12,7 @@ facts: |-
   Office: High Wizard
   Council: The Aegis
   Institution: Shamman’s Tower
-related: the-misfits,the-aegis,kingdom-of-avalor,lavitz-shawe
+related: shammans-tower,the-misfits,the-aegis,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapter VII
 featured: false
 ---
@@ -26,4 +26,4 @@ Tel'Lora's appointment as **High Wizard** marked a change in the governing struc
 
 ## Shamman’s Tower
 
-After the victory over Cid, Tel'Lora revived **Shamman’s Tower**, a magical institution off the eastern coast, as a center of arcane education. His duties now join scholarship and the responsibilities of public office.
+After the victory over Cid, Tel'Lora revived [[Shamman’s Tower]], a magical institution off the eastern coast, as a center of arcane education. His duties now join scholarship and the responsibilities of public office.

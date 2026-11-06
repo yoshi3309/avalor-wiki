@@ -33,3 +33,7 @@ Aldus's determination to overcome death gradually passed beyond healing into dan
 Their confrontation at the **Black Tower** within the [[Spine of the World]] interrupted Aldus's ritual, yet the consequences endured. The [[Great Desert]] and the [[Dead Marshes]] continue to bear different legacies of the catastrophe. For many centuries Jaznaar was accused of betraying the fellowship; the surviving record was finally corrected following the defeat of Cid by [[The Misfits]].
 
 Avalor remembers the Six not only because of their accomplishments, but because their friendship, division, and sacrifices reveal how difficult it can be to choose between loyalty and duty.
+
+## Places that preserve the fellowship's legacy
+
+The [[Black Tower]] records the tragedy that divided the Six. At [[Wayword Sun]], Faelynn's Hunters Guild offers another inheritance of the founding age: the protection of travelers and communities long after its founder's most celebrated adventures.

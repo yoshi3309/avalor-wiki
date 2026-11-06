@@ -46,3 +46,8 @@ The years after Cid's defeat are called the **Age of Ascendancy**. Trade and dip
 The kingdom's landscapes are as varied as its people. The ancient [[Forest of the Fey]] preserves the memory of elven communities and their negotiated rights; [[Denzians Forest]] holds a separate tradition of a wizard, lost treasure seekers, and disputed relics. The northern [[Great Desert]] bears the long consequences of the Black Tower catastrophe, while the [[Dead Marshes]] recall injuries from more than one age. Above the approaches to [[Heaven's Heart]], the [[Spine of the World]] holds both places of sanctuary and the mountain site of that disaster.
 
 These regions are more than obstacles between settlements. Each has its own history, inhabitants, and claims upon the memory of Avalor.
+
+
+## Strongholds and contested shores
+
+The [[Great Citadel]] anchors royal government in Renada; the [[Great Fork Tower]] trains the realm's soldiers. Farther from the capital, [[Land's End]] helps secure the Northern March. On the eastern peninsula, [[Karhold]] maintains independent institutions despite the crown's disputed territorial claim. Such places demonstrate that administration, defense, and allegiance are not identical matters.

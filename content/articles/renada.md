@@ -12,7 +12,7 @@ facts: 'Region: Royal Heartlands
   Population: About 100,000–200,000
 
   Landmark: The Great Citadel'
-related: kingdom-of-avalor,house-frozenroar,lavitz-shawe,the-aegis
+related: great-citadel,great-cathedral,lavitz-shawe,the-aegis
 source: Compendium II · Entry II.002
 featured: true
 ---
@@ -25,7 +25,7 @@ The Great Citadel rises above [[Renada]], yet the capital belongs as much to the
 
 Renada existed before the founding of Avalor. Rynhold Frozenroar chose it as the capital of his new realm rather than simply extending the power of Kroubia's previous royal seat. The choice signaled a political union, not merely the enlargement of his former kingdom.
 
-The **Great Citadel** was first raised during Rynhold's reign and has been expanded and altered by generations of sovereigns. It remains the seat of royal government as well as a working household sustained by scribes, servants, craftsmen, and officials.
+The [[The Great Citadel]] was first raised during Rynhold's reign and has been expanded and altered by generations of sovereigns. It remains the seat of royal government as well as a working household sustained by scribes, servants, craftsmen, and officials.
 
 ## The River Rhys
 
@@ -36,3 +36,7 @@ The **River Rhys** connects the capital to inland commerce and routes toward the
 Renada contains districts of considerable wealth and neighborhoods where a family's wages may depend upon the next ship to arrive. **Crownrise** climbs toward the citadel, while **Old Renada** preserves older streets and traces of the settlement that preceded the kingdom. Along the waterfront, the **Mudsteps** is a poor river-quarter neighborhood where the current Lord Marshal, [[Lavitz Shawe]], spent his childhood.
 
 The city has benefited from the kingdom's Age of Ascendancy, though its expansion has not reached every household equally. One can admire the lion banner above the heights and still ask whose work keeps it flying.
+
+## Cathedral Ward and the heights
+
+At the heart of the capital, [[The Great Cathedral]] serves the city's religious and charitable life. Above the working streets, [[The Great Citadel]] remains the seat of royal government. Both institutions are woven into Renada's daily life, though they represent different obligations to its people.

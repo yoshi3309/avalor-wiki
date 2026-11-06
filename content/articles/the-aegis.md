@@ -12,7 +12,7 @@ facts: 'Founded: Reign of Rynhold Frozenroar
   Present seats: Eight
 
   Seat added: High Wizard'
-related: kingdom-of-avalor,lavitz-shawe,tellora-ebbenflow,renada
+related: kingdom-of-avalor,lavitz-shawe,tellora-ebbenflow,lands-end
 source: Compendium II · Entry II.001, Section VI
 featured: true
 ---
@@ -41,3 +41,7 @@ The modern council holds **eight seats**. The eighth was created when [[Tel'Lora
 The council's purpose is not to eliminate disagreement. A proposal that promises military security may impose a burden the treasury cannot sustain; a magical discovery may offer extraordinary benefits while carrying risks no one can fully quantify. The differing perspectives of the Aegis help prevent the affairs of one office from eclipsing those of the realm as a whole.
 
 The crown retains sovereign authority, but the work of governing a kingdom depends upon knowledge and judgment no single ruler can possess alone.
+
+## Government beyond the capital
+
+Crown-appointed sheriffs carry royal responsibility into the regions, including the Northern March administered from [[Land's End]]. The limits of that authority are especially visible in [[Karhold]], an eastern freeport whose political relationship with the crown remains disputed.

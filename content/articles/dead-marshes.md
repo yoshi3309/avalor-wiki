@@ -6,7 +6,7 @@ category: Kingdoms & Places
 entry: LOC.006
 era: Founding Wars to Age of Ascendancy
 facts: "Terrain: Wetlands and shifting waterways\nHistorical injuries: Founding wars; Black Tower\nNotable settlement: Wayword Sun\nHistoric order: Hunters Guild"
-related: heroes-hill,the-six,forest-of-the-fey,great-desert
+related: wayword-sun,black-tower,forest-of-the-fey,great-desert
 source: Compendium II · Entry II.003, XII–XIV; The Living Chronicle, Chapters II–IV
 featured: false
 ---
@@ -33,7 +33,7 @@ The Great Desert also bears the consequences of the Black Tower, but it is a dif
 
 ## Wayword Sun and the Hunters Guild
 
-It was within these dangerous reaches that **Faelynn**, the wood elf ranger remembered among [[The Six]], founded the **Hunters Guild** at **Wayword Sun**. After suffering a fiend's deception and the destruction of a village, she devoted her gifts to protecting those whom ordinary defenses could not easily reach.
+It was within these dangerous reaches that **Faelynn**, the wood elf ranger remembered among [[The Six]], founded the **Hunters Guild** at [[Wayword Sun]]. After suffering a fiend's deception and the destruction of a village, she devoted her gifts to protecting those whom ordinary defenses could not easily reach.
 
 The guild's work is more than the pursuit of monsters. It calls for the judgment to guide travelers, safeguard settlements, understand changing terrain, and recognize danger before it reaches the vulnerable.
 
