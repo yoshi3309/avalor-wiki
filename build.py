@@ -94,6 +94,15 @@ def make_html(article):
         used.add(anchor);headings.append({'id':anchor,'text':raw})
         return f'<h2 id="{anchor}">{m.group(1)}</h2>'
     rendered=re.sub(r'<h2>(.*?)</h2>',heading_id,rendered,flags=re.S)
+    # Convert Pages CMS media paths into relative paths that work on
+    # project GitHub Pages sites such as /avalor-wiki/.
+    image_raw=str(article.get('image') or '').strip()
+    if image_raw.startswith('/assets/uploads/'):
+        article['image_url']=rel+image_raw.lstrip('/')
+    elif image_raw.startswith('assets/uploads/'):
+        article['image_url']=rel+image_raw
+    else:
+        article['image_url']=None
     article['html']=rendered; article['headings']=headings
     return article
 ALL=[make_html(a) for a in ALL]

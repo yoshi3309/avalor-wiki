@@ -30,6 +30,21 @@ content:
         required: true
         options:
           values: ["Kingdoms & Places", "People & Legends", "Organizations & Factions", "History & Chronicles", "Faith, Magic & Cosmology"]
+      - name: image
+        label: Main image / character portrait
+        type: image
+        description: "Upload a public image for this article. Portraits, locations, and artifacts all work."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+      - name: image_alt
+        label: Image description (accessibility)
+        type: string
+        description: "Describe what is pictured, e.g. Lavitz Shawe in ceremonial armor."
+      - name: image_caption
+        label: Image caption or artist credit
+        type: string
       - name: entry
         label: Archive number
         type: string

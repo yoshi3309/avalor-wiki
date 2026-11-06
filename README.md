@@ -94,3 +94,12 @@ This starter's articles follow the **Age of Ascendancy**, after the Misfits defe
 ## Cost
 
 **$0 required** for a public repository, GitHub Pages hosting, the site's code, and the optional Pages CMS editing interface under their currently published free offerings. A custom domain is optional and not included. If you need to restrict website viewers to specific players, GitHub Pages' public hosting does **not** provide password-protected access on the free tier.
+## 6 — Add images yourself (no coding)
+
+In [Pages CMS](https://app.pagescms.org), open `yoshi3309/avalor-wiki` and select **Public archive articles**. Open a public article:
+
+- **Main image / character portrait**: choose or upload a JPG, PNG, or WebP. It appears in the illustrated panel alongside the article's facts. Add a useful **Image description** and optional **Image caption or artist credit**.
+- **The Scholar's Account**: use the rich-text editor's image tool to insert extra artwork between paragraphs, such as maps, ruins, or tavern illustrations. The editor stores uploaded images in `assets/uploads` automatically.
+- Click **Save**. The GitHub Actions workflow rebuilds the website. You never need to edit the code to add art.
+
+**Important:** Every image in the public repository is visible to players. Do not upload secret location maps, villain concept art, or unpublished campaign reveals here. Keep the Keeper archive separate.
