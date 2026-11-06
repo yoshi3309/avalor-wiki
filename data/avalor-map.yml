@@ -1,15 +1,16 @@
-# Player-facing map data only. Never include Keeper secrets or unrevealed locations.
 title: The Cartographer's Table
 image: /assets/uploads/avalor-official-map.webp
-image_alt: An illustrated parchment map of Avalor, with its mountains, forests, waterways, and surrounding seas.
+image_alt: An illustrated parchment map of Avalor, with its mountains, forests,
+  waterways, and surrounding seas.
 image_credit: New official map of Avalor
 locations:
   - id: forest-of-the-fey
     name: Forest of the Fey
     type: region
-    x: 47.0
+    x: 47
     y: 20.5
-    description: Ancient woodland whose elven communities preserve traditions and rights older than the kingdom.
+    description: Ancient woodland whose elven communities preserve traditions and
+      rights older than the kingdom.
     article: kingdom-of-avalor
     published: true
     provisional: false
@@ -27,7 +28,8 @@ locations:
     type: region
     x: 81.3
     y: 30.9
-    description: The forest named for the wizard Denzian, with tales of vanished treasure seekers and guarded relics.
+    description: The forest named for the wizard Denzian, with tales of vanished
+      treasure seekers and guarded relics.
     article: kingdom-of-avalor
     published: true
     provisional: false
@@ -36,7 +38,8 @@ locations:
     type: region
     x: 53.2
     y: 39.7
-    description: A dangerous wetland bearing the traces of ancient conflict and later magical upheaval.
+    description: A dangerous wetland bearing the traces of ancient conflict and
+      later magical upheaval.
     article: kingdom-of-avalor
     published: true
     provisional: false
@@ -44,8 +47,9 @@ locations:
     name: Spine of the World
     type: region
     x: 27.2
-    y: 28.0
-    description: The mountain range associated with Heaven's Heart and the ancient Black Tower.
+    y: 28
+    description: The mountain range associated with Heaven's Heart and the ancient
+      Black Tower.
     article: heavens-heart
     published: true
     provisional: false
@@ -54,7 +58,8 @@ locations:
     type: water
     x: 44.6
     y: 64.8
-    description: The river that links the royal capital with wider routes of travel and commerce.
+    description: The river that links the royal capital with wider routes of travel
+      and commerce.
     article: renada
     published: true
     provisional: false
@@ -62,9 +67,8 @@ locations:
     name: Valoran Gulf
     type: water
     x: 32.5
-    y: 49.0
+    y: 49
     description: The gulf named on the northern kingdom's new map.
-    article: ''
     published: true
     provisional: false
   - id: ember-bay
@@ -73,34 +77,30 @@ locations:
     x: 58.4
     y: 53.7
     description: A broad inlet marked on the new map of Avalor.
-    article: ''
     published: true
     provisional: false
   - id: the-white-sea
     name: The White Sea
     type: water
     x: 13.5
-    y: 17.0
+    y: 17
     description: The waters lying to the northwest of the kingdom's mountains.
-    article: ''
     published: true
     provisional: false
   - id: the-avarick-ocean
     name: The Avarick Ocean
     type: water
-    x: 22.0
+    x: 22
     y: 83.3
     description: The ocean named on the western reaches of the new map.
-    article: ''
     published: true
     provisional: false
   - id: gulf-of-serath
     name: Gulf of Serath
     type: water
-    x: 71.0
+    x: 71
     y: 70.3
     description: The gulf bordering the southeastern coast.
-    article: ''
     published: true
     provisional: false
   - id: sea-of-obroz
@@ -109,51 +109,54 @@ locations:
     x: 67.8
     y: 84.6
     description: The sea named off the southern shores of Avalor.
-    article: ''
     published: true
     provisional: false
   - id: renada
     name: Renada
     type: settlement
-    x: 46.0
-    y: 69.0
-    description: Royal capital of Avalor, on the River Rhys; home to the Great Citadel and royal court.
+    x: 46
+    y: 69
+    description: Royal capital of Avalor, on the River Rhys; home to the Great
+      Citadel and royal court.
     article: renada
     published: true
-    provisional: true
+    provisional: false
   - id: heavens-heart
     name: Heaven's Heart
     type: institution
-    x: 30.0
-    y: 37.0
+    x: 30
+    y: 37
     description: Sacred and scholarly settlement near the foot of the Spine of the World.
     article: heavens-heart
     published: true
-    provisional: true
+    provisional: false
   - id: stanleyville
     name: Stanleyville
     type: settlement
-    x: 42.0
-    y: 45.0
-    description: Renowned metalworking town along the King's Road, remembered for the Misfits' investigation.
+    x: 42
+    y: 45
+    description: Renowned metalworking town along the King's Road, remembered for
+      the Misfits' investigation.
     article: stanleyville
     published: true
-    provisional: true
+    provisional: false
   - id: heroes-hill
     name: Heroes Hill
     type: historic
-    x: 34.0
-    y: 34.0
-    description: The founding-war battlefield where Bradgem Glav defeated Lord Osmo at the cost of his own life.
+    x: 34
+    y: 34
+    description: The founding-war battlefield where Bradgem Glav defeated Lord Osmo
+      at the cost of his own life.
     article: heroes-hill
     published: true
-    provisional: true
+    provisional: false
   - id: shammans-tower
     name: Shamman’s Tower
     type: institution
-    x: 92.0
-    y: 51.0
-    description: Arcane institution off the eastern coast, revived by High Wizard Tel'Lora Ebbenflow.
+    x: 92
+    y: 51
+    description: Arcane institution off the eastern coast, revived by High Wizard
+      Tel'Lora Ebbenflow.
     article: tellora-ebbenflow
     published: true
-    provisional: true
+    provisional: false
