@@ -5,13 +5,11 @@ summary: Eight offices that advise the sovereign and coordinate the responsibili
 category: Organizations & Factions
 entry: ORG.001
 era: Age of Ascendancy
-facts: 'Founded: Reign of Rynhold Frozenroar
-
+facts: |-
+  Founded: Reign of Rynhold Frozenroar
   Original seats: Seven
-
   Present seats: Eight
-
-  Seat added: High Wizard'
+  Seat added: High Wizard
 related: king-gradvum-frozenroar,queen-melmiri,samuel-the-devoted,lavitz-shawe
 source: Compendium II · Entry II.001, Section VI
 featured: true

@@ -6,13 +6,11 @@ summary: An arcane institution off Avalor’s eastern coast, revived by High Wiz
 category: Kingdoms & Places
 entry: LOC.014
 era: Age of Ascendancy
-facts: 'Location: Off the eastern coast
-
+facts: |-
+  Location: Off the eastern coast
   Revived by: Tel’Lora Ebbenflow
-
   Role: Arcane education and inquiry
-
-  Recorded practices: Atlas of Returns; Second Witness'
+  Recorded practices: Atlas of Returns; Second Witness
 related: tellora-ebbenflow,professor-xiomara-thal,royal-commission-historical-inquiry,the-aegis
 source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII
 featured: false

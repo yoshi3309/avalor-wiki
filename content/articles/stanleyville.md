@@ -6,11 +6,10 @@ summary: A famed metalworking town remembered for its craft, its unusual foundin
 category: Kingdoms & Places
 entry: LOC.002
 era: Age of Ascendancy
-facts: 'Known for: Forge-quality steel
-
+facts: |-
+  Known for: Forge-quality steel
   Road: King’s Road
-
-  Historic threat: The Stalker'
+  Historic threat: The Stalker
 related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapter VI
 featured: false

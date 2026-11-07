@@ -6,11 +6,10 @@ summary: A settlement in the Dead Marshes where Faelynn established the Hunters 
 category: Kingdoms & Places
 entry: LOC.009
 era: Founding Age to Age of Ascendancy
-facts: 'Region: Dead Marshes
-
+facts: |-
+  Region: Dead Marshes
   Historic founder: Faelynn, the Night Mistress
-
-  Institution: Hunters Guild'
+  Institution: Hunters Guild
 related: hunters-guild,malikeah,faelynn,dead-marshes
 source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III
 featured: false

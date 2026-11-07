@@ -6,11 +6,10 @@ summary: The six legendary companions whose fellowship helped shape the kingdomâ
 category: People & Legends
 entry: HIS.003
 era: Founding Age
-facts: 'Members: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar
-
+facts: |-
+  Members: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar
   Era: Early Avalor
-
-  Historic event: The Black Tower'
+  Historic event: The Black Tower
 related: lowkee,faelynn,petris,kelsalor,jaznaar
 source: The Living Chronicle, Chapters IIâ€“IV
 featured: false

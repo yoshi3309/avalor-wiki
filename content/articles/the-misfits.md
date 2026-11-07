@@ -5,11 +5,10 @@ summary: The adventuring fellowship whose defeat of Cid changed Avalor’s histo
 category: People & Legends
 entry: HIS.001
 era: Age of Ascendancy
-facts: 'Known members: Lavitz, Tel’Lora, Heureux, Sven, Amara
-
+facts: |-
+  Known members: Lavitz, Tel’Lora, Heureux, Sven, Amara
   Defining event: Defeat of Cid
-
-  Legacy: The Age of Ascendancy'
+  Legacy: The Age of Ascendancy
 related: lavitz-shawe,tellora-ebbenflow,fo-gurn,jack-of-stanleyville,the-stalker,jaznaars-refuge,zauks-false-lives
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters VI–VII
 featured: true
