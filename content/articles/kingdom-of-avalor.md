@@ -11,7 +11,7 @@ facts: |-
   Founded: 1 AF
   Sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
-related: king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,renada,the-aegis
+related: unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms
 source: Compendium II · Entry II.001; The Living Chronicle
 featured: true
 ---
@@ -24,7 +24,7 @@ Avalor is often described through its royal line, but the kingdom is more than t
 
 Before Avalor existed, Rynhold Frozenroar ruled **Kroubia**, one of several northern kingdoms. When the mortal conqueror Lord Osmo threatened their independence, Rynhold assembled a coalition of rulers whose old rivalries made alliance difficult. The struggle culminated at [[Heroes Hill]], where Lord Bradgem Glav killed Osmo and received mortal wounds in the act.
 
-Victory did not end those rivalries. Through negotiation, shared military interests, and political compromise, Rynhold established Avalor in **1 After Founding (AF)**. The former realms retained distinct traditions and local obligations within the new kingdom.
+Victory did not end those rivalries. Through negotiation, shared military interests, and political compromise recorded in [[The Unification of Avalor]], Rynhold established Avalor in **1 After Founding (AF)**. The former realms retained distinct traditions and local obligations within the new kingdom.
 
 ## The crown and the Aegis
 

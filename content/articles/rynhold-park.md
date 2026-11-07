@@ -6,7 +6,7 @@ category: Kingdoms & Places
 entry: LOC.028
 era: "Founding Memory to Age of Ascendancy"
 facts: "City: Renada\nFunction: Public park and monuments\nHonors: Rynhold and the founding generation\nContested memorial: Statue of Aldus Greystone III\nHistorical revision: Corrected inscription"
-related: royal-commission-historical-inquiry,lady-miren-dast,professor-xiomara-thal,jaznaar
+related: jaznaars-vindication,betrayers-legend,royal-commission-historical-inquiry,lady-miren-dast
 source: "Compendium II · Entry II.002, Sections VI and XVI; The Living Chronicle, Chapters IV–VI"
 featured: false
 ---

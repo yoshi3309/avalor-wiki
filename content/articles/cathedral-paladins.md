@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.003
 era: "Founding Age to Age of Ascendancy"
 facts: "Founder: Lowkee\nPrincipal sanctuary: Heaven's Heart\nFaiths: Tyr, Helm, and Torm\nGuiding principle: The First Teaching\nHistoric action: Sanctuary for drow families"
-related: lowkee,heavens-heart,threefold-devotion,samuel-the-devoted,great-cathedral
+related: lowkee,heavens-heart,sanctuary-at-heavens-heart,threefold-devotion,samuel-the-devoted
 source: "The Living Chronicle, Chapters III and V; Compendium I · I.004, public Scholar's Account; Compendium II · II.003, public Scholar's Account"
 featured: false
 ---

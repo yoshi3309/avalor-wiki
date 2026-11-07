@@ -11,7 +11,7 @@ facts: |-
   Historic role: Military stronghold
   Period: Founding wars
   Osmo’s death: Heroes Hill
-related: heroes-hill,kingdom-of-avalor,house-frozenroar,great-fork-tower
+related: founding-wars,heroes-hill,bradgem-glav,unification-of-avalor
 source: Compendium II · Entry II.003, XXII; The Living Chronicle, Chapters I–II
 featured: false
 ---

@@ -10,7 +10,7 @@ facts: |-
   Members: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar
   Era: Early Avalor
   Historic event: The Black Tower
-related: lowkee,faelynn,petris,kelsalor,jaznaar
+related: sundering-of-the-six,blood-sickness,lowkee,faelynn,petris,kelsalor,jaznaar
 source: The Living Chronicle, Chapters II–IV
 featured: false
 ---
@@ -29,7 +29,7 @@ These six companions became closely associated with Avalor's earliest years. Som
 
 Aldus's determination to overcome death gradually passed beyond healing into dangerous experimentation. The companions disagreed not about the suffering caused, but about whether the man they had known could still be saved.
 
-Their confrontation at the **Black Tower** within the [[Spine of the World]] interrupted Aldus's ritual, yet the consequences endured. The [[Great Desert]] and the [[Dead Marshes]] continue to bear different legacies of the catastrophe. For many centuries Jaznaar was accused of betraying the fellowship; the surviving record was finally corrected following the defeat of Cid by [[The Misfits]].
+Their confrontation at the [[The Black Tower|Black Tower]], detailed in [[The Sundering of the Six]], within the [[Spine of the World]] interrupted Aldus's ritual, yet the consequences endured. The [[Great Desert]] and the [[Dead Marshes]] continue to bear different legacies of the catastrophe. For many centuries Jaznaar was accused of betraying the fellowship; the surviving record was finally corrected following the defeat of Cid by [[The Misfits]].
 
 Avalor remembers the Six not only because of their accomplishments, but because their friendship, division, and sacrifices reveal how difficult it can be to choose between loyalty and duty.
 

@@ -9,14 +9,14 @@ facts: |-
   Historic conflict: War against Lord Osmo
   Remembered hero: Bradgem Glav
   Monument: Rearing horse sculpture
-related: lord-osmos-tower,kingdom-of-avalor,house-frozenroar,the-six
+related: founding-wars,bradgem-glav,unification-of-avalor,lord-osmos-tower
 source: The Living Chronicle, Chapter II; Compendium II · Entry II.001
 featured: false
 ---
 
 ## The last battle against Osmo
 
-**Heroes Hill** is remembered as the battlefield where the coalition of northern kingdoms won its decisive victory against the mortal conqueror **Lord Osmo**. Accounts disagree over the exact maneuvers of the armies, but preserve a central deed: **Lord Bradgem Glav** reached Osmo, killed him, and suffered mortal wounds in the act.
+**Heroes Hill** is remembered as the battlefield where the coalition of northern kingdoms won its decisive victory against the mortal conqueror **Lord Osmo**. Accounts disagree over the exact maneuvers of the armies, but preserve a central deed: [[Lord Bradgem Glav]] reached Osmo, killed him, and suffered mortal wounds in the act.
 
 Glav's grave bears a monument of a **rearing horse**. Later generations have offered different readings of its meaning, from the courage of a final charge to the grief of a rider who never returned. No surviving inscription settles the question.
 

@@ -10,7 +10,7 @@ facts: |-
   Role: Spellcaster
   Fellowship: The Six
   Historic status: Publicly vindicated
-related: jaznaars-refuge,the-six,cid-the-blood-king,the-misfits
+related: betrayers-legend,jaznaars-vindication,the-six,jaznaars-refuge
 source: The Living Chronicle, Chapters III–VI; Compendium II · Entry II.001
 featured: false
 ---

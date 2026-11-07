@@ -11,7 +11,7 @@ facts: |-
   Associated figure: Aldus Greystone III
   Historic event: The Black Tower catastrophe
   Access: Long restricted by the crown
-related: spine-of-the-world,the-six,jaznaar,great-desert
+related: sundering-of-the-six,blood-sickness,betrayers-legend,jaznaar,great-desert
 source: Compendium II · Entry II.003, II–IV; The Living Chronicle, Chapter IV
 featured: false
 ---

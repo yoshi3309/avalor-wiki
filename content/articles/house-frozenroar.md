@@ -11,7 +11,7 @@ facts: |-
   Sovereigns: 34 in the Royal Register
   Current sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
-related: king-gradvum-frozenroar,queen-melmiri,kingdom-of-avalor,the-aegis
+related: founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
 source: The Living Chronicle · Chapter V, Royal Register, and Partial Pedigree; Compendium II · Entry II.001
 featured: false
 ---
