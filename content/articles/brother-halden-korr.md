@@ -1,16 +1,23 @@
 ---
-title: "Brother Halden Korr"
-subtitle: "Archivist of Heaven's Heart"
-summary: "An archivist of Heaven's Heart and contributor to the Living Chronicle whose work preserves Cathedral testimony and weighs inherited tradition against historical evidence."
+title: Brother Halden Korr
+subtitle: Archivist of Heaven's Heart
+summary: An archivist of Heaven's Heart and contributor to the Living Chronicle
+  whose work preserves Cathedral testimony and weighs inherited tradition
+  against historical evidence.
 category: People & Legends
+image: /assets/uploads/candlelit-gothic-scholar-with-ancient-tome.png
 entry: BIO.023
 era: Age of Ascendancy
-facts: "Office: Archivist of Heaven's Heart\nCommission: Contributor\nPrimary materials: Cathedral archives\nScholarship: Faith, testimony, and historical interpretation"
+facts: |-
+  Office: Archivist of Heaven's Heart
+  Commission: Contributor
+  Primary materials: Cathedral archives
+  Scholarship: Faith, testimony, and historical interpretation
 related: royal-commission-historical-inquiry,great-library-aldus-greystone,heavens-heart,lady-miren-dast,professor-xiomara-thal
-source: "The Living Chronicle, Preface and attributed archival commentary; Compendium II, Great Cathedral public account"
+source: The Living Chronicle, Preface and attributed archival commentary;
+  Compendium II, Great Cathedral public account
 featured: false
 ---
-
 ## A witness to the surviving record
 
 **Brother Halden Korr** is an **archivist of [[Heaven's Heart]]** and a contributor to [[The Royal Commission of Historical Inquiry|the Royal Commission of Historical Inquiry]].
