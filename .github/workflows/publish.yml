@@ -17,9 +17,12 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# Serialize deployments while keeping every new publishing run in line.
+# GitHub's queue:max supports up to 100 pending runs in the same group.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
+  queue: max
 jobs:
   build:
     runs-on: ubuntu-latest
