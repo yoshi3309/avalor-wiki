@@ -35,7 +35,7 @@ Malikeah inherits its present responsibilities without becoming a second Faelynn
 
 ## What remains unwritten
 
-The public canon identifies Malikeah as **the current leader** of the Hunters Guild. It does not establish Malikeah's ancestry, appearance, age, earlier adventures, exact title within the guild, or personal relationships.
+The available public record identifies Malikeah as **the current leader** of the Hunters Guild. It does not establish Malikeah's ancestry, appearance, age, earlier adventures, exact title within the guild, or personal relationships.
 
 These are open subjects for future accounts. The Royal Archives do not replace those gaps with an invented biography.
 

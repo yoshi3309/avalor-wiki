@@ -23,7 +23,7 @@ Heureux did not withdraw permanently from the road. He continued to perform, col
 
 The next generation could now learn a vocation shaped by his experience without needing to endure the dangers that had made him famous.
 
-The academy’s exact curriculum, faculty, selection practices, and rules are not yet established in public canon.
+The academy’s exact curriculum, faculty, selection practices, and rules are not yet established in the public records.
 
 ## A different institution from the guild
 

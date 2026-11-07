@@ -15,7 +15,7 @@ featured: false
 
 After their discovery of the truth at Jaznaar's refuge, [[The Misfits]] encountered **Jinlin Vechon**, a **dragonborn vampire** associated with the **Wrath of Innocent**.
 
-The established canon identifies Jinlin as the **founder** of the Wrath of Innocent. Its full membership, internal arrangements, and the original circumstances of its foundation are not authenticated in the public account.
+The established historical record identifies Jinlin as the **founder** of the Wrath of Innocent. Its full membership, internal arrangements, and the original circumstances of its foundation are not authenticated in the public account.
 
 ## An enemy's enemy
 
