@@ -33,4 +33,4 @@ The nearby [[The Black Stair]] marks one of the region's notable approaches towa
 
 ## Sister institutions of the faith
 
-The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The Great Cathedral]] in Renada, though the two institutions serve distinct communities and duties.
+The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The Great Cathedral]] in [[Cathedral Ward]], Renada, though the two institutions serve distinct communities and duties.

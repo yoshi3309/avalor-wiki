@@ -39,11 +39,11 @@ The city has benefited from the kingdom's Age of Ascendancy, though its expansio
 
 ## Cathedral Ward and the heights
 
-At the heart of the capital, [[The Great Cathedral]] serves the city's religious and charitable life. Above the working streets, [[The Great Citadel]] remains the seat of royal government. Both institutions are woven into Renada's daily life, though they represent different obligations to its people.
+At the heart of the capital, [[Cathedral Ward]] surrounds [[The Great Cathedral]], which serves the city's religious and charitable life. Above the working streets, [[The Great Citadel]] remains the seat of royal government. Both institutions are woven into Renada's daily life, though they represent different obligations to its people.
 
 
 ## The neighborhoods and public places
 
 Renada's public life extends beyond the buildings of the crown. The merchants of [[Lantern Ward]] maintain the city's markets and the Hall of Measures, while the [[Rhys Quays]] connect its labor and warehouses to the River Rhys. The [[Mudsteps]], within the quays, are remembered as the childhood neighborhood of Lord Marshal Lavitz Shawe. In [[Rynhold Park]], the surviving statue of Aldus Greystone III bears a revised inscription acknowledging the false history once taught about Jaznaar.
 
-These places remain parts of Renada, not separate settlements of the kingdom. The Royal Archives record their distinct histories without giving each another pin on the world map.
+[[Cathedral Ward]] completes the record of Renada's five major districts through its religious and charitable institutions. These places remain parts of Renada, not separate settlements of the kingdom. The Royal Archives record their distinct histories without giving each another pin on the world map.

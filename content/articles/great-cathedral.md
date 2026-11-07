@@ -13,14 +13,14 @@ facts: 'City: Renada
   Traditions: Tyr, Helm, and Torm
 
   High Priest: Astronoph, female deva'
-related: renada,heavens-heart,the-aegis,great-citadel
+related: cathedral-ward,renada,heavens-heart,the-aegis
 source: Compendium II · Entry II.003, XXIV; Entry II.001, XIV; Entry II.002, XI
 featured: false
 ---
 
 ## A cathedral among the people
 
-The **Great Cathedral** rises near the heart of [[Renada]] in the district known as **Cathedral Ward**. Its steps and charitable houses belong to the everyday movement of the city. Petitioners and worshippers arrive alongside those who seek shelter, advice, or relief from a difficulty no private household can resolve alone.
+The **Great Cathedral** rises near the heart of [[Renada]] in the district known as [[Cathedral Ward]]. Its steps and charitable houses belong to the everyday movement of the city. Petitioners and worshippers arrive alongside those who seek shelter, advice, or relief from a difficulty no private household can resolve alone.
 
 The building is a prominent part of the capital, but its importance extends beyond its stonework and ceremonial role.
 
