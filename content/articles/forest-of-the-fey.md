@@ -21,7 +21,7 @@ For those who live there, ancient woodland may also be ancestral territory. Righ
 
 During the reign of **Dietmar Frozenroar**, disputes over roads, settlement, taxation, and ancestral authority grew into open conflict between the crown and elven communities. The settlement remembered as the **Elven Concord** recognized the Frozenroar monarchy while preserving important traditional rights and elements of clan government.
 
-The subsequent marriage of Dietmar's heir, **Halton Frozenroar**, to **Dathyra Blueshadow** strengthened the peace. Their union also established an elven ancestry within the royal house that later generations would inherit.
+The subsequent marriage of Dietmar's **acknowledged heir**, **Halton Frozenroar**, to **Dathyra Blueshadow** strengthened the peace. The Royal Register does not specify Dietmar and Halton's kinship. Halton and Dathyra were the parents of Sylavor. Their union also established an elven ancestry within the royal house that later generations would inherit.
 
 Royal accounts have sometimes described the Concord as a set of concessions granted by the crown. Woodland traditions offer another reading: that the kingdom acknowledged rights already held before Avalor existed. These perspectives need not be made identical in order to understand why the agreement endured.
 

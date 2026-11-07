@@ -12,6 +12,7 @@ facts: |-
   House: Frozenroar
   Accession: 1983 AF
   Consort: Queen Melmiri
+  Heir: Prince Theodric
   Griffin: Fis Uskeche
   Sword: Lionsbane
 related: house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,four-sheriffdoms
@@ -42,7 +43,7 @@ Their shared work gives the present reign a character not adequately described b
 
 ## The royal household
 
-Gradvum and Melmiri have **three children—two sons and a daughter**, with their eldest son designated heir. The king is known to ride the griffin **Fis Uskeche** and to bear the sword **Lionsbane**. The name of his sword should not be confused with the royal guard called [[Lion's Bane]], commanded by Lord Marshal Lavitz Shawe.
+Gradvum and Melmiri have three children: **Theodric**, their eldest son and heir; **Leontes**, their younger son; and **Vivienne**, their daughter. The king is known to ride the griffin **Fis Uskeche** and to bear the sword **Lionsbane**. The name of his sword should not be confused with the royal guard called [[Lion's Bane]], commanded by Lord Marshal Lavitz Shawe.
 
 These details feature prominently in popular accounts of the royal family. Their significance does not eclipse the less visible duties of government: maintaining roads, protecting communities, and ensuring that the burdens of the realm do not fall only upon those least able to bear them.
 

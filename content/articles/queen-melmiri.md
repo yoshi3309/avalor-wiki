@@ -10,6 +10,7 @@ era: Age of Ascendancy
 facts: |-
   Office: Queen of Avalor
   Consort: King Gradvum Frozenroar
+  Children: Theodric, Leontes, Vivienne
   Ancestry: Northern Desert Tribes
   Founded: Dina Hyanda
   Griffin: Dune Rakka
