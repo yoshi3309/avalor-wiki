@@ -1,16 +1,24 @@
 ---
-title: "Queen Melmiri"
-subtitle: "The Queen Behind the Work of Government"
-summary: "Queen of Avalor, administrator of much of its daily government, and founder of the separate women's royal guard known as Dina Hyanda."
+title: Queen Melmiri
+subtitle: The Queen Behind the Work of Government
+summary: Queen of Avalor, administrator of much of its daily government, and
+  founder of the separate women's royal guard known as Dina Hyanda.
 category: People & Legends
+image: /assets/uploads/warrior-queen-of-the-sunlit-palace.png
 entry: BIO.010
-era: "Age of Ascendancy"
-facts: "Office: Queen of Avalor\nConsort: King Gradvum Frozenroar\nAncestry: Northern Desert Tribes\nFounded: Dina Hyanda\nGriffin: Dune Rakka\nScimitar: Darkheart"
+era: Age of Ascendancy
+facts: |-
+  Office: Queen of Avalor
+  Consort: King Gradvum Frozenroar
+  Ancestry: Northern Desert Tribes
+  Founded: Dina Hyanda
+  Griffin: Dune Rakka
+  Scimitar: Darkheart
 related: king-gradvum-frozenroar,tournament-of-champions,dina-hyanda,the-misfits
-source: "Compendium II · Entry II.001, IV–V and VIII; Avalor Master Canon Bible, VII; The Living Chronicle, Chapter VI"
+source: Compendium II · Entry II.001, IV–V and VIII; Avalor Master Canon Bible,
+  VII; The Living Chronicle, Chapter VI
 featured: false
 ---
-
 ## The labor of a queen
 
 **Queen Melmiri** shares the throne of Avalor with [[King Gradvum Frozenroar]]. The king retains ultimate sovereign authority, but the surviving record gives the queen an unusually substantial place in the kingdom's daily administration.
