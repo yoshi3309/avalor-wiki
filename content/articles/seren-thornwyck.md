@@ -5,7 +5,7 @@ summary: The sheriff of the Western Verge, whose administration must negotiate
   royal roads, forest settlements, and the ancestral rights protected by the
   Elven Concord.
 category: People & Legends
-image: /assets/uploads/horned-ranger-in-the-mountain-pass.png
+image: /assets/uploads/satyr-ranger-beneath-the-forest-arch.png
 entry: BIO.014
 era: Age of Ascendancy
 facts: |-
