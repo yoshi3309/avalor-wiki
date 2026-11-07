@@ -1,16 +1,23 @@
 ---
-title: "Petris"
-subtitle: "The Light That Asked for Nothing"
-summary: "An elven cleric of Lathander whose compassion for the wounded and displaced became a lasting inheritance of the Six."
+title: Petris
+subtitle: The Light That Asked for Nothing
+summary: An elven cleric of Lathander whose compassion for the wounded and
+  displaced became a lasting inheritance of the Six.
 category: People & Legends
+image: /assets/uploads/elven-sunlight-cleric-in-ruined-sanctuary.png
 entry: BIO.006
-era: "Founding Age"
-facts: "Ancestry: Elf\nCalling: Cleric of Lathander\nFellowship: The Six\nLegacy: Compassion and renewal\nDescendant: Amara of the Misfits"
+era: Founding Age
+facts: |-
+  Ancestry: Elf
+  Calling: Cleric of Lathander
+  Fellowship: The Six
+  Legacy: Compassion and renewal
+  Descendant: Amara of the Misfits
 related: amara,the-six,faiths-and-gods-of-avalor,jaznaar
-source: "The Living Chronicle, Chapter III, especially Petris; Compendium I · I.004, public Scholar's Account"
+source: The Living Chronicle, Chapter III, especially Petris; Compendium I ·
+  I.004, public Scholar's Account
 featured: false
 ---
-
 ## The hero who stayed
 
 **Petris** was an elven cleric devoted to **Lathander**, the Morninglord, and a member of [[The Six]]. In a history often told through battles, towers, and royal deeds, she is remembered especially for the people who survived because someone chose to care for them.
