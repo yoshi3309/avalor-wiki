@@ -1,16 +1,24 @@
 ---
-title: "Amara"
-subtitle: "The Druid Beyond the Court"
-summary: "A druid of the Misfits and descendant of Petris whose work in service of nature carried her far from the public chronicles."
+title: Amara
+subtitle: The Druid Beyond the Court
+summary: A druid of the Misfits and descendant of Petris whose work in service
+  of nature carried her far from the public chronicles.
 category: People & Legends
+image: /assets/uploads/elven-druid-with-owl-and-magic-bowl.png
 entry: BIO.027
-era: "Age of Ascendancy"
-facts: "Sex: Female\nCalling: Druid\nFellowship: The Misfits\nAncestor: Petris of the Six\nLater life: Journeys in service of nature\nPublic reputation: Increasingly folkloric"
+era: Age of Ascendancy
+facts: |-
+  Sex: Female
+  Calling: Druid
+  Fellowship: The Misfits
+  Ancestor: Petris of the Six
+  Later life: Journeys in service of nature
+  Public reputation: Increasingly folkloric
 related: the-misfits,petris,kelsalor,heureux,zauks-false-lives
-source: "The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, V–VI (public record)"
+source: The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, V–VI
+  (public record)
 featured: false
 ---
-
 ## The druid among unlikely companions
 
 **Amara**, a druid and descendant of [[Petris]] of [[The Six]], belonged to the early adventures of [[The Misfits]]. She came from a family line associated with a cleric remembered for compassion and care for those displaced by the founding wars.
