@@ -58,6 +58,7 @@ kingdoms-places:
         - lord-osmos-tower
         - heroes-hill
         - shammans-tower
+        - great-library-aldus-greystone
         - great-citadel
         - great-cathedral
     - id: wildlands
@@ -120,7 +121,6 @@ organizations-factions:
         - hunters-guild
         - bard-guild
         - heureuxs-bard-academy
-        - great-library-aldus-greystone
     - id: other-organizations
       title: Other Factions
       eyebrow: BEYOND THE INSTITUTIONS
