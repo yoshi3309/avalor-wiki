@@ -38,6 +38,6 @@ The academy also employs **Second Witness**, a practice providing an additional 
 
 ## Two ways to preserve knowledge
 
-The **Great Library of Aldus Greystone** at [[Heaven's Heart]] preserves testimony, manuscripts, and the difficult history of magical inquiry. Shamman’s Tower teaches practitioners to test and refine what those records describe. Their duties complement rather than replace one another.
+[[The Great Library of Aldus Greystone]] at [[Heaven's Heart]] preserves testimony, manuscripts, and the difficult history of magical inquiry. Shamman’s Tower teaches practitioners to test and refine what those records describe. Their duties complement rather than replace one another.
 
 Tel'Lora's role on [[The Aegis]] joins this work of scholarship to the responsibility of public office. The institution's future reputation remains unfinished, and its students will share in the making of it.

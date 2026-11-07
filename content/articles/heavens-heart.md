@@ -10,7 +10,7 @@ facts: 'Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
 
   Notable institution: Great Library of Aldus Greystone'
-related: black-stair,great-cathedral,spine-of-the-world,lavitz-shawe
+related: cathedral-paladins,great-library-aldus-greystone,lowkee,samuel-the-devoted
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false
 ---
@@ -21,13 +21,13 @@ featured: false
 
 ## The teaching of Lowkee
 
-The order of Cathedral Paladins traces its origins to **Lowkee**, one of [[The Six]], and honors the ideals associated with Tyr, Helm, and Torm. Lowkee's most enduring teaching placed the protection of those who cannot defend themselves above simple obedience to authority.
+The order of [[The Cathedral Paladins|Cathedral Paladins]] traces its origins to [[Lowkee]], one of [[The Six]], and honors the ideals associated with Tyr, Helm, and Torm. Lowkee's most enduring teaching placed the protection of those who cannot defend themselves above simple obedience to authority.
 
 The paladins who train here inherit obligations rooted in that conviction. Their service has, at times, placed them in conflict with unjust commands, including during the historical persecution of drow families.
 
 ## A place of learning
 
-The **Great Library of Aldus Greystone** preserves historical and theological scholarship. Its collections have been especially important in an age when the recovery of the true Black Tower history has forced the kingdom to reconsider once-trusted accounts.
+[[The Great Library of Aldus Greystone]] preserves historical and theological scholarship. Its collections have been especially important in an age when the recovery of the true Black Tower history has forced the kingdom to reconsider once-trusted accounts.
 
 The nearby [[The Black Stair]] marks one of the region's notable approaches toward the Spine of the World.
 

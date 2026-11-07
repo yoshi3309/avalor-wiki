@@ -11,7 +11,7 @@ facts: 'Region: Dead Marshes
   Historic founder: Faelynn, the Night Mistress
 
   Institution: Hunters Guild'
-related: dead-marshes,the-six,forest-of-the-fey,heroes-hill
+related: hunters-guild,faelynn,dead-marshes,the-six
 source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III
 featured: false
 ---
@@ -20,13 +20,13 @@ featured: false
 
 **Wayword Sun** stands within the [[Dead Marshes]], a landscape of changing paths, difficult waters, and dangers that ordinary patrols cannot always answer. It is remembered not for royal splendor, but for an institution founded where protection was especially hard to obtain.
 
-The settlement's name is closely associated with **Faelynn**, the wood elf ranger called the Night Mistress and remembered among [[The Six]]. Her skill in the wilderness later became the foundation for work that endured beyond the adventures of the founding fellowship.
+The settlement's name is closely associated with [[Faelynn]], the wood elf ranger called the Night Mistress and remembered among [[The Six]]. Her skill in the wilderness later became the foundation for work that endured beyond the adventures of the founding fellowship.
 
 ## The inheritance of Faelynn
 
 Faelynn's earlier life had been marked by a fiend's deception. Misled into killing a chieftess, she unwittingly destroyed the protections of a village whose inhabitants were massacred. She later freed herself from the fiend's influence and destroyed it, but no victory could restore those who had died.
 
-It is tempting to describe the founding of the **Hunters Guild** as the direct consequence of that loss. The surviving record does not preserve Faelynn's complete private reasons. It does establish that she placed a lasting institution in dangerous country and directed her talents toward the defense of others.
+It is tempting to describe the founding of [[The Hunters Guild]] as the direct consequence of that loss. The surviving record does not preserve Faelynn's complete private reasons. It does establish that she placed a lasting institution in dangerous country and directed her talents toward the defense of others.
 
 ## The hunters' work
 

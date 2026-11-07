@@ -23,7 +23,7 @@ Among its monuments stands a statue of **Aldus Greystone III**. For centuries, t
 
 After [[The Misfits]] defeated [[Cid the Blood King]], evidence established that Aldus himself had become Cid and was responsible for the crimes long laid upon his former companion. The monument's continued presence became a matter of public debate.
 
-The city did not pull down the statue. Instead, its old inscription was removed and transferred to the historical collections of the **Great Library of Aldus Greystone** at [[Heaven's Heart]]. A new plaque identifies Aldus with Cid and records the correction of Jaznaar's history.
+The city did not pull down the statue. Instead, its old inscription was removed and transferred to the historical collections of [[The Great Library of Aldus Greystone]] at [[Heaven's Heart]]. A new plaque identifies Aldus with Cid and records the correction of Jaznaar's history.
 
 ## What should remain in stone?
 

@@ -12,7 +12,7 @@ facts: 'Founded: Reign of Rynhold Frozenroar
   Present seats: Eight
 
   Seat added: High Wizard'
-related: kingdom-of-avalor,lavitz-shawe,tellora-ebbenflow,lands-end
+related: lavitz-shawe,tellora-ebbenflow,samuel-the-devoted,lions-bane
 source: Compendium II · Entry II.001, Section VI
 featured: true
 ---
@@ -32,7 +32,7 @@ The modern council holds **eight seats**. The eighth was created when [[Tel'Lora
 | Silver Hand | Katiri Tenderfoot |
 | Warden of Order | Rastrin Diltir |
 | Sentinel of the Seas | Beldir Willowrun |
-| The Devoted | Samuel |
+| The Devoted | [[Samuel the Devoted|Samuel]] |
 | Lord Marshal | [[Lavitz Shawe]] |
 | High Wizard | [[Tel'Lora Ebbenflow]] |
 

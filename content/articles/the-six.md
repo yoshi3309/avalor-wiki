@@ -11,20 +11,20 @@ facts: 'Members: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar
   Era: Early Avalor
 
   Historic event: The Black Tower'
-related: jaznaar,cid-the-blood-king,heroes-hill,heavens-heart
+related: lowkee,faelynn,petris,kelsalor,jaznaar
 source: The Living Chronicle, Chapters II–IV
 featured: false
 ---
 
 ## Six names at the beginning
 
-Aldus Greystone III. Lowkee. Faelynn. Petris. Kelsalor. [[Jaznaar]].
+Aldus Greystone III. [[Lowkee]]. [[Faelynn]]. [[Petris]]. [[Kelsalor]]. [[Jaznaar]].
 
 These six companions became closely associated with Avalor's earliest years. Some had traveled together during the struggle against Lord Osmo; their united fellowship took shape shortly after the founding. Their different convictions and talents became a symbol of what a young kingdom might accomplish when its peoples stood together.
 
 ## The companions
 
-**Aldus Greystone III** was gifted in healing and weather-working magic. **Lowkee**, a human paladin, established the Cathedral Paladins at [[Heaven's Heart]]. **Faelynn**, the wood elf ranger called the Night Mistress, founded the Hunters Guild. **Petris**, an elven cleric devoted to Lathander, was remembered for her service to the vulnerable. **Kelsalor**, a firbolg druid, protected the living balance of the natural world. **Jaznaar**, a drow spellcaster of exceptional ability, would long be misunderstood by the kingdom he served.
+**Aldus Greystone III** was gifted in healing and weather-working magic. [[Lowkee]], a human paladin, established [[The Cathedral Paladins]] at [[Heaven's Heart]]. [[Faelynn]], the wood elf ranger called the Night Mistress, founded [[The Hunters Guild]]. [[Petris]], an elven cleric devoted to Lathander, was remembered for her service to the vulnerable. [[Kelsalor]], a firbolg druid, protected the living balance of the natural world. **Jaznaar**, a drow spellcaster of exceptional ability, would long be misunderstood by the kingdom he served.
 
 ## Fellowship and its sundering
 

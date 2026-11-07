@@ -8,7 +8,7 @@ era: Age of Ascendancy
 facts: 'Principal cathedral: The Great Cathedral, Renada
 Threefold devotion: Tyr, Helm, Torm
 Notable traditions: Lathander, Corellon, Moradin, Eilistraee'
-related: kingdom-of-avalor,heavens-heart,the-six,the-aegis
+related: threefold-devotion,cathedral-paladins,great-cathedral,petris
 source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II · Entry II.001
 featured: false
 ---
@@ -19,13 +19,13 @@ Religion in Avalor is woven into daily life through temples, family traditions, 
 
 ## The Great Cathedral
 
-The **Great Cathedral** in [[Renada]] is among the realm's most influential religious institutions. Its threefold devotion honors **Tyr**, **Helm**, and **Torm**, whose teachings concern justice, vigilance, courage, and duty. The Cathedral is led by **Astronoph**, a female deva serving as High Priest.
+The **Great Cathedral** in [[Renada]] is among the realm's most influential religious institutions. Its [[The Threefold Devotion|Threefold Devotion]] honors **Tyr**, **Helm**, and **Torm**, whose teachings concern justice, vigilance, courage, and duty. The Cathedral is led by **Astronoph**, a female deva serving as High Priest.
 
-At [[Heaven's Heart]], the paladin traditions founded by **Lowkee** draw upon those same divine ideals while placing special emphasis on the protection of people who cannot defend themselves. The legacy of the founding paladin reminds the faithful that sacred duty is more demanding than unquestioning obedience to authority.
+At [[Heaven's Heart]], the [[The Cathedral Paladins|paladin traditions]] founded by [[Lowkee]] draw upon those same divine ideals while placing special emphasis on the protection of people who cannot defend themselves. The legacy of the founding paladin reminds the faithful that sacred duty is more demanding than unquestioning obedience to authority.
 
 ## Dawn, craft, and song
 
-Worship of **Lathander** is associated with renewal and new beginnings. In some communities, the custom called the **First Loaf** sets aside food at dawn for neighbors who might otherwise go hungry. The memory of **Petris**, one of [[The Six]], remains closely associated with such compassionate service.
+Worship of **Lathander** is associated with renewal and new beginnings. In some communities, the custom called the **First Loaf** sets aside food at dawn for neighbors who might otherwise go hungry. The memory of [[Petris]], one of [[The Six]], remains closely associated with such compassionate service.
 
 Some elven communities honor **Corellon** through art and ceremonies connected with beauty and creation. Certain dwarven families call upon **Moradin** at the forge and in traditions of patient craft. Devotion to **Eilistraee** survives within some drow communities through gathering, song, and teachings concerned with freedom and self-determination.
 
