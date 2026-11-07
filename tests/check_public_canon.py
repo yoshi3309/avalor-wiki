@@ -46,6 +46,24 @@ for path in files:
     aliases[slugify(str(meta["title"]))] = path.stem
     aliases[slugify(path.stem)] = path.stem
 
+# Catalogue identifiers must be unique and every wiki-link must resolve
+# through the exact alias rules used by build.py.
+aliases.update({"avalor": "kingdom-of-avalor", "misfits": "the-misfits",
+                "tel-lora": "tellora-ebbenflow", "heavens-heart": "heavens-heart"})
+ids = {}
+for slug, (meta, body) in entries.items():
+    archive_id = str(meta.get("entry") or "").strip()
+    if not archive_id:
+        problems.append(f"{slug}: missing entry number")
+    elif archive_id in ids:
+        problems.append(f"{slug}: duplicate entry number {archive_id} (also {ids[archive_id]})")
+    else:
+        ids[archive_id] = slug
+    for match in re.finditer(r"\[\[([^\]]+)\]\]", body):
+        target = match.group(1).split("|", 1)[0]
+        if slugify(target) not in aliases:
+            problems.append(f"{slug}: broken wiki-link {target}")
+
 for slug, (meta, body) in entries.items():
     related = str(meta.get("related") or "")
     for target in (s.strip() for s in related.split(",") if s.strip()):
@@ -78,4 +96,4 @@ if problems:
     for problem in problems:
         print(" - " + problem)
     sys.exit(1)
-print(f"Public canon checks passed: {len(entries)} article front matters, related slugs, Samuel ancestry.")
+print(f"Public canon checks passed: {len(entries)} article front matters, related slugs, entry numbers, wiki links, Samuel ancestry.")
