@@ -47,7 +47,7 @@ These customs have been particularly vulnerable to distortion. For centuries, th
 
 Sources produced by hostile outsiders sometimes described unfamiliar practices as evidence of forbidden magic. Many communities experienced displacement or the loss of their records. The surviving testimony therefore deserves care: scholars should neither repeat old accusations nor replace them with imagined details that the evidence does not establish.
 
-The later [[Jaznaar's Vindication|vindication of Jaznaar]] changed Avalor's public understanding of that history, but it could not restore every lost custom or undo every injury.
+The later [[The Vindication of Jaznaar|vindication of Jaznaar]] changed Avalor's public understanding of that history, but it could not restore every lost custom or undo every injury.
 
 ## Difference without division
 
