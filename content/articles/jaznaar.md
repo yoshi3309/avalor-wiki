@@ -1,8 +1,10 @@
 ---
 title: Jaznaar
 subtitle: The Name Restored
-summary: A founding hero once falsely condemned as the Betrayer, whose name has been restored to the kingdom’s history.
+summary: A founding hero once falsely condemned as the Betrayer, whose name has
+  been restored to the kingdom’s history.
 category: People & Legends
+image: /assets/uploads/drow-sorcerers-arcane-convergence.png
 entry: BIO.002
 era: Founding Age
 facts: |-
@@ -14,7 +16,6 @@ related: betrayers-legend,jaznaars-vindication,the-six,jaznaars-refuge
 source: The Living Chronicle, Chapters III–VI; Compendium II · Entry II.001
 featured: false
 ---
-
 ## The sixth name
 
 Among the great figures of Avalor's founding age, few have endured so grave an injustice as **Jaznaar**. A drow spellcaster and trusted companion of [[The Six]], he was long remembered under a false name: **the Betrayer**.
