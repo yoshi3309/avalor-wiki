@@ -1,16 +1,23 @@
 ---
-title: "Fo’Gurn"
-subtitle: "The Paladin Who Stayed Behind"
-summary: "A dragonborn paladin and Lavitz's lifelong friend whose stand against a hydra enabled the early Misfits to escape."
+title: Fo’Gurn
+subtitle: The Paladin Who Stayed Behind
+summary: A dragonborn paladin and Lavitz's lifelong friend whose stand against a
+  hydra enabled the early Misfits to escape.
 category: People & Legends
+image: /assets/uploads/gold-dragonborn-storm-warrior.png
 entry: BIO.028
-era: "Age of the Misfits"
-facts: "Ancestry: Dragonborn\nCalling: Paladin\nTraining: Heaven's Heart\nClose friend: Lavitz Shawe\nRemembered sacrifice: Hydra encounter"
+era: Age of the Misfits
+facts: |-
+  Ancestry: Dragonborn
+  Calling: Paladin
+  Training: Heaven's Heart
+  Close friend: Lavitz Shawe
+  Remembered sacrifice: Hydra encounter
 related: fo-gurn-and-the-hydra,jaaris,lavitz-shawe,heavens-heart,tournament-of-champions
-source: "The Living Chronicle, Chapter VI, III and VIII–IX; Master Canon Bible Volume I, V (publicly attested portions)"
+source: The Living Chronicle, Chapter VI, III and VIII–IX; Master Canon Bible
+  Volume I, V (publicly attested portions)
 featured: false
 ---
-
 ## A friend before the fellowship
 
 **Fo’Gurn** was a dragonborn paladin and close friend of [[Lavitz Shawe]]. Their bond began before the adventures of [[The Misfits]]; both had been associated with the paladin tradition of [[Heaven's Heart]].
