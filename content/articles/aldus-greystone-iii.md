@@ -1,8 +1,11 @@
 ---
 title: Aldus Greystone III
 subtitle: The Healer Who Feared the End
-summary: A celebrated healer of Avalor's founding generation whose quest to overcome death led to the Black Tower catastrophe—and whose later identity was Cid the Blood King.
+summary: A celebrated healer of Avalor's founding generation whose quest to
+  overcome death led to the Black Tower catastrophe—and whose later identity was
+  Cid the Blood King.
 category: People & Legends
+image: /assets/uploads/aldus-greystones-healing-light.png
 entry: BIO.033
 era: Founding Age to Age of the Misfits
 facts: |-
@@ -13,10 +16,10 @@ facts: |-
   Later identity: Cid the Blood King
   Mortal fate: Slain at the Black Tower
 related: the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,cid-the-blood-king,rynhold-park,great-library-aldus-greystone
-source: The Living Chronicle, Chapters III–IV and VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
+source: The Living Chronicle, Chapters III–IV and VI–VII; Compendium II ·
+  Entries II.001–II.002, public Scholar's Accounts
 featured: false
 ---
-
 ## The healer before the Blood King
 
 For much of Avalor's history, **Aldus Greystone III** was celebrated as one of the kingdom's greatest founding heroes. His name was associated with healing, scholarship, and the hope that suffering might one day be overcome. The discoveries made after the defeat of [[Cid the Blood King]] transformed that reputation, but they did not erase the man who existed before the catastrophe.
