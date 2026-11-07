@@ -1,16 +1,23 @@
 ---
-title: "Heureux"
-subtitle: "The Bard Who Remembered"
-summary: "A firbolg bard of the Misfits, descendant of Kelsalor, author of the fellowship's history, and founder of a school in Taveras."
+title: Heureux
+subtitle: The Bard Who Remembered
+summary: A firbolg bard of the Misfits, descendant of Kelsalor, author of the
+  fellowship's history, and founder of a school in Taveras.
 category: People & Legends
+image: /assets/uploads/boisterous-woodland-fey-celebration.png
 entry: BIO.025
-era: "Age of Ascendancy"
-facts: "Ancestry: Firbolg\nCalling: Bard\nFellowship: The Misfits\nAncestor: Kelsalor of the Six\nSchool: Bard academy in Taveras"
+era: Age of Ascendancy
+facts: |-
+  Ancestry: Firbolg
+  Calling: Bard
+  Fellowship: The Misfits
+  Ancestor: Kelsalor of the Six
+  School: Bard academy in Taveras
 related: the-misfits,kelsalor,heureuxs-bard-academy,zauks-false-lives,rotten-husk
-source: "The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, VI–VII (public record)"
+source: The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I,
+  VI–VII (public record)
 featured: false
 ---
-
 ## The sixth voice at the campfire
 
 **Heureux** was the firbolg bard who joined the company that became [[The Misfits]] during its investigation of a cult devoted to Gol’Goroth. He came to a fellowship whose members already had their own habits and loyalties, and helped give it the character by which it would later be remembered.
