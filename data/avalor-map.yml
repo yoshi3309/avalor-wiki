@@ -229,36 +229,39 @@ locations:
   - id: cove-city
     name: Cove City
     type: settlement
-    x: null
-    y: null
-    description: A port of Avalor connected to the King's Road and the kingdom's inland commercial routes.
+    x: 24
+    y: 54.026
+    description: A port of Avalor connected to the King's Road and the kingdom's
+      inland commercial routes.
     article: cove-city
-    published: false
+    published: true
     provisional: true
   - id: tinsel
     name: Tinsel
     type: settlement
-    x: null
-    y: null
-    description: A coastal port linked to the King's Road and the wider Avalorian trade network.
+    x: 27.04
+    y: 51.98
+    description: A coastal port linked to the King's Road and the wider Avalorian
+      trade network.
     article: tinsel
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: siesta-ford
     name: Siesta Ford
     type: settlement
-    x: null
-    y: null
+    x: 16.97
+    y: 74.8
     description: A coastal settlement known for prosperity, leisure, and retreat.
     article: siesta-ford
-    published: false
+    published: true
     provisional: true
   - id: stems-port
     name: Stems Port
     type: settlement
-    x: null
-    y: null
-    description: A freeport with distinct commercial privileges and local arrangements; not to be confused with disputed Karhold.
+    x: 21.05
+    y: 64.27
+    description: A freeport with distinct commercial privileges and local
+      arrangements; not to be confused with disputed Karhold.
     article: stems-port
     published: false
     provisional: true
