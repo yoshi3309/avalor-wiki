@@ -4,6 +4,7 @@ import re
 import sys
 import unicodedata
 import yaml
+from public_references import public_sources, INTERNAL_SOURCE
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "content" / "articles"
@@ -42,6 +43,11 @@ for path in files:
     if not isinstance(meta, dict) or not meta.get("title"):
         problems.append(f"{path.name}: missing title")
         continue
+    public_note = public_sources(meta.get("source"))
+    if INTERNAL_SOURCE.search(public_note):
+        problems.append(f"{path.name}: internal editorial source exposed to public")
+    if not public_note:
+        problems.append(f"{path.name}: public source display empty")
     entries[path.stem] = (meta, match.group(2))
     aliases[slugify(str(meta["title"]))] = path.stem
     aliases[slugify(path.stem)] = path.stem
