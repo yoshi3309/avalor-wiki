@@ -46,8 +46,8 @@ locations:
   - id: spine-of-the-world
     name: Spine of the World
     type: region
-    x: 27.2
-    y: 28
+    x: 31.22
+    y: 16.68
     description: The mountain range associated with Heaven's Heart and the ancient
       Black Tower.
     article: spine-of-the-world
@@ -163,18 +163,22 @@ locations:
   - id: wayword-sun
     name: Wayword Sun
     type: settlement
+    x: 52.49
+    y: 46.24
     description: Hunters Guild settlement within the Dead Marshes.
     article: wayword-sun
     published: true
-    provisional: true
+    provisional: false
   - id: black-tower
     name: The Black Tower
     type: historic
+    x: 23.78
+    y: 23.33
     description: The ruinous site of Aldus Greystone III's experiments within the
       Spine of the World.
     article: black-tower
     published: true
-    provisional: true
+    provisional: false
   - id: great-citadel
     name: The Great Citadel
     type: institution
@@ -186,10 +190,12 @@ locations:
   - id: lands-end
     name: Land's End
     type: settlement
+    x: 67.97
+    y: 35.02
     description: Fortified seat of the Northern March's sheriff, Sebastian Rubelda.
     article: lands-end
     published: true
-    provisional: true
+    provisional: false
   - id: karhold
     name: Karhold
     type: settlement
@@ -203,20 +209,26 @@ locations:
   - id: black-stair
     name: The Black Stair
     type: historic
+    x: 27.79
+    y: 29.76
     description: Difficult mountain approach near Heaven's Heart.
     article: black-stair
     published: true
-    provisional: true
+    provisional: false
   - id: lord-osmos-tower
     name: Lord Osmo's Tower
     type: historic
+    x: 47.12
+    y: 33.55
     description: A military landmark of the mortal conqueror who fell at Heroes Hill.
     article: lord-osmos-tower
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: great-fork-tower
     name: The Great Fork Tower
     type: institution
+    x: 41.08
+    y: 76.07
     description: Ancient defensive tower now used to train Avalor's standing army.
     article: great-fork-tower
     published: false
