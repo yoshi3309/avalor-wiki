@@ -1,16 +1,23 @@
 ---
-title: "Lowkee"
-subtitle: "The Paladin Who Gave Duty Its Purpose"
-summary: "A human paladin among the Six whose First Teaching established the enduring moral foundation of the Cathedral Paladins."
+title: Lowkee
+subtitle: The Paladin Who Gave Duty Its Purpose
+summary: A human paladin among the Six whose First Teaching established the
+  enduring moral foundation of the Cathedral Paladins.
 category: People & Legends
+image: /assets/uploads/golden-winged-lion-knight.png
 entry: BIO.004
-era: "Founding Age"
-facts: "Ancestry: Human\nCalling: Paladin\nFellowship: The Six\nFounded: Cathedral Paladins at Heaven's Heart\nLegacy: The First Teaching"
+era: Founding Age
+facts: |-
+  Ancestry: Human
+  Calling: Paladin
+  Fellowship: The Six
+  Founded: Cathedral Paladins at Heaven's Heart
+  Legacy: The First Teaching
 related: the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower
-source: "The Living Chronicle, Chapter III; Compendium I · I.004, public Scholar's Account; Compendium II · II.003, public Scholar's Account"
+source: The Living Chronicle, Chapter III; Compendium I · I.004, public
+  Scholar's Account; Compendium II · II.003, public Scholar's Account
 featured: false
 ---
-
 ## The strength to stand for others
 
 **Lowkee** was a human paladin among [[The Six]], the companions whose friendship and service helped shape Avalor's founding age. Closely associated with **Rynhold Frozenroar**, he took part in a generation that had seen divided kingdoms threatened by conquest and had learned that victory alone could not guarantee a just peace.
