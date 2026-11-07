@@ -1,16 +1,22 @@
 ---
-title: "Jaaris"
-subtitle: "The Necromancer Entangled with Fo’Gurn"
-summary: "A necromancer whose crimes and manipulation of Fo’Gurn were discovered after the dragonborn paladin's apparent death against a hydra."
+title: Jaaris
+subtitle: The Necromancer Entangled with Fo’Gurn
+summary: A necromancer whose crimes and manipulation of Fo’Gurn were discovered
+  after the dragonborn paladin's apparent death against a hydra.
 category: People & Legends
+image: /assets/uploads/horned-necromancer-with-ghostly-grimoire.png
 entry: BIO.031
-era: "Age of the Misfits"
-facts: "Calling: Necromancer\nLinked to: Fo’Gurn\nDistinct from: Necromancer of the first commission\nLater imitation: Zauks's remembered trials"
+era: Age of the Misfits
+facts: |-
+  Calling: Necromancer
+  Linked to: Fo’Gurn
+  Distinct from: Necromancer of the first commission
+  Later imitation: Zauks's remembered trials
 related: fo-gurn,fo-gurn-and-the-hydra,the-first-commission,the-misfits,zauks-false-lives
-source: "The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I, Section V (public events)"
+source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
+  Section V (public events)
 featured: false
 ---
-
 ## Two necromancers, not one
 
 **Jaaris** was a **necromancer** connected to the later fate of [[fo-gurn|Fo’Gurn]], the dragonborn paladin who was believed to have died while defending his companions against a hydra.
