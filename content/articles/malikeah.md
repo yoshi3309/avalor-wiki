@@ -1,16 +1,22 @@
 ---
-title: "Malikeah"
-subtitle: "Present Leader of the Hunters Guild"
-summary: "The current leader of the Hunters Guild, the organization founded by Faelynn at Wayword Sun to protect travelers and vulnerable settlements."
+title: Malikeah
+subtitle: Present Leader of the Hunters Guild
+summary: The current leader of the Hunters Guild, the organization founded by
+  Faelynn at Wayword Sun to protect travelers and vulnerable settlements.
 category: People & Legends
+image: /assets/uploads/battle-worn-ranger-in-the-wayward-sun.png
 entry: BIO.024
 era: Age of Ascendancy
-facts: "Position: Leader of the Hunters Guild\nInstitution: Hunters Guild\nGuild origin: Faelynn at Wayword Sun\nOperating region: Dead Marshes and dangerous country"
+facts: |-
+  Position: Leader of the Hunters Guild
+  Institution: Hunters Guild
+  Guild origin: Faelynn at Wayword Sun
+  Operating region: Dead Marshes and dangerous country
 related: hunters-guild,faelynn,wayword-sun,dead-marshes,the-six
-source: "Avalor Master Canon Bible Volume I, VII; Compendium II, Wayword Sun and Hunters Guild canon ledger"
+source: Avalor Master Canon Bible Volume I, VII; Compendium II, Wayword Sun and
+  Hunters Guild canon ledger
 featured: false
 ---
-
 ## The guild in the present age
 
 **Malikeah** leads [[The Hunters Guild]] in the present age of Avalor. The institution was founded by [[Faelynn]], the Night Mistress and a companion of [[The Six]], at [[Wayword Sun]] within the [[Dead Marshes]].
