@@ -1,16 +1,23 @@
 ---
-title: "Kelsalor"
-subtitle: "The Druid Who Guarded the Balance"
-summary: "A firbolg druid among the Six who understood the living world as a changing balance and sought to mediate the fellowship's division."
+title: Kelsalor
+subtitle: The Druid Who Guarded the Balance
+summary: A firbolg druid among the Six who understood the living world as a
+  changing balance and sought to mediate the fellowship's division.
 category: People & Legends
+image: /assets/uploads/kelsalor-druid-of-the-verdant-ruins.png
 entry: BIO.007
-era: "Founding Age"
-facts: "Ancestry: Firbolg\nCalling: Druid\nFellowship: The Six\nTradition: Stewardship of the living world\nDescendant: Heureux of the Misfits"
+era: Founding Age
+facts: |-
+  Ancestry: Firbolg
+  Calling: Druid
+  Fellowship: The Six
+  Tradition: Stewardship of the living world
+  Descendant: Heureux of the Misfits
 related: heureux,the-six,forest-of-the-fey,dead-marshes,petris
-source: "The Living Chronicle, Chapters III–IV and V; Compendium II · II.001 and II.003, public Scholar's Accounts"
+source: The Living Chronicle, Chapters III–IV and V; Compendium II · II.001 and
+  II.003, public Scholar's Accounts
 featured: false
 ---
-
 ## The world beyond a boundary stone
 
 **Kelsalor** was a firbolg druid among [[The Six]], remembered for a philosophy of the natural world that did not begin or end at the borders of Avalor.
