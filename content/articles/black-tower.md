@@ -6,13 +6,11 @@ summary: The mountain site where Aldus Greystone III’s forbidden work caused c
 category: Kingdoms & Places
 entry: LOC.010
 era: Founding Age to Age of Ascendancy
-facts: 'Region: Spine of the World
-
+facts: |-
+  Region: Spine of the World
   Associated figure: Aldus Greystone III
-
   Historic event: The Black Tower catastrophe
-
-  Access: Long restricted by the crown'
+  Access: Long restricted by the crown
 related: spine-of-the-world,the-six,jaznaar,great-desert
 source: Compendium II · Entry II.003, II–IV; The Living Chronicle, Chapter IV
 featured: false

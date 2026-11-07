@@ -5,13 +5,11 @@ summary: The feared entity whose downfall exposed one of Avalor’s most endurin
 category: People & Legends
 entry: HIS.004
 era: Age of Ascendancy
-facts: 'Known as: The Blood King
-
+facts: |-
+  Known as: The Blood King
   Former identity: Aldus Greystone III
-
   Defeated by: The Misfits
-
-  Realm of confrontation: Shadowfell'
+  Realm of confrontation: Shadowfell
 related: the-six,jaznaar,the-misfits,kingdom-of-avalor
 source: The Living Chronicle, Chapters IV–VII; Compendium II · Entry II.001
 featured: false

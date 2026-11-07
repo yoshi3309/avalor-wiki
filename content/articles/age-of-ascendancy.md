@@ -5,11 +5,10 @@ summary: The period of growing influence and renewed historical reckoning follow
 category: History & Chronicles
 entry: HIS.005
 era: Age of Ascendancy
-facts: 'Begins: Following Cid’s defeat
-
+facts: |-
+  Begins: Following Cid’s defeat
   Monarch: Gradvum Frozenroar
-
-  Distinguishing legacy: The vindication of Jaznaar'
+  Distinguishing legacy: The vindication of Jaznaar
 related: kingdom-of-avalor,the-misfits,lavitz-shawe,the-aegis
 source: The Living Chronicle, Chapter VII; Compendium II · Entry II.001
 featured: false

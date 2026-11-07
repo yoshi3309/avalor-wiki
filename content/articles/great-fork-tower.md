@@ -6,11 +6,10 @@ summary: An old defensive work associated with the First Men, now serving as a m
 category: Kingdoms & Places
 entry: LOC.017
 era: Ancient Era to Age of Ascendancy
-facts: 'Ancient association: Defense of the First Men
-
+facts: |-
+  Ancient association: Defense of the First Men
   Present role: Army training base
-
-  Authority: Crown of Avalor'
+  Authority: Crown of Avalor
 related: kingdom-of-avalor,lavitz-shawe,the-aegis,lands-end
 source: Compendium II · Entry II.003, XXIII; Entry II.001, VIII
 featured: false

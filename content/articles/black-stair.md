@@ -5,11 +5,10 @@ summary: A severe mountain approach familiar to pilgrims, merchants, and scholar
 category: Kingdoms & Places
 entry: LOC.015
 era: Founding Age to Age of Ascendancy
-facts: 'Setting: Approaches to the Spine of the World
-
-  Nearby sanctuary: Heaven''s Heart
-
-  Known for: Difficult ascent'
+facts: |-
+  Setting: Approaches to the Spine of the World
+  Nearby sanctuary: Heaven's Heart
+  Known for: Difficult ascent
 related: heavens-heart,spine-of-the-world,great-cathedral,the-six
 source: Compendium II · Entry II.003, VI; Entry II.001, XVIII
 featured: false

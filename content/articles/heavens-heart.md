@@ -5,11 +5,10 @@ summary: A religious and scholarly settlement beneath the Spine of the World, sh
 category: Kingdoms & Places
 entry: LOC.001
 era: Age of Ascendancy
-facts: 'Setting: Foot of the Spine of the World
-
+facts: |-
+  Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
-
-  Notable institution: Great Library of Aldus Greystone'
+  Notable institution: Great Library of Aldus Greystone
 related: cathedral-paladins,great-library-aldus-greystone,fo-gurn,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false

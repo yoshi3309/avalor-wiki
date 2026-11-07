@@ -6,13 +6,11 @@ summary: The royal residence and center of government raised during Avalor’s f
 category: Kingdoms & Places
 entry: LOC.011
 era: Founding Age to Age of Ascendancy
-facts: 'City: Renada
-
+facts: |-
+  City: Renada
   District: Crownrise
-
   Royal family: House Frozenroar
-
-  First royal building: Reign of Rynhold Frozenroar'
+  First royal building: Reign of Rynhold Frozenroar
 related: renada,king-gradvum-frozenroar,queen-melmiri,the-aegis
 source: Compendium II · Entry II.002, II–III; Entry II.001, XVIII
 featured: false

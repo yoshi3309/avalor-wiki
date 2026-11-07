@@ -6,13 +6,11 @@ summary: Renada’s chief institution honoring Tyr, Helm, and Torm, led by High 
 category: Kingdoms & Places
 entry: LOC.018
 era: Age of Ascendancy
-facts: 'City: Renada
-
+facts: |-
+  City: Renada
   District: Cathedral Ward
-
   Traditions: Tyr, Helm, and Torm
-
-  High Priest: Astronoph, female deva'
+  High Priest: Astronoph, female deva
 related: astronoph,cathedral-ward,threefold-devotion,samuel-the-devoted
 source: Compendium II · Entry II.003, XXIV; Entry II.001, XIV; Entry II.002, XI
 featured: false
