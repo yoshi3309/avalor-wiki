@@ -215,6 +215,57 @@ for a in PEOPLE_ITEMS:
     a['browse_groups'] = [group['id'] for group in PEOPLE_GROUPS if a['slug'] in group['slugs']]
 PEOPLE_FEATURED = PEOPLE_BY_SLUG.get(str(PEOPLE_NAV_CONFIG.get('featured', ''))) or PEOPLE_ITEMS[0]
 
+# Public-only collection navigation uses the same grouping principle as People & Legends.
+# These groups organize the existing records; they do not invent new lore or alter articles.
+COLLECTION_NAV = yaml.safe_load((ROOT / 'data' / 'collection-navigation.yml').read_text(encoding='utf-8'))
+COLLECTION_PAGES = {}
+for cat in CATEGORIES:
+    if cat['name'] == 'People & Legends':
+        continue
+    config = COLLECTION_NAV.get(cat['slug'])
+    if not isinstance(config, dict):
+        raise ValueError(f"Missing browse configuration for collection {cat['slug']}")
+    articles = [a for a in ALL if a['category'] == cat['name']]
+    by_slug = {a['slug']: a for a in articles}
+    featured_slug = str(config.get('featured') or '')
+    if featured_slug not in by_slug:
+        raise ValueError(f"Collection {cat['slug']} featured article is not in this collection: {featured_slug}")
+    seen_ids = set()
+    assigned = set()
+    groups = []
+    for raw in config.get('groups', []):
+        group_id = str(raw['id'])
+        if group_id in seen_ids or not re.fullmatch(r'[a-z0-9-]+', group_id):
+            raise ValueError(f"Invalid or duplicate group '{group_id}' for {cat['slug']}")
+        seen_ids.add(group_id)
+        slugs = raw.get('articles', [])
+        if len(slugs) != len(set(slugs)):
+            raise ValueError(f"Duplicate article in {cat['slug']} group {group_id}")
+        invalid = [slug for slug in slugs if slug not in by_slug]
+        if invalid:
+            raise ValueError(f"Nonexistent or cross-collection record(s) in {cat['slug']} group {group_id}: {invalid}")
+        assigned.update(slugs)
+        groups.append({
+            'id': group_id, 'title': raw['title'], 'eyebrow': raw['eyebrow'],
+            'description': raw['description'], 'icon': raw['icon'], 'slugs': list(slugs)
+        })
+    catchall = str(config.get('catchall') or '')
+    if catchall:
+        if catchall not in seen_ids:
+            raise ValueError(f"Missing catch-all group '{catchall}' in {cat['slug']}")
+        for group in groups:
+            if group['id'] == catchall:
+                group['slugs'] += sorted(set(by_slug) - assigned)
+    # Don't display an empty Other Places / Other Chronicles card until it has records.
+    groups = [group for group in groups if group['slugs']]
+    for group in groups:
+        group['count'] = len(group['slugs'])
+    for article in articles:
+        article['browse_groups'] = [group['id'] for group in groups if article['slug'] in group['slugs']]
+    if groups and any(not a['browse_groups'] for a in articles):
+        raise ValueError(f"Uncategorized article in collection {cat['slug']}")
+    COLLECTION_PAGES[cat['slug']] = {'config': config, 'groups': groups, 'featured': by_slug[featured_slug]}
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 def render(template,path,depth=0,**kwargs):
@@ -236,7 +287,8 @@ for cat in CATEGORIES:
     if cat['name'] == 'People & Legends':
         render('people.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset,people_groups=PEOPLE_GROUPS,people_featured=PEOPLE_FEATURED)
     else:
-        render('list.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset)
+        page = COLLECTION_PAGES[cat['slug']]
+        render('collection.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset,collection_slug=cat['slug'],nav_config=page['config'],groups=page['groups'],collection_featured=page['featured'])
 for a in ALL:
     category_slug=next(c['slug'] for c in CATEGORIES if c['name']==a['category'])
     related=[BY_SLUG[s] for s in a['related_slugs'] if s in BY_SLUG and s!=a['slug']][:4]
