@@ -13,7 +13,7 @@ facts: |-
   Fellowship: The Six
   Legacy: Compassion and renewal
   Descendant: Amara of the Misfits
-related: amara,the-six,faiths-and-gods-of-avalor,jaznaar
+related: amara,the-six,lathander-and-the-dawn,faiths-and-gods-of-avalor,jaznaar
 source: The Living Chronicle, Chapter III, especially Petris; Compendium I ·
   I.004, public Scholar's Account
 featured: false
