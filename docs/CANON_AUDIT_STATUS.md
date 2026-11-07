@@ -90,3 +90,30 @@ The CMS contains character portraits whose filenames/appearance may imply more t
 ### Publishing status
 
 The above corrections were committed to the `main` branch while Pages CMS artwork edits were also arriving. Deployment runs may remain queued; a commit is not evidence of successful publication until its build and deployment finish.
+
+## Aegis identities and public references — editorial review
+
+**Reviewed against:** the Aegis roster in the Master Canon Bible, Volume I, section VII; the public body of Compendium II, entry II.001, section VI; and its internal concordance section VII. The Aegis members' **names and current offices are confirmed**:
+
+| Member | Established office | Portrait suggests (not independently verified) |
+|---|---|---|
+| Belgram of Mountain Hall Clan | Third Hand, coordinating council offices | Dwarven king; clan affiliation does not prove royal status or exact ancestry |
+| Myxi Twinefoot | Golden Hand, finance | No unverified ancestry or rank added |
+| Katiri Tenderfoot | Silver Hand, official intelligence | Orc warrior; identity/physical appearance not established by Aegis text |
+| Rastrin Diltir | Warden of Order, internal order | Tortle magistrate; appearance and the precise judicial rank are not established |
+| Beldir Willowrun | Sentinel of the Seas, maritime counsel | Admiral; council office does not automatically confer naval rank |
+| Samuel | The Devoted, Tyr and Helm representative | **Aasimar**, per the user's superseding correction |
+| Lavitz Shawe | Lord Marshal, commander of Lion's Bane | **Drow**, present Oath of Devotion |
+| Tel'Lora Ebbenflow | High Wizard, eighth seat | **Male half-elf wizard** |
+
+**Action:** retain the creator's chosen portraits and current public biographical descriptions; **do not** infer species, royal status, or military command from image filenames. Belgram, Katiri, Rastrin, and Beldir remain open for author confirmation. This is a deliberate unresolved canon choice, not a failing validation check.
+
+### Public-facing source attribution fix
+
+- Added `public_references.py` so the built website displays suitable *Living Chronicle* and *Compendium* references without rendering private editorial labels such as `Master Canon Bible` and `canon ledger`.
+- Original `source:` metadata stays in the repository and Pages CMS for editorial provenance. This is **not** replaced by invented in-world evidence.
+- Articles with no attributable public reference receive the transparent message `Public historical attribution under review.`
+- The publishing test checks rendered source strings for internal labels and that the displayed attribution is nonempty.
+- Added an alias for the Royal Commission article so three existing linked references resolve to its proper page.
+
+**Limits:** These changes clean the *display* of source notes and confirm council roles. They do **not** independently establish every assertion in every article, nor do they establish the actual species/ranks of the four disputed portraits. Full line-by-line claim/source verification remains open.
