@@ -1,16 +1,23 @@
 ---
-title: "S’vendyal Shadowwhisper"
-subtitle: "Sven, the Iron Shadow"
-summary: "An eladrin of unusual grayscale appearance whose friendship with Lavitz and Tel'Lora endured after the Misfits' victory."
+title: S’vendyal Shadowwhisper
+subtitle: Sven, the Iron Shadow
+summary: An eladrin of unusual grayscale appearance whose friendship with Lavitz
+  and Tel'Lora endured after the Misfits' victory.
 category: People & Legends
+image: /assets/uploads/brooding-eladrin-scholar-in-a-candlelit-library.png
 entry: BIO.026
-era: "Age of Ascendancy"
-facts: "Known as: Sven\nEpithet: The Iron Shadow\nAncestry: Eladrin\nAppearance: Grayscale\nFellowship: The Misfits"
+era: Age of Ascendancy
+facts: |-
+  Known as: Sven
+  Epithet: The Iron Shadow
+  Ancestry: Eladrin
+  Appearance: Grayscale
+  Fellowship: The Misfits
 related: the-misfits,lavitz-shawe,tellora-ebbenflow,heureux,amara
-source: "The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, V–VI (public reputation)"
+source: The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, V–VI
+  (public reputation)
 featured: false
 ---
-
 ## S’vendyal of the Misfits
 
 **S’vendyal Shadowwhisper**, called **Sven**, was an **eladrin** among the original adventurers brought together by Avalor’s Lord Marshal. His striking grayscale appearance attracted attention, but his place in history arose from his choices rather than from the expectations others attached to his ancestry.
