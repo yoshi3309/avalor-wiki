@@ -4,6 +4,7 @@ import re
 import sys
 import unicodedata
 import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from public_references import public_sources, INTERNAL_SOURCE
 
 ROOT = Path(__file__).resolve().parent.parent
