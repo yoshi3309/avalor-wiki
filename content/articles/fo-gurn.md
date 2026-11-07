@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.028
 era: "Age of the Misfits"
 facts: "Ancestry: Dragonborn\nCalling: Paladin\nTraining: Heaven's Heart\nClose friend: Lavitz Shawe\nRemembered sacrifice: Hydra encounter"
-related: the-misfits,lavitz-shawe,heavens-heart,the-first-commission,tournament-of-champions
+related: fo-gurn-and-the-hydra,jaaris,lavitz-shawe,heavens-heart,tournament-of-champions
 source: "The Living Chronicle, Chapter VI, III and VIII–IX; Master Canon Bible Volume I, V (publicly attested portions)"
 featured: false
 ---

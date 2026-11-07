@@ -11,7 +11,7 @@ facts: 'Known for: Forge-quality steel
   Road: King’s Road
 
   Historic threat: The Stalker'
-related: jack-of-stanleyville,the-misfits,lavitz-shawe
+related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapter VI
 featured: false
 ---
@@ -26,7 +26,7 @@ Local traditions remember **Hjoldan**, a dwarven blacksmith associated with the 
 
 ## The Stalker's attack
 
-Stanleyville also entered the recent history of the kingdom through a series of mysterious deaths investigated by [[The Misfits]]. During those events, the creature remembered as **the Stalker** killed the preceding Lord Marshal. The town's industrial prosperity and its memories of that tragedy belong to the same history.
+Stanleyville also entered the recent history of the kingdom through a series of mysterious deaths investigated by [[The Misfits]]. During those events, the creature remembered as [[The Stalker of Stanleyville|the Stalker]] killed the preceding Lord Marshal. The town's industrial prosperity and its memories of that tragedy belong to the same history.
 
 ## Jack and the investigation
 

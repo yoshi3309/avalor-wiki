@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.029
 era: "Age of the Misfits"
 facts: "Home: Stanleyville\nNature: Conscious ghost\nCause of death: Concealed Fireball spell\nCompanions: The Misfits\nLater whereabouts: Unresolved in public record"
-related: stanleyville,the-misfits,heureux,cid-the-blood-king,zauks-false-lives
+related: stanleyville,the-stalker,the-misfits,cid-the-blood-king,zauks-false-lives
 source: "The Living Chronicle, Chapter VI, IV and IX; Master Canon Bible Volume I, V (public testimony)"
 featured: false
 ---

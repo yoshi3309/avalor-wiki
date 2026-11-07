@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.025
 era: "Age of Ascendancy"
 facts: "Ancestry: Firbolg\nCalling: Bard\nFellowship: The Misfits\nAncestor: Kelsalor of the Six\nSchool: Bard academy in Taveras"
-related: the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,royal-commission-historical-inquiry
+related: the-misfits,kelsalor,heureuxs-bard-academy,zauks-false-lives,rotten-husk
 source: "The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, VI–VII (public record)"
 featured: false
 ---

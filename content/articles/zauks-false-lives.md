@@ -6,14 +6,14 @@ category: History & Chronicles
 entry: HIS.007
 era: "Age of the Misfits"
 facts: "Adversary: Zauks, mind flayer\nMethod: Illusions drawn from remembered trials\nFinal snare: Convincing ideal lives\nRecorded clue: Owl associated with Amara\nResult: The Misfits escaped"
-related: the-misfits,amara,heureux,the-first-commission,jack-of-stanleyville
+related: moonville-manor,jaaris,the-stalker,noki-the-sheep,fo-gurn-and-the-hydra
 source: "The Living Chronicle, Chapter VI, VI; Master Canon Bible Volume I, V"
 featured: false
 ---
 
 ## Familiar danger turned against its survivors
 
-**Zauks**, a **mind flayer**, used the memories of [[The Misfits]] as material for a series of magical trials. They encountered imitations of dangers already faced during their adventures: Moonville Manor, the necromancer Jaaris, the Stalker, the cult of Gol’Goroth, Noki, the hydra, and other scenes associated with the companions' losses.
+**Zauks**, a **mind flayer**, used the memories of [[The Misfits]] as material for a series of magical trials. They encountered imitations of dangers already faced during their adventures: [[Moonville Manor]], the necromancer [[Jaaris]], [[The Stalker of Stanleyville|the Stalker]], [[The Cult of Gol’Goroth|the cult of Gol’Goroth]], [[Noki]], the [[Fo’Gurn and the Hydra|hydra]], and other scenes associated with the companions' losses.
 
 These were **not fresh occurrences of the original incidents**. They were manufactured ordeals shaped from memories.
 

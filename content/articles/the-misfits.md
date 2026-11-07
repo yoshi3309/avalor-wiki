@@ -10,7 +10,7 @@ facts: 'Known members: Lavitz, Tel’Lora, Heureux, Sven, Amara
   Defining event: Defeat of Cid
 
   Legacy: The Age of Ascendancy'
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville
+related: lavitz-shawe,tellora-ebbenflow,fo-gurn,jack-of-stanleyville,the-stalker,jaznaars-refuge,zauks-false-lives
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters VI–VII
 featured: true
 ---
@@ -32,3 +32,7 @@ King Gradvum's government entered an era of growing influence now known as the *
 Lavitz became **Lord Marshal**, while Tel'Lora was appointed **High Wizard** and revived Shamman’s Tower as a center of arcane learning. [[Heureux]] continued traveling, published the history of the fellowship, and established an academy of bardic teaching in Taveras. [[svendyal-shadowwhisper|Sven]] remained elusive while retaining his close friendships, and [[Amara]] continued her journeys in service of the natural world.
 
 Theirs is not merely a story of five individuals who overcame a terrible enemy. It is the story of a kingdom learning how to live with the truth their victory uncovered.
+
+## The adventures recorded elsewhere
+
+The Royal Archives preserve individual accounts of [[Moonville Manor]], [[The Liberation of the Rotten Husk]], [[The Cult of Gol’Goroth]], and [[The Stalker of Stanleyville]]. The companions' unusual travels included [[Noki]] and [[The Ripped Beard]]. Their losses are remembered in [[Fo’Gurn and the Hydra]] and the affair of [[Jaaris]]. Their later journey brought them to [[Jaznaar’s Hidden Refuge]] and [[Jinlin Vechon and the Wrath of Innocent]]. These separate records distinguish the original encounters from the imitations created by Zauks.
