@@ -32,7 +32,7 @@ The correction does more than restore one biography. It asks how an entire kingd
 
 Jaznaar belonged to the fellowship of [[Aldus Greystone III]], [[Lowkee]], [[Faelynn]], [[Petris]], and [[Kelsalor]]. Like the others, his life became associated with Avalor's earliest struggles and the years that followed its founding.
 
-He was close to [[Rynhold Frozenroar|Rynhold Frozenroar]] and trusted by his companions. His command of arcane knowledge could answer threats that ordinary arms or authority could not. The historical record describes him as powerful, independent, and sometimes secretive; it does not preserve every spell he knew or the source of all his knowledge.
+He was close to Rynhold Frozenroar and trusted by his companions. His command of arcane knowledge could answer threats that ordinary arms or authority could not. The historical record describes him as powerful, independent, and sometimes secretive; it does not preserve every spell he knew or the source of all his knowledge.
 
 **His precise magical class remains unresolved.** Some surviving accounts call him a wizard and others a sorcerer. The Royal Commission therefore identifies him as a *spellcaster* rather than presenting a later preference as established fact.
 
