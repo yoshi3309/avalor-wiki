@@ -2,8 +2,8 @@
 title: "The Great Library of Aldus Greystone"
 subtitle: "Keeper of the Kingdom's Corrected History"
 summary: "The historic library at Heaven's Heart that preserves scholarship and the records through which Avalor has confronted its false founding legends."
-category: Organizations & Factions
-entry: ORG.004
+category: Kingdoms & Places
+entry: LOC.030
 era: "Age of Ascendancy"
 facts: "Location: Heaven's Heart\nAssociation: Aldus Greystone III\nPurpose: Historical and theological learning\nCollection: Original inscription from Rynhold Park\nName: Preserved despite the corrected history"
 related: heavens-heart,royal-commission-historical-inquiry,rynhold-park,jaznaar
