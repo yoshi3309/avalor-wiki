@@ -1,8 +1,10 @@
 ---
 title: The Six
 subtitle: Companions of the Founding Age
-summary: Six friends of differing callings who helped shape the early kingdom, then faced the impossible choice of stopping one of their own.
+summary: Six friends of differing callings who helped shape the early kingdom,
+  then faced the impossible choice of stopping one of their own.
 category: People & Legends
+image: /assets/uploads/the-six-beneath-golden-ruins.png
 entry: HIS.003
 era: Founding Age
 facts: |-
@@ -15,7 +17,6 @@ related: aldus-greystone-iii,lowkee,faelynn,petris,kelsalor,jaznaar,sundering-of
 source: The Living Chronicle, Chapters II–IV, public historical account
 featured: false
 ---
-
 ## Six names at the beginning
 
 **[[Aldus Greystone III]]. [[Lowkee]]. [[Faelynn]]. [[Petris]]. [[Kelsalor]]. [[Jaznaar]].**
