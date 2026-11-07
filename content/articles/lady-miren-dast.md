@@ -1,16 +1,23 @@
 ---
-title: "Lady Miren Dast"
-subtitle: "Royal Archivist and Chair of the Commission"
-summary: "Royal Archivist of Renada and chair of the Royal Commission of Historical Inquiry, responsible for preserving evidence and acknowledging the limits of the historical record."
+title: Lady Miren Dast
+subtitle: Royal Archivist and Chair of the Commission
+summary: Royal Archivist of Renada and chair of the Royal Commission of
+  Historical Inquiry, responsible for preserving evidence and acknowledging the
+  limits of the historical record.
 category: People & Legends
+image: /assets/uploads/dwarven-scholar-in-a-candlelit-study.png
 entry: BIO.021
 era: Age of Ascendancy
-facts: "Office: Royal Archivist of Renada\nCommission: Chair\nPublication: The Living Chronicle\nColleagues: Brother Halden Korr and Professor Xiomara Thal"
+facts: |-
+  Office: Royal Archivist of Renada
+  Commission: Chair
+  Publication: The Living Chronicle
+  Colleagues: Brother Halden Korr and Professor Xiomara Thal
 related: royal-commission-historical-inquiry,professor-xiomara-thal,brother-halden-korr,rynhold-park,renada
-source: "The Living Chronicle, Preface and contributor list; Compendium II, Rynhold Park and public Commission commentary"
+source: The Living Chronicle, Preface and contributor list; Compendium II,
+  Rynhold Park and public Commission commentary
 featured: false
 ---
-
 ## The keeper of a kingdom's difficult memory
 
 **Lady Miren Dast** serves as **Royal Archivist of Renada** and chair of the [[Royal Commission of Historical Inquiry]]. Under her editorial direction, the Commission has assembled *The Living Chronicle*, a history that seeks to distinguish authenticated evidence, inherited tradition, and later interpretation.
