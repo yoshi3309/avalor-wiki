@@ -1,0 +1,48 @@
+---
+title: "The Hunters Guild"
+subtitle: "Guardians Beyond the Royal Roads"
+summary: "Founded by Faelynn at Wayword Sun, the guild protects travelers and threatened settlements in dangerous country beyond easy reach of royal patrols."
+category: Organizations & Factions
+entry: ORG.002
+era: "Founding Age to Age of Ascendancy"
+facts: "Founded by: Faelynn, the Night Mistress\nEstablished at: Wayword Sun\nRegion: Dead Marshes\nCalling: Protection of travelers and vulnerable settlements\nLegacy: Founded during the early kingdom"
+related: faelynn,wayword-sun,dead-marshes,the-six,cathedral-paladins
+source: "The Living Chronicle, Chapters II–III and V; Compendium II · II.003, public Scholar's Account"
+featured: false
+---
+
+## Protection where armies cannot easily go
+
+**The Hunters Guild** was founded by [[Faelynn]], the wood elf ranger known as the Night Mistress and a member of [[The Six]]. Its enduring seat is associated with [[Wayword Sun]] in the [[Dead Marshes]].
+
+The marshes do not offer the dependable roads, clear fields of vision, or ready garrisons familiar to settled parts of Avalor. Their shifting routes and dangers can leave a traveler or isolated community beyond the reach of ordinary royal protection.
+
+The guild arose to answer that need.
+
+## The founder's difficult history
+
+Faelynn had suffered a fiend's deception that brought down a village's protections and preceded the massacre of its inhabitants. She eventually destroyed the fiend, yet could not undo the tragedy.
+
+A later founding story might make the Hunters Guild the simple fulfillment of a vow of redemption. The surviving records do not establish the entirety of Faelynn's private motives. What they do establish is her decision to give lasting form to skills that could safeguard others.
+
+The guild's existence therefore matters independently of the conclusions storytellers draw about her grief.
+
+## The craft of a hunter
+
+The work requires more than the pursuit of dangerous creatures. A hunter must read terrain, know when a path has become unsafe, judge a threat before it reaches a village, and decide whom the guild's protection ought to include.
+
+The needs of a poor settlement do not become less urgent because its messenger lacks influence. Neither do the needs of a lone traveler become unimportant because no captain knows their name.
+
+These responsibilities place the guild beside other enduring traditions of public service, including [[The Cathedral Paladins]], though the two institutions have different origins and methods.
+
+## The marshes and the kingdom
+
+The Dead Marshes had already suffered during the founding wars before the catastrophe at the Black Tower deepened their dangers. The survival of dangerous country over centuries explains why the Hunters Guild's purpose could not end with the adventures of its founder.
+
+Its hunters protect communities in a landscape whose hazards do not respect the kingdom's administrative borders. Royal patrols and soldiers have their own duties; the guild performs a service they cannot always provide.
+
+## A living institution, not a finished legend
+
+The public sources preserve the foundation and purpose of the guild, but do not supply a complete current rank structure, a fixed schedule of deployments, or a verified catalogue of every hunt.
+
+Rather than invent those details, the Royal Commission records what is certain: the guild was founded for the defense of people exposed to danger, and that work remains meaningful long after Faelynn's lifetime.
