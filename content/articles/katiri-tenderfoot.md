@@ -1,16 +1,22 @@
 ---
-title: "Katiri Tenderfoot"
-subtitle: "The Silver Hand"
-summary: "The Silver Hand of the Aegis, responsible for official intelligence and the careful assessment of information offered to the crown."
+title: Katiri Tenderfoot
+subtitle: The Silver Hand
+summary: The Silver Hand of the Aegis, responsible for official intelligence and
+  the careful assessment of information offered to the crown.
 category: People & Legends
+image: /assets/uploads/orc-warrior-overlooking-the-golden-citadel.png
 entry: BIO.018
 era: Age of Ascendancy
-facts: "Office: Silver Hand\nCouncil: The Aegis\nResponsibility: Official intelligence\nGovernment: Crown of Avalor"
+facts: |-
+  Office: Silver Hand
+  Council: The Aegis
+  Responsibility: Official intelligence
+  Government: Crown of Avalor
 related: the-aegis,rastrin-diltir,samuel-the-devoted,royal-commission-historical-inquiry
-source: "Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII (public institutional record)"
+source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
+  (public institutional record)
 featured: false
 ---
-
 ## Reports brought before the crown
 
 **Katiri Tenderfoot** holds the office of **Silver Hand** on [[The Aegis]]. It is the kingdom's established office of **official intelligence**, supplying information and judgment to those entrusted with decisions of state.
