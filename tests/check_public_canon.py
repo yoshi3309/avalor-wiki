@@ -26,7 +26,18 @@ for path in files:
     if not match:
         problems.append(f"{path.name}: no YAML front matter")
         continue
-    meta = yaml.safe_load(match.group(1))
+    # Pages CMS rejects a multi-line quoted YAML scalar even if PyYAML accepts
+    # the folded representation. Require quoted values to close on their line
+    # or use a YAML block scalar (| or >) for multi-line facts.
+    for lineno, line in enumerate(match.group(1).splitlines(), 2):
+        opening = re.match(r"^[A-Za-z_][A-Za-z0-9_]*:\\s*(['\\"])(.*)$", line)
+        if opening and not opening.group(2).rstrip().endswith(opening.group(1)):
+            problems.append(f"{path.name}:{lineno}: quoted frontmatter value spans lines; use YAML block scalar")
+    try:
+        meta = yaml.safe_load(match.group(1))
+    except yaml.YAMLError as e:
+        problems.append(f"{path.name}: invalid YAML frontmatter: {e}")
+        continue
     if not isinstance(meta, dict) or not meta.get("title"):
         problems.append(f"{path.name}: missing title")
         continue

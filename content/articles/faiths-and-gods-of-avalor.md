@@ -5,9 +5,10 @@ summary: The temples, teachings, and daily customs through which the peoples of 
 category: Faith, Magic & Cosmology
 entry: I.004
 era: Age of Ascendancy
-facts: 'Principal cathedral: The Great Cathedral, Renada
-Threefold devotion: Tyr, Helm, Torm
-Notable traditions: Lathander, Corellon, Moradin, Eilistraee'
+facts: |-
+  Principal cathedral: The Great Cathedral, Renada
+  Threefold devotion: Tyr, Helm, Torm
+  Notable traditions: Lathander, Corellon, Moradin, Eilistraee
 related: threefold-devotion,cathedral-paladins,great-cathedral,petris
 source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II · Entry II.001
 featured: false
