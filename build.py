@@ -91,6 +91,32 @@ def wikilink_sub(match, relative_root):
     if slug:return f'[{label}]({relative_root}articles/{slug}/)'
     return label
 
+def render_fact_value(value):
+    """Safely link fact values that name an article; allow explicit [[Article|label]].
+    Facts are public editorial metadata, not Markdown or trusted HTML.
+    """
+    raw = str(value).strip()
+    if '[[' not in raw:
+        slug = ALIAS.get(slugify(raw))
+        if slug in BY_SLUG:
+            return f'<a href="../../articles/{slug}/">{html.escape(raw)}</a>'
+        return html.escape(raw)
+    parts = []
+    position = 0
+    for match in re.finditer(r'\[\[([^\]]+)\]\]', raw):
+        parts.append(html.escape(raw[position:match.start()]))
+        target, separator, label = match.group(1).partition('|')
+        if not separator:
+            label = target
+        slug = ALIAS.get(slugify(target))
+        if slug in BY_SLUG:
+            parts.append(f'<a href="../../articles/{slug}/">{html.escape(label)}</a>')
+        else:
+            parts.append(html.escape(label))
+        position = match.end()
+    parts.append(html.escape(raw[position:]))
+    return ''.join(parts)
+
 def make_html(article):
     rel='../../'
     md = re.sub(r'\[\[([^\]]+)\]\]',lambda m:wikilink_sub(m,rel),article['body'])
@@ -114,6 +140,8 @@ def make_html(article):
         article['image_url']=rel+image_raw
     else:
         article['image_url']=None
+    for fact in article['facts_parsed']:
+        fact['value_html'] = render_fact_value(fact['value'])
     article['html']=rendered; article['headings']=headings
     return article
 ALL=[make_html(a) for a in ALL]
@@ -291,7 +319,12 @@ for cat in CATEGORIES:
         render('collection.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset,collection_slug=cat['slug'],nav_config=page['config'],groups=page['groups'],collection_featured=page['featured'])
 for a in ALL:
     category_slug=next(c['slug'] for c in CATEGORIES if c['name']==a['category'])
-    related=[BY_SLUG[s] for s in a['related_slugs'] if s in BY_SLUG and s!=a['slug']][:4]
+    related=[]
+    related_seen=set()
+    for related_slug in a['related_slugs']:
+        if related_slug in BY_SLUG and related_slug != a['slug'] and related_slug not in related_seen:
+            related.append(BY_SLUG[related_slug])
+            related_seen.add(related_slug)
     render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']))
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
