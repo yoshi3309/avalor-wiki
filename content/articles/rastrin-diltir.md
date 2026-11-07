@@ -1,16 +1,22 @@
 ---
-title: "Rastrin Diltir"
-subtitle: "The Warden of Order"
-summary: "The Aegis councilor occupying the Warden of Order's seat, which concerns the preservation of internal order without sacrificing justice."
+title: Rastrin Diltir
+subtitle: The Warden of Order
+summary: The Aegis councilor occupying the Warden of Order's seat, which
+  concerns the preservation of internal order without sacrificing justice.
 category: People & Legends
+image: /assets/uploads/tortle-magistrate-in-the-grand-hall.png
 entry: BIO.019
 era: Age of Ascendancy
-facts: "Office: Warden of Order\nCouncil: The Aegis\nResponsibility: Internal order\nGovernment: Crown of Avalor"
+facts: |-
+  Office: Warden of Order
+  Council: The Aegis
+  Responsibility: Internal order
+  Government: Crown of Avalor
 related: the-aegis,katiri-tenderfoot,kingdom-of-avalor,four-sheriffdoms
-source: "Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII (public institutional record)"
+source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
+  (public institutional record)
 featured: false
 ---
-
 ## Keeping the realm at peace
 
 **Rastrin Diltir** serves as the **Warden of Order** on [[The Aegis]]. This office concerns the maintenance of **internal order** within Avalor, a realm containing cities, ports, rural communities, and settlements governed under longstanding agreements.
