@@ -1,16 +1,22 @@
 ---
-title: "Beldir Willowrun"
-subtitle: "The Sentinel of the Seas"
-summary: "A member of the Aegis serving as Sentinel of the Seas, advising on the coastal and maritime responsibilities of Avalor."
+title: Beldir Willowrun
+subtitle: The Sentinel of the Seas
+summary: A member of the Aegis serving as Sentinel of the Seas, advising on the
+  coastal and maritime responsibilities of Avalor.
 category: People & Legends
+image: /assets/uploads/dignified-lion-emblemed-admiral-overlooking-the-harbor.png
 entry: BIO.020
 era: Age of Ascendancy
-facts: "Office: Sentinel of the Seas\nCouncil: The Aegis\nResponsibility: Maritime affairs\nGovernment: Crown of Avalor"
+facts: |-
+  Office: Sentinel of the Seas
+  Council: The Aegis
+  Responsibility: Maritime affairs
+  Government: Crown of Avalor
 related: the-aegis,cove-city,stems-port,cassian-veyran,karhold
-source: "Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII (public institutional record)"
+source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
+  (public institutional record)
 featured: false
 ---
-
 ## The kingdom beyond its shoreline
 
 **Beldir Willowrun** serves on [[The Aegis]] as the **Sentinel of the Seas**, a post responsible for bringing maritime concerns into the sovereign's council.
