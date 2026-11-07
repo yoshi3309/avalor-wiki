@@ -11,7 +11,7 @@ facts: 'Known for: Forge-quality steel
   Road: King’s Road
 
   Historic threat: The Stalker'
-related: kingdom-of-avalor,the-misfits,lavitz-shawe
+related: jack-of-stanleyville,the-misfits,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapter VI
 featured: false
 ---
@@ -27,3 +27,7 @@ Local traditions remember **Hjoldan**, a dwarven blacksmith associated with the 
 ## The Stalker's attack
 
 Stanleyville also entered the recent history of the kingdom through a series of mysterious deaths investigated by [[The Misfits]]. During those events, the creature remembered as **the Stalker** killed the preceding Lord Marshal. The town's industrial prosperity and its memories of that tragedy belong to the same history.
+
+## Jack and the investigation
+
+Among the victims was [[Jack of Stanleyville]], a child killed when he read a Fireball spell concealed in a manuscript sold to his family by Cid in disguise. Jack's conscious ghost befriended the Misfits and traveled with them after they departed the town.

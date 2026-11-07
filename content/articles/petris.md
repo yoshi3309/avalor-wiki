@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.006
 era: "Founding Age"
 facts: "Ancestry: Elf\nCalling: Cleric of Lathander\nFellowship: The Six\nLegacy: Compassion and renewal\nDescendant: Amara of the Misfits"
-related: the-six,faiths-and-gods-of-avalor,threefold-devotion,jaznaar,the-misfits
+related: amara,the-six,faiths-and-gods-of-avalor,jaznaar
 source: "The Living Chronicle, Chapter III, especially Petris; Compendium I · I.004, public Scholar's Account"
 featured: false
 ---
@@ -37,7 +37,7 @@ Petris's compassion should not be mistaken for approval of cruelty. The division
 
 ## A peaceful ending and a distant descendant
 
-Petris is recorded as having **died peacefully**, leaving a legacy of service carried through her descendants. Nearly two thousand years later, **Amara**, one of [[The Misfits]], would belong to that family line.
+Petris is recorded as having **died peacefully**, leaving a legacy of service carried through her descendants. Nearly two thousand years later, [[Amara]], one of [[The Misfits]], would belong to that family line.
 
 The two women lived in different ages and faced different dangers. Their connection nonetheless reminds the reader that the founding generation left inheritances beyond royal decrees and monuments.
 

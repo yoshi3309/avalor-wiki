@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.007
 era: "Founding Age"
 facts: "Ancestry: Firbolg\nCalling: Druid\nFellowship: The Six\nTradition: Stewardship of the living world\nDescendant: Heureux of the Misfits"
-related: the-six,forest-of-the-fey,dead-marshes,petris,the-misfits
+related: heureux,the-six,forest-of-the-fey,dead-marshes,petris
 source: "The Living Chronicle, Chapters III–IV and V; Compendium II · II.001 and II.003, public Scholar's Accounts"
 featured: false
 ---
@@ -39,6 +39,6 @@ His belief in balance did not make him indifferent to cruelty. It made him reluc
 
 Kelsalor traveled widely. Unlike Lowkee, whose teaching became associated with a lasting order at [[Heaven's Heart]], he left much of his inheritance in the places he protected and the traditions he passed to others.
 
-His descendants carried that inheritance forward. Among them was **Heureux**, the firbolg bard who became a member of [[The Misfits]] in the Age of Ascendancy.
+His descendants carried that inheritance forward. Among them was [[Heureux]], the firbolg bard who became a member of [[The Misfits]] in the Age of Ascendancy.
 
 The passage of time altered the forms of their service. It did not erase the possibility that attention to the lives of others might survive across centuries.

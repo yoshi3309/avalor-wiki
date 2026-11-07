@@ -10,7 +10,7 @@ facts: 'Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
 
   Notable institution: Great Library of Aldus Greystone'
-related: cathedral-paladins,great-library-aldus-greystone,brother-halden-korr,lowkee
+related: cathedral-paladins,great-library-aldus-greystone,fo-gurn,lavitz-shawe
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false
 ---
@@ -34,3 +34,8 @@ The nearby [[The Black Stair]] marks one of the region's notable approaches towa
 ## Sister institutions of the faith
 
 The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The Great Cathedral]] in [[Cathedral Ward]], Renada, though the two institutions serve distinct communities and duties.
+
+
+## Companions who trained here
+
+Before their journeys with the Misfits, [[Lavitz Shawe]] and [[fo-gurn|Fo’Gurn]] shared an enduring friendship associated with training at Heaven's Heart. Fo’Gurn's later sacrifice against a hydra became an important part of the fellowship's public memory.

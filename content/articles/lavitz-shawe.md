@@ -13,7 +13,7 @@ facts: |-
   Council: The Aegis
   Commands: Lion’s Bane royal guard
   Origin: The Mudsteps, Renada
-related: lions-bane,the-misfits,the-aegis,heavens-heart,cathedral-paladins
+related: fo-gurn,the-misfits,lions-bane,the-aegis,heavens-heart
 source: Compendium II · Entries II.001–II.002; The Living Chronicle
 featured: true
 ---
@@ -36,3 +36,8 @@ His public honor has helped alter Avalor's understanding of who may serve the ki
 ## The training of the kingdom's defenders
 
 The work of command extends beyond the royal guard. Avalor's standing army also trains at the ancient [[Great Fork Tower]], where the disciplines required of ordinary soldiers support the wider military responsibilities of the crown.
+
+
+## A friend before the Misfits
+
+[[fo-gurn|Fo’Gurn]], a dragonborn paladin, was Lavitz's close friend from the years associated with Heaven's Heart. His choice to remain behind before a hydra so the company could escape became a defining loss for Lavitz and the other companions. Later testimony concerning Fo’Gurn's fate is not uniformly understood in the public record.

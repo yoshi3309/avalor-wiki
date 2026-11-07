@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.009
 era: Age of Ascendancy
 facts: "Chair: Lady Miren Dast\nContributors: Brother Halden Korr; Professor Xiomara Thal\nPrincipal work: The Living Chronicle\nPurpose: Historical inquiry and correction of the public record"
-related: lady-miren-dast,professor-xiomara-thal,brother-halden-korr,jaznaar,great-library-aldus-greystone
+related: lady-miren-dast,professor-xiomara-thal,brother-halden-korr,heureux,great-library-aldus-greystone
 source: "The Living Chronicle, Preface and contributor list; Compendium II, public historical commentary"
 featured: false
 ---
@@ -46,3 +46,8 @@ The disagreement over what should stand, what should be preserved, and what shou
 History is not owned by the crown or by its chroniclers. It belongs also to the people whose lives were shaped by the policies, beliefs, and misjudgments of earlier generations.
 
 The Royal Commission's most important obligation is to make its findings useful to those who now inhabit Avalor—and answerable to those who may discover better evidence in the future.
+
+
+## The bard's published testimony
+
+[[Heureux]], who traveled with the Misfits and later wrote their history, is a crucial firsthand source for the period. The Commission distinguishes his participant testimony from independent corroboration; affection for one's friends neither invalidates a witness nor makes the witness infallible.

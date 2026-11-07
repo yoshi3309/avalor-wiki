@@ -6,7 +6,7 @@ category: People & Legends
 entry: BIO.010
 era: "Age of Ascendancy"
 facts: "Office: Queen of Avalor\nConsort: King Gradvum Frozenroar\nAncestry: Northern Desert Tribes\nFounded: Dina Hyanda\nGriffin: Dune Rakka\nScimitar: Darkheart"
-related: king-gradvum-frozenroar,dina-hyanda,kingdom-of-avalor,the-aegis,great-desert
+related: king-gradvum-frozenroar,tournament-of-champions,dina-hyanda,the-misfits
 source: "Compendium II · Entry II.001, IV–V and VIII; Avalor Master Canon Bible, VII; The Living Chronicle, Chapter VI"
 featured: false
 ---
@@ -41,7 +41,7 @@ Melmiri's influence cannot be measured solely through her mount or weapon.
 
 ## The Tournament and the rescue
 
-During the **Tournament of Champions**, Cid the Blood King seized Queen Melmiri. [[The Misfits]] pursued him to the Shadowfell, where they fought to free her and brought his immediate threat to an end.
+During [[The Tournament of Champions]], Cid the Blood King seized Queen Melmiri. [[The Misfits]] pursued him to the Shadowfell, where they fought to free her and brought his immediate threat to an end.
 
 The rescue became a defining event in the stories told about the age. It remains only one chapter of her public life. The queen returned to the demands of government in a realm whose history had been permanently altered by the revelation of Cid's true identity.
 
