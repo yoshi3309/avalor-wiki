@@ -9,7 +9,7 @@ facts: |-
   Principal cathedral: The Great Cathedral, Renada
   Threefold devotion: Tyr, Helm, Torm
   Notable traditions: Lathander, Corellon, Moradin, Eilistraee
-related: threefold-devotion,cathedral-paladins,great-cathedral,petris
+related: threefold-devotion,lathander-and-the-dawn,the-sacred-balance,the-faiths-of-families-and-peoples,cathedral-paladins,great-cathedral,petris
 source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II · Entry II.001
 featured: false
 ---
@@ -26,11 +26,15 @@ At [[Heaven's Heart]], the [[The Cathedral Paladins|paladin traditions]] founded
 
 ## Dawn, craft, and song
 
-Worship of **Lathander** is associated with renewal and new beginnings. In some communities, the custom called the **First Loaf** sets aside food at dawn for neighbors who might otherwise go hungry. The memory of [[Petris]], one of [[The Six]], remains closely associated with such compassionate service.
+Worship of [[Lathander and the Devotion of the Dawn|Lathander]] is associated with renewal and new beginnings. In some communities, the custom called the **First Loaf** sets aside food at dawn for neighbors who might otherwise go hungry. The memory of [[Petris]], one of [[The Six]], remains closely associated with such compassionate service.
 
-Some elven communities honor **Corellon** through art and ceremonies connected with beauty and creation. Certain dwarven families call upon **Moradin** at the forge and in traditions of patient craft. Devotion to **Eilistraee** survives within some drow communities through gathering, song, and teachings concerned with freedom and self-determination.
+As explored in [[The Faiths of Families and Peoples]], some elven communities honor **Corellon** through art and ceremonies connected with beauty and creation. Certain dwarven families call upon **Moradin** at the forge and in traditions of patient craft. Devotion to **Eilistraee** survives within some drow communities through gathering, song, and teachings concerned with freedom and self-determination.
 
 These traditions cannot be assigned to every member of any ancestry. Avalorian families may inherit several forms of devotion, observe different rites, or share faiths with neighbors of very different backgrounds.
+
+## Sacred balance and the living world
+
+Some Avalorians understand spiritual duty through the cycles of nature rather than worship of a single named deity. [[The Sacred Balance]] describes the druidic tradition exemplified by [[Kelsalor]], who regarded care for living systems as a responsibility shared across generations.
 
 ## Faith and the life of the realm
 
