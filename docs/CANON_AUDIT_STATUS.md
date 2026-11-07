@@ -117,3 +117,37 @@ The above corrections were committed to the `main` branch while Pages CMS artwor
 - Added an alias for the Royal Commission article so three existing linked references resolve to its proper page.
 
 **Limits:** These changes clean the *display* of source notes and confirm council roles. They do **not** independently establish every assertion in every article, nor do they establish the actual species/ranks of the four disputed portraits. Full line-by-line claim/source verification remains open.
+
+## Frozenroar dynastic chronology and pedigree — verified register pass
+
+**Primary public source:** *The Living Chronicle*, Chapter V, Appendix: **The Frozenroar Royal Register**, **A Partial Pedigree of House Frozenroar**, and **A Chronology of the Lion**. Cross-checked against the public historical record in Compendium Volume II, Entry II.001, Section IV, and the Master Canon Bible's continuity notes. The Chronicle's appendices are the source for the precise reign-year list.
+
+### Verified succession facts
+
+- The later public histories identify **34 sovereigns** from **Rynhold (1–37 AF)** through **Gradvum (1983 AF–present)**, with consecutive reign entries. The older Master Canon Bible's note that an earlier account called Gradvum the *seventh* Frozenroar king is a **superseded unresolved source discrepancy**, not authority to discard 27 named rulers.
+- The earliest verified familial links in the published partial pedigree: **Benedikt → Aldara** (father to daughter); **Aldara → Dietmar** (mother to son). **Rynhold and Benedikt's parentage is not established**.
+- **Dietmar → Halton** is established as succession by his acknowledged heir, **not confirmed parentage**. **Halton and Dathyra Blueshadow** were the parents of **Sylavor**.
+- **Sylavor → Arelis** and **Wolfram → Ysoria** are successions following abdication, with parentage/precise kinship **unrecorded**.
+- **Elyra and Corven** were twins, **Elyra born first**. **Torenna** was Elyra's daughter. Corven was **spared** after renouncing his claim, rather than executed.
+- **Crown Prince Alaric** was the elder brother of **Orrec**, and died before accession; Alaric is **not** an additional reigning sovereign.
+- Present royal children confirmed: **Theodric** (eldest son and heir), **Leontes** (younger son), and **Vivienne** (daughter).
+
+### Chronology checked and reflected in public site
+
+- Avalor founded **1 AF**. The battle at Heroes Hill occurred in the founding era; its exact independent date is **open**.
+- The Black Tower catastrophe is **approximately 10 AF**, not a precisely authenticated year.
+- Elven Concord during **Dietmar (107–155 AF)**; strengthened by Halton's later marriage. This **Elven Concord** is not Torenna's later **Concord of the Two Lions**.
+- Sylavor abdicated **298 AF**; Arelis began reign **299 AF**.
+- Elyra reigned **857–893 AF**. War of the Two Lions lasted **890–893 AF**. Elyra died of illness in **893 AF**, not assassination; Torenna formally reigned from **894 AF**. The succession transition should not be misdated to the start of the war.
+- Arnaud reigned **1259–1315 AF**. Reina **1316–1402 AF** reversed additional discriminatory laws against drow communities, but did not eliminate prejudice. Sanctuary at Heaven's Heart did **not** become a general war between the crown and the paladins.
+- Wolfram reigned **1462–1511 AF** and voluntarily abdicated **1511 AF** under negotiated pressure; Ysoria acceded **1512 AF**. The reign span must not be mistaken for verified precise dates of the *War Across the Sea* campaigns.
+- Gradvum acceded **1983 AF**. Original Misfits defeat of Cid **around 2000 AF** remains approximate. Roughly twenty years followed; do not convert provisional dates to fixed anniversaries.
+
+### Publications updated
+
+- **House Frozenroar**: all 34 ruler names and reigns, verified partial pedigree and source-supported historical account.
+- **King Gradvum** and **Queen Melmiri**: names of the three children and Theodric's position as heir.
+- **Forest of the Fey**: clarified that the register identifies Halton as Dietmar's heir but does not independently verify their parentage.
+- **The Living Chronicle** timeline (site chronology): 17 events with clearer chronology and dates, retaining approximations.
+
+**Still open:** Complete kinship between many successive sovereigns; the precise founding-era date of Heroes Hill; exact Black Tower disaster year; origins and participants in the provisional War of the Narrow Straits; dates of individual War Across the Sea campaigns. No new claims were invented to settle these.
