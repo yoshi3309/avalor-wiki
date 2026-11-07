@@ -1,16 +1,23 @@
 ---
-title: "Professor Xiomara Thal"
-subtitle: "The Scholar Who Questions the Record"
-summary: "An independent historical scholar associated with Shamman’s Tower and a principal contributor to the Commission's critical examination of Avalorian history."
+title: Professor Xiomara Thal
+subtitle: The Scholar Who Questions the Record
+summary: An independent historical scholar associated with Shamman’s Tower and a
+  principal contributor to the Commission's critical examination of Avalorian
+  history.
 category: People & Legends
+image: /assets/uploads/professor-xiomaras-enchanted-study.png
 entry: BIO.022
 era: Age of Ascendancy
-facts: "Calling: Independent historical scholar\nAssociation: Shamman’s Tower\nCommission: Contributor\nInquiry: Evidence, testimony, and public remembrance"
+facts: |-
+  Calling: Independent historical scholar
+  Association: Shamman’s Tower
+  Commission: Contributor
+  Inquiry: Evidence, testimony, and public remembrance
 related: royal-commission-historical-inquiry,lady-miren-dast,brother-halden-korr,shammans-tower,rynhold-park
-source: "The Living Chronicle, Preface, contributor list and scholarly marginalia; Compendium II, public Rynhold Park record"
+source: The Living Chronicle, Preface, contributor list and scholarly
+  marginalia; Compendium II, public Rynhold Park record
 featured: false
 ---
-
 ## What the record does not say
 
 **Professor Xiomara Thal** is an independent historical scholar associated with [[Shamman’s Tower]] and a contributor to the [[Royal Commission of Historical Inquiry]].
