@@ -26,3 +26,16 @@ This file records user-approved corrections that take precedence over older, con
 3. Verify names, species, pronouns, offices, places, and temporal relationships before publishing each new group of articles.
 4. Run the automated link/ancestry check, then review canon manually. Passing automation **does not certify** narrative accuracy.
 5. When an issue cannot be resolved, mark it **OPEN** rather than silently choosing a version.
+
+## Confirmed correction — Samuel's divine representation
+
+- Samuel's **species is aasimar** (recent user correction).
+- Samuel **represents Tyr and Helm**, per the Master Canon Bible's public institutional facts. The **Cathedral as a whole** honors Tyr, Helm, and Torm. Those statements should not be collapsed.
+
+## Confirmed correction — Lavitz's current oath
+
+- Lord Marshal Lavitz currently follows the **Oath of Devotion**, following an earlier **Oath of Vengeance**. The transition reflects his growth after Cid's defeat. Do not continue portraying his present oath as Vengeance.
+
+## CMS compatibility
+
+- Public article frontmatter must use YAML block scalars for multiline human-readable facts, not multiline single-quoted strings. Pages CMS rejected the latter even when PyYAML accepted them.

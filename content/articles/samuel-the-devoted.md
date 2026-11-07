@@ -12,7 +12,7 @@ facts: |-
   Council seat: The Devoted
   Council: The Aegis
   Teaching: Heaven's Heart
-  Tradition: Tyr, Helm, and Torm
+  Divine representation: Tyr and Helm
 related: the-aegis,cathedral-paladins,heavens-heart,threefold-devotion,great-cathedral
 source: Compendium I · I.004, public Scholar's Account; Compendium II · II.001,
   public Scholar's Account; The Living Chronicle, Chapter VI
@@ -23,6 +23,8 @@ featured: false
 **Samuel**, an **aasimar**, serves the Kingdom of Avalor in two significant capacities. At [[Heaven's Heart]] he trains paladins in an inheritance shaped by [[Lowkee]]. In the royal council known as [[The Aegis]], he occupies the seat of **the Devoted**, bringing religious and moral obligations into the deliberations of the crown.
 
 These responsibilities are related but distinct. Teaching a paladin how to exercise judgment is not identical to advising a sovereign whose decisions affect many communities.
+
+Samuel specifically represents **Tyr and Helm**. The wider Cathedral tradition honors **Tyr, Helm, and Torm**, but these are separate statements: the gods of an institution should not be substituted uncritically for those an individual represents.
 
 ## The inheritance of Lowkee
 

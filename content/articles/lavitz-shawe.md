@@ -10,6 +10,7 @@ entry: BIO.001
 era: Age of Ascendancy
 facts: |-
   Office: Lord Marshal
+  Current oath: Devotion
   Council: The Aegis
   Commands: Lion’s Bane royal guard
   Origin: The Mudsteps, Renada
@@ -22,6 +23,8 @@ featured: true
 The name of **Lavitz Shawe** is now spoken in the same halls where royal policy is made. Yet his childhood belonged to the [[Mudsteps]], within the working [[Rhys Quays]] district of [[Renada]], far below the heights of the Great Citadel.
 
 Lavitz trained in the paladin tradition of [[Heaven's Heart]]. The convictions taught there—and the friends with whom he later traveled—shaped the warrior who would help confront the Blood King.
+
+His present calling follows the **Oath of Devotion**. Earlier in his life he followed the **Oath of Vengeance**; the change reflects the growth of his responsibilities after Cid's defeat, from pursuing an enemy to protecting an entire realm.
 
 ## One of the Misfits
 
