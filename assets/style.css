@@ -108,3 +108,18 @@
 .people-record-summary{-webkit-line-clamp:2}
 @media(max-width:710px){.people-feature-image{height:190px;max-height:190px}.people-feature-copy{padding:19px}.people-group-card{min-height:164px;padding:14px}.people-record-art{flex-basis:90px}}
 @media(max-width:380px){.people-group-card{min-height:140px}}
+
+
+/* Shared collection pages — complements the established People & Legends layout. */
+.collection-browse .people-heading-meta a{font-size:10px;letter-spacing:.05em;color:#e3c48d;border:1px solid #817052;padding:8px 11px;transition:background .18s}
+.collection-browse .people-heading-meta a:hover{background:#354344;color:#ffe3af}
+.collection-feature .people-feature-emblem{font-family:var(--font-display);font-size:80px;color:#c0a270;background:radial-gradient(circle at 50% 42%,#41504b,#20313a 70%)}
+.collection-simple-note{margin:4px 0 34px;padding:20px 25px;display:flex;gap:22px;align-items:center;background:#21333a;border:1px solid #5b5d50}
+.collection-simple-mark{flex:0 0 52px;color:#d2b580;font:42px var(--font-display);text-align:center}
+.collection-simple-note p{margin:0;color:#acbbb9;font:12px/1.7 var(--font-literary)}
+.collection-simple-note strong{display:block;color:#ead8b5;font:400 17px var(--font-display);margin-bottom:4px}
+.collection-browse .collection-directory{scroll-margin-top:25px}
+.collection-browse .people-record-empty span{font-size:44px}
+.collection-browse-faith-magic-cosmology .collection-directory{padding-top:12px}
+.collection-browse-faith-magic-cosmology .people-directory-tools{justify-content:flex-end}
+@media(max-width:710px){.collection-simple-note{padding:17px;gap:15px}.collection-simple-mark{flex-basis:34px;font-size:30px}.collection-browse .people-heading-meta a{font-size:9px}}
