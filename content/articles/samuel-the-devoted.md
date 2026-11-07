@@ -1,14 +1,14 @@
 ---
 title: Samuel the Devoted
 subtitle: The Teacher on the Aegis
-summary: A Monadic Deva who trains paladins at Heaven's Heart and serves as the
+summary: An aasimar who trains paladins at Heaven's Heart and serves as the
   Devoted on Avalor's ruling council.
 category: People & Legends
 image: /assets/uploads/radiant-justice-in-ornate-armor.png
 entry: BIO.008
 era: Age of Ascendancy
 facts: |-
-  Ancestry: Monadic Deva
+  Ancestry: Aasimar
   Council seat: The Devoted
   Council: The Aegis
   Teaching: Heaven's Heart
@@ -20,7 +20,7 @@ featured: false
 ---
 ## A teacher with two duties
 
-**Samuel**, a **Monadic Deva**, serves the Kingdom of Avalor in two significant capacities. At [[Heaven's Heart]] he trains paladins in an inheritance shaped by [[Lowkee]]. In the royal council known as [[The Aegis]], he occupies the seat of **the Devoted**, bringing religious and moral obligations into the deliberations of the crown.
+**Samuel**, an **aasimar**, serves the Kingdom of Avalor in two significant capacities. At [[Heaven's Heart]] he trains paladins in an inheritance shaped by [[Lowkee]]. In the royal council known as [[The Aegis]], he occupies the seat of **the Devoted**, bringing religious and moral obligations into the deliberations of the crown.
 
 These responsibilities are related but distinct. Teaching a paladin how to exercise judgment is not identical to advising a sovereign whose decisions affect many communities.
 

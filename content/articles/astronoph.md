@@ -29,7 +29,7 @@ The cathedral's public responsibility lies partly in interpreting these ideals w
 
 ## Astronoph and Samuel
 
-Astronoph is **not** the holder of the Devoted's seat on [[The Aegis]]. That office belongs to [[Samuel the Devoted|Samuel]], a Monadic Deva who also trains paladins at [[Heaven's Heart]].
+Astronoph is **not** the holder of the Devoted's seat on [[The Aegis]]. That office belongs to [[Samuel the Devoted|Samuel]], an aasimar who also trains paladins at [[Heaven's Heart]].
 
 The two figures participate in related traditions, but their offices have different responsibilities. Astronoph leads the Great Cathedral in the capital. Samuel advises the crown and contributes to the instruction of paladins beyond Renada.
 

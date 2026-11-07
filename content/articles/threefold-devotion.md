@@ -47,7 +47,7 @@ The dispute demonstrated that loyalty to the kingdom and obedience to every roya
 
 ## Present institutions, different duties
 
-**Astronoph**, a female deva, leads the Great Cathedral as High Priest. **Samuel**, a Monadic Deva, trains paladins at Heaven's Heart and serves as the Devoted on [[The Aegis]]. Their responsibilities are not interchangeable merely because both serve within related religious traditions.
+**Astronoph**, a female deva, leads the Great Cathedral as High Priest. **Samuel**, an aasimar, trains paladins at Heaven's Heart and serves as the Devoted on [[The Aegis]]. Their responsibilities are not interchangeable merely because both serve within related religious traditions.
 
 Other faiths remain active among the people of Avalor, including the worship of Lathander, Corellon, Moradin, and Eilistraee. The Threefold Devotion contributes a significant public language of obligation without exhausting the religious life of the realm.
 

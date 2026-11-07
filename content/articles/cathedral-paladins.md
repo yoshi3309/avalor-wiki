@@ -45,6 +45,6 @@ The custom is not a uniform law imposed upon every Avalorian place of worship. I
 
 ## Service in the present age
 
-**Samuel the Devoted**, a Monadic Deva who holds a seat on [[The Aegis]], trains paladins at Heaven's Heart. The order's relationship with the [[Great Cathedral]] in Renada is close, but the two are separate institutions.
+**Samuel the Devoted**, an aasimar who holds a seat on [[The Aegis]], trains paladins at Heaven's Heart. The order's relationship with the [[Great Cathedral]] in Renada is close, but the two are separate institutions.
 
 The Lord Marshal [[Lavitz Shawe]] trained within the paladin tradition of Heaven's Heart. His public role reminds the kingdom that the order's legacy is measured not simply in the skill of its graduates, but in the choices they make when authority and justice diverge.
