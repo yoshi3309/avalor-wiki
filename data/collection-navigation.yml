@@ -1,0 +1,205 @@
+# Public collection navigation. Editorial groupings only: no Keeper information.
+# Multiple groups may link to the same article; content is never duplicated.
+# Unlisted/newly added articles are automatically added to a catch-all group.
+kingdoms-places:
+  featured: renada
+  intro: Explore Avalor from the royal capital to frontier towns, mountain strongholds, ancient landmarks, and untamed lands.
+  eyebrow: THE LANDS OF AVALOR
+  icon: "♜"
+  featured_label: START YOUR JOURNEY
+  browse_title: Explore by place
+  browse_description: Cities, districts, landscapes, and historic sites each have a story.
+  group_label: PLACES
+  directory_title: All Places A–Z
+  directory_description: Every public place record, alphabetically arranged.
+  atlas_link: true
+  catchall: other-places
+  groups:
+    - id: settlements
+      title: Cities & Settlements
+      eyebrow: WHERE PEOPLE LIVE
+      icon: "⌂"
+      description: Capitals, ports, towns, and communities across the realm.
+      articles:
+        - renada
+        - cove-city
+        - crownrise
+        - stems-port
+        - lands-end
+        - tinsel
+        - stanleyville
+        - heavens-heart
+        - karhold
+        - wayword-sun
+        - siesta-ford
+    - id: within-renada
+      title: Within Renada
+      eyebrow: THE CAPITAL CLOSE-UP
+      icon: "♜"
+      description: Neighborhoods, public places, and institutions inside the capital.
+      articles:
+        - old-renada
+        - mudsteps
+        - rhys-quays
+        - lantern-ward
+        - cathedral-ward
+        - great-citadel
+        - great-cathedral
+        - rynhold-park
+    - id: landmarks
+      title: Towers & Landmarks
+      eyebrow: STONES OF HISTORY
+      icon: "⚑"
+      description: Notable sites, ruins, fortifications, and centers of learning.
+      articles:
+        - black-tower
+        - black-stair
+        - great-fork-tower
+        - lord-osmos-tower
+        - heroes-hill
+        - shammans-tower
+        - great-citadel
+        - great-cathedral
+    - id: wildlands
+      title: Regions & Wildlands
+      eyebrow: BEYOND THE ROADS
+      icon: "✥"
+      description: Broad territories, forests, mountains, and changed landscapes.
+      articles:
+        - kingdom-of-avalor
+        - forest-of-the-fey
+        - denzians-forest
+        - great-desert
+        - dead-marshes
+        - spine-of-the-world
+    - id: other-places
+      title: Other Places
+      eyebrow: MORE OF THE MAP
+      icon: "✧"
+      description: New locations and less easily categorized places.
+      articles: []
+organizations-factions:
+  featured: the-aegis
+  intro: Discover the councils, orders, guilds, and institutions that sustain, protect, and sometimes challenge the realm.
+  eyebrow: THE INSTITUTIONS OF AVALOR
+  icon: "⚜"
+  featured_label: FROM THE ARCHIVES
+  browse_title: Browse by purpose
+  browse_description: From the lion throne to the scholarly halls.
+  group_label: ORGANIZATIONS
+  directory_title: All Organizations A–Z
+  directory_description: Every public organization and faction record, alphabetically arranged.
+  catchall: other-organizations
+  groups:
+    - id: government
+      title: Crown & Government
+      eyebrow: GOVERNING THE REALM
+      icon: "♛"
+      description: Royal offices, institutions, and the structures of authority.
+      articles:
+        - the-aegis
+        - house-frozenroar
+        - four-sheriffdoms
+        - royal-commission-historical-inquiry
+    - id: defenders
+      title: Defenders & Orders
+      eyebrow: SERVICE AND PROTECTION
+      icon: "⚔"
+      description: Military forces, royal guards, and sworn defenders.
+      articles:
+        - avalorian-standing-army
+        - lions-bane
+        - dina-hyanda
+        - cathedral-paladins
+    - id: guilds
+      title: Guilds & Learning
+      eyebrow: SKILL AND SCHOLARSHIP
+      icon: "✦"
+      description: Fellowship, training, research, and shared crafts.
+      articles:
+        - hunters-guild
+        - bard-guild
+        - heureuxs-bard-academy
+        - great-library-aldus-greystone
+    - id: other-organizations
+      title: Other Factions
+      eyebrow: BEYOND THE INSTITUTIONS
+      icon: "⚜"
+      description: Other organized groups known to the public record.
+      articles:
+        - cult-of-golgoroth
+history-chronicles:
+  featured: unification-of-avalor
+  intro: Trace the kingdom's beginnings, the choices of its rulers, the Misfits' journeys, and the truths recovered by later historians.
+  eyebrow: THE HISTORY OF AVALOR
+  icon: "◷"
+  featured_label: A TURNING POINT
+  browse_title: Explore the chronicles
+  browse_description: Follow the eras and events that changed the kingdom.
+  group_label: CHRONICLES
+  directory_title: All Chronicles A–Z
+  directory_description: Every public history and chronicle record, alphabetically arranged.
+  timeline_link: true
+  catchall: other-history
+  groups:
+    - id: founding
+      title: Founding & Black Tower
+      eyebrow: BEGINNINGS AND CONSEQUENCES
+      icon: "✦"
+      description: The founding wars, the Six, and the catastrophe that followed.
+      articles:
+        - founding-wars
+        - unification-of-avalor
+        - sundering-of-the-six
+        - blood-sickness
+        - betrayers-legend
+    - id: crown-reform
+      title: Crown, Law & Reform
+      eyebrow: CENTURIES OF THE LION
+      icon: "♛"
+      description: Royal decrees, their consequences, and resistance to injustice.
+      articles:
+        - arnauds-edicts
+        - reinas-reforms
+        - sanctuary-at-heavens-heart
+    - id: misfits-journey
+      title: The Misfits' Journey
+      eyebrow: ADVENTURES AND ENCOUNTERS
+      icon: "⚔"
+      description: Investigations, allies, losses, and trials from the Misfits' adventures.
+      articles:
+        - the-first-commission
+        - the-ripped-beard
+        - moonville-manor
+        - the-stalker
+        - rotten-husk
+        - zauks-false-lives
+        - fo-gurn-and-the-hydra
+        - tournament-of-champions
+        - jinlin-vechon-wrath-of-innocent
+        - jaznaars-refuge
+    - id: revelation
+      title: Truth & Ascendancy
+      eyebrow: HISTORY RECONSIDERED
+      icon: "✧"
+      description: The exposure of the old lie and the world that followed.
+      articles:
+        - jaznaars-vindication
+        - age-of-ascendancy
+    - id: other-history
+      title: Other Chronicles
+      eyebrow: BEYOND THE CATALOGUE
+      icon: "◷"
+      description: New historical records that do not fit the established divisions.
+      articles: []
+faith-magic-cosmology:
+  featured: faiths-and-gods-of-avalor
+  intro: Explore the beliefs and divine traditions that shape Avalorian life. Further public records will be added as scholarship allows.
+  eyebrow: BELIEF AND THE BEYOND
+  icon: "✧"
+  featured_label: THE SCHOLAR'S COLLECTION
+  browse_title: Explore the collection
+  group_label: RECORDS
+  directory_title: The Faith & Magic Records
+  directory_description: The public accounts currently held in this collection.
+  groups: []
