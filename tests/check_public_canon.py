@@ -55,7 +55,8 @@ for path in files:
 # Catalogue identifiers must be unique and every wiki-link must resolve
 # through the exact alias rules used by build.py.
 aliases.update({"avalor": "kingdom-of-avalor", "misfits": "the-misfits",
-                "tel-lora": "tellora-ebbenflow", "heavens-heart": "heavens-heart"})
+                "tel-lora": "tellora-ebbenflow", "heavens-heart": "heavens-heart",
+                "royal-commission-of-historical-inquiry": "royal-commission-historical-inquiry"})
 ids = {}
 for slug, (meta, body) in entries.items():
     archive_id = str(meta.get("entry") or "").strip()

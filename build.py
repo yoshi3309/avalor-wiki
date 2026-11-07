@@ -67,7 +67,7 @@ ALIAS={}
 for a in ALL:
     ALIAS[slugify(a['title'])] = a['slug']
     ALIAS[slugify(a['slug'])] = a['slug']
-ALIAS.update({'avalor':'kingdom-of-avalor','misfits':'the-misfits','tel-lora':'tellora-ebbenflow',"heavens-heart":'heavens-heart'})
+ALIAS.update({'avalor':'kingdom-of-avalor','misfits':'the-misfits','tel-lora':'tellora-ebbenflow',"heavens-heart":'heavens-heart','royal-commission-of-historical-inquiry':'royal-commission-historical-inquiry'})
 
 @lru_cache
 
