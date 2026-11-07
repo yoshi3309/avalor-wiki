@@ -51,3 +51,8 @@ These regions are more than obstacles between settlements. Each has its own hist
 ## Strongholds and contested shores
 
 The [[Great Citadel]] anchors royal government in Renada; the [[Great Fork Tower]] trains the realm's soldiers. Farther from the capital, [[Land's End]] helps secure the Northern March. On the eastern peninsula, [[Karhold]] maintains independent institutions despite the crown's disputed territorial claim. Such places demonstrate that administration, defense, and allegiance are not identical matters.
+
+
+## The coastal trading towns
+
+Along the coast, [[Cove City]] and [[Tinsel]] link the King's Road to maritime trade. [[Siesta Ford]] is remembered as a prosperous place of retreat, and [[Stems Port]] conducts commerce under its own freeport arrangements. Their histories do not follow a single coastal pattern, just as the disputed autonomy of Karhold cannot be extended to every freeport.

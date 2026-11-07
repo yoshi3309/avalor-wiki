@@ -119,7 +119,7 @@ locations:
     description: Royal capital of Avalor, on the River Rhys; home to the Great
       Citadel and royal court.
     article: renada
-    related_places: great-citadel,great-cathedral
+    related_places: great-citadel,great-cathedral,crownrise,old-renada,lantern-ward,rhys-quays,rynhold-park,mudsteps
     published: true
     provisional: false
   - id: heavens-heart
@@ -226,3 +226,39 @@ locations:
     article: great-fork-tower
     published: true
     provisional: false
+  - id: cove-city
+    name: Cove City
+    type: settlement
+    x: null
+    y: null
+    description: A port of Avalor connected to the King's Road and the kingdom's inland commercial routes.
+    article: cove-city
+    published: false
+    provisional: true
+  - id: tinsel
+    name: Tinsel
+    type: settlement
+    x: null
+    y: null
+    description: A coastal port linked to the King's Road and the wider Avalorian trade network.
+    article: tinsel
+    published: false
+    provisional: true
+  - id: siesta-ford
+    name: Siesta Ford
+    type: settlement
+    x: null
+    y: null
+    description: A coastal settlement known for prosperity, leisure, and retreat.
+    article: siesta-ford
+    published: false
+    provisional: true
+  - id: stems-port
+    name: Stems Port
+    type: settlement
+    x: null
+    y: null
+    description: A freeport with distinct commercial privileges and local arrangements; not to be confused with disputed Karhold.
+    article: stems-port
+    published: false
+    provisional: true

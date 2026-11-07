@@ -19,7 +19,7 @@ featured: true
 ---
 ## From the Mudsteps to the citadel
 
-The name of **Lavitz Shawe** is now spoken in the same halls where royal policy is made. Yet his childhood belonged to the **Mudsteps**, the working river quarter of [[Renada]], far below the heights of the Great Citadel.
+The name of **Lavitz Shawe** is now spoken in the same halls where royal policy is made. Yet his childhood belonged to the [[Mudsteps]], within the working [[Rhys Quays]] district of [[Renada]], far below the heights of the Great Citadel.
 
 Lavitz trained in the paladin tradition of [[Heaven's Heart]]. The convictions taught there—and the friends with whom he later traveled—shaped the warrior who would help confront the Blood King.
 

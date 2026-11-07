@@ -28,7 +28,7 @@ The settlement maintains institutions with a longstanding tradition of independe
 
 Karhold is also a **freeport**, participating in the maritime trade that connects the eastern coast with the wider world. Its commercial arrangements reflect local custom and negotiated liberties, not an absence of law.
 
-A freeport's privileges must be considered individually. **Stems Port** has its own arrangements, while crown-aligned coastal settlements such as **Cove City** and **Tinsel** occupy different positions within the networks served by the King's Road. To describe them all as possessing identical charters would create an agreement the surviving record does not establish.
+A freeport's privileges must be considered individually. [[Stems Port]] has its own arrangements, while crown-aligned coastal settlements such as [[Cove City]] and [[Tinsel]] occupy different positions within the networks served by the King's Road. To describe them all as possessing identical charters would create an agreement the surviving record does not establish.
 
 Karhold's merchants have practical reasons to preserve trade even when questions of sovereignty remain unsettled.
 
