@@ -1,16 +1,24 @@
 ---
-title: "Seren Thornwyck"
-subtitle: "Sheriff of the Western Verge"
-summary: "The sheriff of the Western Verge, whose administration must negotiate royal roads, forest settlements, and the ancestral rights protected by the Elven Concord."
+title: Seren Thornwyck
+subtitle: Sheriff of the Western Verge
+summary: The sheriff of the Western Verge, whose administration must negotiate
+  royal roads, forest settlements, and the ancestral rights protected by the
+  Elven Concord.
 category: People & Legends
+image: /assets/uploads/horned-ranger-in-the-mountain-pass.png
 entry: BIO.014
-era: "Age of Ascendancy"
-facts: "Office: Sheriff of the Western Verge\nSheriffdom: Western Verge\nHouse: Thornwyck\nRegional concern: Woodland diplomacy\nTreaty inheritance: The Elven Concord"
+era: Age of Ascendancy
+facts: |-
+  Office: Sheriff of the Western Verge
+  Sheriffdom: Western Verge
+  House: Thornwyck
+  Regional concern: Woodland diplomacy
+  Treaty inheritance: The Elven Concord
 related: four-sheriffdoms,forest-of-the-fey,kingdom-of-avalor,house-frozenroar
-source: "Compendium II · Entry II.001, VII; Compendium II · Entry II.003, Forest of the Fey; political canon ledger VIII"
+source: Compendium II · Entry II.001, VII; Compendium II · Entry II.003, Forest
+  of the Fey; political canon ledger VIII
 featured: false
 ---
-
 ## The forest and the crown
 
 **Seren Thornwyck** is the crown-appointed sheriff of the **Western Verge**, where wooded settlements, travel routes, and the approaches to the [[Forest of the Fey]] require careful negotiation.
