@@ -30,8 +30,9 @@ for path in files:
     # the folded representation. Require quoted values to close on their line
     # or use a YAML block scalar (| or >) for multi-line facts.
     for lineno, line in enumerate(match.group(1).splitlines(), 2):
-        opening = re.match(r"^[A-Za-z_][A-Za-z0-9_]*:\\s*(['\\"])(.*)$", line)
-        if opening and not opening.group(2).rstrip().endswith(opening.group(1)):
+        key_value = line.split(":", 1)
+        value = key_value[1].lstrip() if len(key_value) == 2 else ""
+        if value.startswith(("'", '"')) and not value.rstrip().endswith(value[0]):
             problems.append(f"{path.name}:{lineno}: quoted frontmatter value spans lines; use YAML block scalar")
     try:
         meta = yaml.safe_load(match.group(1))
