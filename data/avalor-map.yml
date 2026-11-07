@@ -224,5 +224,5 @@ locations:
     y: 76.07
     description: Ancient defensive tower now used to train Avalor's standing army.
     article: great-fork-tower
-    published: false
-    provisional: true
+    published: true
+    provisional: false
