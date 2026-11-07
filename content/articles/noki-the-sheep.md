@@ -1,16 +1,23 @@
 ---
-title: "Noki"
-subtitle: "The Wizard Transformed into a Sheep"
-summary: "A wizard remembered for having been transformed into a sheep during the early Misfits' unusual travels."
+title: Noki
+subtitle: The Wizard Transformed into a Sheep
+summary: A wizard remembered for having been transformed into a sheep during the
+  early Misfits' unusual travels.
 category: People & Legends
+image: /assets/uploads/swamp-warlords-violet-fury.png
 entry: BIO.030
-era: "Age of the Misfits"
-facts: "Name: Noki\nCalling: Wizard\nUnusual condition: Transformed into a sheep\nEncounter: The Misfits\nLater imitation: Zauks's trials"
+era: Age of the Misfits
+facts: |-
+  Name: Noki
+  Calling: Wizard
+  Unusual condition: Transformed into a sheep
+  Encounter: The Misfits
+  Later imitation: Zauks's trials
 related: the-misfits,moonville-manor,zauks-false-lives,the-first-commission
-source: "The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I, Section V (public events)"
+source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
+  Section V (public events)
 featured: false
 ---
-
 ## A spellcaster in an unlikely shape
 
 **Noki** was a **wizard transformed into a sheep**, encountered during the early adventures of [[The Misfits]]. The surviving public history makes no attempt to disguise the absurdity of the situation.
