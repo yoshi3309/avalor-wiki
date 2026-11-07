@@ -1,16 +1,22 @@
 ---
-title: "Belgram of Mountain Hall Clan"
-subtitle: "The Third Hand"
-summary: "Current member of the Aegis serving as the Third Hand, whose duties coordinate the kingdom's separate arms of government."
+title: Belgram of Mountain Hall Clan
+subtitle: The Third Hand
+summary: Current member of the Aegis serving as the Third Hand, whose duties
+  coordinate the kingdom's separate arms of government.
 category: People & Legends
+image: /assets/uploads/regal-dwarven-king-in-a-lion-hall.png
 entry: BIO.016
 era: Age of Ascendancy
-facts: "Office: Third Hand\nCouncil: The Aegis\nAffiliation: Mountain Hall Clan\nResponsibility: Coordination among royal offices"
+facts: |-
+  Office: Third Hand
+  Council: The Aegis
+  Affiliation: Mountain Hall Clan
+  Responsibility: Coordination among royal offices
 related: the-aegis,kingdom-of-avalor,house-frozenroar,royal-commission-historical-inquiry
-source: "Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII (public institutional record)"
+source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
+  (public institutional record)
 featured: false
 ---
-
 ## The hand that connects the others
 
 **Belgram of Mountain Hall Clan** holds the office of **Third Hand** upon [[The Aegis]], the council serving the sovereign of Avalor. The title belongs to the oldest structure of the council, established during the reign of Rynhold Frozenroar.
