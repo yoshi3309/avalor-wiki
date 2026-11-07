@@ -13,6 +13,7 @@ from pathlib import Path
 from functools import lru_cache
 import yaml
 import mistune
+from public_references import public_sources
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
@@ -53,6 +54,7 @@ def read_source(path):
         if not metadata.get(key):raise ValueError(f'{path}: missing {key}')
     if metadata['category'] not in [c['name'] for c in CATEGORIES]:raise ValueError(f'{path}: unknown category')
     metadata.update({'slug':path.stem,'body':match.group(2).strip()})
+    metadata['public_source'] = public_sources(metadata.get('source'))
     facts = str(metadata.get('facts') or '').splitlines()
     metadata['facts_parsed'] = [{'label':l.strip(),'value':v.strip()} for fact in facts if ':' in fact for l,v in [fact.split(':',1)]]
     metadata['related_slugs'] = [s.strip() for s in str(metadata.get('related') or '').split(',') if s.strip()]

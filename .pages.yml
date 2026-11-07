@@ -58,8 +58,9 @@ content:
         label: Related article filenames (comma separated)
         type: string
       - name: source
-        label: Source volume / chapter
+        label: Editorial source trail
         type: string
+        description: "Retain original source citations for editors; internal-only references are omitted from the public site."
       - name: featured
         label: Feature on homepage
         type: boolean
