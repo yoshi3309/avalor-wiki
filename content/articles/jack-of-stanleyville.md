@@ -1,16 +1,23 @@
 ---
-title: "Jack of Stanleyville"
-subtitle: "The Boy Who Would Not Leave"
-summary: "A Stanleyville child killed by a spell concealed in a manuscript sold by Cid, whose conscious spirit traveled with the Misfits."
+title: Jack of Stanleyville
+subtitle: The Boy Who Would Not Leave
+summary: A Stanleyville child killed by a spell concealed in a manuscript sold
+  by Cid, whose conscious spirit traveled with the Misfits.
 category: People & Legends
+image: /assets/uploads/cheerful-ghost-in-a-lantern-lit-village.png
 entry: BIO.029
-era: "Age of the Misfits"
-facts: "Home: Stanleyville\nNature: Conscious ghost\nCause of death: Concealed Fireball spell\nCompanions: The Misfits\nLater whereabouts: Unresolved in public record"
+era: Age of the Misfits
+facts: |-
+  Home: Stanleyville
+  Nature: Conscious ghost
+  Cause of death: Concealed Fireball spell
+  Companions: The Misfits
+  Later whereabouts: Unresolved in public record
 related: stanleyville,the-stalker,the-misfits,cid-the-blood-king,zauks-false-lives
-source: "The Living Chronicle, Chapter VI, IV and IX; Master Canon Bible Volume I, V (public testimony)"
+source: The Living Chronicle, Chapter VI, IV and IX; Master Canon Bible Volume
+  I, V (public testimony)
 featured: false
 ---
-
 ## A life stolen by a page
 
 **Jack** was a child living in [[Stanleyville]] when the town suffered mysterious deaths that brought [[The Misfits]] to investigate.
