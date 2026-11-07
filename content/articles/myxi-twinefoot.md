@@ -1,16 +1,22 @@
 ---
-title: "Myxi Twinefoot"
-subtitle: "The Golden Hand"
-summary: "The Aegis councilor known as the Golden Hand, responsible for finance and the fiscal decisions that sustain Avalor."
+title: Myxi Twinefoot
+subtitle: The Golden Hand
+summary: The Aegis councilor known as the Golden Hand, responsible for finance
+  and the fiscal decisions that sustain Avalor.
 category: People & Legends
+image: /assets/uploads/myxi-twinefoot-in-the-noble-study.png
 entry: BIO.017
 era: Age of Ascendancy
-facts: "Office: Golden Hand\nCouncil: The Aegis\nResponsibility: Royal finance\nGovernment: Crown of Avalor"
+facts: |-
+  Office: Golden Hand
+  Council: The Aegis
+  Responsibility: Royal finance
+  Government: Crown of Avalor
 related: the-aegis,kingdom-of-avalor,edran-halwick,royal-commission-historical-inquiry
-source: "Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII (public institutional record)"
+source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
+  (public institutional record)
 featured: false
 ---
-
 ## What the crown can sustain
 
 **Myxi Twinefoot** serves upon [[The Aegis]] as the **Golden Hand**, the office associated with the finances of the Kingdom of Avalor.
