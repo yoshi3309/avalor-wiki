@@ -12,7 +12,7 @@ facts: 'Founder: Rynhold Frozenroar
   Current sovereign: Gradvum Frozenroar
 
   Royal consort: Queen Melmiri'
-related: kingdom-of-avalor,renada,heroes-hill,the-aegis
+related: king-gradvum-frozenroar,queen-melmiri,kingdom-of-avalor,the-aegis
 source: Compendium II · Entry II.001; The Living Chronicle · Royal Register
 featured: false
 ---
@@ -29,7 +29,7 @@ The line has endured not because every ruler governed wisely, but because the ki
 
 ## The present royal household
 
-**King Gradvum Frozenroar**, on the throne since 1983 AF, is widely admired for his approachable manner. **Queen Melmiri**, whose family traditions are associated with the Northern Desert Tribes, plays a central role in the daily administration of the realm. Their family has three children; the eldest son is heir.
+[[King Gradvum Frozenroar]], on the throne since 1983 AF, is widely admired for his approachable manner. [[Queen Melmiri]], whose family traditions are associated with the Northern Desert Tribes, plays a central role in the daily administration of the realm. Their family has three children; the eldest son is heir.
 
 The king's griffin is **Fis Uskeche**, and his sword is **Lionsbane**. Queen Melmiri rides **Dune Rakka** and bears the scimitar **Darkheart**.
 

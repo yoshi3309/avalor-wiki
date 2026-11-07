@@ -12,7 +12,7 @@ facts: 'Founded: Reign of Rynhold Frozenroar
   Present seats: Eight
 
   Seat added: High Wizard'
-related: lavitz-shawe,tellora-ebbenflow,samuel-the-devoted,lions-bane
+related: king-gradvum-frozenroar,queen-melmiri,samuel-the-devoted,lavitz-shawe
 source: Compendium II · Entry II.001, Section VI
 featured: true
 ---

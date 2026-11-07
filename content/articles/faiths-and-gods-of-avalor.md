@@ -19,7 +19,7 @@ Religion in Avalor is woven into daily life through temples, family traditions, 
 
 ## The Great Cathedral
 
-The **Great Cathedral** in [[Renada]] is among the realm's most influential religious institutions. Its [[The Threefold Devotion|Threefold Devotion]] honors **Tyr**, **Helm**, and **Torm**, whose teachings concern justice, vigilance, courage, and duty. The Cathedral is led by **Astronoph**, a female deva serving as High Priest.
+The **Great Cathedral** in [[Renada]] is among the realm's most influential religious institutions. Its [[The Threefold Devotion|Threefold Devotion]] honors **Tyr**, **Helm**, and **Torm**, whose teachings concern justice, vigilance, courage, and duty. The Cathedral is led by [[Astronoph]], a female deva serving as High Priest.
 
 At [[Heaven's Heart]], the [[The Cathedral Paladins|paladin traditions]] founded by [[Lowkee]] draw upon those same divine ideals while placing special emphasis on the protection of people who cannot defend themselves. The legacy of the founding paladin reminds the faithful that sacred duty is more demanding than unquestioning obedience to authority.
 

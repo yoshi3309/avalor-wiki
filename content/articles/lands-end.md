@@ -12,7 +12,7 @@ facts: 'Region: Northern March
   Function: Frontier defense and administration
 
   Authority: Crown of Avalor'
-related: kingdom-of-avalor,the-aegis,great-fork-tower,spine-of-the-world
+related: sebastian-rubelda,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor
 source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI
 featured: false
 ---
@@ -25,7 +25,7 @@ The place therefore matters less for the thickness of its walls than for the res
 
 ## The Northern Sheriff
 
-In the present age **Sebastian Rubelda**, the crown-appointed sheriff of the **Northern March**, holds Land's End. The office is delegated by the sovereign, not inherited as an independent northern kingship. Its demands include frontier security, communications, garrison readiness, and the needs of settlements removed from the immediate attention of the royal court.
+In the present age [[Sebastian Rubelda]], the crown-appointed sheriff of the **Northern March**, holds Land's End. The office is delegated by the sovereign, not inherited as an independent northern kingship. Its demands include frontier security, communications, garrison readiness, and the needs of settlements removed from the immediate attention of the royal court.
 
 A fortified position can protect a route only while its defenders are supplied and informed. Messages must arrive; roads must remain passable; communities must know whom to approach when they require help.
 

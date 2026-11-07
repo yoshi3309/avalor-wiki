@@ -13,7 +13,7 @@ facts: 'City: Renada
   Traditions: Tyr, Helm, and Torm
 
   High Priest: Astronoph, female deva'
-related: cathedral-ward,threefold-devotion,cathedral-paladins,samuel-the-devoted
+related: astronoph,cathedral-ward,threefold-devotion,samuel-the-devoted
 source: Compendium II · Entry II.003, XXIV; Entry II.001, XIV; Entry II.002, XI
 featured: false
 ---
@@ -28,7 +28,7 @@ The building is a prominent part of the capital, but its importance extends beyo
 
 The cathedral honors [[The Threefold Devotion|the traditions of Tyr, Helm, and Torm]]. Their teachings are familiar within Avalorian religious life and are shared in part with [[The Cathedral Paladins]] established by [[Lowkee]].
 
-**Astronoph**, a female deva, serves as **High Priest**. Her responsibilities connect the cathedral to the crown and to a long history of religious service, while requiring attention to the people who seek aid without the benefit of rank or wealth.
+[[Astronoph]], a female deva, serves as **High Priest**. Her responsibilities connect the cathedral to the crown and to a long history of religious service, while requiring attention to the people who seek aid without the benefit of rank or wealth.
 
 Avalor's faiths are broader than one institution. Communities also honor Lathander, Corellon, Moradin, Eilistraee, and other traditions. The prominence of the Great Cathedral should not be mistaken for the absence of such practices.
 

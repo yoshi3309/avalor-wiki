@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.005
 era: "Age of Ascendancy"
 facts: "Command: Lord Marshal Lavitz Shawe\nCharacter: Royal guard\nAllegiance: Crown of Avalor\nDistinct order: Dina Hyanda"
-related: lavitz-shawe,the-aegis,kingdom-of-avalor,great-citadel,great-fork-tower
+related: lavitz-shawe,dina-hyanda,avalorian-standing-army,great-citadel
 source: "Compendium II · II.001, public Scholar's Account; The Living Chronicle, Chapter VII"
 featured: false
 ---
@@ -33,7 +33,7 @@ Those troops require coordination with royal and regional authority, but their e
 
 ## The separate order of Dina Hyanda
 
-**Dina Hyanda** is a distinct royal protective order established by **Queen Melmiri**. It is not another name for Lion's Bane, and its origin does not lie in Lavitz's appointment.
+[[Dina Hyanda]] is a distinct royal protective order established by **Queen Melmiri**. It is not another name for Lion's Bane, and its origin does not lie in Lavitz's appointment.
 
 Their duties can bring them into some of the same ceremonial spaces or matters of royal security. The distinction remains important: the kingdom has more than one protective tradition and more than one history of service.
 

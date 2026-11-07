@@ -14,7 +14,7 @@ facts: 'Capital: Renada
   Sovereign: Gradvum Frozenroar
 
   Royal consort: Queen Melmiri'
-related: renada,house-frozenroar,the-aegis,heroes-hill,the-misfits
+related: king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,renada,the-aegis
 source: Compendium II · Entry II.001; The Living Chronicle
 featured: true
 ---
@@ -31,9 +31,9 @@ Victory did not end those rivalries. Through negotiation, shared military intere
 
 ## The crown and the Aegis
 
-The king retains broad sovereign authority, exercised with the counsel of [[The Aegis]], an eight-seat council whose offices oversee different needs of the realm. Four crown-appointed sheriffs administer its major regions. Their powers are real, but so are the rights of local communities and the customs established long before unification.
+The king retains broad sovereign authority, exercised with the counsel of [[The Aegis]], an eight-seat council whose offices oversee different needs of the realm. [[The Four Sheriffdoms|Four crown-appointed sheriffs]] administer its major regions. Their powers are real, but so are the rights of local communities and the customs established long before unification.
 
-The present monarch, **King Gradvum Frozenroar**, is widely regarded as approachable; **Queen Melmiri** oversees much of the kingdom's everyday administration. Together they govern during a period of growing international importance.
+The present monarch, [[King Gradvum Frozenroar]], is widely regarded as approachable; [[Queen Melmiri]] oversees much of the kingdom's everyday administration. Together they govern during a period of growing international importance.
 
 ## A kingdom reshaped by memory
 

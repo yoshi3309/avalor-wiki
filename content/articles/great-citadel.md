@@ -13,7 +13,7 @@ facts: 'City: Renada
   Royal family: House Frozenroar
 
   First royal building: Reign of Rynhold Frozenroar'
-related: renada,house-frozenroar,the-aegis,lavitz-shawe
+related: renada,king-gradvum-frozenroar,queen-melmiri,the-aegis
 source: Compendium II · Entry II.002, II–III; Entry II.001, XVIII
 featured: false
 ---

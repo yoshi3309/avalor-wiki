@@ -13,7 +13,7 @@ facts: 'Location: Eastern peninsula
   Political status: Disputed
 
   Relations: Trade and diplomacy with Avalor'
-related: kingdom-of-avalor,renada,the-aegis,lands-end
+related: cassian-veyran,four-sheriffdoms,kingdom-of-avalor,renada
 source: Compendium II · Entry II.001, VII, XIII and XVIII
 featured: false
 ---
@@ -34,7 +34,7 @@ Karhold's merchants have practical reasons to preserve trade even when questions
 
 ## The Eastern Reach and its limits
 
-**Cassian Veyran**, the royal sheriff of the Eastern Reach, oversees crown-aligned ports and coastal interests. Karhold does not become an ordinary subordinate district simply because an Avalorian official regards it as lying within the realm's eastern claims.
+[[Cassian Veyran]], the royal sheriff of the Eastern Reach, oversees crown-aligned ports and coastal interests. Karhold does not become an ordinary subordinate district simply because an Avalorian official regards it as lying within the realm's eastern claims.
 
 Ships continue to sail while diplomats debate jurisdiction. Goods must be assessed, agreements honored, and disputes addressed by authorities whose positions do not always coincide.
 
