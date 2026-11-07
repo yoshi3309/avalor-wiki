@@ -1,16 +1,22 @@
 ---
-title: "Cassian Veyran"
-subtitle: "Sheriff of the Eastern Reach"
-summary: "The crown-appointed sheriff of the Eastern Reach, responsible for royal-aligned coastal interests while Karhold's independence remains disputed."
+title: Cassian Veyran
+subtitle: Sheriff of the Eastern Reach
+summary: The crown-appointed sheriff of the Eastern Reach, responsible for
+  royal-aligned coastal interests while Karhold's independence remains disputed.
 category: People & Legends
+image: /assets/uploads/cassian-veyran-at-the-harbor.png
 entry: BIO.015
-era: "Age of Ascendancy"
-facts: "Office: Sheriff of the Eastern Reach\nSheriffdom: Eastern Reach\nHouse: Veyran\nRegional concern: Maritime commerce and crown-aligned ports\nImportant exception: Karhold is disputed"
+era: Age of Ascendancy
+facts: |-
+  Office: Sheriff of the Eastern Reach
+  Sheriffdom: Eastern Reach
+  House: Veyran
+  Regional concern: Maritime commerce and crown-aligned ports
+  Important exception: Karhold is disputed
 related: four-sheriffdoms,karhold,cove-city,tinsel,stems-port
-source: "Compendium II · Entry II.001, VII and XIII; political canon ledger VIII"
+source: Compendium II · Entry II.001, VII and XIII; political canon ledger VIII
 featured: false
 ---
-
 ## The royal reach toward the sea
 
 **Cassian Veyran** serves as sheriff of the **Eastern Reach**, where crown-aligned ports, coastal settlements, and maritime commerce connect Avalor to distant markets.
