@@ -1,16 +1,23 @@
 ---
-title: "Edran Halwick"
-subtitle: "Sheriff of the Royal Heartlands"
-summary: "The crown-appointed sheriff of the Royal Heartlands, where productive estates, grain roads, and the needs of Renada place agriculture at the center of government."
+title: Edran Halwick
+subtitle: Sheriff of the Royal Heartlands
+summary: The crown-appointed sheriff of the Royal Heartlands, where productive
+  estates, grain roads, and the needs of Renada place agriculture at the center
+  of government.
 category: People & Legends
+image: /assets/uploads/half-orc-wheatwarden-on-the-terrace.png
 entry: BIO.013
-era: "Age of Ascendancy"
-facts: "Office: Sheriff of the Royal Heartlands\nSheriffdom: Royal Heartlands\nHouse: Halwick\nFamily interests: Agriculture and productive estates\nAppointment: By the crown"
+era: Age of Ascendancy
+facts: |-
+  Office: Sheriff of the Royal Heartlands
+  Sheriffdom: Royal Heartlands
+  House: Halwick
+  Family interests: Agriculture and productive estates
+  Appointment: By the crown
 related: four-sheriffdoms,kingdom-of-avalor,renada,lantern-ward
-source: "Compendium II · Entry II.001, VII and political canon ledger VIII"
+source: Compendium II · Entry II.001, VII and political canon ledger VIII
 featured: false
 ---
-
 ## The country that feeds the capital
 
 **Edran Halwick** serves as sheriff of the **Royal Heartlands**, the productive region whose grain country and roads are essential to the life of [[Renada]].
