@@ -1,16 +1,23 @@
 ---
-title: "King Gradvum Frozenroar"
-subtitle: "The Approachable Lion"
-summary: "The reigning king of Avalor since 1983 AF, known for his approachable manner and his partnership with Queen Melmiri in governing the realm."
+title: King Gradvum Frozenroar
+subtitle: The Approachable Lion
+summary: The reigning king of Avalor since 1983 AF, known for his approachable
+  manner and his partnership with Queen Melmiri in governing the realm.
 category: People & Legends
+image: /assets/uploads/regal-fantasy-king-in-a-candlelit-hall.png
 entry: BIO.009
-era: "Age of Ascendancy"
-facts: "Office: King of Avalor\nHouse: Frozenroar\nAccession: 1983 AF\nConsort: Queen Melmiri\nGriffin: Fis Uskeche\nSword: Lionsbane"
+era: Age of Ascendancy
+facts: |-
+  Office: King of Avalor
+  House: Frozenroar
+  Accession: 1983 AF
+  Consort: Queen Melmiri
+  Griffin: Fis Uskeche
+  Sword: Lionsbane
 related: house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,four-sheriffdoms
-source: "Compendium II · Entry II.001, IV–VII; Avalor Master Canon Bible, VII"
+source: Compendium II · Entry II.001, IV–VII; Avalor Master Canon Bible, VII
 featured: false
 ---
-
 ## The king who receives the kingdom
 
 **Gradvum Frozenroar** is the reigning sovereign of [[The Kingdom of Avalor|Avalor]], having ascended the lion throne in **1983 AF**. He is widely regarded as an approachable king who seeks to keep the concerns of ordinary people within reach of the court.
