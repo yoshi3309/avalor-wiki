@@ -1,10 +1,12 @@
 ---
-title: "Lord Bradgem Glav"
-subtitle: "The Warrior of Heroes Hill"
-summary: "The warrior who killed Osmo at Heroes Hill and died of his wounds, remembered beneath a monument of a rearing horse."
+title: Lord Bradgem Glav
+subtitle: The Warrior of Heroes Hill
+summary: The warrior who killed Osmo at Heroes Hill and died of his wounds,
+  remembered beneath a monument of a rearing horse.
 category: People & Legends
+image: /assets/uploads/noble-warlord-overlooking-the-battlefield.png
 entry: BIO.032
-era: "Founding Age"
+era: Founding Age
 facts: |-
   Title: Lord
   Remembered deed: Killing Lord Osmo
@@ -12,10 +14,10 @@ facts: |-
   Fate: Mortally wounded
   Memorial: Rearing horse at his grave
 related: heroes-hill,founding-wars,unification-of-avalor,jaznaars-refuge
-source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
+source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
+  public historical record
 featured: false
 ---
-
 ## The deed at Heroes Hill
 
 Lord **Bradgem Glav** was not the architect of the northern alliance or the ruler who inherited its success. His name endured for the action that decided the last battle against Lord Osmo.
