@@ -33,7 +33,7 @@ content:
       - name: image
         label: Main image / character portrait
         type: image
-        description: "Upload a public image for this article. Portraits, locations, and artifacts all work."
+        description: "Upload a public image, preferably a JPEG or WebP under 3 MB. Larger files can trigger Pages CMS error 413; compress or resize before uploading."
         options:
           categories: [image]
           extensions: [jpg, jpeg, png, webp, gif]
