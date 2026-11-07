@@ -8,6 +8,8 @@ on:
       - ".pages.yml"
       - "assets/**"
       - "templates/**"
+      - "tests/**"
+      - "docs/PUBLIC_CANON_OVERRIDES.md"
       - "build.py"
       - ".github/workflows/publish.yml"
   workflow_dispatch:
