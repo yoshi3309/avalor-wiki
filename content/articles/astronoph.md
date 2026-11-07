@@ -1,16 +1,24 @@
 ---
-title: "Astronoph"
-subtitle: "High Priest of the Great Cathedral"
-summary: "A female deva serving as High Priest of Renada's Great Cathedral, whose religious and charitable responsibilities are distinct from Samuel's seat on the Aegis."
+title: Astronoph
+subtitle: High Priest of the Great Cathedral
+summary: A female deva serving as High Priest of Renada's Great Cathedral, whose
+  religious and charitable responsibilities are distinct from Samuel's seat on
+  the Aegis.
 category: People & Legends
+image: /assets/uploads/astronoph-keeper-of-the-celestial-staff.png
 entry: BIO.011
-era: "Age of Ascendancy"
-facts: "Nature: Female deva\nOffice: High Priest\nInstitution: Great Cathedral\nDistrict: Cathedral Ward, Renada\nTradition: Tyr, Helm, and Torm"
+era: Age of Ascendancy
+facts: |-
+  Nature: Female deva
+  Office: High Priest
+  Institution: Great Cathedral
+  District: Cathedral Ward, Renada
+  Tradition: Tyr, Helm, and Torm
 related: great-cathedral,cathedral-ward,threefold-devotion,samuel-the-devoted,the-aegis
-source: "Compendium II · Entry II.002, XI; Entry II.003, XXIV; Avalor Master Canon Bible, VII"
+source: Compendium II · Entry II.002, XI; Entry II.003, XXIV; Avalor Master
+  Canon Bible, VII
 featured: false
 ---
-
 ## A voice within the capital
 
 **Astronoph** is a **female deva** serving as High Priest of [[The Great Cathedral]] in [[Cathedral Ward]], the religious district near the heart of [[Renada]].
