@@ -38,3 +38,7 @@
 .atlas-placement-tray.is-collapsed .atlas-placement-items{display:none}
 .atlas-placement-tray.is-collapsed .atlas-placement-note{padding:7px 11px;font-size:10px}
 @media(max-width:610px){.atlas-placement-tray{left:7px;top:7px;width:min(280px,calc(100% - 14px))}.atlas-placement-items{max-height:165px}.atlas-placement-head{padding:8px}.atlas-placement-head strong{font-size:14px}}
+
+/* Unsaved draft markers are visually distinct from established geography. */
+.atlas-pin.is-preview .atlas-pin-symbol{background:#8c5524;border-color:#ffd58a;box-shadow:0 0 0 3px #263137,0 0 0 6px #e7ae55,0 0 14px 7px #eeb55a99}
+.atlas-pin.is-preview .atlas-pin-label{color:#ffe6b0}

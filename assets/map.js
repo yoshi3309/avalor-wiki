@@ -94,7 +94,7 @@
     if (!data.image) return;
     filtered().filter(loc => loc.placed).forEach(loc=>{
       const btn=document.createElement('button');
-      btn.type='button';btn.className='atlas-pin'+(loc.provisional?' is-provisional':'')+(loc.id===state.selected?' is-selected':'');
+      btn.type='button';btn.className='atlas-pin'+(loc.provisional?' is-provisional':'')+(loc.initiallyUnplaced?' is-preview':'')+(loc.id===state.selected?' is-selected':'');
       btn.dataset.id=loc.id;btn.dataset.type=loc.type;
       btn.style.left=loc.x+'%';btn.style.top=loc.y+'%';
       btn.setAttribute('aria-label',loc.name+(loc.provisional?' (approximate location)':''));
@@ -172,41 +172,44 @@
     else return;
     applyTransform();
   });
+
+  // Click once to position a selected draft; only an actual drag pans the map.
+  // Avoid pointer-capture: it can prevent the browser from dispatching clicks
+  // normally when mouse-down and mouse-up occur over different descendants.
+  state.drag=null;state.ignoreClick=false;
   viewport.addEventListener('pointerdown',e=>{
-    // The floating unplaced-landmarks tray is an interface, not a point
-    // on the map: clicking a name must never accidentally place a pin.
-    if (e.target.closest('.atlas-placement-tray')) return;
-    if(!data.image || (e.target.closest('.atlas-pin') && !state.placing))return;
-    if(e.button!==0)return;
-    state.pointer={x:e.clientX,y:e.clientY,startX:view.x,startY:view.y,travel:0};
-    viewport.setPointerCapture(e.pointerId);
+    if(e.button!==0||e.target.closest('.atlas-placement-tray, .atlas-pin'))return;
+    state.drag={x:e.clientX,y:e.clientY,panX:view.x,panY:view.y,dragged:false};
+    state.ignoreClick=false;
   });
   viewport.addEventListener('pointermove',e=>{
-    if(!state.pointer)return;
-    const dx=e.clientX-state.pointer.x,dy=e.clientY-state.pointer.y;
-    state.pointer.travel=Math.max(state.pointer.travel,Math.hypot(dx,dy));
-    if(state.pointer.travel>5 && !state.placing){view.x=state.pointer.startX+dx;view.y=state.pointer.startY+dy;applyTransform()}
+    if(!state.drag)return;
+    const dx=e.clientX-state.drag.x,dy=e.clientY-state.drag.y;
+    if(Math.hypot(dx,dy)>7)state.drag.dragged=true;
+    if(state.drag.dragged){state.ignoreClick=true;view.x=state.drag.panX+dx;view.y=state.drag.panY+dy;applyTransform();}
   });
-  viewport.addEventListener('pointerup',e=>{
-    if(!state.pointer)return;
-    const wasClick=state.pointer.travel<7;state.pointer=null;
-    if(wasClick&&state.editing&&state.placing){
-      const rect=viewport.getBoundingClientRect();
-      const x=clamp(((e.clientX-rect.left-view.x)/view.scale)/WIDTH*100,0,100);
-      const y=clamp(((e.clientY-rect.top-view.y)/view.scale)/HEIGHT*100,0,100);
-      const loc=find(state.placing);if(loc){loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));
-      // Crucial: an unplaced draft needs to become a placed preview in
-      // browser state, otherwise renderPins() cannot draw it at all.
-      loc.placed=true;
-      loc.provisional=true;
-      state.position={id:loc.id,x:loc.x,y:loc.y};
-      renderPins();select(loc.id,false);
-      state.position={id:loc.id,x:loc.x,y:loc.y};
-      editOutput.textContent=`${loc.name} — X: ${loc.x}% · Y: ${loc.y}%. LOCAL PREVIEW ONLY: Copy into Pages CMS, enable Show marker to players, untick Provisional, then Save.`;
-      copyButton.disabled=false;}
-    }
+  viewport.addEventListener('pointerup',()=>{state.drag=null});
+  viewport.addEventListener('pointercancel',()=>{state.drag=null;state.ignoreClick=true});
+  viewport.addEventListener('click',e=>{
+    if(!state.editing||!state.placing||state.ignoreClick||e.target.closest('.atlas-placement-tray, .atlas-pin'))return;
+    const loc=find(state.placing);
+    if(!loc)return;
+    const rect=scene.getBoundingClientRect();
+    if(!rect.width||!rect.height)return;
+    const x=(e.clientX-rect.left)/rect.width*100;
+    const y=(e.clientY-rect.top)/rect.height*100;
+    if(x<0||x>100||y<0||y>100){editOutput.textContent='Click within the illustrated map.';return}
+    loc.x=Number(x.toFixed(2));loc.y=Number(y.toFixed(2));
+    loc.placed=true;loc.provisional=true;
+    select(loc.id,false);
+    state.position={id:loc.id,x:loc.x,y:loc.y};
+    renderPins();
+    editOutput.textContent=loc.name+' — X: '+loc.x+'% · Y: '+loc.y+'%. PREVIEW PIN VISIBLE. Copy to Pages CMS, enable Show marker to players, untick Provisional, then Save.';
+    copyButton.disabled=false;
+    placementTray.classList.add('is-collapsed');
+    placementToggle.setAttribute('aria-expanded','false');
+    placementToggle.textContent='Show list';
   });
-  viewport.addEventListener('pointercancel',()=>{state.pointer=null});
   document.querySelectorAll('#atlas-filters button').forEach(button=>button.addEventListener('click',()=>{
     state.filter=button.dataset.filter;
     document.querySelectorAll('#atlas-filters button').forEach(b=>{const selected=b===button;b.classList.toggle('is-active',selected);b.setAttribute('aria-pressed',String(selected))});
