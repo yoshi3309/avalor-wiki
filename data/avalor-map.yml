@@ -119,6 +119,7 @@ locations:
     description: Royal capital of Avalor, on the River Rhys; home to the Great
       Citadel and royal court.
     article: renada
+    related_places: great-citadel,great-cathedral
     published: true
     provisional: false
   - id: heavens-heart
@@ -179,14 +180,6 @@ locations:
     article: black-tower
     published: true
     provisional: false
-  - id: great-citadel
-    name: The Great Citadel
-    type: institution
-    description: Royal seat overlooking Renada; its exact position is awaiting
-      cartographic approval.
-    article: great-citadel
-    published: true
-    provisional: true
   - id: lands-end
     name: Land's End
     type: settlement
@@ -231,12 +224,5 @@ locations:
     y: 76.07
     description: Ancient defensive tower now used to train Avalor's standing army.
     article: great-fork-tower
-    published: false
-    provisional: true
-  - id: great-cathedral
-    name: The Great Cathedral
-    type: institution
-    description: Cathedral Ward institution in Renada honoring Tyr, Helm, and Torm.
-    article: great-cathedral
     published: false
     provisional: true

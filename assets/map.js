@@ -69,7 +69,9 @@
     const status=!loc.placed ? '<div class="atlas-detail-status">✥ Not yet placed · select this location in the positioning desk</div>' : loc.provisional ? '<div class="atlas-detail-status">◇ Approximate placement · awaiting your confirmation</div>' : '';
     const href=loc.article ? `${data.root}articles/${encodeURIComponent(loc.article)}/` : null;
     const action=href ? `<a href="${href}">Open the related archive record ↗</a>` : '<span class="atlas-detail-no-link">A dedicated record has not yet been added.</span>';
-    detail.innerHTML=`<div class="atlas-detail-tag">${escape(types[loc.type]||'Location')}</div><h3>${escape(loc.name)}</h3>${status}<p>${escape(loc.description)}</p>${action}`;
+    const subplaces=(loc.subplaces||[]).map(p=>`<a class="atlas-subplace-link" href="${data.root}articles/${encodeURIComponent(p.slug)}/">${escape(p.name)} ↗</a>`).join('');
+    const nested=subplaces ? `<section class="atlas-subplaces"><strong>WITHIN THIS LOCATION</strong><div>${subplaces}</div></section>` : '';
+    detail.innerHTML=`<div class="atlas-detail-tag">${escape(types[loc.type]||'Location')}</div><h3>${escape(loc.name)}</h3>${status}<p>${escape(loc.description)}</p>${action}${nested}`;
   }
   function select(id,shouldFocus=true) {
     if (!find(id) || (!state.editing && !isPublic(find(id)))) return;

@@ -142,11 +142,16 @@ for raw in MAP.get('locations', []):
     article_slug = str(raw.get('article') or '').strip()
     if article_slug and article_slug not in BY_SLUG:
         raise ValueError(f'{ident}: article filename {article_slug} does not exist')
+    subplace_slugs = [s.strip() for s in str(raw.get('related_places') or '').split(',') if s.strip()]
+    for subslug in subplace_slugs:
+        if subslug not in BY_SLUG:
+            raise ValueError(f'{ident}: nested article {subslug} does not exist')
+    subplaces = [{'slug': s, 'name': BY_SLUG[s]['title']} for s in subplace_slugs]
     MAP_LOCATIONS.append({
         'id':ident, 'name':str(raw.get('name') or ident),
         'type':kind,'x':x,'y':y,'placed':placed,
         'description':str(raw.get('description') or ''),
-        'article':article_slug,
+        'article':article_slug,'subplaces':subplaces,
         'published':bool(raw.get('published',True)),
         'provisional':bool(raw.get('provisional',False)),
     })
@@ -158,8 +163,11 @@ MAP_IMAGE = '../'+raw_map_image if raw_map_image else ''
 MAP_DATA = {'image': MAP_IMAGE, 'root':'../','locations': MAP_LOCATIONS}
 MAP_LINKS = {}
 for loc in MAP_LOCATIONS:
-    if loc['published'] and loc['placed'] and loc['article']:
-        MAP_LINKS.setdefault(loc['article'],loc['id'])
+    if loc['published'] and loc['placed']:
+        if loc['article']:
+            MAP_LINKS.setdefault(loc['article'],loc['id'])
+        for subplace in loc['subplaces']:
+            MAP_LINKS.setdefault(subplace['slug'],loc['id'])
 
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 

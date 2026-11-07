@@ -42,3 +42,6 @@
 /* Unsaved draft markers are visually distinct from established geography. */
 .atlas-pin.is-preview .atlas-pin-symbol{background:#8c5524;border-color:#ffd58a;box-shadow:0 0 0 3px #263137,0 0 0 6px #e7ae55,0 0 14px 7px #eeb55a99}
 .atlas-pin.is-preview .atlas-pin-label{color:#ffe6b0}
+
+/* Drill-down for sites within a mapped city. */
+.atlas-subplaces{margin-top:17px;border-top:1px solid #62614f;padding-top:13px}.atlas-subplaces>strong{display:block;color:#c7ab77;font-size:9px;letter-spacing:.14em;margin-bottom:6px}.atlas-subplaces>div{display:flex;gap:7px;flex-wrap:wrap}.atlas-subplaces a.atlas-subplace-link{margin:2px 0!important;padding:9px 10px;display:inline-block;border:1px solid #7c735c;color:#ead5a5;font-size:11px;text-decoration:none}.atlas-subplaces a.atlas-subplace-link:hover{background:#39443e}

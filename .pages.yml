@@ -125,6 +125,10 @@ content:
             label: Linked article filename (without .md)
             type: string
             description: "Example: renada, heavens-heart, heroes-hill. Leave empty for no link."
+          - name: related_places
+            label: Inside this location (comma-separated article filenames, no separate pins)
+            type: string
+            description: "Example for Renada: great-citadel,great-cathedral. Those articles appear in the city detail panel, not as overlapping map markers."
           - name: published
             label: Show marker to players (enable after positioning)
             type: boolean
