@@ -5,15 +5,12 @@ summary: A kingdom nearly two millennia old, bound together beneath the lion ban
 category: Kingdoms & Places
 entry: II.001
 era: Age of Ascendancy
-facts: 'Capital: Renada
-
+facts: |-
+  Capital: Renada
   Ruling dynasty: House Frozenroar
-
   Founded: 1 AF
-
   Sovereign: Gradvum Frozenroar
-
-  Royal consort: Queen Melmiri'
+  Royal consort: Queen Melmiri
 related: king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,renada,the-aegis
 source: Compendium II · Entry II.001; The Living Chronicle
 featured: true

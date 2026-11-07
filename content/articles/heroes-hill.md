@@ -5,11 +5,10 @@ summary: The battlefield on which Lord Osmo fell and the cost of Avalor’s foun
 category: Kingdoms & Places
 entry: LOC.003
 era: Founding Age
-facts: 'Historic conflict: War against Lord Osmo
-
+facts: |-
+  Historic conflict: War against Lord Osmo
   Remembered hero: Bradgem Glav
-
-  Monument: Rearing horse sculpture'
+  Monument: Rearing horse sculpture
 related: lord-osmos-tower,kingdom-of-avalor,house-frozenroar,the-six
 source: The Living Chronicle, Chapter II; Compendium II · Entry II.001
 featured: false

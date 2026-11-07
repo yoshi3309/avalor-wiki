@@ -5,13 +5,11 @@ summary: An ancient river settlement transformed into the political heart of a u
 category: Kingdoms & Places
 entry: II.002
 era: Age of Ascendancy
-facts: 'Region: Royal Heartlands
-
+facts: |-
+  Region: Royal Heartlands
   River: Rhys
-
   Population: About 100,000–200,000
-
-  Landmark: The Great Citadel'
+  Landmark: The Great Citadel
 related: great-citadel,great-cathedral,lavitz-shawe,the-aegis
 source: Compendium II · Entry II.002
 featured: true

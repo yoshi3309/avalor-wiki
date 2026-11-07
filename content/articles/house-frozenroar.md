@@ -5,13 +5,11 @@ summary: The dynasty whose lion banner has presided over Avalor since the foundi
 category: Organizations & Factions
 entry: HIS.002
 era: Age of Ascendancy
-facts: 'Founder: Rynhold Frozenroar
-
+facts: |-
+  Founder: Rynhold Frozenroar
   First reign: 1–37 AF
-
   Current sovereign: Gradvum Frozenroar
-
-  Royal consort: Queen Melmiri'
+  Royal consort: Queen Melmiri
 related: king-gradvum-frozenroar,queen-melmiri,kingdom-of-avalor,the-aegis
 source: Compendium II · Entry II.001; The Living Chronicle · Royal Register
 featured: false

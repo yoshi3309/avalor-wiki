@@ -5,13 +5,11 @@ summary: A founding hero once falsely condemned as the Betrayer, whose name has 
 category: People & Legends
 entry: BIO.002
 era: Founding Age
-facts: 'Ancestry: Drow
-
+facts: |-
+  Ancestry: Drow
   Role: Spellcaster
-
   Fellowship: The Six
-
-  Historic status: Publicly vindicated'
+  Historic status: Publicly vindicated
 related: jaznaars-refuge,the-six,cid-the-blood-king,the-misfits
 source: The Living Chronicle, Chapters III–VI; Compendium II · Entry II.001
 featured: false

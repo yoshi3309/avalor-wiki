@@ -5,13 +5,11 @@ summary: A northern fortress and seat of frontier administration held by Sheriff
 category: Kingdoms & Places
 entry: LOC.012
 era: Age of Ascendancy
-facts: 'Region: Northern March
-
+facts: |-
+  Region: Northern March
   Sheriff: Sebastian Rubelda
-
   Function: Frontier defense and administration
-
-  Authority: Crown of Avalor'
+  Authority: Crown of Avalor
 related: sebastian-rubelda,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor
 source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI
 featured: false

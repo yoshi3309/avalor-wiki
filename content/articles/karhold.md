@@ -6,13 +6,11 @@ summary: An eastern peninsula port with a longstanding tradition of independence
 category: Kingdoms & Places
 entry: LOC.013
 era: Age of Ascendancy
-facts: 'Location: Eastern peninsula
-
+facts: |-
+  Location: Eastern peninsula
   Commercial character: Freeport
-
   Political status: Disputed
-
-  Relations: Trade and diplomacy with Avalor'
+  Relations: Trade and diplomacy with Avalor
 related: cassian-veyran,four-sheriffdoms,kingdom-of-avalor,renada
 source: Compendium II · Entry II.001, VII, XIII and XVIII
 featured: false

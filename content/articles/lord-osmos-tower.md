@@ -6,13 +6,11 @@ summary: A surviving military landmark of Osmo’s campaigns, later surrounded b
 category: Kingdoms & Places
 entry: LOC.016
 era: Before the Founding to Age of Ascendancy
-facts: 'Associated figure: Lord Osmo
-
+facts: |-
+  Associated figure: Lord Osmo
   Historic role: Military stronghold
-
   Period: Founding wars
-
-  Osmo’s death: Heroes Hill'
+  Osmo’s death: Heroes Hill
 related: heroes-hill,kingdom-of-avalor,house-frozenroar,great-fork-tower
 source: Compendium II · Entry II.003, XXII; The Living Chronicle, Chapters I–II
 featured: false
