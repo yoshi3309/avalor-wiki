@@ -1,8 +1,10 @@
 ---
 title: The Misfits
 subtitle: Champions of the Age of Ascendancy
-summary: The adventuring fellowship whose defeat of Cid changed Avalor’s history and its place among nations.
+summary: The adventuring fellowship whose defeat of Cid changed Avalor’s history
+  and its place among nations.
 category: People & Legends
+image: /assets/uploads/enchanted-tavern-adventurers-gathering.png
 entry: HIS.001
 era: Age of Ascendancy
 facts: |-
@@ -13,7 +15,6 @@ related: lavitz-shawe,tellora-ebbenflow,fo-gurn,jack-of-stanleyville,the-stalker
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters VI–VII
 featured: true
 ---
-
 ## A fellowship that changed history
 
 The companions remembered as **the Misfits** were [[Lavitz Shawe]], [[Tel'Lora Ebbenflow]], [[Heureux]], [[svendyal-shadowwhisper|Sven]], and [[Amara]]. Their adventures brought them into conflict with forces that had shaped the realm from behind the veil of a false history.
