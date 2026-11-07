@@ -180,6 +180,41 @@ for loc in MAP_LOCATIONS:
         for subplace in loc['subplaces']:
             MAP_LINKS.setdefault(subplace['slug'],loc['id'])
 
+# Collection navigation is a public editorial index, separate from character canon.
+# A person may belong to more than one browsing group. Unlisted people receive a
+# catch-all entry without requiring a code change when Pages CMS adds a biography.
+PEOPLE_NAV_CONFIG = yaml.safe_load((ROOT / 'data' / 'people-navigation.yml').read_text(encoding='utf-8'))
+PEOPLE_ITEMS = [a for a in ALL if a['category'] == 'People & Legends']
+PEOPLE_BY_SLUG = {a['slug']: a for a in PEOPLE_ITEMS}
+PEOPLE_GROUPS = []
+PEOPLE_ASSIGNED = set()
+PEOPLE_GROUP_IDS = set()
+for raw_group in PEOPLE_NAV_CONFIG['groups']:
+    group_id = str(raw_group['id'])
+    if group_id in PEOPLE_GROUP_IDS or not re.fullmatch(r'[a-z0-9-]+', group_id):
+        raise ValueError(f'Duplicate or invalid people navigation group: {group_id}')
+    PEOPLE_GROUP_IDS.add(group_id)
+    slugs = raw_group.get('articles', [])
+    invalid = [slug for slug in slugs if slug not in PEOPLE_BY_SLUG]
+    if invalid:
+        raise ValueError(f'People group {group_id} names missing/non-person entries: {invalid}')
+    PEOPLE_ASSIGNED.update(slugs)
+    PEOPLE_GROUPS.append({
+        'id': group_id, 'title': raw_group['title'],
+        'eyebrow': raw_group['eyebrow'], 'icon': raw_group['icon'],
+        'description': raw_group['description'], 'slugs': list(slugs)
+    })
+# Future people automatically appear in "Other Figures" and the full directory.
+if 'other-figures' not in PEOPLE_GROUP_IDS:
+    raise ValueError('People navigation requires an other-figures catch-all group')
+for group in PEOPLE_GROUPS:
+    if group['id'] == 'other-figures':
+        group['slugs'] += sorted(set(PEOPLE_BY_SLUG) - PEOPLE_ASSIGNED)
+    group['count'] = len(group['slugs'])
+for a in PEOPLE_ITEMS:
+    a['browse_groups'] = [group['id'] for group in PEOPLE_GROUPS if a['slug'] in group['slugs']]
+PEOPLE_FEATURED = PEOPLE_BY_SLUG.get(str(PEOPLE_NAV_CONFIG.get('featured', ''))) or PEOPLE_ITEMS[0]
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 def render(template,path,depth=0,**kwargs):
@@ -198,7 +233,10 @@ render('home.html','index.html',page_type='home',title='Home',featured=FEATURED)
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
 for cat in CATEGORIES:
     subset=[a for a in ALL if a['category']==cat['name']]
-    render('list.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset)
+    if cat['name'] == 'People & Legends':
+        render('people.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset,people_groups=PEOPLE_GROUPS,people_featured=PEOPLE_FEATURED)
+    else:
+        render('list.html',f'collections/{cat["slug"]}/index.html',depth=2,page_type='category',title=cat['name'],crumbs=cat['name'],current_category=cat['name'],heading=cat['name'],overline='THE COLLECTIONS',intro=cat['description'],items=subset)
 for a in ALL:
     category_slug=next(c['slug'] for c in CATEGORIES if c['name']==a['category'])
     related=[BY_SLUG[s] for s in a['related_slugs'] if s in BY_SLUG and s!=a['slug']][:4]
