@@ -1,16 +1,23 @@
 ---
-title: "Faelynn"
-subtitle: "The Night Mistress of the Wilds"
-summary: "A wood elf ranger of the Six whose painful history and devotion to vulnerable travelers led to the Hunters Guild."
+title: Faelynn
+subtitle: The Night Mistress of the Wilds
+summary: A wood elf ranger of the Six whose painful history and devotion to
+  vulnerable travelers led to the Hunters Guild.
 category: People & Legends
+image: /assets/uploads/mischievous-wood-elf-ranger-in-sunlit-ruins.png
 entry: BIO.005
-era: "Founding Age"
-facts: "Ancestry: Wood elf\nCalling: Ranger\nKnown as: The Night Mistress\nFellowship: The Six\nFounded: Hunters Guild at Wayword Sun"
+era: Founding Age
+facts: |-
+  Ancestry: Wood elf
+  Calling: Ranger
+  Known as: The Night Mistress
+  Fellowship: The Six
+  Founded: Hunters Guild at Wayword Sun
 related: hunters-guild,wayword-sun,dead-marshes,the-six,lowkee
-source: "The Living Chronicle, Chapters II–IV; Compendium II · II.003, public Scholar's Account"
+source: The Living Chronicle, Chapters II–IV; Compendium II · II.003, public
+  Scholar's Account
 featured: false
 ---
-
 ## The ranger beyond the walls
 
 **Faelynn**, a wood elf ranger known as the **Night Mistress**, was among [[The Six]] who helped shape the earliest years of Avalor. Her understanding of woodland paths, dangerous creatures, and the needs of travelers distinguished her from companions whose service was more often associated with royal halls or religious institutions.
