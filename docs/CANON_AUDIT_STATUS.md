@@ -151,3 +151,25 @@ The above corrections were committed to the `main` branch while Pages CMS artwor
 - **The Living Chronicle** timeline (site chronology): 17 events with clearer chronology and dates, retaining approximations.
 
 **Still open:** Complete kinship between many successive sovereigns; the precise founding-era date of Heroes Hill; exact Black Tower disaster year; origins and participants in the provisional War of the Narrow Straits; dates of individual War Across the Sea campaigns. No new claims were invented to settle these.
+
+
+## The Founding Wars, Black Tower, and drow-rights history — new public records
+
+Ten player-safe Scholar's Accounts added after reviewing the public *Living Chronicle* (Chapters II, IV, V and VII), the Master Canon Bible's distinction between established and unresolved history, and the public historical sections of Volume II:
+
+- **Founding Wars** (`HIS.016`) — Osmo was a mortal conqueror; a coalition fought multiple campaigns, not only Heroes Hill; exact campaign years are open.
+- **Bradgem Glav** (`BIO.032`) — killed Osmo at Heroes Hill and died from mortal wounds; the rearing-horse memorial is established, its intended symbolism is not.
+- **Unification of Avalor** (`HIS.017`) — founded in **1 AF** through negotiated union; Renada was already a settlement; the exact date of the battle is not assumed to be 1 AF.
+- **Blood Sickness** (`HIS.018`) — arcane corruption arising from Aldus's experiments, **not** an established contagious plague with known symptoms or transmission.
+- **Sundering of the Six** (`HIS.019`) — Black Tower ritual interrupted roughly a decade after the founding; no confirmed single killing blow; Aldus's mortal death did not end Cid.
+- **Betrayer's Legend** (`HIS.020`) — Cid's agents spread the paired false accounts of Aldus the savior and Jaznaar the betrayer; the original founders knew Jaznaar was innocent.
+- **Arnaud's Edicts** (`HIS.021`) — royal discrimination during **1259–1315 AF** had serious consequences for drow families and cannot be explained away by fear of magic.
+- **Sanctuary at Heaven's Heart** (`HIS.022`) — Jeyse (deva) and Cal'el (aasimar) defended threatened families; resolved through negotiation, **not a general war**.
+- **Reina's Reforms** (`HIS.023`) — curtailment of discriminatory laws **1316–1402 AF**, centuries **before** Jaznaar's public historical vindication.
+- **Jaznaar's Vindication** (`HIS.024`) — Gradvum's proclamation after the Misfits defeated Cid; historical correction did not undo the harm caused by the false legend.
+
+All were connected to existing records and to the Chronicle timeline, with an additional founding-wars timeline entry. No new atlas pins were created.
+
+**Editorial limits:** the exact Heroes Hill battle year, the precise Black Tower anniversary, the full mechanism of the Blood Sickness, the exhaustive history of Cid's propaganda agents, and a complete list of Arnaud-era victims remain unresolved. Public accounts do not present Keeper-only future developments as established history.
+
+**Publishing status:** GitHub article and cross-link deployments passed; timeline deployment should be verified in the GitHub Actions log.
