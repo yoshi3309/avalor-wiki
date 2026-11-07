@@ -1,16 +1,23 @@
 ---
-title: "Sebastian Rubelda"
-subtitle: "Sheriff of the Northern March"
-summary: "The crown-appointed sheriff of the Northern March, governing from Land's End and responsible for the practical demands of frontier defense."
+title: Sebastian Rubelda
+subtitle: Sheriff of the Northern March
+summary: The crown-appointed sheriff of the Northern March, governing from
+  Land's End and responsible for the practical demands of frontier defense.
 category: People & Legends
+image: /assets/uploads/regal-renaissance-noble-in-candlelit-study.png
 entry: BIO.012
-era: "Age of Ascendancy"
-facts: "Office: Northern Sheriff\nSheriffdom: Northern March\nSeat: Land's End\nAppointment: By the crown\nPrimary burdens: Frontier defense and supply"
+era: Age of Ascendancy
+facts: |-
+  Office: Northern Sheriff
+  Sheriffdom: Northern March
+  Seat: Land's End
+  Appointment: By the crown
+  Primary burdens: Frontier defense and supply
 related: lands-end,four-sheriffdoms,kingdom-of-avalor,avalorian-standing-army,the-aegis
-source: "Compendium II · Entry II.001, VII–VIII and gazetteer XXI; Volume II canon ledger, VIII"
+source: Compendium II · Entry II.001, VII–VIII and gazetteer XXI; Volume II
+  canon ledger, VIII
 featured: false
 ---
-
 ## The crown at the frontier
 
 **Sebastian Rubelda** is the appointed **sheriff of the Northern March**, governing from the stronghold of [[Land's End]].
