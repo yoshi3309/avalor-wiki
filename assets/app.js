@@ -65,4 +65,65 @@
     document.querySelectorAll('#catalog-list .catalog-item').forEach(el=>{const visible=el.dataset.filter.includes(q);el.hidden=!visible;if(visible)count++});
     document.getElementById('catalog-empty').hidden = count>0;
   });
+  // People & Legends collection: progressive enhancement for its group directory.
+  // Every biography remains an ordinary link and is visible without JavaScript.
+  const peopleDirectory = document.getElementById('people-directory');
+  if (peopleDirectory) {
+    const cards = Array.from(document.querySelectorAll('#people-record-grid .people-record'));
+    const groupButtons = Array.from(document.querySelectorAll('[data-people-group]'));
+    const peopleSearch = document.getElementById('people-filter');
+    const peopleCount = document.getElementById('people-visible-count');
+    const peopleEmpty = document.getElementById('people-empty');
+    const peopleReset = document.getElementById('people-reset');
+    const peopleHeading = document.getElementById('people-directory-heading');
+    const peopleDescription = document.getElementById('people-directory-description');
+    let activeGroup = 'all';
+    const updatePeople = () => {
+      const terms = (peopleSearch.value || '').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      cards.forEach(card => {
+        const groups = (card.dataset.groups || '').split(/\s+/);
+        const matchGroup = activeGroup === 'all' || groups.includes(activeGroup);
+        const searchable = card.dataset.search || '';
+        const matchSearch = terms.every(term => searchable.includes(term));
+        const visible = matchGroup && matchSearch;
+        card.hidden = !visible;
+        if (visible) shown += 1;
+      });
+      peopleCount.textContent = shown + ' of ' + cards.length + ' records';
+      peopleEmpty.hidden = shown !== 0;
+      peopleReset.hidden = activeGroup === 'all' && !terms.length;
+    };
+    groupButtons.forEach(button => button.addEventListener('click', () => {
+      activeGroup = button.dataset.peopleGroup;
+      groupButtons.forEach(other => {
+        const selected = other === button;
+        other.classList.toggle('is-selected', selected);
+        other.setAttribute('aria-pressed', String(selected));
+      });
+      peopleHeading.textContent = activeGroup === 'all'
+        ? 'All People A–Z'
+        : button.querySelector('strong').textContent.trim();
+      peopleDescription.textContent = activeGroup === 'all'
+        ? 'Explore all public records in this collection.'
+        : button.querySelector('.people-group-description').textContent.trim();
+      updatePeople();
+      peopleDirectory.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }));
+    peopleSearch.addEventListener('input', updatePeople);
+    peopleReset.addEventListener('click', () => {
+      activeGroup = 'all';
+      peopleSearch.value = '';
+      peopleHeading.textContent = 'All People A–Z';
+      peopleDescription.textContent = 'Explore all public records in this collection.';
+      groupButtons.forEach(button => {
+        const selected = button.dataset.peopleGroup === 'all';
+        button.classList.toggle('is-selected', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+      updatePeople();
+      peopleSearch.focus();
+    });
+  }
+
 })();
