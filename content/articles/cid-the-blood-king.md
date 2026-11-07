@@ -1,8 +1,10 @@
 ---
 title: Cid the Blood King
 subtitle: The Enemy Behind the Lie
-summary: The feared entity whose downfall exposed one of Avalor’s most enduring historical deceptions.
+summary: The feared entity whose downfall exposed one of Avalor’s most enduring
+  historical deceptions.
 category: People & Legends
+image: /assets/uploads/crimson-scythe-warden.png
 entry: HIS.004
 era: Age of Ascendancy
 facts: |-
@@ -14,7 +16,6 @@ related: the-six,jaznaar,the-misfits,kingdom-of-avalor
 source: The Living Chronicle, Chapters IV–VII; Compendium II · Entry II.001
 featured: false
 ---
-
 ## A name feared in later ages
 
 **Cid the Blood King** stands among the most consequential threats recorded in the histories of Avalor. His influence endured long after the catastrophe that first divided [[The Six]].
