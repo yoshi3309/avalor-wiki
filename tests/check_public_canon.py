@@ -56,7 +56,9 @@ for slug, (meta, body) in entries.items():
     if slug == "samuel-the-devoted":
         continue
     for line_number, line in enumerate(body.splitlines(), 1):
-        if re.search(r"\bSamuel\b.{0,115}\b(?:Monadic\s+)?Deva\b|\b(?:Monadic\s+)?Deva\b.{0,115}\bSamuel\b", line, re.I):
+        # Match explicit species assignments only, not a sentence that correctly
+        # calls Astronoph a deva and then Samuel an aasimar.
+        if re.search(r"\bSamuel\b\s*(?:,|is|was|:)?\s*(?:an?\s+)?(?:Monadic\s+)?Deva\b|\b(?:Monadic\s+)?Deva\s+Samuel\b", line, re.I):
             problems.append(f"{slug}:{line_number}: possibly misidentifies Samuel as deva")
 
 if problems:
