@@ -140,7 +140,7 @@ Their shared history matters more than the differences in their later offices. T
 
 ## A drow beneath the lion banner
 
-Lavitz's elevation did not repeal centuries of prejudice. Under [[Arnaud's Edicts]], drow families had endured discriminatory laws, and although [[Reina's Reforms]] began reversing that injustice, the memory and consequences persisted.
+Lavitz's elevation did not repeal centuries of prejudice. Under [[Arnaud's Edicts]], drow families had endured discriminatory laws, and although [[The Reforms of Queen Reina|Reina's reforms]] began reversing that injustice, the memory and consequences persisted.
 
 Gradvum's decision to entrust the defense of Avalor to a drow was therefore public as well as personal. Children in Renada's poorer streets could now see a drow officer holding one of the kingdom's highest posts, where earlier generations had seen suspicion or exclusion.
 
