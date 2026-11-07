@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container catalog-container people-container collection-browse collection-browse-{{collection_slug}}">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><span>{{heading}}</span></nav>
+  <header class="catalog-heading people-heading">
+    <div class="kicker">THE COLLECTIONS · {{nav_config.eyebrow}}</div>
+    <h1>{{heading}}</h1>
+    <p>{{nav_config.intro}}</p>
+    <div class="people-heading-meta">
+      <span>{{items|length}} public records</span>
+      {% if groups %}<span>{{groups|length}} paths to explore</span>{% endif %}
+      {% if nav_config.atlas_link %}<a href="{{root}}map/">View the interactive atlas <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if nav_config.timeline_link %}<a href="{{root}}chronicle/">Explore the living chronology <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </header>
+
+  {% if groups %}
+  <section class="people-feature collection-feature" aria-labelledby="collection-spotlight-heading">
+    {% if collection_featured.image_url %}
+    <a class="people-feature-image" href="{{root}}articles/{{collection_featured.slug}}/" aria-label="Read {{collection_featured.title}}">
+      <img src="{{collection_featured.image_url}}" alt="{{collection_featured.image_alt or collection_featured.title}}" loading="lazy">
+    </a>
+    {% else %}
+    <a class="people-feature-image people-feature-emblem" href="{{root}}articles/{{collection_featured.slug}}/" aria-label="Read {{collection_featured.title}}">
+      <span aria-hidden="true">{{nav_config.icon}}</span>
+    </a>
+    {% endif %}
+    <div class="people-feature-copy">
+      <div class="kicker">FROM THE ARCHIVES · {{nav_config.featured_label}}</div>
+      <h2 id="collection-spotlight-heading">{{collection_featured.title}}</h2>
+      {% if collection_featured.subtitle %}<p class="people-feature-subtitle">{{collection_featured.subtitle}}</p>{% endif %}
+      <p>{{collection_featured.summary}}</p>
+      <a href="{{root}}articles/{{collection_featured.slug}}/">Read the scholar's account <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="people-explore" aria-labelledby="collection-explore-heading">
+    <div class="people-section-heading">
+      <div><div class="kicker">I · FIND YOUR PATH</div><h2 id="collection-explore-heading">{{nav_config.browse_title}}</h2></div>
+      <p>{{nav_config.browse_description}}</p>
+    </div>
+    <div class="people-group-grid" role="group" aria-label="Browse {{heading}} by subject">
+      {% for group in groups %}
+      <button class="people-group-card" type="button" data-people-group="{{group.id}}" aria-pressed="false" aria-controls="people-directory">
+        <span class="people-group-top"><span class="people-group-icon" aria-hidden="true">{{group.icon}}</span><span class="people-group-count">{{group.count}} RECORDS</span></span>
+        <span class="people-group-eyebrow">{{group.eyebrow}}</span>
+        <strong>{{group.title}}</strong>
+        <span class="people-group-description">{{group.description}}</span>
+        <span class="people-group-cta">Explore records <span aria-hidden="true">↗</span></span>
+      </button>
+      {% endfor %}
+      <button class="people-group-card people-group-all is-selected" type="button" data-people-group="all" aria-pressed="true" aria-controls="people-directory">
+        <span class="people-group-top"><span class="people-group-icon" aria-hidden="true">☷</span><span class="people-group-count">{{items|length}} RECORDS</span></span>
+        <span class="people-group-eyebrow">THE COMPLETE INDEX</span>
+        <strong>{{nav_config.directory_title}}</strong>
+        <span class="people-group-description">{{nav_config.directory_description}}</span>
+        <span class="people-group-cta">Browse all <span aria-hidden="true">↗</span></span>
+      </button>
+    </div>
+  </section>
+  {% else %}
+  <div class="collection-simple-note"><span class="collection-simple-mark" aria-hidden="true">{{nav_config.icon}}</span><p><strong>From the Royal Archives</strong>These are the public accounts currently collected under this subject. Each entry opens its own scholar's account.</p></div>
+  {% endif %}
+
+  <section class="people-directory collection-directory" {% if groups %}id="people-directory"{% endif %} aria-labelledby="people-directory-heading">
+    <div class="people-section-heading">
+      <div><div class="kicker">{{"II · THE DIRECTORY" if groups else "I · THE RECORDS"}}</div><h2 id="people-directory-heading">{{nav_config.directory_title}}</h2></div>
+      <p id="people-directory-description">{{"Explore all public records in this collection." if groups else nav_config.directory_description}}</p>
+    </div>
+    <div class="people-directory-tools">
+      {% if groups %}
+      <label for="people-filter"><span>Find a name or keyword</span><input type="search" id="people-filter" placeholder="Search within {{heading}}…" autocomplete="off"></label>
+      <button type="button" class="people-clear" id="people-reset" hidden>Clear filters <span aria-hidden="true">×</span></button>
+      <span class="people-visible-count" id="people-visible-count" aria-live="polite">{{items|length}} of {{items|length}} records</span>
+      {% else %}
+      <span class="people-visible-count">{{items|length}} records indexed</span>
+      {% endif %}
+    </div>
+    <div class="people-record-grid" id="people-record-grid">
+      {% for a in items %}
+      <a class="people-record collection-record" href="{{root}}articles/{{a.slug}}/"
+         data-groups="{{a.browse_groups|join(' ')}}"
+         data-search="{{(a.title ~ ' ' ~ (a.subtitle or '') ~ ' ' ~ a.summary ~ ' ' ~ (a.era or ''))|lower}}">
+        {% if a.image_url %}
+        <span class="people-record-art"><img src="{{a.image_url}}" alt="{{a.image_alt or ('Illustration for ' ~ a.title)}}" loading="lazy"></span>
+        {% else %}
+        <span class="people-record-art people-record-empty" aria-hidden="true"><span>{{nav_config.icon}}</span></span>
+        {% endif %}
+        <span class="people-record-text">
+          <span class="people-record-number">{{a.entry}}</span>
+          <strong>{{a.title}}</strong>
+          <span class="people-record-subtitle">{{a.subtitle or a.era or 'Public archive record'}}</span>
+          <span class="people-record-summary">{{a.summary}}</span>
+        </span>
+        <span class="people-record-arrow" aria-hidden="true">↗</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% if groups %}<div class="no-catalog-results" id="people-empty" hidden>No matching public records found. Try a different keyword or category.</div>{% endif %}
+  </section>
+</div>
+{% endblock %}
