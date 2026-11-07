@@ -2,7 +2,7 @@
 title: Aldus Greystone III
 subtitle: The Healer Who Feared the End
 summary: A celebrated healer of Avalor's founding generation whose quest to
-  overcome death led to the Black Tower catastrophe—and whose later identity was
+  overcome death led to the Black Tower catastrophe and whose later identity was
   Cid the Blood King.
 category: People & Legends
 image: /assets/uploads/aldus-greystones-healing-light.png
