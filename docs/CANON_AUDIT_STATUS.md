@@ -57,3 +57,36 @@ The CMS contains character portraits whose filenames/appearance may imply more t
 - Never infer unsupported species, ranks, relationships, or geographical positions.
 - Separate historical fact from in-world rumor and from author-created narrative connective prose.
 - Flag truly unresolved claims as **OPEN**, without silently choosing a version.
+
+## Source-backed audit pass — 6 November 2026
+
+**Method:** Compared the live wiki's ninety-one article front matters and core historical claims against the public *Living Chronicle* and the approved, public portions of the canon compendia. Restricted notes were used only to detect conflicts and protect boundaries, not as player-visible narrative. This is an editorial pass, **not** an attestation that every sentence is now independently verified.
+
+### Confirmed corrections committed
+
+- **Tel'Lora Ebbenflow** — the article now identifies him explicitly as a **male half-elf wizard**, in agreement with the Living Chronicle and the canon reference.
+- **Amara** — the at-a-glance record now states **female**; her established role as druid and descendant of Petris is unchanged.
+- **Age of Ascendancy** — retained as the name used by the public Living Chronicle, while avoiding a claim that a formal royal act established it as an official calendar division. The older reference Bible marked the name as WORKING; the later public text uses the term.
+- **The Misfits' First Commission** — archive number was duplicated with the Age of Ascendancy at HIS.005; reassigned the commission's identifier to **HIS.015**, without changing the event's chronology.
+- **Historical prose** — replaced three out-of-world uses of the word *canon* with in-world documentary language in Malikeah, Heureux's Bard Academy, and Jinlin Vechon's account.
+
+### Additional continuous checks
+
+- GitHub publishing validation now checks **unique archive identifiers** and **resolvable article-body wiki-links** as well as YAML and related slugs. This is separate from substantive canon checking.
+- Preliminary manual inspection of the article headings, facts, and key narrative passages did not reveal additional source-confirmed contradictions requiring immediate factual rewrite. This is **not** a claim that all narrative paragraphs have been certified.
+- Distinctions preserved: the first necromancer was not Jaaris; Fo'Gurn was part of the original party, Jack traveled onward with the company, and Sven's public reputation does not justify publishing his private actions.
+- Names of the royal Aegis officers and four appointed sheriffs match the public political records; none of their unverified species, rank, or personal details has been inferred from uploaded portraits.
+- No obvious mentions of the restricted campaign plot names were identified in the public article titles and content searches. This is a targeted check rather than a proof against every indirect spoiler.
+
+### Open editorial questions
+
+1. **Art and appearance:** the filenames for Belgram's portrait imply a dwarven **king**, Rastrin's a **tortle magistrate**, Katiri's an **orc warrior**, and Beldir's an **admiral**. The currently approved texts confirm their offices but not all these additional species or ranks. Preserve images pending creator verification.
+2. **Public-facing references:** some `source:` fields still cite the *Master Canon Bible* or an editorial *canon ledger*. They do not expose private plot details in the cited field, but they break the in-world archival voice and imply a public source where one may not exist. Preserve existing provenance pending a decision on separate private/editorial and public citation displays; do not fabricate a replacement source.
+3. **The First Commission numbering:** `HIS.015` resolves the duplicate without renumbering established historical articles. The exact archive-wide numbering convention remains open for a future systematic catalogue design.
+4. **Jaznaar's character class:** explicitly **OPEN** between wizard and sorcerer, even though some historical accounts describe him generically as a spellcaster.
+5. **Historic calendar:** do not silently identify nearly two thousand years of later history with a precise birthday or fix unresolved chronology by invention.
+6. **Full sentence-level corroboration:** a second pass is still required for complete line-by-line attribution, especially where the public articles cite the editorial canon Bible as their only recorded source.
+
+### Publishing status
+
+The above corrections were committed to the `main` branch while Pages CMS artwork edits were also arriving. Deployment runs may remain queued; a commit is not evidence of successful publication until its build and deployment finish.
