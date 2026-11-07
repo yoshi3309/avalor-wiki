@@ -30,6 +30,8 @@ jobs:
         run: pip install 'Jinja2>=3.1,<4' 'PyYAML>=6,<7' 'mistune>=3,<4'
       - name: Check atlas JavaScript syntax
         run: node --check assets/map.js
+      - name: Check public canon and article links
+        run: python tests/check_public_canon.py
       - name: Build public website
         run: python build.py
       - uses: actions/configure-pages@v5
