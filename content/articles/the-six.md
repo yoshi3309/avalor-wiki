@@ -22,7 +22,7 @@ featured: false
 
 For generations these names were learned together, spoken in royal halls, and commemorated in songs. The fellowship called **the Six** helped shape Avalor's earliest understanding of what a united kingdom might mean: people of different ancestries, faiths, and temperaments choosing to face danger together.
 
-It is tempting to imagine that the six had always traveled as one company. The sources tell a less convenient story. Some had crossed paths during the struggle against Lord Osmo, while their united fellowship emerged **shortly after the founding of Avalor**. The precise circumstances remain contested. One tradition credits [[Rynhold Frozenroar|Rynhold Frozenroar]] with bringing the heroes together; another sees their friendship growing from smaller companies during the founding wars. Ballads prefer the explanation that destiny arranged everything.
+It is tempting to imagine that the six had always traveled as one company. The sources tell a less convenient story. Some had crossed paths during the struggle against Lord Osmo, while their united fellowship emerged **shortly after the founding of Avalor**. The precise circumstances remain contested. One tradition credits Rynhold Frozenroar with bringing the heroes together; another sees their friendship growing from smaller companies during the founding wars. Ballads prefer the explanation that destiny arranged everything.
 
 The Royal Commission regards their enduring choice to remain companions as more revealing than any certainty that fate required it.
 
