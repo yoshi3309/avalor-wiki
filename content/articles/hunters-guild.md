@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.002
 era: "Founding Age to Age of Ascendancy"
 facts: "Founded by: Faelynn, the Night Mistress\nEstablished at: Wayword Sun\nRegion: Dead Marshes\nCalling: Protection of travelers and vulnerable settlements\nLegacy: Founded during the early kingdom"
-related: faelynn,wayword-sun,dead-marshes,the-six,cathedral-paladins
+related: malikeah,faelynn,wayword-sun,dead-marshes,cathedral-paladins
 source: "The Living Chronicle, Chapters II–III and V; Compendium II · II.003, public Scholar's Account"
 featured: false
 ---
@@ -46,3 +46,8 @@ Its hunters protect communities in a landscape whose hazards do not respect the 
 The public sources preserve the foundation and purpose of the guild, but do not supply a complete current rank structure, a fixed schedule of deployments, or a verified catalogue of every hunt.
 
 Rather than invent those details, the Royal Commission records what is certain: the guild was founded for the defense of people exposed to danger, and that work remains meaningful long after Faelynn's lifetime.
+
+
+## The present guild master
+
+The Hunters Guild remains active under [[Malikeah]], its current leader. The public record establishes Malikeah's position but leaves their personal background and the guild's modern hierarchy open to later documentation.

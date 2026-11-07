@@ -11,7 +11,7 @@ facts: 'Region: Dead Marshes
   Historic founder: Faelynn, the Night Mistress
 
   Institution: Hunters Guild'
-related: hunters-guild,faelynn,dead-marshes,the-six
+related: hunters-guild,malikeah,faelynn,dead-marshes
 source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III
 featured: false
 ---
@@ -39,3 +39,7 @@ Travel accounts of the wider marshes also mention the **Leaking Bucket Inn** as 
 The Dead Marshes were harmed during the founding wars and again in the aftermath of the Black Tower catastrophe. The dangers did not end when those events passed into history. Neither did the need for people willing to face them.
 
 Wayword Sun preserves an important truth about Avalor: its protection has never belonged solely to kings and soldiers. Some of the kingdom's most necessary guardians work beyond its walls.
+
+## The present leadership
+
+The Hunters Guild continues today under [[Malikeah]]. The endurance of its work is part of Wayword Sun's present character, not merely a memory of Faelynn's founding.

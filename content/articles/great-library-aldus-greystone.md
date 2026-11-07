@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.004
 era: "Age of Ascendancy"
 facts: "Location: Heaven's Heart\nAssociation: Aldus Greystone III\nPurpose: Historical and theological learning\nCollection: Original inscription from Rynhold Park\nName: Preserved despite the corrected history"
-related: heavens-heart,rynhold-park,black-tower,jaznaar,shammans-tower
+related: heavens-heart,royal-commission-historical-inquiry,rynhold-park,jaznaar
 source: "Compendium II · II.002 and II.003, public Scholar's Accounts; The Living Chronicle, Chapters IV–V; Compendium I · I.004, public Scholar's Account"
 featured: false
 ---

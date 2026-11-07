@@ -10,7 +10,7 @@ facts: 'Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
 
   Notable institution: Great Library of Aldus Greystone'
-related: cathedral-paladins,great-library-aldus-greystone,lowkee,samuel-the-devoted
+related: cathedral-paladins,great-library-aldus-greystone,brother-halden-korr,lowkee
 source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
 featured: false
 ---

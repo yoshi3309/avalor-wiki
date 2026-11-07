@@ -13,7 +13,7 @@ facts: 'Location: Off the eastern coast
   Role: Arcane education and inquiry
 
   Recorded practices: Atlas of Returns; Second Witness'
-related: tellora-ebbenflow,the-aegis,black-tower,heavens-heart
+related: tellora-ebbenflow,professor-xiomara-thal,royal-commission-historical-inquiry,the-aegis
 source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII
 featured: false
 ---

@@ -27,11 +27,11 @@ The modern council holds **eight seats**. The eighth was created when [[Tel'Lora
 
 | Office | Current holder |
 | --- | --- |
-| Third Hand | Belgram of Mountain Hall Clan |
-| Golden Hand | Myxi Twinefoot |
-| Silver Hand | Katiri Tenderfoot |
-| Warden of Order | Rastrin Diltir |
-| Sentinel of the Seas | Beldir Willowrun |
+| Third Hand | [[Belgram of Mountain Hall Clan]] |
+| Golden Hand | [[Myxi Twinefoot]] |
+| Silver Hand | [[Katiri Tenderfoot]] |
+| Warden of Order | [[Rastrin Diltir]] |
+| Sentinel of the Seas | [[Beldir Willowrun]] |
 | The Devoted | [[Samuel the Devoted|Samuel]] |
 | Lord Marshal | [[Lavitz Shawe]] |
 | High Wizard | [[Tel'Lora Ebbenflow]] |

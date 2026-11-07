@@ -6,7 +6,7 @@ category: Kingdoms & Places
 entry: LOC.028
 era: "Founding Memory to Age of Ascendancy"
 facts: "City: Renada\nFunction: Public park and monuments\nHonors: Rynhold and the founding generation\nContested memorial: Statue of Aldus Greystone III\nHistorical revision: Corrected inscription"
-related: renada,the-six,jaznaar,black-tower
+related: royal-commission-historical-inquiry,lady-miren-dast,professor-xiomara-thal,jaznaar
 source: "Compendium II · Entry II.002, Sections VI and XVI; The Living Chronicle, Chapters IV–VI"
 featured: false
 ---
@@ -29,7 +29,7 @@ The city did not pull down the statue. Instead, its old inscription was removed 
 
 The decision has not satisfied every citizen. Some regard the correction as overdue honesty. Others believe the statue should no longer stand at all. A smaller number cling to the account once presented as truth.
 
-Historians have also disagreed about how public memory ought to work. Lady Miren Dast has argued for preserving evidence of what earlier generations believed; Professor Xiomara Thal has insisted that changing an inscription cannot undo the lives damaged by the original lie.
+Historians have also disagreed about how public memory ought to work. Lady Miren Dast has argued for preserving evidence of what earlier generations believed; [[Professor Xiomara Thal]] has insisted that changing an inscription cannot undo the lives damaged by the original lie.
 
 Both concerns belong to the study of the park.
 
