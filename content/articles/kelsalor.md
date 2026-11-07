@@ -13,7 +13,7 @@ facts: |-
   Fellowship: The Six
   Tradition: Stewardship of the living world
   Descendant: Heureux of the Misfits
-related: heureux,the-six,forest-of-the-fey,dead-marshes,petris
+related: heureux,the-six,the-sacred-balance,forest-of-the-fey,dead-marshes,petris
 source: The Living Chronicle, Chapters III–IV and V; Compendium II · II.001 and
   II.003, public Scholar's Accounts
 featured: false
