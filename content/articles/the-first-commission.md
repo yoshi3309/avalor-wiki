@@ -3,7 +3,7 @@ title: "The Misfits’ First Commission"
 subtitle: "An Investigation Before the Legend"
 summary: "The previous Lord Marshal's investigation of an unnamed necromancer that first brought together several future Misfits."
 category: History & Chronicles
-entry: HIS.005
+entry: HIS.015
 era: "Age of the Misfits"
 facts: "Commissioner: The preceding Lord Marshal\nThreat: An unnamed necromancer\nResult: The adventurers defeated the practitioner\nLater evidence: Fragments of magical research\nDistinct later enemy: Jaaris"
 related: the-misfits,cult-of-golgoroth,moonville-manor,rotten-husk,the-ripped-beard

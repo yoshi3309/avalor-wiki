@@ -5,7 +5,7 @@ summary: "A druid of the Misfits and descendant of Petris whose work in service 
 category: People & Legends
 entry: BIO.027
 era: "Age of Ascendancy"
-facts: "Calling: Druid\nFellowship: The Misfits\nAncestor: Petris of the Six\nLater life: Journeys in service of nature\nPublic reputation: Increasingly folkloric"
+facts: "Sex: Female\nCalling: Druid\nFellowship: The Misfits\nAncestor: Petris of the Six\nLater life: Journeys in service of nature\nPublic reputation: Increasingly folkloric"
 related: the-misfits,petris,kelsalor,heureux,zauks-false-lives
 source: "The Living Chronicle, Chapters VI–VII; Master Canon Bible Volume I, V–VI (public record)"
 featured: false

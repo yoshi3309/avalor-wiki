@@ -9,6 +9,9 @@ image_alt: Tel'Lora doing water magic
 entry: BIO.003
 era: Age of Ascendancy
 facts: |-
+  Ancestry: Half-elf
+  Sex: Male
+  Calling: Wizard
   Office: High Wizard
   Council: The Aegis
   Institution: Shamman’s Tower
@@ -18,7 +21,7 @@ featured: false
 ---
 ## Scholar and companion
 
-**Tel'Lora Ebbenflow** is counted among [[The Misfits]], the adventuring companions whose actions brought the long history of Cid the Blood King to an end. His knowledge of magic and of the dangers associated with its misuse has shaped his later service to Avalor.
+**Tel'Lora Ebbenflow**, a male half-elf wizard, is counted among [[The Misfits]], the adventuring companions whose actions brought the long history of Cid the Blood King to an end. His knowledge of magic and of the dangers associated with its misuse has shaped his later service to Avalor.
 
 ## The eighth seat
 
