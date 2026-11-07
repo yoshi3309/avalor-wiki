@@ -129,6 +129,7 @@ locations:
     y: 30.24
     description: Sacred and scholarly settlement near the foot of the Spine of the World.
     article: heavens-heart
+    related_places: cathedral-paladins,great-library-aldus-greystone
     published: true
     provisional: false
   - id: stanleyville
@@ -168,6 +169,7 @@ locations:
     y: 46.24
     description: Hunters Guild settlement within the Dead Marshes.
     article: wayword-sun
+    related_places: hunters-guild
     published: true
     provisional: false
   - id: black-tower
