@@ -32,8 +32,8 @@ The name of the region and its connection to the Ferrymen are preserved in [[The
 
 ## Olivruch
 
-At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: [[The Guilds of Avalor#the-thieves-guild|the Thieves Guild]] is situated here.
+At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: [[The Guilds of Avalor#the-thieves-guild|Avalor's branch of the Thieves Guild]], presently led by a man named **Salt**, is situated here.
 
 That association gives an otherwise modest settlement a place in the stories of people whose work depends upon remaining unseen. Its presence does not mean every resident is a thief, or that Olivruch's everyday life can be reduced to the guild.
 
-The town and the guild are distinct. Until the organization's wider history is developed, Olivruch's small place in this gazetteer preserves its name without inventing its streets, leaders, or secret operations.
+The town and the guild are distinct. Though the guild has branches beyond Avalor, Olivruch remains the home of this one, with rumors of a mysterious **Ragged Man** spoken in its underworld.

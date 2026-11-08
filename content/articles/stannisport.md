@@ -25,8 +25,8 @@ The bridge is as much a part of everyday life as the quays. Markets, visitors, a
 
 ## A city of trade and faith
 
-Stannisport is home to the [[The Guilds of Avalor#the-clerics-guild|Clerics Guild]], adding religious and communal work to a city best known for commerce.
+Stannisport is home to **[[The Guilds of Avalor#the-clerics-guild|the Silver Forge]]**, the Clerics Guild founded with the unification of Avalor. It welcomes clerics of many deities and backgrounds, building its reputation upon wisdom, strength, and above all **empathy**.
 
-Its bustling economy gives the guild a setting full of people passing through: dockworkers, traders, travelers, and families whose concerns rarely begin or end at the water's edge.
+The guild's work belongs to a city full of people passing through: dockworkers, traders, travelers, and families whose concerns rarely begin or end at the water's edge. Among those who learned and later taught there was [[Petris]]; [[Aldus Greystone III]] also studied its healing arts.
 
 The city is often mentioned as a measure of commercial importance. The growth of [[Taveras]], farther along the cultural and trade networks of the kingdom, has led some to imagine that Stannisport's position among the great cities might one day be challenged.

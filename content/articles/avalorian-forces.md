@@ -1,7 +1,7 @@
 ---
 title: The Avalorian Forces
 subtitle: The Standing Army, Lion's Bane, and Dina Hyanda
-summary: Avalor's defenses include a professional army, the royal guard commanded by Lavitz, and the distinct women's protective order founded by Queen Melmiri.
+summary: The kingdom's professional army, Lavitz's elite Lion's Bane and its gryffion riders, and the Twelve of Queen Melmiri's Dina Hyanda.
 category: Organizations & Factions
 entry: ORG.015
 era: Founding Age to Age of Ascendancy
@@ -9,11 +9,12 @@ facts: |-
   Sovereign authority: The crown
   Military adviser: Lord Marshal Lavitz Shawe
   Standing forces: Professional army, regional garrisons, and militias
-  Royal guard: Lion's Bane
-  Queen's order: Dina Hyanda
+  Royal guard: Lion's Bane, an elite order with gryffion-mounted members
+  Queen's order: Dina Hyanda, twelve women
+  Dina Hyanda training: The kingdom's finest teachers; some former adventurers
   Major training ground: Great Fork Tower
 related: the-aegis,lavitz-shawe,queen-melmiri,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
-source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; public military and royal histories
+source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-confirmed Lion's Bane and Dina Hyanda details (November 2026)
 featured: false
 ---
 
@@ -33,24 +34,30 @@ The crown exercises **ultimate political authority**. The [[The Four Sheriffdoms
 
 ## Lion's Bane
 
-**Lion's Bane** is the **royal guard under [[Lavitz Shawe]]**, the kingdom's Lord Marshal. It protects the crown through an institution whose work must endure beyond the reputation of any single commander.
+**Lion's Bane** is far more than a ceremonial escort. It is an **elite royal guard commanded by [[Lavitz Shawe]]**, the Lord Marshal: a substantial order of highly trained warriors selected for dangerous duties where ordinary forces may not be enough.
 
-Lavitz sits on [[The Aegis]] as a senior military adviser and commands Lion's Bane directly. That does **not** grant him automatic operational command over every regional garrison or turn the entire standing army into his personal guard.
+Its members protect the royal household, but the guard can also be called upon for missions requiring exceptional skill, courage, and trust. They are the protectors a commander turns to when the task is too consequential, too perilous, or too demanding for a conventional detachment. Their discipline matters as much as their martial ability; bravery without judgment is a poor defense of a king.
 
-The guard's duty is not only to be visible at court ceremonies. Its worth is measured in the quieter work of staying prepared when the danger has not yet announced itself.
+Among the Lion's Bane is a **contingent mounted upon gryffions**, capable of carrying the guard's protection into the skies. These riders offer a different answer to the dangers of distance, height, and difficult approaches. Their mounts and their training make them formidable, but they remain members of Lion's Bane rather than an independent force outside Lavitz's command.
+
+Lavitz also serves on [[The Aegis]] as the crown's senior military adviser. His personal command of the royal guard does **not** make every soldier in the standing army a member of Lion's Bane or grant him automatic operational control over every regional garrison.
+
+The guard's reputation rests upon more than its striking appearance near the throne. Its members must be ready to act when a threat is far from the comfort of a royal hall.
 
 ## Dina Hyanda
 
-**Dina Hyanda** is a **women's royal protective order founded by [[Queen Melmiri]]**. Its creation is part of the queen's own legacy of service to the royal household.
+**Dina Hyanda** is a **royal protective order of twelve women**, created by [[Queen Melmiri]] to serve as her own guard. It is an intimate force, not an additional regiment of the standing army and not a renamed detachment of Lion's Bane.
 
-Dina Hyanda is **not another name for Lion's Bane** and is not simply a subdivision of the standing army. Its origin and identity belong to Melmiri's foundation.
+The Twelve are **trained by some of the finest instructors Avalor has to offer**. Several came to the order after lives as adventurers, bringing hard-earned experience of dangers that cannot always be anticipated in a training yard. Different paths have led them to the same responsibility: the protection of the queen.
 
-The queen's connection to the Northern Desert Tribes is part of her family history; it does not, by itself, establish a particular tribal origin for the order's customs or membership practices.
+Their small number is part of what distinguishes them. They can know one another's strengths, work closely together, and focus their service on the woman whose order they represent. The exact balance of martial and magical training, the manner of choosing a new member, and the traditions by which the Twelve understand their duty may be told more fully as their stories emerge.
+
+Melmiri's ancestry connects her with the Northern Desert Tribes, but that does not mean the order's members or practices all derive from those traditions. **Dina Hyanda is defined first by its queen, its twelve protectors, and the calling they share.**
 
 ## How the forces work together
 
-The army defends Avalor's larger territory. Lion's Bane provides the royal guard commanded by the Lord Marshal. Dina Hyanda serves the royal household through a separate order created by the queen.
+The army defends Avalor's larger territory. Lion's Bane provides an elite guard under the Lord Marshal, including warriors who ride gryffions. Dina Hyanda places twelve specially trained women in the queen's personal service.
 
-Their members may work in the same royal spaces or respond to related dangers. Coordination matters, but **shared service is not proof of a single command structure**. The army's regiments, Lion's Bane's officer roster, and Dina Hyanda's selection practices can be described more fully when those traditions become part of the established history.
+Their members may work in the same royal spaces or respond to related dangers. Coordination matters, but **shared service is not proof of a single command structure**. The army's detailed organization, Lion's Bane's officer roster, and Dina Hyanda's selection practices can be described more fully as their histories grow.
 
 For now, one truth connects them: Avalor depends upon protectors whose daily work continues long after the heroes of a particular battle have gone home.

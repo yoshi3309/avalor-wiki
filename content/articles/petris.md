@@ -13,7 +13,7 @@ facts: |-
   Fellowship: The Six
   Legacy: Compassion and renewal
   Descendant: Amara of the Misfits
-related: amara,the-six,lathander-and-the-dawn,faiths-and-gods-of-avalor,jaznaar
+related: guilds-of-avalor,amara,the-six,lathander-and-the-dawn,faiths-and-gods-of-avalor,jaznaar
 source: The Living Chronicle, Chapter III, especially Petris; Compendium I ·
   I.004, public Scholar's Account
 featured: false
@@ -33,6 +33,12 @@ The worship of Lathander honors renewal, beginnings, hope, and the possibility o
 Some Avalorian communities maintain a dawn custom called the **First Loaf**, setting aside food for a neighbor who might otherwise go hungry. The First Loaf belonged to the wider devotional life of Lathander's followers, and its generosity echoed the work Petris had devoted herself to, whoever first began the tradition.
 
 Her legacy does, however, accord with the duty the custom expresses.
+
+## The Silver Forge
+
+Petris learned her healing craft among the clerics of **[[The Guilds of Avalor#the-clerics-guild|the Silver Forge]]**, the interfaith guild formed when the northern kingdoms united as Avalor. **She later returned to teach there**, sharing her experience and her belief that care must begin with the life in front of the healer.
+
+In a fellowship where different deities and convictions were welcomed, her devotion to Lathander did not require others to follow the same path. The generosity that guided her work belonged to the Silver Forge's deepest principle: compassion should come before the divisions that so often set people apart.
 
 ## The disagreement with Aldus
 

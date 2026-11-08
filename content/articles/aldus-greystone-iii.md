@@ -15,7 +15,7 @@ facts: |-
   Legacy of his experiments: The Blood Sickness
   Later identity: Cid the Blood King
   Mortal fate: Slain at the Black Tower
-related: the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,cid-the-blood-king,rynhold-park,great-library-aldus-greystone
+related: guilds-of-avalor,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,cid-the-blood-king,rynhold-park,great-library-aldus-greystone
 source: The Living Chronicle, Chapters III–IV and VI–VII; Compendium II ·
   Entries II.001–II.002, public Scholar's Accounts
 featured: false
@@ -27,6 +27,14 @@ For much of Avalor's history, **Aldus Greystone III** was celebrated as one of t
 Aldus possessed remarkable gifts in restorative magic and an unusual command of the forces of weather. Accounts of his early work describe a healer sought by the sick and injured, one whose abilities gave hope to people beyond the reach of ordinary remedies. His reputation was earned long before the crimes for which he would later be remembered.
 
 Aldus enters Avalor's story as an extraordinarily capable healer, celebrated for talents that promised relief from suffering. The path that turned this gift toward cruelty is far better remembered than the details of his youth.
+
+## A student of the Silver Forge
+
+Aldus spent time at **[[The Guilds of Avalor#the-clerics-guild|the Silver Forge]]**, the fellowship of clerics founded alongside the united kingdom of Avalor. There he learned more of the healing arts that had already made him admired by the sick and the injured.
+
+He **returned to the guild when his desire to prevent death had become a quest to remove mortality itself**, seeking more knowledge from the institution where many faiths and traditions of healing met.
+
+That return would acquire a darker meaning in hindsight. The Silver Forge taught and gathered healers; it did not share responsibility for the cruelty Aldus later justified in the name of an impossible perfect world.
 
 ## A companion of the Six
 
