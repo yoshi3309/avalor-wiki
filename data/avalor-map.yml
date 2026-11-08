@@ -271,26 +271,32 @@ locations:
   - id: kings-forest
     name: King's Forest
     type: region
+    x: 49.41
+    y: 56.45
     description: Woodland near Alexiverde, on the other side of the town from the
       Dead Marshes.
     article: geography-of-avalor#king-s-forest
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: forest-of-the-westfold
     name: Forest of the Westfold
     type: region
+    x: 76.78
+    y: 11
     description: Named woodland near Briyan's Autumn in the Eastern Reach.
     article: geography-of-avalor#forest-of-the-westfold
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: the-drought
     name: The Drought
     type: region
+    x: 60.35
+    y: 68.22
     description: Difficult region crossed by travelers using the Ferrymen from
       Ferrymen Village.
     article: geography-of-avalor#the-drought
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: tarnapolus
     name: Tarnapolus
     type: settlement
