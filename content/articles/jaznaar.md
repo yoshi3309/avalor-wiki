@@ -15,7 +15,7 @@ facts: |-
   False historical title: The Betrayer
   Final testimony: The Misfits' visit to his refuge
   Historic status: Publicly vindicated by King Gradvum
-related: the-six,aldus-greystone-iii,sundering-of-the-six,jaznaars-refuge,betrayers-legend,jaznaars-vindication,tellora-ebbenflow,rynhold-park
+related: the-six,aldus-greystone-iii,sundering-of-the-six,black-tower,betrayers-legend,jaznaars-vindication,tellora-ebbenflow,rynhold-park
 source: The Living Chronicle, Chapters III–IV, VI–VII; Compendium II · Entry II.001, public Scholar's Account
 featured: false
 ---

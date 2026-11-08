@@ -14,7 +14,7 @@ facts: |-
   Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
   Later public testimony: Disputed account of return in the Shadowfell
-related: lavitz-shawe,heavens-heart,the-misfits,fo-gurn-and-the-hydra,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
+related: lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I · public accounts of the Misfits and death
 featured: false
 ---

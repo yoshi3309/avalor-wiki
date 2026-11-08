@@ -112,6 +112,8 @@ organizations-factions:
       description: Other organized groups known to the public record.
       articles:
         - cult-of-golgoroth
+        - rotten-husk-clan
+        - wrath-of-innocent
 history-chronicles:
   featured: unification-of-avalor
   intro: Trace the kingdom's beginnings, the choices of its rulers, the Misfits' journeys, and the truths recovered by later historians.
@@ -154,12 +156,8 @@ history-chronicles:
       articles:
         - the-first-commission
         - the-stalker
-        - rotten-husk
         - zauks-false-lives
-        - fo-gurn-and-the-hydra
         - tournament-of-champions
-        - jinlin-vechon-wrath-of-innocent
-        - jaznaars-refuge
     - id: revelation
       title: Truth & Ascendancy
       eyebrow: HISTORY RECONSIDERED

@@ -72,7 +72,7 @@ Jaznaar died after the companions departed. The truth he had offered survived hi
 
 ## Memory, deception, and the Shadowfell
 
-The Misfits' road continued through encounters in which appearances could not be taken at face value. The vampire [[Jinlin Vechon and the Wrath of Innocent|Jinlin Vechon]] hated Cid, but that shared hatred did not make him trustworthy. Later, the mind flayer [[Zauks and the False Lives|Zauks]] used the companions' own memories to fashion convincing imitations of past dangers and desired lives.
+The Misfits' road continued through encounters in which appearances could not be taken at face value. The vampire [[The Wrath of Innocent#jinlin-vechon|Jinlin Vechon]] hated Cid, but that shared hatred did not make him trustworthy. Later, the mind flayer [[Zauks and the False Lives|Zauks]] used the companions' own memories to fashion convincing imitations of past dangers and desired lives.
 
 The precise hopes each companion saw in Zauks's illusions have not been publicly disclosed. It is enough to know that the fellowship rejected a comforting deception and returned to the real responsibilities of their lives.
 

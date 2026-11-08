@@ -15,7 +15,7 @@ facts: |-
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,rotten-husk-clan,wrath-of-innocent,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 featured: true
 ---
@@ -98,15 +98,23 @@ The **Ripped Beard** is another threat named among the Misfits' earlier travels.
 
 Not every danger the Misfits faced belonged to Cid. They encountered the animated halls of [[The Misfits#moonville-manor|Moonville Manor]], the threat called [[The Misfits#the-ripped-beard|the Ripped Beard]], and the wizard [[Noki]], whose transformation into a sheep became one of the stranger episodes of their travels.
 
-They also helped the [[The Liberation of the Rotten Husk|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
+They also helped the [[The Rotten Husk Clan|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
 
 These adventures matter independently of the later confrontation with Cid. The people whose lives the fellowship touched did not need to know about the Black Tower to be grateful for the help they received.
+
+## The Liberation of the Rotten Husk
+
+During their earlier travels, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
+
+They helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. Accounts of the exact confrontation differ; the Archives do not assign an invented name to the chieftain or claim to know every blow, speech, or negotiation that secured the tribe's liberation.
+
+The event mattered independently of the later war against Cid. For the Rotten Husk, it was not a footnote in another group's legend but a turning point in their own lives. Their continuing identity is recorded separately in [[The Rotten Husk Clan]], while the encounter belongs here among the fellowship's journeys.
 
 ## III. The hydra and the missing companion
 
 The company confronted a hydra. Fo'Gurn chose to remain behind so that his friends could escape. They survived, believing their dragonborn companion had died.
 
-The loss was particularly painful to Lavitz, who had known Fo'Gurn from the years associated with paladin training. The encounter is preserved in [[Fo’Gurn and the Hydra]].
+The loss was particularly painful to Lavitz, who had known Fo'Gurn from the years associated with paladin training. The encounter is preserved in [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand against the hydra]].
 
 Later inquiries connected Fo'Gurn's fate to the necromancer [[Jaaris]]. The companions' knowledge of those events remained incomplete, but nothing they learned afterward erased the years during which they mourned their friend.
 
@@ -120,15 +128,25 @@ The Misfits departed with Jack in their company and a deepening awareness that t
 
 ## V. Jaznaar's testimony
 
-The adventurers' inquiries eventually led to [[Jaznaar’s Hidden Refuge|Jaznaar's hidden refuge]], reached through a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
+The adventurers' inquiries eventually led to [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar's hidden refuge]], reached through a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
 
 Jaznaar, the last living member of the founding Six, revealed that **Aldus Greystone III and Cid the Blood King were the same being**. For almost two thousand years Jaznaar had struggled to contain the consequences of Aldus's forbidden experiments while Avalor falsely condemned him as the Betrayer.
 
 He instructed Tel'Lora and entrusted knowledge to the company. His death after their visit left the Misfits with both the truth and the responsibility of acting upon it.
 
+## Jinlin Vechon and the Wrath of Innocent
+
+After the revelation at Jaznaar's refuge, the companions encountered **Jinlin Vechon**, a **dragonborn vampire** who had founded [[The Wrath of Innocent]]. Jinlin's hatred of [[Cid the Blood King]] was genuine, but sharing a dangerous enemy did not make him a trustworthy ally.
+
+The experience became one of the fellowship's clearest lessons about the distance between **vengeance and justice**. A person may rightly identify wrongdoing while proposing actions that cannot be judged righteous merely because their target is guilty.
+
+Jinlin's lair later appeared among the remembered places recreated by [[Zauks and the False Lives|Zauks]], but the illusion was not a fresh visit to the real lair, nor proof that Jinlin directed Zauks. The exact events within the original lair have not been established by the public record.
+
+The **faction** and its founder have a separate entry because their existence does not begin or end with this encounter. The encounter itself belongs to the journey of the Misfits.
+
 ## VI. False lives and dangerous alliances
 
-The companions later encountered [[Jinlin Vechon and the Wrath of Innocent|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
+The companions later encountered [[The Wrath of Innocent#jinlin-vechon|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
 
 The mind flayer [[Zauks and the False Lives|Zauks]] then subjected the fellowship to manufactured ordeals, recreating earlier dangers from their memories. His final deception offered idealized lives in which grief and loss seemed to have been undone.
 
@@ -156,7 +174,7 @@ That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained
 
 ## A guide to their stories
 
-A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[The Misfits#moonville-manor|Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn and the Hydra]], and [[The Stalker of Stanleyville]].
+A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[The Misfits#moonville-manor|Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand against the hydra]], and [[The Stalker of Stanleyville]].
 
 The search for the old truth leads through [[Jaznaar’s Hidden Refuge]], [[Jinlin Vechon and the Wrath of Innocent]], and [[Zauks and the False Lives]], before arriving at [[The Tournament of Champions]] and the struggle in the Shadowfell.
 
