@@ -22,7 +22,7 @@ When a map includes an article as a node or its `related_article`, the article a
 
 - Never equate consecutive reigns with a parent-child relationship.
 - Do not guess kinships between royal branches merely because they share a surname.
-- The three clusters in the Frozenroar map are **separate documented kinships**; their layout does not represent missing generations.
+- The separate kinship clusters in the Frozenroar map are **separate documented kinships**; their layout does not represent missing generations.
 - The Six's center means fellowship, not family or identical moral judgments.
 - The Misfits map distinguishes founding membership, later membership, and a traveling companion.
 - No player-facing data may contain Keeper-only or future campaign secrets.
