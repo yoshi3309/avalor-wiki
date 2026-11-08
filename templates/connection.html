@@ -38,6 +38,7 @@
       <ul id="connection-detail-links" class="connection-detail-links"></ul>
       <a class="connection-record-link" id="connection-record-link" hidden href="#">Open the complete record ↗</a>
     </div>
+    <noscript><div class="connection-detail"><div class="connection-detail-eyebrow">THE SCHOLAR'S DIRECTORY</div><h3>Figures and connections</h3><p>Interactive highlighting requires JavaScript, but these public records are available directly.</p><ul>{% for node in graph.nodes %}<li>{% if node.article %}<a class="connection-record-link" href="{{root}}articles/{{node.article}}/">{{node.label}}</a>{% else %}<strong>{{node.label}}</strong>{% endif %} — {{node.detail}}</li>{% endfor %}</ul></div></noscript>
     <details class="connection-directory">
       <summary>Browse all figures as a list <span aria-hidden="true">⌄</span></summary>
       <div class="connection-directory-grid">
