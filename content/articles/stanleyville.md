@@ -1,32 +1,97 @@
 ---
 title: Stanleyville
-subtitle: Steel and Shadow on the King’s Road
-summary: A famed metalworking town remembered for its craft, its unusual founding tale, and a darker chapter in the Misfits’
-  travels.
+subtitle: Steel, Memory, and the King's Road
+summary: A renowned metalworking town where the work of forge and trade continued even as the Stalker's terror drew the Misfits into a tragedy.
 category: Kingdoms & Places
 entry: LOC.002
-era: Age of Ascendancy
+era: Age of the Misfits to Age of Ascendancy
 facts: |-
-  Known for: Forge-quality steel
-  Road: King’s Road
-  Historic threat: The Stalker
-related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe
-source: Compendium II · Entry II.001; The Living Chronicle, Chapter VI
+  Settlement: Stanleyville
+  Route: King's Road
+  Famous trade: Forged steel, armor and blades
+  Founding tradition: Hjoldan and a pony named Stanley
+  Historical crisis: The Stalker and unexplained deaths
+  Traveling companion from the town: Jack
+  Royal loss: Death of the preceding Lord Marshal
+related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king,renada,kingdom-of-avalor
+source: Compendium II · Entry II.002, public settlement and commerce accounts; The Living Chronicle, Chapter VI, Section IV
 featured: false
 ---
 
 ## The town of forged steel
 
-**Stanleyville** stands along the **King's Road** and is celebrated for its metalworkers. Stamped blades, armor components, tools, and other steelwork fashioned here circulate through the merchants of Avalor and beyond. The quality of its forges has become part of the town's identity.
+**Stanleyville** stands along **the King's Road**, one of Avalor's important overland trading routes. Its identity rests upon generations of skilled metalworkers whose products have given the town a reputation well beyond its streets.
 
-## Of a blacksmith and a pony
+Blades, armor components, tools, and other forged goods from Stanleyville travel along the kingdom's commercial networks toward [[Renada]] and the ports. To merchants, the town's name is a mark of workmanship; to its residents, that reputation represents apprenticeships, labor, household livelihoods, and the continued passing of craft from one generation to the next.
 
-Local traditions remember **Hjoldan**, a dwarven blacksmith associated with the settlement's beginnings, and preserve the peculiar story of a pony named Stanley. Visitors may regard the tale as a curiosity; for residents, the enduring craft traditions matter more than whether a traveler finds the legend amusing.
+The surviving account does not establish a complete list of smithing guilds, every workshop's ownership, or a founding charter. The town's importance can be understood without inventing them.
 
-## The Stalker's attack
+## Hjoldan and the pony Stanley
 
-Stanleyville also entered the recent history of the kingdom through a series of mysterious deaths investigated by [[The Misfits]]. During those events, the creature remembered as [[The Stalker of Stanleyville|the Stalker]] killed the preceding Lord Marshal. The town's industrial prosperity and its memories of that tragedy belong to the same history.
+Local tradition links the town's beginnings to **Hjoldan**, a dwarven blacksmith, and preserves the curious story of a **pony named Stanley**.
 
-## Jack and the investigation
+The unusual story is often repeated for amusement by travelers. What can be established is that this tradition belongs to Stanleyville's understanding of itself and is closely associated with its smithing identity. The available sources do not certify every detail of the founding tale or its precise sequence.
 
-Among the victims was [[Jack of Stanleyville]], a child killed when he read a Fireball spell concealed in a manuscript sold to his family by Cid in disguise. Jack's conscious ghost befriended the Misfits and traveled with them after they departed the town.
+For the people who live in Stanleyville, the point is larger than a clever name. Their town is known for work that has endured over generations, not simply for a story one visitor can tell another over a drink.
+
+## Work along the King's Road
+
+The King's Road connects Stanleyville's forge trade with farmers, merchants, carriers, and markets elsewhere in Avalor. A worked blade may travel far from the place where the metal was heated and shaped, passing through the hands of carters, traders, and customers who know little of the smith's daily labor.
+
+A **Stanleyville-stamped longsword** may command roughly **twenty-five gold lions** in a market where an ordinary example costs less. That is a familiar commercial illustration, **not a legally fixed tariff or proof that every Stanleyville sword is magical**.
+
+A reputation can open markets and sustain families, but it also brings obligations. If buyers pay for craftsmanship they expect quality, while the makers must live with the material costs and effort required to maintain it.
+
+The town's economic story is therefore part of Avalor's wider life, not a secondary detail beneath the adventures that later made it famous.
+
+## A town before the terror
+
+Stanleyville was an inhabited and working community before the arrival of [[The Misfits]]. Its foundries and traders did not come into existence as scenery for a heroic investigation.
+
+The deaths that later troubled the town should be understood against that ordinary life. People had businesses to maintain, friends to bury, and families to protect even when they could not explain what was happening around them.
+
+The historical record offers no reliable census of the town's victims or exact inventory of all the households harmed. Their absence from a register is not reason to turn them into unnamed background casualties in the story of better-known adventurers.
+
+## The unexplained deaths
+
+When mysterious deaths began, the **preceding Lord Marshal** asked the Misfits to investigate. The commission followed other work the companions had performed for him, and he had reason to trust their ability to face strange threats.
+
+Among those killed was **[[Jack of Stanleyville|Jack]]**, a child whose death would later reveal an especially cruel method. A merchant had sold manuscripts to Jack's family; one volume concealed a deadly **Fireball** spell. Jack innocently read the words and was killed by the released magic.
+
+The later inquiry identified the merchant as **[[Cid the Blood King]] in disguise**. Jack had not been seeking destructive power. The responsibility for the trap belonged to the person who put lethal magic where a child might encounter it.
+
+Jack's spirit remained conscious after death, searching for the person responsible. The companions befriended him and later departed Stanleyville **with Jack traveling alongside them**.
+
+## The Stalker in Stanleyville
+
+The deaths also brought the companions into conflict with a creature called **[[The Stalker of Stanleyville|the Stalker]]**. Its presence spread fear, and the subsequent royal inquiry attributed its direction to Cid.
+
+The Stalker **killed the Lord Marshal** who had summoned the adventurers. His death was a loss for the kingdom as well as for the companions: Avalor's senior military office fell vacant during an already dangerous period and remained without a successor for the rest of the campaign.
+
+Accounts also describe a brief manifestation of Cid and an **attempt to burn the town**. The Misfits witnessed consequences of his interference without learning his true identity as the ancient healer Aldus Greystone III.
+
+Two distinctions are essential. **The Stalker did not kill Jack**; Jack died because of the concealed spell. And the Misfits **did not yet know the full history of Cid** when they departed. That knowledge was recovered later through their investigation of the founding age.
+
+## What the town endured
+
+The most visible consequences of the Stanleyville affair appear in royal chronicles: a dead Lord Marshal, a clue leading toward Cid, and the later appointment of [[Lavitz Shawe]] after the Blood King's defeat.
+
+For Stanleyville itself, the story was also one of people living with danger and uncertainty. Ordinary citizens could not put aside their work or obligations while waiting for the larger mystery to be resolved. The town's reputation for good steel had to coexist with memories of those it lost.
+
+The record does not establish that all the forges were destroyed, that trade permanently collapsed, or that the community was abandoned. Such claims would need evidence not presently available in the public history.
+
+## Jack's place in its memory
+
+Jack became one of the most unusual companions of the Misfits, but his origins remain tied to Stanleyville. The fact that his spirit traveled onward should not turn him into a symbol detached from the family and community in which he had lived.
+
+The Royal Commission's later scholarship has cautioned that a child's death may provide evidence without becoming justified by the usefulness of that evidence. Jack's story is not important *because* it helped expose the Blood King. It is important because an innocent child was killed and was still a person worthy of friendship and remembrance.
+
+Readers who wish to follow Jack's subsequent journey may turn to [[The Misfits]] and his own biography.
+
+## Steel and shadow in the same history
+
+Stanleyville is neither merely a smithing town nor merely the scene of a famous tragedy. Its industrial character explains why it matters to Avalor's everyday economy, while its recent history explains why the name carries grief in the memory of the Misfits.
+
+Merchants continue to associate its stamp with workmanship. Scholars remember the Stalker and the Lord Marshal whose office it left vacant. Both accounts belong to the place, and neither should erase the other.
+
+The kingdom will have learned something from Stanleyville if it remembers the people who forged its steel as faithfully as it remembers those who arrived with swords to defend them.
