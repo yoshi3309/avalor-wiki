@@ -190,6 +190,46 @@ for cat in CATEGORIES:cat['count']=len([a for a in ALL if a['category']==cat['na
 FEATURED=[a for a in ALL if a.get('featured')]
 FEATURED.sort(key=lambda a:['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'].index(a['slug']) if a['slug'] in ['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'] else 50)
 
+# Guided journeys are public editorial reading routes assembled from existing articles.
+# Do not load private Keeper notes or infer new history in route descriptions.
+JOURNEYS_SOURCE = yaml.safe_load((ROOT / 'data' / 'reading-journeys.yml').read_text(encoding='utf-8')) or {}
+JOURNEYS = []
+JOURNEY_ARTICLE_STEPS = {}
+JOURNEY_IDS = set()
+for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
+    ident = str(raw_journey.get('id', '')).strip()
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident) or ident in JOURNEY_IDS:
+        raise ValueError(f'Invalid or duplicate reading journey id: {ident}')
+    JOURNEY_IDS.add(ident)
+    steps = raw_journey.get('steps') or []
+    if len(steps) < 3:
+        raise ValueError(f'Journey {ident} must have at least three public records')
+    mapped_steps = []
+    seen = set()
+    for number, raw_step in enumerate(steps, start=1):
+        article_slug = str(raw_step.get('article') or '')
+        if article_slug not in BY_SLUG or article_slug in seen:
+            raise ValueError(f'Journey {ident}: missing or duplicated public article {article_slug}')
+        if not raw_step.get('label') or not raw_step.get('introduction'):
+            raise ValueError(f'Journey {ident}: step {number} is missing descriptive text')
+        seen.add(article_slug)
+        mapped_steps.append({
+            'number': number, 'article': BY_SLUG[article_slug],
+            'label': str(raw_step['label']), 'introduction': str(raw_step['introduction'])
+        })
+    if not all(raw_journey.get(key) for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')):
+        raise ValueError(f'Journey {ident} is missing required public presentation fields')
+    journey = {key: raw_journey[key] for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')}
+    journey.update({'id': ident, 'steps': mapped_steps})
+    JOURNEYS.append(journey)
+    for i, step in enumerate(mapped_steps):
+        JOURNEY_ARTICLE_STEPS.setdefault(step['article']['slug'], []).append({
+            'journey_id': ident, 'journey_title': journey['title'], 'number': i+1,
+            'total': len(mapped_steps),
+            'previous': mapped_steps[i-1] if i else None,
+            'next': mapped_steps[i+1] if i+1 < len(mapped_steps) else None
+        })
+
 # The cartographer's table is public-facing. This file contains no hidden
 # locations; the original Keeper documents are never read by this build.
 MAP_CONFIG = ROOT / 'data' / 'avalor-map.yml'
@@ -361,7 +401,7 @@ if PUBLIC.exists():shutil.rmtree(PUBLIC)
 PUBLIC.mkdir()
 shutil.copytree(ROOT/'assets',PUBLIC/'assets',dirs_exist_ok=True)
 (PUBLIC/'.nojekyll').write_text('')
-render('home.html','index.html',page_type='home',title='Home',featured=FEATURED)
+render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS)
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
 for cat in CATEGORIES:
     subset=[a for a in ALL if a['category']==cat['name']]
@@ -392,7 +432,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -410,6 +450,9 @@ for old, rule in MERGES.items():
         f'<body><p>{label} is now part of {destination}. '
         f'<a href="{location}">Open the section</a>.</p></body></html>',
         encoding='utf-8')
+render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title='Reading Journeys',crumbs='Reading Journeys',journeys=JOURNEYS)
+for journey in JOURNEYS:
+    render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
 # All search data is intentionally player-facing and comes only from public article sources.
