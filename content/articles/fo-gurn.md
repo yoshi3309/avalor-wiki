@@ -1,8 +1,7 @@
 ---
 title: Fo’Gurn
 subtitle: The Paladin Who Stayed Behind
-summary: A dragonborn paladin and Lavitz's lifelong friend whose stand against a
-  hydra enabled the early Misfits to escape.
+summary: The dragonborn paladin and Lavitz's longtime friend who saved the Misfits from a hydra, was mourned for years, and appeared again in accounts of Cid's defeat.
 category: People & Legends
 image: /assets/uploads/gold-dragonborn-storm-warrior.png
 entry: BIO.028
@@ -12,36 +11,100 @@ facts: |-
   Calling: Paladin
   Training: Heaven's Heart
   Close friend: Lavitz Shawe
+  Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
-related: fo-gurn-and-the-hydra,jaaris,lavitz-shawe,heavens-heart,tournament-of-champions
-source: The Living Chronicle, Chapter VI, III and VIII–IX; Master Canon Bible
-  Volume I, V (publicly attested portions)
+  Later public testimony: Disputed account of return in the Shadowfell
+related: lavitz-shawe,heavens-heart,the-misfits,fo-gurn-and-the-hydra,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
+source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I · public accounts of the Misfits and death
 featured: false
 ---
-## A friend before the fellowship
 
-**Fo’Gurn** was a dragonborn paladin and close friend of [[Lavitz Shawe]]. Their bond began before the adventures of [[The Misfits]]; both had been associated with the paladin tradition of [[Heaven's Heart]].
+## A life before the sacrifice
 
-Fo’Gurn was among the company's early members, serving beside the companions who would one day be celebrated as Avalor's champions. His friendship with Lavitz is essential to understanding why the events that followed were so painful.
+**Fo’Gurn** is remembered as the dragonborn paladin who stood against a hydra so that [[The Misfits]] could escape. The story is true as far as the companions understood it at the time, but it is a poor way to introduce a man whose life had already become inseparable from theirs.
 
-## The hydra
+Fo'Gurn had known [[Lavitz Shawe]] long before either adventured with the company. Their friendship was associated with the years of paladin training at [[Heaven's Heart]], beneath the [[Spine of the World]]. By the time they faced a hydra together, theirs was not the hastily formed loyalty of strangers who happened to survive one battle.
 
-When the Misfits faced a hydra, Fo’Gurn **stayed behind to give the others time to escape**. They survived and believed he had died. For many years they mourned him as a friend who had chosen their lives over his own.
+The public record preserves few particulars of Fo'Gurn's childhood, family, or early life beyond that training. His biography must begin from what he did and whom he loved, rather than inventing an ancestral clan or a destiny foretold at birth.
 
-Later investigations connected his disappearance with the necromancer **Jaaris**, whose crimes were distinct from those of the unnamed practitioner involved in the company’s first commission. His friends had not understood those circumstances at the time.
+## Heaven's Heart and a lifelong friendship
 
-Later knowledge did not simply erase the grief of the years in which they believed him gone.
+The paladin traditions of Heaven's Heart trace their founding to [[Lowkee]], who taught that the strength of a protector was owed first to those least able to defend themselves. The order honors the virtues of [[The Threefold Devotion]], associated with Tyr, Helm, and Torm.
 
-## Disputed accounts of a return
+Fo'Gurn trained within that tradition while Lavitz was associated with the order. The sources establish their close friendship, but do not preserve every lesson or conversation they shared. Nor do they establish an exact ranking of the two during their years of training.
 
-Heureux’s published history and some authorized testimony concerning the final struggle against Cid describe Fo’Gurn **appearing again** and intervening at a decisive moment in the Shadowfell.
+Their bond mattered because it survived into a very different life. A friendship forged before an adventuring company existed became one of the human — and dragonborn — ties by which that company held together.
 
-Those accounts did not circulate uniformly in the early public celebration of the victory. The spiritual particulars and means of his reappearance were not agreed upon by all who repeated the story, and the Royal Commission does not offer a definitive explanation.
+The moment of Fo'Gurn's apparent death would later show how much Lavitz had come to depend upon the friend beside him.
 
-The Archives acknowledge the testimony without presenting speculation as established fact.
+## A member of the first company
 
-## A place among the originals
+Fo'Gurn belonged to the adventurers first assembled by Avalor's preceding Lord Marshal to investigate an unnamed necromancer. The early company also included Lavitz, [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], and [[Amara]].
 
-The **five publicly celebrated Misfits** were Lavitz, Tel’Lora, Sven, Heureux, and Amara. Fo’Gurn was a member of the original company, and his role should not be omitted merely because his subsequent history is hard to reconstruct.
+They defeated their enemy, recovered fragments of magical study, and accepted further work. Their second commission concerned [[The Cult of Gol’Goroth|the cult of Gol'Goroth]] and brought [[Heureux]] into their circle.
 
-His best-attested legacy remains his willingness to stand between danger and the friends he loved. The loss they experienced, and the uncertainty that followed, are part of Avalor’s story as much as the ultimate victory over Cid.
+The first necromancer was **not Jaaris**. This distinction became important when another practitioner later appeared in the troubling history surrounding Fo'Gurn's fate. To merge those enemies into one would change the meaning of the fellowship's beginnings.
+
+Fo'Gurn's place among the Misfits was established through these travels. Although the five heroes most celebrated after Cid's defeat were Lavitz, Tel'Lora, Sven, Heureux, and Amara, Fo'Gurn had been one of the original companions.
+
+## The hydra and the decision to remain
+
+During the company's early travels, a **hydra** threatened the Misfits. Fo'Gurn chose to remain behind, buying the others time to escape.
+
+His companions survived. They believed him dead.
+
+The surviving historical record does not provide a securely established battlefield, a detailed sequence of attacks, or Fo'Gurn's final words. A ballad may offer all three, because a dramatic last stand seems to demand them. A reliable account must be content with the fact of the choice and the lives it preserved.
+
+This was an act of courage, but its cost fell not only upon the man who made it. The companions who escaped had to continue without him, carrying the belief that they would never see their friend again.
+
+The episode is separately preserved in [[Fo’Gurn and the Hydra]].
+
+## The years of mourning
+
+For Lavitz, Fo'Gurn's apparent death was more than the loss of an adventuring companion. It was the loss of a friend whose place in his life preceded the Misfits.
+
+[[Heureux]], who had witnessed enough losses to understand the difference between song and grief, later reflected that heroic sacrifice is more comfortable to celebrate than it is to survive. The people spared by Fo'Gurn's decision had to live with it long after the danger had passed.
+
+His absence also shaped the fellowship's history. The five publicly celebrated Misfits went on to face threats in which Fo'Gurn could no longer stand beside them. Their growing renown did not restore his place among them.
+
+To speak of the paladin only as a symbol of sacrifice would omit the years in which his friends remembered him as a person.
+
+## Jaaris and an unsettled fate
+
+Later investigations brought the Misfits into contact with evidence concerning the necromancer [[Jaaris]]. His crimes were connected to Fo'Gurn's disappearance and revealed that the fate the companions believed they had witnessed was more complicated than they knew.
+
+The public record does not give a full account of the magical manipulation involved. It does not justify inventing an imprisonment, bargain, or ordinary resurrection ritual merely because one of those explanations would make the story easier to understand.
+
+The Misfits' later encounter with [[Zauks and the False Lives|Zauks]] brought the hydra back in another form: as one of the dangers recreated from their memories. That illusion was not a second historical encounter with the same beast, and it did not make Fo'Gurn's sacrifice unreal.
+
+What was uncertain concerned the fate of the man they had mourned, not the reason they had escaped.
+
+## The companion at the final confrontation
+
+The Misfits' struggle against Cid reached its crisis after [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]] and carried her into the Shadowfell. The companions pursued him and succeeded in rescuing her.
+
+In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** alongside the friends who had believed him dead. The authorized testimony describes him carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
+
+The people present observed Cid's removal; they did not establish the nature of the force responsible for it. The spiritual circumstances of Fo'Gurn's reappearance likewise remained disputed in the public record.
+
+The earliest popular celebrations did not uniformly repeat every part of this testimony. The Archives therefore distinguish between what participants later described, what the wider kingdom commonly believed, and what scholars can conclusively explain.
+
+This is not a record of conventional resurrection with a known method and predictable consequences.
+
+## An original Misfit, not an afterthought
+
+The five names most commonly celebrated in Avalor's public histories belong to Lavitz, Tel'Lora, Sven, Heureux, and Amara. Their continued public activity after the victory made them familiar figures of the [[The Age of Ascendancy|Age of Ascendancy]].
+
+Fo'Gurn's place is different, but no less real. He was a member of the early company and the dearest friend of one of its most visible heroes. He shared their first commissions and their dangers before their fellowship became a legend.
+
+His later uncertain history must not be used to erase that earlier membership. Nor should his dramatic role in the final testimony be used to replace his ordinary identity as a friend, fellow paladin, and companion.
+
+Avalor's best account of the Misfits should have room for those whose deeds cannot be neatly reduced to the famous five.
+
+## What his example leaves behind
+
+Fo'Gurn's legacy rests upon a simple, difficult truth: the safety of others may depend on a protector who knows the cost of remaining behind.
+
+At Heaven's Heart, such a choice echoes Lowkee's teaching of duty toward the vulnerable. In the Misfits' story, it also illustrates the price of courage to those who survive it.
+
+The Royal Archives cannot reconstruct every lost year of his life, and should not turn disputed spiritual testimony into an invented certainty. But they can honor his place among the companions who saved Avalor, and remember that before he became the subject of a famous sacrifice, **he was someone his friends wanted to come home**.
