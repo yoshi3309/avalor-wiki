@@ -103,9 +103,7 @@ organizations-factions:
       icon: "⚔"
       description: Military forces, royal guards, and sworn defenders.
       articles:
-        - avalorian-standing-army
-        - lions-bane
-        - dina-hyanda
+        - avalorian-forces
         - cathedral-paladins
     - id: guilds
       title: Guilds & Learning
@@ -116,15 +114,15 @@ organizations-factions:
         - hunters-guild
         - bard-guild
         - heureuxs-bard-academy
+        - guilds-of-avalor
     - id: other-organizations
       title: Other Factions
       eyebrow: BEYOND THE INSTITUTIONS
       icon: "⚜"
       description: Other organized groups known to the public record.
       articles:
-        - cult-of-golgoroth
+        - independent-factions-of-the-misfits-era
         - rotten-husk-clan
-        - wrath-of-innocent
 history-chronicles:
   featured: unification-of-avalor
   intro: Trace the kingdom's beginnings, the choices of its rulers, the Misfits' journeys, and the truths recovered by later historians.

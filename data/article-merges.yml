@@ -16,3 +16,8 @@ retired:
   jaznaars-refuge: {title: "Jaznaar’s Hidden Refuge", parent: jaznaar, section: the-refuge-beyond-ordinary-knowledge}
   rotten-husk: {title: "The Liberation of the Rotten Husk", parent: the-misfits, section: the-liberation-of-the-rotten-husk}
   jinlin-vechon-wrath-of-innocent: {title: "Jinlin Vechon and the Wrath of Innocent", parent: the-misfits, section: jinlin-vechon-and-the-wrath-of-innocent}
+  avalorian-standing-army: {title: "The Avalorian Standing Army", parent: avalorian-forces, section: the-avalorian-standing-army}
+  lions-bane: {title: "Lion's Bane", parent: avalorian-forces, section: lion-s-bane}
+  dina-hyanda: {title: "Dina Hyanda", parent: avalorian-forces, section: dina-hyanda}
+  cult-of-golgoroth: {title: "The Cult of Gol’Goroth", parent: independent-factions-of-the-misfits-era, section: the-cult-of-gol-goroth}
+  wrath-of-innocent: {title: "The Wrath of Innocent", parent: independent-factions-of-the-misfits-era, section: the-wrath-of-innocent}
