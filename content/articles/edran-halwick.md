@@ -10,11 +10,12 @@ facts: |-
   Species: Half-orc
   Gender: Woman
   Office: Sheriff of the Royal Heartlands
+  Residence: Tarnapolus, on Lake Noch
   Family: House Halwick
   Known for: Practicality and meticulous preparation
   Personal challenge: Family loyalty and public fairness
-related: four-sheriffdoms,kingdom-of-avalor,renada,lantern-ward
-source: Compendium II · Entry II.001, VII; author-approved sheriff biography additions (November 2026)
+related: four-sheriffdoms,tarnapolus,kingdom-of-avalor,renada,lantern-ward
+source: Compendium II · Entry II.001, VII; creator-approved sheriff biography and Tarnapolus residence (November 2026)
 featured: false
 ---
 
@@ -33,6 +34,14 @@ Edran is proud of House Halwick. Its estates helped secure her family's standing
 But her position as sheriff asks her to serve people whose interests may conflict with those of her relatives. A tenant farmer, a merchant, and an estate holder can all claim a reasonable share of the same harvest. Edran cannot satisfy them all by pointing to the family name she bears.
 
 The expectation that she should favor House Halwick weighs on her, especially when she believes fairness requires a decision her family would dislike.
+
+## A home beside Lake Noch
+
+Edran resides in **[[Tarnapolus]]**, the bustling lake port where goods arrive from the southern trade routes. It is her home and a place from which she can attend to the affairs of the crown.
+
+Her office, however, is **sheriff of the Royal Heartlands**. The fields and farming communities she oversees are not confined to the streets around her residence. She is as responsible for a struggling harvest far from Lake Noch as for the concerns brought to her in Tarnapolus.
+
+The arrangement suits a woman who judges public service by the work accomplished rather than by how prominently an official is seen at court.
 
 ## Duty without ceremony
 

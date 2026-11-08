@@ -21,14 +21,14 @@
 | Stanleyville | `stanleyville` | Existing entry expanded: halfway between Renada and Cove City/Tinsel on King's Road; Hjoldan and pony Stanley |
 | Stannisport | `stannisport` | New standalone: River Juce, Heroes Bridge, southern/East Port goods, Clerics Guild |
 | Stem's Port / Stems Port | `stems-port` | Existing entry expanded: pirates, smuggling, black market; **preserves freeport legal rights and distinction from Karhold** |
-| Tarnapolus | `tarnapolus` | New standalone: Lake Noch, southern trade gateway; Southern Sheriff superseded by four-sheriff system |
+| Tarnapolus | `tarnapolus` | Lake Noch trade gateway and **residence of Edran Halwick**, sheriff of the Royal Heartlands; no Southern Sheriff |
 | Taveras | `taveras` | New standalone: Rhys bend, Great Opera House, Bard Guild, Heureux's Bard Academy; rising commercial importance |
 
 **Architecture:** 9 city/village articles + 1 small-settlement gazetteer; 7 existing location pages enriched; additional kingdom, academy, guild and Myxi links updated. The public wiki has 104 standalone entries following these additions (94 + 10). The small entries should not split without meaningful further approved history.
 
 ## Canon precedence and resolved conflicts
 
-1. **Tarnapolus and the 'Southern Sheriff'.** The current kingdom has exactly four crown-appointed sheriffs: Sebastian Rubelda (Northern March), Edran Halwick (Royal Heartlands), Seren Thornwyck (Western Verge), Cassian Veyran (Eastern Reach). A separate **Southern Sheriff is not a current office**. Tarnapolus retains its lake and southern-trade location, but **no contemporary sheriffdom assignment is invented** until the creator provides one.
+1. **Tarnapolus and the 'Southern Sheriff'.** The current kingdom has exactly four crown-appointed sheriffs: Sebastian Rubelda (Northern March), Edran Halwick (Royal Heartlands), Seren Thornwyck (Western Verge), Cassian Veyran (Eastern Reach). A separate **Southern Sheriff is not a current office**. **Creator correction:** Edran Halwick resides in Tarnapolus and administers the **Royal Heartlands** from there. Her home in a southern-facing port does not create a fifth sheriffdom or assign her the entire south.
 2. **Karhold.** Current locked canon establishes a freeport on an eastern peninsula, independent institutions, and **disputed crown sovereignty**. Older descriptions of rival eastern tribes and ruler **Cruzeal Cicluen** are incorporated as political history/leadership without treating Karhold as an ordinary royal province or dismissing its constitutional autonomy.
 3. **Land's End and Sebastian.** Older World Anvil calls Sebastian the *king's stepbrother*. The creator's later, specific character decision identifies Sebastian as **Queen Melmiri's brother**. The later statement controls. Rynhold's founding-era fortress predates the *gradual transformation* of the northern landscape into the Great Desert; the fort was not founded beside a fully formed Great Desert.
 4. **Briyan's Autumn and easternmost city.** Since Karhold's sovereignty is contested, the old phrase *easternmost city of the kingdom* is read as one of the easternmost **crown-administered** cities; this does not erase Karhold.
@@ -38,9 +38,9 @@
 
 ## Geography / naming needing eventual map review (not current conflicts)
 
-- **King's Forest**, mentioned at Alexiverde, is a location name from older source. Its identity relative to Forest of the Fey, Denzians Forest or another forest is not established.
-- **Forest of the Westfold**, near Briyan's Autumn, remains distinct by name; no identification with a preexisting forest is asserted.
-- **The Drought**, crossed with help from Ferrymen Village, is recorded under that older name; it is not assumed to be identical to the Great Desert.
+- **King's Forest**, mentioned at Alexiverde, is now a linked section of `geography-of-avalor#kings-forest`, not an independent article. Its relationship to other forests remains unasserted.
+- **Forest of the Westfold**, near Briyan's Autumn, is now a linked section of `geography-of-avalor#forest-of-the-westfold`; no identification with a preexisting forest is asserted.
+- **The Drought**, crossed with help from Ferrymen Village, is now a linked section of `geography-of-avalor#the-drought`, without assuming it is the same as the Great Desert.
 - **Lake Noch** at Tarnapolus and **River Juce** at Stannisport are accepted names. Their watersheds and exact placement are not invented.
 - **Smugglers Isle**, associated with Osmostown, is accepted as named geography; exact position and boundaries remain undefined.
 - The old `Stem's Port` spelling maps to the established **Stems Port** article, not a duplicated city.
@@ -58,3 +58,7 @@ Follow `docs/PEOPLE_AND_LEGENDS_EDITORIAL_STANDARD.md` where appropriate: write 
 3. Older World Anvil gazetteer for details that do not conflict with (1) or (2).
 
 Do not use this document to authorize any new detail outside Avalor.
+
+## Creator confirmation — geographic consolidation and Tarnapolus
+
+The creator approved the existing **Karhold** and **Land's End** reconciliations and designated **Tarnapolus as Edran Halwick's residence** while she remains sheriff of the Royal Heartlands. The King's Forest, Forest of the Westfold, and Drought belong together in **The Geography of Avalor** rather than three new standalone articles. They were registered as **unplaced drafts** in the Cartographer's Table with direct section links. Public markers remain hidden until grounded map positions are assigned and approved; no coordinates were invented. Tarnapolus was also added to the unplaced map queue.

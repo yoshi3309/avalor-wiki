@@ -11,14 +11,14 @@ facts: |-
   Nearby woodland: Forest of the Westfold
   Character: Heavily fortified city
   Royal authority: Sheriff Cassian Veyran
-related: cassian-veyran,four-sheriffdoms,karhold,east-port,kingdom-of-avalor
+related: cassian-veyran,four-sheriffdoms,karhold,east-port,geography-of-avalor,kingdom-of-avalor
 source: World Anvil, Briyans Autumn (creator-supplied location; November 2026); Compendium II · current Four Sheriffdoms
 featured: false
 ---
 
 ## Briyan's city
 
-**Briyan's Autumn** owes its name to **Briyan**, a wealthy halfling who supplied the fortune needed for the city's construction. What rose from that investment became more than a settlement bearing a benefactor's name: it grew into a heavily defended city near the **Forest of the Westfold**.
+**Briyan's Autumn** owes its name to **Briyan**, a wealthy halfling who supplied the fortune needed for the city's construction. What rose from that investment became more than a settlement bearing a benefactor's name: it grew into a heavily defended city near the **[[The Geography of Avalor#forest-of-the-westfold|Forest of the Westfold]]**.
 
 Its position toward the eastern limits of Avalor's crown-governed lands has given it an importance beyond its walls. A merchant approaching from the interior sees a place built to endure; those responsible for protecting the Eastern Reach see a city whose safety cannot be left to chance.
 

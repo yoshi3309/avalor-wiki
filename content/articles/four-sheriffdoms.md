@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.008
 era: "Age of Ascendancy"
 facts: "Northern March: Sebastian Rubelda\nRoyal Heartlands: Edran Halwick\nWestern Verge: Seren Thornwyck\nEastern Reach: Cassian Veyran\nAuthority: Crown appointment, not hereditary rule"
-related: sebastian-rubelda,edran-halwick,seren-thornwyck,cassian-veyran,kingdom-of-avalor
+related: sebastian-rubelda,edran-halwick,tarnapolus,seren-thornwyck,cassian-veyran,kingdom-of-avalor
 source: "Compendium II · Entry II.001, VII; political canon ledger VIII"
 featured: false
 ---
@@ -25,9 +25,9 @@ The need to sustain protection at great distance from the capital gives this off
 
 ## Royal Heartlands — Edran Halwick
 
-The **Royal Heartlands** are administered by [[Edran Halwick]], a member of a noble family whose interests are rooted in agricultural estates.
+The **Royal Heartlands** are administered by [[Edran Halwick]], a member of a noble family whose interests are rooted in agricultural estates. **She resides in [[Tarnapolus]]**, the lake port on Lake Noch, and conducts her regional responsibilities from there.
 
-The region's grain production and roads are fundamental to the prosperity of [[Renada]]. Administration here requires attention to tenant farmers, landholders, merchants, and the needs of a capital that depends upon their labor.
+The region's grain production and roads are fundamental to the prosperity of [[Renada]]. Administration here requires attention to tenant farmers, landholders, merchants, and the needs of a capital that depends upon their labor. Her residence in a southern trade gateway does not create a fifth sheriffdom or reduce her responsibilities to the lakefront.
 
 ## Western Verge — Seren Thornwyck
 

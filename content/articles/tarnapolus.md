@@ -1,7 +1,7 @@
 ---
 title: Tarnapolus
-subtitle: The Lake Port at Avalor's Southern Approach
-summary: A busy commercial gateway on Lake Noch, where goods from southern trade routes enter the kingdom.
+subtitle: The Lake Port and Edran Halwick's Seat
+summary: A busy commercial gateway on Lake Noch and the residence of Edran Halwick, sheriff of the Royal Heartlands.
 category: Kingdoms & Places
 entry: LOC.037
 era: Age of Ascendancy
@@ -10,8 +10,10 @@ facts: |-
   Character: Major inland lake port
   Trade: Southern overland and waterborne routes
   Position: Southern approach to Avalor
-related: kingdom-of-avalor,four-sheriffdoms,stannisport,renada
-source: World Anvil, Tarnapolus (creator-supplied location; November 2026); Compendium II · current Four Sheriffdoms
+  Resident sheriff: Edran Halwick
+  Sheriffdom administered: Royal Heartlands
+related: kingdom-of-avalor,four-sheriffdoms,edran-halwick,stannisport,renada
+source: World Anvil, Tarnapolus (creator-supplied location); Compendium II · Four Sheriffdoms; creator-confirmed Edran residence (November 2026)
 featured: false
 ---
 
@@ -23,10 +25,16 @@ For merchants entering the northern kingdom, the city is a familiar gateway. Car
 
 The trade passing through Tarnapolus includes goods from neighboring southern realms, but the city's importance belongs first to Avalor's own roads, markets, and people.
 
-## A gateway within the crown's realm
+## The home of Edran Halwick
 
-Older local descriptions refer to the authority of a **Southern Sheriff**. Avalor's present government instead recognizes four named sheriffdoms—the **Northern March, Royal Heartlands, Western Verge, and Eastern Reach**—and no office presently titled Southern Sheriff.
+For all its bustle, Tarnapolus is also where **[[Edran Halwick]]** makes her home. The half-orc sheriff of the **Royal Heartlands** resides here while overseeing the farms, trade roads, and communities whose work helps feed the capital.
 
-Tarnapolus remains an Avalorian port regardless of that older designation. Its precise assignment within the current four-sheriff system is a matter for the kingdom's administrative record, not a reason to erase the city from its map.
+Her responsibilities extend well beyond the lakefront. Grain shipments, market demands, and the competing claims of tenants and landowners can take her attention far from Tarnapolus, but the city remains the place to which she returns.
 
-The harbor's bustle continues while such matters are settled: trade rarely waits for every title in a clerk's book to be brought up to date.
+That distinction gives the city an unusual place in the kingdom's administration: a busy southern gateway serves as the residence of the woman entrusted with Avalor's agricultural heart.
+
+## A port with two horizons
+
+Tarnapolus looks outward to the southern routes that feed its harbor and inward to the affairs of the Royal Heartlands. Merchants come for the commerce of Lake Noch; petitioners may come seeking the sheriff whose careful judgment affects households far beyond the water.
+
+Avalor has **four sheriffs**, not a separate Southern Sheriff. Edran's home in Tarnapolus does not alter the territory or purpose of her office.

@@ -67,6 +67,7 @@ kingdoms-places:
         - great-desert
         - dead-marshes
         - spine-of-the-world
+        - geography-of-avalor
     - id: other-places
       title: Other Places
       eyebrow: MORE OF THE MAP
