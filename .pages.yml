@@ -64,6 +64,83 @@ content:
       - name: featured
         label: Feature on homepage
         type: boolean
+      - name: illustrations
+        label: In-article illustrations (optional; up to 3)
+        type: object
+        description: "Place approved public images within a specific article chapter; keep to 1–2 for most articles."
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - name: image
+            label: Public image
+            type: image
+            required: true
+            options:
+              categories: [image]
+              extensions: [jpg, jpeg, png, webp, gif]
+              rename: safe
+          - name: alt
+            label: Image description (accessibility)
+            type: string
+            required: true
+          - name: caption
+            label: Archival caption or artwork credit
+            type: string
+            required: true
+          - name: after
+            label: Insert after chapter heading (heading ID)
+            type: string
+            required: true
+            description: "Use the article section ID, e.g. adventures-on-roads-without-a-single-destiny."
+          - name: paragraph
+            label: After paragraph number in this chapter (1, 2, 3...)
+            type: number
+            default: 1
+            description: "Counts prose paragraphs within the selected section."
+          - name: layout
+            label: Layout
+            type: select
+            default: wide
+            options:
+              values:
+                - {value: wide, label: Full width}
+                - {value: inset-left, label: Inset left}
+                - {value: inset-right, label: Inset right}
+      - name: callouts
+        label: Archival callouts and pull quotes (optional; up to 4)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{type}: {text}"
+        fields:
+          - name: type
+            label: Callout style
+            type: select
+            required: true
+            options:
+              values:
+                - {value: quote, label: Gold · From this account}
+                - {value: note, label: Slate blue · Scholar's note}
+                - {value: contested, label: Oxblood · Contested account}
+          - name: text
+            label: Pull quote or note text
+            type: text
+            required: true
+            description: "Use existing public text; quotes should reproduce article wording exactly."
+          - name: attribution
+            label: Optional source or attribution
+            type: string
+          - name: after
+            label: Insert after chapter heading (heading ID)
+            type: string
+            required: true
+          - name: paragraph
+            label: After paragraph number in this chapter (1, 2, 3...)
+            type: number
+            default: 1
       - name: body
         label: The Scholar's Account (PLAYER-VISIBLE)
         type: rich-text
