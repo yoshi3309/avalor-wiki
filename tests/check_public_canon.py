@@ -166,7 +166,7 @@ for journey in routes.get("journeys", []):
 atlas = yaml.safe_load((ROOT / "data" / "relationship-maps.yml").read_text(encoding="utf-8")) or {}
 relationship_ids = set()
 allowed_kinds = {"group", "person", "royal"}
-allowed_types = {"fellowship", "later", "parent", "consort", "sibling"}
+allowed_types = {"fellowship", "later", "companion", "prior-friendship", "parent", "consort", "sibling"}
 for relationship in atlas.get("maps", []):
     ident = str(relationship.get("id") or "")
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ident) or ident in relationship_ids:
