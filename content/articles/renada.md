@@ -45,3 +45,22 @@ At the heart of the capital, [[Cathedral Ward]] surrounds [[The Great Cathedral]
 Renada's public life extends beyond the buildings of the crown. The merchants of [[Lantern Ward]] maintain the city's markets and the Hall of Measures, while the [[Rhys Quays]] connect its labor and warehouses to the River Rhys. The [[Mudsteps]], within the quays, are remembered as the childhood neighborhood of Lord Marshal Lavitz Shawe. In [[Rynhold Park]], the surviving statue of Aldus Greystone III bears a revised inscription acknowledging the false history once taught about Jaznaar.
 
 [[Cathedral Ward]] completes the record of Renada's five major districts through its religious and charitable institutions. These places remain parts of Renada, not separate settlements of the kingdom. The Royal Archives record their distinct histories without giving each another pin on the world map.
+
+
+## The Mudsteps
+
+Within the working [[Rhys Quays]] district, **the Mudsteps** is a poorer riverside neighborhood where households depend upon the labor and trade of the capital's waterfront. Its name speaks to the difficult ground and working life of the low-lying quarter rather than a separate town beyond Renada.
+
+[[Lavitz Shawe]], who later became Lord Marshal, grew up here. His rise to high office changed how many Avalorians viewed the neighborhood, but it did not remove the pressures faced by families who work along the river. The Mudsteps belongs to the daily history of Renada as surely as its citadel belongs to the royal one.
+
+## Lantern Ward and the markets
+
+**Lantern Ward** is among the capital's principal commercial districts. Its markets, trade measures, and the **Hall of Measures** reflect how extensively the business of buying and selling depends upon agreed weights, reliable records, and the labor of merchants and carriers.
+
+The markets are part of the larger city, not a separate settlement. The working relationship between Lantern Ward and the Rhys Quays makes the capital's wealth possible even when its rewards are distributed unevenly.
+
+## Rynhold Park and public memory
+
+**Rynhold Park** provides public space amid the capital's crowded districts and ceremonial roads. It is associated with the founding king, but it also preserves a more difficult history in the statue of [[Aldus Greystone III]], whose inscription once praised the healer without acknowledging his later identity as [[Cid the Blood King]].
+
+After [[The Vindication of Jaznaar|Jaznaar's vindication]], the old inscription was removed and placed in [[The Great Library of Aldus Greystone]], where it could be studied as evidence of the kingdom's mistaken history. A corrected inscription now identifies Aldus's responsibility for the catastrophe and acknowledges Jaznaar's innocence. The monument remains a matter of public discussion, not a universally settled judgment.
