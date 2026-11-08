@@ -13,7 +13,7 @@ facts: |-
   Family: Brother of Queen Melmiri
   Known for: Plain speech and preparedness
   Personal cause: Greater unity among Northern Desert Tribes
-related: queen-melmiri,lands-end,four-sheriffdoms,kingdom-of-avalor,avalorian-standing-army,the-aegis,great-desert
+related: queen-melmiri,lands-end,four-sheriffdoms,kingdom-of-avalor,avalorian-forces,the-aegis,great-desert
 source: Compendium II · Entry II.001, VII–VIII; author-approved sheriff biography additions (November 2026)
 featured: false
 ---

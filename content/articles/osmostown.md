@@ -10,7 +10,7 @@ facts: |-
   Royal defense: Western navy
   Historical authority: Intervention of the Western Sheriff
   Character: Major fortified maritime city
-related: seren-thornwyck,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor,stems-port
+related: seren-thornwyck,four-sheriffdoms,avalorian-forces,kingdom-of-avalor,stems-port
 source: World Anvil, Osmostown (creator-supplied location; November 2026)
 featured: false
 ---

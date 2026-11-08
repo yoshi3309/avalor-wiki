@@ -24,7 +24,7 @@ facts: |-
   Office: Lord Marshal of Avalor
   Council: The Aegis
   Command: Lion's Bane royal guard
-related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,lions-bane,tellora-ebbenflow,king-gradvum-frozenroar
+related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,tellora-ebbenflow,king-gradvum-frozenroar
 source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography and vigil / sword details (November 2026)
 featured: true
 ---
@@ -119,7 +119,7 @@ The group later known as [[The Misfits]] did not gather to defeat an ancient evi
 
 Alongside Lavitz stood [[Tel'Lora Ebbenflow]], the half-elven wizard; [[svendyal-shadowwhisper|Sven]], the eladrin; [[Amara]], a druid whose family line reached back to the founding age; and Fo’Gurn. They overcame their first enemy and recovered fragments of magical research whose significance became clear only much later. The affair is preserved as [[The Misfits’ First Commission]].
 
-A second commission, concerning [[The Cult of Gol’Goroth]], brought [[Heureux]] into their company. The firbolg bard became both a companion and, in time, one of the most important tellers of their shared history.
+A second commission, concerning [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|the Cult of Gol’Goroth]], brought [[Heureux]] into their company. The firbolg bard became both a companion and, in time, one of the most important tellers of their shared history.
 
 The fellowship endured because its members repeatedly chose to remain together. Their temperaments differed, and their missions did not always belong to one great conspiracy. They became friends through the less ceremonial work of surviving the road.
 

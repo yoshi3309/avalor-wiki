@@ -6,14 +6,14 @@ category: History & Chronicles
 entry: HIS.007
 era: "Age of the Misfits"
 facts: "Adversary: Zauks, mind flayer\nMethod: Illusions drawn from remembered trials\nFinal snare: Convincing ideal lives\nRecorded clue: Owl associated with Amara\nResult: The Misfits escaped"
-related: the-misfits,jaaris,the-stalker,noki-the-sheep,fo-gurn,wrath-of-innocent
+related: the-misfits,jaaris,the-stalker,noki-the-sheep,fo-gurn,independent-factions-of-the-misfits-era
 source: "The Living Chronicle, Chapter VI, VI; Master Canon Bible Volume I, V"
 featured: false
 ---
 
 ## Familiar danger turned against its survivors
 
-**Zauks**, a **mind flayer**, used the memories of [[The Misfits]] as material for a series of magical trials. They encountered imitations of dangers already faced during their adventures: [[The Misfits#moonville-manor|Moonville Manor]], the necromancer [[Jaaris]], [[The Stalker of Stanleyville|the Stalker]], [[The Cult of Gol’Goroth|the cult of Gol’Goroth]], [[Noki]], the [[Fo’Gurn#the-hydra-and-the-decision-to-remain|hydra]], [[The Wrath of Innocent#jinlin-vechon|Jinlin Vechon]]'s lair, and other scenes associated with the companions' losses.
+**Zauks**, a **mind flayer**, used the memories of [[The Misfits]] as material for a series of magical trials. They encountered imitations of dangers already faced during their adventures: [[The Misfits#moonville-manor|Moonville Manor]], the necromancer [[Jaaris]], [[The Stalker of Stanleyville|the Stalker]], [[The Cult of Gol’Goroth|the cult of Gol’Goroth]], [[Noki]], the [[Fo’Gurn#the-hydra-and-the-decision-to-remain|hydra]], [[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]]'s lair, and other scenes associated with the companions' losses.
 
 These were **not fresh occurrences of the original incidents**. They were manufactured ordeals shaped from memories.
 

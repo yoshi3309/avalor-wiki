@@ -12,7 +12,7 @@ facts: |-
   Founder: Built in Rynhold's expansion
   Frontier: Region later transformed into the Great Desert
   Authority: Crown of Avalor
-related: sebastian-rubelda,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor,rynhold-frozenroar,great-desert
+related: sebastian-rubelda,four-sheriffdoms,avalorian-forces,kingdom-of-avalor,rynhold-frozenroar,great-desert
 source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI; creator-provided Land's End history (November 2026)
 featured: false
 ---

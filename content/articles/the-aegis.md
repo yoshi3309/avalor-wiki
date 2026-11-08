@@ -14,7 +14,7 @@ facts: |-
   Sovereign: King Gradvum Frozenroar
   Usual meeting cadence: Weekly
   Seat of government: Renada, Great Citadel
-related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,belgram-mountain-hall,myxi-twinefoot,katiri-tenderfoot,rastrin-diltir,beldir-willowrun,samuel-the-devoted,lavitz-shawe,tellora-ebbenflow,four-sheriffdoms,renada,great-citadel
+related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,belgram-mountain-hall,myxi-twinefoot,katiri-tenderfoot,rastrin-diltir,beldir-willowrun,samuel-the-devoted,lavitz-shawe,tellora-ebbenflow,four-sheriffdoms,avalorian-forces,renada,great-citadel
 source: Compendium II · Entry II.001, Section VI, public royal offices; The Living Chronicle, public constitutional history; author-approved councilor details (November 2026)
 featured: true
 ---

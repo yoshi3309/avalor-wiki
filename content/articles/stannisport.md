@@ -10,7 +10,7 @@ facts: |-
   Crossing: Heroes Bridge
   Trade: Goods from the south and East Port
   Institution: Clerics Guild
-related: east-port,taveras,kingdom-of-avalor,heavens-heart
+related: east-port,taveras,guilds-of-avalor,kingdom-of-avalor,heavens-heart
 source: World Anvil, Stannisport (creator-supplied location; November 2026)
 featured: false
 ---
@@ -25,7 +25,7 @@ The bridge is as much a part of everyday life as the quays. Markets, visitors, a
 
 ## A city of trade and faith
 
-Stannisport is home to the **Clerics Guild**, adding religious and communal work to a city best known for commerce.
+Stannisport is home to the [[The Guilds of Avalor#the-clerics-guild|Clerics Guild]], adding religious and communal work to a city best known for commerce.
 
 Its bustling economy gives the guild a setting full of people passing through: dockworkers, traders, travelers, and families whose concerns rarely begin or end at the water's edge.
 

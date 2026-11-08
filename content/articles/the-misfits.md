@@ -15,7 +15,7 @@ facts: |-
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,rotten-husk-clan,wrath-of-innocent,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 featured: true
 ---
@@ -146,7 +146,7 @@ The **faction** and its founder have a separate entry because their existence do
 
 ## VI. False lives and dangerous alliances
 
-The companions later encountered [[The Wrath of Innocent#jinlin-vechon|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
+The companions later encountered [[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
 
 The mind flayer [[Zauks and the False Lives|Zauks]] then subjected the fellowship to manufactured ordeals, recreating earlier dangers from their memories. His final deception offered idealized lives in which grief and loss seemed to have been undone.
 

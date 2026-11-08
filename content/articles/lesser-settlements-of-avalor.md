@@ -9,7 +9,7 @@ facts: |-
   Places: Alexiverde; Ferrymen Village; Olivruch
   Character: Small communities
   Known associations: Bradgem Glav; desert passage; Thieves Guild
-related: bradgem-glav,dead-marshes,great-desert,geography-of-avalor,kingdom-of-avalor
+related: bradgem-glav,dead-marshes,great-desert,geography-of-avalor,guilds-of-avalor,kingdom-of-avalor
 source: World Anvil, Alexiverde, Ferrymen Village and Olivruch (creator-supplied locations; November 2026)
 featured: false
 ---
@@ -32,7 +32,7 @@ The name of the region and its connection to the Ferrymen are preserved in [[The
 
 ## Olivruch
 
-At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: **the Thieves Guild** is situated here.
+At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: [[The Guilds of Avalor#the-thieves-guild|the Thieves Guild]] is situated here.
 
 That association gives an otherwise modest settlement a place in the stories of people whose work depends upon remaining unseen. Its presence does not mean every resident is a thief, or that Olivruch's everyday life can be reduced to the guild.
 

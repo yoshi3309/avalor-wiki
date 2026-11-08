@@ -10,7 +10,7 @@ facts: |-
   Royal role: Dock of the eastern navy
   Region: Eastern Avalor
   Principal concern: Security of eastern approaches
-related: briyans-autumn,cassian-veyran,four-sheriffdoms,stannisport,avalorian-standing-army
+related: briyans-autumn,cassian-veyran,four-sheriffdoms,stannisport,avalorian-forces
 source: World Anvil, East Port (creator-supplied location; November 2026)
 featured: false
 ---

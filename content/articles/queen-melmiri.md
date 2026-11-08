@@ -15,7 +15,7 @@ facts: |-
   Founded: Dina Hyanda
   Griffin: Dune Rakka
   Scimitar: Darkheart
-related: king-gradvum-frozenroar,sebastian-rubelda,dina-hyanda,the-aegis,tournament-of-champions,the-misfits
+related: king-gradvum-frozenroar,sebastian-rubelda,avalorian-forces,the-aegis,tournament-of-champions,the-misfits
 source: Compendium II · Entry II.001, IV–V and VIII; The Living Chronicle, Chapter VI; author-approved family addition (November 2026)
 featured: false
 ---
