@@ -1,0 +1,52 @@
+# Search labels for already-published public articles only.
+# These are discoverability aliases, NOT new characters, titles, or lore.
+# Do not include Keeper secrets or misleading historical claims.
+aliases:
+  faelynn:
+    - Night Mistress
+    - Faelynn Naïlo
+    - Faelynn Nailo
+  cid-the-blood-king:
+    - Blood King
+    - Cid
+  fo-gurn:
+    - FoGurn
+    - Fo Gurn
+  tellora-ebbenflow:
+    - Tel Lora
+    - TelLora
+  svendyal-shadowwhisper:
+    - Sven
+    - Svendyal Shadowwhisper
+  lavitz-shawe:
+    - Lavitz
+  heureux:
+    - Heureux the Bard
+  jack-of-stanleyville:
+    - Jack
+    - Ghost Boy
+  jaznaar:
+    - Jaznaar Mizzrorzza
+  the-six:
+    - Founding Six
+    - Original Six
+  the-misfits:
+    - The Misfits adventurers
+  house-frozenroar:
+    - Frozenroar Dynasty
+    - Royal Register
+  guilds-of-avalor:
+    - The Silver Forge
+    - The Sea Serpents
+    - Silver Forge
+    - Sea Serpents
+  bard-guild:
+    - Society of Silk & Story
+    - Society of Silk and Story
+  hunters-guild:
+    - Hunters Guild
+  royal-commission-historical-inquiry:
+    - Royal Commission
+    - Royal Commission of Historical Inquiry
+  the-aegis:
+    - Aegis Council
