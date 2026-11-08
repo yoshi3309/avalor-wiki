@@ -138,6 +138,28 @@ for slug, (meta, body) in entries.items():
         if re.search(r"\bSamuel\b\s*(?:,|is|was|:)?\s*(?:an?\s+)?aasimar\b|\baasimar\s+Samuel\b", line, re.I):
             problems.append(f"{slug}:{line_number}: obsolete aasimar identification for Samuel")
 
+# Curated journeys must only reference existing, public archive articles.
+routes = yaml.safe_load((ROOT / "data" / "reading-journeys.yml").read_text(encoding="utf-8")) or {}
+journey_ids = set()
+for journey in routes.get("journeys", []):
+    journey_id = str(journey.get("id") or "")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", journey_id) or journey_id in journey_ids:
+        problems.append(f"Invalid or duplicate reading journey id: {journey_id}")
+    journey_ids.add(journey_id)
+    if any(not journey.get(k) for k in ("title", "subtitle", "overline", "summary", "editorial_note", "era")):
+        problems.append(f"{journey_id}: incomplete journey metadata")
+    steps = journey.get("steps") or []
+    if len(steps) < 3:
+        problems.append(f"{journey_id}: fewer than three records")
+    used = set()
+    for step in steps:
+        slug = str(step.get("article") or "")
+        if slug not in entries or slug in used:
+            problems.append(f"{journey_id}: missing or repeated public article {slug}")
+        used.add(slug)
+        if not step.get("label") or not step.get("introduction"):
+            problems.append(f"{journey_id}: incomplete step for {slug}")
+
 if problems:
     print("PUBLIC CANON CHECK FAILED:")
     for problem in problems:
