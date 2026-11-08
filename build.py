@@ -375,10 +375,23 @@ for a in ALL:
     related=[]
     related_seen=set()
     for related_slug in a['related_slugs']:
-        destination = MERGES[related_slug]['parent'] if related_slug in MERGES else related_slug
-        if destination in BY_SLUG and destination != a['slug'] and destination not in related_seen:
-            related.append(BY_SLUG[destination])
-            related_seen.add(destination)
+        if related_slug in MERGES:
+            rule=MERGES[related_slug]
+            destination=rule['parent']
+            key=(destination,rule['section'])
+            if destination in BY_SLUG and key not in related_seen:
+                # A retired record remains a navigable *section*, not a second article.
+                related.append({
+                    'slug':destination, 'fragment':rule['section'],
+                    'title':rule['title'], 'entry':'SECTION',
+                    'category':BY_SLUG[destination]['category']
+                })
+                related_seen.add(key)
+        elif related_slug in BY_SLUG and related_slug != a['slug']:
+            key=(related_slug,'')
+            if key not in related_seen:
+                related.append(BY_SLUG[related_slug])
+                related_seen.add(key)
     render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
