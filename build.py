@@ -248,7 +248,7 @@ RELATIONSHIPS_SOURCE = yaml.safe_load((ROOT / 'data' / 'relationship-maps.yml').
 RELATIONSHIP_MAPS = []
 RELATIONSHIP_BY_ARTICLE = {}
 RELATIONSHIP_IDS = set()
-ALLOWED_EDGE_TYPES = {'fellowship', 'later', 'parent', 'consort', 'sibling'}
+ALLOWED_EDGE_TYPES = {'fellowship', 'later', 'companion', 'prior-friendship', 'parent', 'consort', 'sibling'}
 ALLOWED_NODE_KINDS = {'group', 'person', 'royal'}
 for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
     ident = str(raw_graph.get('id') or '').strip()
@@ -276,7 +276,8 @@ for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
         if raw_node.get('kind') not in ALLOWED_NODE_KINDS or not raw_node.get('label') or not raw_node.get('detail'):
             raise ValueError(f'{ident}: incomplete node {node_id}')
         node = {'id': node_id, 'x': x, 'y': y, 'kind': raw_node['kind'],
-                'label': str(raw_node['label']), 'detail': str(raw_node['detail']), 'article': article}
+                'label': str(raw_node['label']), 'detail': str(raw_node['detail']), 'article': article,
+                'symbol': str(raw_node.get('symbol') or '')}
         node_index[node_id] = node
         nodes.append(node)
     if len(nodes) < 2:
@@ -298,7 +299,8 @@ for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
         raise ValueError(f'{ident}: no relationships')
     legend_names = {'fellowship': 'Fellowship membership', 'later': 'Later arrival / traveling companion',
                     'parent': 'Documented parent–child', 'consort': 'Consorts / shared parentage',
-                    'sibling': 'Documented siblings'}
+                    'sibling': 'Documented siblings', 'companion': 'Honored companion',
+                    'prior-friendship': 'Friends before the Misfits'}
     legend = [(kind, legend_names[kind]) for kind in legend_names if any(edge['type'] == kind for edge in edges)]
     graph = {'id': ident, **{key: raw_graph[key] for key in required},
              'nodes': nodes, 'edges': edges, 'legend': legend,
