@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container connections-container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><span>People &amp; connections</span></nav>
+  <header class="connections-heading">
+    <div class="kicker">THE ARCHIVIST'S TABLE · RELATIONSHIP ATLAS</div>
+    <h1>Connections Across Avalor</h1>
+    <p>Every history is made of relationships: those sworn, those inherited, and those broken. Choose a fellowship or royal household to explore how its figures are connected.</p>
+  </header>
+  <div class="connections-grid">
+    {% for graph in relationship_maps %}
+    <a class="connections-card" href="{{root}}connections/{{graph.id}}/">
+      <span class="connections-card-glyph" aria-hidden="true">{{graph.icon}}</span>
+      <span class="connections-card-eyebrow">RELATIONSHIP MAP {{'%02d'|format(loop.index)}}</span>
+      <h2>{{graph.title}}</h2>
+      <p class="connections-card-subtitle">{{graph.subtitle}}</p>
+      <p>{{graph.summary}}</p>
+      <span class="connections-card-bottom">{{graph.nodes|length}} figures and groups <span>Explore connections ↗</span></span>
+    </a>
+    {% endfor %}
+  </div>
+  <aside class="connections-guidance"><span aria-hidden="true">◇</span><p>Solid lines, dotted lines, and labeled connections represent different relationships. The royal maps show only documented kinships; a succession of monarchs is not proof of parentage.</p></aside>
+</div>
+{% endblock %}
