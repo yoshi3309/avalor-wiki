@@ -206,7 +206,8 @@ locations:
     type: historic
     x: 27.79
     y: 29.76
-    description: Steep approach leading to the Black Tower; Heaven's Heart is nearby but not the destination.
+    description: Steep approach leading to the Black Tower; Heaven's Heart is nearby
+      but not the destination.
     article: black-tower#the-black-stair
     published: true
     provisional: false
@@ -267,13 +268,11 @@ locations:
     article: stems-port
     published: true
     provisional: false
-
-  # Creator-confirmed geographic names. Coordinates await placement using the
-  # Cartographer's Table positioning desk; public pins must not be guessed.
   - id: kings-forest
     name: King's Forest
     type: region
-    description: Woodland near Alexiverde, on the other side of the town from the Dead Marshes.
+    description: Woodland near Alexiverde, on the other side of the town from the
+      Dead Marshes.
     article: geography-of-avalor#king-s-forest
     published: false
     provisional: true
@@ -287,14 +286,18 @@ locations:
   - id: the-drought
     name: The Drought
     type: region
-    description: Difficult region crossed by travelers using the Ferrymen from Ferrymen Village.
+    description: Difficult region crossed by travelers using the Ferrymen from
+      Ferrymen Village.
     article: geography-of-avalor#the-drought
     published: false
     provisional: true
   - id: tarnapolus
     name: Tarnapolus
     type: settlement
-    description: Lake Noch trade port and home of Edran Halwick, sheriff of the Royal Heartlands.
+    x: 57.88
+    y: 97.07
+    description: Lake Noch trade port and home of Edran Halwick, sheriff of the
+      Royal Heartlands.
     article: tarnapolus
-    published: false
-    provisional: true
+    published: true
+    provisional: false
