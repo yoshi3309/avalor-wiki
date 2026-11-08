@@ -199,6 +199,30 @@ for relationship in atlas.get("maps", []):
             problems.append(f"{ident}: incomplete relationship for {a}/{b}")
 
 
+
+# The chronology uses stable public record slugs and preserves confidence labels.
+chronicle = yaml.safe_load((ROOT / "data" / "living-chronicle.yml").read_text(encoding="utf-8")) or {}
+period_ids = {p["id"] for p in chronicle.get("periods", [])}
+topic_ids = {p["id"] for p in chronicle.get("topics", [])}
+kind_ids = {p["id"] for p in chronicle.get("date_kinds", [])}
+event_ids = set()
+if not period_ids or not topic_ids or not kind_ids:
+    problems.append("Living Chronicle: missing filters or date classifications")
+for event in chronicle.get("events", []):
+    event_id = str(event.get("id") or "")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", event_id) or event_id in event_ids:
+        problems.append(f"Living Chronicle: invalid or repeated event id {event_id}")
+    event_ids.add(event_id)
+    if event.get("article") not in entries:
+        problems.append(f"Living Chronicle: event {event_id} has missing public article")
+    if event.get("period") not in period_ids or event.get("topic") not in topic_ids or event.get("date_kind") not in kind_ids:
+        problems.append(f"Living Chronicle: event {event_id} has unknown classification")
+    if any(not event.get(k) for k in ("date", "era", "title", "text")):
+        problems.append(f"Living Chronicle: incomplete public entry {event_id}")
+if len(event_ids) != 18:
+    problems.append(f"Living Chronicle: expected all 18 previously published events, found {len(event_ids)}")
+
+
 if problems:
     print("PUBLIC CANON CHECK FAILED:")
     for problem in problems:
