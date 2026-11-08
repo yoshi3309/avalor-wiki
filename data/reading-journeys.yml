@@ -1,0 +1,36 @@
+# Public, curated reading routes through existing Scholar's Accounts.
+# The journeys add navigation and interpretation; they do not change historical canon.
+# Every "article" must be the slug of an existing PUBLIC content/articles/*.md record.
+journeys:
+  - id: fall-of-the-six
+    title: The Fall of the Six
+    subtitle: Six companions. One impossible choice. A truth buried for centuries.
+    overline: THE FOUNDING AGE · AN ARCHIVAL JOURNEY
+    summary: Follow the fellowship that helped shape young Avalor, the catastrophe that broke it, the false story that endured, and the long-delayed restoration of Jaznaar's name.
+    editorial_note: This journey follows the Royal Commission's corrected public account. It distinguishes the original witnesses from the false legend circulated in later centuries. Exact words and dates are not invented where the sources do not preserve them.
+    era: From 1 AF to the Age of Ascendancy
+    steps:
+      - article: unification-of-avalor
+        label: A Kingdom Forged
+        introduction: Before there could be six celebrated companions, there had to be a kingdom worth serving. Begin with Rynhold's negotiated union in 1 AF.
+      - article: the-six
+        label: The Fellowship
+        introduction: Meet the six friends who came together in the kingdom's first generation, and the very different ideals that bound them.
+      - article: aldus-greystone-iii
+        label: The Healer's Ambition
+        introduction: Follow Aldus from genuine gifts of healing toward the dangerous conviction that mortality itself could be abolished.
+      - article: sundering-of-the-six
+        label: The Black Tower
+        introduction: The other five face a choice no friendship should require. Read what can be established about the confrontation and what remains uncertain.
+      - article: betrayers-legend
+        label: The Lie That Outlived Them
+        introduction: Discover how later generations learned a reversed history, condemning Jaznaar and celebrating the man he had opposed.
+      - article: cid-the-blood-king
+        label: The Enemy in Shadow
+        introduction: Trace the person who survived Aldus's mortal death as Cid, and the long consequences of his concealment.
+      - article: the-misfits
+        label: The Fellowship That Found the Truth
+        introduction: Nearly two millennia later, another unlikely company encounters the old deception and brings its author to defeat.
+      - article: jaznaars-vindication
+        label: The Name Restored
+        introduction: End with Gradvum's proclamation, the corrected monuments, and the limits of what a kingdom can repair by telling the truth.
