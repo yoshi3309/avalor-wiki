@@ -12,11 +12,12 @@ facts: |-
   Children: Theodric, Leontes, Vivienne
   Ancestry: Northern Desert Tribes
   Brother: Sebastian Rubelda
-  Founded: Dina Hyanda
+  Founded: Dina Hyanda, following her rescue from Cid
+  Commander of Dina Hyanda: Nadja Akayrn, female dragonborn
   Griffin: Dune Rakka
   Scimitar: Darkheart
 related: king-gradvum-frozenroar,sebastian-rubelda,avalorian-forces,the-aegis,tournament-of-champions,the-misfits
-source: Compendium II · Entry II.001, IV–V and VIII; The Living Chronicle, Chapter VI; author-approved family addition (November 2026)
+source: Compendium II · Entry II.001, IV–V and VIII; The Living Chronicle, Chapter VI; creator-approved Dina Hyanda founding and commander (November 2026)
 featured: false
 ---
 
@@ -30,11 +31,7 @@ Melmiri is therefore not best understood simply as the king's companion in cerem
 
 ## A queen who acts
 
-Melmiri founded **[[The Avalorian Forces#dina-hyanda|Dina Hyanda]]**, a protective order of **twelve women serving in three circles of four**. Drawn from varied backgrounds, including former adventurers, the Twelve have trained under some of Avalor's finest instructors. Their calling is distinct from [[The Avalorian Forces#lion-s-bane|Lion's Bane]], the elite royal guard commanded by Lord Marshal [[Lavitz Shawe]]. Founding the order was Melmiri's own decision, not merely a tradition she inherited as queen.
-
 She is also known to ride the griffin **Dune Rakka** and to bear the scimitar **Darkheart**. Those symbols have made her a recognizable figure in accounts of the royal household. They belong beside, rather than in place of, her administrative accomplishments.
-
-The order reflected Melmiri's decision to establish a protective force with an identity of its own, distinct from the royal guards who served elsewhere in the household.
 
 ## Heritage and family
 
@@ -49,5 +46,9 @@ She and Gradvum have three children: **Theodric**, **Leontes**, and **Vivienne**
 At [[The Tournament of Champions]], [[Cid the Blood King]] abducted Melmiri and carried her into the Shadowfell. [[The Misfits]] pursued him, rescued the queen, and defeated the immediate threat he posed.
 
 The rescue was extraordinary, but it was not the end of her story. Melmiri returned to a kingdom now forced to reconsider its oldest history, and to responsibilities that had not ceased while she was gone.
+
+**After her captivity**, Melmiri established **[[The Avalorian Forces#dina-hyanda|Dina Hyanda]]**, an order of **twelve women organized into three circles of four**. Drawing upon Avalor's finest instructors, and welcoming women whose experience included lives as adventurers, the queen created a protective force of her own rather than simply enlarging the existing [[The Avalorian Forces#lion-s-bane|Lion's Bane]].
+
+**Nadja Akayrn**, a **female dragonborn**, leads the Twelve as one of their number. For Melmiri, founding Dina Hyanda was a decision made after surviving Cid's abduction—one that gave the queen a distinct, close-knit guard as she resumed her work in Avalor.
 
 Her defining public record is one of **continued service**: not only a queen who survived a famous danger, but a ruler who returned to the everyday work of keeping Avalor together.

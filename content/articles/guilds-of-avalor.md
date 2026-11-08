@@ -1,34 +1,34 @@
 ---
 title: The Guilds of Avalor
-subtitle: The Silver Forge and the Unofficial Guild of Olivruch
+subtitle: The Silver Forge and the Sea Serpents
 summary: The Silver Forge welcomes clerics of every faith, while Salt directs
-  Avalor's loosely organized Thieves Guild from Olivruch.
+  the Sea Serpents, Avalor's loose network of thieves based in Olivruch.
 category: Organizations & Factions
 entry: ORG.016
 era: Founding Age to Age of Ascendancy
 facts: |-
-  Thieves Guild: Independent crews under Salt in Olivruch
+  Thieves Guild: The Sea Serpents, independent crews under Salt in Olivruch
   Rumored superior: The Ragged Man (unverified)
   Clerics Guild: The Silver Forge, based in Stannisport
   Silver Forge founding: Unification of Avalor, 1 AF
   Silver Forge tradition: Welcomes every deity and faith
   Silver Forge disciplines: Healing Hand; Guiding Light; Shield of Mercy
-  Other notable guilds: Hunters Guild; Bard Guild
+  Other notable guilds: Hunters Guild; Society of Silk & Story
   Relationship: Distinct guilds, not a single governing body
 related: lesser-settlements-of-avalor,stannisport,hunters-guild,bard-guild,taveras,petris,aldus-greystone-iii,kingdom-of-avalor
-source: World Anvil, Olivruch and Stannisport; creator-approved guild histories
-  and structures (November 2026)
+source: World Anvil, Olivruch and Stannisport; creator-approved guild histories,
+  structures and organization names (November 2026)
 featured: false
 ---
 ## Different callings, different guilds
 
 The word **guild** can hide very different meanings in Avalor. In one city it describes a fellowship of healers whose doors are open to every faith. In another it describes a loose association of professional thieves who would rather the crown paid them no attention at all.
 
-The **Silver Forge** and **Thieves Guild** have little reason to share a charter, a cause, or a set of rules. Their stories belong together here because both are part of the life of Avalor, even though their origins and purposes could scarcely be more different.
+The **Silver Forge** and **Sea Serpents**, as Avalor's branch of the Thieves Guild is known, have little reason to share a charter, a cause, or a set of rules. Their stories belong together here because both are part of the life of Avalor, even though their origins and purposes could scarcely be more different.
 
 ## The Thieves Guild
 
-In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild** known as **the Sea Shadows**, an association of **professional thieves** who provide mutual support for the unlawful ventures of their members and clients.
+In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild** known as **the Sea Serpents**, an association of **professional thieves** who provide mutual support for the unlawful ventures of their members and clients.
 
 Calling it a *guild* is generous. Its members are not bound together like craftsmen under a formal charter. Instead, **independent crews** pursue their own opportunities, deciding whom they trust and what work they will undertake.
 
@@ -36,7 +36,7 @@ A crew might be skilled in a particular kind of theft or accustomed to working w
 
 ### Salt and the Ragged Man
 
-**Salt** leads the **Avalorian branch**, holding together interests that might otherwise end in rivalry. When crews' affairs collide, he can **mediate disagreements**. When a venture requires cooperation, he can **coordinate between groups** or help them find people willing to work together.
+**Salt** leads the **Sea Serpents**, the Avalorian branch, holding together interests that might otherwise end in rivalry. When crews' affairs collide, he can **mediate disagreements**. When a venture requires cooperation, he can **coordinate between groups** or help them find people willing to work together.
 
 That makes him influential without turning the guild into a regiment with ranks and orders for every member. The branch works because thieves who value their freedom can still recognize the usefulness of shared contacts and mutual assistance.
 
@@ -80,7 +80,7 @@ The Silver Forge is distinct from [[The Cathedral Paladins|the Cathedral Paladin
 
 ## The guilds with fuller stories
 
-Two other guilds already have histories substantial enough to tell separately. [[The Hunters Guild]] was founded by [[Faelynn]] at [[Wayword Sun]] to protect travelers and vulnerable settlements. [[The Bard Guild]] is based in [[Taveras]], whose great performance culture also nurtured [[Heureux’s Bard Academy]].
+Two other guilds already have histories substantial enough to tell separately. [[The Hunters Guild]] was founded by [[Faelynn]] at [[Wayword Sun]] to protect travelers and vulnerable settlements. [[The Bard Guild|The Society of Silk & Story]] (the Bard Guild) is based in [[Taveras]], whose great performance culture also nurtured [[Heureux’s Bard Academy]].
 
 The academy is a school, distinct from the Bard Guild. And neither the hunters nor the bards are branches of the smaller guilds described here.
 

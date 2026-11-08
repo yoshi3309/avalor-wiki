@@ -24,7 +24,7 @@ facts: |-
   Office: Lord Marshal of Avalor
   Council: The Aegis
   Command: Lion's Bane royal guard
-related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,tellora-ebbenflow,king-gradvum-frozenroar
+related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,rastrin-diltir,tellora-ebbenflow,king-gradvum-frozenroar
 source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography and vigil / sword details (November 2026)
 featured: true
 ---
@@ -179,7 +179,7 @@ Lavitz accepted responsibility for the kingdom's defenses, senior military couns
 
 The work differs sharply from adventuring. A paladin may meet a threat personally; a commander must plan for danger that may arrive months later, in places he has never visited. He must decide how soldiers are trained, whether defenses are ready, and how to advise a king when the easiest answer is not the wisest one.
 
-The broader [[The Avalorian Forces#the-avalorian-standing-army|Avalorian Standing Army]] trains at sites including [[The Great Fork Tower]] and draws upon professional regiments, noble retinues, regional musters, and militias. Within Lion's Bane, Lavitz oversees the Royal Guard, Lion's Claws, and gryffion-mounted Skyward Guard. Neither is identical to [[The Avalorian Forces#dina-hyanda|Dina Hyanda]], Queen Melmiri's order of twelve women. Their separate responsibilities are part of the care required to protect the kingdom. The distinction matters in understanding the offices Lavitz must coordinate without confusing their duties.
+The broader [[The Avalorian Forces#the-avalorian-standing-army|Avalorian Standing Army]] trains at sites including [[The Great Fork Tower]] and draws upon professional regiments, noble retinues, regional musters, and militias. Within Lion's Bane, Lavitz oversees three commanders: **Quill**, a tortle and nephew of [[Rastrin Diltir]], directs the Royal Guard; **Mira**, a female tabaxi, leads the Lion's Claws; and **Nimbus**, an aarakocra renowned for flying on his own wings rather than on a gryffion, commands the Skyward Guard. Neither is identical to [[The Avalorian Forces#dina-hyanda|Dina Hyanda]], Queen Melmiri's order of twelve women. Their separate responsibilities are part of the care required to protect the kingdom. The distinction matters in understanding the offices Lavitz must coordinate without confusing their duties.
 
 If appointment brought honor, it also demanded sacrifice. The man who had chosen his next road now held responsibilities that could not be set aside whenever distant companions called.
 

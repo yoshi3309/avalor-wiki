@@ -13,8 +13,9 @@ facts: |-
   Known for: Deliberation and respect for procedure
   Admiration: Lavitz Shawe
   Private regret: Believes he is too old for the paladin's path
-related: the-aegis,lavitz-shawe,heavens-heart,cathedral-paladins,katiri-tenderfoot
-source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
+  Nephew: Quill, tortle commander of Lion's Bane's Royal Guard
+related: the-aegis,lavitz-shawe,avalorian-forces,heavens-heart,cathedral-paladins,katiri-tenderfoot
+source: Compendium II · Entry II.001, VI–VII; creator-confirmed nephew Quill and character details (November 2026)
 featured: false
 ---
 
@@ -34,7 +35,9 @@ Rastrin admires the clarity of Lavitz's commitment: when another person is in da
 
 But he considers himself **too old to begin that path**. He fears that the strain of training and battle would make him a burden to the very companions he hoped to help. It is a sincere regret, though it rests on his own judgment of what he can still accomplish rather than on a formal refusal from a paladin order.
 
-Rastrin has not been established as a trained paladin, and his admiration is not proof that he intends to leave the Aegis.
+There is already a close connection between his family and the paladin's work: **Rastrin's nephew Quill**, a fellow **tortle**, commands the **[[The Avalorian Forces#the-royal-guard|Royal Guard]]** division of Lion's Bane beneath Lavitz. Where Rastrin serves through law and restraint, Quill serves through the immediate protection of the crown.
+
+Rastrin is not a trained paladin, and his admiration does not mean he intends to leave the Aegis.
 
 ## Another way to protect
 

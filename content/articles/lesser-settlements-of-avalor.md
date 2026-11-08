@@ -32,7 +32,7 @@ The name of the region and its connection to the Ferrymen are preserved in [[The
 
 ## Olivruch
 
-At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: [[The Guilds of Avalor#the-thieves-guild|Avalor's branch of the Thieves Guild]], presently led by a man named **Salt**, is situated here.
+At first glance, **Olivruch** is a town unlikely to command the attention of royal chroniclers. Its reputation, however, is tied to a less conspicuous institution: [[The Guilds of Avalor#the-thieves-guild|the Sea Serpents, Avalor's branch of the Thieves Guild]], presently led by a man named **Salt**, is situated here.
 
 That association gives an otherwise modest settlement a place in the stories of people whose work depends upon remaining unseen. Its presence does not mean every resident is a thief, or that Olivruch's everyday life can be reduced to the guild.
 

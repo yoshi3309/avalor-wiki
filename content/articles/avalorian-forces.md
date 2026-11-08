@@ -10,12 +10,17 @@ facts: |-
   Military adviser: Lord Marshal Lavitz Shawe
   Army structure: Professional troops; noble retinues; regional musters; local militias
   Royal guard: Lion's Bane — Royal Guard; Lion's Claws; Skyward Guard
+  Royal Guard commander: Quill, tortle; nephew of Rastrin Diltir
+  Lion's Claws commander: Mira, female tabaxi
+  Skyward Guard commander: Nimbus, aarakocra; flies on his own wings
   Queen's order: Dina Hyanda, twelve women
   Dina Hyanda structure: Three circles of four
+  Commander of the Twelve: Nadja Akayrn, female dragonborn
+  Founded: After Queen Melmiri's captivity under Cid
   Dina Hyanda training: The kingdom's finest teachers; some former adventurers
   Major training ground: Great Fork Tower
-related: the-aegis,lavitz-shawe,queen-melmiri,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
-source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-approved organizational structures (November 2026)
+related: the-aegis,lavitz-shawe,queen-melmiri,rastrin-diltir,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
+source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-confirmed commanders and Dina Hyanda founding (November 2026)
 featured: false
 ---
 
@@ -63,11 +68,15 @@ Three divisions carry that reputation into different kinds of duty.
 
 A guard who waits for an enemy to draw a sword has already waited too long. Vigilance, restraint, and the ability to act together are as important here as skill with a weapon.
 
+The division is commanded by **Quill**, a **tortle** whose uncle is **[[Rastrin Diltir]]**, Avalor's Warden of Order. The two serve the crown in different ways: Rastrin through law and deliberation, Quill through the immediate responsibilities of the royal guard.
+
 ### The Lion's Claws
 
 **The Lion's Claws** undertake the guard's most demanding **ground operations**: difficult rescues, dangerous raids, and missions where a small group of exceptionally capable warriors can succeed where a conventional formation might struggle.
 
 Their purpose is not simply to fight harder than ordinary soldiers. They must adapt, endure, and make sound decisions when a mission changes unexpectedly. The title carries distinction, but it comes with the expectation that force will be used with judgment.
+
+Their commander is **Mira**, a **female tabaxi** entrusted with leading Lion's Bane's elite ground operatives. Her division's dangerous assignments require more than individual prowess; the Claws must succeed as a team when the margin for error is small.
 
 ### The Skyward Guard
 
@@ -75,15 +84,19 @@ Their purpose is not simply to fight harder than ordinary soldiers. They must ad
 
 A gryffion and its rider must learn to function together, and prowess on the ground is no guarantee of mastery in the sky. These are warriors of Lion's Bane first, entrusted with a more specialized form of service.
 
+The Skyward Guard is led by **Nimbus**, an **aarakocra** famous for a distinction among the gryffion riders: **he flies by the power of his own wings rather than upon a gryffion**. His presence makes the division's identity all the more striking. Its commander meets his riders in the air without needing a mount of his own.
+
 ### One order under the Lord Marshal
 
-The Royal Guard, Lion's Claws, and Skyward Guard are **divisions of the same institution**, not three separate armies. Lavitz commands the order and serves on [[The Aegis]] as the crown's senior military adviser.
+The Royal Guard, Lion's Claws, and Skyward Guard are **divisions of the same institution**, not three separate armies. **Quill, Mira, and Nimbus command their respective divisions beneath Lavitz**, who commands the entire order and serves on [[The Aegis]] as the crown's senior military adviser.
 
 That position does not turn every regiment of the standing army into Lion's Bane or give its members authority to ignore the kingdom's other offices. Their exceptional responsibilities demand exceptional accountability.
 
 ## Dina Hyanda
 
-**Dina Hyanda** is the **royal protective order of twelve women founded by [[Queen Melmiri]]**. The queen chose to establish a guard of her own, with an identity separate from the standing army and Lion's Bane.
+**Dina Hyanda** is the **royal protective order of twelve women founded by [[Queen Melmiri]]** in the aftermath of her abduction by [[Cid the Blood King]] and rescue by [[The Misfits]]. The ordeal came to an end, but the queen chose to establish a new form of protection around herself, with an identity separate from the standing army and Lion's Bane.
+
+The order is **relatively new** beside the kingdom's longstanding military institutions. Its beginnings belong to the period after the defeat of the Blood King, not to an ancient ceremony passed down from ruler to ruler.
 
 The Twelve have been trained by some of the finest teachers in Avalor. Some were already **adventurers** before joining the order, bringing experience of dangers that cannot always be recreated in a training yard.
 
@@ -95,7 +108,7 @@ One circle might remain **closest to the queen**, another watch the way ahead an
 
 The arrangement also gives the order a close-knit character. Four women learn one another's strengths in detail; all twelve learn how their circles work together when time is short.
 
-**Overall leadership comes from within the Twelve**, rather than from an additional thirteenth guard. Their commander's title and the means by which she is chosen are parts of the order's history still to be told.
+**Nadja Akayrn**, a **female dragonborn**, commands Dina Hyanda. She is **one of the Twelve**, not an additional thirteenth guard. The choice of how the order selects its commander, and the individual stories of the other eleven women, belong to later chapters of its history.
 
 ### In the queen's service
 
