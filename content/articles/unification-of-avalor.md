@@ -11,7 +11,7 @@ facts: |-
   Former realm: Kroubia
   Capital: Renada, an existing settlement
   Institution founded: The Aegis
-related: founding-wars,kingdom-of-avalor,house-frozenroar,renada,the-aegis
+related: rynhold-frozenroar,founding-wars,kingdom-of-avalor,house-frozenroar,renada,the-aegis
 source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
 featured: false
 ---
@@ -20,7 +20,7 @@ featured: false
 
 The northern kingdoms had joined forces to resist Lord Osmo, but victory at Heroes Hill did not automatically place them under one crown. They retained their laws, interests, rulers, and distinct histories. Shared danger had created cooperation; lasting unity would require political agreement.
 
-Rynhold Frozenroar, originally king of **Kroubia**, became the central figure in the negotiations that followed [[founding-wars|the Founding Wars]]. The surviving records describe compromise over authority, obligations, and protection, but do not preserve the full provisions of a single founding charter.
+[[Rynhold Frozenroar]], originally king of **Kroubia**, became the central figure in the negotiations that followed [[founding-wars|the Founding Wars]]. The surviving records describe compromise over authority, obligations, and protection, but do not preserve the full provisions of a single founding charter.
 
 ## The settlement of 1 AF
 
