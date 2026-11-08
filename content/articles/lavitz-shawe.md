@@ -26,6 +26,23 @@ facts: |-
   Command: Lion's Bane royal guard
 related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,rastrin-diltir,tellora-ebbenflow,king-gradvum-frozenroar
 source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography and vigil / sword details (November 2026)
+illustrations:
+  - image: /assets/uploads/enchanted-tavern-adventurers-gathering.png
+    alt: Fantasy illustration of adventurers gathered around a tavern table.
+    caption: The fellowship at the heart of Lavitz's travels. Archival illustration of the Misfits.
+    after: adventures-on-roads-without-a-single-destiny
+    paragraph: 2
+    layout: wide
+callouts:
+  - type: quote
+    text: They found freedom, but not equality.
+    attribution: From the account of Varis and Thia Shawe
+    after: varis-and-thia
+    paragraph: 2
+  - type: note
+    text: Lavitz's later Oath of Devotion followed his earlier Oath of Vengeance, reflecting the widening responsibilities he accepted after Cid's defeat.
+    after: from-vengeance-to-devotion
+    paragraph: 2
 featured: true
 ---
 
