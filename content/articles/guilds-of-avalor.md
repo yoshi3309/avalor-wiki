@@ -6,15 +6,16 @@ category: Organizations & Factions
 entry: ORG.016
 era: Founding Age to Age of Ascendancy
 facts: |-
-  Thieves Guild: Avalor branch at Olivruch, led by Salt
+  Thieves Guild: Independent crews under Salt in Olivruch
   Rumored superior: The Ragged Man (unverified)
   Clerics Guild: The Silver Forge, based in Stannisport
   Silver Forge founding: Unification of Avalor, 1 AF
   Silver Forge tradition: Welcomes every deity and faith
+  Silver Forge disciplines: Healing Hand; Guiding Light; Shield of Mercy
   Other notable guilds: Hunters Guild; Bard Guild
   Relationship: Distinct guilds, not a single governing body
 related: lesser-settlements-of-avalor,stannisport,hunters-guild,bard-guild,taveras,petris,aldus-greystone-iii,kingdom-of-avalor
-source: World Anvil, Olivruch and Stannisport; creator-approved Silver Forge, Salt and Ragged Man histories (November 2026)
+source: World Anvil, Olivruch and Stannisport; creator-approved guild histories and structures (November 2026)
 featured: false
 ---
 
@@ -26,19 +27,21 @@ The **Silver Forge** and **Thieves Guild** have little reason to share a charter
 
 ## The Thieves Guild
 
-In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild**, an association of **professional thieves** who provide mutual support for the unlawful work of their members and their clients.
+In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild**, an association of **professional thieves** who provide mutual support for the unlawful ventures of their members and clients.
 
-Calling it a *guild* is generous. It has neither the respectability nor necessarily the rigid structure the word suggests when applied to a craft or scholarly order. Its members nevertheless recognize the value of allies, contacts, and people prepared to help one another when a job proves dangerous.
+Calling it a *guild* is generous. Its members are not bound together like craftsmen under a formal charter. Instead, **independent crews** pursue their own opportunities, deciding whom they trust and what work they will undertake.
 
-Olivruch is only **one branch of a network with a presence across the wider world**. Avalor's underworld is not the whole of that network, and the guild's existence elsewhere does not establish who rules its other branches or where they operate.
+A crew might be skilled in a particular kind of theft or accustomed to working with familiar partners. The important distinction is independence: **Salt does not personally direct every job**, and the crews need not abandon their own methods to belong to the wider network.
 
 ### Salt and the Ragged Man
 
-The man known as **Salt** presently leads the **Avalorian branch** of this unofficial, decidedly real organization. His position makes him an important figure to those whose business relies upon the guild, even if the kingdom's respectable institutions would rather not treat his office as legitimate.
+**Salt** leads the **Avalorian branch**, holding together interests that might otherwise end in rivalry. When crews' affairs collide, he can **mediate disagreements**. When a venture requires cooperation, he can **coordinate between groups** or help them find people willing to work together.
 
-There are **whispers that Salt answers to someone known as *the Ragged Man***. Whether the Ragged Man is a person, a title, or merely a rumor has not been established. For now, the suggestion of another authority remains precisely that: a whisper, not proof of a hierarchy.
+That makes him influential without turning the guild into a regiment with ranks and orders for every member. The branch works because thieves who value their freedom can still recognize the usefulness of shared contacts and mutual assistance.
 
-The existence of the guild says little about the ordinary people of Olivruch. A town can harbor an unlawful enterprise without every citizen belonging to it.
+There are **whispers that Salt answers to someone called *the Ragged Man***. No one has established whether the Ragged Man is a real superior, a name used to frighten rivals, or something else. The rumor remains a rumor.
+
+Olivruch is one branch's home. **Other branches exist elsewhere across the world**, but their people, locations, and affairs are not part of Avalor's established history. Nor should the town's ordinary residents be confused with the thieves who have made it their meeting place.
 
 ## The Clerics Guild
 
@@ -49,6 +52,18 @@ Before unification, clerics were connected by **loose fellowships scattered amon
 The guild's reputation rests upon profound wisdom and formidable strength, but **empathy is its defining virtue**. Its members may come from different peoples, honor different gods, and disagree about the meaning of their faiths. Within the Silver Forge, **every deity, belief, and spiritual path is to be treated with respect**. A cleric need not surrender their convictions to find a home among its people.
 
 The Silver Forge's calling is to be a place of healing and hope amid suffering, rather than the property of one temple or a single god's priesthood.
+
+### Three disciplines of service
+
+The Silver Forge brings its many faiths together through **three disciplines**, each expressing a different way to serve people in need. These are **paths of practice rather than separate churches**, and a cleric may draw upon more than one.
+
+**The Healing Hand** is devoted to **restoration and care**: healing wounds, tending the sick, learning the ordinary skills of medicine, and finding ways to prevent needless suffering. Its members know that patience at a bedside may accomplish as much good as a great miracle.
+
+**The Guiding Light** serves those in need of **counsel, teaching, and comfort**. Its clerics help people facing grief, doubt, and conflict. A hall that welcomes many gods must also be a place where those of different convictions can listen to one another.
+
+**The Shield of Mercy** brings together clerics prepared to **defend the vulnerable**, including those who protect healers working in dangerous places. They are capable of formidable force, but their purpose is to make it possible for care and compassion to continue when violence threatens them.
+
+None of the three is the faith of a single deity, nor does joining one require surrendering the traditions a cleric brought to the Silver Forge. Their different work is held together by the belief that empathy matters more than status or theological rivalry.
 
 ### Petris and Aldus
 

@@ -175,11 +175,11 @@ The tradition at [[Heaven's Heart]] had always placed the vulnerable at the cent
 
 Within weeks of Cid's defeat, [[King Gradvum Frozenroar]] appointed Lavitz **Lord Marshal**. The office had stood empty since the death of its former holder at Stanleyville.
 
-Lavitz accepted responsibility for the kingdom's defenses, senior military counsel, and command of the royal guard known as [[Lion's Bane]]. He also took his place on [[The Aegis]], the crown's eight-seat council, where military concerns must be weighed beside finance, law, faith, intelligence, and the other obligations of government.
+Lavitz accepted responsibility for the kingdom's defenses, senior military counsel, and command of the elite royal order known as [[The Avalorian Forces#lion-s-bane|Lion's Bane]]. He also took his place on [[The Aegis]], the crown's eight-seat council, where military concerns must be weighed beside finance, law, faith, intelligence, and the other obligations of government.
 
 The work differs sharply from adventuring. A paladin may meet a threat personally; a commander must plan for danger that may arrive months later, in places he has never visited. He must decide how soldiers are trained, whether defenses are ready, and how to advise a king when the easiest answer is not the wisest one.
 
-The broader [[Avalorian Standing Army]] trains at sites including [[The Great Fork Tower]]. It is not identical to Lion's Bane, nor to [[Dina Hyanda]], the separate protective order established by Queen Melmiri. The distinction matters in understanding the offices Lavitz must coordinate without confusing their duties.
+The broader [[The Avalorian Forces#the-avalorian-standing-army|Avalorian Standing Army]] trains at sites including [[The Great Fork Tower]] and draws upon professional regiments, noble retinues, regional musters, and militias. Within Lion's Bane, Lavitz oversees the Royal Guard, Lion's Claws, and gryffion-mounted Skyward Guard. Neither is identical to [[The Avalorian Forces#dina-hyanda|Dina Hyanda]], Queen Melmiri's order of twelve women. Their separate responsibilities are part of the care required to protect the kingdom. The distinction matters in understanding the offices Lavitz must coordinate without confusing their duties.
 
 If appointment brought honor, it also demanded sacrifice. The man who had chosen his next road now held responsibilities that could not be set aside whenever distant companions called.
 

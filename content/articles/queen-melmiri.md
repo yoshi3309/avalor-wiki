@@ -30,7 +30,7 @@ Melmiri is therefore not best understood simply as the king's companion in cerem
 
 ## A queen who acts
 
-Melmiri founded **[[Dina Hyanda]]**, a women's royal protective order with a distinct identity from the [[Lion's Bane]] guard commanded by Lord Marshal [[Lavitz Shawe]]. Its creation is a decision associated with her personally, not merely a tradition she inherited as queen.
+Melmiri founded **[[The Avalorian Forces#dina-hyanda|Dina Hyanda]]**, a protective order of **twelve women serving in three circles of four**. Drawn from varied backgrounds, including former adventurers, the Twelve have trained under some of Avalor's finest instructors. Their calling is distinct from [[The Avalorian Forces#lion-s-bane|Lion's Bane]], the elite royal guard commanded by Lord Marshal [[Lavitz Shawe]]. Founding the order was Melmiri's own decision, not merely a tradition she inherited as queen.
 
 She is also known to ride the griffin **Dune Rakka** and to bear the scimitar **Darkheart**. Those symbols have made her a recognizable figure in accounts of the royal household. They belong beside, rather than in place of, her administrative accomplishments.
 

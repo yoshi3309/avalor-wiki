@@ -8,13 +8,14 @@ era: Founding Age to Age of Ascendancy
 facts: |-
   Sovereign authority: The crown
   Military adviser: Lord Marshal Lavitz Shawe
-  Standing forces: Professional army, regional garrisons, and militias
-  Royal guard: Lion's Bane, an elite order with gryffion-mounted members
+  Army structure: Professional troops; noble retinues; regional musters; local militias
+  Royal guard: Lion's Bane — Royal Guard; Lion's Claws; Skyward Guard
   Queen's order: Dina Hyanda, twelve women
+  Dina Hyanda structure: Three circles of four
   Dina Hyanda training: The kingdom's finest teachers; some former adventurers
   Major training ground: Great Fork Tower
 related: the-aegis,lavitz-shawe,queen-melmiri,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
-source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-confirmed Lion's Bane and Dina Hyanda details (November 2026)
+source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-approved organizational structures (November 2026)
 featured: false
 ---
 
@@ -26,38 +27,86 @@ Under the lion banner of Avalor, soldiers defend distant roads and frontiers whi
 
 ## The Avalorian Standing Army
 
-Avalor maintains a **professional standing army**, supported by **regional garrisons and local militias**. Its endurance grew from the lesson of the founding wars: [[Rynhold Frozenroar]] needed a coalition of divided northern kingdoms to defeat Lord Osmo, but the united realm required defenders who would remain when the war ended.
+Avalor maintains a **professional standing army**, but its defenses are not built from royal soldiers alone. The kingdom's military strength rests upon **four complementary sources of service**, an arrangement born from the need to defend a realm that includes great cities, agricultural heartlands, ports, and distant frontiers.
 
-The ancient [[The Great Fork Tower|Great Fork Tower]] now serves as a major training base. Soldiers must learn more than how to wield weapons. Supplying a distant garrison, keeping a route open, and knowing when to call upon local knowledge are all parts of protecting a kingdom.
+The pattern recalls an older age in which kings brought together men from many households and regions. In Avalor, however, those traditions exist alongside a permanent military establishment that remains at its posts when no great war is being fought.
 
-The crown exercises **ultimate political authority**. The [[The Four Sheriffdoms|four regional sheriffs]] administer important affairs of their territories, but they are not automatically operational commanders of every formation stationed there.
+### Four ways to answer the crown
+
+**The Standing Regiments** form the army's professional heart. These are soldiers maintained for ongoing duty: garrisons, patrols, fortifications, and campaigns that require training and readiness long before a royal summons goes out.
+
+**Noble Retinues** are the armed households maintained by noble families. They bring warriors with established bonds of service and their own experience of local defense. When called into a royal campaign, they fight for the kingdom, though the arrangement does not erase their obligations to the households from which they came.
+
+**Regional Musters** raise additional forces from the kingdom's sheriffdoms when a serious threat demands them. They provide soldiers who know their own roads and country, helping the crown gather strength beyond its standing regiments. The exact terms of any family's service and the length of a muster are not presumed to be identical throughout the realm.
+
+**Local Militias** defend their own towns and communities, especially when help from a professional garrison cannot arrive quickly. Their work often begins closest to home: keeping watch, securing roads, and defending settlements while larger formations assemble.
+
+Together, these groups allow Avalor to maintain reliable troops in peacetime and draw upon wider strength when the realm is threatened.
+
+### Training and command
+
+The ancient [[The Great Fork Tower|Great Fork Tower]] serves as a major training base for the army. The skills practiced there must ultimately serve people far beyond its walls. A soldier needs discipline and courage, but commanders also need supplies, trustworthy information, and the judgment to protect a community rather than merely win a fight.
+
+The **crown holds ultimate authority** over Avalor's defenses. Professional officers exercise military command, and the [[The Four Sheriffdoms|four sheriffs]] administer their respective regions, including the civic demands that accompany mobilization. **A sheriff does not automatically command every soldier stationed within a sheriffdom.**
+
+The [[Lavitz Shawe|Lord Marshal]] advises the crown on military affairs and commands Lion's Bane, but the army's wider formations remain distinct from his royal guard. This distinction helps a kingdom of many forces function as a kingdom rather than a single warrior's retinue.
 
 ## Lion's Bane
 
-**Lion's Bane** is far more than a ceremonial escort. It is an **elite royal guard commanded by [[Lavitz Shawe]]**, the Lord Marshal: a substantial order of highly trained warriors selected for dangerous duties where ordinary forces may not be enough.
+**Lion's Bane** is an **elite royal order commanded by [[Lavitz Shawe]]**, the Lord Marshal. Its members are chosen for exceptional ability and entrusted with work demanding the best Avalor can field. The guard is substantial enough to meet more than one danger at once, yet its reputation comes from selection, discipline, and the quality of its service rather than sheer numbers.
 
-Its members protect the royal household, but the guard can also be called upon for missions requiring exceptional skill, courage, and trust. They are the protectors a commander turns to when the task is too consequential, too perilous, or too demanding for a conventional detachment. Their discipline matters as much as their martial ability; bravery without judgment is a poor defense of a king.
+Three divisions carry that reputation into different kinds of duty.
 
-Among the Lion's Bane is a **contingent mounted upon gryffions**, capable of carrying the guard's protection into the skies. These riders offer a different answer to the dangers of distance, height, and difficult approaches. Their mounts and their training make them formidable, but they remain members of Lion's Bane rather than an independent force outside Lavitz's command.
+### The Royal Guard
 
-Lavitz also serves on [[The Aegis]] as the crown's senior military adviser. His personal command of the royal guard does **not** make every soldier in the standing army a member of Lion's Bane or grant him automatic operational control over every regional garrison.
+**The Royal Guard** protects the king, the royal household, and the places and journeys most closely connected to the crown. Its members must be just as dependable when nothing appears amiss as when danger stands before them.
 
-The guard's reputation rests upon more than its striking appearance near the throne. Its members must be ready to act when a threat is far from the comfort of a royal hall.
+A guard who waits for an enemy to draw a sword has already waited too long. Vigilance, restraint, and the ability to act together are as important here as skill with a weapon.
+
+### The Lion's Claws
+
+**The Lion's Claws** undertake the guard's most demanding **ground operations**: difficult rescues, dangerous raids, and missions where a small group of exceptionally capable warriors can succeed where a conventional formation might struggle.
+
+Their purpose is not simply to fight harder than ordinary soldiers. They must adapt, endure, and make sound decisions when a mission changes unexpectedly. The title carries distinction, but it comes with the expectation that force will be used with judgment.
+
+### The Skyward Guard
+
+**The Skyward Guard** is the **gryffion-mounted contingent of Lion's Bane**. Its riders can cross difficult terrain, respond quickly to threats, scout from the air, and challenge dangers approaching the royal household from above.
+
+A gryffion and its rider must learn to function together, and prowess on the ground is no guarantee of mastery in the sky. These are warriors of Lion's Bane first, entrusted with a more specialized form of service.
+
+### One order under the Lord Marshal
+
+The Royal Guard, Lion's Claws, and Skyward Guard are **divisions of the same institution**, not three separate armies. Lavitz commands the order and serves on [[The Aegis]] as the crown's senior military adviser.
+
+That position does not turn every regiment of the standing army into Lion's Bane or give its members authority to ignore the kingdom's other offices. Their exceptional responsibilities demand exceptional accountability.
 
 ## Dina Hyanda
 
-**Dina Hyanda** is a **royal protective order of twelve women**, created by [[Queen Melmiri]] to serve as her own guard. It is an intimate force, not an additional regiment of the standing army and not a renamed detachment of Lion's Bane.
+**Dina Hyanda** is the **royal protective order of twelve women founded by [[Queen Melmiri]]**. The queen chose to establish a guard of her own, with an identity separate from the standing army and Lion's Bane.
 
-The Twelve are **trained by some of the finest instructors Avalor has to offer**. Several came to the order after lives as adventurers, bringing hard-earned experience of dangers that cannot always be anticipated in a training yard. Different paths have led them to the same responsibility: the protection of the queen.
+The Twelve have been trained by some of the finest teachers in Avalor. Some were already **adventurers** before joining the order, bringing experience of dangers that cannot always be recreated in a training yard.
 
-Their small number is part of what distinguishes them. They can know one another's strengths, work closely together, and focus their service on the woman whose order they represent. The exact balance of martial and magical training, the manner of choosing a new member, and the traditions by which the Twelve understand their duty may be told more fully as their stories emerge.
+### Three circles of four
 
-Melmiri's ancestry connects her with the Northern Desert Tribes, but that does not mean the order's members or practices all derive from those traditions. **Dina Hyanda is defined first by its queen, its twelve protectors, and the calling they share.**
+The Twelve serve in **three circles of four women**. This arrangement allows them to protect Melmiri without relying upon a single unchanging formation.
+
+One circle might remain **closest to the queen**, another watch the way ahead and the surroundings, while a third is positioned to respond, assist, or help her withdraw from danger. The circles can **rotate their responsibilities** as circumstances change. All twelve must be capable of more than one kind of protection.
+
+The arrangement also gives the order a close-knit character. Four women learn one another's strengths in detail; all twelve learn how their circles work together when time is short.
+
+**Overall leadership comes from within the Twelve**, rather than from an additional thirteenth guard. Their commander's title and the means by which she is chosen are parts of the order's history still to be told.
+
+### In the queen's service
+
+Dina Hyanda's purpose is the **protection of Melmiri**. Its members may work beside Lion's Bane when royal duties bring the king and queen together, but the two orders do not become interchangeable.
+
+The queen's connection to the Northern Desert Tribes belongs to her family history. It does not mean the Twelve share a single origin or that their traditions have all been borrowed from the tribes. They are women drawn together by training, service, and loyalty to the queen whose guard they form.
 
 ## How the forces work together
 
-The army defends Avalor's larger territory. Lion's Bane provides an elite guard under the Lord Marshal, including warriors who ride gryffions. Dina Hyanda places twelve specially trained women in the queen's personal service.
+In a crisis, the **Standing Regiments** can hold the realm's defenses while **noble retinues, regional musters, and local militias** reinforce them. **Lion's Bane** brings its elite Royal Guard, Lion's Claws, or Skyward Guard where the crown needs more specialized protection or intervention. **Dina Hyanda's three circles** attend to the queen, whether she is at court or far from it.
 
-Their members may work in the same royal spaces or respond to related dangers. Coordination matters, but **shared service is not proof of a single command structure**. The army's detailed organization, Lion's Bane's officer roster, and Dina Hyanda's selection practices can be described more fully as their histories grow.
+These forces may share a battlefield, a road, or a royal hall, but they do not lose their separate duties merely by serving together. The crown's commanders must cooperate with regional authorities, while Lavitz's responsibility for Lion's Bane remains distinct from the work of the army's other officers.
 
-For now, one truth connects them: Avalor depends upon protectors whose daily work continues long after the heroes of a particular battle have gone home.
+**The kingdom is not protected by one kind of warrior.** Its strength lies in knowing which defenders a danger requires—and in trusting them to perform their duty without forgetting the people they serve.
