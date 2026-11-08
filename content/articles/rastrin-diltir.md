@@ -35,7 +35,7 @@ Rastrin admires the clarity of Lavitz's commitment: when another person is in da
 
 But he considers himself **too old to begin that path**. He fears that the strain of training and battle would make him a burden to the very companions he hoped to help. It is a sincere regret, though it rests on his own judgment of what he can still accomplish rather than on a formal refusal from a paladin order.
 
-There is already a close connection between his family and the paladin's work: **Rastrin's nephew Quill**, a fellow **tortle**, commands the **[[The Avalorian Forces#the-royal-guard|Royal Guard]]** division of Lion's Bane beneath Lavitz. Where Rastrin serves through law and restraint, Quill serves through the immediate protection of the crown.
+There is already a close connection between his family and the paladin's work: **Rastrin's nephew Quill**, a fellow **tortle**, commands the **[[The Avalorian Forces#lion-s-bane|Royal Guard]]** division of Lion's Bane beneath Lavitz. Where Rastrin serves through law and restraint, Quill serves through the immediate protection of the crown.
 
 Rastrin is not a trained paladin, and his admiration does not mean he intends to leave the Aegis.
 
