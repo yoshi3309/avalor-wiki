@@ -1,9 +1,7 @@
 ---
 title: Lady Miren Dast
 subtitle: Royal Archivist and Chair of the Commission
-summary: Royal Archivist of Renada and chair of the Royal Commission of
-  Historical Inquiry, responsible for preserving evidence and acknowledging the
-  limits of the historical record.
+summary: Royal Archivist and Commission chair Lady Miren Dast chooses to preserve uncomfortable evidence, invite scholarly disagreement, and correct Avalor's public memory.
 category: People & Legends
 image: /assets/uploads/dwarven-scholar-in-a-candlelit-study.png
 entry: BIO.021
@@ -13,35 +11,38 @@ facts: |-
   Commission: Chair
   Publication: The Living Chronicle
   Colleagues: Brother Halden Korr and Professor Xiomara Thal
-related: royal-commission-historical-inquiry,professor-xiomara-thal,brother-halden-korr,rynhold-park,renada
+related: royal-commission-historical-inquiry,professor-xiomara-thal,brother-halden-korr,renada,great-library-aldus-greystone,jaznaars-vindication
 source: The Living Chronicle, Preface and contributor list; Compendium II,
   Rynhold Park and public Commission commentary
 featured: false
 ---
-## The keeper of a kingdom's difficult memory
 
-**Lady Miren Dast** serves as **Royal Archivist of Renada** and chair of the [[Royal Commission of Historical Inquiry]]. Under her editorial direction, the Commission has assembled *The Living Chronicle*, a history that seeks to distinguish authenticated evidence, inherited tradition, and later interpretation.
+## An editor who permits disagreement
 
-Her work is not simply the preservation of celebrated names. The discovery that the founding hero Aldus Greystone III became Cid the Blood King exposed the consequences of a lie repeated through generations of official history.
+**Lady Miren Dast**, Royal Archivist of [[Renada]] and chair of [[The Royal Commission of Historical Inquiry]], has made an unusually consequential choice for a keeper of royal records: she allows the kingdom's official history to contradict its old certainties.
 
-The Commission's response has required a different kind of loyalty to Avalor: the willingness to correct the record even when correction diminishes a cherished national image.
+In her preface to *The Living Chronicle*, Miren does not claim that the Commission's contributors always agree. She openly acknowledges their disputes and argues that their account is stronger for retaining them.
 
-## Evidence that outlives a verdict
+That decision reveals more of her character than the dignity of her title. She values a defensible record more than the appearance of complete agreement.
 
-Lady Miren has argued that a monument should sometimes preserve evidence of **what people once believed**, not merely a statement of what historians now accept.
+## What should survive correction?
 
-That conviction is evident in the decision to retain Aldus's statue at [[Rynhold Park]] while replacing its inscription. The original plaque was transferred to the Great Library at Heaven's Heart, where it could remain accessible as material evidence of earlier public remembrance.
+Miren's particular concern is **preserving the evidence of how earlier generations understood themselves**, even when that understanding was false.
 
-Miren's position is not that the former inscription was correct. It is that future generations may need to see how an error was honored, defended, and eventually revised.
+After the truth about Aldus Greystone III and Cid became public, [[Renada#rynhold-park-and-public-memory|Rynhold Park]] retained Aldus's statue but received a corrected inscription. The previous plaque was preserved at [[The Great Library of Aldus Greystone]] rather than destroyed.
 
-## Scholarship conducted in disagreement
+Miren's position is not that the old praise was deserved. She believes a future generation may need to see the material evidence of an error, not simply be told that wiser people later corrected it.
 
-The Royal Commission's contributors include [[Brother Halden Korr]], an archivist associated with Heaven's Heart, and [[Professor Xiomara Thal]], an independent historical scholar associated with Shamman’s Tower.
+## The colleagues who challenge her
 
-Their differences have not been hidden. Professor Thal emphasizes the harm that survives after a public correction; Brother Halden draws upon Cathedral archives and the limits of inherited testimony. Miren's role includes preserving these distinctions without presenting debate as evidence that nothing can be known.
+Two contributors regularly test her judgment. **[[Brother Halden Korr]]** asks that sacred texts be understood in the tradition that produced them, while **[[Professor Xiomara Thal]]** scrutinizes whose testimony was preserved and whose was pushed aside.
 
-## The limits of an editor's office
+Miren does not always agree with either scholar. Her editorial role is to distinguish claims the evidence supports from interpretations about which reasonable investigators remain divided.
 
-The public record identifies her position and scholarship, not the details of her private household, years of birth, or an exhaustive personal biography.
+Her method is visible in the royal-succession inquiry: a disputed record need not be genuine merely because the official record has an institutional interest in the answer. Skepticism must itself answer to evidence.
 
-Miren's name belongs in the Royal Archives because the decisions made by an editor—what to preserve, what to qualify, and what to correct—can shape the way an entire kingdom understands itself.
+## A loyalty that asks questions
+
+Miren's work serves Avalor, but not by producing a flattering portrait of its rulers. The false accusation against [[Jaznaar]] demonstrates why historical loyalty cannot depend upon defending every inherited statement.
+
+The details of her ancestry, family, and life before her royal appointment have not been established. What readers can recognize already is the archivist's defining habit: **she would rather preserve an honest uncertainty than print an elegant certainty she cannot defend**.

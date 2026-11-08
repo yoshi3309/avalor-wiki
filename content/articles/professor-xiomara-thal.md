@@ -1,9 +1,7 @@
 ---
 title: Professor Xiomara Thal
 subtitle: The Scholar Who Questions the Record
-summary: An independent historical scholar associated with Shamman’s Tower and a
-  principal contributor to the Commission's critical examination of Avalorian
-  history.
+summary: An independent scholar of Shamman’s Tower, Professor Xiomara Thal questions not only which histories survived but why certain voices were preserved while others disappeared.
 category: People & Legends
 image: /assets/uploads/professor-xiomaras-enchanted-study.png
 entry: BIO.022
@@ -13,37 +11,38 @@ facts: |-
   Association: Shamman’s Tower
   Commission: Contributor
   Inquiry: Evidence, testimony, and public remembrance
-related: royal-commission-historical-inquiry,lady-miren-dast,brother-halden-korr,shammans-tower,rynhold-park
+related: royal-commission-historical-inquiry,lady-miren-dast,brother-halden-korr,shammans-tower,jaznaars-vindication,renada
 source: The Living Chronicle, Preface, contributor list and scholarly
   marginalia; Compendium II, public Rynhold Park record
 featured: false
 ---
-## What the record does not say
 
-**Professor Xiomara Thal** is an independent historical scholar associated with [[Shamman’s Tower]] and a contributor to the [[Royal Commission of Historical Inquiry]].
+## The question after the answer
 
-Her observations in *The Living Chronicle* regularly draw attention to the difference between **surviving testimony** and what later historians wish that testimony would prove. An old account can be valuable without being complete. A revered tradition can preserve a meaningful memory while getting an essential fact wrong.
+**Professor Xiomara Thal** is an independent historical scholar associated with [[Shamman’s Tower]] and a contributor to [[The Royal Commission of Historical Inquiry]].
 
-This scrutiny became especially important when the old accusation against [[Jaznaar]] was overturned.
+Her distinctive contribution to *The Living Chronicle* is the question that follows a confident conclusion. If many sources tell the same story, did they witness the same event, or did they copy one another? If a record survived for centuries, **whose records did not**?
 
-## A correction does not undo the harm
+Thal is skeptical without treating every historical claim as equally doubtful. She insists that a scholar disclose both the strength of the evidence and the circumstances that may have shaped it.
 
-At [[Rynhold Park]], the statue of Aldus Greystone III remains standing with a new inscription identifying the truth about Cid and the wrong done to Jaznaar.
+## The people hidden by an accepted story
 
-Professor Thal regards the correction as a beginning, not the resolution of every consequence. Generations of drow people lived beneath a false account; their experiences were not erased when a stone plaque was changed.
+The false accusation against [[Jaznaar]] is more than a case of one wrong name in a register. Professor Thal asks why the accusation against a drow found willing readers, who repeated it, and which contradictory voices were denied authority.
 
-Her approach asks what public history has done to living people, not solely whether its latest inscription is accurate.
+When the inscription honoring Aldus was corrected at [[Renada#rynhold-park-and-public-memory|Rynhold Park]], she cautioned that the change did not repair the lives damaged by the old account. Historical accuracy matters; so do the people who lived under historical error.
 
-## A debate worth preserving
+Her criticism can be uncomfortable precisely because it continues after an institution believes it has already done the right thing.
 
-[[Lady Miren Dast]], who chairs the Commission, places additional emphasis on maintaining evidence of what earlier generations believed and celebrated. These perspectives are not mutually exclusive, but their different emphases are instructive.
+## Debating the record
 
-Miren's concern is the survival of evidence; Thal's is the danger that preserving evidence might be mistaken for sufficient redress. Their discussion helps the Commission avoid treating one sound principle as an answer to every question.
+Thal frequently challenges **[[Brother Halden Korr]]** to distinguish independent testimony from traditions passed down through copied texts. Halden, in turn, reminds her that sacred records have meanings beyond the literal events a historian hopes to reconstruct.
 
-## Scholarship and the academy
+**[[Lady Miren Dast]]**, the Commission's chair, preserves their disagreements rather than smoothing them away. Thal's insistence on rigorous scrutiny does not establish that every opposing interpretation is false. It gives others a reason to defend their conclusions carefully.
 
-Shamman’s Tower is an institution of arcane inquiry revived by High Wizard Tel’Lora Ebbenflow. Professor Thal's association with it does not establish that she is its principal administrator or that she supervises all magical study there.
+Her views on the disputed early royal birth records show the same discipline: an official account may be the strongest evidence available and still bear the interests of the institution that preserved it.
 
-The public record identifies her scholarly contribution and independent standing. Her age, ancestry, and private life are not specified.
+## Independent by conviction
 
-Her legacy is a discipline of asking the difficult question after others have announced that a story is finished.
+Association with Shamman’s Tower does not make Thal the institution's ruler or the supervisor of all its scholarship. Her age, ancestry, and private household are not recorded in the established public sources.
+
+What is clear is the person behind her scholarship: **a historian unwilling to call the past settled simply because the kingdom has found a more comfortable version of it**.

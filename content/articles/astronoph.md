@@ -1,9 +1,7 @@
 ---
 title: Astronoph
 subtitle: High Priest of the Great Cathedral
-summary: A female deva serving as High Priest of Renada's Great Cathedral, whose
-  religious and charitable responsibilities are distinct from Samuel's seat on
-  the Aegis.
+summary: Astronoph, a female deva and High Priest of Renada's Great Cathedral, is known through her leadership of its worship, counsel, and charitable responsibilities.
 category: People & Legends
 image: /assets/uploads/astronoph-keeper-of-the-celestial-staff.png
 entry: BIO.011
@@ -14,43 +12,32 @@ facts: |-
   Institution: Great Cathedral
   District: Cathedral Ward, Renada
   Tradition: Tyr, Helm, and Torm
-related: great-cathedral,cathedral-ward,threefold-devotion,samuel-the-devoted,the-aegis
+related: great-cathedral,threefold-devotion,samuel-the-devoted,the-aegis,renada,sanctuary-at-heavens-heart
 source: Compendium II · Entry II.002, XI; Entry II.003, XXIV; Avalor Master
   Canon Bible, VII
 featured: false
 ---
-## A voice within the capital
 
-**Astronoph** is a **female deva** serving as High Priest of [[The Great Cathedral]] in [[Cathedral Ward]], the religious district near the heart of [[Renada]].
+## The deva at the cathedral
 
-Her office gives the cathedral a prominent place in the capital's civic and spiritual life. Yet the institution's work is not limited to rituals witnessed by the royal household. Worshippers, petitioners, and people seeking food, shelter, counsel, or help in hardship also approach its doors.
+**Astronoph** is a **female deva** who serves as **High Priest** of [[The Great Cathedral]] in [[Renada#cathedral-ward|Cathedral Ward]].
 
-The duties of a High Priest therefore extend beyond occasions upon which the clergy are visible to kings.
+Her office is prominent enough to place her near the kingdom's centers of religious and civic authority, yet the cathedral doors open to people whose troubles have nothing to do with the royal court. The congregation includes worshippers, travelers, petitioners, and those seeking food or shelter.
 
-## The Threefold Devotion
+Astronoph's established work is thus broader than ceremony alone: she bears responsibility for a religious institution whose promises must matter to the people who rely upon it.
 
-The cathedral honors the traditions of **Tyr, Helm, and Torm**. Their connected teachings are known as [[The Threefold Devotion]], joining questions of justice, vigilance, and duty.
+## Justice beyond the sanctuary
 
-Those ideals can be straightforward to recite and difficult to practice. A person may appeal to law without offering justice; the command to remain vigilant may slide into suspicion; loyalty may be invoked to demand obedience when moral judgment is needed.
+The Great Cathedral honors **Tyr, Helm, and Torm**, whose teachings are brought together in [[The Threefold Devotion]]. The traditions place importance on justice, vigilance, and duty, but an institution's declaration of these ideals is not proof that it has always fulfilled them.
 
-The cathedral's public responsibility lies partly in interpreting these ideals when they are inconvenient as well as when they are celebrated.
+Avalor's corrected history has made that lesson difficult to ignore. Respected institutions repeated a false accusation against [[Jaznaar]], and the kingdom must now ask how such errors were allowed to endure.
 
-## Astronoph and Samuel
+The public record identifies Astronoph as the Cathedral's present leader. It does **not** establish particular private decisions she made during that historical reckoning. Those should be developed as part of her character, not borrowed from the institution and attributed to her without evidence.
 
-Astronoph is **not** the holder of the Devoted's seat on [[The Aegis]]. That office belongs to [[Samuel the Devoted|Samuel]], an aasimar who also trains paladins at [[Heaven's Heart]].
+## A distinct religious voice
 
-The two figures participate in related traditions, but their offices have different responsibilities. Astronoph leads the Great Cathedral in the capital. Samuel advises the crown and contributes to the instruction of paladins beyond Renada.
+Astronoph's work differs from that of **[[Samuel the Devoted|Samuel]]**, who represents Tyr and Helm on [[The Aegis]] and trains paladins at [[Heaven's Heart]]. She leads the cathedral in the capital; Samuel advises the crown through a separate office.
 
-Their equality of standing within their respective work does not turn them into interchangeable authorities.
+Their participation in related faiths does not make their personalities, authority, or judgments interchangeable.
 
-## Faith in a diverse kingdom
-
-The cathedral is prominent, but Avalor's religious life includes devotions to Lathander, Moradin, Corellon, Eilistraee, and other gods. No single institution contains all the kingdom's forms of worship.
-
-The consequences of former persecution also place an obligation upon religious leaders to examine where sacred language was used to justify unequal treatment. The vindication of [[Jaznaar]] has required the realm to scrutinize what its most respected institutions once repeated.
-
-## What the record preserves
-
-Astronoph's name, nature, office, and institutional responsibilities are established. A detailed account of her origins, personal household, or earlier service has not been authenticated in the public record.
-
-It is her present work—not an invented legend of her arrival—that gives Astronoph her place in Avalor's history.
+Astronoph is unquestionably a significant figure in Renada's religious life. Her origins, personal temperament, friendships, and experiences before taking office have not yet been established. A fuller character portrait should begin with those details rather than repeat the history of [[The Great Cathedral]].

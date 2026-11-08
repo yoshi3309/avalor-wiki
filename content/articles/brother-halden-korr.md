@@ -1,9 +1,7 @@
 ---
 title: Brother Halden Korr
 subtitle: Archivist of Heaven's Heart
-summary: An archivist of Heaven's Heart and contributor to the Living Chronicle
-  whose work preserves Cathedral testimony and weighs inherited tradition
-  against historical evidence.
+summary: Brother Halden Korr, an archivist at Heaven's Heart, values the testimony of faith while insisting that the cathedral confront errors preserved in its own records.
 category: People & Legends
 image: /assets/uploads/candlelit-gothic-scholar-with-ancient-tome.png
 entry: BIO.023
@@ -13,37 +11,38 @@ facts: |-
   Commission: Contributor
   Primary materials: Cathedral archives
   Scholarship: Faith, testimony, and historical interpretation
-related: royal-commission-historical-inquiry,great-library-aldus-greystone,heavens-heart,lady-miren-dast,professor-xiomara-thal
+related: royal-commission-historical-inquiry,lady-miren-dast,professor-xiomara-thal,heavens-heart,great-library-aldus-greystone,jaznaars-vindication
 source: The Living Chronicle, Preface and attributed archival commentary;
   Compendium II, Great Cathedral public account
 featured: false
 ---
-## A witness to the surviving record
 
-**Brother Halden Korr** is an **archivist of [[Heaven's Heart]]** and a contributor to [[The Royal Commission of Historical Inquiry|the Royal Commission of Historical Inquiry]].
+## A scholar of faith, not an apologist for error
 
-His knowledge of the Cathedral's archival traditions has helped scholars examine Avalor's early history and the testimony passed down through religious institutions. Such records preserve memories that may not survive in royal registers or civic accounts.
+**Brother Halden Korr** serves as an archivist of [[Heaven's Heart]] and a contributor to [[The Royal Commission of Historical Inquiry]].
 
-They also require caution. A tradition preserved through centuries of devotion is not necessarily a verbatim account of the events it describes.
+He brings the Commission an intimate understanding of religious records and the traditions through which they have been handed down. To Halden, a sacred text cannot be read simply as though it were a census or a witness statement in a royal trial.
 
-## Faith and the limits of certainty
+But he also rejects the idea that a religious source has no historical value merely because its authors wrote in the language of faith. His work seeks to understand what testimony was intended to preserve before deciding what it can prove.
 
-Brother Halden's contributions to *The Living Chronicle* consider what the oldest testimony can establish and where an inherited religious account might exceed the available evidence.
+## An inheritance with mistakes
 
-This is not a rejection of faith. It is a distinction between the significance of a tradition to its community and the particular historical conclusions a scholar can draw from it.
+The discovery of the truth about [[Jaznaar]] forced the Cathedral's historians to examine a painful fact: their institutions had helped preserve the old accusation.
 
-The task is especially pressing in a kingdom whose institutions once repeated a false story about [[Jaznaar]].
+Halden does not claim that respect for earlier custodians makes their records infallible. In his commentary on *The Living Chronicle*, he acknowledges that reverence did not protect the Cathedral from repeating an injustice.
 
-## The measure of a cathedral
+His approach is neither to discard everything inherited nor to defend an error because it has become familiar. He believes the record must be examined within the circumstances of its creation, and that religious institutions must be prepared to acknowledge where they fell short.
 
-Commenting on the [[Great Cathedral]] of Renada, Brother Halden has emphasized the difference between the magnificence of a building and the promises fulfilled within it.
+## Friends in disagreement
 
-A place of worship can be honored for its architecture or its age, yet its lasting moral significance depends upon how its servants treat the people who enter. The Cathedral's commitment to justice, vigilance, and duty must therefore be understood through its conduct as well as its declarations.
+Halden's scholarship frequently meets the challenges of **[[Professor Xiomara Thal]]**, who asks whether apparently independent traditions may all descend from one original source. **[[Lady Miren Dast]]** preserves the resulting debate within the Commission's history.
 
-## A colleague of the Commission
+The disagreement is substantive. Halden worries that scholars may dismiss the witness of faith too readily; Thal worries that an old, frequently copied claim may be mistaken for independent proof. Their exchange allows a reader to consider both dangers.
 
-Halden's work appears alongside that of [[Lady Miren Dast]], the Commission's chair, and [[Professor Xiomara Thal]], an independent scholar associated with Shamman’s Tower.
+Halden's reflections on [[The Great Cathedral]] also place importance on conduct. A magnificent building has little moral value if the people who enter it do not encounter the justice, vigilance, and care its servants promise.
 
-Their distinct perspectives give the reader a better understanding of the historical questions than a single authoritative voice could provide. Disagreement is preserved where the evidence supports differing interpretations, not concealed for the convenience of a neat narrative.
+## The witness he wishes to be
 
-The public account establishes Brother Halden's office and contribution. It does not establish the particulars of his early life or private religious vows beyond his recorded role as an archivist.
+The public record does not establish Halden's ancestry, childhood, or the particulars of his vows. It does establish the kind of scholar he has become: **someone who honors a tradition most seriously when he refuses to excuse its mistakes**.
+
+The archives he serves preserve much of Avalor's religious memory. His contribution is to make that memory answerable to evidence without pretending that faith and scholarship must be enemies.

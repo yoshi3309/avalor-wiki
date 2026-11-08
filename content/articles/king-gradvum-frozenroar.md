@@ -1,8 +1,7 @@
 ---
 title: King Gradvum Frozenroar
 subtitle: The Approachable Lion
-summary: The reigning king of Avalor since 1983 AF, known for his approachable
-  manner and his partnership with Queen Melmiri in governing the realm.
+summary: Avalor's approachable reigning king, Gradvum governs with Queen Melmiri and chose to confront the kingdom's distorted founding history rather than leave it undisturbed.
 category: People & Legends
 image: /assets/uploads/regal-fantasy-king-in-a-candlelit-hall.png
 entry: BIO.009
@@ -15,40 +14,37 @@ facts: |-
   Heir: Prince Theodric
   Griffin: Fis Uskeche
   Sword: Lionsbane
-related: house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,four-sheriffdoms
+related: house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,rynhold-frozenroar,lavitz-shawe,tellora-ebbenflow,jaznaars-vindication
 source: Compendium II · Entry II.001, IV–VII; Avalor Master Canon Bible, VII
 featured: false
 ---
-## The king who receives the kingdom
 
-**Gradvum Frozenroar** is the reigning sovereign of [[The Kingdom of Avalor|Avalor]], having ascended the lion throne in **1983 AF**. He is widely regarded as an approachable king who seeks to keep the concerns of ordinary people within reach of the court.
+## An approachable king
 
-Affection for Gradvum is not the same as universal agreement with him. His reign has inherited questions no friendly manner can settle alone: the duties owed to distant communities, the costs of defense, the influence of wealthy interests, and the kingdom's obligation to reckon with the errors of its history.
+**Gradvum Frozenroar**, sovereign of [[The Kingdom of Avalor|Avalor]] since **1983 AF**, is known as a good and approachable ruler. The reputation is more personal than a title: he is remembered as a king who does not consider the concerns of ordinary Avalorians beneath his attention.
 
-## The thirty-fourth sovereign
+Approachability, however, is not the same as agreeing with everyone who petitions the crown. Gradvum governs a kingdom of competing interests, and his popularity does not mean that his choices have been universally welcomed.
 
-Gradvum stands within the long line of [[House Frozenroar]], established when **Rynhold Frozenroar** united the northern kingdoms after the defeat of Lord Osmo. The present dynasty has endured through successes and failures alike.
+His reign asks something difficult of a man born to an ancient dynasty: to protect the realm's inheritance while acknowledging where that inheritance has failed its people.
 
-One of the gravest failures was the persecution of drow communities under Arnaud Frozenroar. Later reform did not immediately undo its effects. The vindication of [[Jaznaar]] after the defeat of Cid the Blood King brought renewed attention to what the crown had permitted its subjects to believe for centuries.
+## The crown and the truth
 
-The task confronting Gradvum is therefore not simply to inherit a respected name. It is to govern a kingdom whose people now ask more difficult questions of that inheritance.
+One of Gradvum's defining decisions followed the defeat of [[Cid the Blood King]]. When the Misfits exposed the false history surrounding the founding hero [[Jaznaar]], Gradvum **publicly vindicated him**.
 
-## A monarch and an administrator
+The king also commissioned [[The Royal Commission of Historical Inquiry]] to reexamine the stories Avalor had long treated as settled history. The resulting *Living Chronicle* did not exist to flatter the royal household. Its contributors openly disagreed, and its findings challenged institutions closely tied to the crown.
 
-The king retains **ultimate sovereign authority** over government, foreign policy, and senior appointments. Yet ruling Avalor is not a matter of issuing commands into an empty landscape. Local rights, ancient agreements, regional officers, guilds, and religious institutions all affect what those commands mean in practice.
+Gradvum did not create the old lie, nor could his proclamation repair every injury it had caused. His decision nevertheless placed royal authority behind the obligation to correct it.
 
-[[Queen Melmiri]] oversees much of the ordinary administration through which royal decisions become working policy. The king also receives counsel from [[The Aegis]], an eight-seat body whose members are expected to bring different expertise and, at times, disagreement.
+## The people beside him
 
-Their shared work gives the present reign a character not adequately described by a portrait of the king alone.
+Gradvum's wife, [[Queen Melmiri]], oversees much of the kingdom's daily governance. Their partnership combines the sovereign's ultimate authority with the queen's substantial role in the work through which decisions become reality.
 
-## The royal household
+They have three children: **Theodric**, their eldest son and heir; **Leontes**, their younger son; and **Vivienne**, their daughter. Gradvum rides the griffin **Fis Uskeche** and bears the sword **Lionsbane**, which should not be confused with the guard named [[Lion's Bane]].
 
-Gradvum and Melmiri have three children: **Theodric**, their eldest son and heir; **Leontes**, their younger son; and **Vivienne**, their daughter. The king is known to ride the griffin **Fis Uskeche** and to bear the sword **Lionsbane**. The name of his sword should not be confused with the royal guard called [[Lion's Bane]], commanded by Lord Marshal Lavitz Shawe.
+He has also shown a willingness to entrust extraordinary responsibility to people outside conventional royal expectations. Following Cid's defeat, he named [[Lavitz Shawe]] Lord Marshal and appointed [[Tel'Lora Ebbenflow]] High Wizard, whose office gained an independent eighth seat on [[The Aegis]].
 
-These details feature prominently in popular accounts of the royal family. Their significance does not eclipse the less visible duties of government: maintaining roads, protecting communities, and ensuring that the burdens of the realm do not fall only upon those least able to bear them.
+## A king with more than one legacy
 
-## A reign measured by its people
+Gradvum is the thirty-fourth sovereign recorded in [[House Frozenroar]]'s Royal Register. His predecessor's crown was an inheritance; the reputation he leaves will depend upon how he uses it.
 
-The Age of Ascendancy has brought Avalor increasing international attention and commercial opportunity. The Misfits' defeat of Cid also changed the kingdom's understanding of its founding.
-
-Gradvum's reputation will be judged not only by the prosperity and pageantry of the court, but by whether the advantages of the present age reach the people beyond its walls.
+His personal history before accession has not been fully established. What the present record offers instead is a ruler whose most consequential choice may have been to permit his own kingdom to tell a less comfortable truth about itself.
