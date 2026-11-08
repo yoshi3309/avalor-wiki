@@ -1,43 +1,59 @@
 ---
 title: Myxi Twinefoot
-subtitle: The Golden Hand with a Song to Learn
-summary: A meticulous halfling steward of the crown's finances, Myxi finds time between the kingdom's accounts to study bardcraft at Heureux's Academy.
+subtitle: The Banker’s Apprentice Who Became the Golden Hand
+summary: A halfling raised in Jogar Village, Myxi learned commerce from a celebrated gnome banker and rose through Renada's financial circles to the Aegis.
 category: People & Legends
 image: /assets/uploads/myxi-twinefoot-in-the-noble-study.png
 entry: BIO.017
 era: Age of Ascendancy
 facts: |-
   Species: Halfling
+  Hometown: Jogar Village
+  Early mentor: A prominent gnome banker
+  Career: Financial consultant in Renada
+  Previous Golden Hand: Del'Fen
   Office: Golden Hand
   Council: The Aegis
-  Calling beyond court: Bard-in-training
-  Studies: Heureux’s Bard Academy when time allows
-  Personal challenge: Seeing human needs beyond sound accounts
-related: the-aegis,heureuxs-bard-academy,heureux,belgram-mountain-hall,edran-halwick
-source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
+  Other calling: Bard student at Heureux’s Bard Academy
+related: the-aegis,renada,heureuxs-bard-academy,heureux,belgram-mountain-hall,edran-halwick
+source: World Anvil, Myxi Twinefoot (creator-supplied biography, November 2026); Compendium II · Entry II.001, VI–VII
 featured: false
 ---
 
-## More than a keeper of accounts
+## A halfling from Jogar Village
 
-**Myxi Twinefoot** is a **halfling** and Avalor's **Golden Hand**, entrusted with advising the crown on the money that sustains its promises.
+**Myxi Twinefoot** grew up in **Jogar Village**, where halflings and humans had long made their homes together. It was a happy place to learn the ordinary give-and-take of community life, though the arrival of a substantial **gnome population** brought new people, trades, and opportunities.
 
-She approaches the work with considerable energy. Myxi notices small expenditures that other officials dismiss and remembers that a modest shortfall can be the difference between a well-supplied household and a family forced to go without. She is meticulous not because she loves denying requests, but because she wants resources to be available when they are needed.
+Myxi's family recognized one of those opportunities before she was old enough to choose a profession. They arranged for her to **apprentice with a well-known gnome banker**. What began as a family decision opened a world that suited Myxi's talents unusually well.
 
-The danger in her profession is that a balanced ledger can begin to look like a complete answer. Myxi is aware that the life behind a figure may be more complicated than the sum written beside it.
+She found that numbers came naturally to her, but the real fascination lay in what those numbers revealed: where goods were going, who was taking risks, and how a good decision made in one place could shape lives somewhere else.
 
-## A halfling learning to be a bard
+## From village apprentice to Renada consultant
 
-When her duties allow, Myxi studies at **[[Heureux’s Bard Academy]]**, the school founded by the Misfits' celebrated bard, [[Heureux]]. She is **training to become a bard** while continuing to serve on the Aegis.
+As Myxi learned the intricacies of banking and trade, word of her ability reached the noble families of [[Renada]]. Her services became sought after, and she began dividing her time between the capital and the village she had always called home.
 
-The lessons give her something royal finance rarely provides: room to experiment without knowing exactly what the result ought to be. Numbers must agree in a ledger. A song asks different questions.
+Eventually she established **her own consulting office in Renada** and moved there full-time. Years of careful work earned her a reputation strong enough that she was selected to succeed **Del'Fen** as **Golden Hand** on [[The Aegis]].
 
-No public account has yet established her instrument, favorite style of music, or the extent of her studies. What matters is that her interest is active rather than an abandoned childhood ambition. Myxi makes time for it when the business of a kingdom permits.
+Her rise had not begun with a royal title. It began with the mixed communities of Jogar Village, a family's willingness to seize a chance, and a young halfling who discovered she was very good at understanding money.
 
-## The heart behind the figures
+## The value of a copper torch
 
-Myxi's profession demands difficult choices. Her instinct is to notice the ordinary people affected by those choices, though even she can become so absorbed in details that she overlooks the larger experience a decision creates.
+Myxi is energetic, meticulous, and alert to seemingly insignificant expenses. She understands that a copper torch matters differently to a household deciding what to eat than to a noble discussing the cost of a feast.
 
-Within the council, she respects the need for Belgram to reconcile competing proposals, even when she believes the numbers have already made an answer obvious. Her work requires both accuracy and the humility to hear why another councilor sees a different cost.
+She is proud of making sound decisions for the kingdom's finances, but she also knows the danger of seeing people only as entries in a ledger. Her challenge is to make the numbers balance without losing sight of the lives they represent.
 
-The institutional responsibilities of the Golden Hand are described in [[The Aegis#the-third-hand-and-the-golden-hand|the Aegis]]. Myxi's life includes those responsibilities, but it also includes a halfling who can leave the accounts behind for a little while and learn another kind of craft.
+Other councilors may arrive with urgent proposals. Myxi has the unenviable task of asking how those promises will be paid for. She would rather give an unwelcome answer today than discover that the kingdom has made a promise it cannot keep.
+
+## A different kind of study
+
+Despite the demands of court, Myxi has not confined her ambitions to accounting. When she finds the time, she studies **bardcraft at [[Heureux’s Bard Academy]]**, the school founded by the famed Misfit [[Heureux]].
+
+It is an unexpected pursuit for the kingdom's principal financial adviser, but perhaps not so surprising for someone whose life has been shaped by curiosity and a willingness to learn from people unlike herself.
+
+She has not abandoned her duties to become a wandering performer. She is simply determined that being the Golden Hand should not mean giving up everything else she might become.
+
+## The hand that keeps its promises
+
+Myxi's office is explained in [[The Aegis#the-third-hand-and-the-golden-hand|the Aegis]], but its title cannot tell the whole story of the woman who holds it.
+
+She remains, at heart, the apprentice from Jogar Village who learned to recognize an opportunity and make something of it. The difference is that her decisions now affect an entire kingdom.

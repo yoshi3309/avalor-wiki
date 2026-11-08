@@ -1,7 +1,7 @@
 ---
 title: Beldir Willowrun
-subtitle: The Sentinel Divided over the Freeports
-summary: A human maritime councilor who would prefer firmer action toward Avalor's freeports, yet understands the trade and prosperity those arrangements sustain.
+subtitle: The Admiral Who Was Born at Sea
+summary: Born aboard his father's fishing boat, the human admiral Beldir Willowrun rose from Royal Navy captain to Sentinel of the Seas, never truly leaving the ocean behind.
 category: People & Legends
 image: /assets/uploads/dignified-lion-emblemed-admiral-overlooking-the-harbor.png
 entry: BIO.020
@@ -9,43 +9,57 @@ era: Age of Ascendancy
 facts: |-
   Species: Human
   Office: Sentinel of the Seas
-  Council: The Aegis
-  Known for: Direct speech and maritime understanding
-  Policy preference: Firmer action concerning the freeports
-  Complication: Recognizes their commercial value
-related: the-aegis,stems-port,karhold,cassian-veyran,cove-city,tinsel
-source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
+  Former rank: Admiral, Royal Navy
+  Grew up: Cove City and Tinsel
+  Father's catch: Blue Stripe
+  Warship: Xiomara (captain at age 37)
+  Notable victory: Pirate Lord Por Rostin
+  Appointed by: King Gerran Frozenroar
+  Injury: Right leg lost to a kraken
+  Prosthesis: Gnome-made, resistant to corrosion
+related: the-aegis,cove-city,tinsel,stems-port,karhold,cassian-veyran,house-frozenroar
+source: World Anvil, Beldir Willowrun (creator-supplied biography, November 2026); Compendium II · Entry II.001, VI–VII
 featured: false
 ---
 
-## A human with the sea in mind
+## A child of the tide
 
-**Beldir Willowrun** is a **human** and Avalor's **Sentinel of the Seas**, responsible for bringing maritime concerns before the crown.
+**Beldir Willowrun** was born at sea. His mother went into labor aboard her husband's fishing boat, and the boy's first home was a vessel rocking upon the water. For Beldir, the ocean was never a distant frontier on a royal map. It was home long before he could remember a life ashore.
 
-Beldir is sociable, direct, and at ease discussing the practical needs of captains, merchants, and harbors. The patience required to explain coastal realities to councilors who think of the sea merely as a line on a map does not always come naturally.
+He grew up between [[Cove City]] and [[Tinsel]], though even in childhood he spent much of his time aboard fishing boats. His father made his living catching **Blue Stripe**, a fish prized as a delicacy across Avalor. Beldir learned early that the sea could put food on a table, make a family's fortune, or take away more than anyone could afford to lose.
 
-Beldir's instinct is to address a problem rather than admire how carefully it has been described. That straightforwardness wins respect, but can make compromise feel frustratingly slow.
+Those years left him with an affection for ships and sailors that no royal office has managed to diminish.
 
-## The freeport question
+## From fisherman’s son to captain
 
-Beldir wishes the kingdom would take **firmer action concerning the freeports**. Their special arrangements and disputed claims are a recurring source of irritation to a councilor responsible for Avalor's maritime interests.
+When he came of age, Beldir enlisted in the **Royal Navy**. He rose quickly through its ranks, gaining a reputation as a capable and formidable sailor.
 
-Yet Beldir understands why the government hesitates. Ports enjoying particular commercial privileges can bring valuable trade, revenue, and relationships that a heavy-handed policy might jeopardize. A decision that satisfies a demand for tighter control could also drive merchants away or create consequences far beyond the waterfront.
+At **thirty-seven**, he took command of the warship ***Xiomara***. Under his captaincy, the ship became associated with the pursuit of the kingdom's enemies. His prowess culminated in the defeat of **Pirate Lord Por Rostin**, after which Beldir received promotion to **Admiral**.
 
-Beldir does not dismiss those benefits. That is precisely why the matter is so frustrating: **the strongest immediate response may not serve the kingdom's long-term interests**.
+The promotion marked more than advancement in rank. A boy raised among fishing nets and working decks had become one of the crown's most accomplished naval commanders.
 
-## Between ships and royal authority
+In his **early forties**, [[House Frozenroar|King Gerran Frozenroar]] appointed him **Sentinel of the Seas** on [[The Aegis]]. Beldir continued in that position when Gerran's son, [[King Gradvum Frozenroar]], inherited the throne.
 
-Beldir's concerns intersect with those of [[Cassian Veyran]], sheriff of the Eastern Reach, but their offices are distinct. One sits on the royal council; the other governs a region through delegated crown authority.
+## The leg a kraken took
 
-[[Stems Port]] operates under freeport arrangements, while [[Karhold]] makes a longstanding claim to independence disputed by Avalor. Those situations should not be treated as politically identical. The desire for stronger measures does not establish any particular military plan or imply that Beldir has authority to revoke every local privilege.
+In another encounter upon the sea, Beldir fought a **kraken** and lost his **right leg from the middle of the thigh downward**.
 
-Beldir's knowledge of trade is an asset, but close familiarity with coastal interests can complicate the effort to give disinterested advice.
+He refused a cleric's offer of help. Instead, **gnomish inventors fashioned an artificial leg** for him, one built to withstand the corrosive salt air of the ocean. It has accompanied him through the years since, as much a part of his familiar appearance as his stocky frame and white hair.
 
-## A harder choice than issuing an order
+Beldir remains strong and robust despite his age and injury. He also possesses a **lucky hat**; when he wears it, a faint smell of saltwater seems to follow him. To those who know his history, this is entirely in character. Even dressed for the council chamber, the old admiral never feels quite removed from his first home.
 
-Beldir would often prefer a more decisive policy. The responsibility of the Sentinel's seat is to explain not only what the crown might compel but also what it could lose by doing so.
+## The sea and the council
 
-The wider law and geography of Avalor's ports belong in [[The Aegis#the-sea-and-the-regions|the council's maritime account]] and the individual settlement articles.
+Beldir is direct, sociable, and more inclined toward action than prolonged debate. He knows the lives of ordinary crews and can grow impatient with officials who discuss ships as though they were merely marks on a chart.
 
-Beldir's own story rests on a genuine tension: a direct, action-minded official who knows that some of the arrangements that most irritate him are also good for business.
+His great frustration is Avalor's relationship with the **freeports**. He would prefer the kingdom to take firmer action, particularly where its authority is challenged. Yet a lifetime at sea has also taught him something less satisfying: those same ports bring trade, opportunity, and wealth to Avalor. A forceful solution may damage what the crown hopes to protect.
+
+[[Stems Port]] operates under freeport arrangements, while [[Karhold]] maintains a disputed claim to independence. Beldir knows they do not present identical problems. His maritime experience makes him formidable in these arguments; it also prevents him from pretending there is an easy answer.
+
+The institutional duties of the Sentinel are described in [[The Aegis#the-sea-and-the-regions|the Aegis]].
+
+## A sailor still
+
+Beldir has worn a captain's authority, an admiral's rank, and a seat at the royal council. None has entirely replaced the fisherman's son who grew up between Cove City and Tinsel.
+
+He may wish the crown were bolder on the water, and he may grumble when commerce complicates a promising plan. But he understands the sea too well to believe that the strongest hand always makes the wisest choice. Even in later years, the tide remains the measure by which he understands the world.

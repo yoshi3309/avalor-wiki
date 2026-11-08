@@ -1,7 +1,7 @@
 ---
 title: Katiri Tenderfoot
-subtitle: The Silver Hand and the Iron Shadow
-summary: A sharp-witted half-orc intelligence chief, Katiri leads the crown's spy network while balancing professional distrust and an inconvenient crush on Sven.
+subtitle: The Silver Hand Who Learned to Disappear
+summary: A half-orc spymaster trained from fifteen by King Gerran's Silver Hand, Katiri turned prejudice into cover and now commands the crown's intelligence network.
 category: People & Legends
 image: /assets/uploads/orc-warrior-overlooking-the-golden-citadel.png
 entry: BIO.018
@@ -10,45 +10,56 @@ facts: |-
   Species: Half-orc
   Gender: Woman
   Office: Silver Hand
-  Council: The Aegis
+  Earlier mentor: Calston, gnome Silver Hand
+  Entered training: Age 15
+  Succeeded Calston: On King Gradvum's accession
+  Surname: Tenderfoot, adopted from her nickname
+  Skills: Stealth, pickpocketing, locks, climbing, knives, pocket crossbow
   Network: Crown intelligence
-  Professional rival: S’vendyal Shadowwhisper (Sven)
-  Personal complication: An unspoken attraction to Sven
-related: the-aegis,svendyal-shadowwhisper,rastrin-diltir,lavitz-shawe,tellora-ebbenflow
-source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
+  Rival and attraction: Sven, the Iron Shadow
+related: the-aegis,svendyal-shadowwhisper,rastrin-diltir,king-gradvum-frozenroar,house-frozenroar
+source: World Anvil, Katiri Tenderfoot (creator-supplied biography, November 2026); Compendium II · Entry II.001, VI–VII
 featured: false
 ---
 
-## The woman who asks for a second source
+## The girl everyone overlooked
 
-**Katiri Tenderfoot** is a **half-orc woman** who serves as **Silver Hand**, the Aegis councilor entrusted with Avalor's official intelligence.
+People often looked at **Katiri** with suspicion because she was a **half-orc**. It was a prejudice she encountered early and frequently. Rather than allow other people's expectations to define the limits of her life, she learned to turn them into an advantage.
 
-She is reserved, observant, and possessed of a dry wit that can make a poor argument feel much smaller without ever raising her voice. Katiri distrusts claims that are too tidy. She wants corroboration, especially when information arrives precisely when someone stands to benefit from its being believed.
+Many people assumed they knew what they were seeing and stopped paying attention. Katiri discovered that being dismissed could make it surprisingly easy to learn things no one intended her to hear.
 
-Her caution is a strength, but suspicion can also make it difficult to accept help, even when help is genuinely offered.
+She was small for a half-orc, with the lean build of a runner, and could move quickly in and out of places that interested her. Over time, she became adept at Avalor's most profitable invisible trade: **information**.
 
-## Two networks, overlapping shadows
+## How Tenderfoot earned her name
 
-Katiri **runs the crown's spy network**. The eladrin adventurer [[svendyal-shadowwhisper|Sven]], known as the **Iron Shadow**, runs **a separate network of his own**.
+Katiri acquired the nickname **Tenderfoot** because she had a talent for being near something important and leaving before anyone noticed her presence. Eventually she adopted the name as her surname, finding it useful when moving among Avalor's varied peoples.
 
-Their work sometimes brings them into conflict. Information reaches one side before the other; different loyalties and judgments can lead them to pursue interests in ways that interfere with each other. These clashes do not turn Sven's network into an official branch of the Silver Hand, nor do they establish him as Katiri's subordinate.
+There was no need for an elaborate disguise when an ordinary name and someone else's lack of curiosity could do the work.
 
-Katiri respects what Sven can accomplish but does not entirely trust him. A man who answers to his own network rather than to the council is difficult to account for, particularly when both networks move through the same shadows.
+By the time she reached **fifteen**, her abilities had attracted the attention of **Calston**, a **gnome** serving as **Silver Hand** under [[House Frozenroar|King Gerran Frozenroar]]. Calston was considering retirement and saw in the young half-orc the makings of a successor.
 
-The names of operatives, methods of gathering information, and particulars of their disputes remain outside the public record.
+He took Katiri under his wing. She embraced his training, learning not merely to collect secrets but to understand the people and interests behind them. Over the following years she became a central figure in the traffic of information throughout Avalor.
 
-## An inconvenient affection
+When [[King Gradvum Frozenroar]] succeeded his father, Calston retired. **Katiri took his place as the Silver Hand**.
 
-The complication is that **Katiri has a crush on Sven**.
+## A formidable little arsenal
 
-For someone who prefers her conclusions thoroughly supported, the feeling is inconveniently difficult to reason away. She is attracted to a man whose independence frustrates her professionally, and her distrust does not vanish because she likes him.
+Katiri's work brought her into contact with guilds and people from many walks of life. She learned to **pick pockets and locks**, to slip through guarded places, and even to **hang from ceilings with climbing grips** when the occasion demanded it.
 
-The Archives do not claim that she has confessed those feelings, that Sven returns them, or that their rivalry is a disguised romance. Katiri's attraction and her professional suspicion can exist at the same time without determining what either person will do next.
+Large weapons have never been her strength. A **knife**, however, is another matter, and she is an accomplished shot with a **pocket crossbow**. Her smaller build and speed suit an approach in which getting into position—or leaving before anyone understands what happened—matters more than overpowering an enemy.
 
-## What the Silver Hand protects
+For all her practical talents, Katiri knows that the most dangerous piece of information is often the one everybody wants to believe. She is reserved, skeptical, and capable of delivering a dry remark that deflates a roomful of confident assumptions.
 
-Katiri's task is to give the crown the clearest picture she can, including uncertainty. Her counterpart [[Rastrin Diltir]] oversees public order, a different responsibility that may depend on what her network learns.
+## The Iron Shadow problem
 
-The history of Avalor teaches how dangerous repeated falsehoods can become when treated as evidence. Katiri's vigilance is therefore more than professional habit, though she must be careful not to let caution harden into distrust of everyone.
+Katiri now directs the **crown's spy network**. The eladrin [[svendyal-shadowwhisper|Sven]], known as the **Iron Shadow**, runs a **separate network** of his own. Their interests and methods sometimes collide, and neither fully answers to the other.
 
-Her office and its role in government are explained in [[The Aegis#intelligence-and-public-order|the Aegis]]. Her biography belongs to the woman trying to judge what to believe—especially when the person she most doubts is also someone she cannot help liking.
+Katiri admires Sven's abilities but distrusts his independence. That professional irritation would be simpler to manage if she did not also have **a crush on him**.
+
+The attraction has not magically resolved their disagreements, and it does not establish how Sven feels in return. For a woman who prides herself on reading other people's intentions, the uncertainty is especially inconvenient.
+
+## The woman behind the Silver Hand
+
+Katiri's life has carried her from a girl underestimated by strangers to the intelligence chief serving Avalor's king. She did not get there because the world became fairer toward her. She got there by learning how the world behaved and making herself exceptionally difficult to outmaneuver.
+
+Her office and its duties are described in [[The Aegis#intelligence-and-public-order|the Aegis]]. The people who know Katiri well understand something the title alone cannot convey: **the little half-orc everyone overlooked learned to see almost everything**.
