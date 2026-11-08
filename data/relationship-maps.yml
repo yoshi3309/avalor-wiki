@@ -1,0 +1,89 @@
+# Avalor public relationship maps. Connections are editorial navigation, not a hidden canon ledger.
+# Nodes use only public published articles, or explicitly established named figures.
+# Links must not imply parentage merely from consecutive reigns.
+maps:
+  - id: the-six
+    title: The Six
+    subtitle: A fellowship fractured at the Black Tower
+    icon: "✦"
+    summary: Six people of different callings chose friendship and shared service during Avalor's founding years. Their choices at the Black Tower divided them, but the later accusation against Jaznaar was a falsehood.
+    note: The lines from the fellowship represent membership, not family descent or identical beliefs. The two additional connections highlight the conflict and the friendship at its heart.
+    related_article: the-six
+    nodes:
+      - {id: fellowship, label: The Six, x: 50, y: 48, kind: group, article: the-six, detail: A fellowship that formed shortly after Avalor's founding.}
+      - {id: aldus, label: Aldus, x: 23, y: 18, kind: person, article: aldus-greystone-iii, detail: Celebrated healer whose experiments led to the Black Tower catastrophe.}
+      - {id: lowkee, label: Lowkee, x: 50, y: 12, kind: person, article: lowkee, detail: Paladin whose duty to the vulnerable shaped his response to Aldus.}
+      - {id: faelynn, label: Faelynn, x: 77, y: 18, kind: person, article: faelynn, detail: Ranger who increasingly agreed that Aldus's danger had to end.}
+      - {id: petris, label: Petris, x: 23, y: 78, kind: person, article: petris, detail: Companion who hoped Aldus might still be saved.}
+      - {id: kelsalor, label: Kelsalor, x: 50, y: 86, kind: person, article: kelsalor, detail: Companion who worked to hold the friendship together.}
+      - {id: jaznaar, label: Jaznaar, x: 77, y: 78, kind: person, article: jaznaar, detail: Drow companion wrongly named the Betrayer in later centuries.}
+    edges:
+      - {from: fellowship, to: aldus, type: fellowship, label: Founding companion}
+      - {from: fellowship, to: lowkee, type: fellowship, label: Founding companion}
+      - {from: fellowship, to: faelynn, type: fellowship, label: Founding companion}
+      - {from: fellowship, to: petris, type: fellowship, label: Founding companion}
+      - {from: fellowship, to: kelsalor, type: fellowship, label: Founding companion}
+      - {from: fellowship, to: jaznaar, type: fellowship, label: Founding companion}
+
+  - id: the-misfits
+    title: The Misfits
+    subtitle: More than five names in a song
+    icon: "⚔"
+    summary: A fellowship whose early companions, later arrivals, and unexpected friends all contributed to its history. The five publicly celebrated survivors do not represent everyone who traveled with them.
+    note: The spokes show involvement with the Misfits, not identical membership or equal public recognition. Fo'Gurn was an original member; Jack was a traveling companion; Heureux joined later.
+    related_article: the-misfits
+    nodes:
+      - {id: fellowship, label: The Misfits, x: 50, y: 50, kind: group, article: the-misfits, detail: The adventuring fellowship that defeated Cid and helped restore Jaznaar's name.}
+      - {id: lavitz, label: Lavitz, x: 20, y: 20, kind: person, article: lavitz-shawe, detail: Paladin and later Lord Marshal; Fo'Gurn's closest friend.}
+      - {id: tel, label: Tel'Lora, x: 50, y: 12, kind: person, article: tellora-ebbenflow, detail: Half-elf spellcaster and later High Wizard of Avalor.}
+      - {id: sven, label: Sven, x: 80, y: 20, kind: person, article: svendyal-shadowwhisper, detail: Original companion and trusted ally of Lavitz.}
+      - {id: amara, label: Amara, x: 85, y: 62, kind: person, article: amara, detail: One of the original companions and the five celebrated survivors.}
+      - {id: heureux, label: Heureux, x: 72, y: 87, kind: person, article: heureux, detail: Bard who joined the company later and preserved its stories.}
+      - {id: jack, label: Jack, x: 27, y: 87, kind: person, article: jack-of-stanleyville, detail: Ghost boy of Stanleyville who traveled with the Misfits.}
+      - {id: fo, label: Fo'Gurn, x: 15, y: 62, kind: person, article: fo-gurn, detail: Original dragonborn paladin whose sacrifice against a hydra saved his companions.}
+    edges:
+      - {from: fellowship, to: lavitz, type: fellowship, label: Original member}
+      - {from: fellowship, to: tel, type: fellowship, label: Original member}
+      - {from: fellowship, to: sven, type: fellowship, label: Original member}
+      - {from: fellowship, to: amara, type: fellowship, label: Original member}
+      - {from: fellowship, to: fo, type: fellowship, label: Original member}
+      - {from: fellowship, to: heureux, type: later, label: Joined later}
+      - {from: fellowship, to: jack, type: later, label: Traveling companion}
+
+  - id: house-frozenroar
+    title: House Frozenroar
+    subtitle: Kinship is not the same as succession
+    icon: "♛"
+    summary: Avalor's royal register spans thirty-four rulers. This map shows only the kinships directly preserved by the public pedigree, rather than turning every successor into the child of a previous monarch.
+    note: These are separate documented family clusters. Their positions on this page do not imply undocumented ancestry between clusters. For the full list of reigns, consult the House Frozenroar record.
+    related_article: house-frozenroar
+    nodes:
+      - {id: benedikt, label: Benedikt, x: 12, y: 13, kind: royal, detail: Second sovereign of Avalor; father of Aldara.}
+      - {id: aldara, label: Aldara, x: 12, y: 35, kind: royal, detail: Third sovereign; daughter of Benedikt and mother of Dietmar.}
+      - {id: dietmar, label: Dietmar, x: 12, y: 57, kind: royal, detail: Fourth sovereign; son of Aldara.}
+      - {id: halton, label: Halton, x: 38, y: 13, kind: royal, detail: Fifth sovereign and acknowledged heir of Dietmar; their precise kinship is not recorded.}
+      - {id: dathyra, label: Dathyra, x: 55, y: 13, kind: person, detail: Dathyra Blueshadow, mother of Sylavor with Halton.}
+      - {id: sylavor, label: Sylavor, x: 46.5, y: 40, kind: royal, detail: Son of Halton and Dathyra; sixth sovereign, who later abdicated.}
+      - {id: elyra, label: Elyra, x: 72, y: 12, kind: royal, detail: Sixteenth sovereign, elder twin of Corven and mother of Torenna.}
+      - {id: corven, label: Corven, x: 88, y: 12, kind: person, detail: Elyra's younger twin brother, who contested her rule in the War of the Two Lions.}
+      - {id: torenna, label: Torenna, x: 72, y: 40, kind: royal, detail: Elyra's daughter and successor, who reconciled the divided kingdom.}
+      - {id: gradvum, label: Gradvum, x: 37, y: 72, kind: royal, article: king-gradvum-frozenroar, detail: Thirty-fourth sovereign of Avalor, crowned in 1983 AF.}
+      - {id: melmiri, label: Melmiri, x: 57, y: 72, kind: person, article: queen-melmiri, detail: Queen consort and an active leader of daily royal administration.}
+      - {id: theodric, label: Theodric, x: 29, y: 94, kind: person, detail: Eldest son and heir of Gradvum and Melmiri.}
+      - {id: leontes, label: Leontes, x: 47, y: 94, kind: person, detail: Younger son of Gradvum and Melmiri.}
+      - {id: vivienne, label: Vivienne, x: 65, y: 94, kind: person, detail: Daughter of Gradvum and Melmiri.}
+    edges:
+      - {from: benedikt, to: aldara, type: parent, label: Father and daughter}
+      - {from: aldara, to: dietmar, type: parent, label: Mother and son}
+      - {from: halton, to: dathyra, type: consort, label: Parents of Sylavor}
+      - {from: halton, to: sylavor, type: parent, label: Father and son}
+      - {from: dathyra, to: sylavor, type: parent, label: Mother and son}
+      - {from: elyra, to: corven, type: sibling, label: Twin siblings}
+      - {from: elyra, to: torenna, type: parent, label: Mother and daughter}
+      - {from: gradvum, to: melmiri, type: consort, label: Royal consorts}
+      - {from: gradvum, to: theodric, type: parent, label: Father and son}
+      - {from: gradvum, to: leontes, type: parent, label: Father and son}
+      - {from: gradvum, to: vivienne, type: parent, label: Father and daughter}
+      - {from: melmiri, to: theodric, type: parent, label: Mother and son}
+      - {from: melmiri, to: leontes, type: parent, label: Mother and son}
+      - {from: melmiri, to: vivienne, type: parent, label: Mother and daughter}
