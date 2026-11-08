@@ -10,14 +10,14 @@ facts: |-
   Original seats: Seven
   Present seats: Eight
   Seat added: High Wizard
-related: king-gradvum-frozenroar,queen-melmiri,samuel-the-devoted,lavitz-shawe
+related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,samuel-the-devoted,lavitz-shawe
 source: Compendium II · Entry II.001, Section VI
 featured: true
 ---
 
 ## The council of the lion
 
-Founded during Rynhold Frozenroar's reign, **the Aegis of Avalor** coordinates the responsibilities of government and advises the crown. Its original seven seats reflected the needs of a newly united kingdom: finance, intelligence, public order, maritime affairs, sacred obligations, and military defense, alongside the work of coordinating these diverse offices.
+Founded during [[Rynhold Frozenroar|Rynhold Frozenroar's]] reign, **the Aegis of Avalor** coordinates the responsibilities of government and advises the crown. Its original seven seats reflected the needs of a newly united kingdom: finance, intelligence, public order, maritime affairs, sacred obligations, and military defense, alongside the work of coordinating these diverse offices.
 
 The modern council holds **eight seats**. The eighth was created when [[Tel'Lora Ebbenflow]] was appointed **High Wizard**, formally recognizing magical affairs as a responsibility that demanded independent counsel.
 
