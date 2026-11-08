@@ -1,44 +1,69 @@
 ---
 title: The Bard Guild
 subtitle: The Society of Silk & Story
-summary: The Society of Silk & Story is Avalor's influential bardic guild,
-  based in Taveras and distinct from Heureux's academy.
+summary: Avalor's professional fellowship of musicians, performers, playwrights and storytellers, preserving living traditions as well as earning their livelihood through art.
 category: Organizations & Factions
 entry: ORG.010
 era: Age of Ascendancy
 facts: |-
-  Character: Bardic guild
-  Name: The Society of Silk & Story
-  Standing: Influential
-  Related school: Heureux's academy at Taveras
-  Founding date: Not established
+  Established name: The Society of Silk & Story
+  Common name: The Bard Guild
   Home: Taveras
+  Calling: Performance, storytelling, and the preservation of oral traditions
+  Members' arts: Music, theater, poetry, and spoken histories
+  Related institution: Heureux's Bard Academy, separately founded
+  Founding date: Not established
 related: heureux,heureuxs-bard-academy,taveras,the-misfits,royal-commission-historical-inquiry
-source: Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI
+source: Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI; creator-approved Society of Silk & Story identity (November 2026)
 featured: false
 ---
-## The keeping of songs
 
-**The Bard Guild**, known as **the Society of Silk & Story**, is an established and influential institution in Avalor's cultural life. Its traditions belong to the larger world of musicians, storytellers, and performers whose work carries memories beyond the reach of any single library.
+## Those who make a living by their art
 
-The guild is mentioned alongside [[heureuxs-bard-academy|Heureux's academy]] in the present historical record. The two should not be confused: the existence of both is established, while their precise administrative relationship is not.
+In Avalor, a story may be told beneath a tavern's smoke-darkened beams, performed before a crowded theater, or carried by a solitary traveler from one village to the next. The people who give those stories voice are as varied as the audiences who hear them. Some are musicians, others actors, playwrights, poets, or tellers of histories that have never been written down.
 
-## Stories that cross borders
+**The Society of Silk & Story**, commonly called **the Bard Guild**, brings these callings into a professional fellowship. Its members do not share a single style or a single audience. What they share is the understanding that performance is both a craft worthy of care and a livelihood worthy of respect.
 
-Avalor’s history is preserved in royal decrees, archives, family traditions, and the songs of people who travel between communities. Bards offer something the court cannot always supply: a narrative that reaches listeners with little access to formal libraries.
+A celebrated singer at court and a traveling storyteller working the village circuit may stand at very different places in Avalorian society, but both must learn their art, find listeners, and live by what they can earn.
 
-Such work has power. An account may keep a neglected person from being forgotten, but an appealing song can also repeat an error until it seems beyond question.
+## A fellowship in Taveras
 
-The later history written by [[Heureux]] about [[The Misfits]] shows why a storyteller's firsthand knowledge and sense of responsibility both matter.
+The Society has its home in **[[Taveras]]**, a city long associated with the performing arts. The city's **Great Opera House** is one of the kingdom's best-known venues, while music and storytelling are heard in settings far humbler than its stage.
 
-## The guild and the academy
+The Society's significance reaches beyond Taveras. Performers travel where audiences gather: to markets and festivals, inns and private halls, cities along the royal roads, and communities too distant to enjoy the capital's grand entertainments. Their art crosses boundaries that royal announcements and scholarly volumes do not always cross.
 
-Heureux founded an academy in **Taveras** after Cid's defeat. The public record does not establish that he also founded the Bard Guild or exercises authority over its present membership.
+A professional guild gives such people a common identity even when their work and ambitions differ. Some seek distinguished patrons or theatrical success. Others prefer the independence of the road. Still others care less for acclaim than for keeping an inherited tale alive.
 
-The guild is **based in [[Taveras]]**, a city of artists and musicians whose **Great Opera House** draws aspiring performers from across the kingdom. The guild's founding and authority remain distinct from the academy Heureux established there.
+The Society's exact charter, membership requirements, and offices have not been established in the surviving account. Its professional character does not, by itself, imply that it licenses every performance or commands every bard in the kingdom.
 
-## A vocation that remains alive
+## The keeping of living memory
 
-The influence of the Bard Guild lies in the continuing place of performance and storytelling in the kingdom, rather than a list of unverified official privileges.
+For many members, a song is meant to entertain. For others, it also carries a memory that might otherwise be lost.
 
-The Royal Archives preserve the guild as a living institution whose songs may be heard wherever people gather to remember and reinterpret their world.
+A story learned from an elder can travel beyond the place where that elder lived. A ballad can preserve the name of an overlooked defender or the customs of a community that keeps few written records. A play can invite an audience to consider an old dispute from an unfamiliar point of view.
+
+This responsibility does not make every performer a historian, nor does it make every well-loved story true. Avalor has learned how easily an appealing account can acquire the authority of tradition. For generations, the lie that condemned **[[Jaznaar]]** and praised **[[Aldus Greystone III]]** was repeated until its familiarity made it difficult to question.
+
+The Society's twin interests in **artistic livelihood and cultural memory** are therefore complementary, but not always simple. Performers must decide what they wish an audience to feel; keepers of tradition must also consider what future listeners may come to believe.
+
+## Many voices, one profession
+
+The Society contains room for different approaches to the bard's calling. A playwright may prize invention, a musician mastery, and a collector of folklore the faithful preservation of words spoken long ago. These interests can enrich one another without becoming identical.
+
+Nor does the Society speak with a single political or historical voice merely because its members share a professional fellowship. A court performer, a provincial singer, and a traveler with no fixed patron may experience the same kingdom very differently.
+
+That variety gives the Society its particular importance. Avalor's culture is not made solely in royal chambers or scholarly libraries. It is also shaped wherever people gather to listen.
+
+## The Society and Heureux's academy
+
+After the defeat of Cid, **[[Heureux]]** founded a **[[Heureux’s Bard Academy|bardic academy]]** in Taveras. The school and the Society share a city and an interest in the arts, but they are **distinct institutions**.
+
+The academy is a place of education, founded to teach a new generation. The Society is a professional fellowship whose concern extends to the lives and work of practitioners. **Heureux is not established as the Society's founder or ruler**, and no formal governing relationship between the school and guild has been recorded.
+
+Heureux's own history nevertheless illustrates the importance of their shared vocation. He traveled with **[[The Misfits]]**, witnessed events that overturned a kingdom's accepted past, and later helped carry that revised history to a wider public. His work showed that telling a story well and taking responsibility for its truth need not be opposing ambitions.
+
+## Art that outlives its makers
+
+Not every bard will become famous. Most will leave behind smaller legacies: a song remembered at a family table, a performance that changed someone's mind, a tale carried onward by a listener who never learned the teller's name.
+
+The Society of Silk & Story exists in the space between those ordinary lives and the great stages of Avalor. Its members make art because people wish to hear it, and because the telling of stories is one of the ways a kingdom remembers who it has been—and imagines what it might yet become.
