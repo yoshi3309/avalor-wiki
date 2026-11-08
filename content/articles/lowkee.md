@@ -8,6 +8,7 @@ image: /assets/uploads/golden-winged-lion-knight.png
 entry: BIO.004
 era: Founding Age
 facts: |-
+  Full name: Lowkee Nicklebane
   Ancestry: Human
   Calling: Paladin
   Fellowship: The Six
@@ -20,7 +21,7 @@ featured: false
 ---
 ## The strength to stand for others
 
-**Lowkee** was a human paladin among [[The Six]], the companions whose friendship and service helped shape Avalor's founding age. Closely associated with **Rynhold Frozenroar**, he took part in a generation that had seen divided kingdoms threatened by conquest and had learned that victory alone could not guarantee a just peace.
+**Lowkee Nicklebane**, usually remembered simply as **Lowkee**, was a human paladin among [[The Six]], the companions whose friendship and service helped shape Avalor's founding age. Closely associated with **Rynhold Frozenroar**, he took part in a generation that had seen divided kingdoms threatened by conquest and had learned that victory alone could not guarantee a just peace.
 
 Lowkee believed that strength carried obligations. A sword could enforce a decree, but the possession of a sword did not make the decree righteous. That distinction became central to his legacy.
 

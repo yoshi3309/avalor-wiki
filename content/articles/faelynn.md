@@ -8,6 +8,7 @@ image: /assets/uploads/mischievous-wood-elf-ranger-in-sunlit-ruins.png
 entry: BIO.005
 era: Founding Age
 facts: |-
+  Full name: Faelynn Naïlo
   Ancestry: Wood elf
   Calling: Ranger
   Known as: The Night Mistress
@@ -21,7 +22,7 @@ featured: false
 
 ## The ranger who learned the cost of trust
 
-**Faelynn** was a wood elf ranger known as the **Night Mistress**, one of the legendary [[The Six]] whose friendship helped shape Avalor's first years.
+**Faelynn Naïlo** was a wood elf ranger known as the **Night Mistress**, one of the legendary [[The Six]] whose friendship helped shape Avalor's first years.
 
 She knew the wilderness in ways that soldiers stationed behind city walls rarely could. The paths travelers avoided, the dangers hidden among trees, and the risks faced by communities far from a garrison were part of the world in which she had learned to survive.
 

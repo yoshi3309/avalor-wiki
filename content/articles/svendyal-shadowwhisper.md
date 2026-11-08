@@ -1,5 +1,5 @@
 ---
-title: S’vendyal Shadowwhisper
+title: S'vendyal Shadowwhisper
 subtitle: Sven, the Iron Shadow
 summary: The grayscale eladrin of the Misfits whose quiet loyalty to Lavitz and Tel'Lora endured as his later life became the subject of rumor.
 category: People & Legends
@@ -23,7 +23,7 @@ featured: false
 
 ## A companion difficult to put on paper
 
-**S’vendyal Shadowwhisper**, usually called **Sven**, belongs among the heroes known as [[The Misfits]]. Yet of the five celebrated companions, he has become one of the most difficult to describe from public sources. The others left royal appointments, schools, itineraries, or public testimony that could be examined. Sven left a reputation that seemed to grow whenever his whereabouts became less certain.
+**S'vendyal Shadowwhisper**, usually called **Sven**, belongs among the heroes known as [[The Misfits]]. Yet of the five celebrated companions, he has become one of the most difficult to describe from public sources. The others left royal appointments, schools, itineraries, or public testimony that could be examined. Sven left a reputation that seemed to grow whenever his whereabouts became less certain.
 
 His later epithet, **the Iron Shadow**, carries the suggestion of an agent who can act where others cannot. It also reflects a problem for historians: an unseen deed is easily claimed, but rarely substantiated.
 
