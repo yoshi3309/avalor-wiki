@@ -8,6 +8,7 @@
 <title>{{ title|e }} · The Archives of Avalor</title>
 <link rel="icon" type="image/svg+xml" href="{{ root }}assets/crest.svg">
 <link rel="stylesheet" href="{{ root }}assets/style.css?v=20261107-collections-v2">
+{% if page_type == "journeys" or page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/journeys.css?v=20261108-reading-routes-1">{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
 <script defer src="{{ root }}assets/app.js?v=20261107-collections-v2"></script>
@@ -28,6 +29,7 @@
       <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{ root }}"><span class="nav-icon">⌂</span> Archive home</a>
       <a class="nav-link {% if page_type=='all' %}active{% endif %}" href="{{ root }}articles/"><span class="nav-icon">▦</span> All records <span class="nav-count">{{ total_count }}</span></a>
       <a class="nav-link {% if page_type=='timeline' %}active{% endif %}" href="{{ root }}chronicle/"><span class="nav-icon">◷</span> Living chronology</a>
+      <a class="nav-link {% if page_type=='journeys' %}active{% endif %}" href="{{ root }}journeys/"><span class="nav-icon">✧</span> Reading journeys</a>
       <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{ root }}map/"><span class="nav-icon">✥</span> Interactive map</a>
       <div class="nav-caption nav-caption-spaced">COLLECTIONS</div>
       {% for c in categories %}
