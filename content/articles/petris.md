@@ -30,7 +30,7 @@ Petris's service addressed the suffering that remained.
 
 The worship of Lathander honors renewal, beginnings, hope, and the possibility of restoration after hardship. Petris brought those convictions into the practical work of feeding, healing, sheltering, and consoling people who had little to offer in return.
 
-Some Avalorian communities maintain a dawn custom called the **First Loaf**, setting aside food for a neighbor who might otherwise go hungry. The First Loaf was a custom shared by communities devoted to Lathander, a practice that echoed Petris's work even though its origins were older or more widely shared than her own story.
+Some Avalorian communities maintain a dawn custom called the **First Loaf**, setting aside food for a neighbor who might otherwise go hungry. The First Loaf belonged to the wider devotional life of Lathander's followers, and its generosity echoed the work Petris had devoted herself to, whoever first began the tradition.
 
 Her legacy does, however, accord with the duty the custom expresses.
 
