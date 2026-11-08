@@ -35,7 +35,7 @@ Amara did not simply repeat her ancestor's calling. Her work followed the practi
 
 The two lives can be read together without treating ancestry as destiny. Both women belonged to fellowships whose decisions affected the kingdom, and both placed value upon lives that might otherwise be overshadowed by royal histories.
 
-[[Kelsalor]], another of the founding Six, is associated with the druidic teaching known in the public archive as [[The Sacred Balance]]. He is not established as Amara's ancestor. Similarity of vocation should not be confused with a familial connection.
+[[Kelsalor]], another of the Six, also served the living world, teaching the principles later remembered as [[The Sacred Balance]]. Amara's family line led to Petris, while the two druids' callings shared a concern for the living world.
 
 ## Among unlikely companions
 
@@ -45,7 +45,7 @@ A second investigation, concerning [[The Cult of Gol’Goroth|Gol'Goroth's cult]
 
 The Misfits were not selected to resemble a founding legend. Their friendships grew from hazards survived and choices made together. Amara's connection to Petris was a remarkable historical inheritance, but it did not dictate how she responded to danger or whose friendship she might earn.
 
-The public record does not preserve a complete account of Amara's family upbringing, the specific teachers of her druidic practice, or the private reason she accepted the Lord Marshal's commission. These details should not be invented merely because her biography deserves fuller treatment.
+What drew Amara to the Lord Marshal's commission is a quieter part of her story. What she did afterward is clear enough: she joined unlikely friends and stayed beside them through dangers no one had expected.
 
 ## Adventures worth remembering separately
 
@@ -73,11 +73,11 @@ Among the most recognizable details in Amara's surviving history is an **owl** a
 
 The mind flayer used the companions' own memories to recreate earlier threats, then offered them convincing visions of lives in which their grief seemed undone and their desires fulfilled.
 
-Heureux's account mentions a recurring owl associated with Amara as one of the signs that the visions were not what they appeared to be. The public sources do not establish every aspect of the owl's nature, or precisely which experiences each companion saw inside the illusions.
+Heureux remembered an owl associated with Amara as one of the signs that the visions were not what they appeared to be. Familiar details, it seemed, could betray even the most carefully fashioned dream.
 
 The common trial was clear enough: the Misfits had to relinquish an invented happiness and return to a world where the consequences of their choices still existed.
 
-It would be tempting to reconstruct Amara's private ideal life from her later reputation as a druid. The Archives do not possess testimony authorizing that reconstruction.
+Whatever peace Amara was offered in the false world, she chose to leave it and return to the imperfect life she shared with her friends.
 
 ## The truth of the Black Tower
 
@@ -93,7 +93,7 @@ During [[The Tournament of Champions]], Cid abducted [[Queen Melmiri]], and the 
 
 After the victory, Amara continued traveling in service of the natural world. Unlike companions who accepted royal posts, she did not become a regular presence at the council or the courts of Renada.
 
-The places she visited and the people she helped are not exhaustively named in the public record. Her appearances became rare enough that stories concerning her increasingly resembled folklore.
+As Amara traveled farther from the court, the stories of her deeds reached Renada less often, until her appearances began to resemble the stuff of folklore.
 
 Such stories should be read carefully. An absence from royal accounts is not proof of a miraculous disappearance, a death, or a permanent separation from her companions. Nor is it permission to ascribe new supernatural powers to her.
 
@@ -111,6 +111,6 @@ There is something quietly important in that. Avalor's founding Six were broken 
 
 Amara remains one of the central figures of Avalor's recent history, even though her later deeds are difficult to trace through royal records.
 
-The Archives can place her beside the friends who saved the realm, connect her to the distant legacy of Petris, and preserve the account of her courage when memories were turned into traps. They cannot honestly provide a complete itinerary of the years in which she chose the road over public honor.
+Her story is not a tidy itinerary. It is the story of a woman who stood beside the friends who saved Avalor, carried the legacy of Petris into another age, and then chose the open road over the rewards of court.
 
 The limits of that record are not a failure of her life. They are a reminder that the natural world, and the people who tend it, exist beyond the pages written in the capital.

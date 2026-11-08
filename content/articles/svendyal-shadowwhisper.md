@@ -33,9 +33,9 @@ The record is not empty. It establishes his participation in the fellowship, his
 
 Sven is an **eladrin**, an ancestry often associated in Avalorian scholarship with the Feywild. His striking **grayscale appearance** made him unusual even to people familiar with the varied peoples of Avalor.
 
-The Archives do not possess an authorized account explaining why his appearance differs from expectations attached to the eladrin. Nor should a single man's presentation be treated as proof of how his entire people live, feel, or practice magic.
+His grayscale appearance set him apart even among eladrin, and people often noticed it before they learned anything else about him.
 
-Stories about the Feywild and about the [[Forest of the Fey]] are sometimes brought into discussions of Sven's origins. The two places are not identical, and the public record has not established a specific childhood homeland for him. It would be premature to assign him an ancestral village merely to fill a blank in an otherwise compelling story.
+The Feywild and the [[Forest of the Fey]] both appear in stories about eladrin ancestry, though they are not the same place. Sven's early home remains less familiar to the kingdom than the roads he traveled with the Misfits.
 
 His reputation began, instead, with what he did after joining the companions.
 
@@ -75,9 +75,9 @@ In the years after Cid's defeat, Sven became known as **the Iron Shadow**. His l
 
 The official **Silver Hand**, [[Katiri Tenderfoot]], runs **another spy network** in service to the crown. The two networks sometimes clash. Katiri respects Sven's capabilities but also distrusts a man who can gather information without answering to her office. Sven is neither her subordinate nor a member of the Aegis by virtue of this work.
 
-Rumors credit the Iron Shadow with many interventions, but his network's **membership, methods, and particular operations have not been established for the public record**. Knowing that the network exists is not proof that Sven was responsible for every unexplained event in the kingdom.
+Whispers credit the Iron Shadow with more deeds than one man could comfortably claim. He has an intelligence network of his own, though its agents and operations remain as elusive as the man at its center.
 
-His relationship with Katiri adds an unusual personal complication to that rivalry. Her feelings toward him are more affectionate than she finds professionally convenient; the Archives do not assume they are mutual or that either has set aside a disagreement because of them.
+For Katiri, the rivalry carries an inconvenient complication: she is drawn to Sven even as she distrusts him. Whatever he makes of that affection, neither spy has allowed it to dissolve their competing loyalties.
 
 ## Two friends in the public eye
 

@@ -61,7 +61,7 @@ The Misfits' search led to [[Jaznaar]], the last survivor of the founding Six. T
 
 The mind flayer [[Zauks and the False Lives|Zauks]] later turned the companions' memories against them. He recreated dangers from their travels and trapped them in convincing visions of ideal lives without grief.
 
-The false lives were especially cruel because the happiness offered felt complete. Heureux's account preserved the presence of an owl associated with [[Amara]] among the clues that helped expose the deception; the private particulars of each companion's illusions remain outside the public record.
+The false lives were especially cruel because the happiness offered felt complete. Heureux remembered an owl associated with [[Amara]] among the clues that betrayed the deception. What each companion saw in those false lives was deeply personal, and surrendering it was part of the ordeal.
 
 Heureux had seen two forms of false history: one imposed upon an entire kingdom, the other fashioned for individuals who wanted the loss in their lives to be undone. Both demonstrated why an appealing story cannot replace a true one.
 
@@ -89,9 +89,9 @@ After Cid's defeat, Heureux founded [[Heureux’s Bard Academy|a school devoted 
 
 The academy represents a different kind of legacy from the defeat of a terrible enemy. Students might learn to make art, bear witness, and sustain traditions without having to endure the dangers from which their teacher's fame arose.
 
-[[The Bard Guild]] remained another influential institution, but the public sources do not establish that it controlled the academy, or that the school possessed one particular charter or system of ranks.
+[[The Bard Guild]] remained another influential institution, distinct from the academy Heureux built. For the bard, founding a school was about giving others a place to discover their own voices.
 
-Taveras is recorded as the school's location. Its precise placement and wider political geography are not yet confirmed for the public atlas, and the Archives do not invent them.
+In Taveras, the academy became a place where new generations could learn from the stories Heureux brought home, even while the bard himself remained a traveler.
 
 ## Friends whose roads diverged
 

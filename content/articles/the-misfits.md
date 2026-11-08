@@ -86,13 +86,13 @@ The Lord Marshal called upon the adventurers again to investigate [[The Cult of 
 
 ## Moonville Manor
 
-Among the company's early adventures was **Moonville Manor**, a **living house**. The surviving public chronicle does not establish where it stood, what caused its strange nature, or precisely how the encounter ended. Its place in the fellowship's formation is remembered chiefly through the unusual danger the companions experienced together.
+One of the company's stranger early adventures brought them to **Moonville Manor**, a **living house**. Its uncanny halls became one more danger the companions shared, and one more adventure that would return to haunt them when Zauks began turning their memories against them.
 
 The mind flayer [[Zauks and the False Lives|Zauks]] later recreated Moonville Manor as one of several memory-based trials. That imitation was **not a second visit to the original house**; it was an old adventure turned against those who had survived it.
 
 ## The Ripped Beard
 
-The **Ripped Beard** is another threat named among the Misfits' earlier travels. The existing public record does not establish whether the name described an individual, a creature, a band, or something else. Historians preserve the encounter without inventing a nature, outcome, or connection to Cid that testimony does not support.
+Another early adventure is remembered simply as **the Ripped Beard**. The name survived in tales of the fellowship even as the details of the encounter grew indistinct. It remains part of their travels, without any established connection to Cid.
 
 ## II. Adventures beyond the Blood King's shadow
 
@@ -106,7 +106,7 @@ These adventures matter independently of the later confrontation with Cid. The p
 
 During their earlier travels, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
 
-They helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. Accounts of the exact confrontation differ; the Archives do not assign an invented name to the chieftain or claim to know every blow, speech, or negotiation that secured the tribe's liberation.
+The Misfits helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. For a clan who had suffered under a dangerous leader, what mattered was not the precise order of blows or speeches, but that their future was theirs again.
 
 The event mattered independently of the later war against Cid. For the Rotten Husk, it was not a footnote in another group's legend but a turning point in their own lives. Their continuing identity is recorded separately in [[The Rotten Husk Clan]], while the encounter belongs here among the fellowship's journeys.
 
@@ -140,7 +140,7 @@ After the revelation at Jaznaar's refuge, the companions encountered **Jinlin Ve
 
 The experience became one of the fellowship's clearest lessons about the distance between **vengeance and justice**. A person may rightly identify wrongdoing while proposing actions that cannot be judged righteous merely because their target is guilty.
 
-Jinlin's lair later appeared among the remembered places recreated by [[Zauks and the False Lives|Zauks]], but the illusion was not a fresh visit to the real lair, nor proof that Jinlin directed Zauks. The exact events within the original lair have not been established by the public record.
+Jinlin's lair later appeared among the places recreated by [[Zauks and the False Lives|Zauks]], a familiar danger made strange by the mind flayer's illusions. The companions were revisiting a memory, not returning to face Jinlin himself.
 
 The **faction** and its founder have a separate entry because their existence does not begin or end with this encounter. The encounter itself belongs to the journey of the Misfits.
 
