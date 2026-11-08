@@ -11,14 +11,14 @@ facts: |-
   Key leader: Rynhold of Kroubia
   Decisive battle: Heroes Hill
   Exact campaign dates: Unresolved
-related: heroes-hill,lord-osmos-tower,unification-of-avalor,bradgem-glav,house-frozenroar
+related: rynhold-frozenroar,heroes-hill,lord-osmos-tower,unification-of-avalor,bradgem-glav,house-frozenroar
 source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
 featured: false
 ---
 
 ## Before the lion banner
 
-Before Avalor there were many kingdoms. Their borders shifted through conflict, inheritance, and agreements, while travelers and merchants crossed them more readily than armies. **Kroubia**, ruled by Rynhold Frozenroar, was one of these realms; it was smaller than the kingdom Avalor would become.
+Before Avalor there were many kingdoms. Their borders shifted through conflict, inheritance, and agreements, while travelers and merchants crossed them more readily than armies. **Kroubia**, ruled by [[Rynhold Frozenroar]], was one of these realms; it was smaller than the kingdom Avalor would become.
 
 **Lord Osmo** sought dominion over his neighbors through armies and political calculation. He was **a mortal conqueror**, not a wizard or an emissary of a hidden supernatural power. His successes revealed how division weakened his opponents. A ruler might refuse troops for fear of strengthening a rival; another might surrender a crossing in the hope of preserving the rest of his lands.
 
