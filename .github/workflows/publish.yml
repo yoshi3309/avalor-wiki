@@ -33,8 +33,15 @@ jobs:
           python-version: '3.12'
       - name: Install build packages
         run: pip install 'Jinja2>=3.1,<4' 'PyYAML>=6,<7' 'mistune>=3,<4'
-      - name: Check atlas JavaScript syntax
-        run: node --check assets/map.js
+      - name: Check browser JavaScript syntax
+        run: |
+          node --check assets/map.js
+          node --check assets/app.js
+          node --check assets/search.js
+          node --check assets/chronicle.js
+          node --check assets/connections.js
+      - name: Test smart archive search
+        run: node --test tests/test_search.js
       - name: Check public canon and article links
         run: python tests/check_public_canon.py
       - name: Build public website
