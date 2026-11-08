@@ -5,9 +5,9 @@ summary: "A coastal Avalorian settlement remembered for prosperity, leisure, and
 category: Kingdoms & Places
 entry: LOC.021
 era: "Age of Ascendancy"
-facts: "Character: Coastal settlement\nReputation: Prosperity and retreat\nKingdom: Avalor"
+facts: "Character: Prosperous port city\nReputation: Pristine beaches and fine cuisine\nRoyal retreat: Private residence of the king\nKingdom: Avalor"
 related: kingdom-of-avalor,cove-city,tinsel,stems-port
-source: "Compendium II · Entry II.001, Sections XI and XIII"
+source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided Siesta Ford history (November 2026)"
 featured: false
 ---
 
@@ -16,6 +16,12 @@ featured: false
 **Siesta Ford** is remembered among Avalor's coastal settlements for its prosperity and the comforts sought by those with the means to withdraw from the demands of ordinary work.
 
 This reputation distinguishes it from the more familiar descriptions of the King's Road ports [[Cove City]] and [[Tinsel]], where commercial routes are central to the surviving account. Siesta Ford may likewise participate in the coast's economy, but the public record gives special attention to its character as a place of retreat.
+
+## The king's coastal retreat
+
+Siesta Ford's **pristine beaches** and **fine cuisine** have made it a favorite destination for visitors with the means to enjoy its comforts. The **king maintains a private retreat** here, finding distance from Renada's ceremonies and crowded halls.
+
+The coastal town is more than the royal household's destination. Its own people maintain the waterfront, prepare the food, and welcome travelers season after season.
 
 ## Leisure and the labor beneath it
 
@@ -29,8 +35,6 @@ Avalor's coast does not possess a single pattern of settlement. Ports associated
 
 [[Stems Port]] offers a useful contrast: its commercial standing is associated with freeport arrangements, not the reputation for leisure that distinguishes Siesta Ford.
 
-## What the record does not settle
+## A life beyond leisure
 
-Despite its name, the source does not establish the character of a particular ford, the founding of a bridge, or the date at which the settlement acquired its reputation. It would be misleading to derive an entire topography from the name alone.
-
-Siesta Ford's place in the gazetteer is secure as a prosperous coastal retreat. The particulars of its streets and local traditions remain subjects for later accounts.
+Visitors remember the pleasure of their stay, but Siesta Ford's enduring identity belongs equally to the families who work and live beside its prosperous shore.

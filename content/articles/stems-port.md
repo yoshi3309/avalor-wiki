@@ -5,9 +5,9 @@ summary: "A coastal freeport whose commercial privileges and local authority ref
 category: Kingdoms & Places
 entry: LOC.022
 era: "Age of Ascendancy"
-facts: "Character: Freeport\nPrincipal activity: Maritime commerce\nPolitical distinction: Local commercial arrangements\nComparison: Karhold, a disputed freeport"
+facts: "Character: Freeport\nReputation: Piracy, illicit commerce and black markets\nPolitical distinction: Local commercial arrangements\nComparison: Karhold, a disputed freeport"
 related: karhold,cove-city,tinsel,kingdom-of-avalor
-source: "Compendium II · Entry II.001, Sections XI and XIII"
+source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil Stems Port history (November 2026)"
 featured: false
 ---
 
@@ -17,13 +17,19 @@ featured: false
 
 The customs of a freeport are established through agreements, regulations, and practices that must be understood on their own terms. A merchant familiar with the rules of one harbor should not assume those of another to be identical.
 
+## The pirates' harbor
+
+**Piracy and illicit trade** have long shaped the reputation of Stems Port. Its **black market** is exceptionally busy, a shadow economy operating alongside the ordinary cargoes that make a freeport prosperous.
+
+Avalor's growing influence has weakened the pirates' power, yet it has not driven unlawful business from the docks. The crews who once ruled by threat have lost ground, while merchants with less scrupulous dealings remain.
+
+The port's negotiated commercial liberties are not themselves criminal. They exist beside the smugglers who have learned to exploit a busy harbor.
+
 ## The uses of a freeport
 
 Maritime commerce joins settlements whose rulers and inhabitants may differ greatly in interests and traditions. Privileges negotiated at a port can make trade possible in circumstances that would otherwise burden merchants with unnecessary disputes or costs.
 
-Stems Port's status makes it distinctive among Avalor's coastal settlements, but the available public record does not specify the contents of its charter, the exact extent of local self-government, or an exclusive trade in any named commodity.
-
-Such matters cannot responsibly be filled with the customary details of another freeport.
+Stems Port's distinctive privileges attract legitimate trade, while its notorious underworld makes the same waterfront useful to those who would rather avoid the eyes of the crown.
 
 ## A distinction from Karhold
 

@@ -5,9 +5,9 @@ summary: "An Avalorian port where the kingdom's inland roads meet the wider mari
 category: Kingdoms & Places
 entry: LOC.019
 era: "Age of Ascendancy"
-facts: "Character: Coastal port settlement\nConnections: King's Road and inland commerce\nAllegiance: Kingdom of Avalor"
-related: kingdom-of-avalor,tinsel,stems-port,renada,tellora-ebbenflow
-source: "Compendium II · Entry II.001, Sections XI and XIII; author-approved World Anvil Ebbenflow history (November 2026)"
+facts: "Character: Port settlement\nFormer rival: Tinsel\nTrade: Kraken meat and oil\nRoute: King's Road\nAllegiance: Avalor"
+related: kingdom-of-avalor,tinsel,stems-port,renada,tellora-ebbenflow,rynhold-frozenroar
+source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil Cove and Tinsel history (November 2026)"
 featured: false
 ---
 
@@ -15,9 +15,17 @@ featured: false
 
 **Cove City** is among the ports through which the [[Kingdom of Avalor|Kingdom of Avalor]] exchanges goods with its neighbors. Its significance lies in its connection to the inland commercial routes served by the **King's Road**. The ships of the coast and the wagons of the interior depend on one another, though the people who move their cargo may rarely meet again.
 
-The public record associates Cove City with the wider maritime trade network. It does not assign the town a single exclusive commodity, a particular harbor arrangement, or a founding tale that can be repeated with historical confidence.
+## Former rivals of Tinsel
 
-## The Ebbenflow family and the kraken trade
+For hundreds of years, neighboring **Cove City** and [[Tinsel]] were rivals. Their disputes sometimes broke into open war, until the **unification of the northern kingdoms** under [[Rynhold Frozenroar]] brought an end to the fighting.
+
+The former enemies became partners in building one of the north's great port economies. The peace between them has been as important to their prosperity as the ships that fill their harbors.
+
+## Kraken hunters
+
+Both cities specialize in **kraken hunting**, supplying delicacies prized among the nobility and **oils used by mages**. The trade is dangerous but lucrative, linking the life of the crews to wealthy tables and arcane workshops far inland.
+
+## The Ebbenflow family
 
 The port was home to **[[Tel'Lora Ebbenflow]]**, long before the half-elf wizard became High Wizard of Avalor. His human father hunted krakens, and his elven mother had once advised the royal court on arcane mysteries. They met through the **kraken oil trade**, an industry whose risks were familiar to seafarers willing to face such creatures.
 
@@ -37,4 +45,4 @@ Court histories tend to see commercial places through their value to the treasur
 
 [[Tinsel]] is another established port associated with the King's Road, while [[Stems Port]] operates under its own freeport arrangements. Their shared place in commerce does not make them interchangeable.
 
-Cove City's detailed street plan, local institutions, and precise place within the coastal hierarchy await fuller documentation. For the present, its history is that of an Avalorian settlement linked to the sea and to the people of the interior.
+Cove City's story is as much about sailors, fishermen, and families as it is about the cargoes they send inland. Once the enemy of Tinsel, it has learned the value of a shared harbor economy.

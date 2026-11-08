@@ -17,7 +17,7 @@ featured: false
 
 ## When Fort Orange guarded the coast
 
-Before it was a trading city, **Port Orange** was **Fort Orange**, a defensive position raised during the war against **[[Lord Osmo's Tower|Lord Osmo]]**, the mortal conqueror whose campaigns helped unite the northern kingdoms.
+Before it was a trading city, **Port Orange** was **Fort Orange**, a defensive position raised during the war against **Lord Osmo**, the mortal conqueror whose campaigns helped unite the northern kingdoms.
 
 The fort served a wartime need. With Osmo defeated and the former crowns drawn together under [[Rynhold Frozenroar]], the coast no longer required precisely the same kind of stronghold.
 

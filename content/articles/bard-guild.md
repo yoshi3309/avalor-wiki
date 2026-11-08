@@ -5,8 +5,8 @@ summary: "An influential bardic guild in Avalor, distinct in the known record fr
 category: Organizations & Factions
 entry: ORG.010
 era: "Age of Ascendancy"
-facts: "Character: Bardic guild\nStanding: Influential\nRelated school: Heureux's academy at Taveras\nFounding date: Not established\nHeadquarters: Not established"
-related: heureux,heureuxs-bard-academy,the-misfits,royal-commission-historical-inquiry
+facts: "Character: Bardic guild\nStanding: Influential\nRelated school: Heureux's academy at Taveras\nFounding date: Not established\nHome: Taveras"
+related: heureux,heureuxs-bard-academy,taveras,the-misfits,royal-commission-historical-inquiry
 source: "Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI"
 featured: false
 ---
@@ -29,7 +29,7 @@ The later history written by [[Heureux]] about [[The Misfits]] shows why a story
 
 Heureux founded an academy in **Taveras** after Cid's defeat. The public record does not establish that he also founded the Bard Guild or exercises authority over its present membership.
 
-The guild's founding town, officers, charter, ranks, and admissions practices remain open. They should not be supplied from the customs of some other organization.
+The guild is **based in [[Taveras]]**, a city of artists and musicians whose **Great Opera House** draws aspiring performers from across the kingdom. The guild's founding and authority remain distinct from the academy Heureux established there.
 
 ## A vocation that remains alive
 

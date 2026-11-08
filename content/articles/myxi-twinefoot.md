@@ -1,28 +1,28 @@
 ---
 title: Myxi Twinefoot
 subtitle: The Banker’s Apprentice Who Became the Golden Hand
-summary: A halfling raised in Jogar Village, Myxi learned commerce from a celebrated gnome banker and rose through Renada's financial circles to the Aegis.
+summary: A halfling raised in [[Jogar Village]], Myxi learned commerce from a celebrated gnome banker and rose through Renada's financial circles to the Aegis.
 category: People & Legends
 image: /assets/uploads/myxi-twinefoot-in-the-noble-study.png
 entry: BIO.017
 era: Age of Ascendancy
 facts: |-
   Species: Halfling
-  Hometown: Jogar Village
+  Hometown: [[Jogar Village]]
   Early mentor: A prominent gnome banker
   Career: Financial consultant in Renada
   Previous Golden Hand: Del'Fen
   Office: Golden Hand
   Council: The Aegis
   Other calling: Bard student at Heureux’s Bard Academy
-related: the-aegis,renada,heureuxs-bard-academy,heureux,belgram-mountain-hall,edran-halwick
+related: the-aegis,renada,jogar-village,heureuxs-bard-academy,heureux,belgram-mountain-hall,edran-halwick
 source: World Anvil, Myxi Twinefoot (creator-supplied biography, November 2026); Compendium II · Entry II.001, VI–VII
 featured: false
 ---
 
-## A halfling from Jogar Village
+## A halfling from [[Jogar Village]]
 
-**Myxi Twinefoot** grew up in **Jogar Village**, where halflings and humans had long made their homes together. It was a happy place to learn the ordinary give-and-take of community life, though the arrival of a substantial **gnome population** brought new people, trades, and opportunities.
+**Myxi Twinefoot** grew up in **[[Jogar Village]]**, where halflings and humans had long made their homes together. It was a happy place to learn the ordinary give-and-take of community life, though the arrival of a substantial **gnome population** brought new people, trades, and opportunities.
 
 Myxi's family recognized one of those opportunities before she was old enough to choose a profession. They arranged for her to **apprentice with a well-known gnome banker**. What began as a family decision opened a world that suited Myxi's talents unusually well.
 
@@ -34,7 +34,7 @@ As Myxi learned the intricacies of banking and trade, word of her ability reache
 
 Eventually she established **her own consulting office in Renada** and moved there full-time. Years of careful work earned her a reputation strong enough that she was selected to succeed **Del'Fen** as **Golden Hand** on [[The Aegis]].
 
-Her rise had not begun with a royal title. It began with the mixed communities of Jogar Village, a family's willingness to seize a chance, and a young halfling who discovered she was very good at understanding money.
+Her rise had not begun with a royal title. It began with the mixed communities of [[Jogar Village]], a family's willingness to seize a chance, and a young halfling who discovered she was very good at understanding money.
 
 ## The value of a copper torch
 
@@ -56,4 +56,4 @@ She has not abandoned her duties to become a wandering performer. She is simply 
 
 Myxi's office is explained in [[The Aegis#the-third-hand-and-the-golden-hand|the Aegis]], but its title cannot tell the whole story of the woman who holds it.
 
-She remains, at heart, the apprentice from Jogar Village who learned to recognize an opportunity and make something of it. The difference is that her decisions now affect an entire kingdom.
+She remains, at heart, the apprentice from [[Jogar Village]] who learned to recognize an opportunity and make something of it. The difference is that her decisions now affect an entire kingdom.

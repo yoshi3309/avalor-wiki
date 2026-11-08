@@ -6,7 +6,7 @@ category: Organizations & Factions
 entry: ORG.011
 era: "Age of Ascendancy"
 facts: "Founder: Heureux\nLocation: Taveras\nEra: Following Cid's defeat\nPurpose: Bardic education\nFormal chartered name: Not established"
-related: heureux,myxi-twinefoot,bard-guild,the-misfits,kelsalor,royal-commission-historical-inquiry
+related: heureux,myxi-twinefoot,bard-guild,taveras,the-misfits,kelsalor,royal-commission-historical-inquiry
 source: "The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible Volume I, VI–VII; author-approved student detail (November 2026)"
 featured: false
 ---
@@ -37,9 +37,7 @@ Her presence is a reminder that the academy is not solely a place for travelers 
 
 ## Why Taveras matters
 
-Taveras is **the known location of Heureux's school**. Its precise placement upon the official atlas and its political or administrative classification have not yet been established.
-
-No unapproved map pin is assigned here. Taveras can become a fuller geographical entry when its place in the world is confirmed.
+[[Taveras]] stands at a bend in the River Rhys beneath the foothills, celebrated for its **Great Opera House** and the music that fills its streets. The city also houses [[The Bard Guild]], distinct from Heureux's academy. For a traveling bard determined to teach, it was a natural place to open the doors to another generation.
 
 ## What a generation inherits
 

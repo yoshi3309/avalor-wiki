@@ -7,20 +7,20 @@ entry: LOC.002
 era: Age of the Misfits to Age of Ascendancy
 facts: |-
   Settlement: Stanleyville
-  Route: King's Road
+  Route: King's Road, between Renada and Cove City / Tinsel
   Famous trade: Forged steel, armor and blades
   Founding tradition: Hjoldan and a pony named Stanley
   Historical crisis: The Stalker and unexplained deaths
   Traveling companion from the town: Jack
   Royal loss: Death of the preceding Lord Marshal
-related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king,renada,kingdom-of-avalor
-source: Compendium II · Entry II.002, public settlement and commerce accounts; The Living Chronicle, Chapter VI, Section IV
+related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king,renada,cove-city,tinsel,kingdom-of-avalor
+source: Compendium II · Entry II.002; The Living Chronicle, Chapter VI, Section IV; World Anvil location details (November 2026)
 featured: false
 ---
 
 ## The town of forged steel
 
-**Stanleyville** stands along **the King's Road**, one of Avalor's important overland trading routes. Its identity rests upon generations of skilled metalworkers whose products have given the town a reputation well beyond its streets.
+**Stanleyville** stands along **the King's Road**, approximately halfway between [[Renada]] and the great neighboring ports of [[Cove City]] and [[Tinsel]]. Its identity rests upon generations of skilled metalworkers whose products have given the town a reputation well beyond its streets.
 
 Blades, armor components, tools, and other forged goods from Stanleyville travel along the kingdom's commercial networks toward [[Renada]] and the ports. To merchants, the town's name is a mark of workmanship; to its residents, that reputation represents apprenticeships, labor, household livelihoods, and the continued passing of craft from one generation to the next.
 
@@ -30,7 +30,7 @@ The surviving account does not establish a complete list of smithing guilds, eve
 
 Local tradition links the town's beginnings to **Hjoldan**, a dwarven blacksmith, and preserves the curious story of a **pony named Stanley**.
 
-The unusual story is often repeated for amusement by travelers. What can be established is that this tradition belongs to Stanleyville's understanding of itself and is closely associated with its smithing identity. The available sources do not certify every detail of the founding tale or its precise sequence.
+The town's founding story credits **Hjoldan**, a dwarven blacksmith who gave the settlement the name of his **pony, Stanley**. Travelers still delight in the contrast between the humble pony and the powerful forge town that grew around his name.
 
 For the people who live in Stanleyville, the point is larger than a clever name. Their town is known for work that has endured over generations, not simply for a story one visitor can tell another over a drink.
 

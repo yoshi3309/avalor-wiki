@@ -5,9 +5,9 @@ summary: "An Avalorian port settlement connected to the King's Road and the comm
 category: Kingdoms & Places
 entry: LOC.020
 era: "Age of Ascendancy"
-facts: "Character: Port settlement\nCommercial route: King's Road\nRegion: Coastal Avalor"
+facts: "Character: Coastal port\nFormer rival: Cove City\nTrade: Kraken meat and oil\nRoute: King's Road"
 related: cove-city,kingdom-of-avalor,stems-port,renada
-source: "Compendium II · Entry II.001, Sections XI and XIII"
+source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil account (November 2026)"
 featured: false
 ---
 
@@ -17,11 +17,15 @@ featured: false
 
 Unlike Renada, whose political importance is inseparable from the Great Citadel, Tinsel is chiefly encountered in the record of the kingdom's commercial network. Its place among the ports demonstrates that the wealth of the capital cannot be understood by examining only the city where the king resides.
 
-## The commerce of different hands
+## From feud to cooperation
 
-Goods moving across Avalor pass through many hands before reaching a distant buyer. Inland farmers, metalworkers, carters, merchants, dockworkers, and ship crews all contribute to a trade whose rewards are not distributed equally.
+For centuries Tinsel fought with its neighboring port, [[Cove City]], over the fortunes of the coast. Their rivalry ended when [[Rynhold Frozenroar]] united the northern kingdoms.
 
-The ports take part in the exchange of heartland grain, worked metal, cloth, timber products, and goods imported from across the water. The public sources do not establish Tinsel's distinctive industry or a ranked list of its exports. A responsible gazetteer therefore records its function without inventing a celebrated product merely to distinguish it from another town.
+Now the two ports work together in a shared maritime economy. The peace allows the crews and merchants of both cities to seek their fortunes where earlier generations sought victory over one another.
+
+## The kraken trade
+
+The neighboring ports specialize in **kraken hunting**, bringing meat considered a delicacy by wealthy households and **kraken oil used by mages**. The work rewards skill and boldness, and it has helped make the united harbors one of the north's great trading centers.
 
 ## Neighboring interests
 
@@ -29,8 +33,6 @@ The ports take part in the exchange of heartland grain, worked metal, cloth, tim
 
 A traveler may reasonably distinguish these settlements by the reasons for which they are remembered. It would be less reasonable to conclude that one is a lesser copy of another. Each contributes to the varied economy of the realm.
 
-## An unfinished local record
+## A harbor at peace
 
-The Royal Commission has not yet authenticated a detailed municipal history for Tinsel. The names of its local offices, the arrangement of its quays, and the customs of its inhabitants remain open to further inquiry.
-
-That absence is a limit of the surviving account, not evidence that the town possesses no history of its own.
+The rivalry remains part of Tinsel's memory, even as ships from the two cities share the work of trade. What was once a contested shoreline has become a source of common prosperity.

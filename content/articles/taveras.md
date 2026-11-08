@@ -9,7 +9,7 @@ facts: |-
   River: Rhys
   Setting: A river bend below the foothills
   Institution: The Bard Guild
-  Institution: The Great Opera House
+  Landmark: The Great Opera House
   School: Heureux's Bard Academy
   Reputation: Music, performance and the arts
 related: bard-guild,heureuxs-bard-academy,heureux,renada,stannisport,kingdom-of-avalor

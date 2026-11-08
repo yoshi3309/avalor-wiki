@@ -25,6 +25,6 @@ The city is also associated with **Avalor's western navy**. Its role is therefor
 
 Older accounts credit a **Western Sheriff** with bringing the king's justice to Osmostown. That history explains the city's present place within Avalorian concerns, though it does not fix the precise date of the intervention or the modern line of every sheriffdom border.
 
-The present Western Verge is administered by **[[Seren Thornwyck]]**, whose duties elsewhere include diplomacy with woodland communities. The naval responsibilities of Osmostown and its ties to Smugglers Isle have their own demands.
+The present Western Verge is administered by **[[Seren Thornwyck]]**, whose duties also include diplomacy with woodland communities. The older tradition of royal intervention in Osmostown does not say which sheriff personally led it. The naval responsibilities of Osmostown and its ties to Smugglers Isle have their own demands.
 
 There is a tension in the city's identity: the western fleet serves the kingdom's law, while the nearby island's reputation recalls how readily commerce can slip beyond it.

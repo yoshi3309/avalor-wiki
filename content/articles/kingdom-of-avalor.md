@@ -11,7 +11,7 @@ facts: |-
   Founded: 1 AF
   Sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
-related: unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms
+related: unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,lesser-settlements-of-avalor,taveras
 source: Compendium II · Entry II.001; The Living Chronicle
 featured: true
 ---
@@ -52,4 +52,8 @@ The [[Great Citadel]] anchors royal government in Renada; the [[Great Fork Tower
 
 ## The coastal trading towns
 
-Along the coast, [[Cove City]] and [[Tinsel]] link the King's Road to maritime trade. [[Siesta Ford]] is remembered as a prosperous place of retreat, and [[Stems Port]] conducts commerce under its own freeport arrangements. Their histories do not follow a single coastal pattern, just as the disputed autonomy of Karhold cannot be extended to every freeport.
+Along the coast, [[Cove City]] and [[Tinsel]], once rivals, share the rich and dangerous kraken trade. [[Siesta Ford]] is known for its beaches, fine food and a royal retreat, while [[Stems Port]] remains a freeport notorious for piracy and smuggling.
+
+Beyond them, [[East Port]] serves the eastern navy and [[Osmostown]] the western fleet. [[Port Orange]] became a cosmopolitan harbor after beginning as a wartime fort; [[River City]] supplies fish to the heartlands. The busy quays of [[Stannisport]] and the lake harbor of [[Tarnapolus]] distribute goods from different routes, while [[Taveras]] draws artists to the River Rhys. Inland, [[Jogar Village]] stands above the ruins of Illmire and fortified [[Briyan's Autumn]] watches the eastern approaches.
+
+Smaller communities have stories too: [[The Smaller Settlements of Avalor#alexiverde|Alexiverde]], [[The Smaller Settlements of Avalor#ferrymen-village|Ferrymen Village]], and [[The Smaller Settlements of Avalor#olivruch|Olivruch]] each deserve their place in the kingdom's memory.

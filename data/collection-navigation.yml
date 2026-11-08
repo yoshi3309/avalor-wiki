@@ -31,6 +31,16 @@ kingdoms-places:
         - karhold
         - wayword-sun
         - siesta-ford
+        - briyans-autumn
+        - east-port
+        - jogar-village
+        - osmostown
+        - port-orange
+        - river-city
+        - stannisport
+        - tarnapolus
+        - taveras
+        - lesser-settlements-of-avalor
     - id: landmarks
       title: Towers & Landmarks
       eyebrow: STONES OF HISTORY

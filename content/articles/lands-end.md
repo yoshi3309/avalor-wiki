@@ -9,9 +9,11 @@ facts: |-
   Region: Northern March
   Sheriff: Sebastian Rubelda
   Function: Frontier defense and administration
+  Founder: Built in Rynhold's expansion
+  Frontier: Region later transformed into the Great Desert
   Authority: Crown of Avalor
-related: sebastian-rubelda,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor
-source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI
+related: sebastian-rubelda,four-sheriffdoms,avalorian-standing-army,kingdom-of-avalor,rynhold-frozenroar,great-desert
+source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI; creator-provided Land's End history (November 2026)
 featured: false
 ---
 
@@ -20,6 +22,12 @@ featured: false
 **Land's End** is a northern stronghold whose importance lies in both the defense and administration of Avalor's frontier. It is far easier to issue instructions in [[Renada]] than to ensure they can be carried out at a distant crossing when supplies are scarce or the roads are difficult.
 
 The place therefore matters less for the thickness of its walls than for the responsibilities those walls support.
+
+## A founding king's northern fortress
+
+**[[Rynhold Frozenroar]]** built Land's End during the expansion of his northern kingdom, securing the frontier against threats from the peoples and routes beyond it.
+
+In that early age, the country was not yet the [[Great Desert]] familiar to modern travelers. The desert grew gradually in the centuries after the Black Tower catastrophe. Land's End thus guards a landscape that has changed since its walls were first raised.
 
 ## The Northern Sheriff
 
