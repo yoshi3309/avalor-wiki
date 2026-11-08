@@ -75,6 +75,21 @@ def heading_ids(body):
         ids.add(anchor)
     return ids
 
+MERGES = (yaml.safe_load((ROOT/'data'/'article-merges.yml').read_text(encoding='utf-8')) or {}).get('retired',{})
+for old, rule in MERGES.items():
+    if old in entries:
+        problems.append(f"{old}: retired source still exists")
+    parent = rule['parent']
+    if parent not in entries:
+        problems.append(f"{old}: missing merged parent {parent}")
+    elif rule['section'] not in heading_ids(entries[parent][1]):
+        problems.append(f"{old}: missing merged section {parent}#{rule['section']}")
+    for text_alias in (old, rule['title']):
+        key = slugify(text_alias)
+        if key in aliases and aliases[key] != old:
+            problems.append(f"{old}: redirect alias conflicts with existing title {text_alias}")
+        aliases[key] = old
+
 ids = {}
 for slug, (meta, body) in entries.items():
     archive_id = str(meta.get("entry") or "").strip()
@@ -90,13 +105,16 @@ for slug, (meta, body) in entries.items():
         resolved = aliases.get(slugify(target_title))
         if not resolved:
             problems.append(f"{slug}: broken wiki-link {target}")
+        elif resolved in MERGES:
+            if not MERGES[resolved]['parent'] in entries:
+                problems.append(f"{slug}: retired link {target} has missing parent")
         elif has_fragment and slugify(fragment) not in heading_ids(entries[resolved][1]):
             problems.append(f"{slug}: broken section wiki-link {target}")
 
 for slug, (meta, body) in entries.items():
     related = str(meta.get("related") or "")
     for target in (s.strip() for s in related.split(",") if s.strip()):
-        if target not in entries:
+        if target not in entries and target not in MERGES:
             problems.append(f"{slug}: missing related article '{target}'")
 
 # User-approved correction supersedes older PDFs: Samuel is an aasimar.

@@ -28,7 +28,7 @@ The paladins who train here inherit obligations rooted in that conviction. Their
 
 [[The Great Library of Aldus Greystone]] preserves historical and theological scholarship. Its collections have been especially important in an age when the recovery of the true Black Tower history has forced the kingdom to reconsider once-trusted accounts.
 
-The nearby [[The Black Stair]] marks one of the region's notable approaches toward the Spine of the World.
+The nearby [[The Black Tower#the-black-stair|Black Stair]] is the difficult mountain ascent **to the Black Tower**, not an approach to Heaven's Heart. The sanctuary lies nearby in the same mountainous region.
 
 ## Sister institutions of the faith
 

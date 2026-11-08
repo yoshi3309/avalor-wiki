@@ -46,6 +46,8 @@ The site uses relative paths, so it works under any project-repository name or a
 
 The editable `body` is normal Markdown; you can also write `[[The Aegis]]` or `[[The Misfits|Misfits]]` to create automatic cross-links to known article titles.
 
+**Article-section links and editorial merges.** Wiki links can point to a named section with `[[Renada#the-mudsteps|Mudsteps]]`. Only headings that actually exist are valid; the public-canon test checks them. The source-controlled `data/article-merges.yml` maintains old article URLs as redirects after a section is consolidated. Do not reuse a retired slug or delete its redirect: old bookmarks and map links depend on it.
+
 **Important:** The hosted CMS is third party, although its product currently advertises that it is free. Read its access permission screen before authorizing. No passwords or GitHub tokens belong in the project files.
 
 ## 4 — Add a new public article

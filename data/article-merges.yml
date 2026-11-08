@@ -1,0 +1,14 @@
+# Approved editorial consolidations; public wiki entries replaced by anchor sections.
+# Keep old slugs for permanent redirects and stable old title links.
+# Do not repurpose these slugs for future unrelated pages.
+retired:
+  mudsteps: {title: "Mudsteps", parent: renada, section: the-mudsteps}
+  lantern-ward: {title: "Lantern Ward", parent: renada, section: lantern-ward-and-the-markets}
+  rynhold-park: {title: "Rynhold Park", parent: renada, section: rynhold-park-and-public-memory}
+  old-renada: {title: "Old Renada", parent: renada, section: old-renada}
+  crownrise: {title: "Crownrise", parent: renada, section: crownrise}
+  rhys-quays: {title: "Rhys Quays", parent: renada, section: rhys-quays}
+  cathedral-ward: {title: "Cathedral Ward", parent: renada, section: cathedral-ward}
+  black-stair: {title: "The Black Stair", parent: black-tower, section: the-black-stair}
+  moonville-manor: {title: "Moonville Manor", parent: the-misfits, section: moonville-manor}
+  the-ripped-beard: {title: "The Ripped Beard", parent: the-misfits, section: the-ripped-beard}

@@ -37,15 +37,8 @@ kingdoms-places:
       icon: "♜"
       description: Neighborhoods, public places, and institutions inside the capital.
       articles:
-        - old-renada
-        - crownrise
-        - mudsteps
-        - rhys-quays
-        - lantern-ward
-        - cathedral-ward
         - great-citadel
         - great-cathedral
-        - rynhold-park
     - id: landmarks
       title: Towers & Landmarks
       eyebrow: STONES OF HISTORY
@@ -53,7 +46,6 @@ kingdoms-places:
       description: Notable sites, ruins, fortifications, and centers of learning.
       articles:
         - black-tower
-        - black-stair
         - great-fork-tower
         - lord-osmos-tower
         - heroes-hill
@@ -169,8 +161,6 @@ history-chronicles:
       description: Investigations, allies, losses, and trials from the Misfits' adventures.
       articles:
         - the-first-commission
-        - the-ripped-beard
-        - moonville-manor
         - the-stalker
         - rotten-husk
         - zauks-false-lives

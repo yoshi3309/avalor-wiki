@@ -84,9 +84,19 @@ Those fragments did not prove that Cid had directly instructed or controlled the
 
 The Lord Marshal called upon the adventurers again to investigate [[The Cult of Gol’Goroth]]. During that work the company gained Heureux and became recognizably the fellowship later celebrated throughout Avalor.
 
+## Moonville Manor
+
+Among the company's early adventures was **Moonville Manor**, a **living house**. The surviving public chronicle does not establish where it stood, what caused its strange nature, or precisely how the encounter ended. Its place in the fellowship's formation is remembered chiefly through the unusual danger the companions experienced together.
+
+The mind flayer [[Zauks and the False Lives|Zauks]] later recreated Moonville Manor as one of several memory-based trials. That imitation was **not a second visit to the original house**; it was an old adventure turned against those who had survived it.
+
+## The Ripped Beard
+
+The **Ripped Beard** is another threat named among the Misfits' earlier travels. The existing public record does not establish whether the name described an individual, a creature, a band, or something else. Historians preserve the encounter without inventing a nature, outcome, or connection to Cid that testimony does not support.
+
 ## II. Adventures beyond the Blood King's shadow
 
-Not every danger the Misfits faced belonged to Cid. They encountered the animated halls of [[Moonville Manor]], the threat called [[The Ripped Beard]], and the wizard [[Noki]], whose transformation into a sheep became one of the stranger episodes of their travels.
+Not every danger the Misfits faced belonged to Cid. They encountered the animated halls of [[The Misfits#moonville-manor|Moonville Manor]], the threat called [[The Misfits#the-ripped-beard|the Ripped Beard]], and the wizard [[Noki]], whose transformation into a sheep became one of the stranger episodes of their travels.
 
 They also helped the [[The Liberation of the Rotten Husk|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
 
@@ -146,7 +156,7 @@ That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained
 
 ## A guide to their stories
 
-A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn and the Hydra]], and [[The Stalker of Stanleyville]].
+A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[The Misfits#moonville-manor|Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn and the Hydra]], and [[The Stalker of Stanleyville]].
 
 The search for the old truth leads through [[Jaznaar’s Hidden Refuge]], [[Jinlin Vechon and the Wrath of Innocent]], and [[Zauks and the False Lives]], before arriving at [[The Tournament of Champions]] and the struggle in the Shadowfell.
 

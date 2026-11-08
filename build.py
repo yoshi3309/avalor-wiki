@@ -77,6 +77,22 @@ for a in ALL:
     ALIAS[slugify(a['title'])] = a['slug']
     ALIAS[slugify(a['slug'])] = a['slug']
 ALIAS.update({'avalor':'kingdom-of-avalor','misfits':'the-misfits','tel-lora':'tellora-ebbenflow',"heavens-heart":'heavens-heart','royal-commission-of-historical-inquiry':'royal-commission-historical-inquiry'})
+# Retired entries remain accessible as anchors in authoritative parent articles.
+# Their old slugs and titles keep resolving even after the source files are consolidated.
+MERGES = (yaml.safe_load((ROOT/'data'/'article-merges.yml').read_text(encoding='utf-8')) or {}).get('retired', {})
+for obsolete_slug, rule in MERGES.items():
+    if obsolete_slug in BY_SLUG:
+        raise ValueError(f'Retired article {obsolete_slug} still has a standalone source file')
+    if rule['parent'] not in BY_SLUG:
+        raise ValueError(f'Retired article {obsolete_slug} points to missing parent {rule["parent"]}')
+    if not re.fullmatch(r'[a-z0-9-]+',str(rule['section'])):
+        raise ValueError(f'Retired article {obsolete_slug} has invalid section')
+    for alias_name in (obsolete_slug,rule['title']):
+        name_key = slugify(alias_name)
+        if name_key in ALIAS and ALIAS[name_key] != obsolete_slug:
+            raise ValueError(f'Retired article {obsolete_slug} collides with alias {alias_name}')
+        ALIAS[name_key] = obsolete_slug
+MERGE_BY_DESTINATION={(r['parent'],r['section']):{'slug':old,'title':r['title']} for old,r in MERGES.items()}
 
 @lru_cache
 
@@ -89,6 +105,9 @@ def resolve_wikilink_target(target):
     article_slug = ALIAS.get(slugify(article_name))
     if not article_slug:
         return None
+    if article_slug in MERGES:
+        retired = MERGES[article_slug]
+        return (retired['parent'],retired['section'])
     anchor = slugify(heading) if divider else ''
     if divider and not anchor:
         return None
@@ -111,9 +130,11 @@ def render_fact_value(value):
     """
     raw = str(value).strip()
     if '[[' not in raw:
-        slug = ALIAS.get(slugify(raw))
-        if slug in BY_SLUG:
-            return f'<a href="../../articles/{slug}/">{html.escape(raw)}</a>'
+        resolved = resolve_wikilink_target(raw)
+        if resolved:
+            slug, anchor = resolved
+            suffix = f'#{anchor}' if anchor else ''
+            return f'<a href="../../articles/{slug}/{suffix}">{html.escape(raw)}</a>'
         return html.escape(raw)
     parts = []
     position = 0
@@ -162,6 +183,9 @@ def make_html(article):
     return article
 ALL=[make_html(a) for a in ALL]
 BY_SLUG={a['slug']:a for a in ALL}
+for old, rule in MERGES.items():
+    if rule['section'] not in {h['id'] for h in BY_SLUG[rule['parent']]['headings']}:
+        raise ValueError(f'Retired record {old} points to missing section {rule["parent"]}#{rule["section"]}')
 for cat in CATEGORIES:cat['count']=len([a for a in ALL if a['category']==cat['name']])
 FEATURED=[a for a in ALL if a.get('featured')]
 FEATURED.sort(key=lambda a:['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'].index(a['slug']) if a['slug'] in ['kingdom-of-avalor','renada','lavitz-shawe','the-misfits','the-aegis','house-frozenroar'] else 50)
@@ -194,19 +218,32 @@ for raw in MAP.get('locations', []):
     placed = x is not None and y is not None
     if placed and not (0 <= x <= 100 and 0 <= y <= 100):
         raise ValueError(f'{ident}: coordinates out of bounds')
-    article_slug = str(raw.get('article') or '').strip()
-    if article_slug and article_slug not in BY_SLUG:
-        raise ValueError(f'{ident}: article filename {article_slug} does not exist')
+    def map_reference(raw_ref):
+        raw_ref = str(raw_ref or '').strip()
+        if not raw_ref:
+            return ('','', '')
+        base, _, anchor = raw_ref.partition('#')
+        if base in MERGES:
+            r = MERGES[base]
+            return (r['parent'],r['section'],r['title'])
+        if base not in BY_SLUG:
+            raise ValueError(f'{ident}: map article {raw_ref} does not exist')
+        if anchor and anchor not in {h['id'] for h in BY_SLUG[base]['headings']}:
+            raise ValueError(f'{ident}: map section {raw_ref} does not exist')
+        match = MERGE_BY_DESTINATION.get((base,anchor)) if anchor else None
+        return (base,anchor,match['title'] if match else BY_SLUG[base]['title'])
+    article_slug, article_anchor, _ = map_reference(raw.get('article'))
     subplace_slugs = [s.strip() for s in str(raw.get('related_places') or '').split(',') if s.strip()]
-    for subslug in subplace_slugs:
-        if subslug not in BY_SLUG:
-            raise ValueError(f'{ident}: nested article {subslug} does not exist')
-    subplaces = [{'slug': s, 'name': BY_SLUG[s]['title']} for s in subplace_slugs]
+    subplaces = []
+    for source in subplace_slugs:
+        slug, anchor, name = map_reference(source)
+        if slug:
+            subplaces.append({'slug':slug,'anchor':anchor,'name':name})
     MAP_LOCATIONS.append({
         'id':ident, 'name':str(raw.get('name') or ident),
         'type':kind,'x':x,'y':y,'placed':placed,
         'description':str(raw.get('description') or ''),
-        'article':article_slug,'subplaces':subplaces,
+        'article':article_slug,'article_anchor':article_anchor,'subplaces':subplaces,
         'published':bool(raw.get('published',True)),
         'provisional':bool(raw.get('provisional',False)),
     })
@@ -338,10 +375,28 @@ for a in ALL:
     related=[]
     related_seen=set()
     for related_slug in a['related_slugs']:
-        if related_slug in BY_SLUG and related_slug != a['slug'] and related_slug not in related_seen:
-            related.append(BY_SLUG[related_slug])
-            related_seen.add(related_slug)
+        destination = MERGES[related_slug]['parent'] if related_slug in MERGES else related_slug
+        if destination in BY_SLUG and destination != a['slug'] and destination not in related_seen:
+            related.append(BY_SLUG[destination])
+            related_seen.add(destination)
     render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']))
+# Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
+for old, rule in MERGES.items():
+    target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
+    label=html.escape(str(rule['title']))
+    location=html.escape(target,quote=True)
+    destination=html.escape(rule['parent'].replace('-',' ').title())
+    redirect_path=PUBLIC/'articles'/old/'index.html'
+    redirect_path.parent.mkdir(parents=True,exist_ok=True)
+    redirect_path.write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        f'<title>{label} — Archives of Avalor</title>'
+        f'<meta http-equiv="refresh" content="0; url={location}">'
+        f'<link rel="canonical" href="{location}">'
+        '<meta name="robots" content="noindex"></head>'
+        f'<body><p>{label} is now part of {destination}. '
+        f'<a href="{location}">Open the section</a>.</p></body></html>',
+        encoding='utf-8')
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
 # All search data is intentionally player-facing and comes only from public article sources.

@@ -119,7 +119,7 @@ locations:
     description: Royal capital of Avalor, on the River Rhys; home to the Great
       Citadel and royal court.
     article: renada
-    related_places: great-citadel,great-cathedral,crownrise,old-renada,lantern-ward,rhys-quays,cathedral-ward,rynhold-park,mudsteps
+    related_places: great-citadel,great-cathedral,renada#crownrise,renada#old-renada,renada#lantern-ward-and-the-markets,renada#rhys-quays,renada#cathedral-ward,renada#rynhold-park-and-public-memory,renada#the-mudsteps
     published: true
     provisional: false
   - id: heavens-heart
@@ -206,8 +206,8 @@ locations:
     type: historic
     x: 27.79
     y: 29.76
-    description: Difficult mountain approach near Heaven's Heart.
-    article: black-stair
+    description: Steep approach leading to the Black Tower; Heaven's Heart is nearby but not the destination.
+    article: black-tower#the-black-stair
     published: true
     provisional: false
   - id: lord-osmos-tower

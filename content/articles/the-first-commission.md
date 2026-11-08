@@ -6,7 +6,7 @@ category: History & Chronicles
 entry: HIS.015
 era: "Age of the Misfits"
 facts: "Commissioner: The preceding Lord Marshal\nThreat: An unnamed necromancer\nResult: The adventurers defeated the practitioner\nLater evidence: Fragments of magical research\nDistinct later enemy: Jaaris"
-related: the-misfits,cult-of-golgoroth,moonville-manor,rotten-husk,the-ripped-beard
+related: the-misfits,cult-of-golgoroth,rotten-husk,noki-the-sheep
 source: "The Living Chronicle, Chapter VI, I–II; Master Canon Bible Volume I, V"
 featured: false
 ---
@@ -33,7 +33,7 @@ Their loyalty grew through decisions to stand together beyond the end of any one
 
 ## A road of unrelated wonders
 
-Among their later encounters were the living [[Moonville Manor]], the threat called [[The Ripped Beard]], and [[Noki]], a wizard transformed into a sheep. They helped the [[The Liberation of the Rotten Husk|Rotten Husk]] orc tribe escape a chieftain who had become a danger to his people.
+Among their later encounters were the living [[The Misfits#moonville-manor|Moonville Manor]], the threat called [[The Misfits#the-ripped-beard|the Ripped Beard]], and [[Noki]], a wizard transformed into a sheep. They helped the [[The Liberation of the Rotten Husk|Rotten Husk]] orc tribe escape a chieftain who had become a danger to his people.
 
 Not every such story led to Cid. For those affected by each adventure, however, the outcome could matter more immediately than the mystery that would one day bring the Misfits renown.
 

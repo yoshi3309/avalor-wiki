@@ -11,7 +11,7 @@ facts: |-
   Associated figure: Aldus Greystone III
   Historic event: The Black Tower catastrophe
   Access: Long restricted by the crown
-related: sundering-of-the-six,blood-sickness,betrayers-legend,jaznaar,great-desert
+related: heavens-heart,spine-of-the-world,sundering-of-the-six,blood-sickness,betrayers-legend,jaznaar,great-desert
 source: Compendium II · Entry II.003, II–IV; The Living Chronicle, Chapter IV
 featured: false
 ---
@@ -21,6 +21,14 @@ featured: false
 The **Black Tower** stands in the [[Spine of the World]], where its name became a warning to travelers and students of magic. For generations, the crown restricted entry. Dangerous approaches and accounts of disappearances helped reinforce the prohibition without requiring a permanent army at its gates.
 
 Its reputation is not merely architectural. The tower is remembered as the place where one of Avalor's most admired healers crossed boundaries his companions could no longer accept.
+
+## The Black Stair
+
+**The Black Stair** is the steep mountain ascent leading **to the Black Tower** through the [[Spine of the World]]. Its difficult climb, severe stone approaches, and reputation among travelers have made it part of the tower's warning long before one reaches the site itself.
+
+The sanctuary of [[Heaven's Heart]] lies nearby in the same mountainous region, but **the Black Stair is not the road to that sanctuary**. It leads toward Aldus's tower. Confusing the two places misrepresents their distinct histories: one is known for paladin training and scholarship; the other for forbidden experiments, long-standing restrictions, and the catastrophe that divided the Six.
+
+The royal prohibition upon access to the tower made the stair's destination particularly ominous. The public sources do not identify an authenticated ancient builder or a separate magical purpose for every stone of the ascent. Its significance is as the route to the Black Tower, not as an independent institution.
 
 ## The work of Aldus Greystone III
 
