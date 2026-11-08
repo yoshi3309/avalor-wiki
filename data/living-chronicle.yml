@@ -1,0 +1,203 @@
+# Public historical events already documented in the Living Chronicle.
+# The selection, sequence, wording and dates below come from the prior build.py
+# EVENTS list. Filters/period labels are an editorial navigation layer only.
+# "reign" means a ruler's reign dates, NOT precise dates for every event described.
+periods:
+  - id: founding
+    title: The Founding
+    subtitle: Before 1 AF to the early kingdom
+    intro: Rival crowns became allies, a kingdom was formed, and the first great fellowship faced a catastrophe.
+  - id: early-crown
+    title: The Early Crown
+    subtitle: The first centuries of rule
+    intro: Royal succession, inherited rights, and the difficult work of holding the new kingdom together.
+  - id: divided-kingdom
+    title: A Divided Kingdom
+    subtitle: The struggle around the lion throne
+    intro: Contested sovereignty and reconciliation tested the very idea of a united realm.
+  - id: crown-and-conscience
+    title: Crown and Conscience
+    subtitle: Restriction, reform, and war
+    intro: The kingdom confronted injustices, changes in law, and the cost of royal decisions.
+  - id: present-age
+    title: The Present Age
+    subtitle: Gradvum, the Misfits, and what followed
+    intro: An ancient deception came to light, and Avalor entered a new chapter of its history.
+
+topics:
+  - {id: founding, label: Founding & magic}
+  - {id: crown, label: Crown & succession}
+  - {id: rights, label: Rights & reform}
+  - {id: heroes, label: Heroes & legacy}
+
+date_kinds:
+  - {id: exact, label: Recorded year, description: A specific year stated in the public record; not necessarily a precisely dated day.}
+  - {id: span, label: Recorded span, description: A range of years directly associated with the event.}
+  - {id: reign, label: Reign-based period, description: The years shown are one or more monarchs' reigns, not independently confirmed dates for every event described.}
+  - {id: approximate, label: Approximate, description: The surviving accounts place the event near a year but do not confirm that exact anniversary.}
+  - {id: relative, label: Relative interval, description: The interval is described relative to another event, without a confirmed absolute year.}
+  - {id: uncertain, label: Before the founding, description: The events occurred before 1 AF, but an exact year is not established.}
+
+events:
+  - id: gathering-of-crowns
+    date: Before 1 AF
+    date_kind: uncertain
+    period: founding
+    topic: founding
+    era: THE FOUNDING WARS
+    title: The northern crowns unite against Osmo
+    text: Rynhold of Kroubia helps assemble an alliance against the mortal conqueror. Bradgem Glav dies defeating Osmo at Heroes Hill; the exact battle year is not established.
+    article: founding-wars
+  - id: kingdom-established
+    date: 1 AF
+    date_kind: exact
+    period: founding
+    topic: founding
+    era: THE FOUNDING
+    title: The kingdom is established
+    text: After the struggle against Lord Osmo and the victory at Heroes Hill, Rynhold unites allied northern realms by political agreement. The battle's precise year is not separately settled.
+    article: unification-of-avalor
+  - id: black-tower
+    date: c. 10 AF
+    date_kind: approximate
+    period: founding
+    topic: founding
+    era: THE FOUNDING
+    title: The Black Tower catastrophe
+    text: Aldus's experiments bring calamity in the early kingdom. The date is approximate, not an independently confirmed anniversary.
+    article: sundering-of-the-six
+  - id: first-successors
+    date: 38–106 AF
+    date_kind: reign
+    period: early-crown
+    topic: crown
+    era: THE EARLY CROWN
+    title: The first successors
+    text: Benedikt preserves the union; Queen Aldara later directs the Royal Survey of the Crossings. Their reigns are 38–71 and 72–106 AF respectively.
+    article: house-frozenroar
+  - id: elven-concord
+    date: 107–155 AF
+    date_kind: reign
+    period: early-crown
+    topic: rights
+    era: THE ELVEN CONCORD
+    title: Rights of the old forest
+    text: Under Dietmar, conflict with elven communities leads to the Elven Concord, preserving ancestral rights alongside recognition of the crown.
+    article: forest-of-the-fey
+  - id: halton-and-dathyra
+    date: 156–178 AF
+    date_kind: reign
+    period: early-crown
+    topic: crown
+    era: THE ELVEN CONCORD
+    title: Halton and Dathyra
+    text: Halton's marriage to Dathyra Blueshadow strengthens the Concord; they become the parents of Sylavor.
+    article: house-frozenroar
+  - id: sylavor-abdicates
+    date: 298 AF
+    date_kind: exact
+    period: early-crown
+    topic: crown
+    era: ROYAL SUCCESSION
+    title: Sylavor abdicates
+    text: Sylavor steps down voluntarily. Arelis assumes independent sovereign authority despite the former monarch remaining alive.
+    article: house-frozenroar
+  - id: elyra-accession
+    date: 857 AF
+    date_kind: exact
+    period: divided-kingdom
+    topic: crown
+    era: THE DIVIDED KINGDOM
+    title: Elyra takes the crown
+    text: The firstborn of the twins Elyra and Corven becomes queen under the established rules of succession.
+    article: house-frozenroar
+  - id: two-lions-war
+    date: 890–893 AF
+    date_kind: span
+    period: divided-kingdom
+    topic: crown
+    era: THE DIVIDED KINGDOM
+    title: War of the Two Lions
+    text: Corven challenges his elder twin sister Elyra's lawful rule. Elyra dies of illness in 893 AF; the war ends amid a transition.
+    article: house-frozenroar
+  - id: torenna-accession
+    date: 894 AF
+    date_kind: exact
+    period: divided-kingdom
+    topic: crown
+    era: RECONCILIATION
+    title: Torenna's accession
+    text: Elyra's daughter Torenna begins her formal reign and establishes the Concord of the Two Lions. This is not the older Elven Concord.
+    article: house-frozenroar
+  - id: arnauds-edicts
+    date: 1259–1315 AF
+    date_kind: reign
+    period: crown-and-conscience
+    topic: rights
+    era: THE EDICTS
+    title: Arnaud's persecution
+    text: Royal decrees discriminate against drow communities. Jeyse and Cal’el resist the seizure of families sheltered at Heaven's Heart.
+    article: arnauds-edicts
+  - id: reinas-reform
+    date: 1316–1402 AF
+    date_kind: reign
+    period: crown-and-conscience
+    topic: rights
+    era: REFORM
+    title: Reina's reversal
+    text: Queen Reina curtails the restrictions and seeks to restore equal treatment, though prejudice and its consequences endure.
+    article: reinas-reforms
+  - id: wolframs-war
+    date: 1462–1511 AF
+    date_kind: reign
+    period: crown-and-conscience
+    topic: crown
+    era: WAR ACROSS THE SEA
+    title: The cost of Wolfram's reign
+    text: A prolonged overseas war during Wolfram's reign strains the kingdom. The date range identifies his reign, not necessarily every military campaign.
+    article: house-frozenroar
+  - id: wolfram-abdicates
+    date: 1511 AF
+    date_kind: exact
+    period: crown-and-conscience
+    topic: crown
+    era: THE SECOND ABDICATION
+    title: Wolfram relinquishes the crown
+    text: Wolfram voluntarily abdicates through a negotiated settlement to prevent further political division.
+    article: house-frozenroar
+  - id: ysoria-accession
+    date: 1512 AF
+    date_kind: exact
+    period: crown-and-conscience
+    topic: crown
+    era: RESTORATION
+    title: Ysoria accedes
+    text: Queen Ysoria assumes the crown and works to restore trust and oversee the kingdom's foreign commitments.
+    article: house-frozenroar
+  - id: gradvum-accession
+    date: 1983 AF
+    date_kind: exact
+    period: present-age
+    topic: crown
+    era: THE PRESENT REIGN
+    title: Gradvum takes the throne
+    text: Gradvum begins his reign; Queen Melmiri later oversees much of the kingdom's daily administration.
+    article: king-gradvum-frozenroar
+  - id: misfits-victory
+    date: Around 2000 AF
+    date_kind: approximate
+    period: present-age
+    topic: heroes
+    era: THE BLOOD KING’S DEFEAT
+    title: The Misfits uncover the truth
+    text: The Misfits defeat Cid in the Shadowfell. Jaznaar's innocence is publicly proclaimed. The year is approximate.
+    article: jaznaars-vindication
+  - id: ascendancy
+    date: About twenty years later
+    date_kind: relative
+    period: present-age
+    topic: heroes
+    era: THE AGE OF ASCENDANCY
+    title: A kingdom with a wider horizon
+    text: Avalor gains international prominence; Lavitz is Lord Marshal and Tel’Lora is High Wizard. The date remains approximate.
+    article: age-of-ascendancy
