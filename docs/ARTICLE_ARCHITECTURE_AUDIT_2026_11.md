@@ -1,3 +1,15 @@
+## Confirmed consolidation — November 8, 2026
+
+The creator approved these umbrella articles, to keep the wiki focused and allow meaningful sections rather than thin standalones:
+
+- **The Avalorian Forces** (`avalorian-forces`): military hub with separate sections for **The Avalorian Standing Army**, **Lion's Bane**, and **Dina Hyanda**. Their individual command, responsibilities, founding traditions, and coordination remain distinct. Previous article slugs redirect to the relevant section.
+- **The Guilds of Avalor** (`guilds-of-avalor`): shared guild article, particularly the **Thieves Guild** in Olivruch and the **Clerics Guild** in Stannisport; both may be developed further when the creator provides more lore. Keep the independently substantial Hunters Guild and Bard Guild articles.
+- **Independent Factions of the Misfits Era** (`independent-factions-of-the-misfits-era`): separate historical sections for **the Cult of Gol'Goroth** and **the Wrath of Innocent**, including its founder **Jinlin Vechon**. Both suffered defeats during Misfits adventures, but their present-day survival or activity **is not confirmed**. Do not conflate them or assume Cid led the cult.
+- **Rotten Husk Clan** remains an independent article, since it is a people/community rather than just a defeated adversary.
+
+Implemented with source-file retirement, automatic legacy URL redirects, direct section cross-links and revised Organizations & Factions navigation. The architecture has **three new hubs replacing five standalone pages**, a net decrease of two. The article redirect data is in `data/article-merges.yml`.
+
+---
 # Avalor Royal Archives — Editorial Architecture Audit
 **Status:** Second pass completed · 2026-11-07 · **96 public standalone records** at this review  
 **Scope:** Public, established Avalorian material only. No expansion beyond Avalor or publication of Keeper-only information.
