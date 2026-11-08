@@ -63,7 +63,7 @@ This time she recognized its attempt to command her mind. She let it come close,
 
 ## A friend among the Six
 
-Faelynn's long hunt was behind her when she became one of Avalor's founding fellowship. She joined [[Aldus Greystone III]], [[Lowkee Nicklebane|Lowkee]], [[Petris]], [[Kelsalor]], and [[Jaznaar]] in the company remembered as the Six.
+Faelynn's long hunt was behind her when she became one of Avalor's founding fellowship. She joined [[Aldus Greystone III]], [[Lowkee|Lowkee]], [[Petris]], [[Kelsalor]], and [[Jaznaar]] in the company remembered as the Six.
 
 In later years, when Aldus's experiments at the [[Black Tower]] were revealed to be causing suffering, Faelynn leaned toward Lowkee's judgment that their friend must be stopped, even if stopping him meant his death. Petris and Jaznaar still hoped to save him, while Kelsalor tried to hold the fellowship together.
 
