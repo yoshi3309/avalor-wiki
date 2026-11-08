@@ -15,6 +15,8 @@
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
+{% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261108-article-reading-1">{% endif %}
+{% if page_type == "article" %}<script defer src="{{ root }}assets/article-reading.js?v=20261108-article-reading-1"></script>{% endif %}
 <link rel="stylesheet" href="{{ root }}assets/search.css?v=20261108-smart-search-1">
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
