@@ -28,7 +28,7 @@ featured: true
 
 A traveler arriving in [[Renada]] may hear the name **Lavitz Shawe** before ever seeing the man. Some know him as the paladin who helped end the reign of [[Cid the Blood King]]. Others know him as **Lord Marshal**, the officer entrusted with advising the crown on the kingdom's defense. For children in the poorer quarters of the capital, his name means something less distant: one of their own grew up to stand among the realm's highest counselors.
 
-Lavitz did not begin his life among generals or courtiers. He grew up in the [[Mudsteps]], the working neighborhood within the [[Rhys Quays]] district of Renada. The distance between those streets and the [[Great Citadel]] is not merely a matter of steep roads. It is a distance in wealth, influence, and the assumptions a kingdom makes about who is permitted to wield authority.
+Lavitz did not begin his life among generals or courtiers. He grew up in the [[Renada#the-mudsteps|Mudsteps]], the working neighborhood within the [[Rhys Quays]] district of Renada. The distance between those streets and the [[Great Citadel]] is not merely a matter of steep roads. It is a distance in wealth, influence, and the assumptions a kingdom makes about who is permitted to wield authority.
 
 That Lavitz crossed it does not make the hardships of the Mudsteps disappear. It makes his appointment unusually meaningful.
 
