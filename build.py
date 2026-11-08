@@ -26,26 +26,35 @@ CATEGORIES = [
     {'name':'History & Chronicles','slug':'history-chronicles','icon':'◷','description':'Wars, discoveries, and the turning of the ages.'},
     {'name':'Faith, Magic & Cosmology','slug':'faith-magic-cosmology','icon':'✧','description':'Divinity, traditions, and the questions beyond the known.'},
 ]
-EVENTS = [
-    {'date':"Before 1 AF",'era':"THE FOUNDING WARS",'title':"The northern crowns unite against Osmo",'text':"Rynhold of Kroubia helps assemble an alliance against the mortal conqueror. Bradgem Glav dies defeating Osmo at Heroes Hill; the exact battle year is not established.",'article':"founding-wars"},
-    {'date':"1 AF",'era':"THE FOUNDING",'title':"The kingdom is established",'text':"After the struggle against Lord Osmo and the victory at Heroes Hill, Rynhold unites allied northern realms by political agreement. The battle's precise year is not separately settled.",'article':"unification-of-avalor"},
-    {'date':"c. 10 AF",'era':"THE FOUNDING",'title':"The Black Tower catastrophe",'text':"Aldus's experiments bring calamity in the early kingdom. The date is approximate, not an independently confirmed anniversary.",'article':"sundering-of-the-six"},
-    {'date':"38–106 AF",'era':"THE EARLY CROWN",'title':"The first successors",'text':"Benedikt preserves the union; Queen Aldara later directs the Royal Survey of the Crossings. Their reigns are 38–71 and 72–106 AF respectively.",'article':"house-frozenroar"},
-    {'date':"107–155 AF",'era':"THE ELVEN CONCORD",'title':"Rights of the old forest",'text':"Under Dietmar, conflict with elven communities leads to the Elven Concord, preserving ancestral rights alongside recognition of the crown.",'article':"forest-of-the-fey"},
-    {'date':"156–178 AF",'era':"THE ELVEN CONCORD",'title':"Halton and Dathyra",'text':"Halton's marriage to Dathyra Blueshadow strengthens the Concord; they become the parents of Sylavor.",'article':"house-frozenroar"},
-    {'date':"298 AF",'era':"ROYAL SUCCESSION",'title':"Sylavor abdicates",'text':"Sylavor steps down voluntarily. Arelis assumes independent sovereign authority despite the former monarch remaining alive.",'article':"house-frozenroar"},
-    {'date':"857 AF",'era':"THE DIVIDED KINGDOM",'title':"Elyra takes the crown",'text':"The firstborn of the twins Elyra and Corven becomes queen under the established rules of succession.",'article':"house-frozenroar"},
-    {'date':"890–893 AF",'era':"THE DIVIDED KINGDOM",'title':"War of the Two Lions",'text':"Corven challenges his elder twin sister Elyra's lawful rule. Elyra dies of illness in 893 AF; the war ends amid a transition.",'article':"house-frozenroar"},
-    {'date':"894 AF",'era':"RECONCILIATION",'title':"Torenna's accession",'text':"Elyra's daughter Torenna begins her formal reign and establishes the Concord of the Two Lions. This is not the older Elven Concord.",'article':"house-frozenroar"},
-    {'date':"1259–1315 AF",'era':"THE EDICTS",'title':"Arnaud's persecution",'text':"Royal decrees discriminate against drow communities. Jeyse and Cal’el resist the seizure of families sheltered at Heaven's Heart.",'article':"arnauds-edicts"},
-    {'date':"1316–1402 AF",'era':"REFORM",'title':"Reina's reversal",'text':"Queen Reina curtails the restrictions and seeks to restore equal treatment, though prejudice and its consequences endure.",'article':"reinas-reforms"},
-    {'date':"1462–1511 AF",'era':"WAR ACROSS THE SEA",'title':"The cost of Wolfram's reign",'text':"A prolonged overseas war during Wolfram's reign strains the kingdom. The date range identifies his reign, not necessarily every military campaign.",'article':"house-frozenroar"},
-    {'date':"1511 AF",'era':"THE SECOND ABDICATION",'title':"Wolfram relinquishes the crown",'text':"Wolfram voluntarily abdicates through a negotiated settlement to prevent further political division.",'article':"house-frozenroar"},
-    {'date':"1512 AF",'era':"RESTORATION",'title':"Ysoria accedes",'text':"Queen Ysoria assumes the crown and works to restore trust and oversee the kingdom's foreign commitments.",'article':"house-frozenroar"},
-    {'date':"1983 AF",'era':"THE PRESENT REIGN",'title':"Gradvum takes the throne",'text':"Gradvum begins his reign; Queen Melmiri later oversees much of the kingdom's daily administration.",'article':"king-gradvum-frozenroar"},
-    {'date':"Around 2000 AF",'era':"THE BLOOD KING’S DEFEAT",'title':"The Misfits uncover the truth",'text':"The Misfits defeat Cid in the Shadowfell. Jaznaar's innocence is publicly proclaimed. The year is approximate.",'article':"jaznaars-vindication"},
-    {'date':"About twenty years later",'era':"THE AGE OF ASCENDANCY",'title':"A kingdom with a wider horizon",'text':"Avalor gains international prominence; Lavitz is Lord Marshal and Tel’Lora is High Wizard. The date remains approximate.",'article':"age-of-ascendancy"},
-]
+# Living Chronicle events and filters are maintained in data/living-chronicle.yml.
+# This deliberately carries over the previously published event text unchanged.
+CHRONICLE_SOURCE = yaml.safe_load((ROOT / 'data' / 'living-chronicle.yml').read_text(encoding='utf-8')) or {}
+PERIODS = CHRONICLE_SOURCE.get('periods') or []
+TOPICS = CHRONICLE_SOURCE.get('topics') or []
+DATE_KINDS = CHRONICLE_SOURCE.get('date_kinds') or []
+EVENTS = CHRONICLE_SOURCE.get('events') or []
+for name, items in [('period', PERIODS), ('topic', TOPICS), ('date kind', DATE_KINDS)]:
+    keys = [item.get('id') for item in items]
+    if not keys or len(keys) != len(set(keys)):
+        raise ValueError(f'Chronicle has empty or duplicate {name} filters')
+    if any(not item.get('label' if name != 'period' else 'title') for item in items):
+        raise ValueError(f'Chronicle {name} filter lacks its display title')
+valid_periods = {item['id'] for item in PERIODS}
+valid_topics = {item['id'] for item in TOPICS}
+valid_kinds = {item['id'] for item in DATE_KINDS}
+event_ids = set()
+for event in EVENTS:
+    ident = str(event.get('id') or '')
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident) or ident in event_ids:
+        raise ValueError(f'Chronicle event has invalid or duplicate id: {ident}')
+    event_ids.add(ident)
+    if event.get('period') not in valid_periods or event.get('topic') not in valid_topics or event.get('date_kind') not in valid_kinds:
+        raise ValueError(f'Chronicle event {ident}: unknown period/topic/date precision')
+    if any(not event.get(field) for field in ('date','era','title','text','article')):
+        raise ValueError(f'Chronicle event {ident}: missing required public details')
+    event['date_note'] = next(kind['description'] for kind in DATE_KINDS if kind['id'] == event['date_kind'])
+    event['date_label'] = next(kind['label'] for kind in DATE_KINDS if kind['id'] == event['date_kind'])
+    event['period_title'] = next(period['title'] for period in PERIODS if period['id'] == event['period'])
 
 def slugify(value):
     value=unicodedata.normalize('NFKD',value.lower())
@@ -71,6 +80,9 @@ def read_source(path):
 
 ALL = sorted([read_source(p) for p in CONTENT.glob('*.md')],key=lambda a:a['title'].lower())
 BY_SLUG={a['slug']:a for a in ALL}
+for event in EVENTS:
+    if event['article'] not in BY_SLUG:
+        raise ValueError(f'Chronicle event {event["id"]}: unknown public article {event["article"]}')
 if not ALL:raise RuntimeError('No public articles found')
 ALIAS={}
 for a in ALL:
@@ -526,7 +538,7 @@ for graph in RELATIONSHIP_MAPS:
 render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title='Reading Journeys',crumbs='Reading Journeys',journeys=JOURNEYS)
 for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
-render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS)
+render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS,periods=PERIODS,topics=TOPICS,date_kinds=DATE_KINDS,journeys=JOURNEYS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
 # All search data is intentionally player-facing and comes only from public article sources.
 index=[{k:a.get(k,'') for k in ('slug','title','category','entry','summary','featured','body')} for a in ALL]
