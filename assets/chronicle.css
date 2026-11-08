@@ -1,0 +1,62 @@
+/* Living Chronicle 2.0: additive layout, existing Royal Archives palette */
+.chronicle-v2{max-width:1260px;margin:0 auto}
+.chronicle-hero{padding:42px 0 27px;max-width:900px}
+.chronicle-hero h1{font:500 clamp(36px,4.5vw,58px)/1.2 var(--font-display);color:#f1e3c6;margin:14px 0}
+.chronicle-hero p{font:15px/1.95 var(--font-literary);color:#c0c9c6;max-width:720px}
+.chronicle-masthead{display:flex;align-items:center;gap:19px;flex-wrap:wrap;font-size:10px;letter-spacing:.13em;color:#d9bc86;margin-top:25px}
+.chronicle-masthead span:nth-child(2){font-size:18px}
+.chronicle-calendar{max-width:none;margin:12px 0 32px}
+.chronicle-calendar strong{font:500 13px var(--font-display);color:#e7d5b5}
+.chronicle-calendar p{margin-top:5px}
+.chronicle-controls{padding:25px 28px 20px;background:linear-gradient(145deg,#25353c,#1b2b33);border:1px solid #5b584c;margin-bottom:40px}
+.chronicle-controls-heading{display:flex;justify-content:space-between;align-items:end;gap:16px}
+.chronicle-controls-heading h2{margin:5px 0 0;font:500 23px var(--font-display);color:#e9d8b6}
+.chronicle-reset{padding:8px 11px;background:transparent;color:#d8ba86;border:1px solid #655c47;font-size:11px}
+.chronicle-reset:hover,.chronicle-reset:focus-visible{background:#3a3d37}
+.chronicle-periods{border:0;padding:0;margin:22px 0}
+.chronicle-periods legend,.chronicle-filter-row label{font-size:11px;color:#c9b688;font-weight:700;letter-spacing:.05em}
+.chronicle-period-buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:10px}
+.chronicle-period{background:#192a31;border:1px solid #51605b;color:#c8d0c8;font-size:11px;padding:10px 14px;min-height:37px}
+.chronicle-period:hover,.chronicle-period:focus-visible{border-color:#d4ad75}
+.chronicle-period.active{background:#755e3d;border-color:#dfba80;color:#fff7de}
+.chronicle-filter-row{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:14px}
+.chronicle-filter-row label{display:flex;flex-direction:column;gap:8px}
+.chronicle-filter-row select,.chronicle-filter-row input{width:100%;min-width:0;padding:11px 12px;border:1px solid #57665e;border-radius:2px;background:#12232b;color:#ebeadf;font:12px var(--font-body)}
+.chronicle-filter-row select:focus-visible,.chronicle-filter-row input:focus-visible{outline:2px solid #e3c18a}
+.chronicle-filter-status{margin-top:19px;padding-top:13px;border-top:1px solid #45544e;display:flex;justify-content:space-between;gap:13px;flex-wrap:wrap;font-size:11px;color:#b9c5c1}
+#chronicle-count{color:#ead5a5;font-weight:700}
+.chronicle-layout{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:36px;align-items:start}
+.chronicle-main{min-width:0}
+.chronicle-period-section{scroll-margin-top:22px;margin-bottom:27px}
+.chronicle-period-section[hidden],.chronicle-event[hidden],.chronicle-empty[hidden]{display:none!important}
+.chronicle-period-heading{display:flex;gap:20px;align-items:start;padding:0 0 24px;border-bottom:1px solid #49544c;margin-bottom:23px}
+.chronicle-period-index{flex:none;width:50px;height:50px;border:1px solid #77684b;display:flex;align-items:center;justify-content:center;font:23px var(--font-display);color:#e2c18b;background:#2c3736}
+.chronicle-period-heading h2{font:500 26px var(--font-display);color:#f0debc;margin:5px 0}
+.chronicle-period-heading p{font:12px/1.85 var(--font-literary);color:#aebfba;max-width:625px;margin:6px 0}
+.chronicle-v2 .history-timeline{max-width:none}
+.chronicle-v2 .history-event{grid-template-columns:128px 22px minmax(0,1fr);gap:13px}
+.chronicle-v2 .history-event:before{left:151px}
+.chronicle-v2 .history-date{font-size:12px;line-height:1.5;padding-top:12px}
+.chronicle-v2 .history-date small{display:block;font:10px/1.5 var(--font-body);color:#9daaa6;margin-top:6px}
+.chronicle-v2 .history-copy{padding:7px 0 36px}
+.chronicle-v2 .history-copy h3{font:500 19px/1.5 var(--font-display);color:#e9dcc2;margin:8px 0}
+.chronicle-v2 .history-copy p{max-width:740px}
+.chronicle-event-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px}
+.chronicle-event-actions a{color:#ddbb83;font-size:11px;font-weight:700}
+.chronicle-date-note{font-size:10px;color:#9caaa7;cursor:help}
+.chronicle-v2 .timeline-end{margin-left:0;padding:14px 0 22px;text-align:center}
+.chronicle-empty{margin:0 0 34px;padding:27px;background:#2b3638;border:1px solid #6d614d;color:#ead6b3;font:13px/1.8 var(--font-literary)}
+.chronicle-sidebar{display:flex;flex-direction:column;gap:17px;position:sticky;top:18px}
+.chronicle-side-panel{padding:20px;background:#21313a;border:1px solid #444f4a}
+.chronicle-side-panel h2{font:500 18px/1.45 var(--font-display);color:#e7d7b8;margin:8px 0 12px}
+.chronicle-side-panel p{font-size:11px;line-height:1.85;color:#b0bdb8}
+.chronicle-side-panel nav{display:grid;gap:3px}
+.chronicle-side-panel nav a{display:flex;gap:8px;color:#bdc7c1;border-bottom:1px solid #374844;padding:8px 0;font-size:11px;line-height:1.5}
+.chronicle-side-panel nav a span{color:#c6a670}
+.chronicle-side-panel nav a:hover,.chronicle-side-link:hover{color:#f3d399}
+.chronicle-side-link{display:block;color:#ddb77c;font-size:11px;padding:6px 0}
+.chronicle-precision-guide{padding:17px 20px;border:1px solid #56564c;background:#22323a}
+.chronicle-precision-guide summary{cursor:pointer;color:#e2c48e;font-size:12px}
+.chronicle-precision-guide p{font-size:11px;color:#b8c5bf;line-height:1.8}
+@media(max-width:1000px){.chronicle-layout{grid-template-columns:minmax(0,1fr)}.chronicle-sidebar{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:710px){.chronicle-hero{padding-top:25px}.chronicle-hero p{font-size:13px}.chronicle-controls{padding:19px 17px}.chronicle-controls-heading{align-items:start}.chronicle-controls-heading h2{font-size:19px}.chronicle-filter-row{grid-template-columns:1fr}.chronicle-period-buttons{gap:7px}.chronicle-period{font-size:10px;padding:9px 10px}.chronicle-period-heading{gap:13px}.chronicle-period-index{width:38px;height:40px;font-size:17px}.chronicle-period-heading h2{font-size:20px}.chronicle-v2 .history-event{grid-template-columns:74px 16px minmax(0,1fr);gap:9px}.chronicle-v2 .history-event:before{left:91px}.chronicle-v2 .history-date{font-size:10px}.chronicle-v2 .history-date small{font-size:9px}.chronicle-v2 .history-copy h3{font-size:16px}.chronicle-sidebar{grid-template-columns:1fr}.chronicle-masthead{gap:10px;font-size:9px}}
