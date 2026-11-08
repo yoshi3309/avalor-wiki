@@ -160,6 +160,45 @@ for journey in routes.get("journeys", []):
         if not step.get("label") or not step.get("introduction"):
             problems.append(f"{journey_id}: incomplete step for {slug}")
 
+
+# The relationship atlas is an editorial index of public records. Reject missing
+# articles, broken links, and duplicated or invented-looking structural references.
+atlas = yaml.safe_load((ROOT / "data" / "relationship-maps.yml").read_text(encoding="utf-8")) or {}
+relationship_ids = set()
+allowed_kinds = {"group", "person", "royal"}
+allowed_types = {"fellowship", "later", "parent", "consort", "sibling"}
+for relationship in atlas.get("maps", []):
+    ident = str(relationship.get("id") or "")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", ident) or ident in relationship_ids:
+        problems.append(f"Relationship map has invalid or duplicate id {ident}")
+    relationship_ids.add(ident)
+    if relationship.get("related_article") not in entries:
+        problems.append(f"{ident}: missing main source article")
+    if any(not relationship.get(k) for k in ("title", "subtitle", "summary", "note", "icon")):
+        problems.append(f"{ident}: incomplete map metadata")
+    node_ids = set()
+    for node in relationship.get("nodes", []):
+        node_id = str(node.get("id") or "")
+        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", node_id) or node_id in node_ids:
+            problems.append(f"{ident}: invalid or duplicate node id {node_id}")
+        node_ids.add(node_id)
+        if node.get("article") and node["article"] not in entries:
+            problems.append(f"{ident}: node {node_id} links to nonpublic article")
+        if node.get("kind") not in allowed_kinds or not node.get("label") or not node.get("detail"):
+            problems.append(f"{ident}: missing data for {node_id}")
+        if not 6 <= float(node.get("x", -1)) <= 94 or not 6 <= float(node.get("y", -1)) <= 94:
+            problems.append(f"{ident}: node coordinates invalid for {node_id}")
+    seen_links = set()
+    for edge in relationship.get("edges", []):
+        a, b = edge.get("from"), edge.get("to")
+        pair = tuple(sorted([str(a), str(b)]))
+        if a not in node_ids or b not in node_ids or a == b or pair in seen_links:
+            problems.append(f"{ident}: missing, repeated or invalid edge {a}/{b}")
+        seen_links.add(pair)
+        if edge.get("type") not in allowed_types or not edge.get("label"):
+            problems.append(f"{ident}: incomplete relationship for {a}/{b}")
+
+
 if problems:
     print("PUBLIC CANON CHECK FAILED:")
     for problem in problems:
