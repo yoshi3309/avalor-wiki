@@ -20,10 +20,11 @@ facts: |-
   Former training: Shamman’s Tower
   Companion: Kali'mari the octopus
   Nickname: Tel'Lora the Moist
-  Family legacy: Mother's spellbook; father's kraken-tooth knife
+  Family legacy: Mother's spellbook and ice-blue crystal; father's kraken-tooth knife
+  Crystal: One of two stones linked to Jaznaar's hidden refuge
   Historic encounter: Jaznaar's hidden refuge
 related: the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,cove-city,jaznaar,the-first-commission,zauks-false-lives
-source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001 and II.003; author-approved World Anvil biography and tower history (November 2026)
+source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001 and II.003; author-confirmed World Anvil biography, tower and crystal history (November 2026)
 featured: false
 ---
 
@@ -43,7 +44,7 @@ His parents met through the **kraken oil trade**. Tel'Lora's human father hunted
 
 His elven mother had served as an **arcane adviser to the royal court**, studying the kingdom's mysteries before returning to a life in which her son could watch her work. Her spellcasting seemed almost like a dance. Water followed the movements of her hands, forming little streams and droplets as she spoke her incantations.
 
-Tel'Lora inherited her affinity for water magic, along with a fair measure of her social awkwardness. When she died, her spellbook became one of his most treasured possessions. Its pages were both an education and a way of remaining close to the woman whose magic had first filled him with wonder.
+Tel'Lora inherited her affinity for water magic, along with a fair measure of her social awkwardness. When she died, Tel'Lora inherited her spellbook and an **ice-blue crystal** that had served as her arcane focus and could purify water. He treasured both: the book held the lessons she had written, while the crystal recalled the water that once moved so gracefully around her hands.
 
 ## Kali'mari and the sound of wet boots
 
@@ -97,7 +98,7 @@ For a future High Wizard, Stanleyville was an especially stark illustration of w
 
 Among Tel'Lora's most consequential encounters was the meeting with [[Jaznaar]] at [[Jaznaar's Hidden Refuge|his hidden refuge]].
 
-The Misfits had followed clues toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]]. Heureux's account also mentions an object associated with Tel'Lora's family. The path was hidden, and the encounter with the last surviving founder would prove more important than any map of its turns.
+The Misfits had followed clues toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]]. Tel'Lora's inherited **ice-blue crystal** proved to be **one of two stones** connected with their search for the hidden refuge. A keepsake from his mother's life had found a place in the greatest mystery of his own. The road led them at last to the surviving founder.
 
 Jaznaar was the last survivor of [[The Six]], remembered for centuries as the Betrayer. He revealed that the healer Aldus Greystone III and the Blood King were the same being, and that he had spent generations resisting the danger his old companion left behind.
 

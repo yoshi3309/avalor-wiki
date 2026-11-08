@@ -13,9 +13,10 @@ facts: |-
   Fellowship: The Six
   Founded: Cathedral Paladins at Heaven's Heart
   Legacy: The First Teaching
-related: the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower
+  Historic sword: Cid's Bane, later given to Lavitz Shawe
+related: the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower,jaznaar,lavitz-shawe
 source: The Living Chronicle, Chapter III; Compendium I · I.004, public
-  Scholar's Account; Compendium II · II.003, public Scholar's Account
+  Scholar's Account; Compendium II · II.003; author-confirmed Cid's Bane history (November 2026)
 featured: false
 ---
 ## The strength to stand for others
@@ -39,6 +40,12 @@ The work of **Aldus Greystone III** eventually divided the Six. Aldus had begun 
 [[Faelynn]] increasingly shared this judgment. [[Petris]] and [[Jaznaar]] still hoped that Aldus might be saved, while [[Kelsalor]] struggled to hold the companions together. Their confrontation at the [[Black Tower]] ended the experiments but did not prevent the catastrophe that followed.
 
 To present the Six as a fellowship united in every judgment would erase the difficulty of their final choice. Lowkee acted from conviction, not from the certainty that every friend agreed with him.
+
+## The sword that outlived him
+
+Lowkee once carried the sword later remembered as **Cid's Bane**. Long after the founding age, his fellow hero [[jaznaar|Jaznaar Mizzrorzza]] entrusted the blade to **[[Lavitz Shawe]]** as the Misfits prepared to confront Cid in the Shadowfell.
+
+The sword's passage from one paladin to another carried a meaning greater than its steel. Lowkee had taught that strength was owed first to those who needed protection. Nearly two thousand years later, the man chosen to wield his sword was a drow whose childhood had been shaped by the kingdom's failure to live up to that teaching.
 
 ## A promise tested after his lifetime
 

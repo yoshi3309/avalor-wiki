@@ -130,9 +130,9 @@ The Misfits departed with Jack in their company and a deepening awareness that t
 
 The adventurers' inquiries eventually led to [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar's hidden refuge]], reached through a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
 
-Jaznaar, the last living member of the founding Six, revealed that **Aldus Greystone III and Cid the Blood King were the same being**. For almost two thousand years Jaznaar had struggled to contain the consequences of Aldus's forbidden experiments while Avalor falsely condemned him as the Betrayer.
+**Jaznaar Mizzrorzza**, the last living member of the founding Six, revealed that **Aldus Greystone III and Cid the Blood King were the same being**. For almost two thousand years Jaznaar had struggled to contain the consequences of Aldus's forbidden experiments while Avalor falsely condemned him as the Betrayer.
 
-He instructed Tel'Lora and entrusted knowledge to the company. His death after their visit left the Misfits with both the truth and the responsibility of acting upon it.
+He instructed Tel'Lora and entrusted knowledge to the company. As they prepared to face Cid, he also gave Lavitz **Cid's Bane**, the sword once carried by his founding companion [[Lowkee]]. His death after their visit left the Misfits with both the truth and the responsibility of acting upon it.
 
 ## Jinlin Vechon and the Wrath of Innocent
 

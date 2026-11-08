@@ -8,7 +8,7 @@ image: /assets/uploads/the-six-beneath-golden-ruins.png
 entry: HIS.003
 era: Founding Age
 facts: |-
-  Fellowship: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar
+  Fellowship: Aldus, Lowkee, Faelynn, Petris, Kelsalor, Jaznaar Mizzrorzza
   Formation: Shortly after Avalor's founding
   Historical bond: Service and friendship across peoples
   Defining fracture: The Black Tower catastrophe
@@ -19,7 +19,7 @@ featured: false
 ---
 ## Six names at the beginning
 
-**[[Aldus Greystone III]]. [[Lowkee]]. [[Faelynn]]. [[Petris]]. [[Kelsalor]]. [[Jaznaar]].**
+**[[Aldus Greystone III]]. [[Lowkee]]. [[Faelynn]]. [[Petris]]. [[Kelsalor]]. [[jaznaar|Jaznaar Mizzrorzza]].**
 
 For generations these names were learned together, spoken in royal halls, and commemorated in songs. The fellowship called **the Six** helped shape Avalor's earliest understanding of what a united kingdom might mean: people of different ancestries, faiths, and temperaments choosing to face danger together.
 

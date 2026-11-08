@@ -48,3 +48,13 @@ This file records user-approved corrections that take precedence over older, con
 ## CMS compatibility
 
 - Public article frontmatter must use YAML block scalars for multiline human-readable facts, not multiline single-quoted strings. Pages CMS rejected the latter even when PyYAML accepted them.
+
+
+## Confirmed World Anvil artifact, surname, and vigil decisions — November 2026
+
+- **Jaznaar's full canonical name is Jaznaar Mizzrorzza.** His familiar short name remains “Jaznaar”; keep the existing `jaznaar` wiki slug and links. His exact spellcasting class (wizard versus sorcerer) is **still unresolved**.
+- **Cid's Bane** is the sword **formerly carried by Lowkee Nicklebane**, later **given by Jaznaar to Lavitz Shawe** before the final confrontation with Cid. Do not invent its enchantment, creation or intermediate chain of custody.
+- **Lavitz's ninety-day vigil** at a **tomb near the foot of the Black Stair** during paladin training is established. The Black Stair remains the route **to the Black Tower**, **not** the way to Heaven's Heart. Never relocate it or imply Lavitz climbed into the tower for the vigil.
+- **Tel'Lora's ice-blue crystal**, inherited from his mother and formerly her arcane focus, is **one of the two stones** associated with the Misfits' discovery of Jaznaar's hidden refuge. The exact puzzle, magical access mechanism and other stone's identity are not public details; do not invent or expose them without a subsequent decision.
+- **Cid's Black Diamond insignia / relationship to the later Black Diamond faction is reserved for a future story.** Do not include it in the public Cid biography or cross-link these storylines as historical fact.
+- These are direct creator decisions superseding the unresolved list in the earlier soft-canon audit issue.

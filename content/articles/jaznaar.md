@@ -7,6 +7,7 @@ image: /assets/uploads/drow-sorcerers-arcane-convergence.png
 entry: BIO.002
 era: Founding Age to Age of the Misfits
 facts: |-
+  Full name: Jaznaar Mizzrorzza
   Ancestry: Drow
   Calling: Spellcaster; exact class unresolved
   Fellowship: The Six
@@ -16,13 +17,13 @@ facts: |-
   Final testimony: The Misfits' visit to his refuge
   Historic status: Publicly vindicated by King Gradvum
 related: the-six,aldus-greystone-iii,sundering-of-the-six,black-tower,betrayers-legend,jaznaars-vindication,tellora-ebbenflow,rynhold-park
-source: The Living Chronicle, Chapters III–IV, VI–VII; Compendium II · Entry II.001, public Scholar's Account
+source: The Living Chronicle, Chapters III–IV, VI–VII; Compendium II · Entry II.001; author-confirmed World Anvil surname, Cid's Bane and crystal history (November 2026)
 featured: false
 ---
 
 ## The sixth name
 
-For most of Avalor's recorded history, **Jaznaar** was remembered with an accusation instead of an honor. The name of the drow spellcaster appeared in official histories, religious commentaries, and songs as that of **the Betrayer**—the supposed traitor whose actions caused the catastrophe at the Black Tower.
+For most of Avalor's recorded history, **Jaznaar Mizzrorzza** was remembered with an accusation instead of an honor. The name of the drow spellcaster appeared in official histories, religious commentaries, and songs as that of **the Betrayer**—the supposed traitor whose actions caused the catastrophe at the Black Tower.
 
 That judgment has been overturned. The public evidence now establishes that Jaznaar was innocent of the betrayal attributed to him. He was one of [[The Six]], a founding hero whose later service protected the kingdom at a cost few of its citizens could have imagined.
 
@@ -92,11 +93,11 @@ The making of the false account is preserved in [[The Betrayer’s Legend]], whi
 
 ## The refuge beyond ordinary knowledge
 
-Near the end of Jaznaar's long watch, [[The Misfits]] found a way to reach his **hidden refuge**. Their investigations led them toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
-
-The path to his refuge was hidden, reached by the Misfits after a search connected to the tomb of [[Bradgem Glav]]. There they finally met the last living member of the Six and heard what had happened at the Black Tower.
+Near the end of Jaznaar's long watch, [[The Misfits]] reached his **hidden refuge**. Their search had taken them toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]]. **Two stones**, one of them the ice-blue crystal inherited by [[Tel'Lora Ebbenflow]] from his mother, played a part in finding the way. Beyond that hidden path, the adventurers finally met the last living member of the Six and learned what had happened at the Black Tower.
 
 Jaznaar identified Aldus and Cid as the same being and described the danger he had spent centuries containing. He also instructed [[Tel'Lora Ebbenflow]], the half-elven wizard among the Misfits, entrusting him with knowledge important to the companions' understanding. The precise lessons passed between Jaznaar and Tel'Lora remain theirs; what followed was a renewed understanding of the danger Cid posed.
+
+Before the companions faced Cid, Jaznaar placed an extraordinary weapon in **[[Lavitz Shawe]]'s** hands: **Cid's Bane**, the sword once carried by his friend **[[lowkee|Lowkee]]**. After centuries of betrayal and false accusations, a blade from the founding fellowship would be carried into the final confrontation by a new generation of protectors.
 
 The meeting gave the adventurers a foundation for their final struggle, but the Royal Commission's historical judgment rests upon the recovered evidence as well as Jaznaar's testimony.
 

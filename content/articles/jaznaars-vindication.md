@@ -6,7 +6,7 @@ category: History & Chronicles
 entry: HIS.024
 era: "Age of Ascendancy"
 facts: |-
-  Vindicated: Jaznaar of the Six
+  Vindicated: Jaznaar Mizzrorzza of the Six
   Proclamation: King Gradvum Frozenroar
   Evidence: The Misfits and historical inquiry
   Earlier law reforms: Reina's reign
@@ -24,7 +24,7 @@ The discoveries were considered through testimony and historical inquiry, not me
 
 ## A proclamation by the crown
 
-**[[King Gradvum Frozenroar]] formally proclaimed Jaznaar innocent**, restoring his name to the royal record among those who had defended the realm at its beginning.
+**[[King Gradvum Frozenroar]] formally proclaimed Jaznaar Mizzrorzza innocent**, restoring his name to the royal record among those who had defended the realm at its beginning.
 
 The announcement required revisions to public histories, memorials, and teaching. The old accusation could no longer stand as the kingdom's official account.
 

@@ -17,13 +17,15 @@ facts: |-
   Parents: Varis and Thia Shawe
   Childhood home: Vixen's Heart, Renada
   Companion: Rodrigo the velociraptor
+  Ancestral sword: Cid's Bane, formerly Lowkee's
+  Paladin vigil: Ninety days at a tomb near the Black Stair
   Training: Heaven's Heart
   Fellowship: The Misfits
   Office: Lord Marshal of Avalor
   Council: The Aegis
   Command: Lion's Bane royal guard
 related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,lions-bane,tellora-ebbenflow,king-gradvum-frozenroar
-source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography (November 2026)
+source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography and vigil / sword details (November 2026)
 featured: true
 ---
 
@@ -95,6 +97,12 @@ He took the opportunity seriously. Training in heavy armor and with a wide range
 
 At Heaven's Heart he met **[[fo-gurn|Fo'Gurn]]**, a **brass dragonborn** training in the same tradition. Fo'Gurn treated him with respect rather than suspicion. They became close friends, challenging and encouraging each other as they learned the responsibilities of a paladin.
 
+## Ninety days at the Black Stair
+
+One trial of Lavitz's training took him to a **tomb near the foot of the [[The Black Tower#the-black-stair|Black Stair]]**, where he kept a **ninety-day vigil**. The long days demanded a different kind of strength from the physical discipline of the training grounds: the patience to remain at his post and the resolve to keep the commitment he had made.
+
+Beyond him, the Black Stair climbed toward **the Black Tower**, a place burdened with the memory of the founding catastrophe. **Heaven's Heart lay nearby, but the stair was not a route to the sanctuary.** Lavitz's vigil belonged to his own paladin journey, not to an ascent of Aldus's tower.
+
 ## The curse beneath a full moon
 
 Years into his service, Lavitz was sent toward the [[Forest of the Fey]] after reports of trouble between a village and a hostile group of wild elves.
@@ -147,7 +155,9 @@ The tragedy belonged not only to the kingdom's military history, but to the live
 
 ## Against the Blood King
 
-The Misfits' journeys eventually led to the discovery of [[Jaznaar]], the founding hero long falsely condemned as the Betrayer. They learned that the celebrated healer **Aldus Greystone III** had endured after the [[The Sundering of the Six|Black Tower catastrophe]] as **Cid the Blood King**.
+The Misfits' journeys eventually led to the discovery of **[[jaznaar|Jaznaar Mizzrorzza]]**, the founding hero long falsely condemned as the Betrayer. They learned that the celebrated healer **Aldus Greystone III** had endured after the [[The Sundering of the Six|Black Tower catastrophe]] as **Cid the Blood King**.
+
+Before they faced Cid, Jaznaar entrusted Lavitz with **Cid's Bane**, a sword that had once belonged to **[[Lowkee]]** himself. It was a gift heavy with history: a founding paladin's weapon placed in the hands of a drow paladin who had grown up in the shadow of the kingdom's prejudice.
 
 In the Shadowfell, the companions confronted and defeated Cid. The victory brought more than the end of a formidable enemy. It exposed the old lie that had stained Avalor's history for nearly two thousand years and made possible [[The Vindication of Jaznaar|Jaznaar's public vindication]].
 

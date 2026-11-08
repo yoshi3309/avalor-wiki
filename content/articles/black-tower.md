@@ -30,6 +30,8 @@ The sanctuary of [[Heaven's Heart]] lies nearby in the same mountainous region, 
 
 The royal prohibition upon access to the tower made the stair's destination particularly ominous. The public sources do not identify an authenticated ancient builder or a separate magical purpose for every stone of the ascent. Its significance is as the route to the Black Tower, not as an independent institution.
 
+Centuries later, **[[Lavitz Shawe]]** kept a **ninety-day vigil at a tomb near the stair's foot** during his paladin training. His vigil did not change where the stairs led, and the sanctuary of Heaven's Heart remained a separate place nearby.
+
 ## The work of Aldus Greystone III
 
 **Aldus Greystone III**, one of [[The Six]], was once celebrated for his healing gifts. His earliest investigations into the preservation of life were known to his friends. Later, his determination to overcome mortality led to forbidden experimentation and the suffering of others.
