@@ -40,12 +40,15 @@ jobs:
           node --check assets/search.js
           node --check assets/chronicle.js
           node --check assets/connections.js
+          node --check assets/article-reading.js
       - name: Test smart archive search
         run: node --test tests/test_search.js
       - name: Check public canon and article links
         run: python tests/check_public_canon.py
       - name: Build public website
         run: python build.py
+      - name: Check enhanced article output
+        run: python tests/check_article_reading.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
