@@ -62,11 +62,11 @@ For a future High Wizard, Stanleyville was an especially stark illustration of w
 
 Among Tel'Lora's most consequential encounters was the meeting with [[Jaznaar]] at [[Jaznaar's Hidden Refuge|his hidden refuge]].
 
-The Misfits had followed clues toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]]. Heureux's account also mentions an object associated with Tel'Lora's family. The precise means of reaching the refuge have not been fully made public, and the Archives do not reconstruct them.
+The Misfits had followed clues toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]]. Heureux's account also mentions an object associated with Tel'Lora's family. The path was hidden, and the encounter with the last surviving founder would prove more important than any map of its turns.
 
 Jaznaar was the last survivor of [[The Six]], remembered for centuries as the Betrayer. He revealed that the healer Aldus Greystone III and the Blood King were the same being, and that he had spent generations resisting the danger his old companion left behind.
 
-**Jaznaar instructed Tel'Lora** and entrusted knowledge to the company. The precise content of those lessons remains outside the public record. Tel'Lora's surviving reflections suggest both gratitude and the painful realization that there were questions he could no longer put to the man who had lived through the founding age.
+**Jaznaar instructed Tel'Lora** and entrusted knowledge to the company, leaving the younger wizard with questions and responsibilities he would carry long after their parting. Tel'Lora's surviving reflections suggest both gratitude and the painful realization that there were questions he could no longer put to the man who had lived through the founding age.
 
 Jaznaar died after the companions departed. The truth he had offered survived him.
 
@@ -104,7 +104,7 @@ The [[The Great Library of Aldus Greystone|Great Library]] at Heaven's Heart pre
 
 Across the following twenty years, Tel'Lora remained especially close to Lavitz and [[svendyal-shadowwhisper|Sven]]. Lavitz's role became one of the kingdom's most visible offices. Sven's later activities were harder for public historians to trace and gave rise to the epithet **Iron Shadow**.
 
-Popular storytellers sometimes portrayed the three as two royal officials and a third companion moving unseen. The Royal Archives do not certify the existence of any particular secret organization from rumor alone. Their continued friendship, however, is not in doubt.
+From the outside, the three friends looked like an odd arrangement: two men advising the crown and a third working in the shadows. Sven's independent intelligence network did not make him an officer of the Aegis. It made their continued loyalty all the more remarkable.
 
 [[Heureux]] continued to travel and teach, and [[Amara]] followed her own service to the natural world. The five did not reunite as a complete company during the succeeding twenty-year interval, but their differences of duty did not end their loyalty.
 
@@ -112,7 +112,7 @@ For Tel'Lora, the academy and council made it possible to serve those friends in
 
 ## What the High Wizard preserves
 
-The public record does not identify every teacher Tel'Lora studied under, each spell he mastered, or every private decision made during his travels. Such gaps should remain gaps unless better evidence or approved testimony emerges.
+There are spells Tel'Lora cast and lessons he learned that never found their way into a song. His greater legacy is easier to see: a fellowship he helped carry through danger, a council seat that gave magic a voice, and a tower where others could learn to question their own certainty.
 
 What can be known is substantial enough. He helped a fellowship survive deception and danger, learned from the last surviving member of the founding Six, took an unprecedented place in the Aegis, and gave new life to an academy.
 

@@ -32,7 +32,7 @@ The correction does more than restore one biography. It asks how an entire kingd
 
 Jaznaar belonged to the fellowship of [[Aldus Greystone III]], [[Lowkee]], [[Faelynn]], [[Petris]], and [[Kelsalor]]. Like the others, his life became associated with Avalor's earliest struggles and the years that followed its founding.
 
-He was close to Rynhold Frozenroar and trusted by his companions. His command of arcane knowledge could answer threats that ordinary arms or authority could not. The historical record describes him as powerful, independent, and sometimes secretive; it does not preserve every spell he knew or the source of all his knowledge.
+He was close to Rynhold Frozenroar and trusted by his companions. His command of arcane knowledge could answer threats that ordinary arms or authority could not. Powerful, independent, and sometimes secretive, Jaznaar understood forms of magic that few of his companions could match. Yet his greatest act of service would require endurance rather than spectacle.
 
 **His precise magical class remains unresolved.** Some surviving accounts call him a wizard and others a sorcerer. The Royal Commission therefore identifies him as a *spellcaster* rather than presenting a later preference as established fact.
 
@@ -76,7 +76,7 @@ Jaznaar faced a terrible choice: disclose that the catastrophe had not ended, or
 
 For almost two thousand years, that struggle remained largely unknown to those it protected. Rulers came and went; towns flourished; new generations learned the names of the founding heroes. The preservation of their ordinary lives depended in part upon a service they could neither see nor acknowledge.
 
-It is tempting to praise such a sacrifice in the language of an effortless noble destiny. The historical record offers no basis for claiming that Jaznaar welcomed isolation or ceased to feel its cost. An act of duty may be chosen and still be terribly lonely.
+He had chosen his task, but the choosing did not make the passing centuries less lonely. Every generation that forgot his name left him defending a kingdom less willing to remember why he had stayed.
 
 ## How a defender became the Betrayer
 
@@ -94,9 +94,9 @@ The making of the false account is preserved in [[The Betrayer’s Legend]], whi
 
 Near the end of Jaznaar's long watch, [[The Misfits]] found a way to reach his **hidden refuge**. Their investigations led them toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
 
-The precise path and location are not established for the public atlas. The surviving account records that the adventurers reached the last living member of the Six and heard from him the truth of the Black Tower.
+The path to his refuge was hidden, reached by the Misfits after a search connected to the tomb of [[Bradgem Glav]]. There they finally met the last living member of the Six and heard what had happened at the Black Tower.
 
-Jaznaar identified Aldus and Cid as the same being and described the danger he had spent centuries containing. He also instructed [[Tel'Lora Ebbenflow]], the half-elven wizard among the Misfits, entrusting him with knowledge important to the companions' understanding. The full content of those lessons is not preserved in the public record.
+Jaznaar identified Aldus and Cid as the same being and described the danger he had spent centuries containing. He also instructed [[Tel'Lora Ebbenflow]], the half-elven wizard among the Misfits, entrusting him with knowledge important to the companions' understanding. The precise lessons passed between Jaznaar and Tel'Lora remain theirs; what followed was a renewed understanding of the danger Cid posed.
 
 The meeting gave the adventurers a foundation for their final struggle, but the Royal Commission's historical judgment rests upon the recovered evidence as well as Jaznaar's testimony.
 

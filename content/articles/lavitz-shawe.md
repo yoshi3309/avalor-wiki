@@ -48,7 +48,7 @@ His family lived modestly, and his father's livelihood was connected to the dock
 
 Later admirers have sometimes treated his rise as proof that any determined child could find the same path. Such a conclusion asks too little of the kingdom. Lavitz's achievement is extraordinary; it does not excuse the unequal conditions from which he emerged.
 
-The intimate losses of his family belong to a more personal history than this public account can responsibly reconstruct. What the surviving civic record establishes is his origin in Renada's working quarter, not a tale in which every private grief must become public entertainment.
+Lavitz's childhood was shaped by life in Renada's working quarter. Not every family sorrow has become part of the stories told about him, nor does every one need to be; the Mudsteps and the people who raised him were already enough to leave their mark.
 
 ## The discipline of Heaven's Heart
 
@@ -134,7 +134,7 @@ The Misfits did not spend the next twenty years assembled around the same campfi
 
 Lavitz remained particularly close to **Tel'Lora** and **Sven**. Tel'Lora's appointment as High Wizard gave Avalor an eighth seat upon the Aegis and a learned counselor whose judgment Lavitz relied upon. Tel'Lora also revived [[Shamman’s Tower]], extending his work beyond the capital.
 
-Sven's later activities were less visible. Stories about the figure called the **Iron Shadow** belong partly to rumor; the public record does not certify the methods or membership of any supposed covert network. What it does preserve is his continuing friendship with Lavitz and Tel'Lora.
+Sven's later work as the **Iron Shadow** drew him into a separate intelligence network, away from the public offices held by Lavitz and Tel'Lora. Its quiet operations were seldom discussed, but the friendship between the three men endured.
 
 Their shared history matters more than the differences in their later offices. They had learned how to disagree, how to trust one another, and how to carry a friendship beyond the adventure that first forged it.
 

@@ -26,7 +26,7 @@ For much of Avalor's history, **Aldus Greystone III** was celebrated as one of t
 
 Aldus possessed remarkable gifts in restorative magic and an unusual command of the forces of weather. Accounts of his early work describe a healer sought by the sick and injured, one whose abilities gave hope to people beyond the reach of ordinary remedies. His reputation was earned long before the crimes for which he would later be remembered.
 
-The surviving record does not securely establish his birthplace, ancestry, age, or the precise nature of his magical training. What it does preserve is the distinction between an extraordinarily capable healer and the figure he eventually became.
+Aldus enters Avalor's story as an extraordinarily capable healer, celebrated for talents that promised relief from suffering. The path that turned this gift toward cruelty is far better remembered than the details of his youth.
 
 ## A companion of the Six
 
@@ -72,7 +72,7 @@ That falsehood became more than a dispute among historians. It influenced how ge
 
 ## Defeat and historical reckoning
 
-The [[The Misfits|Misfits]] ultimately uncovered the connection between Aldus and Cid through their encounters and the testimony of Jaznaar. Their final confrontation with the Blood King took place in the Shadowfell, where they defeated him. The complete nature of his departure from that confrontation is not established by the public historical record.
+The [[The Misfits|Misfits]] ultimately uncovered the connection between Aldus and Cid through their encounters and the testimony of Jaznaar. Their final confrontation with the Blood King took place in the Shadowfell, where they defeated him. An immense black hand drew Cid into an unknown darkness. His enemies had been saved from him, but none of those present could say what awaited him beyond it.
 
 In the aftermath, King Gradvum Frozenroar formally vindicated Jaznaar. The correction also required Avalor to reconsider Aldus: neither the kindness of his earliest deeds nor the fame of his name could absolve the harm of his later choices.
 

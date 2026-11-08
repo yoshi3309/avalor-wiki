@@ -35,7 +35,7 @@ A healer might seek time to study a danger that a ranger wished to pursue. A pal
 
 For years, these differences strengthened their fellowship. They traveled, served the developing kingdom, and made choices whose consequences reached beyond one battlefield. Their example mattered partly because the kingdom itself depended upon cooperation among communities that had not always shared a sovereign.
 
-In surviving records, the Six are remembered chiefly through battles, institutions, and the catastrophe that ended their unity. Their ordinary companionship is less visible. Later stories offer campfire conversations, arguments, and jokes in remarkable detail, but historians cannot certify such reconstructed private moments as fact.
+Songs remember the Six as warriors and founders. The harder story is that they were friends: people who traveled together, disagreed, and ultimately faced a choice none of them wanted. The campfire conversations embroidered by later storytellers may be fanciful, but the fellowship itself was real.
 
 ## Aldus Greystone III — the healer
 
@@ -83,7 +83,7 @@ Nearly two millennia later, his descendant [[Heureux]] would find a very differe
 
 Jaznaar could be independent and guarded with his knowledge. Later enemies turned those qualities into supposed evidence of betrayal. The truth was the opposite: he would undertake an extraordinary burden to preserve the kingdom, even while its citizens were taught to condemn him.
 
-His precise spellcasting class is **not securely established** in the surviving public sources; the Archives do not force the competing labels of wizard or sorcerer into a false certainty.
+He was a formidable spellcaster, remembered sometimes as a wizard and sometimes as a sorcerer. Neither title has entirely displaced the other in accounts of his life.
 
 ## Six answers to one terrible question
 
