@@ -29,7 +29,7 @@ The record is not empty. It establishes his participation in the fellowship, his
 
 ## The eladrin in grayscale
 
-Sven is an **eladrin**, an ancestry often associated in Avalorian scholarship with the [[The Feywild|Feywild]]. His striking **grayscale appearance** made him unusual even to people familiar with the varied peoples of Avalor.
+Sven is an **eladrin**, an ancestry often associated in Avalorian scholarship with the Feywild. His striking **grayscale appearance** made him unusual even to people familiar with the varied peoples of Avalor.
 
 The Archives do not possess an authorized account explaining why his appearance differs from expectations attached to the eladrin. Nor should a single man's presentation be treated as proof of how his entire people live, feel, or practice magic.
 
