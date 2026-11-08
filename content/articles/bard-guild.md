@@ -1,19 +1,24 @@
 ---
-title: "The Bard Guild"
-subtitle: "A Living Institution of Song and Story"
-summary: "An influential bardic guild in Avalor, distinct in the known record from Heureux's academy at Taveras."
+title: The Bard Guild
+subtitle: A Living Institution of Song and Story
+summary: An influential bardic guild in Avalor, distinct in the known record
+  from Heureux's academy at Taveras.
 category: Organizations & Factions
 entry: ORG.010
-era: "Age of Ascendancy"
-facts: "Character: Bardic guild\nStanding: Influential\nRelated school: Heureux's academy at Taveras\nFounding date: Not established\nHome: Taveras"
+era: Age of Ascendancy
+facts: |-
+  Character: Bardic guild
+  Standing: Influential
+  Related school: Heureux's academy at Taveras
+  Founding date: Not established
+  Home: Taveras
 related: heureux,heureuxs-bard-academy,taveras,the-misfits,royal-commission-historical-inquiry
-source: "Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI"
+source: Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI
 featured: false
 ---
-
 ## The keeping of songs
 
-**The Bard Guild** is an established and influential institution in Avalor's cultural life. Its traditions belong to the larger world of musicians, storytellers, and performers whose work carries memories beyond the reach of any single library.
+**The Bard Guild,** known as **The Society of Silk & Story,** is an established and influential institution in Avalor's cultural life. Its traditions belong to the larger world of musicians, storytellers, and performers whose work carries memories beyond the reach of any single library.
 
 The guild is mentioned alongside [[heureuxs-bard-academy|Heureux's academy]] in the present historical record. The two should not be confused: the existence of both is established, while their precise administrative relationship is not.
 
