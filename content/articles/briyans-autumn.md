@@ -3,7 +3,7 @@ title: Briyan's Autumn
 subtitle: The Fortified City of the Eastern Reach
 summary: A wealthy halfling's legacy, Briyan's Autumn stands near the Forest of the Westfold as one of Avalor's easternmost crown-governed cities.
 category: Kingdoms & Places
-entry: LOC.030
+entry: LOC.040
 era: Founding Age to Age of Ascendancy
 facts: |-
   Named for: Briyan, a wealthy halfling patron
