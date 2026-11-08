@@ -37,6 +37,7 @@ groups:
     icon: "♛"
     description: The royal household, Aegis councilors, and appointed officers.
     articles:
+      - rynhold-frozenroar
       - king-gradvum-frozenroar
       - queen-melmiri
       - belgram-mountain-hall
