@@ -274,7 +274,7 @@ locations:
     name: King's Forest
     type: region
     description: Woodland near Alexiverde, on the other side of the town from the Dead Marshes.
-    article: geography-of-avalor#kings-forest
+    article: geography-of-avalor#king-s-forest
     published: false
     provisional: true
   - id: forest-of-the-westfold

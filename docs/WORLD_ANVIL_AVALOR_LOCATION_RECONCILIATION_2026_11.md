@@ -38,7 +38,7 @@
 
 ## Geography / naming needing eventual map review (not current conflicts)
 
-- **King's Forest**, mentioned at Alexiverde, is now a linked section of `geography-of-avalor#kings-forest`, not an independent article. Its relationship to other forests remains unasserted.
+- **King's Forest**, mentioned at Alexiverde, is now a linked section of `geography-of-avalor#king-s-forest`, not an independent article. Its relationship to other forests remains unasserted.
 - **Forest of the Westfold**, near Briyan's Autumn, is now a linked section of `geography-of-avalor#forest-of-the-westfold`; no identification with a preexisting forest is asserted.
 - **The Drought**, crossed with help from Ferrymen Village, is now a linked section of `geography-of-avalor#the-drought`, without assuming it is the same as the Great Desert.
 - **Lake Noch** at Tarnapolus and **River Juce** at Stannisport are accepted names. Their watersheds and exact placement are not invented.

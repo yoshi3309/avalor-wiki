@@ -16,11 +16,11 @@ featured: false
 
 ## Alexiverde
 
-**Alexiverde** is a small town between the **[[Dead Marshes]]** and the **[[The Geography of Avalor#kings-forest|King's Forest]]**. Farmers and woodworkers make their livelihoods here, attending to fields and timber rather than the affairs of great ports.
+**Alexiverde** is a small town between the **[[Dead Marshes]]** and the **[[The Geography of Avalor#king-s-forest|King's Forest]]**. Farmers and woodworkers make their livelihoods here, attending to fields and timber rather than the affairs of great ports.
 
 The town's proudest historical association is **[[Bradgem Glav]]**, the knight who led the charge at [[Heroes Hill]] and died after defeating Lord Osmo. Alexiverde remembers him not merely as a name in royal history but as a hero linked to its own community.
 
-The forest and the town are remembered together, with more about the woodland recorded in [[The Geography of Avalor#kings-forest|Avalor's regional geography]].
+The forest and the town are remembered together, with more about the woodland recorded in [[The Geography of Avalor#king-s-forest|Avalor's regional geography]].
 
 ## Ferrymen Village
 
