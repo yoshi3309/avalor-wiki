@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container connection-container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}connections/">People &amp; connections</a><span>›</span><span>{{graph.title}}</span></nav>
+  <header class="connection-heading">
+    <div class="kicker">THE ARCHIVIST'S TABLE · {{graph.nodes|length}} FIGURES &amp; GROUPS</div>
+    <h1>{{graph.title}}</h1>
+    <p class="connection-subtitle">{{graph.subtitle}}</p>
+    <p class="connection-intro">{{graph.summary}}</p>
+  </header>
+  <section class="connection-explorer" data-connection-map aria-labelledby="connection-explorer-title">
+    <div class="connection-explorer-top">
+      <div><div class="kicker">THE RELATIONSHIP MAP</div><h2 id="connection-explorer-title">Choose a figure</h2></div>
+      <p>Select a name to reveal their documented connections.</p>
+    </div>
+    <div class="connection-map-scroll" tabindex="0" aria-label="Relationship diagram, scroll horizontally if needed">
+      <div class="connection-map-plot">
+        <svg class="connection-map-lines" viewBox="0 0 1000 720" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          {% for edge in graph.edges %}
+          <line class="connection-line connection-line-{{edge.type}}" data-edge-from="{{edge.from}}" data-edge-to="{{edge.to}}" x1="{{edge.from_node.x * 10}}" y1="{{edge.from_node.y * 7.2}}" x2="{{edge.to_node.x * 10}}" y2="{{edge.to_node.y * 7.2}}"/>
+          {% endfor %}
+        </svg>
+        {% for node in graph.nodes %}
+        <button type="button" class="connection-node connection-node-{{node.kind}}" data-node-id="{{node.id}}" style="left:{{node.x}}%;top:{{node.y}}%" aria-pressed="false" aria-controls="connection-detail">
+          <span class="connection-node-mark" aria-hidden="true">{% if node.kind=='group' %}✦{% elif node.kind=='royal' %}♛{% else %}◇{% endif %}</span>
+          <span>{{node.label}}</span>
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="connection-legend" aria-label="Relationship line legend">
+      {% for key, label in graph.legend %}<span><i class="connection-legend-line connection-legend-{{key}}" aria-hidden="true"></i>{{label}}</span>{% endfor %}
+    </div>
+    <div class="connection-detail" id="connection-detail" role="region" aria-live="polite" aria-atomic="true">
+      <div class="connection-detail-eyebrow">THE SCHOLAR'S RECORD</div>
+      <h3 id="connection-detail-name">Select a figure on the map</h3>
+      <p id="connection-detail-description">Choose a name in the diagram or the directory below to examine its documented relationships.</p>
+      <ul id="connection-detail-links" class="connection-detail-links"></ul>
+      <a class="connection-record-link" id="connection-record-link" hidden href="#">Open the complete record ↗</a>
+    </div>
+    <details class="connection-directory">
+      <summary>Browse all figures as a list <span aria-hidden="true">⌄</span></summary>
+      <div class="connection-directory-grid">
+      {% for node in graph.nodes %}
+      <button type="button" data-select-node="{{node.id}}">{{node.label}}</button>
+      {% endfor %}
+      </div>
+    </details>
+  </section>
+  <aside class="connection-scholars-note"><div class="kicker">A NOTE FROM THE ARCHIVIST</div><p>{{graph.note}}</p><a href="{{root}}articles/{{graph.related_article}}/">Read the main historical record ↗</a></aside>
+  <div class="connection-more"><h2>Continue exploring</h2><a href="{{root}}connections/">All relationship maps ↗</a></div>
+</div>
+<script type="application/json" id="connection-map-data">{{ graph.client_data | tojson }}</script>
+{% endblock %}
