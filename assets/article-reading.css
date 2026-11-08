@@ -1,0 +1,36 @@
+/* Article Reading 2.0 — restrained illuminated-manuscript rhythm. */
+.article-reading-track{position:fixed;top:0;left:0;width:100%;height:3px;background:transparent;z-index:170;pointer-events:none}
+.article-reading-fill{width:0;height:100%;background:linear-gradient(90deg,#a67c47,#e8c78b);box-shadow:0 0 7px #d1b17a55;transition:width .1s linear}
+.toc-panel .toc-link.is-current{color:#f0d39a;font-weight:700;border-left:2px solid #c9a875;margin-left:-12px;padding-left:10px}
+.article-mobile-toc{display:none}
+.article-body h2{clear:both}
+.article-body:after{content:"";display:block;clear:both}
+.archive-figure{position:relative;margin:25px 0 30px;padding:9px;background:#e6d9c4;border:1px solid #bda781;box-shadow:0 5px 17px #45352618;max-width:100%;box-sizing:border-box}
+.archive-figure img{display:block;width:100%;height:auto;max-height:460px;object-fit:contain;margin:0;border:none;background:#d9ccb6}
+.archive-figure figcaption{padding:11px 8px 5px;text-align:center;font:italic 11px/1.6 var(--font-literary);color:#765e41}
+.archive-figure--inset-left,.archive-figure--inset-right{width:min(48%,230px);margin-top:9px;margin-bottom:16px}
+.archive-figure--inset-left{float:left;margin-right:23px}
+.archive-figure--inset-right{float:right;margin-left:23px}
+.archive-callout{box-sizing:border-box;clear:both;margin:25px 0 28px;padding:22px 25px 20px;border-left:3px solid #ad874e;background:#e6dac3;color:#473e32}
+.archive-callout-label{font:700 9px/1.4 var(--font-body);letter-spacing:.15em;color:#85643e;display:block;margin-bottom:11px}
+.archive-callout p{font:13px/1.85 var(--font-literary);margin:0 0 5px}
+.archive-callout--quote{background:#e9dfca;text-align:left;position:relative}
+.archive-callout--quote blockquote{border:0;padding:0;margin:0;color:#4d4335;font-style:normal}
+.archive-callout--quote blockquote p{font:italic 500 clamp(17px,2vw,22px)/1.6 var(--font-display);color:#564630}
+.archive-callout--note{background:#dce4e2;border-left-color:#647b83;color:#354e56}
+.archive-callout--note .archive-callout-label{color:#4c6470}
+.archive-callout--contested{background:#eddcd4;border-left-color:#965c58;color:#6b4945}
+.archive-callout--contested .archive-callout-label{color:#81504b}
+.archive-callout small{display:block;font:italic 10px/1.6 var(--font-literary);margin-top:10px;opacity:.82}
+@media(max-width:710px){
+.article-mobile-toc{display:block;margin:13px 0 19px;background:#eee5d5;border:1px solid #c5b697;font:12px var(--font-body);color:#59472e}
+.article-mobile-toc summary{cursor:pointer;padding:12px 14px;font-weight:700;list-style-position:inside}
+.article-mobile-toc summary span{float:right}
+.article-mobile-toc nav{display:flex;flex-direction:column;max-height:320px;overflow:auto;border-top:1px solid #c5b697;padding:5px 12px 12px}
+.article-mobile-toc a{display:block;padding:10px 4px;color:#60492e;border-bottom:1px solid #d6c7ad}
+.article-mobile-toc a.is-current{color:#263f4c;font-weight:700}
+.archive-figure--inset-left,.archive-figure--inset-right{float:none;width:100%;margin:21px 0}
+.archive-callout{padding:17px;margin:21px 0}
+.archive-callout--quote blockquote p{font-size:18px}
+}
+@media(prefers-reduced-motion:reduce){.article-reading-fill{transition:none}}
