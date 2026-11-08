@@ -281,8 +281,8 @@ locations:
   - id: forest-of-the-westfold
     name: Forest of the Westfold
     type: region
-    x: 76.78
-    y: 11
+    x: 77.13
+    y: 51.1
     description: Named woodland near Briyan's Autumn in the Eastern Reach.
     article: geography-of-avalor#forest-of-the-westfold
     published: true
