@@ -1,8 +1,60 @@
 {% extends "base.html" %}
 {% block main %}
-<div class="content-container timeline-container"><nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>The Living Chronicle</span></nav><div class="catalog-heading"><div class="kicker">THE CHRONICLES · A SELECTIVE HISTORY</div><h1>The Living Chronicle</h1><p>A concise path through major events recorded by the Royal Commission. This chronology follows the public historical account and leaves uncertain dates as uncertain.</p></div>
-<div class="timeline-intro"><span>AF</span><p>After Founding. The historical record begins the kingdom's calendar at Year 1, though the date of the battle at Heroes Hill is not necessarily identical to the founding.</p></div>
-<div class="history-timeline">
-{% for e in events %}<div class="history-event"><div class="history-date">{{e.date}}</div><div class="history-dot"></div><div class="history-copy"><div class="kicker">{{e.era}}</div><h2>{{e.title}}</h2><p>{{e.text}}</p><a href="{{root}}articles/{{e.article}}/">Read the record ↗</a></div></div>{% endfor %}
-</div><div class="timeline-end">✦ &nbsp; The story is not yet complete. &nbsp; ✦</div></div>
+<div class="content-container timeline-container chronicle-v2">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><span>The Living Chronicle</span></nav>
+  <header class="chronicle-hero">
+    <div class="kicker">THE ROYAL COMMISSION · HISTORICAL CHRONOLOGY</div>
+    <h1>The Living Chronicle</h1>
+    <p>Follow Avalor through its founding, wars, dynasties, reckonings, and the age of its newest heroes. Explore the full chronology, or narrow the record to a historical era or subject.</p>
+    <div class="chronicle-masthead"><span>FROM BEFORE 1 AF</span><span aria-hidden="true">✦</span><span>TO THE AGE OF ASCENDANCY</span></div>
+  </header>
+
+  <div class="timeline-intro chronicle-calendar"><span>AF</span><div><strong>Understanding the calendar</strong><p>AF means <em>After Founding</em>. The kingdom's calendar begins in 1 AF; the battle at Heroes Hill did not necessarily occur in that exact year. Some entries describe royal reigns rather than precisely dated events.</p></div></div>
+
+  <section class="chronicle-controls" aria-labelledby="chronicle-explore-heading">
+    <div class="chronicle-controls-heading"><div><div class="kicker">THE ARCHIVIST'S FILTERS</div><h2 id="chronicle-explore-heading">Find a moment in history</h2></div><button type="button" id="chronicle-reset" class="chronicle-reset">Clear filters ↺</button></div>
+    <fieldset class="chronicle-periods"><legend>Historical period</legend><div class="chronicle-period-buttons">
+      <button type="button" data-period="all" class="chronicle-period active" aria-pressed="true">All periods</button>
+      {% for period in periods %}<button type="button" data-period="{{period.id}}" class="chronicle-period" aria-pressed="false">{{period.title}}</button>{% endfor %}
+    </div></fieldset>
+    <div class="chronicle-filter-row">
+      <label>Subject <select id="chronicle-topic"><option value="all">All subjects</option>{% for topic in topics %}<option value="{{topic.id}}">{{topic.label}}</option>{% endfor %}</select></label>
+      <label>Date confidence <select id="chronicle-precision"><option value="all">All date types</option>{% for kind in date_kinds %}<option value="{{kind.id}}">{{kind.label}}</option>{% endfor %}</select></label>
+      <label>Search events <input id="chronicle-search" type="search" placeholder="King, place, event..." autocomplete="off"></label>
+    </div>
+    <div class="chronicle-filter-status" role="status" aria-live="polite"><span id="chronicle-count">{{events|length}} events in the public record</span><span>Approximate and reign-based dates are labeled.</span></div>
+  </section>
+
+  <div class="chronicle-layout">
+    <div class="chronicle-main">
+      <div id="chronicle-empty" class="chronicle-empty" hidden>No events match those filters. Try another period or clear the filters.</div>
+      {% for period in periods %}
+      <section class="chronicle-period-section" id="period-{{period.id}}" data-chronicle-section="{{period.id}}" aria-labelledby="heading-{{period.id}}">
+        <header class="chronicle-period-heading"><span class="chronicle-period-index">{{'%02d'|format(loop.index)}}</span><div><div class="kicker">{{period.subtitle}}</div><h2 id="heading-{{period.id}}">{{period.title}}</h2><p>{{period.intro}}</p></div></header>
+        <div class="history-timeline">
+          {% for e in events if e.period == period.id %}
+          <article class="history-event chronicle-event" id="event-{{e.id}}" data-chronicle-event data-period="{{e.period}}" data-topic="{{e.topic}}" data-precision="{{e.date_kind}}" data-search="{{(e.date ~ ' ' ~ e.title ~ ' ' ~ e.era ~ ' ' ~ e.text)|lower|e}}">
+            <div class="history-date"><span>{{e.date}}</span><small>{{e.date_label}}</small></div>
+            <div class="history-dot" aria-hidden="true"></div>
+            <div class="history-copy">
+              <div class="kicker">{{e.era}}</div>
+              <h3>{{e.title}}</h3>
+              <p>{{e.text}}</p>
+              <div class="chronicle-event-actions"><a href="{{root}}articles/{{e.article}}/">Read the record ↗</a><span class="chronicle-date-note" title="{{e.date_note}}">{{e.date_label}} <span aria-hidden="true">ⓘ</span></span></div>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+      <div class="timeline-end">✦ &nbsp; The story is not yet complete. &nbsp; ✦</div>
+    </div>
+    <aside class="chronicle-sidebar" aria-label="Chronicle reference tools">
+      <div class="chronicle-side-panel"><div class="kicker">MOVE THROUGH THE AGES</div><h2>Historical periods</h2><nav aria-label="Jump to historical period">{% for period in periods %}<a href="#period-{{period.id}}" data-chronicle-jump="{{period.id}}"><span>{{'%02d'|format(loop.index)}}</span>{{period.title}}</a>{% endfor %}</nav></div>
+      <div class="chronicle-side-panel"><div class="kicker">THE ROYAL REGISTER</div><h2>Thirty-four sovereigns</h2><p>Follow the royal succession from Rynhold to Gradvum, with the recorded reigns and only the family relationships the evidence establishes.</p><a class="chronicle-side-link" href="{{root}}articles/house-frozenroar/#the-royal-register">View all royal reigns ↗</a><a class="chronicle-side-link" href="{{root}}connections/house-frozenroar/">Explore documented kinship ↗</a></div>
+      <div class="chronicle-side-panel"><div class="kicker">READ THE LONG STORY</div><h2>Guided journeys</h2><p>For a deeper path through these turning points, follow a curated sequence of original records.</p>{% for journey in journeys %}<a class="chronicle-side-link" href="{{root}}journeys/{{journey.id}}/">{{journey.title}} ↗</a>{% endfor %}</div>
+      <details class="chronicle-precision-guide"><summary>How to read the dates</summary>{% for kind in date_kinds %}<p><strong>{{kind.label}}</strong> — {{kind.description}}</p>{% endfor %}</details>
+    </aside>
+  </div>
+</div>
 {% endblock %}
