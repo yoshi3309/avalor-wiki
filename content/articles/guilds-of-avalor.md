@@ -1,7 +1,8 @@
 ---
 title: The Guilds of Avalor
 subtitle: The Silver Forge and the Unofficial Guild of Olivruch
-summary: The Silver Forge welcomes clerics of every faith, while Salt directs Avalor's loosely organized Thieves Guild from Olivruch.
+summary: The Silver Forge welcomes clerics of every faith, while Salt directs
+  Avalor's loosely organized Thieves Guild from Olivruch.
 category: Organizations & Factions
 entry: ORG.016
 era: Founding Age to Age of Ascendancy
@@ -15,10 +16,10 @@ facts: |-
   Other notable guilds: Hunters Guild; Bard Guild
   Relationship: Distinct guilds, not a single governing body
 related: lesser-settlements-of-avalor,stannisport,hunters-guild,bard-guild,taveras,petris,aldus-greystone-iii,kingdom-of-avalor
-source: World Anvil, Olivruch and Stannisport; creator-approved guild histories and structures (November 2026)
+source: World Anvil, Olivruch and Stannisport; creator-approved guild histories
+  and structures (November 2026)
 featured: false
 ---
-
 ## Different callings, different guilds
 
 The word **guild** can hide very different meanings in Avalor. In one city it describes a fellowship of healers whose doors are open to every faith. In another it describes a loose association of professional thieves who would rather the crown paid them no attention at all.
@@ -27,7 +28,7 @@ The **Silver Forge** and **Thieves Guild** have little reason to share a charter
 
 ## The Thieves Guild
 
-In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild**, an association of **professional thieves** who provide mutual support for the unlawful ventures of their members and clients.
+In **[[The Smaller Settlements of Avalor#olivruch|Olivruch]]** operates Avalor's branch of the **Thieves Guild** known as **the Sea Shadows**, an association of **professional thieves** who provide mutual support for the unlawful ventures of their members and clients.
 
 Calling it a *guild* is generous. Its members are not bound together like craftsmen under a formal charter. Instead, **independent crews** pursue their own opportunities, deciding whom they trust and what work they will undertake.
 
