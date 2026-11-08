@@ -55,7 +55,7 @@ That conviction would eventually make the question of Aldus's actions especially
 
 ## Faelynn — the Night Mistress
 
-[[Faelynn]], a wood elf ranger known as the **Night Mistress**, understood places beyond the kingdom's settled roads. Her history included a devastating deception by a fiend and the loss of a village she had unwittingly helped expose to danger.
+[[Faelynn]], a wood elf ranger known as the **Night Mistress**, knew those dangers from bitter experience. Before joining the Six, she had survived a fiend's compulsion, lost her tree village in the Forest of the Fey, and spent years tracking down and destroying the creature responsible.
 
 She later founded [[The Hunters Guild]] at [[Wayword Sun]], within the perilous [[Dead Marshes]]. Its work extended protection to travelers and communities threatened by dangers that city walls and royal decrees could not reach.
 

@@ -61,16 +61,6 @@ This time she recognized its attempt to command her mind. She let it come close,
 
 **Faelynn's hunt ended before she joined the fellowship later known as [[The Six]].** The victory fulfilled her vow, but it could not bring back the village, the chieftess, or the mornings of her youth.
 
-## The Wayword Sun
-
-Faelynn wandered through Avalor after the hunt. In the swamp country of the [[Dead Marshes]], she came upon an abandoned shelter and made it a base for helping travelers and communities threatened by dangerous creatures.
-
-She called the place **[[Wayword Sun]]**, remembering the east-facing homes of her childhood and the sunrise that had finally freed her from the fiend's control. The name carried grief, but also the possibility that morning might come again.
-
-Others eventually joined her cause. They brought different histories and reasons for taking up the work, but shared her conviction that vulnerable people needed protectors prepared to go where ordinary patrols could not. Together they established **[[The Hunters Guild]]**, and Faelynn took the name **Night Mistress**.
-
-The guild survived its founder's age. Its hunters still serve under [[Malikeah]], though the generations they protect know more of the dangers before them than of the terrible night that first shaped Faelynn's purpose.
-
 ## A friend among the Six
 
 Faelynn's long hunt was behind her when she became one of Avalor's founding fellowship. She joined [[Aldus Greystone III]], [[Lowkee Nicklebane|Lowkee]], [[Petris]], [[Kelsalor]], and [[Jaznaar]] in the company remembered as the Six.
@@ -79,4 +69,14 @@ In later years, when Aldus's experiments at the [[Black Tower]] were revealed to
 
 Faelynn knew what it was to love someone who had become the instrument of another's cruelty. She also knew that waiting too long to stop a danger could destroy everyone placed in its path. Her own past did not make the choice easier. It made its cost impossible to ignore.
 
-The Night Mistress is remembered for her skill as a ranger and the order she founded. Yet her story began with a young woman watching for sunrise above a forest village, and it remained a story about what she would do so that others might see another dawn.
+The Night Mistress is remembered for her skill as a ranger and for the order she would found. Yet her story began with a young woman watching for sunrise above a forest village, and it remained a story about what she would do so that others might see another dawn.
+
+## The Wayword Sun
+
+After her years among the founding heroes, Faelynn continued wandering through Avalor. In the swamp country of the [[Dead Marshes]], she came upon an abandoned shelter and made it a base for helping travelers and communities threatened by dangerous creatures.
+
+She called the place **[[Wayword Sun]]**, remembering the east-facing homes of her childhood and the sunrise that had finally freed her from the fiend's control. The name carried grief, but also the possibility that morning might come again.
+
+Others eventually joined her cause. They brought different histories and reasons for taking up the work, but shared her conviction that vulnerable people needed protectors prepared to go where ordinary patrols could not. Together they established **[[The Hunters Guild]]**, and Faelynn took the name **Night Mistress**.
+
+The guild endured long after the founding years. Its hunters still serve under [[Malikeah]], though the generations they protect know more of the dangers before them than of the terrible night that first shaped Faelynn's purpose.

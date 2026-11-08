@@ -12,9 +12,9 @@ facts: |-
   Institution: Great Cathedral
   District: Cathedral Ward, Renada
   Tradition: Tyr, Helm, and Torm
-related: great-cathedral,threefold-devotion,samuel-the-devoted,the-aegis,renada,sanctuary-at-heavens-heart
+related: great-cathedral,threefold-devotion,samuel-the-devoted,heavens-heart,lavitz-shawe,the-aegis,renada,sanctuary-at-heavens-heart
 source: Compendium II · Entry II.002, XI; Entry II.003, XXIV; Avalor Master
-  Canon Bible, VII
+  Canon Bible, VII; author-approved World Anvil history (November 2026)
 featured: false
 ---
 
@@ -33,6 +33,14 @@ The cathedral honors **Tyr, Helm, and Torm**, whose teachings form [[The Threefo
 Avalor's recent correction of its founding history has made those questions urgent. For generations, respected institutions repeated the false accusation against [[Jaznaar]]. Their responsibility now includes considering how devotion can be used to challenge injustice rather than protect a comfortable mistake.
 
 Astronoph leads the cathedral in this changing age. The part she will personally play in its reckoning remains a story yet to unfold.
+
+## The young paladin she recognized
+
+During a visit to [[Heaven's Heart]], Astronoph met **[[Lavitz Shawe]]**, a young drow who had come seeking the paladin's path after a childhood marked by prejudice and loss.
+
+She saw in him the makings of a defender rather than the threat others might have imagined from his ancestry. Her encouragement brought Lavitz into training with the Cathedral Paladins, where he would forge an enduring friendship with [[fo-gurn|Fo'Gurn]].
+
+Astronoph did not need to move her office from Renada to recognize his calling. Her visit to Heaven's Heart became an important turning point in the life of the future Lord Marshal.
 
 ## Her own place in Avalor
 

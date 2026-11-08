@@ -11,7 +11,7 @@ facts: |-
   Historic founder: Faelynn, the Night Mistress
   Institution: Hunters Guild
 related: hunters-guild,malikeah,faelynn,dead-marshes
-source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III
+source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III; author-approved World Anvil background (November 2026)
 featured: false
 ---
 
@@ -21,11 +21,13 @@ featured: false
 
 The settlement's name is closely associated with [[Faelynn]], the wood elf ranger called the Night Mistress and remembered among [[The Six]]. Her skill in the wilderness later became the foundation for work that endured beyond the adventures of the founding fellowship.
 
-## The inheritance of Faelynn
+## Named for a sunrise
 
-Faelynn's earlier life had been marked by a fiend's deception. Misled into killing a chieftess, she unwittingly destroyed the protections of a village whose inhabitants were massacred. She later freed herself from the fiend's influence and destroyed it, but no victory could restore those who had died.
+In her youth, Faelynn watched the morning sun reach the east-facing homes of her woodland village. That same sunrise ended the fiend's enchantment that had forced her to destroy the chieftess and undo the wards protecting her people.
 
-It is tempting to describe the founding of [[The Hunters Guild]] as the direct consequence of that loss. The surviving record does not preserve Faelynn's complete private reasons. It does establish that she placed a lasting institution in dangerous country and directed her talents toward the defense of others.
+She eventually defeated the fiend and, after traveling with the heroes remembered as [[The Six]], returned to the work of protecting others. In the marshes she found an abandoned shelter and named it **Wayword Sun**, holding close the memory of the morning that had restored her freedom.
+
+What began as one ranger's place of refuge drew other hunters. Together they founded [[The Hunters Guild]], making the shelter a base from which to defend travelers and communities who could not easily summon a royal garrison.
 
 ## The hunters' work
 

@@ -9,8 +9,8 @@ facts: |-
   Setting: Foot of the Spine of the World
   Tradition: Cathedral Paladins
   Notable institution: Great Library of Aldus Greystone
-related: cathedral-paladins,great-library-aldus-greystone,fo-gurn,lavitz-shawe
-source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V
+related: cathedral-paladins,great-library-aldus-greystone,astronoph,fo-gurn,lavitz-shawe
+source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V; author-approved World Anvil history (November 2026)
 featured: false
 ---
 
@@ -37,4 +37,4 @@ The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The G
 
 ## Companions who trained here
 
-Before their journeys with the Misfits, [[Lavitz Shawe]] and [[fo-gurn|Fo’Gurn]] shared an enduring friendship associated with training at Heaven's Heart. Fo’Gurn's later sacrifice against a hydra became an important part of the fellowship's public memory.
+During a visit from Renada's High Priest [[Astronoph]], the young [[Lavitz Shawe]] was encouraged to enter the paladin order. He trained alongside [[fo-gurn|Fo’Gurn]], a brass dragonborn who became one of his closest friends. Fo’Gurn's later sacrifice against a hydra became an important part of the fellowship's public memory.

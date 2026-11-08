@@ -7,7 +7,7 @@ entry: ORG.002
 era: "Founding Age to Age of Ascendancy"
 facts: "Founded by: Faelynn, the Night Mistress\nEstablished at: Wayword Sun\nRegion: Dead Marshes\nCalling: Protection of travelers and vulnerable settlements\nLegacy: Founded during the early kingdom"
 related: malikeah,faelynn,wayword-sun,dead-marshes,cathedral-paladins
-source: "The Living Chronicle, Chapters II–III and V; Compendium II · II.003, public Scholar's Account"
+source: "The Living Chronicle, Chapters II–III and V; Compendium II · II.003; author-approved World Anvil backstory (November 2026)"
 featured: false
 ---
 
@@ -19,13 +19,15 @@ The marshes do not offer the dependable roads, clear fields of vision, or ready 
 
 The guild arose to answer that need.
 
-## The founder's difficult history
+## A vow that became a calling
 
-Faelynn had suffered a fiend's deception that brought down a village's protections and preceded the massacre of its inhabitants. She eventually destroyed the fiend, yet could not undo the tragedy.
+Long before the guild existed, Faelynn was a scout from an east-facing tree village in the [[Forest of the Fey]]. A fiend wearing the form of a boar compelled her to kill the village's chieftess and break the magical wards that guarded her people. The village was destroyed.
 
-A later founding story might make the Hunters Guild the simple fulfillment of a vow of redemption. The surviving records do not establish the entirety of Faelynn's private motives. What they do establish is her decision to give lasting form to skills that could safeguard others.
+Faelynn spent years hunting the creature. She pursued it beyond the mortal world, overcame its attempt to command her once again, and finally killed it. By the time she traveled with [[The Six]], that terrible vow had been fulfilled.
 
-The guild's existence therefore matters independently of the conclusions storytellers draw about her grief.
+Her search had taught her to follow signs most people overlooked and to survive where no city guard could be called for help. In the years following Avalor's founding, she gave those skills a more enduring purpose.
+
+At [[Wayword Sun]], the shelter she had made her own drew other hunters who believed vulnerable travelers and settlements deserved protection. From their shared labor the **Hunters Guild** emerged, with Faelynn as the **Night Mistress**. The order's beginnings were rooted in grief, but its work was meant for the living.
 
 ## The craft of a hunter
 

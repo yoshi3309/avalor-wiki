@@ -8,11 +8,11 @@ entry: LOC.014
 era: Age of Ascendancy
 facts: |-
   Location: Off the eastern coast
-  Revived by: Tel’Lora Ebbenflow
+  Former student and restorer: Tel’Lora Ebbenflow
   Role: Arcane education and inquiry
   Recorded practices: Atlas of Returns; Second Witness
-related: tellora-ebbenflow,professor-xiomara-thal,royal-commission-historical-inquiry,the-aegis
-source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII
+related: tellora-ebbenflow,cove-city,professor-xiomara-thal,royal-commission-historical-inquiry,the-aegis
+source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII; creator-approved World Anvil history (November 2026)
 featured: false
 ---
 
@@ -20,7 +20,9 @@ featured: false
 
 **Shamman’s Tower** stands off Avalor's eastern coast. Its isolation has long contributed to the reputation of its arcane studies, yet it is neither a forgotten ruin nor simply an outpost of the royal court.
 
-In the Age of Ascendancy, [[Tel'Lora Ebbenflow]]—a member of [[The Misfits]] and High Wizard of Avalor—revived the tower as a center of instruction and inquiry.
+As a young wizard from [[Cove City]], [[Tel'Lora Ebbenflow]] studied here, earning a reputation as a curious, somewhat unconventional student accompanied by an octopus in a makeshift traveling tank. The tower later fell into decline.
+
+After the Misfits defeated Cid and Tel'Lora became High Wizard, he returned to the institution of his youth and **revived it as a center of instruction and inquiry**. His restoration built upon an older tradition, while giving its future students new responsibilities.
 
 ## Knowledge with accountability
 

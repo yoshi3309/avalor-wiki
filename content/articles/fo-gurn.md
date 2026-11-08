@@ -7,7 +7,7 @@ image: /assets/uploads/gold-dragonborn-storm-warrior.png
 entry: BIO.028
 era: Age of the Misfits
 facts: |-
-  Ancestry: Dragonborn
+  Ancestry: Brass dragonborn
   Calling: Paladin
   Training: Heaven's Heart
   Close friend: Lavitz Shawe
@@ -15,13 +15,13 @@ facts: |-
   Remembered sacrifice: Hydra encounter
   Later public testimony: Disputed account of return in the Shadowfell
 related: lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
-source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I · public accounts of the Misfits and death
+source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
 featured: false
 ---
 
 ## A life before the sacrifice
 
-**Fo’Gurn** is remembered as the dragonborn paladin who stood against a hydra so that [[The Misfits]] could escape. The story is true as far as the companions understood it at the time, but it is a poor way to introduce a man whose life had already become inseparable from theirs.
+**Fo’Gurn** is remembered as the **brass dragonborn** paladin who stood against a hydra so that [[The Misfits]] could escape. The story is true as far as the companions understood it at the time, but it is a poor way to introduce a man whose life had already become inseparable from theirs.
 
 Fo'Gurn had known [[Lavitz Shawe]] long before either adventured with the company. Their friendship was associated with the years of paladin training at [[Heaven's Heart]], beneath the [[Spine of the World]]. By the time they faced a hydra together, theirs was not the hastily formed loyalty of strangers who happened to survive one battle.
 
@@ -31,7 +31,7 @@ Long before the hydra, Fo'Gurn had forged a friendship with Lavitz at Heaven's H
 
 The paladin traditions of Heaven's Heart trace their founding to [[Lowkee]], who taught that the strength of a protector was owed first to those least able to defend themselves. The order honors the virtues of [[The Threefold Devotion]], associated with Tyr, Helm, and Torm.
 
-Fo'Gurn trained within that tradition during Lavitz's years at Heaven's Heart. Their friendship grew through a shared calling and would carry them far beyond the sanctuary's walls.
+Fo'Gurn trained within that tradition during Lavitz's years at Heaven's Heart. He was among the first to treat the young drow with respect, and the two pushed one another to become better paladins. Their friendship grew through a shared calling and would carry them far beyond the sanctuary's walls.
 
 Their bond mattered because it survived into a very different life. A friendship forged before an adventuring company existed became one of the human — and dragonborn — ties by which that company held together.
 
