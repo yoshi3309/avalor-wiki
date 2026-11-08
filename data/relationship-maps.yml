@@ -27,28 +27,29 @@ maps:
 
   - id: the-misfits
     title: The Misfits
-    subtitle: More than five names in a song
+    subtitle: Six adventurers, and the companions they called their own
     icon: "⚔"
-    summary: A fellowship whose early companions, later arrivals, and unexpected friends all contributed to its history. The five publicly celebrated survivors do not represent everyone who traveled with them.
-    note: The spokes show involvement with the Misfits, not identical membership or equal public recognition. Fo'Gurn was an original member; Jack was a traveling companion; Heureux joined later.
+    summary: The enduring adventuring party of Lavitz, Tel'Lora, Sven, Amara, and Heureux was joined in its history by two cherished companions — Fo'Gurn, who died saving them, and Jack, the ghost boy the party took under its wing.
+    note: Solid connections identify the central adventuring party; Heureux joined shortly after the others. The softer dashed lines honor Fo'Gurn and Jack as genuine companions without suggesting they shared the same role in the adventuring party. The blue dashed link records Lavitz and Fo'Gurn's friendship from before the Misfits formed.
     related_article: the-misfits
     nodes:
-      - {id: fellowship, label: The Misfits, x: 50, y: 50, kind: group, article: the-misfits, detail: The adventuring fellowship that defeated Cid and helped restore Jaznaar's name.}
-      - {id: lavitz, label: Lavitz, x: 20, y: 20, kind: person, article: lavitz-shawe, detail: Paladin and later Lord Marshal; Fo'Gurn's closest friend.}
-      - {id: tel, label: Tel'Lora, x: 50, y: 12, kind: person, article: tellora-ebbenflow, detail: Half-elf spellcaster and later High Wizard of Avalor.}
-      - {id: sven, label: Sven, x: 80, y: 20, kind: person, article: svendyal-shadowwhisper, detail: Original companion and trusted ally of Lavitz.}
-      - {id: amara, label: Amara, x: 85, y: 62, kind: person, article: amara, detail: One of the original companions and the five celebrated survivors.}
-      - {id: heureux, label: Heureux, x: 72, y: 87, kind: person, article: heureux, detail: Bard who joined the company later and preserved its stories.}
-      - {id: jack, label: Jack, x: 27, y: 87, kind: person, article: jack-of-stanleyville, detail: Ghost boy of Stanleyville who traveled with the Misfits.}
-      - {id: fo, label: Fo'Gurn, x: 15, y: 62, kind: person, article: fo-gurn, detail: Original dragonborn paladin whose sacrifice against a hydra saved his companions.}
+      - {id: fellowship, label: The Misfits, x: 50, y: 48, kind: group, article: the-misfits, detail: The adventuring company whose bonds outlasted the fall of the Blood King.}
+      - {id: lavitz, label: Lavitz, x: 21, y: 19, kind: person, article: lavitz-shawe, detail: A founding adventurer and later Lord Marshal. Fo'Gurn was his close friend even before the Misfits.}
+      - {id: tel, label: Tel'Lora, x: 50, y: 11, kind: person, article: tellora-ebbenflow, detail: Original adventurer, half-elf spellcaster and later High Wizard of Avalor.}
+      - {id: sven, label: Sven, x: 79, y: 19, kind: person, article: svendyal-shadowwhisper, detail: Original adventurer and trusted ally of Lavitz.}
+      - {id: amara, label: Amara, x: 84, y: 64, kind: person, article: amara, detail: Original adventurer and one of the five surviving companions celebrated after Cid's defeat.}
+      - {id: heureux, label: Heureux, x: 64, y: 88, kind: person, article: heureux, detail: Bard who joined the adventuring party shortly after its beginning and later recorded its story.}
+      - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "👻", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as one of their own, and who traveled with them.}
+      - {id: fo, label: Fo'Gurn, x: 15, y: 64, kind: person, symbol: "☠", article: fo-gurn, detail: Dragonborn paladin and Lavitz's friend from before the fellowship; traveled with the original company and died protecting them during the hydra battle.}
     edges:
-      - {from: fellowship, to: lavitz, type: fellowship, label: Original member}
-      - {from: fellowship, to: tel, type: fellowship, label: Original member}
-      - {from: fellowship, to: sven, type: fellowship, label: Original member}
-      - {from: fellowship, to: amara, type: fellowship, label: Original member}
-      - {from: fellowship, to: fo, type: fellowship, label: Original member}
-      - {from: fellowship, to: heureux, type: later, label: Joined later}
-      - {from: fellowship, to: jack, type: later, label: Traveling companion}
+      - {from: fellowship, to: lavitz, type: fellowship, label: Adventuring party member}
+      - {from: fellowship, to: tel, type: fellowship, label: Adventuring party member}
+      - {from: fellowship, to: sven, type: fellowship, label: Adventuring party member}
+      - {from: fellowship, to: amara, type: fellowship, label: Adventuring party member}
+      - {from: fellowship, to: heureux, type: fellowship, label: Joined the adventuring party shortly after its founding}
+      - {from: fellowship, to: fo, type: companion, label: Original companion; died during the campaign}
+      - {from: fellowship, to: jack, type: companion, label: Cherished traveling companion and adopted ward}
+      - {from: lavitz, to: fo, type: prior-friendship, label: Close friends before the Misfits formed}
 
   - id: house-frozenroar
     title: House Frozenroar
