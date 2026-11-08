@@ -223,6 +223,21 @@ if len(event_ids) != 18:
     problems.append(f"Living Chronicle: expected all 18 previously published events, found {len(event_ids)}")
 
 
+
+# Search synonyms are curated public article labels, never future plot secrets.
+aliases_config = yaml.safe_load((ROOT / "data" / "search-aliases.yml").read_text(encoding="utf-8")) or {}
+aliases = aliases_config.get("aliases") or {}
+if not isinstance(aliases, dict):
+    problems.append("Smart search: aliases must be a mapping")
+else:
+    for slug, names in aliases.items():
+        if slug not in entries:
+            problems.append(f"Smart search: unknown public article {slug}")
+        if not isinstance(names, list) or not names or not all(isinstance(x, str) and x.strip() for x in names):
+            problems.append(f"Smart search: invalid alternate names for {slug}")
+# Existing retired section links are already checked above. Keep them searchable
+# as section results without recreating retired standalone articles.
+
 if problems:
     print("PUBLIC CANON CHECK FAILED:")
     for problem in problems:
