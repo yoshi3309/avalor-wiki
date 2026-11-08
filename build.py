@@ -166,6 +166,103 @@ def render_fact_value(value):
     parts.append(html.escape(raw[position:]))
     return ''.join(parts)
 
+# Article visual modules are public editorial presentation, not new lore.
+# Their text, captions and image paths are escaped; raw HTML is never accepted.
+def article_image_src(raw, article_slug):
+    source = str(raw or '').strip()
+    match = re.fullmatch(r'/?assets/uploads/([A-Za-z0-9._/-]+\.(?:png|jpg|jpeg|webp|gif))', source, re.I)
+    if not match or '..' in match.group(1).split('/'):
+        raise ValueError(f'{article_slug}: illustration must be an uploaded public image: {source}')
+    filepath = ROOT / 'assets' / 'uploads' / match.group(1)
+    if not filepath.is_file():
+        raise ValueError(f'{article_slug}: illustration image missing: {source}')
+    return '../../assets/uploads/' + match.group(1)
+
+
+def insert_article_modules(rendered, article, headings):
+    """Insert optional CMS-managed figures and callouts after a chosen paragraph.
+
+    Placement is an existing section ID and optional 1-based paragraph number.
+    Ordinary Markdown articles remain unchanged if no modules are provided.
+    """
+    existing = {h['id'] for h in headings}
+    modules = []
+    figures = article.get('illustrations') or []
+    notes = article.get('callouts') or []
+    if not isinstance(figures, list) or len(figures) > 3:
+        raise ValueError(f"{article['slug']}: illustrations must be a list of at most three")
+    if not isinstance(notes, list) or len(notes) > 4:
+        raise ValueError(f"{article['slug']}: callouts must be a list of at most four")
+    for figure in figures:
+        if not isinstance(figure, dict):
+            raise ValueError(f"{article['slug']}: invalid illustration")
+        position = str(figure.get('after') or '').strip()
+        layout = str(figure.get('layout') or 'wide')
+        if layout not in {'wide', 'inset-left', 'inset-right'}:
+            raise ValueError(f"{article['slug']}: invalid illustration layout {layout}")
+        alt = str(figure.get('alt') or '').strip()
+        caption = str(figure.get('caption') or '').strip()
+        if not alt or not caption:
+            raise ValueError(f"{article['slug']}: illustration needs alt text and a caption")
+        url = article_image_src(figure.get('image'), article['slug'])
+        fragment = (f'<figure class="archive-figure archive-figure--{layout}">'
+                    f'<img loading="lazy" decoding="async" src="{html.escape(url, quote=True)}" '
+                    f'alt="{html.escape(alt, quote=True)}">'
+                    f'<figcaption>{html.escape(caption)}</figcaption></figure>')
+        modules.append((position, figure.get('paragraph', 1), fragment))
+    for note in notes:
+        if not isinstance(note, dict):
+            raise ValueError(f"{article['slug']}: invalid callout")
+        position = str(note.get('after') or '').strip()
+        kind = str(note.get('type') or '')
+        if kind not in {'quote', 'note', 'contested'}:
+            raise ValueError(f"{article['slug']}: invalid callout type {kind}")
+        words = str(note.get('text') or '').strip()
+        if not words:
+            raise ValueError(f"{article['slug']}: empty callout")
+        name = {'quote': 'FROM THIS ACCOUNT', 'note': "THE SCHOLAR'S NOTE",
+                'contested': 'A CONTESTED ACCOUNT'}[kind]
+        detail = html.escape(str(note.get('attribution') or '').strip())
+        content = html.escape(words)
+        if kind == 'quote':
+            message = f'<blockquote><p>{content}</p></blockquote>'
+        else:
+            message = f'<p>{content}</p>'
+        credit = f'<small>{detail}</small>' if detail else ''
+        fragment = (f'<aside class="archive-callout archive-callout--{kind}" '
+                    f'aria-label="{html.escape(name, quote=True)}">'
+                    f'<span class="archive-callout-label">{html.escape(name)}</span>'
+                    f'{message}{credit}</aside>')
+        modules.append((position, note.get('paragraph', 1), fragment))
+    if not modules:
+        return rendered
+    insertions = []
+    for order, (position, paragraph, fragment) in enumerate(modules):
+        section_id = slugify(position)
+        if section_id not in existing:
+            raise ValueError(f"{article['slug']}: visual module has unknown section {position}")
+        try:
+            paragraph = int(paragraph)
+        except (ValueError, TypeError):
+            raise ValueError(f"{article['slug']}: invalid visual module paragraph {paragraph}")
+        if paragraph < 1:
+            raise ValueError(f"{article['slug']}: paragraph number must start at 1")
+        heading = re.search(r'<h2 id="' + re.escape(section_id) + r'">.*?</h2>', rendered, flags=re.S)
+        if not heading:
+            raise ValueError(f"{article['slug']}: section not rendered: {section_id}")
+        next_heading = rendered.find('<h2 id=', heading.end())
+        section_end = len(rendered) if next_heading == -1 else next_heading
+        subsection = rendered[heading.end():section_end]
+        paragraphs = list(re.finditer(r'<p(?:\s[^>]*)?>.*?</p>', subsection, flags=re.S))
+        if paragraph > len(paragraphs):
+            raise ValueError(f"{article['slug']}: visual module for {section_id} requests paragraph {paragraph}, only {len(paragraphs)} available")
+        where = heading.end() + paragraphs[paragraph-1].end()
+        insertions.append((where, order, fragment))
+    for position, order, fragment in sorted(insertions, key=lambda item: (item[0], item[1]), reverse=True):
+        rendered = rendered[:position] + '\n' + fragment + '\n' + rendered[position:]
+    return rendered
+
+
 def make_html(article):
     rel='../../'
     md = re.sub(r'\[\[([^\]]+)\]\]',lambda m:wikilink_sub(m,rel),article['body'])
@@ -180,6 +277,7 @@ def make_html(article):
         used.add(anchor);headings.append({'id':anchor,'text':raw})
         return f'<h2 id="{anchor}">{m.group(1)}</h2>'
     rendered=re.sub(r'<h2>(.*?)</h2>',heading_id,rendered,flags=re.S)
+    rendered=insert_article_modules(rendered, article, headings)
     # Convert Pages CMS media paths into relative paths that work on
     # project GitHub Pages sites such as /avalor-wiki/.
     image_raw=str(article.get('image') or '').strip()
