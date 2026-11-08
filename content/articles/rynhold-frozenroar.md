@@ -1,8 +1,11 @@
 ---
 title: Rynhold Frozenroar
 subtitle: The First Lion of Avalor
-summary: King of Kroubia, architect of the alliance against Lord Osmo, and first sovereign of Avalor, whose founding reign established a kingdom intended to outlast him.
+summary: King of Kroubia, architect of the alliance against Lord Osmo, and first
+  sovereign of Avalor, whose founding reign established a kingdom intended to
+  outlast him.
 category: People & Legends
+image: /assets/uploads/sunlit-king-overlooks-the-rising-citadel.png
 entry: BIO.034
 era: Founding Age
 facts: |-
@@ -15,10 +18,11 @@ facts: |-
   Council founded: The Aegis
   Associated heroes: Bradgem Glav and the Six
 related: house-frozenroar,founding-wars,unification-of-avalor,renada,the-aegis,great-citadel,heroes-hill,bradgem-glav,the-six,lowkee,jaznaar,king-gradvum-frozenroar
-source: The Living Chronicle, Chapters II–III and V, public historical account and Royal Register; Compendium II · Entries II.001–II.002, public Scholar's Accounts
+source: The Living Chronicle, Chapters II–III and V, public historical account
+  and Royal Register; Compendium II · Entries II.001–II.002, public Scholar's
+  Accounts
 featured: false
 ---
-
 ## Before the first lion banner
 
 **Rynhold Frozenroar** is remembered as the first king of Avalor, but he did not begin his reign as the sovereign of a united realm. Before the founding, he wore the crown of **Kroubia**, one of several independent kingdoms whose rival rulers guarded their borders, traditions, and interests.
