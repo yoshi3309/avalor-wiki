@@ -11,14 +11,14 @@ facts: |-
   Sovereigns: 34 in the Royal Register
   Current sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
-related: founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
+related: rynhold-frozenroar,founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
 source: The Living Chronicle · Chapter V, Royal Register, and Partial Pedigree; Compendium II · Entry II.001
 featured: false
 ---
 
 ## The first crown
 
-Before he became Avalor's first king, **Rynhold Frozenroar** ruled the northern kingdom of Kroubia. His coalition against Lord Osmo survived its own victory and became a new political union in **1 AF**. He chose [[Renada]] as the capital and founded institutions that could outlive their creator.
+Before he became Avalor's first king, [[Rynhold Frozenroar]] ruled the northern kingdom of Kroubia. His coalition against Lord Osmo survived its own victory and became a new political union in **1 AF**. He chose [[Renada]] as the capital and founded institutions that could outlive their creator.
 
 ## Thirty-four sovereigns
 
