@@ -14,7 +14,7 @@ The relationship atlas is a **public navigation and discovery feature**. It does
 
 Each `maps` entry defines a page with unique `id`, title, subtitle, summary, editorial note, icon, and an existing public `related_article` slug. Each node has `id`, `label`, `detail`, `kind` (`group`, `person`, or `royal`), and fixed percent coordinates `x`/`y`. `article` is optional and must match a public `content/articles` slug if present.
 
-Each edge identifies `from` and `to` node IDs, a labeled relationship, and one of `fellowship`, `later`, `parent`, `consort`, `sibling`. Build validation rejects missing or duplicated node IDs, invalid public slugs, unsupported types, self-links, repeated links, and out-of-range coordinates. This keeps the feature small, easy to maintain, and separate from wiki article bodies.
+Each edge identifies `from` and `to` node IDs, a labeled relationship, and one of `fellowship`, `later`, `companion`, `prior-friendship`, `parent`, `consort`, `sibling`. Build validation rejects missing or duplicated node IDs, invalid public slugs, unsupported types, self-links, repeated links, and out-of-range coordinates. This keeps the feature small, easy to maintain, and separate from wiki article bodies.
 
 When a map includes an article as a node or its `related_article`, the article automatically shows an "Explore the connections" entry point.
 
@@ -24,11 +24,13 @@ When a map includes an article as a node or its `related_article`, the article a
 - Do not guess kinships between royal branches merely because they share a surname.
 - The separate kinship clusters in the Frozenroar map are **separate documented kinships**; their layout does not represent missing generations.
 - The Six's center means fellowship, not family or identical moral judgments.
-- The Misfits map distinguishes founding membership, later membership, and a traveling companion.
+- The Misfits relationship map now distinguishes the five core player-character adventurers (Lavitz, Tel'Lora, Sven, Amara, and Heureux) from honored in-world traveling companions Fo'Gurn and Jack. This distinction is a diagram design choice, not a denial of Fo'Gurn's historical membership in the company.
+- Fo'Gurn's memorial symbol acknowledges his death during the campaign; Jack's ghost symbol acknowledges his spectral nature and the party's adoption of him.
+- A separate blue dashed link marks Lavitz and Fo'Gurn's documented friendship before the Misfits formed. Solid lines mark the five central adventurers; warm dashed lines mark honored companions.
 - No player-facing data may contain Keeper-only or future campaign secrets.
 - All nodes use native keyboard-focusable buttons, with a details panel and a secondary figure directory; no third-party graph library is needed.
 - Keep the public record navigable without JavaScript using the provided static source links.
 
 ## Enhancement roadmap
 
-See `docs/WIKI_ENHANCEMENT_ROADMAP.md` for the six-part running checklist. The next core milestone is Living Chronicle 2.0.
+See `docs/WIKI_ENHANCEMENT_ROADMAP.md` for the six-part running checklist. The next core milestone is Smarter Archive Search.
