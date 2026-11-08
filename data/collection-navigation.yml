@@ -8,7 +8,7 @@ kingdoms-places:
   icon: "♜"
   featured_label: START YOUR JOURNEY
   browse_title: Explore by place
-  browse_description: Cities, districts, landscapes, and historic sites each have a story.
+  browse_description: Settlements, landscapes, landmarks, and the detailed districts within Renada.
   group_label: PLACES
   directory_title: All Places A–Z
   directory_description: Every public place record, alphabetically arranged.
@@ -31,14 +31,6 @@ kingdoms-places:
         - karhold
         - wayword-sun
         - siesta-ford
-    - id: within-renada
-      title: Within Renada
-      eyebrow: THE CAPITAL CLOSE-UP
-      icon: "♜"
-      description: Neighborhoods, public places, and institutions inside the capital.
-      articles:
-        - great-citadel
-        - great-cathedral
     - id: landmarks
       title: Towers & Landmarks
       eyebrow: STONES OF HISTORY
