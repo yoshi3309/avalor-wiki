@@ -13,6 +13,10 @@ Last updated: 2026-11-08. This is the canonical **project checklist for website 
 | 5 | Article reading improvements | PLANNED | Active headings and reading progress; optional visual modules. |
 | 6 | Illustration gallery | PLANNED | Image enlargement, captions, and collections of approved artwork. |
 
+## Completed side quests
+
+- **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
+
 ## Supporting technical work (as useful, not a seventh major phase)
 
 - Image performance / media optimization, especially on phones
