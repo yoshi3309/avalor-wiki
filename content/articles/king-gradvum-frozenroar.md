@@ -47,4 +47,4 @@ He has also shown a willingness to entrust extraordinary responsibility to peopl
 
 Gradvum is the thirty-fourth sovereign recorded in [[House Frozenroar]]'s Royal Register. His predecessor's crown was an inheritance; the reputation he leaves will depend upon how he uses it.
 
-His personal history before accession has not been fully established. What the present record offers instead is a ruler whose most consequential choice may have been to permit his own kingdom to tell a less comfortable truth about itself.
+His earlier life is less often recounted than the choices of his reign. Among those choices, few may prove as important as allowing his kingdom to tell a less comfortable truth about itself.

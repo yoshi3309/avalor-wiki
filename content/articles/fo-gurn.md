@@ -25,13 +25,13 @@ featured: false
 
 Fo'Gurn had known [[Lavitz Shawe]] long before either adventured with the company. Their friendship was associated with the years of paladin training at [[Heaven's Heart]], beneath the [[Spine of the World]]. By the time they faced a hydra together, theirs was not the hastily formed loyalty of strangers who happened to survive one battle.
 
-The public record preserves few particulars of Fo'Gurn's childhood, family, or early life beyond that training. His biography must begin from what he did and whom he loved, rather than inventing an ancestral clan or a destiny foretold at birth.
+Long before the hydra, Fo'Gurn had forged a friendship with Lavitz at Heaven's Heart. That bond, more than any tale of ancestry or prophecy, explains why his sacrifice was remembered with such grief.
 
 ## Heaven's Heart and a lifelong friendship
 
 The paladin traditions of Heaven's Heart trace their founding to [[Lowkee]], who taught that the strength of a protector was owed first to those least able to defend themselves. The order honors the virtues of [[The Threefold Devotion]], associated with Tyr, Helm, and Torm.
 
-Fo'Gurn trained within that tradition while Lavitz was associated with the order. The sources establish their close friendship, but do not preserve every lesson or conversation they shared. Nor do they establish an exact ranking of the two during their years of training.
+Fo'Gurn trained within that tradition during Lavitz's years at Heaven's Heart. Their friendship grew through a shared calling and would carry them far beyond the sanctuary's walls.
 
 Their bond mattered because it survived into a very different life. A friendship forged before an adventuring company existed became one of the human — and dragonborn — ties by which that company held together.
 
@@ -53,7 +53,7 @@ During the company's early travels, a **hydra** threatened the Misfits. Fo'Gurn 
 
 His companions survived. They believed him dead.
 
-The surviving historical record does not provide a securely established battlefield, a detailed sequence of attacks, or Fo'Gurn's final words. A ballad may offer all three, because a dramatic last stand seems to demand them. A reliable account must be content with the fact of the choice and the lives it preserved.
+The stories of that day differ in their flourishes, as stories of brave last stands often do. What matters is the choice Fo'Gurn made: to remain before the hydra so his friends could live.
 
 This was an act of courage, but its cost fell not only upon the man who made it. The companions who escaped had to continue without him, carrying the belief that they would never see their friend again.
 
@@ -73,7 +73,7 @@ To speak of the paladin only as a symbol of sacrifice would omit the years in wh
 
 Later investigations brought the Misfits into contact with evidence concerning the necromancer [[Jaaris]]. His crimes were connected to Fo'Gurn's disappearance and revealed that the fate the companions believed they had witnessed was more complicated than they knew.
 
-The public record does not give a full account of the magical manipulation involved. It does not justify inventing an imprisonment, bargain, or ordinary resurrection ritual merely because one of those explanations would make the story easier to understand.
+Whatever Jaaris had done to Fo'Gurn, it had left his friends mourning a man whose fate was more complicated than they could have imagined.
 
 The Misfits' later encounter with [[Zauks and the False Lives|Zauks]] brought the hydra back in another form: as one of the dangers recreated from their memories. That illusion was not a second historical encounter with the same beast, and it did not make Fo'Gurn's sacrifice unreal.
 
@@ -107,4 +107,4 @@ Fo'Gurn's legacy rests upon a simple, difficult truth: the safety of others may 
 
 At Heaven's Heart, such a choice echoes Lowkee's teaching of duty toward the vulnerable. In the Misfits' story, it also illustrates the price of courage to those who survive it.
 
-The Royal Archives cannot reconstruct every lost year of his life, and should not turn disputed spiritual testimony into an invented certainty. But they can honor his place among the companions who saved Avalor, and remember that before he became the subject of a famous sacrifice, **he was someone his friends wanted to come home**.
+The mysteries surrounding his fate have never mattered as much to his companions as the man himself. Before Fo'Gurn became the hero of a famous last stand, **he was someone his friends wanted to come home**.

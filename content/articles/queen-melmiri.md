@@ -34,7 +34,7 @@ Melmiri founded **[[Dina Hyanda]]**, a women's royal protective order with a dis
 
 She is also known to ride the griffin **Dune Rakka** and to bear the scimitar **Darkheart**. Those symbols have made her a recognizable figure in accounts of the royal household. They belong beside, rather than in place of, her administrative accomplishments.
 
-The available history does not identify her complete system of command or every officer of Dina Hyanda. Her importance does not depend upon an invented military record.
+The order reflected Melmiri's decision to establish a protective force with an identity of its own, distinct from the royal guards who served elsewhere in the household.
 
 ## Heritage and family
 
@@ -42,7 +42,7 @@ Melmiri's ancestry connects her to the **Northern Desert Tribes**, whose communi
 
 Her brother, **[[Sebastian Rubelda]]**, serves as sheriff of the Northern March. Sebastian admires Avalorian customs and wishes to see greater cooperation among the tribes, having grown weary of their infighting. His hopes are his own; the record does not make them a policy imposed by Melmiri.
 
-She and Gradvum have three children: **Theodric**, **Leontes**, and **Vivienne**. Their relationships and personalities beyond the established family record remain to be developed.
+She and Gradvum have three children: **Theodric**, **Leontes**, and **Vivienne**. Their family stands at the center of Avalor's royal life, even when its most private moments never reach the court chroniclers.
 
 ## The queen who returned
 

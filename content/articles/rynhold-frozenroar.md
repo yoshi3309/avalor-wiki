@@ -23,7 +23,7 @@ featured: false
 
 **Rynhold Frozenroar** is remembered as the first king of Avalor, but he did not begin his reign as the sovereign of a united realm. Before the founding, he wore the crown of **Kroubia**, one of several independent kingdoms whose rival rulers guarded their borders, traditions, and interests.
 
-Later histories sometimes describe Rynhold as though he had always intended to unite the north. The surviving records do not establish such a plan. His earlier responsibilities were those of an existing king: trade, roads, defense, disputes, and the difficult business of maintaining authority within a smaller realm.
+Later generations liked to imagine Rynhold already dreaming of a united north. In Kroubia, however, his first responsibilities were those of a king with a smaller realm to govern: roads, trade, defense, and the quarrels of neighboring rulers.
 
 Kroubia was not simply an earlier name for Avalor. Its former borders remain disputed, and later cartographers sometimes mistakenly projected the boundaries of the united kingdom backward into Rynhold's earlier reign.
 
@@ -37,7 +37,7 @@ One ruler might refuse to aid a neighboring army for fear of empowering an old e
 
 Rynhold could not simply command these rulers to join him. They were sovereigns in their own right. To assemble resistance, he had to persuade them that cooperation offered a future that none could secure alone.
 
-The surviving record describes the pressure that brought the crowns together; it does not preserve an authenticated transcript of one defining meeting.
+No single speech brought the crowns together. It took repeated persuasion and a growing fear of what Osmo might achieve while the kingdoms remained divided.
 
 ## The gathering of crowns
 
@@ -121,7 +121,7 @@ Rynhold ruled Avalor from **1 to 37 AF**, according to the [[House Frozenroar#th
 
 **Benedikt Frozenroar** succeeded him, beginning his reign in 38 AF. The surviving authenticated pedigree does not establish that Benedikt was Rynhold's son. A succession in the register does not, by itself, prove a parent-child relationship.
 
-The public sources likewise do not provide a secure account of Rynhold's birth, parentage, consort, or exact circumstances of death. These details remain open rather than being supplied through attractive but unsupported genealogy.
+Rynhold's personal family story has faded behind the kingdom he founded. His reign, his friendships, and the institutions he built have proved more enduring than any surviving account of his household.
 
 The chronology of his reign is clear; the private family story behind it is not.
 

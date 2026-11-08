@@ -36,7 +36,7 @@ That contrast defines him: a patient diplomat who sometimes longs for a much mor
 
 ## Of clan and crown
 
-His name identifies him with **Mountain Hall Clan**. The surviving public history does not establish a detailed family tree, the clan's political hierarchy, or a particular battle that brought Belgram to royal service.
+Belgram carries the name of **Mountain Hall Clan** with the same plain confidence he brings to the council chamber. He has little interest in dressing every disagreement in more ceremony than it deserves.
 
 He is no less a person for the absence of those details. His loyalty to the work of the council is clear, as is his preference for plain speaking over ceremony.
 
