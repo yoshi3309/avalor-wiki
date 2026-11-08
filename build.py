@@ -542,8 +542,40 @@ for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS,periods=PERIODS,topics=TOPICS,date_kinds=DATE_KINDS,journeys=JOURNEYS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
-# All search data is intentionally player-facing and comes only from public article sources.
-index=[{k:a.get(k,'') for k in ('slug','title','category','entry','summary','featured','body')} for a in ALL]
+# All search data is intentionally public-facing. Aliases refer only to published
+# articles; consolidated records link directly to their actual parent sections.
+SEARCH_ALIASES = (yaml.safe_load((ROOT / 'data' / 'search-aliases.yml').read_text(encoding='utf-8')) or {}).get('aliases', {})
+if not isinstance(SEARCH_ALIASES, dict):
+    raise ValueError('Search aliases must be a slug-to-list mapping')
+for slug, aliases in SEARCH_ALIASES.items():
+    if slug not in BY_SLUG or not isinstance(aliases, list) or not all(isinstance(a, str) and a.strip() for a in aliases):
+        raise ValueError(f'Invalid public search aliases for {slug}')
+index = []
+for a in ALL:
+    # Keep existing full-public-text search, while providing weighted titles,
+    # subtitles and alternative names for much more precise results.
+    index.append({
+        'type': 'article', 'slug': a['slug'], 'fragment': '',
+        'title': a['title'], 'subtitle': a.get('subtitle') or '',
+        'category': a['category'], 'entry': a.get('entry') or '',
+        'summary': a['summary'], 'featured': bool(a.get('featured')),
+        'aliases': SEARCH_ALIASES.get(a['slug'], []),
+        'body': a['body']
+    })
+for old_slug, rule in MERGES.items():
+    parent = BY_SLUG[rule['parent']]
+    section = next((h for h in parent['headings'] if h['id'] == rule['section']), None)
+    if not section:
+        raise ValueError(f'Retired search target missing section: {old_slug}')
+    # Use a summary from the public parent article, never deleted or private text.
+    index.append({
+        'type': 'section', 'slug': parent['slug'], 'fragment': rule['section'],
+        'title': str(rule['title']), 'subtitle': 'Section within ' + parent['title'],
+        'category': parent['category'], 'entry': 'SECTION',
+        'summary': 'Open this section in ' + parent['title'] + '.',
+        'featured': False, 'aliases': [old_slug.replace('-', ' '), section['text']],
+        'body': ''
+    })
 (PUBLIC/'search-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 (PUBLIC/'robots.txt').write_text('User-agent: *\nAllow: /\n',encoding='utf-8')
 print(f'Built {len(ALL)} public articles, {len(CATEGORIES)} collections, a timeline and search index in {PUBLIC}')
