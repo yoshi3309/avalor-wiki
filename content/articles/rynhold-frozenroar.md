@@ -117,7 +117,7 @@ The correction of Jaznaar's reputation would come nearly two thousand years late
 
 ## The first reign and the royal succession
 
-Rynhold ruled Avalor from **1 to 37 AF**, according to the [[House Frozenroar#the-royal-register|Royal Register]]. His name begins the sequence of sovereigns that extends through thirty-four reigns to the present king.
+Rynhold ruled Avalor from **1 to 37 AF**, according to the [[House Frozenroar|Royal Register]]. His name begins the sequence of sovereigns that extends through thirty-four reigns to the present king.
 
 **Benedikt Frozenroar** succeeded him, beginning his reign in 38 AF. The surviving authenticated pedigree does not establish that Benedikt was Rynhold's son. A succession in the register does not, by itself, prove a parent-child relationship.
 
