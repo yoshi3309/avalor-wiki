@@ -18,30 +18,27 @@ source: The Living Chronicle, Chapter VI, IV and IX; Master Canon Bible Volume
   I, V (public testimony)
 featured: false
 ---
-## A life stolen by a page
 
-**Jack** was a child living in [[Stanleyville]] when the town suffered mysterious deaths that brought [[The Misfits]] to investigate.
+## The boy and the deadly manuscript
 
-A merchant sold manuscripts to his family. Later testimony identified that merchant as **Cid the Blood King** in disguise. One of the texts held a concealed **Fireball spell**. When Jack innocently read it, the spell killed him.
+Before he became a companion of [[The Misfits]], **Jack** was a child growing up in [[Stanleyville]].
 
-There is no evidence that Jack sought dangerous magic. The responsibility belonged to the person who deliberately hid lethal magic in something a child might read.
+A traveling merchant sold manuscripts to his family. Hidden among their pages was a **Fireball** spell placed there by the merchant, later revealed to be **[[Cid the Blood King]]** in disguise. Jack read the words without knowing the danger they carried, and the magic killed him.
 
-## The boy who traveled onward
+He had done nothing to deserve such an end. He was a boy reading something brought into his home, and someone else's cruelty had turned an ordinary act into a tragedy.
 
-Jack’s spirit remained conscious in the mortal world, determined to discover who had caused his death. The Misfits befriended him. When they departed Stanleyville, **Jack went with them** rather than remaining tied to the place where he died.
+## A ghost with a question
 
-Heureux remembered the boy as a companion rather than simply a clue in the investigation. There could be humor in their unusual fellowship, but no joke restored the childhood that had been taken from him.
+Death did not silence Jack. His spirit remained conscious in the mortal world, determined to learn who had caused his death.
 
-## The town's other loss
+When the Misfits came to Stanleyville to investigate the mysterious deaths, they befriended him. Rather than leaving Jack behind when their work carried them elsewhere, they welcomed him into their strange company. **He traveled with them**, a ghostly boy among seasoned adventurers.
 
-Stanleyville was also hunted by the creature called the **Stalker**, later linked to Cid’s direction. It killed the Lord Marshal who had first commissioned the adventurers. His death left an important office vacant until Lavitz was appointed after the Blood King's defeat.
+He could share their moments of laughter and wonder without ceasing to be a child who had lost his life. [[Heureux]] remembered him as a friend, not a clue or a prize for solving a mystery.
 
-Jack was not the sole person harmed during the affair. He was nevertheless more than one piece of evidence among its many victims.
+## More than Stanleyville's tragedy
 
-## What the Commission cannot establish
+The town also suffered attacks by [[The Stalker of Stanleyville|the Stalker]], the creature controlled by Cid that killed the preceding Lord Marshal. Jack had died in a different way, but both tragedies became part of the road that led the Misfits toward their greater enemy.
 
-Accounts of Jack's friendship with the Misfits continue beyond the defeat of Cid. The Commission has not established a single reliable public account of **where the boy's spirit went afterward**.
+Jack remained with the companions beyond Stanleyville, carrying his question into a much larger story than the one that had ended his childhood.
 
-Silence in the royal record is not evidence that he vanished, found rest, or remained unchanged forever. Those possibilities must not be silently substituted for known history.
-
-Professor Xiomara Thal has reminded readers that Jack was a child before he became evidence. The order of those facts matters.
+His later path is not fully told in the Chronicle. What survives is the part that matters most: the Misfits did not treat his death as the whole of who he was. They made room for him among the living, and he became one of their own.

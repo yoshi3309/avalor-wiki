@@ -1,8 +1,7 @@
 ---
 title: Jaaris
 subtitle: The Necromancer Entangled with Fo’Gurn
-summary: A necromancer whose crimes and manipulation of Fo’Gurn were discovered
-  after the dragonborn paladin's apparent death against a hydra.
+summary: The necromancer linked to Fo'Gurn's altered fate, whose crimes cast a shadow over the sacrifices of the Misfits.
 category: People & Legends
 image: /assets/uploads/horned-necromancer-with-ghostly-grimoire.png
 entry: BIO.031
@@ -17,24 +16,23 @@ source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
 ---
-## Two necromancers, not one
 
-**Jaaris** was a **necromancer** connected to the later fate of [[fo-gurn|Fo’Gurn]], the dragonborn paladin who was believed to have died while defending his companions against a hydra.
+## The necromancer who shadowed a sacrifice
 
-The original Lord Marshal's **first commission** had also sent the Misfits to investigate a necromancer, but that earlier practitioner was **not Jaaris**. Confusing the two collapses distinct events and creates a misleading account of the fellowship's beginnings.
+When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] escaped believing their dragonborn friend had died. The memory of that sacrifice followed them for years.
 
-## The friend who did not return
+Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief of those years had been real.
 
-Fo’Gurn stayed behind to allow his companions to escape the hydra. For years they believed their friend was dead. Later inquiry revealed that his disappearance had been **entangled with Jaaris's crimes** and that his fate had been manipulated in ways the companions did not understand at the time.
+## A different enemy
 
-The published chronicle does not set out the complete mechanism of that manipulation. It would be improper to invent a particular ritual, prison, or bargain and give it the status of established history.
+The Misfits had encountered a necromancer during [[The Misfits’ First Commission|their first commission]] for the preceding Lord Marshal. That practitioner was **not Jaaris**.
 
-The loss experienced by [[Lavitz Shawe]] and the surviving companions was real, regardless of what they learned later.
+The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound rather than simply explaining the beginning of the fellowship.
 
-## An encounter remembered twice
+Much of Jaaris's sorcery remains obscured. His role is remembered through the harm he caused, not through a neatly reconstructed account of every ritual.
 
-Jaaris was among the remembered trials recreated by the mind flayer **Zauks**. Those ordeals used the Misfits' recollections of earlier adventures rather than introducing each old danger anew.
+## A memory turned against the Misfits
 
-His appearance in that account does not supply new independent evidence about his original methods or fate.
+Jaaris appeared again when [[Zauks and the False Lives|Zauks]] used the companions' memories to recreate old dangers. This was an illusion drawn from what they had endured, not a new encounter proving that Jaaris had returned.
 
-Jaaris's place in the Archives is chiefly defined by the harm done to Fo’Gurn and by the need to distinguish separate acts of necromancy in an age already clouded by Cid's legacy.
+For the Misfits, his name came to mean more than one necromancer among many. It belonged to the troubling history of a friend they had lost and the unsettling realization that they had never understood the whole of his fate.

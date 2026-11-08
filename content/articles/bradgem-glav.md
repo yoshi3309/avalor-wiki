@@ -18,28 +18,29 @@ source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
   public historical record
 featured: false
 ---
-## The deed at Heroes Hill
 
-Lord **Bradgem Glav** was not the architect of the northern alliance or the ruler who inherited its success. His name endured for the action that decided the last battle against Lord Osmo.
+## The man who reached Osmo
 
-At [[Heroes Hill]], Glav **killed Osmo and received mortal wounds in the struggle**. The older traditions agree upon the death of the conqueror and the cost to Glav. Later stories differ about whether he held a position against overwhelming odds or took advantage of an opening created by the coalition.
+At [[Heroes Hill]], **Lord Bradgem Glav** brought an end to the ambitions of the conqueror **Lord Osmo**. He killed Osmo in the fighting and suffered wounds from which he would not recover.
 
-The Royal Commission does not present these variations as one certain sequence of movements, nor does it preserve an authenticated final speech.
+The victory gave the allied kings a chance to make peace and eventually build [[The Unification of Avalor|a united kingdom]]. It also cost them a warrior whose name would be spoken long after the men who fought beside him had passed from memory.
 
-## A victory that required more than one death
+Some traditions picture Glav holding a position against impossible odds; others describe a sudden opening in the battle and a warrior brave enough to seize it. The accounts differ in their details, but none changes the price of his final act.
 
-Glav’s act ended the immediate threat of Osmo’s conquests. It did not settle every dispute among the allied kings. Those who survived still had to create [[unification-of-avalor|a common kingdom]] through negotiation.
+## A victory the living had to finish
 
-The battlefield’s cost was borne by many others as well. Wounded soldiers needed care; families waited for news; communities faced the work of rebuilding. Glav’s fame should not obscure the lives of those whose names did not survive.
+Osmo's death ended the immediate threat of his conquests. It did not end the duties of those who survived. The allied rulers still had to negotiate the kingdom that would become Avalor, while wounded soldiers, bereaved families, and damaged settlements faced the slower work of rebuilding.
 
-## A horse that remembers
+Glav would never see the full result. His sacrifice made a new future possible, but it was left to others to decide what kind of future that would be.
 
-Glav’s grave at Heroes Hill bears a statue of a **rearing horse**. Some visitors see courage in its posture; others imagine the charge that carried its rider into history. A more sorrowful interpretation holds that it rears because the rider will never return.
+## The horse above his grave
 
-No surviving contemporary inscription establishes a single intended meaning. The monument has acquired significance through generations of remembrance.
+Glav's grave is marked by a statue of a **rearing horse**. To some visitors it recalls the courage of a warrior in battle; to others it is an image of the moment before a rider is lost forever.
 
-## A resting place revisited
+The monument has gathered many meanings in the centuries since its creation. It remains a place where the kingdom remembers not merely the death of an enemy, but a man who gave his life to stop him.
 
-Much later, the Misfits’ search for [[Jaznaar]] was connected with Glav’s tomb and a concealed passage toward [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar’s refuge]]. The public Chronicle does not establish every detail of their route.
+## A tomb and another generation's search
 
-Glav’s importance belongs first to the founding age, when his sacrifice helped give the allied crowns a future worth negotiating.
+Nearly two thousand years later, the paths of [[The Misfits]] and [[Jaznaar]] crossed the history of Glav's resting place. Their search for the surviving hero of the Six led through a concealed passage associated with his tomb.
+
+It was an unexpected second chapter for a place already steeped in founding legend. Yet Glav's name belongs first to Heroes Hill, where his courage allowed the alliance to survive long enough to become Avalor.

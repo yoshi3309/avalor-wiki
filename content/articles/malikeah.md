@@ -1,8 +1,7 @@
 ---
 title: Malikeah
 subtitle: Present Leader of the Hunters Guild
-summary: The current leader of the Hunters Guild, the organization founded by
-  Faelynn at Wayword Sun to protect travelers and vulnerable settlements.
+summary: Malikeah now leads the Hunters Guild, carrying Faelynn's protective tradition into Avalor's present age.
 category: People & Legends
 image: /assets/uploads/battle-worn-ranger-in-the-wayward-sun.png
 entry: BIO.024
@@ -17,32 +16,25 @@ source: Avalor Master Canon Bible Volume I, VII; Compendium II, Wayword Sun and
   Hunters Guild canon ledger
 featured: false
 ---
-## The guild in the present age
 
-**Malikeah** leads [[The Hunters Guild]] in the present age of Avalor. The institution was founded by [[Faelynn]], the Night Mistress and a companion of [[The Six]], at [[Wayword Sun]] within the [[Dead Marshes]].
+## The hunter who holds the guild together
 
-The succession from an ancient hero to a living guild leader is significant. The founding of an order does not guarantee its survival; generations must continue its work, adapt to changing dangers, and remember why it was created.
+**Malikeah** is the present leader of [[The Hunters Guild]], the order founded by [[Faelynn]] at [[Wayword Sun]] in the dangerous [[Dead Marshes]].
 
-Malikeah's leadership is one point at which that long inheritance meets the needs of the current kingdom.
+To inherit such an institution is to inherit more than its name. The hunters work in places where roads give way to difficult terrain and where isolated communities cannot always rely on the swift arrival of royal soldiers. Their leader must keep that work alive in a kingdom whose dangers have changed many times since Faelynn walked its paths.
 
-## A duty beyond the roads
+Malikeah carries that responsibility in the present age. The guild's founder is a figure of legend; its current leader must attend to the people who still need its help.
 
-The Hunters Guild helps travelers and communities exposed to threats that ordinary patrols cannot always answer. Its members require knowledge of difficult terrain and the judgment to recognize dangers before they reach isolated settlements.
+## In Faelynn's footsteps, but not her shadow
 
-The Dead Marshes provide a particularly challenging setting for this work. The landscape bears injuries from the founding wars and later upheaval after the Black Tower catastrophe.
+Faelynn understood what could happen when a threat went unrecognized until it was too late. The destruction of a village after she was deceived by a fiend became part of the painful history behind her commitment to protecting travelers.
 
-The guild does not exist merely to pursue legendary beasts. Its value is found in the protection it offers to people whose circumstances may draw little attention from a distant court.
+Malikeah leads the order that grew from that commitment. The duty is enduring, even when the individual dangers and decisions belong to a different time.
 
-## Carrying Faelynn's inheritance
+The history of the Hunters Guild, its work in the marshes, and its founding belong in [[The Hunters Guild|the guild's own account]]. Malikeah's story begins where that institutional history meets the judgment of a living leader.
 
-Faelynn's own history included a fiend's deception and a village's destruction. The guild she established endured beyond that tragedy.
+## A leader whose story is still unfolding
 
-Malikeah inherits its present responsibilities without becoming a second Faelynn. To lead an institution founded by a celebrated figure is not to possess the founder's memories or to repeat every choice made in a different age.
+Malikeah's position is established, but the defining adventures and personal relationships of this leader have yet to take their place in the Chronicle. Those stories may come as the hunters' work continues.
 
-## What remains unwritten
-
-The available public record identifies Malikeah as **the current leader** of the Hunters Guild. It does not establish Malikeah's ancestry, appearance, age, earlier adventures, exact title within the guild, or personal relationships.
-
-These are open subjects for future accounts. The Royal Archives do not replace those gaps with an invented biography.
-
-For now, Malikeah's place in the chronicle is secure: the Hunters Guild remains an active institution, and its leadership continues the work of protecting those beyond the easiest reach of the kingdom's roads.
+For now, one thing matters: the guild Faelynn founded has not faded into an old legend. It has someone to lead it, and people still look to its hunters when the safer roads are far away.

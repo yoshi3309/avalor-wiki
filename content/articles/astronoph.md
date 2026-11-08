@@ -18,26 +18,26 @@ source: Compendium II · Entry II.002, XI; Entry II.003, XXIV; Avalor Master
 featured: false
 ---
 
-## The deva at the cathedral
+## The deva at the cathedral doors
 
-**Astronoph** is a **female deva** who serves as **High Priest** of [[The Great Cathedral]] in [[Renada#cathedral-ward|Cathedral Ward]].
+**Astronoph** is a **female deva** and the **High Priest** of [[The Great Cathedral]] in [[Renada#cathedral-ward|Cathedral Ward]].
 
-Her office is prominent enough to place her near the kingdom's centers of religious and civic authority, yet the cathedral doors open to people whose troubles have nothing to do with the royal court. The congregation includes worshippers, travelers, petitioners, and those seeking food or shelter.
+The cathedral draws worshippers from across the capital, but not everyone who enters its doors comes for a ceremony. Some seek counsel; others arrive hungry, frightened, or in need of shelter. Astronoph's place at its head binds her to that everyday work as surely as to the solemn occasions that bring the court into the sanctuary.
 
-Astronoph's established work is thus broader than ceremony alone: she bears responsibility for a religious institution whose promises must matter to the people who rely upon it.
+Her calling is lived in a city where divine ideals are measured not only by the beauty of a prayer, but by what happens when someone asks for help.
 
-## Justice beyond the sanctuary
+## Justice, vigilance, and duty
 
-The Great Cathedral honors **Tyr, Helm, and Torm**, whose teachings are brought together in [[The Threefold Devotion]]. The traditions place importance on justice, vigilance, and duty, but an institution's declaration of these ideals is not proof that it has always fulfilled them.
+The cathedral honors **Tyr, Helm, and Torm**, whose teachings form [[The Threefold Devotion]]. They speak of justice, vigilance, and duty—virtues that sound simple until a difficult choice puts them in conflict.
 
-Avalor's corrected history has made that lesson difficult to ignore. Respected institutions repeated a false accusation against [[Jaznaar]], and the kingdom must now ask how such errors were allowed to endure.
+Avalor's recent correction of its founding history has made those questions urgent. For generations, respected institutions repeated the false accusation against [[Jaznaar]]. Their responsibility now includes considering how devotion can be used to challenge injustice rather than protect a comfortable mistake.
 
-The public record identifies Astronoph as the Cathedral's present leader. It does **not** establish particular private decisions she made during that historical reckoning. Those should be developed as part of her character, not borrowed from the institution and attributed to her without evidence.
+Astronoph leads the cathedral in this changing age. The part she will personally play in its reckoning remains a story yet to unfold.
 
-## A distinct religious voice
+## Her own place in Avalor
 
-Astronoph's work differs from that of **[[Samuel the Devoted|Samuel]]**, who represents Tyr and Helm on [[The Aegis]] and trains paladins at [[Heaven's Heart]]. She leads the cathedral in the capital; Samuel advises the crown through a separate office.
+Astronoph's authority belongs to the **Great Cathedral**, not to the seat of the Devoted on [[The Aegis]]. That seat is held by [[Samuel the Devoted|Samuel]], the Monadic Deva who represents Tyr and Helm and trains paladins at [[Heaven's Heart]].
 
-Their participation in related faiths does not make their personalities, authority, or judgments interchangeable.
+The two are powerful figures in related traditions, but their work takes them along different paths.
 
-Astronoph is unquestionably a significant figure in Renada's religious life. Her origins, personal temperament, friendships, and experiences before taking office have not yet been established. A fuller character portrait should begin with those details rather than repeat the history of [[The Great Cathedral]].
+Astronoph is already a familiar figure in the religious life of Renada. The story of how she came to lead its cathedral, and the convictions that have shaped her beyond her office, can grow as Avalor's history reveals more of the woman behind the title.

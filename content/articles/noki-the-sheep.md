@@ -13,29 +13,30 @@ facts: |-
   Unusual condition: Transformed into a sheep
   Encounter: The Misfits
   Later imitation: Zauks's trials
-related: the-misfits,moonville-manor,zauks-false-lives,the-first-commission
+related: the-misfits,zauks-false-lives,the-first-commission,hunters-guild
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
 ---
-## A spellcaster in an unlikely shape
 
-**Noki** was a **wizard transformed into a sheep**, encountered during the early adventures of [[The Misfits]]. The surviving public history makes no attempt to disguise the absurdity of the situation.
+## A wizard in a sheep's clothing
 
-Heureux observed that a wizard turned into a sheep sounds less believable in written histories than it did to those standing before him. His remark has been preserved because the strangeness of the account is part of its character, not proof that the encounter never happened.
+Avalor has known strange magic, but few stories match the predicament of **Noki**, the **wizard whom [[The Misfits]] encountered in the form of a sheep**.
 
-## What is known, and what is not
+Even among their unusual adventures, Noki stood out. A person accustomed to spells and scholarship had somehow become a creature more likely to be found grazing beside a road than casting magic upon it.
 
-The chronicle confirms Noki's magical calling and transformed condition. It does not establish **who cast the transformation, why it occurred, or whether it was later undone**.
+[[Heureux]] later remarked that the incident sounded less believable in a written history than it had seemed to those actually standing there. Yet there was Noki, a wizard in an exceedingly inconvenient shape.
 
-A wizard may suffer unusual magic without being its author. Nor should the resemblance to other tales of transmutation be taken as evidence that a known enemy of the Misfits was responsible.
+## An unusual encounter
 
-The Royal Archives therefore resist the temptation to supply an elaborate origin, a curse-breaking ceremony, or a final scene not recorded by the witnesses.
+How Noki came to be transformed remains a mystery within the telling of this early adventure. The important part is not a conveniently invented explanation, but the encounter itself: the Misfits found a spellcaster whose circumstances made the ordinary rules of adventuring seem rather silly.
 
-## Remembered by Zauks
+Noki's story has room for further adventures and revelations. For the moment, this peculiar meeting is the one that placed his name among the companions' memories.
 
-Noki appears again in accounts of the magical ordeal imposed by the mind flayer **Zauks**, who constructed imitations of the companions' former dangers and encounters.
+## Remembered in the false lives
 
-The recreated appearance was not a second verified transformation or an independent later adventure. It was part of a set of **memory-based illusions**.
+The mind flayer [[Zauks and the False Lives|Zauks]] later drew upon the Misfits' recollections to recreate earlier encounters and dangers. Noki appeared among those memories.
 
-Noki's story is a useful corrective to the solemnity of royal history. The Misfits faced terrible losses and altered the fate of a kingdom; they also encountered a wizard who, for reasons still unknown to their historians, had become a sheep.
+The second appearance was part of Zauks's illusion, not another confirmed transformation. For those who survived the ordeal, the sight of Noki was one more reminder that even the most ridiculous incidents of a journey could remain vivid years later.
+
+Not every memorable person in the Misfits' story was a king, knight, or terrible foe. Sometimes the name that endured belonged to a wizard who had become a sheep.

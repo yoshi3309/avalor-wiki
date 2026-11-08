@@ -18,32 +18,35 @@ source: The Living Chronicle, Chapters II–IV; Compendium II · II.003, public
   Scholar's Account
 featured: false
 ---
-## The ranger beyond the walls
 
-**Faelynn**, a wood elf ranger known as the **Night Mistress**, was among [[The Six]] who helped shape the earliest years of Avalor. Her understanding of woodland paths, dangerous creatures, and the needs of travelers distinguished her from companions whose service was more often associated with royal halls or religious institutions.
+## The ranger who learned the cost of trust
 
-Her reputation was earned in the wilderness, but her most lasting contribution became an institution intended to protect people living beyond easy reach of the crown.
+**Faelynn** was a wood elf ranger known as the **Night Mistress**, one of the legendary [[The Six]] whose friendship helped shape Avalor's first years.
 
-## A deception that cost a village
+She knew the wilderness in ways that soldiers stationed behind city walls rarely could. The paths travelers avoided, the dangers hidden among trees, and the risks faced by communities far from a garrison were part of the world in which she had learned to survive.
 
-Accounts of Faelynn's earlier life tell of a **fiend wearing the form of a boar**. Deceived by the creature, Faelynn killed a chieftess and unknowingly destroyed the protections upon which a village depended. Its inhabitants were massacred. She eventually freed herself from the fiend's influence and destroyed it, yet neither courage nor vengeance could bring the villagers back.
+Yet the calamity that shaped her story began not with a threat she recognized, but with one she was persuaded to trust.
 
-Later storytellers have sometimes made this calamity the sole explanation for every choice she made afterward. The Royal Commission does not possess direct testimony sufficient to support so complete a judgment. Faelynn's subsequent work may have grown from remorse, a sense of obligation, or convictions she already held.
+## The fiend in the shape of a boar
 
-What survives is the record of what she built.
+A fiend came to Faelynn **wearing the form of a boar** and deceived her. Under its influence she killed a **chieftess**, unknowingly destroying the protections upon which a nearby village depended. Its people were massacred.
 
-## The Hunters Guild at Wayword Sun
+Faelynn eventually freed herself from the fiend's influence and destroyed it. There was courage in that victory, but no victory could give the dead their lives back.
 
-Faelynn founded [[The Hunters Guild]] at [[Wayword Sun]] within the [[Dead Marshes]], a landscape of shifting approaches, hazardous waters, and creatures beyond the reach of ordinary city patrols.
+The experience left a terrible weight upon her history. Whether guilt, duty, or convictions she already carried had the greater influence on her later choices, Faelynn became a protector who knew just how costly misplaced trust could be.
 
-The hunters came to protect travelers and threatened communities by understanding the dangers of the land rather than assuming a royal order could make those dangers vanish. Such protection demanded judgment: a village ignored by officials might be in greater need than a wealthy settlement whose messenger could reach Renada in a day.
+## The Hunters Guild
 
-The guild endured after its founder's most celebrated adventures. Its history reveals a different kind of guardianship from the defense of a city wall.
+Faelynn founded [[The Hunters Guild]] at [[Wayword Sun]] in the [[Dead Marshes]]. Its members learned to defend travelers and isolated settlements by understanding the dangers of the wild rather than assuming that every trouble could be solved by a decree from Renada.
 
-## A hard judgment at the Black Tower
+The guild could reach people who were too far from the kingdom's centers of power to expect easy rescue. Its purpose reflected a lesson Faelynn had earned painfully: danger must often be recognized and answered before it overwhelms the people least able to escape.
 
-When Aldus Greystone III's experiments became intolerable, Faelynn increasingly agreed with [[Lowkee]] that he had to be stopped, even at terrible cost. [[Petris]] and [[Jaznaar]] retained more hope that their friend could still be saved.
+The order survived her era and remains active under [[Malikeah]].
 
-Faelynn's history made her sensitive to the consequences of delay and misplaced trust, though no surviving testimony allows the Commission to assign a single motive to her final position.
+## The last dispute among friends
 
-She is remembered not merely as a hunter of dangerous things, but as one who understood that protection often begins long before a monster appears.
+As **Aldus Greystone III** pursued his experiments at the [[Black Tower]], Faelynn came to agree with [[Lowkee]] that he must be stopped even if there was no way to save him. [[Petris]] and [[Jaznaar]] continued to hope for another answer, while [[Kelsalor]] struggled to keep the fellowship from breaking apart.
+
+Faelynn had once seen the terrible price of failing to recognize a danger in time. She could not forget that lesson when the danger was a beloved companion.
+
+She is remembered as a ranger of formidable skill, but the deeper measure of the Night Mistress is the protection she tried to give others after learning how easily protection can fail.
