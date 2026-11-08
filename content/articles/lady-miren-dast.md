@@ -20,7 +20,7 @@ featured: false
 
 ## An editor who permits disagreement
 
-**Lady Miren Dast**, a **dwarf woman** and Royal Archivist of [[Renada]] and chair of [[The Royal Commission of Historical Inquiry]], has made an unusually consequential choice for a keeper of royal records: she allows the kingdom's official history to contradict its old certainties.
+**Lady Miren Dast**, a **dwarf woman**, serves as Royal Archivist of [[Renada]] and chairs [[The Royal Commission of Historical Inquiry]]. She has made an unusually consequential choice for a keeper of royal records: she allows the kingdom's official history to contradict its old certainties.
 
 In her preface to *The Living Chronicle*, Miren does not claim that the Commission's contributors always agree. She openly acknowledges their disputes and argues that their account is stronger for retaining them.
 
@@ -46,4 +46,4 @@ Her method is visible in the royal-succession inquiry: a disputed record need no
 
 Miren's work serves Avalor, but not by producing a flattering portrait of its rulers. The false accusation against [[Jaznaar]] demonstrates why historical loyalty cannot depend upon defending every inherited statement.
 
-The details of her ancestry, family, and life before her royal appointment have not been established. What readers can recognize already is the archivist's defining habit: **she would rather preserve an honest uncertainty than print an elegant certainty she cannot defend**.
+Little is said about Miren's life before her royal appointment. In her work, however, one habit is unmistakable: **she would rather preserve an honest uncertainty than print an elegant certainty she cannot defend**.

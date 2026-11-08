@@ -53,7 +53,7 @@ Aldus had not simply ceased to exist when his mortal body fell. He **endured in 
 
 Jaznaar eventually discovered his former companion's survival. Rather than allowing the threat to return unchecked, he undertook a long guardianship: he sought to **bind Cid** within the Shadowfell and restrain much of the Blood Sickness left by the failed work.
 
-For almost two thousand years the kingdom lived without knowing the full nature of that struggle. Historians cannot reconstruct every attempt Cid made to resist his confinement, nor should they present invented campaigns as proven activity.
+For almost two thousand years the kingdom went about its business without understanding the danger that still endured in the Shadowfell. Cid's efforts to escape the bonds placed upon him remained largely hidden.
 
 The most lasting evidence of his influence is found not in an authenticated catalogue of battles, but in the false account that came to dominate Avalor's public memory.
 
@@ -85,7 +85,7 @@ The Misfits faced many enemies during their travels, but the presence of a stran
 
 The unnamed necromancer of their **first commission** was distinct from [[Jaaris]]. The cult of [[The Cult of Gol’Goroth|Gol'Goroth]], the living Moonville Manor, and other early dangers cannot all be assigned to the Blood King merely because the companions later confronted him.
 
-Cid did manipulate people and use servants, but the historian's task is to distinguish established acts from connections made only by later storytellers.
+Cid manipulated people and used servants, but the Misfits' every enemy was not his agent. Their travels were larger and stranger than the designs of any one villain.
 
 That caution strengthens rather than weakens the case against him. The suffering and deception for which his responsibility is known need no additional invented crimes.
 
@@ -115,7 +115,7 @@ Then an immense **black hand** emerged from an unidentified darkness and seized 
 
 The immediate danger was defeated. The Misfits survived in part through Melmiri's intervention, and the queen returned home.
 
-The Royal Archives **do not equate Cid's removal with proof of permanent annihilation**. Nor can the public account identify the force behind the black hand. Later religious explanations and conjecture are not substitutes for the witnesses' limited knowledge.
+Cid was taken from the battle, not confirmed annihilated. The immense hand and the darkness from which it emerged remained mysteries to the people who witnessed his defeat.
 
 ## The kingdom after the lie
 

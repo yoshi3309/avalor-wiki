@@ -56,7 +56,7 @@ Katiri now directs the **crown's spy network**. The eladrin [[svendyal-shadowwhi
 
 Katiri admires Sven's abilities but distrusts his independence. That professional irritation would be simpler to manage if she did not also have **a crush on him**.
 
-The attraction has not magically resolved their disagreements, and it does not establish how Sven feels in return. For a woman who prides herself on reading other people's intentions, the uncertainty is especially inconvenient.
+Her feelings have done nothing to settle their professional quarrels. For a woman who prides herself on reading other people's intentions, Sven remains an especially inconvenient mystery.
 
 ## The woman behind the Silver Hand
 

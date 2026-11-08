@@ -38,7 +38,7 @@ Her criticism can be uncomfortable precisely because it continues after an insti
 
 Thal frequently challenges **[[Brother Halden Korr]]** to distinguish independent testimony from traditions passed down through copied texts. Halden, in turn, reminds her that sacred records have meanings beyond the literal events a historian hopes to reconstruct.
 
-**[[Lady Miren Dast]]**, the Commission's chair, preserves their disagreements rather than smoothing them away. Thal's insistence on rigorous scrutiny does not establish that every opposing interpretation is false. It gives others a reason to defend their conclusions carefully.
+**[[Lady Miren Dast]]**, the Commission's chair, preserves their disagreements rather than smoothing them away. Thal does not expect everyone to agree with her. She expects them to make their case carefully, and she holds herself to the same standard.
 
 Her views on the disputed early royal birth records show the same discipline: an official account may be the strongest evidence available and still bear the interests of the institution that preserved it.
 

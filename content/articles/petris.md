@@ -30,7 +30,7 @@ Petris's service addressed the suffering that remained.
 
 The worship of Lathander honors renewal, beginnings, hope, and the possibility of restoration after hardship. Petris brought those convictions into the practical work of feeding, healing, sheltering, and consoling people who had little to offer in return.
 
-Some Avalorian communities maintain a dawn custom called the **First Loaf**, setting aside food for a neighbor who might otherwise go hungry. The custom belongs to a wider devotional tradition; the public record does not establish that Petris personally devised it.
+Some Avalorian communities maintain a dawn custom called the **First Loaf**, setting aside food for a neighbor who might otherwise go hungry. The First Loaf was a custom shared by communities devoted to Lathander, a practice that echoed Petris's work even though its origins were older or more widely shared than her own story.
 
 Her legacy does, however, accord with the duty the custom expresses.
 
@@ -40,7 +40,7 @@ Petris and **Aldus Greystone III** shared gifts and interests associated with he
 
 As Aldus's experiments brought suffering in the name of overcoming death, Petris still hoped that something of the friend they had known could be reached. [[Jaznaar]] shared that hope more strongly than [[Lowkee]] and [[Faelynn]], who came to believe the danger could no longer be permitted to continue. [[Kelsalor]] tried to mediate.
 
-Petris's compassion should not be mistaken for approval of cruelty. The division of the Six lay partly in their different answers to a terrible question: whether they could stop the harm without destroying the man who had caused it.
+Her hope for Aldus did not excuse his cruelty. She was struggling to find a way to save the man she had known without allowing him to hurt anyone else. The division of the Six lay partly in their different answers to a terrible question: whether they could stop the harm without destroying the man who had caused it.
 
 ## A peaceful ending and a distant descendant
 
