@@ -1,38 +1,163 @@
 ---
 title: The Misfits
 subtitle: Champions of the Age of Ascendancy
-summary: The adventuring fellowship whose defeat of Cid changed Avalor’s history
-  and its place among nations.
+summary: From a Lord Marshal's first commission to the defeat of Cid, the adventuring fellowship whose friendship and discoveries transformed Avalor's history.
 category: People & Legends
 image: /assets/uploads/enchanted-tavern-adventurers-gathering.png
 entry: HIS.001
-era: Age of Ascendancy
+era: Age of the Misfits to Age of Ascendancy
 facts: |-
-  Known members: Lavitz, Tel’Lora, Heureux, Sven, Amara
-  Defining event: Defeat of Cid
-  Legacy: The Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,fo-gurn,jack-of-stanleyville,the-stalker,jaznaars-refuge,zauks-false-lives
-source: Compendium II · Entry II.001; The Living Chronicle, Chapters VI–VII
+  Fellowship: The Misfits
+  Early companions: Lavitz, Tel'Lora, Sven, Amara, Fo'Gurn
+  Joined later: Heureux
+  Other traveling companion: Jack of Stanleyville
+  Publicly celebrated five: Lavitz, Tel'Lora, Sven, Heureux, Amara
+  First commission: Investigation by the preceding Lord Marshal
+  Defining achievement: Defeat of Cid and rescue of Queen Melmiri
+  Historical legacy: Vindication of Jaznaar; Age of Ascendancy
+related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,the-first-commission,cid-the-blood-king,jaznaars-vindication
+source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 featured: true
 ---
-## A fellowship that changed history
 
-The companions remembered as **the Misfits** were [[Lavitz Shawe]], [[Tel'Lora Ebbenflow]], [[Heureux]], [[svendyal-shadowwhisper|Sven]], and [[Amara]]. Their adventures brought them into conflict with forces that had shaped the realm from behind the veil of a false history.
+## The fellowship that no prophecy assembled
 
-Their confrontation with [[Cid the Blood King]] ended in the Shadowfell. In the aftermath, the kingdom could no longer ignore the truth of the ancient Black Tower catastrophe or the innocence of [[Jaznaar]], the founding hero falsely named Betrayer.
+The adventurers who became **the Misfits** did not meet because of a prophecy or a royal command to correct the kingdom's founding history. They began with a more ordinary task: a commission from Avalor's preceding Lord Marshal to investigate a necromancer.
 
-## The companions before their victory
+In later years their names would be celebrated beside those of ancient heroes. Their victory over [[Cid the Blood King]] exposed the truth of the Black Tower catastrophe, helped restore the name of [[Jaznaar]], and contributed to the period remembered as the [[The Age of Ascendancy|Age of Ascendancy]].
 
-The company began under a commission from the preceding Lord Marshal and also included the dragonborn paladin [[fo-gurn|Fo’Gurn]], whose stand against a hydra bought his friends time to escape. The adventurers later befriended [[Jack of Stanleyville]], a ghost boy who traveled with them. The [[The Misfits’ First Commission|first investigation]] did not reveal all the dangers they would face; their journeys also included [[Zauks and the False Lives|the false lives of Zauks]] and the crisis at [[The Tournament of Champions]].
+But the fellowship formed before anyone understood that purpose. Its members became companions by surviving dangers, arguing over decisions, caring for one another, and choosing again and again to continue the road together.
 
-## What followed their victory
+The ancient [[The Six|Six]] had been united during Avalor's founding and ultimately broken by a terrible division among friends. The Misfits became another kind of example: a fellowship whose members survived great danger and later allowed one another to lead different lives without surrendering their loyalty.
 
-King Gradvum's government entered an era of growing influence now known as the **Age of Ascendancy**. Foreign courts regarded Avalor with fresh interest, its commerce expanded, and its greatest champions took on responsibilities that were not always compatible with a life spent adventuring together.
+## Meet the companions
 
-Lavitz became **Lord Marshal**, while Tel'Lora was appointed **High Wizard** and revived Shamman’s Tower as a center of arcane learning. [[Heureux]] continued traveling, published the history of the fellowship, and established an academy of bardic teaching in Taveras. [[svendyal-shadowwhisper|Sven]] remained elusive while retaining his close friendships, and [[Amara]] continued her journeys in service of the natural world.
+The five most commonly celebrated Misfits are those who continued to shape Avalor's public life after the victory. The earliest company, however, included **Fo'Gurn**, and its travels also gave a place to **Jack**, a child whose conscious ghost befriended them.
 
-Theirs is not merely a story of five individuals who overcame a terrible enemy. It is the story of a kingdom learning how to live with the truth their victory uncovered.
+### Lavitz Shawe — the paladin
 
-## The adventures recorded elsewhere
+[[Lavitz Shawe]] came from the [[Mudsteps]] of [[Renada]] and trained as a paladin at [[Heaven's Heart]]. His courage carried him through the company's defining dangers; his later responsibilities brought him into the royal council as **Lord Marshal** and commander of [[Lion's Bane]].
 
-The Royal Archives preserve individual accounts of [[Moonville Manor]], [[The Liberation of the Rotten Husk]], [[The Cult of Gol’Goroth]], and [[The Stalker of Stanleyville]]. The companions' unusual travels included [[Noki]] and [[The Ripped Beard]]. Their losses are remembered in [[Fo’Gurn and the Hydra]] and the affair of [[Jaaris]]. Their later journey brought them to [[Jaznaar’s Hidden Refuge]] and [[Jinlin Vechon and the Wrath of Innocent]]. These separate records distinguish the original encounters from the imitations created by Zauks.
+His story follows a movement from the **Oath of Vengeance** toward the **Oath of Devotion**—a change from pursuing a particular enemy to accepting the continuing burden of protecting a kingdom.
+
+### Tel'Lora Ebbenflow — the wizard
+
+[[Tel'Lora Ebbenflow]], a male half-elf wizard, helped investigate extraordinary magic and recover evidence of Avalor's forgotten history. His meeting with Jaznaar at [[Jaznaar’s Hidden Refuge|the hidden refuge]] became particularly significant.
+
+After the victory, he became High Wizard and the first holder of an independent eighth seat on [[The Aegis]]. He also revived [[Shamman’s Tower]] as an academy for disciplined magical inquiry.
+
+### S’vendyal Shadowwhisper — the Iron Shadow
+
+[[svendyal-shadowwhisper|Sven]], a grayscale eladrin, was among the earliest companions. In the years after Cid's defeat, his reputation acquired the epithet **Iron Shadow** as his activities became difficult for public scholars to trace.
+
+He remained close to Lavitz and Tel'Lora. Rumors of covert undertakings should not be confused with verified accounts of the people or methods involved.
+
+### Heureux — the storyteller
+
+[[Heureux]], a firbolg bard descended from [[Kelsalor]] of the Six, joined during the company's second commission. His wit and published recollections helped preserve not only heroic victories, but also the embarrassing, frightening, and sorrowful moments that gave their friendship its character.
+
+He later founded [[Heureux’s Bard Academy]] in Taveras while continuing his travels and work as a storyteller.
+
+### Amara — the druid
+
+[[Amara]], a druid descended from [[Petris]] of the Six, belonged to the first company. Her later path carried her increasingly far from the capital, in service of the natural world.
+
+She is remembered in particular for an owl associated with the ordeals of [[Zauks and the False Lives|Zauks]], when the companions had to recognize and reject convincing false lives.
+
+### Fo’Gurn — the friend who stayed
+
+[[fo-gurn|Fo'Gurn]], a dragonborn paladin and lifelong friend of Lavitz, was an **original member** of the company. He remained behind before a hydra so his friends could escape and was believed dead for years.
+
+The published history and authorized testimony contain later accounts of his unexpected participation in the final struggle with Cid. The circumstances of that return remain contested in the public record.
+
+### Jack — the boy who traveled onward
+
+[[Jack of Stanleyville]] was a child murdered through a spell concealed in a manuscript sold by Cid in disguise. His conscious spirit befriended the Misfits during their investigation of [[Stanleyville]].
+
+Jack did not remain behind in the town. He went with the company, a traveling companion whose life and death mattered for reasons beyond the evidence he helped uncover.
+
+## I. The Lord Marshal's first commission
+
+The preceding Lord Marshal summoned the early adventurers to investigate an **unnamed necromancer**. They defeated him and recovered fragments of magical study that later proved relevant to the history of Aldus Greystone III.
+
+Those fragments did not prove that Cid had directly instructed or controlled their first enemy. Nor was the practitioner the later necromancer Jaaris. The distinction is preserved in [[The Misfits’ First Commission|the record of the first commission]].
+
+The Lord Marshal called upon the adventurers again to investigate [[The Cult of Gol’Goroth]]. During that work the company gained Heureux and became recognizably the fellowship later celebrated throughout Avalor.
+
+## II. Adventures beyond the Blood King's shadow
+
+Not every danger the Misfits faced belonged to Cid. They encountered the animated halls of [[Moonville Manor]], the threat called [[The Ripped Beard]], and the wizard [[Noki]], whose transformation into a sheep became one of the stranger episodes of their travels.
+
+They also helped the [[The Liberation of the Rotten Husk|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
+
+These adventures matter independently of the later confrontation with Cid. The people whose lives the fellowship touched did not need to know about the Black Tower to be grateful for the help they received.
+
+## III. The hydra and the missing companion
+
+The company confronted a hydra. Fo'Gurn chose to remain behind so that his friends could escape. They survived, believing their dragonborn companion had died.
+
+The loss was particularly painful to Lavitz, who had known Fo'Gurn from the years associated with paladin training. The encounter is preserved in [[Fo’Gurn and the Hydra]].
+
+Later inquiries connected Fo'Gurn's fate to the necromancer [[Jaaris]]. The companions' knowledge of those events remained incomplete, but nothing they learned afterward erased the years during which they mourned their friend.
+
+## IV. Stanleyville and the Stalker
+
+In [[Stanleyville]], the Misfits investigated mysterious deaths. Among the victims was Jack, whose spirit remained in the mortal world seeking an explanation for his death.
+
+The town was stalked by a murderous creature later attributed to Cid's control. [[The Stalker of Stanleyville|The Stalker]] killed the Lord Marshal who had first commissioned the party, leaving the office vacant for the remainder of the campaign.
+
+The Misfits departed with Jack in their company and a deepening awareness that the events they had witnessed could be part of something older and more dangerous than any one town.
+
+## V. Jaznaar's testimony
+
+The adventurers' inquiries eventually led to [[Jaznaar’s Hidden Refuge|Jaznaar's hidden refuge]], reached through a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
+
+Jaznaar, the last living member of the founding Six, revealed that **Aldus Greystone III and Cid the Blood King were the same being**. For almost two thousand years Jaznaar had struggled to contain the consequences of Aldus's forbidden experiments while Avalor falsely condemned him as the Betrayer.
+
+He instructed Tel'Lora and entrusted knowledge to the company. His death after their visit left the Misfits with both the truth and the responsibility of acting upon it.
+
+## VI. False lives and dangerous alliances
+
+The companions later encountered [[Jinlin Vechon and the Wrath of Innocent|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
+
+The mind flayer [[Zauks and the False Lives|Zauks]] then subjected the fellowship to manufactured ordeals, recreating earlier dangers from their memories. His final deception offered idealized lives in which grief and loss seemed to have been undone.
+
+The five escaped the illusion and returned to lives in which suffering was real but so were their obligations to one another. Heureux's account preserves the owl associated with Amara as one clue that the false world was not what it seemed.
+
+## VII. The Tournament and the Shadowfell
+
+During [[The Tournament of Champions]], the Misfits entered under assumed identities, hoping to protect [[King Gradvum Frozenroar]] and [[Queen Melmiri]] without drawing Cid's attention.
+
+The Blood King appeared and abducted the queen. The companions pursued him into the Shadowfell, rescued Melmiri, and fought the enemy who had survived since Avalor's founding age.
+
+Some authorized accounts describe Fo'Gurn's unexpected return in the final confrontation, carrying the Emerald of Armanti and intervening decisively against Cid. They also describe an immense black hand that seized the Blood King and drew him away. The witnesses did not establish the nature or origin of that force.
+
+The immediate threat was defeated, and the company survived the struggle in part through the queen's intervention. The metaphysical details of Cid's departure should not be treated as settled simply because the victory itself is historical fact.
+
+## VIII. The kingdom after the victory
+
+After Cid's defeat, the Misfits' testimony helped expose the old accusation against Jaznaar as a lie. [[The Vindication of Jaznaar|Gradvum's royal proclamation]] restored his name, while historians and citizens began reexamining how the false account had endured for centuries.
+
+The kingdom gained extraordinary renown, but fame did not resolve its daily obligations. During the ensuing years, Lavitz became Lord Marshal, Tel'Lora became High Wizard, Heureux founded his academy and published his history, Sven grew more elusive, and Amara continued traveling in service of nature.
+
+The group remained together briefly to help Avalor recover. Over the following twenty years the five celebrated companions did **not** reassemble as one complete party.
+
+That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained especially close ties, while Heureux and Amara followed other callings. They had survived their shared adventure without requiring their friendship to remain frozen in its original form.
+
+## A guide to their stories
+
+A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn and the Hydra]], and [[The Stalker of Stanleyville]].
+
+The search for the old truth leads through [[Jaznaar’s Hidden Refuge]], [[Jinlin Vechon and the Wrath of Innocent]], and [[Zauks and the False Lives]], before arriving at [[The Tournament of Champions]] and the struggle in the Shadowfell.
+
+The consequences belong to [[The Vindication of Jaznaar]] and [[The Age of Ascendancy]], while the individual biographies tell what each companion did when the old road ended.
+
+These records were written separately for a reason. The Misfits were not simply five heroes moving toward one predestined enemy; they were people whose experiences, friendships, and acts of kindness mattered along the way.
+
+## More than five names in a song
+
+The most familiar account of the Misfits records the five companions whose later careers remained visible during Avalor's Age of Ascendancy. That account is not false, but it is incomplete if read as the entire history of the fellowship.
+
+Fo'Gurn was an original Misfit; Jack was a companion they chose to carry with them. Both belong in its story. Their presence reminds readers that belonging need not be measured by whether one's name remains on a royal roster.
+
+The history of the Misfits is ultimately the history of a friendship that endured loss, exposed a kingdom's oldest lie, and allowed its members the freedom to become more than the battles they had fought.
