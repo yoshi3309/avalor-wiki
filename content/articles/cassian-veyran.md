@@ -1,40 +1,50 @@
 ---
 title: Cassian Veyran
-subtitle: Sheriff of the Eastern Reach
-summary: Cassian Veyran, sheriff of the Eastern Reach, carries his maritime family's commercial connections into the crown's coastal administration.
+subtitle: The Second Son Who Returned from the Sea
+summary: A human sheriff of the Eastern Reach, Cassian is a former pirate and second son of House Veyran who returned to Avalor after his elder brother died at sea.
 category: People & Legends
 image: /assets/uploads/cassian-veyran-at-the-harbor.png
 entry: BIO.015
 era: Age of Ascendancy
 facts: |-
+  Species: Human
   Office: Sheriff of the Eastern Reach
-  Sheriffdom: Eastern Reach
-  House: Veyran
-  Regional concern: Maritime commerce and crown-aligned ports
-  Important exception: Karhold is disputed
+  Family: House Veyran
+  Birth order: Second son
+  Former life: Pirate in distant waters
+  Turning point: Elder brother's death in a sea accident
+  Known for: Charm and negotiation
 related: four-sheriffdoms,karhold,cove-city,tinsel,stems-port
-source: Compendium II · Entry II.001, VII and XIII; political canon ledger VIII
+source: Compendium II · Entry II.001, VII and XIII; author-approved sheriff biography additions (November 2026)
 featured: false
 ---
 
-## Cassian of House Veyran
+## The second son
 
-**Cassian Veyran** serves as **sheriff of the Eastern Reach**. He is a member of **House Veyran**, whose influence and wealth are associated with maritime commerce.
+**Cassian Veyran** is a **human** and the second son of House Veyran, a noble family whose fortunes are closely connected to maritime commerce. He now serves the crown as sheriff of the **Eastern Reach**, a title that sits somewhat unexpectedly upon a man who once made his life as a pirate.
 
-Unlike a royal officer whose authority is understood chiefly through landholding or a fortress, Cassian's family connections extend through merchants, shipmasters, and creditors. Those relationships give his name weight along the coast, but they also create a question about where family interest ends and public duty begins.
+As the second son, Cassian spent part of his earlier life far from the expectations of his family. He took to the seas beyond Avalor and lived for a time among pirates. The exact waters, vessels, and exploits of those years have not been established in the Avalorian record; the wider world's geography remains outside this account.
 
-The public record identifies his office and lineage of commercial influence. It does not yet establish his childhood, sea-going experience, personal business dealings, or the events through which he earned his appointment.
+Whatever the full story of that period, Cassian returned with an ease in conversation and a talent for reading another person's interests. He is cultivated, persuasive, and usually quick to identify what someone hopes to gain from a bargain.
 
-## A man between trade and the crown
+## The voyage that called him home
 
-Cassian's duty is to represent the monarch's interests in coastal settlements that do not all operate under identical arrangements. His family's maritime associations may help him understand those differences; they do not grant him ownership of the trade routes or the right to speak for every harbor.
+Cassian's **elder brother died in an unfortunate accident at sea**. The loss brought Cassian home and ended the distant life he had chosen.
 
-The sharpest limit on his authority is [[Karhold]], the eastern peninsula freeport whose relationship with Avalor remains contested. The crown's claim is not proof that **Cassian governs Karhold**. Whether he personally approaches the dispute with patience, pressure, or some other strategy is not established in the current record.
+The record does not specify the ship, the circumstances of the accident, or whether Cassian inherited a particular title or estate. It establishes the essential turn in his life: a younger son who had gone away returned after a death in the family.
 
-Readers seeking the broader political situation may turn to [[The Four Sheriffdoms#eastern-reach-cassian-veyran|the Eastern Reach]] and [[Karhold]]. Cassian's biography is concerned with the person who must operate within those conditions.
+That history gives his present service a personal weight. His family's commercial ties are no longer simply something he left behind. They are part of the world to which he has returned and in which his choices now carry consequences for others.
 
-## What remains open
+## Charm, advantage, and fairness
 
-The name Veyran gives Cassian connections, not a completed personality. No surviving public evidence establishes his reputation among sailors, his private loyalties, or whether he has ever put an obligation to the crown ahead of a family advantage.
+Cassian understands the difference between a **good bargain** and a **fair one**, although his skill at negotiation does not always persuade others that he has chosen the latter. House Veyran has ties to merchants, shipmasters, and creditors, and people who know those connections may suspect him of looking after his family first.
 
-Those are the choices that would make his account a biography rather than a description of Avalor's ports.
+He can use charm to lower tempers or reveal what a rival really wants. His weakness is that he is sometimes better at winning a conversation than earning lasting trust.
+
+His earlier life as a pirate also sits uneasily beside his present duty to uphold the crown's laws. Cassian cannot erase that contrast simply by wearing the sheriff's insignia.
+
+## The coast he serves
+
+Cassian now administers crown-aligned interests in the Eastern Reach. He understands coastal commerce but does not govern every harbor merely because his family trades through it. In particular, [[Karhold]] remains a disputed freeport, **not an ordinary subordinate district of his sheriffdom**.
+
+The jurisdiction of his office is described in [[The Four Sheriffdoms#eastern-reach-cassian-veyran|the Eastern Reach]]. Cassian's own challenge is to prove that a man once free to live by his own rules can be trusted with responsibilities he cannot simply sail away from.

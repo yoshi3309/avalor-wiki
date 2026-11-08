@@ -12,12 +12,12 @@ facts: |-
   Consort: King Gradvum Frozenroar
   Children: Theodric, Leontes, Vivienne
   Ancestry: Northern Desert Tribes
+  Brother: Sebastian Rubelda
   Founded: Dina Hyanda
   Griffin: Dune Rakka
   Scimitar: Darkheart
-related: king-gradvum-frozenroar,tournament-of-champions,dina-hyanda,the-misfits
-source: Compendium II · Entry II.001, IV–V and VIII; Avalor Master Canon Bible,
-  VII; The Living Chronicle, Chapter VI
+related: king-gradvum-frozenroar,sebastian-rubelda,tournament-of-champions,dina-hyanda,the-misfits
+source: Compendium II · Entry II.001, IV–V and VIII; The Living Chronicle, Chapter VI; author-approved family addition (November 2026)
 featured: false
 ---
 ## The labor of a queen
@@ -33,6 +33,8 @@ To describe her only as the king's consort would neglect the work through which 
 Melmiri's ancestry is associated with the **Northern Desert Tribes**, peoples whose histories extend far beyond the royal household. Her family heritage has helped bring the north's communities into the public conversation of Avalor's court.
 
 That connection must not become a claim that one queen speaks for every tribe, or that communities possessing different customs belong to a single undifferentiated people. The [[Great Desert]] is inhabited country with its own traditions and memories, not merely a distant region from which the queen emerged.
+
+Her **brother, [[Sebastian Rubelda]]**, serves as sheriff of the Northern March. He values Avalorian customs and hopes to encourage greater cooperation among the Northern Desert Tribes, whose internal rivalries have long frustrated him. His commitment is personal; neither his office nor their relationship gives him authority to speak for every tribe.
 
 ## Dina Hyanda
 

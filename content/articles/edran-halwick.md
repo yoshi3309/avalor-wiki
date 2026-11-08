@@ -1,40 +1,43 @@
 ---
 title: Edran Halwick
-subtitle: Sheriff of the Royal Heartlands
-summary: Edran Halwick, sheriff of the Royal Heartlands, holds a crown appointment while belonging to a landholding family deeply invested in the region he governs.
+subtitle: The Practical Steward
+summary: A half-orc woman of House Halwick, Edran governs the Royal Heartlands with meticulous care while navigating the competing obligations of family and crown.
 category: People & Legends
 image: /assets/uploads/half-orc-wheatwarden-on-the-terrace.png
 entry: BIO.013
 era: Age of Ascendancy
 facts: |-
+  Species: Half-orc
+  Gender: Woman
   Office: Sheriff of the Royal Heartlands
-  Sheriffdom: Royal Heartlands
-  House: Halwick
-  Family interests: Agriculture and productive estates
-  Appointment: By the crown
+  Family: House Halwick
+  Known for: Practicality and meticulous preparation
+  Personal challenge: Family loyalty and public fairness
 related: four-sheriffdoms,kingdom-of-avalor,renada,lantern-ward
-source: Compendium II · Entry II.001, VII and political canon ledger VIII
+source: Compendium II · Entry II.001, VII; author-approved sheriff biography additions (November 2026)
 featured: false
 ---
 
-## Edran of House Halwick
+## A woman who knows what a harvest costs
 
-**Edran Halwick** is the appointed **sheriff of the Royal Heartlands**, Avalor's grain-producing country. He belongs to **House Halwick**, an influential family whose prosperity rests upon agricultural estates.
+**Edran Halwick** is a **half-orc woman** and sheriff of the **Royal Heartlands**. She comes from House Halwick, whose wealth and influence have long been tied to productive farmland and estates.
 
-His personal position differs from that of an officer sent to govern a region with which he has no inherited ties. Edran's family has interests in the same fields, labor, and harvests that his office must oversee. His name is therefore familiar not only as the crown's representative but as a member of a house with its own stake in the land.
+Edran is meticulous and practical. She is more comfortable discussing harvests, provisions, and the work required to move grain than attending the ceremonies through which the court celebrates prosperity. She has little patience for grand assurances unsupported by sound figures or a realistic plan.
 
-The records do not yet establish his age, upbringing, private household, or the precise circumstances that brought him to the sheriff's seat.
+Her attention to detail is not simply a habit of her office. It is part of how she understands responsibility: promises must eventually be made to work.
 
-## When family interests meet royal duty
+## Her family name
 
-Edran holds **an appointment, not a hereditary crown**. His family name may bring influence, but it does not make every farm or village his property.
+Edran is proud of House Halwick. Its estates helped secure her family's standing, and she does not see agricultural success as something for which she ought to apologize.
 
-The defining question attached to his office is a personal one: **can a sheriff whose house benefits from the land give an equally fair hearing to those who work it?** Tenant farmers, estate holders, merchants, and royal officers do not always benefit from the same decision. Edran must answer to the crown while his family's fortunes remain part of the region's economic life.
+But her position as sheriff asks her to serve people whose interests may conflict with those of her relatives. A tenant farmer, a merchant, and an estate holder can all claim a reasonable share of the same harvest. Edran cannot satisfy them all by pointing to the family name she bears.
 
-The broader workings of grain supply and regional government are described in [[The Four Sheriffdoms#royal-heartlands-edran-halwick|the Royal Heartlands]] and [[Renada#lantern-ward-and-the-markets|Renada's markets]]. Those subjects help explain his position; they are not substitutes for his personal history.
+The expectation that she should favor House Halwick weighs on her, especially when she believes fairness requires a decision her family would dislike.
 
-## The unwritten part of his story
+## Duty without ceremony
 
-It is not yet established whether Edran has sought to reconcile those competing interests well, whether he has quarreled with his own relatives, or what experiences shaped his views of land and obligation.
+Her office is a **crown appointment**, not the hereditary possession of her house. Edran respects that distinction even when others would prefer she treat the region as an extension of her family's holdings.
 
-For now, the surviving evidence identifies the **tension he must navigate**, not a verdict upon his character. His future biography should be measured by choices he makes within it, rather than a lengthy explanation of agriculture that could describe any holder of the office.
+The larger history of the grain roads and the crown's regional authority belongs to [[The Four Sheriffdoms#royal-heartlands-edran-halwick|the Royal Heartlands]] and [[Renada#lantern-ward-and-the-markets|Renada's markets]].
+
+Edran's defining question is more intimate: whether a capable steward can remain loyal to her family **without allowing that loyalty to decide whom she serves**. She would rather be judged by a year's work than by a day's applause.
