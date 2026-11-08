@@ -104,10 +104,7 @@ content:
             type: select
             default: wide
             options:
-              values:
-                - {value: wide, label: Full width}
-                - {value: inset-left, label: Inset left}
-                - {value: inset-right, label: Inset right}
+              values: [wide, inset-left, inset-right]
       - name: callouts
         label: Archival callouts and pull quotes (optional; up to 4)
         type: object
@@ -121,10 +118,7 @@ content:
             type: select
             required: true
             options:
-              values:
-                - {value: quote, label: Gold · From this account}
-                - {value: note, label: Slate blue · Scholar's note}
-                - {value: contested, label: Oxblood · Contested account}
+              values: [quote, note, contested]
           - name: text
             label: Pull quote or note text
             type: text
