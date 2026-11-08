@@ -117,30 +117,30 @@ for slug, (meta, body) in entries.items():
         if target not in entries and target not in MERGES:
             problems.append(f"{slug}: missing related article '{target}'")
 
-# User-approved correction supersedes older PDFs: Samuel is an aasimar.
+# Latest creator correction (November 2026): Samuel is a Monadic Deva.
+# Never confuse him with the distinct aasimar Cal'el or the female deva Astronoph.
 samuel = entries.get("samuel-the-devoted")
 if not samuel:
     problems.append("Samuel biography is missing")
 else:
     meta, body = samuel
     facts = str(meta.get("facts") or "")
-    if not re.search(r"aasimar", str(meta.get("summary") or "") + facts + body, re.I):
-        problems.append("Samuel biography must identify him as aasimar")
-    if re.search(r"monadic\s+deva", str(meta.get("summary") or "") + facts + body, re.I):
-        problems.append("Samuel biography reintroduced obsolete Monadic Deva claim")
+    identity = str(meta.get("summary") or "") + facts + body
+    if not re.search(r"monadic\s+deva", identity, re.I):
+        problems.append("Samuel biography must identify him as a Monadic Deva")
+    if re.search(r"\bSamuel\b\s*(?:,|is|was|:)?\s*(?:an?\s+)?aasimar\b|\baasimar\s+Samuel\b", identity, re.I):
+        problems.append("Samuel biography incorrectly identifies him as aasimar")
 
 for slug, (meta, body) in entries.items():
     if slug == "samuel-the-devoted":
         continue
     for line_number, line in enumerate(body.splitlines(), 1):
-        # Match explicit species assignments only, not a sentence that correctly
-        # calls Astronoph a deva and then Samuel an aasimar.
-        if re.search(r"\bSamuel\b\s*(?:,|is|was|:)?\s*(?:an?\s+)?(?:Monadic\s+)?Deva\b|\b(?:Monadic\s+)?Deva\s+Samuel\b", line, re.I):
-            problems.append(f"{slug}:{line_number}: possibly misidentifies Samuel as deva")
+        if re.search(r"\bSamuel\b\s*(?:,|is|was|:)?\s*(?:an?\s+)?aasimar\b|\baasimar\s+Samuel\b", line, re.I):
+            problems.append(f"{slug}:{line_number}: obsolete aasimar identification for Samuel")
 
 if problems:
     print("PUBLIC CANON CHECK FAILED:")
     for problem in problems:
         print(" - " + problem)
     sys.exit(1)
-print(f"Public canon checks passed: {len(entries)} article front matters, related slugs, entry numbers, wiki links, Samuel ancestry.")
+print(f"Public canon checks passed: {len(entries)} article front matters, related slugs, entry numbers, wiki links, Samuel's Monadic Deva nature.")

@@ -7,19 +7,20 @@ image: /assets/uploads/professor-xiomaras-enchanted-study.png
 entry: BIO.022
 era: Age of Ascendancy
 facts: |-
+  Species and gender: Female drow
   Calling: Independent historical scholar
   Association: Shamman’s Tower
   Commission: Contributor
   Inquiry: Evidence, testimony, and public remembrance
 related: royal-commission-historical-inquiry,lady-miren-dast,brother-halden-korr,shammans-tower,jaznaars-vindication,renada
 source: The Living Chronicle, Preface, contributor list and scholarly
-  marginalia; Compendium II, public Rynhold Park record
+  marginalia; Compendium II, public Rynhold Park record; author-approved character identity (November 2026)
 featured: false
 ---
 
 ## The question after the answer
 
-**Professor Xiomara Thal** is an independent historical scholar associated with [[Shamman’s Tower]] and a contributor to [[The Royal Commission of Historical Inquiry]].
+**Professor Xiomara Thal** is a **drow woman** and independent historical scholar associated with [[Shamman’s Tower]] and a contributor to [[The Royal Commission of Historical Inquiry]].
 
 Her distinctive contribution to *The Living Chronicle* is the question that follows a confident conclusion. If many sources tell the same story, did they witness the same event, or did they copy one another? If a record survived for centuries, **whose records did not**?
 
@@ -43,6 +44,6 @@ Her views on the disputed early royal birth records show the same discipline: an
 
 ## Independent by conviction
 
-Association with Shamman’s Tower does not make Thal the institution's ruler or the supervisor of all its scholarship. Her age, ancestry, and private household are not recorded in the established public sources.
+Association with Shamman’s Tower does not make Thal the institution's ruler or the supervisor of all its scholarship. Her age and private household remain outside the established account; her drow heritage is now confirmed.
 
 What is clear is the person behind her scholarship: **a historian unwilling to call the past settled simply because the kingdom has found a more comfortable version of it**.

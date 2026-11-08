@@ -7,19 +7,20 @@ image: /assets/uploads/dwarven-scholar-in-a-candlelit-study.png
 entry: BIO.021
 era: Age of Ascendancy
 facts: |-
+  Species and gender: Female dwarf
   Office: Royal Archivist of Renada
   Commission: Chair
   Publication: The Living Chronicle
   Colleagues: Brother Halden Korr and Professor Xiomara Thal
 related: royal-commission-historical-inquiry,professor-xiomara-thal,brother-halden-korr,renada,great-library-aldus-greystone,jaznaars-vindication
 source: The Living Chronicle, Preface and contributor list; Compendium II,
-  Rynhold Park and public Commission commentary
+  Rynhold Park and public Commission commentary; author-approved character identity (November 2026)
 featured: false
 ---
 
 ## An editor who permits disagreement
 
-**Lady Miren Dast**, Royal Archivist of [[Renada]] and chair of [[The Royal Commission of Historical Inquiry]], has made an unusually consequential choice for a keeper of royal records: she allows the kingdom's official history to contradict its old certainties.
+**Lady Miren Dast**, a **dwarf woman** and Royal Archivist of [[Renada]] and chair of [[The Royal Commission of Historical Inquiry]], has made an unusually consequential choice for a keeper of royal records: she allows the kingdom's official history to contradict its old certainties.
 
 In her preface to *The Living Chronicle*, Miren does not claim that the Commission's contributors always agree. She openly acknowledges their disputes and argues that their account is stronger for retaining them.
 

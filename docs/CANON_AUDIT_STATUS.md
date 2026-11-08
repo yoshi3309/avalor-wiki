@@ -14,7 +14,7 @@
 
 | Topic | Canon status | Applied |
 |---|---|---|
-| Samuel | **Aasimar**, not Monadic Deva; user correction overrides older PDFs | Samuel's biography plus three cross-references |
+| Samuel | **Monadic Deva**, confirmed by creator's World Anvil biography in November 2026, superseding prior aasimar correction | Samuel's biography, three cross-references and validator |
 | Samuel's divine representation | **Tyr and Helm**; the **Cathedral** honors Tyr, Helm, and Torm | Samuel's biography |
 | Lavitz | Current **Oath of Devotion**; formerly Oath of Vengeance | Lavitz's biography |
 | Astronoph | **Female deva**, High Priest of the Great Cathedral | Preserved |
@@ -37,7 +37,7 @@ The CMS contains character portraits whose filenames/appearance may imply more t
 
 - **Belgram**: image titled as a *dwarven king*; established public records confirm the *Third Hand* and Mountain Hall Clan but do not establish royalty or ancestry.
 - **Rastrin**: image titled as a *tortle magistrate*; written canon establishes the *Warden of Order* but not ancestry.
-- **Beldir**: image titled as an *admiral*; source confirms *Sentinel of the Seas* but does not independently establish a naval rank.
+- **Beldir**: author-provided World Anvil backstory now **confirms his admiral's rank** after defeating Pirate Lord Por Rostin, and his leg prosthesis.
 
 ## Remaining narrative audit
 
@@ -102,7 +102,7 @@ The above corrections were committed to the `main` branch while Pages CMS artwor
 | Katiri Tenderfoot | Silver Hand, official intelligence | Orc warrior; identity/physical appearance not established by Aegis text |
 | Rastrin Diltir | Warden of Order, internal order | Tortle magistrate; appearance and the precise judicial rank are not established |
 | Beldir Willowrun | Sentinel of the Seas, maritime counsel | Admiral; council office does not automatically confer naval rank |
-| Samuel | The Devoted, Tyr and Helm representative | **Aasimar**, per the user's superseding correction |
+| Samuel | The Devoted, Tyr and Helm representative | **Monadic Deva**, per latest author-provided World Anvil text |
 | Lavitz Shawe | Lord Marshal, commander of Lion's Bane | **Drow**, present Oath of Devotion |
 | Tel'Lora Ebbenflow | High Wizard, eighth seat | **Male half-elf wizard** |
 
@@ -173,3 +173,7 @@ All were connected to existing records and to the Chronicle timeline, with an ad
 **Editorial limits:** the exact Heroes Hill battle year, the precise Black Tower anniversary, the full mechanism of the Blood Sickness, the exhaustive history of Cid's propaganda agents, and a complete list of Arnaud-era victims remain unresolved. Public accounts do not present Keeper-only future developments as established history.
 
 **Publishing status:** GitHub article and cross-link deployments passed; timeline deployment should be verified in the GitHub Actions log.
+
+## November 2026 — Character background and prose corrections
+
+Creator's original World Anvil biographies supersede earlier speculative descriptions of Beldir, Katiri, Myxi and Samuel. Samuel is now confirmed as a **Monadic Deva** and founder of **the Bloodless**. Lady Miren is a female dwarf, Professor Xiomara a female drow, and Brother Halden a human male. Cassian's backstory was rewritten in a more natural narrative style, without treating the absence of named foreign geography as a plot point. All changes use public material supplied by the creator.

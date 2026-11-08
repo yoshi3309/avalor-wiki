@@ -7,19 +7,20 @@ image: /assets/uploads/candlelit-gothic-scholar-with-ancient-tome.png
 entry: BIO.023
 era: Age of Ascendancy
 facts: |-
+  Species and gender: Human male
   Office: Archivist of Heaven's Heart
   Commission: Contributor
   Primary materials: Cathedral archives
   Scholarship: Faith, testimony, and historical interpretation
 related: royal-commission-historical-inquiry,lady-miren-dast,professor-xiomara-thal,heavens-heart,great-library-aldus-greystone,jaznaars-vindication
 source: The Living Chronicle, Preface and attributed archival commentary;
-  Compendium II, Great Cathedral public account
+  Compendium II, Great Cathedral public account; author-approved character identity (November 2026)
 featured: false
 ---
 
 ## A scholar of faith, not an apologist for error
 
-**Brother Halden Korr** serves as an archivist of [[Heaven's Heart]] and a contributor to [[The Royal Commission of Historical Inquiry]].
+**Brother Halden Korr**, a **human man**, serves as an archivist of [[Heaven's Heart]] and a contributor to [[The Royal Commission of Historical Inquiry]].
 
 He brings the Commission an intimate understanding of religious records and the traditions through which they have been handed down. To Halden, a sacred text cannot be read simply as though it were a census or a witness statement in a royal trial.
 
@@ -43,6 +44,6 @@ Halden's reflections on [[The Great Cathedral]] also place importance on conduct
 
 ## The witness he wishes to be
 
-The public record does not establish Halden's ancestry, childhood, or the particulars of his vows. It does establish the kind of scholar he has become: **someone who honors a tradition most seriously when he refuses to excuse its mistakes**.
+The public account does not detail Halden's childhood or the particulars of his vows. It does establish the kind of scholar he has become: **someone who honors a tradition most seriously when he refuses to excuse its mistakes**.
 
 The archives he serves preserve much of Avalor's religious memory. His contribution is to make that memory answerable to evidence without pretending that faith and scholarship must be enemies.

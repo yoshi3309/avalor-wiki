@@ -23,7 +23,7 @@ featured: false
 
 **Cassian Veyran** is a **human** and the second son of House Veyran, a noble family whose fortunes are closely connected to maritime commerce. He now serves the crown as sheriff of the **Eastern Reach**, a title that sits somewhat unexpectedly upon a man who once made his life as a pirate.
 
-As the second son, Cassian spent part of his earlier life far from the expectations of his family. He took to the seas beyond Avalor and lived for a time among pirates. The exact waters, vessels, and exploits of those years have not been established in the Avalorian record; the wider world's geography remains outside this account.
+As the second son, Cassian spent part of his earlier life far from the expectations of his family. He took to the seas beyond Avalor and lived for a time among pirates. Those years among pirates brought danger, excitement, and the freedom he had once craved. He returned from them with stories he seldom tells in full—and with instincts that still serve him in the council chamber.
 
 Whatever the full story of that period, Cassian returned with an ease in conversation and a talent for reading another person's interests. He is cultivated, persuasive, and usually quick to identify what someone hopes to gain from a bargain.
 
@@ -31,7 +31,7 @@ Whatever the full story of that period, Cassian returned with an ease in convers
 
 Cassian's **elder brother died in an unfortunate accident at sea**. The loss brought Cassian home and ended the distant life he had chosen.
 
-The record does not specify the ship, the circumstances of the accident, or whether Cassian inherited a particular title or estate. It establishes the essential turn in his life: a younger son who had gone away returned after a death in the family.
+His brother's death changed the course of his life more completely than any storm. The younger son who once could sail away from family expectations now found himself returning to face them.
 
 That history gives his present service a personal weight. His family's commercial ties are no longer simply something he left behind. They are part of the world to which he has returned and in which his choices now carry consequences for others.
 

@@ -86,7 +86,7 @@ Understanding the different authorities is essential to avoiding the false impre
 
 ## The Devoted and the limits of obedience
 
-The seat of **the Devoted** is presently held by [[Samuel the Devoted|Samuel]], an **aasimar** who also teaches paladins at [[Heaven's Heart]]. He represents **Tyr and Helm** within the council's religious counsel.
+The seat of **the Devoted** is presently held by [[Samuel the Devoted|Samuel]], a **Monadic Deva** who also teaches paladins at [[Heaven's Heart]]. He represents **Tyr and Helm** within the council's religious counsel.
 
 This must be distinguished from the larger religious tradition of [[The Threefold Devotion]], which honors Tyr, Helm, and Torm, and from [[Astronoph]], the female deva who serves as High Priest of [[The Great Cathedral]].
 
