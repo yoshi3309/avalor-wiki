@@ -22,7 +22,7 @@
         </svg>
         {% for node in graph.nodes %}
         <button type="button" class="connection-node connection-node-{{node.kind}}" data-node-id="{{node.id}}" style="left:{{node.x}}%;top:{{node.y}}%" aria-pressed="false" aria-controls="connection-detail">
-          <span class="connection-node-mark" aria-hidden="true">{% if node.kind=='group' %}✦{% elif node.kind=='royal' %}♛{% else %}◇{% endif %}</span>
+          <span class="connection-node-mark" aria-hidden="true">{% if node.symbol %}{{node.symbol}}{% elif node.kind=='group' %}✦{% elif node.kind=='royal' %}♛{% else %}◇{% endif %}</span>
           <span>{{node.label}}</span>
         </button>
         {% endfor %}
