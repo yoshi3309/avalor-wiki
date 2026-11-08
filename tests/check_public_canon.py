@@ -58,6 +58,23 @@ for path in files:
 aliases.update({"avalor": "kingdom-of-avalor", "misfits": "the-misfits",
                 "tel-lora": "tellora-ebbenflow", "heavens-heart": "heavens-heart",
                 "royal-commission-of-historical-inquiry": "royal-commission-historical-inquiry"})
+def heading_ids(body):
+    """Build the same h2 fragment IDs as build.py for section links."""
+    ids = set()
+    used = set()
+    for heading in re.findall(r"^##\s+(.+)$", body, flags=re.M):
+        plain = re.sub(r"<[^>]*>", "", heading)
+        plain = re.sub(r"[*_`]", "", plain)
+        tag = slugify(plain) or "heading"
+        anchor = tag
+        n = 2
+        while anchor in used:
+            anchor = f"{tag}-{n}"
+            n += 1
+        used.add(anchor)
+        ids.add(anchor)
+    return ids
+
 ids = {}
 for slug, (meta, body) in entries.items():
     archive_id = str(meta.get("entry") or "").strip()
@@ -69,8 +86,12 @@ for slug, (meta, body) in entries.items():
         ids[archive_id] = slug
     for match in re.finditer(r"\[\[([^\]]+)\]\]", body):
         target = match.group(1).split("|", 1)[0]
-        if slugify(target) not in aliases:
+        target_title, has_fragment, fragment = target.partition("#")
+        resolved = aliases.get(slugify(target_title))
+        if not resolved:
             problems.append(f"{slug}: broken wiki-link {target}")
+        elif has_fragment and slugify(fragment) not in heading_ids(entries[resolved][1]):
+            problems.append(f"{slug}: broken section wiki-link {target}")
 
 for slug, (meta, body) in entries.items():
     related = str(meta.get("related") or "")
