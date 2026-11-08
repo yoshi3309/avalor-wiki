@@ -11,6 +11,8 @@
 {% if page_type == "journeys" or page_type == "article" or page_type == "home" %}<link rel="stylesheet" href="{{ root }}assets/journeys.css?v=20261108-reading-routes-1">{% endif %}
 {% if page_type == "connections" or page_type == "article" or page_type == "home" %}<link rel="stylesheet" href="{{ root }}assets/connections.css?v=20261108-connect-1">{% endif %}
 {% if page_type == "connections" %}<script defer src="{{ root }}assets/connections.js?v=20261108-connect-1"></script>{% endif %}
+{% if page_type == "timeline" %}<link rel="stylesheet" href="{{ root }}assets/chronicle.css?v=20261108-chronicle-v2">{% endif %}
+{% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
 <script defer src="{{ root }}assets/app.js?v=20261107-collections-v2"></script>
