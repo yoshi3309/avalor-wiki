@@ -308,100 +308,135 @@ locations:
     published: true
     provisional: false
   - id: briyans-autumn
-    name: "Briyan's Autumn"
+    name: Briyan's Autumn
     type: settlement
-    description: "Heavily fortified city near the Forest of the Westfold, governed by Cassian Veyran in the Eastern Reach."
+    x: 72.44
+    y: 56.46
+    description: Heavily fortified city near the Forest of the Westfold, governed by
+      Cassian Veyran in the Eastern Reach.
     article: briyans-autumn
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: east-port
-    name: "East Port"
+    name: East Port
     type: settlement
-    description: "Naval harbor and military town serving Avalor's eastern fleet and its inland trade routes."
+    x: 65.21
+    y: 40.68
+    description: Naval harbor and military town serving Avalor's eastern fleet and
+      its inland trade routes.
     article: east-port
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: jogar-village
-    name: "Jogar Village"
+    name: Jogar Village
     type: settlement
-    description: "Mixed halfling, human, and gnome village built over the ruins of ancient Illmire."
+    x: 43.06
+    y: 74.03
+    description: Mixed halfling, human, and gnome village built over the ruins of
+      ancient Illmire.
     article: jogar-village
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: osmostown
-    name: "Osmostown"
+    name: Osmostown
     type: settlement
-    description: "Western naval city associated with Smugglers Isle and the crown's justice."
+    x: 15.95
+    y: 62.68
+    description: Western naval city associated with Smugglers Isle and the crown's justice.
     article: osmostown
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: port-orange
-    name: "Port Orange"
+    name: Port Orange
     type: settlement
-    description: "Cosmopolitan trade harbor originally built as Fort Orange during the war against Lord Osmo."
+    x: 55.7
+    y: 79.84
+    description: Cosmopolitan trade harbor originally built as Fort Orange during
+      the war against Lord Osmo.
     article: port-orange
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: river-city
-    name: "River City"
+    name: River City
     type: settlement
-    description: "Growing fishing port supplying Renada and the Royal Heartlands."
+    x: 36.64
+    y: 85.22
+    description: Growing fishing port supplying Renada and the Royal Heartlands.
     article: river-city
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: stannisport
-    name: "Stannisport"
+    name: Stannisport
     type: settlement
-    description: "Trade port on the River Juce joined by Heroes Bridge; home of the Clerics Guild."
+    x: 60.49
+    y: 47.68
+    description: Trade port on the River Juce joined by Heroes Bridge; home of the
+      Clerics Guild.
     article: stannisport
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: taveras
-    name: "Taveras"
+    name: Taveras
     type: settlement
-    description: "Cultural city on the River Rhys with the Great Opera House and Bard Guild."
+    x: 47.49
+    y: 71.98
+    description: Cultural city on the River Rhys with the Great Opera House and Bard Guild.
     article: taveras
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: alexiverde
-    name: "Alexiverde"
+    name: Alexiverde
     type: settlement
-    description: "Village of farmers and woodworkers between the Dead Marshes and the King's Forest."
+    x: 50
+    y: 50.96
+    description: Village of farmers and woodworkers between the Dead Marshes and the
+      King's Forest.
     article: lesser-settlements-of-avalor#alexiverde
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: ferrymen-village
-    name: "Ferrymen Village"
+    name: Ferrymen Village
     type: settlement
-    description: "Mixed-ancestry community at the Drought's edge, known for guiding travelers across it."
+    x: 57.23
+    y: 74.09
+    description: Mixed-ancestry community at the Drought's edge, known for guiding
+      travelers across it.
     article: lesser-settlements-of-avalor#ferrymen-village
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: olivruch
-    name: "Olivruch"
+    name: Olivruch
     type: settlement
-    description: "Small town associated with the Thieves Guild."
+    x: 10.48
+    y: 72.7
+    description: Small town associated with the Thieves Guild.
     article: lesser-settlements-of-avalor#olivruch
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: lake-noch
-    name: "Lake Noch"
+    name: Lake Noch
     type: water
-    description: "Large lake on which Tarnapolus is situated."
+    x: 55.39
+    y: 98.36
+    description: Large lake on which Tarnapolus is situated.
     article: tarnapolus
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: river-juce
-    name: "River Juce"
+    name: River Juce
     type: water
-    description: "River passing through Stannisport beneath Heroes Bridge."
+    x: 55.81
+    y: 43.92
+    description: River passing through Stannisport beneath Heroes Bridge.
     article: stannisport
-    published: false
-    provisional: true
+    published: true
+    provisional: false
   - id: smugglers-isle
-    name: "Smugglers Isle"
+    name: Smugglers Isle
     type: region
-    description: "Island associated with Osmostown and the western navy."
+    x: 11.65
+    y: 76.69
+    description: Island associated with Osmostown and the western navy.
     article: osmostown
-    published: false
-    provisional: true
+    published: true
+    provisional: false
