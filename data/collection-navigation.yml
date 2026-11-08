@@ -23,7 +23,6 @@ kingdoms-places:
       articles:
         - renada
         - cove-city
-        - crownrise
         - stems-port
         - lands-end
         - tinsel
@@ -39,6 +38,7 @@ kingdoms-places:
       description: Neighborhoods, public places, and institutions inside the capital.
       articles:
         - old-renada
+        - crownrise
         - mudsteps
         - rhys-quays
         - lantern-ward
