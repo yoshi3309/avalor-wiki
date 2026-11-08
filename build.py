@@ -83,12 +83,26 @@ ALIAS.update({'avalor':'kingdom-of-avalor','misfits':'the-misfits','tel-lora':'t
 def markdown_renderer():
     return mistune.create_markdown(escape=True,plugins=['table','strikethrough'])
 
+def resolve_wikilink_target(target):
+    """Resolve an article or an article#heading link into its public URL parts."""
+    article_name, divider, heading = str(target).partition('#')
+    article_slug = ALIAS.get(slugify(article_name))
+    if not article_slug:
+        return None
+    anchor = slugify(heading) if divider else ''
+    if divider and not anchor:
+        return None
+    return (article_slug, anchor)
+
 def wikilink_sub(match, relative_root):
     target=match.group(1)
     if '|' in target: target, label = target.split('|',1)
     else: label=target
-    slug=ALIAS.get(slugify(target))
-    if slug:return f'[{label}]({relative_root}articles/{slug}/)'
+    resolved=resolve_wikilink_target(target)
+    if resolved:
+        target_slug, anchor = resolved
+        suffix = f'#{anchor}' if anchor else ''
+        return f'[{label}]({relative_root}articles/{target_slug}/{suffix})'
     return label
 
 def render_fact_value(value):
@@ -108,9 +122,11 @@ def render_fact_value(value):
         target, separator, label = match.group(1).partition('|')
         if not separator:
             label = target
-        slug = ALIAS.get(slugify(target))
-        if slug in BY_SLUG:
-            parts.append(f'<a href="../../articles/{slug}/">{html.escape(label)}</a>')
+        resolved = resolve_wikilink_target(target)
+        if resolved:
+            target_slug, anchor = resolved
+            suffix = f'#{anchor}' if anchor else ''
+            parts.append(f'<a href="../../articles/{target_slug}/{suffix}">{html.escape(label)}</a>')
         else:
             parts.append(html.escape(label))
         position = match.end()
