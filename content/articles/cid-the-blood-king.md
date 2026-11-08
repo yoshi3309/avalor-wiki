@@ -12,10 +12,12 @@ facts: |-
   Former fellowship: The Six
   Historical stronghold: The Black Tower
   Realm of long survival: Shadowfell
+  Appearance: Gaunt, orange-eyed, clad in black armor
+  Weapon: Enchanted scythe
   Legacy: Blood Sickness and the Betrayer's Legend
   Known defeat: Confrontation with the Misfits
 related: aldus-greystone-iii,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,betrayers-legend,the-misfits,the-stalker,tournament-of-champions,jaznaars-vindication
-source: The Living Chronicle, Chapters III–IV and VI–VII; Master Canon Bible Volume I, public founding and Misfits accounts
+source: The Living Chronicle, Chapters III–IV and VI–VII; Master Canon Bible Volume I; creator's World Anvil physical and psychological description (November 2026)
 featured: false
 ---
 
@@ -26,6 +28,16 @@ featured: false
 He had once been **[[Aldus Greystone III]]**, the gifted healer and weather-worker counted among [[The Six]]. The names *Aldus* and *Cid* do not describe two different people or a master and his servant. They are the names attached to one man before and after his transformation.
 
 The distinction between the entries in the Royal Archives is historical rather than personal. Aldus's biography follows the rise and ruin of a founding hero; this account traces the danger that survived the destruction of his mortal body and the consequences of a deception that outlived all but one of his companions.
+
+## The face of the Blood King
+
+The being who emerged as **Cid** still carried traces of the healer he had been. He stood roughly **six feet and three inches tall**, gaunt and unnaturally still, with short dark-brown hair and a closely trimmed beard. His eyes shone orange like embers beneath ash. A smile revealed teeth sharpened beyond those of an ordinary man.
+
+Cid wore dark robes beneath ancient black armor marked with crimson runes. A ragged cloak shifted behind him as though the fabric were moving through deep water, and shadows seemed to stretch toward his feet even when the light did not change. Those who faced him sometimes saw the unsettling suggestion of other shapes following his motions a heartbeat behind.
+
+He carried an enormous **enchanted scythe**, its edge steeped in blood sorcery and the corruption of the Shadowfell. It threatened more than flesh; those who survived its passage spoke of the harm it could do to the spirit itself.
+
+Cid rarely needed to shout. He spoke with the composure of someone utterly convinced that resistance would end in his favor. His most frightening weapon was not always magic. He understood despair, and he knew how to offer a suffering person exactly the hope that might persuade them to surrender their judgment.
 
 ## The healer before the Blood King
 
@@ -66,6 +78,16 @@ The founding witnesses, including [[Rynhold Frozenroar]], **had not believed Jaz
 The tale benefited Cid by concealing his own responsibility. Its consequences spread far beyond the founding heroes: prejudice against drow communities deepened, and later rulers drew upon the distorted history to justify discriminatory policy. Under [[Arnaud's Edicts]], suspicion was expressed in royal restrictions and displacement.
 
 The deception is documented in [[The Betrayer's Legend]]. Repeated agreement among chronicles, songs, and sermons was not independent proof when their accounts rested on the same corrupted tradition.
+
+## The philosophy that survived Aldus
+
+Long before his mortal death, Aldus had believed that **mortality was a flaw in the world's design**. As Cid, that conviction remained, stripped of the restraint that had once made his healing a gift.
+
+He no longer asked how to ease one person's suffering. He demanded that the world submit to his design, no matter how many people were sacrificed to achieve it. Compassion became, in his eyes, a weakness that delayed an inevitable transformation.
+
+Even after centuries of corruption, the calm and persuasive habits of the old healer remained. Cid did not simply seek to destroy an opponent. He took particular pleasure in breaking the convictions that opponent had once cherished, treating another person's despair as proof that goodness would always fail.
+
+This was the cruelest continuity between Aldus and Cid: the man who once offered relief from pain had learned to make pain the argument for his own rule.
 
 ## The suffering at Stanleyville
 

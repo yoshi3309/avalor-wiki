@@ -16,9 +16,14 @@ facts: |-
   Council: The Aegis
   Institution: Shamman’s Tower
   Close companions: Lavitz Shawe and Sven
+  Birthplace: Cove City
+  Former training: Shamman’s Tower
+  Companion: Kali'mari the octopus
+  Nickname: Tel'Lora the Moist
+  Family legacy: Mother's spellbook; father's kraken-tooth knife
   Historic encounter: Jaznaar's hidden refuge
-related: the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,jaznaar,jaznaars-refuge,the-first-commission,zauks-false-lives
-source: The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001, public Scholar's Account; Compendium II · Entry II.003, public arcane scholarship
+related: the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,cove-city,jaznaar,the-first-commission,zauks-false-lives
+source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001 and II.003; author-approved World Anvil biography and tower history (November 2026)
 featured: false
 ---
 
@@ -30,15 +35,45 @@ For the public, Tel'Lora may appear to belong to two different stories. One is t
 
 Those are not separate callings. A man who witnessed the destruction wrought by Aldus Greystone III's research has particular reason to believe that **powerful knowledge must be accompanied by careful judgment**.
 
-## Before the names became famous
+## A son of Cove City
 
-The surviving public accounts say little about Tel'Lora's childhood, early teachers, or the precise road that brought him to Avalor's service. They identify him as a **male half-elf wizard**, not as the heir of an established magical dynasty or the product of a particular school.
+Long before the Aegis gave him an eighth seat, **Tel'Lora Ebbenflow** was an awkward, inquisitive half-elf growing up in the port town of [[Cove City]]. The sea shaped his childhood as much as magic did, though the two were never entirely separate in his family.
 
-What the record establishes is that Tel'Lora joined the adventurers summoned by the preceding Lord Marshal to investigate an **unnamed necromancer**. The early company also included [[Lavitz Shawe]], [[svendyal-shadowwhisper|Sven]], [[Amara]], and [[fo-gurn|Fo'Gurn]].
+His parents met through the **kraken oil trade**. Tel'Lora's human father hunted krakens and returned home with stories of distant voyages, hard work, and the importance of doing right by one's crew. He could be stern, but his son remembered the kindness beneath the discipline. One of the possessions Tel'Lora inherited from him was a knife fashioned from a sharpened kraken tooth—a reminder that the sea could be wondrous and unforgiving at once.
 
-The investigation ended with the necromancer's defeat. Among the recovered materials were fragments of research later linked to the experiments of Aldus Greystone III. Neither the fragments nor their discovery proved that the necromancer had personally served Cid. They did, however, become part of the evidence the companions would eventually learn to understand.
+His elven mother had served as an **arcane adviser to the royal court**, studying the kingdom's mysteries before returning to a life in which her son could watch her work. Her spellcasting seemed almost like a dance. Water followed the movements of her hands, forming little streams and droplets as she spoke her incantations.
 
-A second commission concerning [[The Cult of Gol'Goroth|the cult of Gol'Goroth]] brought [[Heureux]] into their lives. In the company that followed, Tel'Lora's knowledge was not an academic curiosity: it was something his friends depended upon when strange evidence, enchantments, and unfamiliar dangers resisted simpler explanations.
+Tel'Lora inherited her affinity for water magic, along with a fair measure of her social awkwardness. When she died, her spellbook became one of his most treasured possessions. Its pages were both an education and a way of remaining close to the woman whose magic had first filled him with wonder.
+
+## Kali'mari and the sound of wet boots
+
+Tel'Lora's most faithful traveling companion came into his life during a walk along Cove City's shore. He found an **octopus tangled and injured in a fishing net**, freed her, and nursed her back to health. He called her **Kali'mari**, or simply Kali.
+
+An octopus is not the most convenient companion for a wandering wizard. Tel'Lora solved the problem with a makeshift backpack that doubled as a portable water tank, and Kali began accompanying him almost everywhere.
+
+His fellow students found the arrangement unusual, particularly when it came with the unmistakable sound of **wet boots**. Tel'Lora could summon and control water with increasing skill, but had not mastered the seemingly simpler art of keeping himself dry.
+
+So he acquired a nickname that followed him from school to adventure: **Tel'Lora the Moist**.
+
+His dry wit served him well whenever someone chose to make a joke of it. Those who dismissed the awkward wizard rarely expected the imagination and curiosity that lay beneath the dripping cuffs.
+
+## A spell that would not yield
+
+Tel'Lora began studying at **[[Shamman’s Tower]]** in its earlier days as a place of arcane instruction. It was here that his watery magic, unusual pet, and persistent curiosity became familiar to other students. The tower would later decline, long before he returned to restore it to prominence.
+
+Among the pages of his mother's spellbook, Tel'Lora discovered **a spell he could not decipher**. He tried to unravel it through study and by seeking help from scholars beyond his first teachers. His search took him to [[The Great Library of Aldus Greystone]] at [[Heaven's Heart]] and to **Jogar**, where even respected gnomish minds could not make sense of the writing.
+
+The mystery was irresistible. It gave Tel'Lora a reason to leave the security of his studies, following questions his mother had left behind rather than the safer path of mastering only what his teachers could explain.
+
+That search drew him outward into Avalor, carrying the spellbook, his father's tooth-knife, and an octopus in a traveling tank. His curiosity would soon find far more dangerous questions to answer.
+
+## The first commission
+
+Tel'Lora joined the adventurers summoned by the preceding Lord Marshal to investigate an **unnamed necromancer**. The early company also included [[Lavitz Shawe]], [[svendyal-shadowwhisper|Sven]], [[Amara]], and [[fo-gurn|Fo'Gurn]].
+
+The investigation ended with the necromancer's defeat. Among the recovered materials were fragments of research later linked to the experiments of Aldus Greystone III. They were troubling clues, though the companions had not yet met the Blood King or learned what those fragments meant.
+
+A second commission concerning [[The Cult of Gol'Goroth|the cult of Gol'Goroth]] brought [[Heureux]] into their lives. Tel'Lora's knowledge was no longer an academic curiosity. It became something his companions depended upon whenever enchantments, strange evidence, and unfamiliar dangers resisted a sword's more direct answers.
 
 ## A scholar among companions
 
@@ -92,7 +127,9 @@ His closest working partner was [[Lavitz Shawe]], who became Lord Marshal within
 
 ## Shamman’s Tower and the responsibility to teach
 
-Tel'Lora also revived [[Shamman's Tower|Shamman’s Tower]], situated off Avalor's eastern coast, as a center of arcane study and instruction. The institution was not intended simply to assemble powerful practitioners under one roof.
+After the defeat of Cid, Tel'Lora returned to **[[Shamman’s Tower]]**, where he had once been a student. The institution had declined since those early lessons; he brought it back to life as a center of arcane study and instruction.
+
+The restoration meant more than opening old classrooms. Tel'Lora had seen how the wrong kind of magical certainty could destroy lives, and he wanted the tower's new students to learn a different lesson.
 
 The Tower's public scholarship stresses the testing of assumptions and the scrutiny of dangerous conclusions. Among its recorded practices is **Second Witness**, which calls for another qualified observer during hazardous investigations. The **Atlas of Returns** gathers accounts of planar journeys for comparison rather than treating each traveler's recollection as infallible.
 

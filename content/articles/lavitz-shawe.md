@@ -14,13 +14,16 @@ facts: |-
   Earlier oath: Vengeance
   Faith: Tyr and Helm; trained in the Threefold tradition
   Origin: Mudsteps, Rhys Quays, Renada
+  Parents: Varis and Thia Shawe
+  Childhood home: Vixen's Heart, Renada
+  Companion: Rodrigo the velociraptor
   Training: Heaven's Heart
   Fellowship: The Misfits
   Office: Lord Marshal of Avalor
   Council: The Aegis
   Command: Lion's Bane royal guard
-related: the-misfits,fo-gurn,heavens-heart,mudsteps,the-aegis,lions-bane,tellora-ebbenflow,king-gradvum-frozenroar
-source: Compendium II · Entries II.001–II.002, public Scholar's Accounts; The Living Chronicle, Chapters VI–VII
+related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,lions-bane,tellora-ebbenflow,king-gradvum-frozenroar
+source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography (November 2026)
 featured: true
 ---
 
@@ -40,25 +43,67 @@ His official insignia identifies the Lord Marshal, but his reputation was made l
 
 To many Avalorians, the figure is immediately recognizable: a paladin who could have remained in the songs of an adventuring age but instead chose the daily burdens of protecting a realm.
 
-## A childhood beside the river
+## Varis and Thia
 
-The [[Rhys Quays]] has always depended upon hands that rarely appear in royal chronicles: those who unload vessels, maintain river trade, mend what breaks, and make a household's provisions last when work is scarce. Lavitz's childhood belonged to that world.
+Lavitz was born to **Varis and Thia Shawe**, two drow who had escaped slavery and the reach of Lolth's teachings in search of a different life. They came to [[Renada]] hoping that Avalor's reputation for greater tolerance would give them a chance to live in peace.
 
-His family lived modestly, and his father's livelihood was connected to the docks. As drow residents of a kingdom still marked by centuries of inherited prejudice, they experienced the difference between what law promised and what neighbors or employers were willing to grant.
+They found freedom, but not equality.
 
-Later admirers have sometimes treated his rise as proof that any determined child could find the same path. Such a conclusion asks too little of the kingdom. Lavitz's achievement is extraordinary; it does not excuse the unequal conditions from which he emerged.
+Varis worked as a ship hand along the [[Renada#rhys-quays|Rhys Quays]], often concealing his face to avoid the hostility directed toward drow. Thia found work behind the scenes in a seamstress's shop run by a kindly halfling. Together they built a modest household in [[Renada#the-mudsteps|the Mudsteps]], proud of the freedom their new life represented even when others saw only their poverty.
 
-Lavitz's childhood was shaped by life in Renada's working quarter. Not every family sorrow has become part of the stories told about him, nor does every one need to be; the Mudsteps and the people who raised him were already enough to leave their mark.
+They raised their son away from the worship of the Spider-Queen. The gods **Tyr, Helm, and Torm** were part of Lavitz's childhood, along with the belief that a person's worth should be measured by what they chose to do.
 
-## The discipline of Heaven's Heart
+When Lavitz was **five**, Varis broke up a dispute between a human and a dwarf on the docks. In the struggle, his covering fell away and the workers saw that he was drow. The owner dismissed him rather than face their anger. On the way home, Varis was attacked and stabbed by unknown assailants. He made it back to the family door, where Thia and their son found him dead.
 
-Lavitz's road eventually brought him to [[Heaven's Heart]], beneath the [[Spine of the World]]. There he trained within the paladin tradition inherited from [[Lowkee]] and the [[The Cathedral Paladins|Cathedral Paladins]].
+The boy grew up knowing that his father had been punished for trying to stop a fight.
 
-The order's teaching is closely connected to [[The Threefold Devotion]], honoring Tyr, Helm, and Torm. Its central obligation is not obedience for its own sake, but the defense of those who cannot stand safely without protection. The history of Heaven's Heart offers examples of that duty carried out even when the crown itself issued unjust commands.
+## A home called Vixen's Heart
 
-For a young drow raised among people accustomed to the shortcomings of official justice, such a distinction was not an abstract exercise. A righteous law and a righteous act are not always identical. Power deserves respect when it serves those in its care, not simply because it demands to be obeyed.
+Without Varis's wages, Thia could no longer keep the family in its little house. She found work at **Vixen's Heart**, a brothel in Renada, and brought Lavitz with her.
 
-At Heaven's Heart, Lavitz also formed an enduring friendship with a dragonborn paladin named [[fo-gurn|Fo’Gurn]]. The bond began before either man became part of the fellowship that would change Avalorian history.
+To an outsider, the place might have seemed an unlikely home for a child. To Lavitz, it was full of women who cared for him, taught him what they could, and made room for him beside the communal fire. Thia worked to give him a life, and the women of Vixen's Heart became an extended family who treated him as one of their own.
+
+That warmth made the next loss all the more terrible. When Lavitz was **fourteen**, Thia was murdered after refusing the demands of a nobleman. Her death went unpunished.
+
+Lavitz knew what it meant to be surrounded by love. Now, for the first time, he began to nurture a hatred so fierce that he imagined killing the man responsible.
+
+**Mother Kathra**, the dwarf who ran Vixen's Heart, let him stay. He helped in the kitchens, learned to fight from the bouncers and to handle knives from the head cook, and grew into a formidable young man. Eventually he took charge of the establishment's security. Protecting the women who had raised him gave his growing strength a purpose, even as the memory of his mother's murderer remained close.
+
+## The night he set the knife down
+
+Lavitz found the nobleman who had killed Thia. One night, after praying to Tyr and Helm, he crossed into the wealthier part of Renada and entered the man's home with a dagger.
+
+The nobleman slept unaware while Lavitz stood over him. He had wanted this moment for years, imagining it would bring justice at last.
+
+But with the blade raised, he understood that murder would neither restore his mother nor cure the anger he carried. He could not bring himself to make the killing blow.
+
+Lavitz left a warning instead. He wrote that he knew what the nobleman had done, invoked the fear of the Spider-Queen as a threat, and demanded that money be given to improve the lives of the women of Vixen's Heart. He drove his dagger into the note above the sleeping man's bed and disappeared into the night.
+
+It was not the justice Thia deserved. Nor was it a perfect act of mercy: Lavitz had used fear to force a response. Yet the choice **not to kill** marked the first time he refused to let his grief decide what kind of man he would become.
+
+When he finally left Vixen's Heart, the family he had found there gave him a farewell worthy of a son. His first longsword he named **Thia's Lament**, and his dagger **Twig**, remembering the nickname his father had given him. Mother Kathra offered an unexpected gift of her own: a young **velociraptor named Rodrigo**.
+
+Rodrigo became Lavitz's faithful companion, affectionate with those he considered family and fiercely protective when they were threatened.
+
+## Astronoph and Heaven's Heart
+
+Lavitz traveled north to **[[Heaven's Heart]]** in search of a calling that might put his strength to better use. He arrived cautiously, knowing how much suspicion a drow could still provoke.
+
+During a visit to the sanctuary, **[[Astronoph]]**, the female deva who served as High Priest of [[The Great Cathedral]] in Renada, met him and recognized his potential. She encouraged him to join **[[The Cathedral Paladins]]**. Lavitz might become a defender of those treated as outcasts, and a living reminder that no drow was bound to the Spider-Queen's path.
+
+He took the opportunity seriously. Training in heavy armor and with a wide range of weapons became part of his daily life. He worked hard to build the endurance his calling demanded, drawing on lessons of justice, vigilance, and duty rather than the anger that had almost consumed him.
+
+At Heaven's Heart he met **[[fo-gurn|Fo'Gurn]]**, a **brass dragonborn** training in the same tradition. Fo'Gurn treated him with respect rather than suspicion. They became close friends, challenging and encouraging each other as they learned the responsibilities of a paladin.
+
+## The curse beneath a full moon
+
+Years into his service, Lavitz was sent toward the [[Forest of the Fey]] after reports of trouble between a village and a hostile group of wild elves.
+
+The elves ambushed him and subjected him to a cruel blood ritual. They sought to humiliate him for being drow, using the night itself as the instrument of their contempt. Under a **full moon**, their magic transformed him not into a fearsome beast but into a **small, harmless-looking dog**.
+
+The paladins at Heaven's Heart could not immediately undo the curse. Lavitz had every reason to hate those responsible. Instead, remembering the hatred that had once brought him to a sleeping nobleman's bedside, he chose to **forgive them**. He would rather try to guide people away from cruelty than allow their cruelty to determine his own heart.
+
+It was an early expression of the devotion he would embrace more fully after the defeat of Cid: justice without the surrender of mercy, and protection without the need for hatred.
 
 ## The companion before the legend
 

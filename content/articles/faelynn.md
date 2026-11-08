@@ -1,8 +1,7 @@
 ---
 title: Faelynn
 subtitle: The Night Mistress of the Wilds
-summary: A wood elf ranger of the Six whose painful history and devotion to
-  vulnerable travelers led to the Hunters Guild.
+summary: Once a free-spirited ranger of the Forest of the Fey, Faelynn Naïlo survived a fiend's terrible deception, hunted it across realms, and later founded the Hunters Guild.
 category: People & Legends
 image: /assets/uploads/mischievous-wood-elf-ranger-in-sunlit-ruins.png
 entry: BIO.005
@@ -13,41 +12,71 @@ facts: |-
   Calling: Ranger
   Known as: The Night Mistress
   Fellowship: The Six
+  Early home: Forest of the Fey
+  Defining vow: Justice for her destroyed village
   Founded: Hunters Guild at Wayword Sun
-related: hunters-guild,wayword-sun,dead-marshes,the-six,lowkee
+related: hunters-guild,wayword-sun,dead-marshes,forest-of-the-fey,the-six,lowkee
 source: The Living Chronicle, Chapters II–IV; Compendium II · II.003, public
-  Scholar's Account
+  Scholar's Account; author-approved World Anvil story (November 2026)
 featured: false
 ---
 
-## The ranger who learned the cost of trust
+## Beneath the east-facing roofs
 
-**Faelynn Naïlo** was a wood elf ranger known as the **Night Mistress**, one of the legendary [[The Six]] whose friendship helped shape Avalor's first years.
+Long before the kingdom knew her as **the Night Mistress**, **Faelynn Naïlo** was a free-spirited wood elf roaming the high branches of the [[Forest of the Fey]]. She was a gifted archer and tracker, more at home among leaves and birdsong than in any crowded hall. From the canopy she hunted game, explored the forest's secrets, and reported what she discovered to the chieftess of her village.
 
-She knew the wilderness in ways that soldiers stationed behind city walls rarely could. The paths travelers avoided, the dangers hidden among trees, and the risks faced by communities far from a garrison were part of the world in which she had learned to survive.
+The village itself was built among the tallest trees, its homes turned toward the east to catch the warmth of the rising sun. Below lay a forest so thick that daylight sometimes struggled to reach its floor. For the villagers, the morning light offered more than beauty; it meant another day beneath the protections that kept the darker wilderness at bay.
 
-Yet the calamity that shaped her story began not with a threat she recognized, but with one she was persuaded to trust.
+Faelynn enjoyed the chieftess's complete confidence. She was a trusted scout, an honest friend, and one of the first people the village would turn to when trouble stirred beyond its borders. That trust was the very thing an enemy would use to destroy them.
 
-## The fiend in the shape of a boar
+## The boar and the gate
 
-A fiend came to Faelynn **wearing the form of a boar** and deceived her. Under its influence she killed a **chieftess**, unknowingly destroying the protections upon which a nearby village depended. Its people were massacred.
+One evening Faelynn followed an enormous boar through miles of forest. She expected to corner it in a cave. Instead she found the air turning oppressively hot and, deeper inside, a swirling portal. Beyond it stood the crooked iron gate of a city whose twisted shapes seemed wrong to the eye.
 
-Faelynn eventually freed herself from the fiend's influence and destroyed it. There was courage in that victory, but no victory could give the dead their lives back.
+The boar passed toward the gate and changed. Its body twisted into something monstrous. When the thing turned back toward Faelynn, she fled, running through the night until she reached the familiar treetops of home.
 
-The experience left a terrible weight upon her history. Whether guilt, duty, or convictions she already carried had the greater influence on her later choices, Faelynn became a protector who knew just how costly misplaced trust could be.
+Terrified and exhausted, she went straight to the chieftess. She needed to know whether the village's wards would hold. Her friend patiently explained the protective ritual she performed before sunrise each day. She even invited Faelynn to join her in the morning if it would help calm her fears.
 
-## The Hunters Guild
+Then the fiend's magic took hold.
 
-Faelynn founded [[The Hunters Guild]] at [[Wayword Sun]] in the [[Dead Marshes]]. Its members learned to defend travelers and isolated settlements by understanding the dangers of the wild rather than assuming that every trouble could be solved by a decree from Renada.
+Faelynn's eyes became black voids. Tears ran down her face as, against her will, she drove an arrow into the chieftess's throat. Under the same control she traced infernal signs in blood and spoke the words that broke the village's wards.
 
-The guild could reach people who were too far from the kingdom's centers of power to expect easy rescue. Its purpose reflected a lesson Faelynn had earned painfully: danger must often be recognized and answered before it overwhelms the people least able to escape.
+Fiends and beasts poured through the defenseless settlement. Huts crashed from the branches, and the screams carried through the forest. The creature that had worn the boar's shape returned to thank Faelynn for opening the way, promising that its spell would release her when the sun rose. It left the door open so she could watch.
 
-The order survived her era and remains active under [[Malikeah]].
+Faelynn could see the destruction. She could grieve. She could not stop it.
 
-## The last dispute among friends
+## The first sunrise
 
-As **Aldus Greystone III** pursued his experiments at the [[Black Tower]], Faelynn came to agree with [[Lowkee]] that he must be stopped even if there was no way to save him. [[Petris]] and [[Jaznaar]] continued to hope for another answer, while [[Kelsalor]] struggled to keep the fellowship from breaking apart.
+At dawn the spell finally broke. Faelynn collapsed, then crawled outside and called for anyone who might have survived. No voice answered.
 
-Faelynn had once seen the terrible price of failing to recognize a danger in time. She could not forget that lesson when the danger was a beloved companion.
+When she rose again, grief gave way to a vow: she would find the creature responsible and make it answer for what it had done. She buried and burned what remained of her people, performing the rites as best she could without the village's slain clerics.
 
-She is remembered as a ranger of formidable skill, but the deeper measure of the Night Mistress is the protection she tried to give others after learning how easily protection can fail.
+Then she left the home she had once defended.
+
+For years Faelynn lived by her bow, taking monster-hunting work in small settlements while following whatever trace might lead to the fiend. She avoided the great cities and learned how dangerous it was to trust an easy explanation. Her pursuit eventually taught her enough about portals to cross the boundary she had once fled.
+
+She returned to her village's ruins for one last sunrise and opened a passage to the place beyond the crooked iron gate. There she hunted the creatures that had taken her people. At last she found the boar-fiend itself.
+
+This time she recognized its attempt to command her mind. She let it come close, then answered with an arrow to its throat. The monster that had used her hands to murder her friend died by those same hands, now governed by her own will.
+
+**Faelynn's hunt ended before she joined the fellowship later known as [[The Six]].** The victory fulfilled her vow, but it could not bring back the village, the chieftess, or the mornings of her youth.
+
+## The Wayword Sun
+
+Faelynn wandered through Avalor after the hunt. In the swamp country of the [[Dead Marshes]], she came upon an abandoned shelter and made it a base for helping travelers and communities threatened by dangerous creatures.
+
+She called the place **[[Wayword Sun]]**, remembering the east-facing homes of her childhood and the sunrise that had finally freed her from the fiend's control. The name carried grief, but also the possibility that morning might come again.
+
+Others eventually joined her cause. They brought different histories and reasons for taking up the work, but shared her conviction that vulnerable people needed protectors prepared to go where ordinary patrols could not. Together they established **[[The Hunters Guild]]**, and Faelynn took the name **Night Mistress**.
+
+The guild survived its founder's age. Its hunters still serve under [[Malikeah]], though the generations they protect know more of the dangers before them than of the terrible night that first shaped Faelynn's purpose.
+
+## A friend among the Six
+
+Faelynn's long hunt was behind her when she became one of Avalor's founding fellowship. She joined [[Aldus Greystone III]], [[Lowkee Nicklebane|Lowkee]], [[Petris]], [[Kelsalor]], and [[Jaznaar]] in the company remembered as the Six.
+
+In later years, when Aldus's experiments at the [[Black Tower]] were revealed to be causing suffering, Faelynn leaned toward Lowkee's judgment that their friend must be stopped, even if stopping him meant his death. Petris and Jaznaar still hoped to save him, while Kelsalor tried to hold the fellowship together.
+
+Faelynn knew what it was to love someone who had become the instrument of another's cruelty. She also knew that waiting too long to stop a danger could destroy everyone placed in its path. Her own past did not make the choice easier. It made its cost impossible to ignore.
+
+The Night Mistress is remembered for her skill as a ranger and the order she founded. Yet her story began with a young woman watching for sunrise above a forest village, and it remained a story about what she would do so that others might see another dawn.
