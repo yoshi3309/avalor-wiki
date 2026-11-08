@@ -230,6 +230,76 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
             'next': mapped_steps[i+1] if i+1 < len(mapped_steps) else None
         })
 
+# The relationship atlas only depicts curated public connections. Never infer
+# genealogy from consecutive reigns or invent links to make a diagram prettier.
+RELATIONSHIPS_SOURCE = yaml.safe_load((ROOT / 'data' / 'relationship-maps.yml').read_text(encoding='utf-8')) or {}
+RELATIONSHIP_MAPS = []
+RELATIONSHIP_BY_ARTICLE = {}
+RELATIONSHIP_IDS = set()
+ALLOWED_EDGE_TYPES = {'fellowship', 'later', 'parent', 'consort', 'sibling'}
+ALLOWED_NODE_KINDS = {'group', 'person', 'royal'}
+for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
+    ident = str(raw_graph.get('id') or '').strip()
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident) or ident in RELATIONSHIP_IDS:
+        raise ValueError(f'Invalid or duplicated relationship map id: {ident}')
+    RELATIONSHIP_IDS.add(ident)
+    required = ('title', 'subtitle', 'summary', 'note', 'related_article', 'icon')
+    if not all(raw_graph.get(field) for field in required):
+        raise ValueError(f'Incomplete relationship map description: {ident}')
+    anchor = str(raw_graph['related_article'])
+    if anchor not in BY_SLUG:
+        raise ValueError(f'Relationship map {ident} missing public related article {anchor}')
+    nodes = []
+    node_index = {}
+    for raw_node in raw_graph.get('nodes', []):
+        node_id = str(raw_node.get('id') or '')
+        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', node_id) or node_id in node_index:
+            raise ValueError(f'{ident}: invalid or duplicate node {node_id}')
+        article = str(raw_node.get('article') or '')
+        if article and article not in BY_SLUG:
+            raise ValueError(f'{ident}: missing public article for {node_id}: {article}')
+        x, y = float(raw_node.get('x', -1)), float(raw_node.get('y', -1))
+        if not (6 <= x <= 94 and 6 <= y <= 94):
+            raise ValueError(f'{ident}: node coordinates outside safe canvas: {node_id}')
+        if raw_node.get('kind') not in ALLOWED_NODE_KINDS or not raw_node.get('label') or not raw_node.get('detail'):
+            raise ValueError(f'{ident}: incomplete node {node_id}')
+        node = {'id': node_id, 'x': x, 'y': y, 'kind': raw_node['kind'],
+                'label': str(raw_node['label']), 'detail': str(raw_node['detail']), 'article': article}
+        node_index[node_id] = node
+        nodes.append(node)
+    if len(nodes) < 2:
+        raise ValueError(f'{ident}: too few relationship nodes')
+    edges = []
+    seen_edges = set()
+    for raw_edge in raw_graph.get('edges', []):
+        a, b = str(raw_edge.get('from') or ''), str(raw_edge.get('to') or '')
+        kind = str(raw_edge.get('type') or '')
+        pair = tuple(sorted((a,b)))
+        if a not in node_index or b not in node_index or a == b:
+            raise ValueError(f'{ident}: invalid relationship edge {a}/{b}')
+        if pair in seen_edges or kind not in ALLOWED_EDGE_TYPES or not raw_edge.get('label'):
+            raise ValueError(f'{ident}: duplicate or incomplete relationship edge {a}/{b}')
+        seen_edges.add(pair)
+        edges.append({'from': a, 'to': b, 'type': kind, 'label': str(raw_edge['label']),
+                      'from_node': node_index[a], 'to_node': node_index[b]})
+    if not edges:
+        raise ValueError(f'{ident}: no relationships')
+    legend_names = {'fellowship': 'Fellowship membership', 'later': 'Later arrival / traveling companion',
+                    'parent': 'Documented parent–child', 'consort': 'Consorts / shared parentage',
+                    'sibling': 'Documented siblings'}
+    legend = [(kind, legend_names[kind]) for kind in legend_names if any(edge['type'] == kind for edge in edges)]
+    graph = {'id': ident, **{key: raw_graph[key] for key in required},
+             'nodes': nodes, 'edges': edges, 'legend': legend,
+             'client_data': {'nodes': nodes,
+                             'edges': [{key: edge[key] for key in ('from','to','type','label')} for edge in edges]}}
+    RELATIONSHIP_MAPS.append(graph)
+    for node in nodes:
+        if node['article']:
+            RELATIONSHIP_BY_ARTICLE.setdefault(node['article'], []).append(graph)
+    RELATIONSHIP_BY_ARTICLE.setdefault(anchor, [])
+    if graph not in RELATIONSHIP_BY_ARTICLE[anchor]:
+        RELATIONSHIP_BY_ARTICLE[anchor].append(graph)
+
 # The cartographer's table is public-facing. This file contains no hidden
 # locations; the original Keeper documents are never read by this build.
 MAP_CONFIG = ROOT / 'data' / 'avalor-map.yml'
@@ -401,7 +471,7 @@ if PUBLIC.exists():shutil.rmtree(PUBLIC)
 PUBLIC.mkdir()
 shutil.copytree(ROOT/'assets',PUBLIC/'assets',dirs_exist_ok=True)
 (PUBLIC/'.nojekyll').write_text('')
-render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS)
+render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
 for cat in CATEGORIES:
     subset=[a for a in ALL if a['category']==cat['name']]
@@ -432,7 +502,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -450,6 +520,9 @@ for old, rule in MERGES.items():
         f'<body><p>{label} is now part of {destination}. '
         f'<a href="{location}">Open the section</a>.</p></body></html>',
         encoding='utf-8')
+render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS)
+for graph in RELATIONSHIP_MAPS:
+    render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)
 render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title='Reading Journeys',crumbs='Reading Journeys',journeys=JOURNEYS)
 for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
