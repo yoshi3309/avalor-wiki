@@ -15,7 +15,8 @@
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
-<script defer src="{{ root }}assets/app.js?v=20261107-collections-v2"></script>
+<script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
+<script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
 {% if page_type == "map" %}<script defer src="{{ root }}assets/map.js?v=atlas-renada-20261107b"></script>{% endif %}
 </head>
 <body class="page-{{ page_type }}">
@@ -57,10 +58,15 @@
 <div id="search-modal" class="search-modal" aria-hidden="true">
   <div class="search-backdrop" data-close-search></div>
   <div class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="search-heading">
-    <div class="search-form"><span>⌕</span><input id="search-input" type="search" aria-label="Search all public records" placeholder="Search people, places, histories..." autocomplete="off"><kbd>ESC</kbd></div>
-    <div id="search-heading" class="search-result-heading">SEARCH THE PUBLIC ARCHIVE</div>
-    <div id="search-results" class="search-results"><p class="search-empty">Begin typing to search the records.</p></div>
-    <div class="search-dialog-footer">Only public records appear in this archive <span>↵ open record</span></div>
+    <div class="search-form"><span aria-hidden="true">⌕</span><input id="search-input" type="search" aria-label="Search all public records" placeholder="Search people, places, histories..." autocomplete="off" aria-controls="search-results" aria-describedby="search-status"><button type="button" class="search-close" data-close-search aria-label="Close search">ESC</button></div>
+    <div class="search-result-heading" id="search-heading">SEARCH THE PUBLIC ARCHIVE</div>
+    <div class="search-categories" role="group" aria-label="Filter results by collection">
+      <button type="button" class="search-category is-selected" data-search-category="all" aria-pressed="true">All records</button>
+      {% for c in categories %}<button type="button" class="search-category" data-search-category="{{c.name}}" aria-pressed="false">{{c.name}}</button>{% endfor %}
+    </div>
+    <div class="search-status" id="search-status" role="status" aria-live="polite">Start typing to find people, places, or stories.</div>
+    <div id="search-results" class="search-results"><p class="search-empty">Loading the public archive…</p></div>
+    <div class="search-dialog-footer">Only public records appear in this archive <span>↑ ↓ choose · ↵ open · ESC close</span></div>
   </div>
 </div>
 </body>
