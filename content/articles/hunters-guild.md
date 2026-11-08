@@ -1,55 +1,80 @@
 ---
-title: "The Hunters Guild"
-subtitle: "Guardians Beyond the Royal Roads"
-summary: "Founded by Faelynn at Wayword Sun, the guild protects travelers and threatened settlements in dangerous country beyond easy reach of royal patrols."
+title: The Hunters Guild
+subtitle: The Long Watch of Wayword Sun
+summary: Founded by Faelynn Naïlo in the Dead Marshes, one of Avalor's oldest guilds grew from a lone hunter's refuge into an enduring fellowship protecting people beyond the reach of ordinary patrols.
 category: Organizations & Factions
 entry: ORG.002
-era: "Founding Age to Age of Ascendancy"
-facts: "Founded by: Faelynn, the Night Mistress\nEstablished at: Wayword Sun\nRegion: Dead Marshes\nCalling: Protection of travelers and vulnerable settlements\nLegacy: Founded during the early kingdom"
-related: malikeah,faelynn,wayword-sun,dead-marshes,cathedral-paladins
-source: "The Living Chronicle, Chapters II–III and V; Compendium II · II.003; author-approved World Anvil backstory (November 2026)"
+era: Founding Age to Age of Ascendancy
+facts: |-
+  Founder: Faelynn Naïlo, the Night Mistress
+  Founding home: Wayword Sun, Dead Marshes
+  Era founded: Early Kingdom of Avalor
+  Present leader: Malikeah
+  Calling: Protect travelers and vulnerable communities; hunt dangerous creatures
+  Character: Long-lived fellowship of wilderness specialists
+related: malikeah,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
+source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003; creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 featured: false
 ---
 
-## Protection where armies cannot easily go
+## A watch older than most institutions
 
-**The Hunters Guild** was founded by [[Faelynn]], the wood elf ranger known as the Night Mistress and a member of [[The Six]]. Its enduring seat is associated with [[Wayword Sun]] in the [[Dead Marshes]].
+The **Hunters Guild** is among the oldest enduring fellowships of Avalor, reaching back to the kingdom's founding generations. Its home is **[[Wayword Sun]]**, deep in the **[[Dead Marshes]]**, where the roads are unreliable, the ground shifts beneath familiar paths, and help from a royal garrison may be many days away.
 
-The marshes do not offer the dependable roads, clear fields of vision, or ready garrisons familiar to settled parts of Avalor. Their shifting routes and dangers can leave a traveler or isolated community beyond the reach of ordinary royal protection.
+The guild does not exist to rival the king's soldiers. It serves where roads, walls, and ordinary patrols offer too little protection. A village threatened by creatures from the wilds, a traveler lost beyond the marked crossings, or a community facing dangers its own people cannot confront has reason to seek the hunters.
 
-The guild arose to answer that need.
+Its founder was **[[Faelynn|Faelynn Naïlo]]**, the wood elf ranger remembered as the **Night Mistress** and one of the six heroes of Avalor's earliest age. The guild's purpose is inseparable from her life, though the fellowship eventually grew into something larger than the woman who founded it.
 
-## A vow that became a calling
+## From a ruined village to a hunter's vow
 
-Long before the guild existed, Faelynn was a scout from an east-facing tree village in the [[Forest of the Fey]]. A fiend wearing the form of a boar compelled her to kill the village's chieftess and break the magical wards that guarded her people. The village was destroyed.
+Faelynn grew up among the treetop homes of a village in the **[[Forest of the Fey]]**, its buildings turned toward the rising sun. She was a scout, archer, and tracker trusted by the village's chieftess.
 
-Faelynn spent years hunting the creature. She pursued it beyond the mortal world, overcame its attempt to command her once again, and finally killed it. By the time she traveled with [[The Six]], that terrible vow had been fulfilled.
+A fiend disguised as a great boar lured Faelynn into danger and ensnared her will. Under its control, she killed the chieftess and undid the wards that protected her people. The village was destroyed. When the enchantment broke at sunrise, Faelynn found herself among the dead.
 
-Her search had taught her to follow signs most people overlooked and to survive where no city guard could be called for help. In the years following Avalor's founding, she gave those skills a more enduring purpose.
+She vowed to hunt the creature responsible. For years she crossed dangerous country, accepted work hunting monsters, and followed signs that eventually carried her beyond the mortal world. At last she confronted the fiend and killed it, ending the pursuit that had consumed her life.
 
-At [[Wayword Sun]], the shelter she had made her own drew other hunters who believed vulnerable travelers and settlements deserved protection. From their shared labor the **Hunters Guild** emerged, with Faelynn as the **Night Mistress**. The order's beginnings were rooted in grief, but its work was meant for the living.
+**Her vengeance was complete before she joined [[The Six]].** Her later guild was not founded to continue hunting one personal enemy. Its purpose came from what her long pursuit had taught her: that people left exposed to danger need protectors who know how to find a threat, face it, and return.
 
-## The craft of a hunter
+## The shelter that became Wayword Sun
 
-The work requires more than the pursuit of dangerous creatures. A hunter must read terrain, know when a path has become unsafe, judge a threat before it reaches a village, and decide whom the guild's protection ought to include.
+After her years among the founding companions, Faelynn wandered through the swamp country later feared as the Dead Marshes. There she found an **abandoned shelter** and made it a refuge from which she could help travelers and communities endangered by the creatures of the wild.
 
-The needs of a poor settlement do not become less urgent because its messenger lacks influence. Neither do the needs of a lone traveler become unimportant because no captain knows their name.
+She named it **Wayword Sun**, recalling the east-facing homes of her lost village and the dawn that restored her freedom. In that name, sorrow and hope endured together. It remembered what had been taken from her without declaring that every life thereafter must be lived in the shadow of the loss.
 
-These responsibilities place the guild beside other enduring traditions of public service, including [[The Cathedral Paladins]], though the two institutions have different origins and methods.
+Other hunters gradually joined her. They brought their own reasons for taking up the work and their own knowledge of dangerous country. What began as the shelter and labor of one ranger became a fellowship with a shared purpose: **protect those who cannot readily protect themselves**.
 
-## The marshes and the kingdom
+Faelynn came to be known as the **Night Mistress**. The name outlasted the years in which she herself guided the hunters, becoming part of the guild's founding memory rather than proof of any fixed rank structure imposed upon later generations.
 
-The Dead Marshes had already suffered during the founding wars before the catastrophe at the Black Tower deepened their dangers. The survival of dangerous country over centuries explains why the Hunters Guild's purpose could not end with the adventures of its founder.
+## What makes a hunter
 
-Its hunters protect communities in a landscape whose hazards do not respect the kingdom's administrative borders. Royal patrols and soldiers have their own duties; the guild performs a service they cannot always provide.
+To outsiders, the guild's work may appear to consist chiefly of killing monsters. A hunter's task is broader and often less celebrated.
 
-## A living institution, not a finished legend
+Knowing the wilderness can mean recognizing that a path has changed since the last crossing, distinguishing ordinary animal signs from the passage of something unnatural, or realizing that a settlement is in danger before its inhabitants understand why. The strongest bow is of little use without patience, judgment, and the ability to return with reliable knowledge.
 
-The public sources preserve the foundation and purpose of the guild, but do not supply a complete current rank structure, a fixed schedule of deployments, or a verified catalogue of every hunt.
+A hunter may have to guide the lost, warn people away from a threatened road, escort the vulnerable, or decide whether a dangerous creature must be fought at all. The guild's purpose demands more than bravery. Its members must know when to act, when to seek help, and when an avoidable fight would put innocent lives at greater risk.
 
-Rather than invent those details, the Royal Commission records what is certain: the guild was founded for the defense of people exposed to danger, and that work remains meaningful long after Faelynn's lifetime.
+Not every hunter need resemble Faelynn in skill or temperament. The fellowship she founded could endure only because its members were willing to contribute different strengths to the same task.
 
+## The long centuries of the guild
 
-## The present guild master
+Avalor changed greatly after the founding. The confrontation at the **[[Black Tower]]** deepened the magical injuries of the land, while the Dead Marshes—already treacherous during the founding wars—grew more dangerous. Kings and queens succeeded one another; roads, settlements, and borders changed. The need for people who could travel beyond dependable protection remained.
 
-The Hunters Guild remains active under [[Malikeah]], its current leader. The public record establishes Malikeah's position but leaves their personal background and the guild's modern hierarchy open to later documentation.
+That continuity helps explain how a fellowship founded in the kingdom's earliest years endured for nearly two thousand years. Its work did not depend upon the survival of any single ruler or a threat that could be defeated once and forgotten.
+
+The guild's complete succession of leaders, major expeditions, and changing customs across those centuries has not yet been reconstructed. Its survival should not be mistaken for proof that every generation organized itself in precisely the same way. The enduring tradition is one of **service through knowledge of dangerous country**, not an unchanging list of offices.
+
+## Beyond the reach of royal power
+
+The **[[The Cathedral Paladins|Cathedral Paladins]]** and the Hunters Guild share a belief that strength brings obligations toward the vulnerable. Their origins and methods are different. The paladins were founded by **[[Lowkee]]** and shaped by an oath-centered religious tradition. Faelynn's fellowship emerged from practical experience of wilderness threats and the need to protect communities far from reliable aid.
+
+The same distinction separates hunters from the crown's ordinary soldiers. A regiment may hold a frontier or guard a major road; a hunter may know the uncertain paths and hidden dangers that no marching formation can easily master.
+
+There is room for cooperation among these protectors without making the guild a branch of the army, a religious order, or an arm of the royal court. Faelynn's legacy was a way of answering dangers that institutions based in towns and strongholds could not always reach.
+
+## The guild in the present age
+
+The Hunters Guild remains active under **[[Malikeah]]**, who now leads the institution Faelynn began. Malikeah inherits its duty, not simply a legendary name.
+
+The exact arrangements through which the present leader directs hunters, trains newcomers, or coordinates distant work have not been established. What is clear is that **Wayword Sun remains the guild's historic home**, and that its purpose has survived the centuries.
+
+Faelynn could not save the village of her childhood. She could, however, help create a fellowship devoted to preventing others from suffering the same abandonment. The Hunters Guild endures because its work belongs not to one hero's grief, but to the living people who still need a way home.
