@@ -1,46 +1,43 @@
 ---
 title: Myxi Twinefoot
-subtitle: The Golden Hand
-summary: The Aegis councilor known as the Golden Hand, responsible for finance
-  and the fiscal decisions that sustain Avalor.
+subtitle: The Golden Hand with a Song to Learn
+summary: A meticulous halfling steward of the crown's finances, Myxi finds time between the kingdom's accounts to study bardcraft at Heureux's Academy.
 category: People & Legends
 image: /assets/uploads/myxi-twinefoot-in-the-noble-study.png
 entry: BIO.017
 era: Age of Ascendancy
 facts: |-
+  Species: Halfling
   Office: Golden Hand
   Council: The Aegis
-  Responsibility: Royal finance
-  Government: Crown of Avalor
-related: the-aegis,kingdom-of-avalor,edran-halwick,royal-commission-historical-inquiry
-source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
-  (public institutional record)
+  Calling beyond court: Bard-in-training
+  Studies: Heureux’s Bard Academy when time allows
+  Personal challenge: Seeing human needs beyond sound accounts
+related: the-aegis,heureuxs-bard-academy,heureux,belgram-mountain-hall,edran-halwick
+source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
 featured: false
 ---
-## What the crown can sustain
 
-**Myxi Twinefoot** serves upon [[The Aegis]] as the **Golden Hand**, the office associated with the finances of the Kingdom of Avalor.
+## More than a keeper of accounts
 
-A kingdom's power is often described through armies, castles, and trade fleets. Each depends upon decisions made less visibly: how revenue is gathered, what expenditure can be sustained, and which obligations must be met before a new ambition can be undertaken.
+**Myxi Twinefoot** is a **halfling** and Avalor's **Golden Hand**, entrusted with advising the crown on the money that sustains its promises.
 
-The Golden Hand has a necessary voice in those decisions.
+She approaches the work with considerable energy. Myxi notices small expenditures that other officials dismiss and remembers that a modest shortfall can be the difference between a well-supplied household and a family forced to go without. She is meticulous not because she loves denying requests, but because she wants resources to be available when they are needed.
 
-## Finance and the work of government
+The danger in her profession is that a balanced ledger can begin to look like a complete answer. Myxi is aware that the life behind a figure may be more complicated than the sum written beside it.
 
-Avalor's productive heartlands supply grain, its ports connect the realm to merchants abroad, and the maintenance of roads and fortifications creates demands that do not disappear when no enemy threatens the border.
+## A halfling learning to be a bard
 
-The Golden Hand must take such realities into account when advising the crown. A military proposal, charitable initiative, or new public institution may promise considerable value. The promise alone does not make the resources required to fulfill it appear.
+When her duties allow, Myxi studies at **[[Heureux’s Bard Academy]]**, the school founded by the Misfits' celebrated bard, [[Heureux]]. She is **training to become a bard** while continuing to serve on the Aegis.
 
-This office therefore provides a perspective that can challenge proposals favored elsewhere on the Aegis.
+The lessons give her something royal finance rarely provides: room to experiment without knowing exactly what the result ought to be. Numbers must agree in a ledger. A song asks different questions.
 
-## Coin and confidence
+No public account has yet established her instrument, favorite style of music, or the extent of her studies. What matters is that her interest is active rather than an abandoned childhood ambition. Myxi makes time for it when the business of a kingdom permits.
 
-The kingdom's familiar coinage includes the **gold lion**, **silver shield**, and **copper torch**. Coins make exchange possible, but trust in a kingdom's financial administration requires more than recognizable metal. Merchants and communities depend upon predictable obligations and decisions that can be explained.
+## The heart behind the figures
 
-The surviving public record does not identify every tax schedule or treasury practice administered by Myxi. Nor does the name of the office imply a personal monopoly over the kingdom's wealth.
+Myxi's profession demands difficult choices. Her instinct is to notice the ordinary people affected by those choices, though even she can become so absorbed in details that she overlooks the larger experience a decision creates.
 
-## A voice within the council
+Within the council, she respects the need for Belgram to reconcile competing proposals, even when she believes the numbers have already made an answer obvious. Her work requires both accuracy and the humility to hear why another councilor sees a different cost.
 
-As with the Third Hand, Silver Hand, and other members of the council, the Golden Hand is one of the original seven Aegis offices. The addition of a High Wizard later brought the number of seats to eight.
-
-Myxi's service is an essential reminder that good governance requires choosing among worthy needs rather than promising to fund every desirable undertaking at once.
+The institutional responsibilities of the Golden Hand are described in [[The Aegis#the-third-hand-and-the-golden-hand|the Aegis]]. Myxi's life includes those responsibilities, but it also includes a halfling who can leave the accounts behind for a little while and learn another kind of craft.

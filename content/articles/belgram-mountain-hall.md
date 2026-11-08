@@ -1,42 +1,43 @@
 ---
 title: Belgram of Mountain Hall Clan
-subtitle: The Third Hand
-summary: Current member of the Aegis serving as the Third Hand, whose duties
-  coordinate the kingdom's separate arms of government.
+subtitle: The Gruff Mediator
+summary: A dwarven Third Hand of the Aegis, Belgram patiently untangles royal disagreements but sometimes thinks a friendly bout of fisticuffs would accomplish more.
 category: People & Legends
 image: /assets/uploads/regal-dwarven-king-in-a-lion-hall.png
 entry: BIO.016
 era: Age of Ascendancy
 facts: |-
+  Species: Dwarf
+  Clan: Mountain Hall
   Office: Third Hand
   Council: The Aegis
-  Affiliation: Mountain Hall Clan
-  Responsibility: Coordination among royal offices
-related: the-aegis,kingdom-of-avalor,house-frozenroar,royal-commission-historical-inquiry
-source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
-  (public institutional record)
+  Known for: Patience, blunt speech and a taste for friendly fisticuffs
+  Personal challenge: Knowing when mediation has become delay
+related: the-aegis,myxi-twinefoot,rastrin-diltir,king-gradvum-frozenroar
+source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
 featured: false
 ---
-## The hand that connects the others
 
-**Belgram of Mountain Hall Clan** holds the office of **Third Hand** upon [[The Aegis]], the council serving the sovereign of Avalor. The title belongs to the oldest structure of the council, established during the reign of Rynhold Frozenroar.
+## A dwarf at the center of the argument
 
-While the offices of the Aegis address matters such as finance, intelligence, order, maritime affairs, faith, and military defense, the Third Hand bears an especially important responsibility for **coordination**. A policy that appears straightforward to one councilor may create difficulties for another. The kingdom must find ways to reconcile these interests without treating each office as a government unto itself.
+**Belgram of Mountain Hall Clan** is a **dwarf** and Avalor's **Third Hand**, the councilor whose work often begins when two perfectly reasonable people have arrived at incompatible conclusions.
 
-## An office between competing needs
+Belgram can be a patient listener, and he takes the responsibility of keeping the Aegis working together seriously. He is also distinctly **gruff**. When a debate circles the same point for the third time, his patience tends to be audible rather than invisible.
 
-A proposed expenditure may be sound in principle and impossible to fund. A measure of public safety may conflict with established rights. A military undertaking may require diplomatic arrangements or provisions not yet secured. Belgram's office exists in part to keep these discussions connected.
+He has been known to insist that a little **friendly fisticuffs** might resolve a disagreement faster than another hour of speeches. He means a fair, companionable bout rather than a license to bully or strike someone who cannot answer in kind. Even so, it is an unusual instinct for a man whose official duty is mediation.
 
-The Third Hand does not replace the sovereign. The king retains authority, and the other councilors remain responsible for their own areas of expertise. Coordination is a form of service, not a claim to possess every other office's powers.
+## The temptation to settle things quickly
 
-## The Mountain Hall connection
+Belgram understands that coordination is not the same thing as forcing agreement. The Golden Hand must account for money, the Lord Marshal for security, and the other councilors for their respective duties. Their differences can be necessary.
 
-Belgram is known by his association with **Mountain Hall Clan**. The public record preserves that affiliation without establishing every aspect of its history, internal customs, or its relationship to the royal government.
+What exhausts him is the expectation that he should make every disagreement disappear. He knows the value of giving an argument time, yet occasionally suspects that everyone would be more honest if they stopped hiding behind their titles for a moment.
 
-Nor does the clan name alone establish an official ancestry, age, or private biography for Belgram. The Royal Archives distinguish what has been named in the record from what remains to be learned.
+That contrast defines him: a patient diplomat who sometimes longs for a much more direct way of settling a matter.
 
-## Continuity through disagreement
+## Of clan and crown
 
-The Aegis usually meets weekly. That rhythm matters because the demands of government do not arrive as isolated questions. Its members need to hear one another even when they disagree.
+His name identifies him with **Mountain Hall Clan**. The surviving public history does not establish a detailed family tree, the clan's political hierarchy, or a particular battle that brought Belgram to royal service.
 
-Belgram's place in the present kingdom is defined by that task: preserving the capacity of the crown's advisers to govern together rather than allowing the business of one office to overwhelm all the others.
+He is no less a person for the absence of those details. His loyalty to the work of the council is clear, as is his preference for plain speaking over ceremony.
+
+The constitutional responsibilities of the Third Hand belong in [[The Aegis#the-third-hand-and-the-golden-hand|the council's record]]. Belgram's biography is about the dwarf who must carry them out—and who occasionally believes the council chamber could benefit from clearing a little space for a sparring match.

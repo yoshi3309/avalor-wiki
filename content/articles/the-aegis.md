@@ -15,7 +15,7 @@ facts: |-
   Usual meeting cadence: Weekly
   Seat of government: Renada, Great Citadel
 related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,belgram-mountain-hall,myxi-twinefoot,katiri-tenderfoot,rastrin-diltir,beldir-willowrun,samuel-the-devoted,lavitz-shawe,tellora-ebbenflow,four-sheriffdoms,renada,great-citadel
-source: Compendium II · Entry II.001, Section VI, public royal offices; Master Canon Bible Volume I, Section VII; The Living Chronicle, public constitutional history
+source: Compendium II · Entry II.001, Section VI, public royal offices; The Living Chronicle, public constitutional history; author-approved councilor details (November 2026)
 featured: true
 ---
 
@@ -70,13 +70,15 @@ The **Warden of Order**, presently [[Rastrin Diltir]], has a different responsib
 
 The history of [[Arnaud's Edicts]] demonstrates why this separation of concerns matters. Government can preserve outward quiet while doing profound injustice to the people whose rights it has failed to protect.
 
-The public record does not establish Katiri's individual agents, the precise methods of every intelligence operation, or a complete national structure of public-order officers. It would be wrong to assign those unknown arrangements to the present councilors.
+Katiri directs the **crown's spy network**. Outside the Aegis, [[svendyal-shadowwhisper|Sven]] directs a **separate intelligence network**. Their efforts sometimes interfere with one another, but Sven's organization is not an arm of the Silver Hand and does not give him a council seat. No roster of their agents, operations, or methods is established for public disclosure.
 
 ## The sea and the regions
 
 [[Beldir Willowrun]], **Sentinel of the Seas**, brings maritime concerns before the crown. Avalor's trade passes through ports with different commercial arrangements, including [[Cove City]], [[Tinsel]], and the freeport of [[Stems Port]].
 
 The disputed eastern settlement of [[Karhold]] demonstrates a particularly important limitation. Contact through trade and a claim on a royal map do **not** by themselves establish that the settlement accepts Avalorian rule.
+
+Beldir personally favors **firmer action toward the freeports**, but he also recognizes that their commercial arrangements bring trade and economic advantages. His preference does not itself constitute a royal policy or establish any new claim over a disputed settlement.
 
 The Aegis must also work with [[The Four Sheriffdoms|four regional sheriffs]], appointed by the crown to govern major parts of the kingdom. The sheriffs are not additional Aegis seats, hereditary sovereigns, or interchangeable with the commanders of regional troops.
 

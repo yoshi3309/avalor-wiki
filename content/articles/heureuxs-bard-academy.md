@@ -6,8 +6,8 @@ category: Organizations & Factions
 entry: ORG.011
 era: "Age of Ascendancy"
 facts: "Founder: Heureux\nLocation: Taveras\nEra: Following Cid's defeat\nPurpose: Bardic education\nFormal chartered name: Not established"
-related: heureux,bard-guild,the-misfits,kelsalor,royal-commission-historical-inquiry
-source: "The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible Volume I, VI–VII"
+related: heureux,myxi-twinefoot,bard-guild,the-misfits,kelsalor,royal-commission-historical-inquiry
+source: "The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible Volume I, VI–VII; author-approved student detail (November 2026)"
 featured: false
 ---
 
@@ -24,6 +24,12 @@ Heureux did not withdraw permanently from the road. He continued to perform, col
 The next generation could now learn a vocation shaped by his experience without needing to endure the dangers that had made him famous.
 
 The academy’s exact curriculum, faculty, selection practices, and rules are not yet established in the public records.
+
+## A councilor among the students
+
+Among those studying the bardic arts at the academy is **[[Myxi Twinefoot]]**, the halfling who serves as **Golden Hand** on [[The Aegis]]. She attends when the demands of royal finance allow, training as a bard alongside her responsibilities to the crown.
+
+Her presence is a reminder that the academy is not solely a place for travelers intent on making music their profession. The public record does not identify Myxi's preferred instrument, the classes she has completed, or any special standing she holds at the school.
 
 ## A different institution from the guild
 

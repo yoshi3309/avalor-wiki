@@ -13,9 +13,11 @@ facts: |-
   Appearance: Grayscale
   Fellowship: The Misfits
   Closest continuing companions: Lavitz Shawe and Tel'Lora Ebbenflow
-  Later public record: Fragmentary and disputed
-related: the-misfits,lavitz-shawe,tellora-ebbenflow,heureux,amara,fo-gurn,forest-of-the-fey,the-first-commission,zauks-false-lives
-source: The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001, public Scholar's Account; Compendium I · public traditions concerning the Feywild
+  Intelligence: Independent network, separate from the Silver Hand
+  Professional rival: Katiri Tenderfoot
+  Later public record: Specific operations remain undisclosed
+related: the-misfits,lavitz-shawe,tellora-ebbenflow,katiri-tenderfoot,heureux,amara,fo-gurn,forest-of-the-fey,the-first-commission,zauks-false-lives
+source: The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001; author-approved network and relationship details (November 2026)
 featured: false
 ---
 
@@ -69,13 +71,13 @@ The victory also exposed Avalor's false condemnation of Jaznaar and helped begin
 
 ## The Iron Shadow
 
-In the years after Cid's defeat, Sven became known as **the Iron Shadow**. Travelers and court observers credited him with interventions undertaken far from public view, but their accounts seldom agreed on dates, witnesses, or means.
+In the years after Cid's defeat, Sven became known as **the Iron Shadow**. His later work includes **an intelligence network of his own**, separate from Avalor's official intelligence establishment. The nature of that network fits his habit of moving beyond the boundaries of a formal appointment, even when his closest friends serve within the crown's government.
 
-A figure known partly through absence invites stories in which every unseen act belongs to him. Some rumors speak of an organized network operating beyond official intelligence channels. The Royal Commission cannot independently verify its membership, methods, or particular operations. Such claims should not be promoted to established history merely because they suit his title.
+The official **Silver Hand**, [[Katiri Tenderfoot]], runs **another spy network** in service to the crown. The two networks sometimes clash. Katiri respects Sven's capabilities but also distrusts a man who can gather information without answering to her office. Sven is neither her subordinate nor a member of the Aegis by virtue of this work.
 
-It is possible to record that Sven's work was less visible than that of his friends without pretending that the gaps in his biography have been solved.
+Rumors credit the Iron Shadow with many interventions, but his network's **membership, methods, and particular operations have not been established for the public record**. Knowing that the network exists is not proof that Sven was responsible for every unexplained event in the kingdom.
 
-The distinction matters in a kingdom where [[The Aegis]] already includes offices charged with public order and intelligence. A rumor about Sven is not evidence that he holds, replaces, or controls those offices.
+His relationship with Katiri adds an unusual personal complication to that rivalry. Her feelings toward him are more affectionate than she finds professionally convenient; the Archives do not assume they are mutual or that either has set aside a disagreement because of them.
 
 ## Two friends in the public eye
 

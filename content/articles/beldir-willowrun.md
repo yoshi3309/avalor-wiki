@@ -1,48 +1,51 @@
 ---
 title: Beldir Willowrun
-subtitle: The Sentinel of the Seas
-summary: A member of the Aegis serving as Sentinel of the Seas, advising on the
-  coastal and maritime responsibilities of Avalor.
+subtitle: The Sentinel Divided over the Freeports
+summary: A human maritime councilor who would prefer firmer action toward Avalor's freeports, yet understands the trade and prosperity those arrangements sustain.
 category: People & Legends
 image: /assets/uploads/dignified-lion-emblemed-admiral-overlooking-the-harbor.png
 entry: BIO.020
 era: Age of Ascendancy
 facts: |-
+  Species: Human
   Office: Sentinel of the Seas
   Council: The Aegis
-  Responsibility: Maritime affairs
-  Government: Crown of Avalor
-related: the-aegis,cove-city,stems-port,cassian-veyran,karhold
-source: Compendium II · Entry II.001, VI–VII; Avalor Master Canon Bible, VII
-  (public institutional record)
+  Known for: Direct speech and maritime understanding
+  Policy preference: Firmer action concerning the freeports
+  Complication: Recognizes their commercial value
+related: the-aegis,stems-port,karhold,cassian-veyran,cove-city,tinsel
+source: Compendium II · Entry II.001, VI–VII; author-approved character details (November 2026)
 featured: false
 ---
-## The kingdom beyond its shoreline
 
-**Beldir Willowrun** serves on [[The Aegis]] as the **Sentinel of the Seas**, a post responsible for bringing maritime concerns into the sovereign's council.
+## A human with the sea in mind
 
-Avalor's coasts are not uniform. Ports connected to the King's Road trade with inland settlements; freeports operate under distinct commercial arrangements; and disputed jurisdictions may complicate what a royal decree can accomplish beyond the harbor mouth.
+**Beldir Willowrun** is a **human** and Avalor's **Sentinel of the Seas**, responsible for bringing maritime concerns before the crown.
 
-An adviser concerned with the sea must understand those differences.
+Beldir is sociable, direct, and at ease discussing the practical needs of captains, merchants, and harbors. The patience required to explain coastal realities to councilors who think of the sea merely as a line on a map does not always come naturally.
 
-## Ships, harbors, and obligations
+Beldir's instinct is to address a problem rather than admire how carefully it has been described. That straightforwardness wins respect, but can make compromise feel frustratingly slow.
 
-Maritime affairs require attention to routes, trade, safety, and the relationships through which ships can arrive and depart. Such responsibilities can intersect with military defense, commerce, and diplomacy without becoming identical to any one of those fields.
+## The freeport question
 
-[[Cove City]] and [[Tinsel]] connect coastal trade to the interior. [[Stems Port]] operates with freeport privileges. [[Siesta Ford]] is remembered as a prosperous coastal retreat.
+Beldir wishes the kingdom would take **firmer action concerning the freeports**. Their special arrangements and disputed claims are a recurring source of irritation to a councilor responsible for Avalor's maritime interests.
 
-Each place makes different demands upon the kingdom's maritime network, and the office of Sentinel offers the council a perspective informed by those realities.
+Yet Beldir understands why the government hesitates. Ports enjoying particular commercial privileges can bring valuable trade, revenue, and relationships that a heavy-handed policy might jeopardize. A decision that satisfies a demand for tighter control could also drive merchants away or create consequences far beyond the waterfront.
 
-## The disputed eastern coast
+Beldir does not dismiss those benefits. That is precisely why the matter is so frustrating: **the strongest immediate response may not serve the kingdom's long-term interests**.
 
-The eastern peninsula's [[Karhold]] illustrates the distinction between maritime contact and political control. Karhold maintains a government with a longstanding claim to independence even while Avalor asserts sovereignty over the peninsula.
+## Between ships and royal authority
 
-[[Cassian Veyran]], the sheriff of the Eastern Reach, administers the crown's regional interests. The Sentinel of the Seas occupies a separate central office and should not be mistaken for that sheriff.
+Beldir's concerns intersect with those of [[Cassian Veyran]], sheriff of the Eastern Reach, but their offices are distinct. One sits on the royal council; the other governs a region through delegated crown authority.
 
-Neither title dissolves Karhold's disputed status.
+[[Stems Port]] operates under freeport arrangements, while [[Karhold]] makes a longstanding claim to independence disputed by Avalor. Those situations should not be treated as politically identical. The desire for stronger measures does not establish any particular military plan or imply that Beldir has authority to revoke every local privilege.
 
-## The value of a seaward view
+Beldir's knowledge of trade is an asset, but close familiarity with coastal interests can complicate the effort to give disinterested advice.
 
-The public record does not establish Beldir's fleet command, naval rank, personal seafaring history, or a complete hierarchy of ships and ports under the Sentinel's authority.
+## A harder choice than issuing an order
 
-What is recorded is the existence of a distinct maritime seat upon the Aegis—one of the seven established during the kingdom's founding and maintained as the council expanded to eight. Its presence recognizes that the affairs of the sea cannot be governed entirely from inland concerns.
+Beldir would often prefer a more decisive policy. The responsibility of the Sentinel's seat is to explain not only what the crown might compel but also what it could lose by doing so.
+
+The wider law and geography of Avalor's ports belong in [[The Aegis#the-sea-and-the-regions|the council's maritime account]] and the individual settlement articles.
+
+Beldir's own story rests on a genuine tension: a direct, action-minded official who knows that some of the arrangements that most irritate him are also good for business.
