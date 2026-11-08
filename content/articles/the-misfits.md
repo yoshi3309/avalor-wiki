@@ -174,9 +174,9 @@ That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained
 
 ## A guide to their stories
 
-A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[The Misfits#moonville-manor|Moonville Manor]], [[The Liberation of the Rotten Husk]], [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand against the hydra]], and [[The Stalker of Stanleyville]].
+A reader wishing to follow the fellowship's history may begin with [[The Misfits’ First Commission]], continue through [[The Cult of Gol’Goroth]], [[The Misfits#moonville-manor|Moonville Manor]], [[The Misfits#the-liberation-of-the-rotten-husk|the liberation of the Rotten Husk]], [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand against the hydra]], and [[The Stalker of Stanleyville]].
 
-The search for the old truth leads through [[Jaznaar’s Hidden Refuge]], [[Jinlin Vechon and the Wrath of Innocent]], and [[Zauks and the False Lives]], before arriving at [[The Tournament of Champions]] and the struggle in the Shadowfell.
+The search for the old truth leads through [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar's hidden refuge]], [[The Misfits#jinlin-vechon-and-the-wrath-of-innocent|the encounter with Jinlin Vechon]], and [[Zauks and the False Lives]], before arriving at [[The Tournament of Champions]] and the struggle in the Shadowfell.
 
 The consequences belong to [[The Vindication of Jaznaar]] and [[The Age of Ascendancy]], while the individual biographies tell what each companion did when the old road ended.
 

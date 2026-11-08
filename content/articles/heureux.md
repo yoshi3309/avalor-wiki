@@ -14,7 +14,7 @@ facts: |-
   Historical work: Published account of the Misfits
   Founded: Heureux's Bard Academy
   Later calling: Traveling storyteller and teacher
-related: the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,the-first-commission,rotten-husk,fo-gurn,zauks-false-lives,amara
+related: the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara
 source: The Living Chronicle, Chapters VI–VII, including published recollections; Compendium II · Entry II.001, public Scholar's Account
 featured: false
 ---
@@ -39,7 +39,7 @@ Descent from a founder did not make Heureux a repetition of the ancestor whose n
 
 By the time Heureux joined them, the Misfits had survived an encounter with a necromancer whose recovered materials later helped illuminate the crimes of Aldus Greystone III. Their subsequent travels took them into stranger dangers.
 
-They encountered [[Moonville Manor]], the animated house; the mystery of [[The Ripped Beard]]; and the wizard [[Noki]], who had been transformed into a sheep. In another affair they helped liberate [[The Liberation of the Rotten Husk|the Rotten Husk]] from a chieftain who threatened his own people.
+They encountered [[Moonville Manor]], the animated house; the mystery of [[The Ripped Beard]]; and the wizard [[Noki]], who had been transformed into a sheep. In another affair they helped liberate [[The Rotten Husk Clan|the Rotten Husk]] from a chieftain who threatened his own people.
 
 Heureux's recollections preserve a quality that royal victory reports can miss: some of the most consequential help was given to people whose names would never appear on a monument. The freeing of the Rotten Husk mattered first to the tribe itself, not to the later fame of those who assisted it.
 

@@ -13,7 +13,7 @@ facts: |-
   Battlefield: Heroes Hill
   Fate: Mortally wounded
   Memorial: Rearing horse at his grave
-related: heroes-hill,founding-wars,unification-of-avalor,jaznaars-refuge
+related: heroes-hill,founding-wars,unification-of-avalor,jaznaar
 source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
   public historical record
 featured: false
@@ -40,6 +40,6 @@ No surviving contemporary inscription establishes a single intended meaning. The
 
 ## A resting place revisited
 
-Much later, the Misfits’ search for [[Jaznaar]] was connected with Glav’s tomb and a concealed passage toward [[jaznaars-refuge|Jaznaar’s refuge]]. The public Chronicle does not establish every detail of their route.
+Much later, the Misfits’ search for [[Jaznaar]] was connected with Glav’s tomb and a concealed passage toward [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar’s refuge]]. The public Chronicle does not establish every detail of their route.
 
 Glav’s importance belongs first to the founding age, when his sacrifice helped give the allied crowns a future worth negotiating.

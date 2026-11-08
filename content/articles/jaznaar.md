@@ -92,7 +92,7 @@ The making of the false account is preserved in [[The Betrayer’s Legend]], whi
 
 ## The refuge beyond ordinary knowledge
 
-Near the end of Jaznaar's long watch, [[The Misfits]] found a way to reach his [[Jaznaar’s Hidden Refuge|hidden refuge]]. Their investigations led them toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
+Near the end of Jaznaar's long watch, [[The Misfits]] found a way to reach his **hidden refuge**. Their investigations led them toward a passage associated with the tomb of [[Bradgem Glav]] at [[Heroes Hill]].
 
 The precise path and location are not established for the public atlas. The surviving account records that the adventurers reached the last living member of the Six and heard from him the truth of the Black Tower.
 

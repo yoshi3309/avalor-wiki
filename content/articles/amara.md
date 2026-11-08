@@ -14,7 +14,7 @@ facts: |-
   Notable memory: The owl in Zauks's false lives
   Later service: Journeys in care of the natural world
   Public record: Increasingly rare accounts and folklore
-related: the-misfits,petris,the-six,the-sacred-balance,zauks-false-lives,heureux,lavitz-shawe,rotten-husk,the-first-commission
+related: the-misfits,petris,the-six,the-sacred-balance,zauks-false-lives,heureux,lavitz-shawe,rotten-husk-clan,the-first-commission
 source: The Living Chronicle, Chapters III and VI–VII; Compendium II · Entry II.001, public Scholar's Account
 featured: false
 ---
@@ -51,7 +51,7 @@ The public record does not preserve a complete account of Amara's family upbring
 
 The company traveled through encounters that did not all originate in Cid's schemes. They entered [[Moonville Manor]], encountered the strange condition of the wizard [[Noki]], and faced the threat called [[The Ripped Beard]].
 
-They also helped the [[The Liberation of the Rotten Husk|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
+They also helped the [[The Rotten Husk Clan|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
 
 These histories do not name Amara as the sole architect of each victory. They place her among the friends whose decisions made those outcomes possible.
 

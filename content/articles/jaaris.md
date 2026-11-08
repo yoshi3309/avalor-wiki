@@ -12,7 +12,7 @@ facts: |-
   Linked to: Fo’Gurn
   Distinct from: Necromancer of the first commission
   Later imitation: Zauks's remembered trials
-related: fo-gurn,fo-gurn-and-the-hydra,the-first-commission,the-misfits,zauks-false-lives
+related: fo-gurn,the-first-commission,the-misfits,zauks-false-lives
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false

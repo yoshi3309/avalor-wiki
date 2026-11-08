@@ -57,7 +57,7 @@ The surviving historical record does not provide a securely established battlefi
 
 This was an act of courage, but its cost fell not only upon the man who made it. The companions who escaped had to continue without him, carrying the belief that they would never see their friend again.
 
-The episode is separately preserved in [[Fo’Gurn and the Hydra]].
+The episode is also remembered in [[The Misfits#iii-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
 
 ## The years of mourning
 
