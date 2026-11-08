@@ -10,7 +10,7 @@ facts: |-
   River: Rhys
   Population: About 100,000–200,000
   Landmark: The Great Citadel
-related: great-citadel,great-cathedral,lavitz-shawe,the-aegis
+related: rynhold-frozenroar,great-citadel,great-cathedral,lavitz-shawe,the-aegis
 source: Compendium II · Entry II.002
 featured: true
 ---
@@ -21,7 +21,7 @@ The Great Citadel rises above [[Renada]], yet the capital belongs as much to the
 
 ## Older than the crown
 
-Renada existed before the founding of Avalor. Rynhold Frozenroar chose it as the capital of his new realm rather than simply extending the power of Kroubia's previous royal seat. The choice signaled a political union, not merely the enlargement of his former kingdom.
+Renada existed before the founding of Avalor. [[Rynhold Frozenroar]] chose it as the capital of his new realm rather than simply extending the power of Kroubia's previous royal seat. The choice signaled a political union, not merely the enlargement of his former kingdom.
 
 [[The Great Citadel]] was first raised during Rynhold's reign and has been expanded and altered by generations of sovereigns. It remains the seat of royal government as well as a working household sustained by scribes, servants, craftsmen, and officials.
 
