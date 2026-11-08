@@ -1,3 +1,7 @@
+## Wiki improvement roadmap
+
+The six-part website enhancement checklist (including completed milestones, current focus, and parked technical tasks) lives in [docs/WIKI_ENHANCEMENT_ROADMAP.md](docs/WIKI_ENHANCEMENT_ROADMAP.md). The relationship atlas is documented in [docs/RELATIONSHIP_ATLAS.md](docs/RELATIONSHIP_ATLAS.md).
+
 # The Archives of Avalor — Player-facing Wiki
 
 A **free, customizable fantasy encyclopedia** built for GitHub Pages. This repository holds **only player-approved Scholar's Accounts**. It must never contain Keeper's Notes, campaign twists, secret maps, DM-only PDFs, or future campaign plans.
