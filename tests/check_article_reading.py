@@ -86,3 +86,21 @@ for phrase in ("Tristan", "Kristofer", "Vandria Gilmadrith", "Erevan Ilesere",
 assert "archive-callout--reflection" in parsed.classes
 assert "archive-highlight--turning-point" in parsed.classes
 print("Sven's family and divine history passed.")
+
+
+# Phase 2 cultural histories and cross-links.
+for slug, required in (
+    ("peoples-of-avalor", ("Books of Names", "Concord Walk", "Kelsalor", "Northern Desert Tribes")),
+    ("ringtree-clan", ("Yesteryear Tome", "Her", "Heureux", "Cid")),
+    ("forest-of-the-fey", ("Concord Walk", "Ringtree Clan")),
+    ("the-faiths-of-families-and-peoples", ("Ringtree Clan", "Books of Names")),
+    ("kingdom-of-avalor", ("Many histories beneath the lion banner", "everyday belonging")),
+):
+    page, parsed = audit(slug)
+    for phrase in required:
+        assert phrase in page, f"{slug} missing cultural material: {phrase}"
+    assert "article-reading-track" in parsed.classes, f"{slug} missing reading controls"
+for slug in ("peoples-of-avalor", "ringtree-clan", "forest-of-the-fey"):
+    page, parsed = audit(slug)
+    assert "archive-highlight--" in page, f"{slug} missing narrative highlight"
+print("Phase 2 cultural articles and cross-links passed.")

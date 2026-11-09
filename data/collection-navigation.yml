@@ -123,6 +123,7 @@ organizations-factions:
       articles:
         - independent-factions-of-the-misfits-era
         - rotten-husk-clan
+        - ringtree-clan
 history-chronicles:
   featured: unification-of-avalor
   intro: Trace the kingdom's beginnings, the choices of its rulers, the Misfits' journeys, and the truths recovered by later historians.
@@ -175,6 +176,13 @@ history-chronicles:
       articles:
         - jaznaars-vindication
         - age-of-ascendancy
+    - id: cultures
+      title: Peoples & Cultural History
+      eyebrow: BELONGING AND INHERITANCE
+      icon: "✧"
+      description: The shared kingdom and the many peoples whose histories preceded it.
+      articles:
+        - peoples-of-avalor
     - id: other-history
       title: Other Chronicles
       eyebrow: BEYOND THE CATALOGUE

@@ -10,7 +10,7 @@ facts: |-
   Named devotions: Corellon, Moradin, Eilistraee
   Major principle: No ancestry follows one universal faith
   Historical concern: Traditions distorted by discrimination
-related: primordial-powers,heureux,faiths-and-gods-of-avalor,forest-of-the-fey,arnauds-edicts,jaznaar,jaznaars-vindication
+related: peoples-of-avalor,ringtree-clan,primordial-powers,heureux,faiths-and-gods-of-avalor,forest-of-the-fey,arnauds-edicts,jaznaar,jaznaars-vindication
 source: Compendium I · Entry I.004, Section VII, public Scholar's Account; The Living Chronicle, Chapters IV–V
 featured: false
 ---
@@ -31,9 +31,17 @@ These practices coexist with older relationships to groves and places of remembr
 
 The variety of observance is part of the region's lived history, rather than a gap awaiting a single official account.
 
+## Belief belongs to communities, not bloodlines
+
+The names of familiar gods recur across different peoples. **Tyr, Helm, and Torm** are revered by families whose ancestors came from many regions. Devotion to **Lathander** has crossed boundaries of ancestry and profession, as the life of [[Petris]] illustrates.
+
+At the same time, regional customs give familiar beliefs a local character. A blessing asked over a workshop tool, a prayer offered at a forest gathering, or a song honoring a long-departed neighbor can belong to the same wider religion without being practiced everywhere in the same way.
+
+No person can be assigned a faith simply from an ancestry. **[[The Peoples of Avalor]]** preserves the historical reasons why this distinction matters.
+
 ## The Ringtree Clan and Her
 
-In the concealed canopy settlements of the **Ringtree Clan**, in the [[Forest of the Fey]], preserving memory was understood as a sacred responsibility. Their spiritual language centered on **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**, associated with growth, decay, invention, music, and the becoming of one thing from another.
+In the concealed canopy settlements of the **[[The Ringtree Clan|Ringtree Clan]]**, in the [[Forest of the Fey]], preserving memory was understood as a sacred responsibility. Their spiritual language centered on **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**, associated with growth, decay, invention, music, and the becoming of one thing from another.
 
 The bard **[[Heureux]]**, raised by the clan's leading historian, learned to carry those traditions in song. After the destruction of his people's library, his wandering performances became a way to protect stories that could otherwise have disappeared.
 
@@ -56,6 +64,14 @@ These customs have been particularly vulnerable to distortion. For centuries, th
 Sources produced by hostile outsiders sometimes described unfamiliar practices as evidence of forbidden magic. Many communities experienced displacement or the loss of their records. The surviving testimony therefore deserves care: scholars should neither repeat old accusations nor replace them with imagined details that the evidence does not establish.
 
 The later [[The Vindication of Jaznaar|vindication of Jaznaar]] changed Avalor's public understanding of that history, but it could not restore every lost custom or undo every injury.
+
+## Remembering through names and song
+
+Devotion and remembrance can become inseparable when a people have suffered persecution. Among some drow families displaced by Arnaud's decrees, **Books of Names** recorded lost relatives and last known homes. Their purpose was not a uniform religious ritual; they were acts of care for people whom official records often failed to protect.
+
+The **Names Spoken** gatherings later kept those lives present through recitation and shared memory. Such traditions may accompany prayer or song without requiring every participating family to worship the same god.
+
+Similarly, the Ringtree Clan preserved both books and oral history. Their practice reflects devotion to Her, but also the human—and firbolg—need to remember what an institution might suppress or forget.
 
 ## Difference without division
 

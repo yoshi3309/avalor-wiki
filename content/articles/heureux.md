@@ -23,7 +23,7 @@ facts: |-
   Historical work: Published account of the Misfits
   Founded: Heureux's Bard Academy in Taveras
   Guiding belief: Our truth is our history, and our history is our truth
-related: primordial-powers,the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
+related: ringtree-clan,peoples-of-avalor,primordial-powers,the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
 source: Creator-supplied Heureux (H) expanded Ringtree Clan biography (November 2026); The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001, public Scholar's Account
 callouts:
   - type: reflection
@@ -66,7 +66,7 @@ He has spent much of his life trying to prevent the same thing from happening ag
 
 ## Beneath the canopy of the Ringtree Clan
 
-H was born among the **Ringtree Clan**, a firbolg people who lived in hidden canopy settlements within the **[[Forest of the Fey]]**. Their communities moved when needed and were sheltered by illusion and invisibility, keeping much of their way of life beyond the sight of outsiders.
+H was born among the **[[The Ringtree Clan|Ringtree Clan]]**, a firbolg people who lived in hidden canopy settlements within the **[[Forest of the Fey]]**. Their communities moved when needed and were sheltered by illusion and invisibility, keeping much of their way of life beyond the sight of outsiders.
 
 The Ringtree regarded memory as part of their survival. They preserved stories in spoken tradition and written records, passing down the histories of people who might otherwise be forgotten. They understood invention, growth, decay, music, and the lives of animals as expressions of a sacred force they called **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**.
 

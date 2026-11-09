@@ -11,7 +11,7 @@ facts: |-
   Founded: 1 AF
   Sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
-related: unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,geography-of-avalor,lesser-settlements-of-avalor,taveras
+related: peoples-of-avalor,ringtree-clan,unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,geography-of-avalor,lesser-settlements-of-avalor,taveras
 source: Compendium II · Entry II.001; The Living Chronicle
 featured: true
 ---
@@ -19,6 +19,14 @@ featured: true
 ## A kingdom of many peoples
 
 Avalor is often described through its royal line, but the kingdom is more than the history of its crowns. Merchants follow the River Rhys, farmers supply the Royal Heartlands, soldiers guard the northern approaches, and communities of many ancestries and customs share the banner of the lion. The royal court sits in [[Renada]], but the character of the realm is found well beyond the citadel's walls.
+
+## Many histories beneath the lion banner
+
+The histories of [[The Peoples of Avalor|Avalor's peoples]] extend beyond the creation of the kingdom. Elven clans had ancestral rights in the Forest of the Fey; dwarven households preserved craft and mountain traditions; northern communities retained identities formed before the [[Great Desert]] existed in its current form.
+
+Other citizens lived in cities and ports where ancestry, profession, and local belonging had been intertwined through generations of migration. A person might be a member of a family with deep forest roots, a sailor in Cove City, and a loyal subject of the same crown without finding these identities in conflict.
+
+**The kingdom is a political union, not a single culture.** Its endurance rests upon the ability of people with different inheritances to live within shared institutions.
 
 ## From divided crowns to a single banner
 
@@ -32,11 +40,33 @@ The king retains broad sovereign authority, exercised with the counsel of [[The 
 
 The present monarch, [[King Gradvum Frozenroar]], is widely regarded as approachable; [[Queen Melmiri]] oversees much of the kingdom's everyday administration. Together they govern during a period of growing international importance.
 
+## A crown among inherited rights
+
+Avalor's founding was not the disappearance of all local authority. The crown's four sheriffdoms govern regions whose communities may possess older customs and obligations.
+
+In the **Forest of the Fey**, conflict over roads, settlement, and taxation during Dietmar's reign led to the **Elven Concord**. The agreement recognized royal sovereignty while protecting elements of traditional elven government. Some communities still observe the **Concord Walk**, maintaining their boundary agreements through periodic meetings and walks of the land.
+
+Such arrangements show that cooperation need not mean reducing every community to one model of life. They also create enduring tensions: the right to use a road or timberland may mean different things to a crown officer and a family who has held the place for generations.
+
 ## A kingdom reshaped by memory
 
 For centuries, the drow founding hero [[Jaznaar]] was wrongly remembered as the Betrayer. The truth emerged after the defeat of [[Cid the Blood King]] by [[The Misfits]], obliging Avalor's institutions to confront the harm done by their own histories. The correction of that record and the appointment of [[Lavitz Shawe]] as Lord Marshal have helped transform the place of drow citizens in public life, though inherited prejudice has not vanished overnight.
 
+For families displaced under Arnaud's decrees, the kingdom's past remains personal. Some preserved **Books of Names** to document kinship and last known homes where official histories recorded only suspicion. Earlier reforms and restored legal equality mattered greatly; the later vindication of Jaznaar did not create equality from nothing or instantly remove inherited prejudice.
+
+The experience of an ordinary drow citizen must not be measured against Lavitz's extraordinary public accomplishments. A kingdom capable of celebrating a drow Lord Marshal must also ensure that families without titles can live safely and be treated fairly.
+
 The years after Cid's defeat are described by historians as the **Age of Ascendancy**. Trade and diplomacy have expanded, and Avalor's champions are known far beyond its borders. Prosperity has brought new expectations, and the kingdom must decide how widely its advantages will be shared.
+
+## Work, movement, and everyday belonging
+
+Royal councils preserve their minutes. The daily life of the kingdom also depends on people whose names seldom reach those records.
+
+Merchants carry goods between coastal ports and inland towns. The fisheries of River City supply homes beyond its shores. Craftspeople in Stanleyville and other settlements make tools and armor. Farmers, sailors, healers, performers, and soldiers participate in local communities that cannot be understood only through the royal court.
+
+Trade and movement have created families who inherit several cultural traditions at once. Differences of lifespan, custom, and religious devotion can shape the household as much as geography shapes a settlement.
+
+The ideals of the founding are ultimately tested not only by speeches from the Citadel, but by whether people of different backgrounds can work, travel, worship, and build homes without fearing exclusion.
 
 ## The land beyond the royal roads
 
