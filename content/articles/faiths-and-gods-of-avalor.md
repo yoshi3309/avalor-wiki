@@ -10,7 +10,7 @@ facts: |-
   Threefold devotion: Tyr, Helm, Torm
   Notable traditions: Lathander, Corellon, Moradin, Eilistraee
   Ancient cosmology: The Creator, the Formless One, Her, and the One Below
-related: primordial-powers,threefold-devotion,lathander-and-the-dawn,the-sacred-balance,the-faiths-of-families-and-peoples,cathedral-paladins,great-cathedral,petris
+related: the-beyond,aethrion,primordial-powers,threefold-devotion,lathander-and-the-dawn,the-sacred-balance,the-faiths-of-families-and-peoples,cathedral-paladins,great-cathedral,petris
 source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II · Entry II.001
 featured: false
 ---
@@ -52,6 +52,14 @@ The Ringtree tradition is one expression of a larger question about creation and
 ## Sacred balance and the living world
 
 Some Avalorians understand spiritual duty through the cycles of nature rather than worship of a single named deity. [[The Sacred Balance]] describes the druidic tradition exemplified by [[Kelsalor]], who regarded care for living systems as a responsibility shared across generations.
+
+## The Keeper of the First Dawn in folklore
+
+Some old traveler tales and religious warnings speak of a figure called **the Keeper**. The stories do not agree upon the figure's nature. One account makes the Keeper a malevolent presence waiting beyond familiar boundaries; another uses the name to warn against forbidden bargains, dangerous power, or the reckless pursuit of knowledge.
+
+The Great Cathedral does not include the Keeper among its recognized gods and generally approaches the stories with suspicion rather than reverence. Some scholars consider the tales transformed fragments of an older tradition; others see a moral figure that became more sinister with each retelling.
+
+No reliable **public** testimony identifies a single supernatural being behind every version of the legend. The name should not be treated as another title for the Creator, the Formless One, or **[[The Beyond]]** merely because each belongs to obscure traditions.
 
 ## Faith and the life of the realm
 

@@ -168,6 +168,13 @@ history-chronicles:
         - the-stalker
         - zauks-false-lives
         - tournament-of-champions
+    - id: ancient-mysteries
+      title: Lost Civilizations & Ancient Mysteries
+      eyebrow: BEFORE THE KINGDOM
+      icon: "✧"
+      description: Disputed accounts of the oldest histories and vanished peoples.
+      articles:
+        - aethrion
     - id: revelation
       title: Truth & Ascendancy
       eyebrow: HISTORY RECONSIDERED
@@ -208,6 +215,7 @@ faith-magic-cosmology:
       description: Primordial presences and the beginnings of existence.
       articles:
         - primordial-powers
+        - the-beyond
         - planes-of-existence
         - death-souls-and-the-afterlife
         - magic-and-the-arcane

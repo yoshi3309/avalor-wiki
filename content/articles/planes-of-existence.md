@@ -13,7 +13,7 @@ facts: |-
   Shamman’s Tower practice: The Three Questions; Atlas of Returns
   Family custom: The Returning Thread
   Cosmological status of the Beyond: Unresolved
-related: primordial-powers,forest-of-the-fey,svendyal-shadowwhisper,black-tower,cid-the-blood-king,tellora-ebbenflow,shammans-tower,zauks-false-lives,death-souls-and-the-afterlife,magic-and-the-arcane
+related: the-beyond,aethrion,primordial-powers,forest-of-the-fey,svendyal-shadowwhisper,black-tower,cid-the-blood-king,tellora-ebbenflow,shammans-tower,zauks-false-lives,death-souls-and-the-afterlife,magic-and-the-arcane
 source: Compendium I · Entry I.006, The Planes of Existence, public Scholar's Account, pp. 54–59; The Living Chronicle, Chapters III and VI
 callouts:
   - type: reflection
@@ -114,7 +114,7 @@ Fragments concerning **Aethrion** have sometimes been compared to the Black Towe
 
 ## The Beyond and other unanswered questions
 
-The name **the Beyond** appears in scattered cosmological references, but scholars disagree about what it designates. Some use the term for the unknown; others suggest something unlike the realms ordinarily described as planes.
+The name **[[The Beyond|the Beyond]]** appears in scattered cosmological references, but scholars disagree about what it designates. Some use the term for the unknown; others suggest something unlike the realms ordinarily described as planes.
 
 No reliable public account establishes that it is a plane, the darkness between them, or a destination past the last mapped reality.
 

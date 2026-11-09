@@ -14,7 +14,7 @@ facts: |-
   Royal adviser: Tel'Lora Ebbenflow, High Wizard and eighth seat of the Aegis
   Research practices: Second Witness; Lantern Ledger
   Core distinction: Cost, limitation, and consequence
-related: planes-of-existence,death-souls-and-the-afterlife,shammans-tower,tellora-ebbenflow,great-library-aldus-greystone,the-aegis,aldus-greystone-iii,blood-sickness,jack-of-stanleyville,jaznaar
+related: aethrion,the-beyond,planes-of-existence,death-souls-and-the-afterlife,shammans-tower,tellora-ebbenflow,great-library-aldus-greystone,the-aegis,aldus-greystone-iii,blood-sickness,jack-of-stanleyville,jaznaar
 source: Compendium I · Entry I.008, Magic and the Arcane, public Scholar's Account, pp. 75–83; The Living Chronicle, Chapters III and VI–VII
 callouts:
   - type: note
@@ -119,7 +119,7 @@ The lesson is not that ambition or study must cease. It is that the ability to a
 
 Crossing a plane is not inherently catastrophic. Some portals permit travel without changing the boundaries between realities.
 
-Aldus's experimentation threatened those boundaries themselves. Accounts of the lost civilization **Aethrion** prompt similar questions about magical ambition, although the surviving public testimony is insufficient to establish a shared mechanism or precise history.
+Aldus's experimentation threatened those boundaries themselves. Accounts of the lost civilization **[[Aethrion]]** prompt similar questions about magical ambition, although the surviving public testimony is insufficient to establish a shared mechanism or precise history.
 
 ## Cost, limitation, and consequence
 

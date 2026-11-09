@@ -104,3 +104,19 @@ for slug in ("peoples-of-avalor", "ringtree-clan", "forest-of-the-fey"):
     page, parsed = audit(slug)
     assert "archive-highlight--" in page, f"{slug} missing narrative highlight"
 print("Phase 2 cultural articles and cross-links passed.")
+
+
+# Phase 3: ancient histories remain scholarly uncertainties, not DM revelations.
+for slug, required in (
+    ("aethrion", ("Scribe's Question", "Blank Folio", "Halden", "Thal")),
+    ("the-beyond", ("Unfinished Gloss", "Unplaced Index", "Halden", "Thal")),
+):
+    page, parsed = audit(slug)
+    for phrase in required:
+        assert phrase in page, f"{slug} missing public canon: {phrase}"
+    assert "archive-callout--note" in parsed.classes
+    assert "archive-highlight--" in page
+    assert "article-mobile-toc" in parsed.classes
+faith, _ = audit("faiths-and-gods-of-avalor")
+assert "The Keeper of the First Dawn in folklore" in faith
+print("Phase 3 public scholar histories and restrained Keeper folklore passed.")
