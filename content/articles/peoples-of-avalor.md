@@ -3,7 +3,7 @@ title: The Peoples of Avalor
 subtitle: Of Ancestry, Homeland, and Belonging
 summary: A cultural history of Avalor's many peoples, from forest communities and mountain halls to drow families, northern tribes, and mixed-ancestry cities.
 category: History & Chronicles
-entry: HIS.018
+entry: CUL.001
 era: Founding Age to Age of Ascendancy
 facts: |-
   Scope: Peoples, ancestries, communities, and belonging across Avalor
@@ -91,7 +91,7 @@ Under **Arnaud Frozenroar**, anti-drow hostility became law. Families suffered s
 
 These were private acts of remembrance, not an official comprehensive register. Surviving books have helped descendants recover family histories that royal records neglected or distorted. Other households preserved songs, skills, religious traditions, and everyday customs through the same difficult period.
 
-The reforms of **[[Reina’s Reforms|Queen Reina]]** and later restoration of legal equality preceded the kingdom's full acknowledgment of Jaznaar's innocence. After Cid's defeat, **[[The Vindication of Jaznaar|King Gradvum formally vindicated him]]**. The appointment of **[[Lavitz Shawe]]**, himself drow, as Lord Marshal altered public expectations, but one celebrated officer's worth must never become the condition for an ordinary family's dignity.
+The reforms of **[[The Reforms of Queen Reina|Queen Reina]]** and later restoration of legal equality preceded the kingdom's full acknowledgment of Jaznaar's innocence. After Cid's defeat, **[[The Vindication of Jaznaar|King Gradvum formally vindicated him]]**. The appointment of **[[Lavitz Shawe]]**, himself drow, as Lord Marshal altered public expectations, but one celebrated officer's worth must never become the condition for an ordinary family's dignity.
 
 ## Dwarves, mountain halls, and craft
 
