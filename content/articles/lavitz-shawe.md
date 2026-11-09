@@ -40,7 +40,7 @@ callouts:
     after: varis-and-thia
     paragraph: 6
   - type: reflection
-    text: "At fourteen, Lavitz learned what power could take from him. Standing over his mother's killer, he discovered something power could not demand: the right to decide what kind of man he would become."
+    text: "When Thia was murdered, Lavitz learned what power could take from him. Years later, standing over her killer, he discovered something power could not demand: the right to decide what kind of man he would become."
     attribution: Editorial reflection on Lavitz's first act of restraint
     after: the-night-he-set-the-knife-down
     paragraph: 5
