@@ -16,6 +16,34 @@ facts: |-
   Relationship to the gods: Undetermined in the public account
 related: faiths-and-gods-of-avalor,the-faiths-of-families-and-peoples,heureux,threefold-devotion,the-sacred-balance,lathander-and-the-dawn,brother-halden-korr,professor-xiomara-thal,lady-miren-dast,shammans-tower,great-library-aldus-greystone
 source: Compendium I · Entry I.001, The Primordial Powers, public Scholar's Account; creator-supplied Ringtree Clan and Heureux history (November 2026)
+callouts:
+  - type: reflection
+    text: "A name may survive a thousand years after the story that explained it has vanished. The temptation is to replace what was lost with a story so complete that no one notices it is new."
+    attribution: Editorial reflection on the four primordial names
+    after: four-names-not-one-pantheon
+    paragraph: 3
+  - type: note
+    scholar: brother-halden-korr
+    text: "The oldest testimony is not rendered worthless by its uncertainty. An ancient belief may preserve a genuine insight into the beginning of creation without giving us a chronology that can be verified."
+    after: the-creator-and-the-first-ordering
+    paragraph: 4
+  - type: reflection
+    text: "To call Her the presence of becoming is to leave room for both the seed and the fallen tree. The Ringtree understood that a story, too, changes whenever someone carries it into another life."
+    attribution: Editorial reflection on becoming and the Ringtree
+    after: the-ringtree-clan-and-a-living-devotion
+    paragraph: 3
+  - type: note
+    scholar: professor-xiomara-thal
+    text: "A myth of origins can hold profound meaning for a community. It cannot establish that another ancestry was made lesser, or erase the history that people have lived since."
+    after: stories-of-creation-and-the-peoples-of-avalor
+    paragraph: 3
+highlight_sections:
+  - section: the-creator-and-the-first-ordering
+    tone: turning-point
+  - section: the-ringtree-clan-and-a-living-devotion
+    tone: remembrance
+  - section: what-the-scholars-can-preserve
+    tone: legacy
 featured: false
 ---
 
@@ -75,6 +103,14 @@ The old texts do not consistently treat growth and destruction as opposite divin
 
 Some commentators understand Her as a personal presence; others emphasize a principle that is difficult to separate from the very process of change. The oldest public account does not resolve every aspect of that question.
 
+## The stone and the seed
+
+Some druidic teaching circles influenced by [[Kelsalor]] place a **weathered stone beside a living seed** when discussing endurance and transformation. The stone seems to speak of permanence, the seed of change. Yet the stone wears away, and the seed depends on a world in which many older things have broken down and become soil.
+
+The lesson, known as **the Stone and the Seed**, is not proof of a primordial intervention. It is an invitation to look more closely at what the words *lasting* and *changing* actually mean.
+
+[[Heureux]] once joked that students could spend an hour arguing over which of the two changed more. The humor fits the lesson: the oldest philosophical questions are sometimes most clearly heard when someone makes them part of an ordinary conversation.
+
 ## The Ringtree Clan and a living devotion
 
 For **[[Heureux|Heureux, called H]]**, Her is not merely a disputed name in an ancient document.
@@ -111,11 +147,23 @@ An Avalorian might believe the Creator stood at the world's beginning while pray
 
 Whether the gods arose after the primordials, were brought into existence by one of them, or stand in some different relationship remains **undetermined**. No reliable chronology of creation places every divine being in a single hierarchy.
 
+## Stories of creation and the peoples of Avalor
+
+Communities have long preserved accounts of their first ancestors and the making of their homelands. Such stories belong to living traditions and deserve to be understood on their own terms. They are not, however, evidence that the Creator or any other primordial made each ancestry through a separate act.
+
+The kingdom's own founding offers a useful distinction. **[[Rynhold Frozenroar]]** united territories whose people had lived and remembered their past long before he took the crown. The kingdom began in **1 AF**; its people did not.
+
+Nor should a proposed origin in primordial myth be used to assign greater virtue to one ancestry or condemn another. The centuries during which [[Jaznaar]] was falsely named the Betrayer demonstrate the harm that can follow when an inherited story is taken for proof of a person's nature.
+
 ## What the scholars can preserve
 
 The [[The Great Library of Aldus Greystone|Great Library]] preserves theological texts whose age is sometimes easier to verify than their claims. **[[Shamman’s Tower]]** studies magic and the planes, uncovering complexities that earlier scholars could scarcely describe. Neither institution has produced an eyewitness history of the beginning of existence.
 
 The story of the **[[The Six]]** and the false condemnation of **[[Jaznaar]]** offers a warning here. A belief may be repeated for centuries, recorded in authentic manuscripts, and honored by sincere people—and still be wrong about its subject.
+
+Some instructional manuscripts at the Great Library deliberately leave **an empty space before the first stage of a diagram of creation**. Called the **Empty Beginning**, the gap acknowledges that no living scholar can date or describe the first event with confidence.
+
+The scholars also preserve older references to a figure called **the Keeper**, associated with the First Dawn and boundaries between worlds. The name belongs to a separate body of tradition; no reliable public testimony identifies the Keeper as one of these four presences.
 
 The scholars of the Royal Commission therefore preserve the four names without inventing a complete account of their acts. The Creator remains bound to questions of beginning; the Formless One to an ancient companionship and an elusive nature; Her to becoming; the One Below to concealed depths.
 
