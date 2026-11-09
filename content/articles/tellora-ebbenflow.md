@@ -38,7 +38,7 @@ callouts:
     attribution: "Editorial reflection on the hidden refuge"
   - type: note
     text: "Second Witness and the Atlas of Returns cannot guarantee that a scholar will be right. They make it harder for one person's confidence to become the only account available."
-    after: shammans-tower-and-the-responsibility-to-teach
+    after: shamman-s-tower-and-the-responsibility-to-teach
     paragraph: 4
     scholar: professor-xiomara-thal
 highlight_sections:
@@ -46,7 +46,7 @@ highlight_sections:
     tone: remembrance
   - section: the-last-survivor-of-the-six
     tone: turning-point
-  - section: shammans-tower-and-the-responsibility-to-teach
+  - section: shamman-s-tower-and-the-responsibility-to-teach
     tone: legacy
 featured: false
 ---
