@@ -17,6 +17,8 @@ Last updated: 2026-11-08. This is the canonical **project checklist for website 
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
 
+- **Article editorial quality refinement (2026-11-08):** Revised Lavitz after visual review: original editorial reflections rather than duplicated quotation, two clearly attributed Commission scholar perspectives, three selectively tinted chapters, and a tighter Lord Marshal section centered on Lavitz rather than military inventory. Established an ongoing editorial rule: prioritize relevant biography and narrative substance; trim repetitive or tangential material throughout the archive before adding decorative callouts.
+
 ## Supporting technical work (as useful, not a seventh major phase)
 
 - Image performance / media optimization, especially on phones
