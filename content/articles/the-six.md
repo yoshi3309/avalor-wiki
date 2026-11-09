@@ -1,8 +1,7 @@
 ---
 title: The Six
 subtitle: Companions of the Founding Age
-summary: Six friends of differing callings who helped shape the early kingdom,
-  then faced the impossible choice of stopping one of their own.
+summary: Six companions of different callings forged a fellowship after Avalor's founding, built enduring institutions, and faced the tragedy of opposing a friend they could not save.
 category: People & Legends
 image: /assets/uploads/the-six-beneath-golden-ruins.png
 entry: HIS.003
@@ -13,8 +12,40 @@ facts: |-
   Historical bond: Service and friendship across peoples
   Defining fracture: The Black Tower catastrophe
   Public legacy: A kingdom forced to reconsider its founding history
-related: aldus-greystone-iii,lowkee,faelynn,petris,kelsalor,jaznaar,sundering-of-the-six,black-tower,blood-sickness,betrayers-legend
-source: The Living Chronicle, Chapters II–IV, public historical account
+  First king associated: Rynhold Frozenroar
+  Founding king's knowledge: Rynhold did not believe Jaznaar betrayed the Six
+  Aldus's later identity: Cid the Blood King
+  Jaznaar's class: Wizard or sorcerer remains unresolved
+related: aldus-greystone-iii,lowkee,faelynn,petris,kelsalor,jaznaar,sundering-of-the-six,black-tower,blood-sickness,betrayers-legend,rynhold-frozenroar,founding-wars,heroes-hill,cathedral-paladins,hunters-guild,lathander-and-the-dawn,the-sacred-balance,heureux,amara,jaznaars-vindication,age-of-ascendancy,the-misfits
+source: The Living Chronicle, Chapter III and Chapter IV, public historical account; Compendium II · Entry II.001, founding and later correction; creator-confirmed Jaznaar surname
+callouts:
+  - type: reflection
+    text: "A fellowship is not created by six names written beneath a banner. It is created when six very different people choose to remain together after they have discovered how often they disagree."
+    attribution: Editorial reflection on the founding companions
+    after: a-friendship-that-changed-the-kingdom
+    paragraph: 3
+  - type: note
+    scholar: brother-halden-korr
+    text: "Compassion and duty both demanded an answer to Aldus's suffering and his victims'. His companions' disagreement over what might save him must not be mistaken for agreement with the harm he caused."
+    after: six-answers-to-one-terrible-question
+    paragraph: 3
+  - type: note
+    scholar: professor-xiomara-thal
+    text: "Jaznaar's exact spellcasting discipline remains disputed. What is no longer disputed is the falsity of the accusation that turned his secrecy into a supposed betrayal."
+    after: jaznaar-the-sixth-name
+    paragraph: 3
+  - type: reflection
+    text: "To correct the name on a monument is not to restore the years in which the lie governed how neighbors treated one another. But without correction, the lie retains an official home."
+    attribution: Editorial reflection on the vindication
+    after: a-legacy-corrected-not-erased
+    paragraph: 3
+highlight_sections:
+  - section: friendship-before-the-fall
+    tone: remembrance
+  - section: six-answers-to-one-terrible-question
+    tone: turning-point
+  - section: a-legacy-corrected-not-erased
+    tone: legacy
 featured: false
 ---
 ## Six names at the beginning
@@ -36,6 +67,14 @@ A healer might seek time to study a danger that a ranger wished to pursue. A pal
 For years, these differences strengthened their fellowship. They traveled, served the developing kingdom, and made choices whose consequences reached beyond one battlefield. Their example mattered partly because the kingdom itself depended upon cooperation among communities that had not always shared a sovereign.
 
 Songs remember the Six as warriors and founders. The harder story is that they were friends: people who traveled together, disagreed, and ultimately faced a choice none of them wanted. The campfire conversations embroidered by later storytellers may be fanciful, but the fellowship itself was real.
+
+## No single founding legend
+
+Avalor's public histories preserve more than one explanation of how the Six first came together. In one, [[Rynhold Frozenroar]] recognizes the worth of companions who can face difficulties an army cannot solve. In another, smaller groups of travelers become friends as their paths cross during the founding wars. In a third, favored by ballads, destiny makes the arrangement inevitable.
+
+Their fellowship as a **company of six belongs to the years shortly after Avalor's founding**. Several of their paths may have crossed beforehand, but the records do not support portraying all six as one permanent band at [[Heroes Hill]].
+
+The surviving disagreement is not an embarrassment to be corrected through invention. Their willingness to remain together matters more than the precise circumstances of their first shared camp.
 
 ## Aldus Greystone III — the healer
 
@@ -85,6 +124,16 @@ Jaznaar could be independent and guarded with his knowledge. Later enemies turne
 
 He was a formidable spellcaster, remembered sometimes as a wizard and sometimes as a sorcerer. Neither title has entirely displaced the other in accounts of his life.
 
+## Friendship before the fall
+
+The men and women remembered as the Six did not travel as identical instruments of one king's will. They brought different ways of understanding duty, pain, the natural world, knowledge, and the limits of mortal life.
+
+The later catastrophe makes it easy to view every disagreement as a warning of the division to come. Yet their differences also helped the fellowship endure for years. Aldus could examine a problem through healing and scholarship; Faelynn might recognize a danger in the wilderness before it reached a settlement. Lowkee would ask whom their strength ought to protect, while Petris confronted the suffering of those left behind after a victory.
+
+Kelsalor saw the needs of living systems beyond a kingdom's immediate ambitions. Jaznaar brought arcane knowledge that made unusual problems approachable, even if his independent habits did not always make his judgment easy for others to follow.
+
+The chronicles have no reliable transcripts of their private laughter or weary conversations. But their shared travel and service are not inventions. The reality of their friendship is essential to understanding why the choice that later divided them was so terrible.
+
 ## Six answers to one terrible question
 
 The fellowship began to fracture when Aldus's experiments progressed beyond healing. The resulting arcane corruption came to be known as [[The Blood Sickness]]. His companions learned gradually that the man they had trusted was inflicting suffering in pursuit of his ambition.
@@ -94,6 +143,16 @@ They agreed the harm must end, but not about what ending it required.
 **Lowkee** came to believe Aldus must be stopped even if it meant killing him. **Faelynn** increasingly shared that conclusion. **Petris** continued to hope he could be redeemed, and **Jaznaar** remained determined to find a means of saving him. **Kelsalor** tried to mediate between friends whose positions had become almost impossible to reconcile.
 
 It is important not to mistake disagreement over redemption for disagreement about the suffering Aldus caused. None of his five companions endorsed the cruelty of his later experiments. The tragedy lay in the fact that loyalty and duty no longer pointed toward the same choice.
+
+## What each friend hoped to preserve
+
+The companions were not divided between those who accepted cruelty and those who condemned it. **All five opposed the suffering caused by Aldus's later experiments.** They differed on whether the person he had been could still be reached.
+
+Lowkee's priority was protection, and he concluded that allowing Aldus to continue might condemn more innocent people. Faelynn increasingly agreed. Her own history had taught her the cost of delaying action against a destructive force.
+
+Petris believed renewal remained possible even after wrongdoing. Jaznaar resisted surrendering a friend whom he hoped to save by other means. Kelsalor tried to keep open a path between convictions whose demands were pulling the fellowship apart.
+
+None could know how the others would live with the final decision. That uncertainty was itself part of the tragedy: each understood the danger, but each also remembered the man who had once eased the suffering of strangers without being asked.
 
 ## The last journey to the Black Tower
 
@@ -114,6 +173,16 @@ Aldus had not truly ceased to exist. He endured in the Shadowfell as Cid. Jaznaa
 Meanwhile, agents of Cid helped spread [[The Betrayer's Legend|a false account]] that presented Aldus as a savior and Jaznaar as the saboteur of his work. **The founding eyewitnesses had not believed Jaznaar guilty.** The falsehood came to dominate only in later generations, after firsthand memory passed away and repeated testimony acquired the appearance of authority.
 
 This distortion harmed more than one hero's memory. It helped reinforce suspicion toward drow communities and supplied a convenient justification for prejudice that later rulers could exploit.
+
+## The king who knew the truth
+
+Rynhold Frozenroar knew that **Jaznaar had not betrayed his companions**. He also did **not** know that the slain Aldus would endure as Cid in the Shadowfell.
+
+The original surviving eyewitnesses did not regard Jaznaar as the guilty party in the Black Tower catastrophe. The accusation that became commonplace was promoted in **later generations**, after direct testimony had faded, and was aided by agents serving Cid.
+
+This sequence is crucial. The false legend did not begin as a confirmed verdict of the founder or the companions who stood at the Tower. It grew into an accepted history because repetition and institutional authority came to be mistaken for evidence.
+
+The harm extended far beyond one man's reputation. The prejudice directed toward drow families and the later discriminatory decrees of Arnaud demonstrate what happened when a personal accusation became an inherited judgment upon an ancestry.
 
 ## A legacy corrected, not erased
 
