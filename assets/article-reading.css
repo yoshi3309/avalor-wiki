@@ -22,6 +22,19 @@
 .archive-callout--contested{background:#eddcd4;border-left-color:#965c58;color:#6b4945}
 .archive-callout--contested .archive-callout-label{color:#81504b}
 .archive-callout small{display:block;font:italic 10px/1.6 var(--font-literary);margin-top:10px;opacity:.82}
+/* Selective chapter treatments: narrative turning points, not decorative boxes. */
+.archive-highlight{clear:both;position:relative;margin:32px -19px 32px;padding:17px 19px 8px;border-left:3px solid transparent;display:flow-root}
+.archive-highlight h2{margin-top:0;padding-top:0}
+.archive-highlight--turning-point{background:linear-gradient(100deg,#eadfc8 0%,#f1e8d7 92%);border-left-color:#b18a4e}
+.archive-highlight--turning-point h2{color:#59442e;border-bottom-color:#c9b18a}
+.archive-highlight--remembrance{background:linear-gradient(100deg,#e1e4de 0%,#edece2 92%);border-left-color:#6c8780}
+.archive-highlight--remembrance h2{color:#354f52;border-bottom-color:#bcc9be}
+.archive-highlight--legacy{background:linear-gradient(100deg,#e1e5e3 0%,#ece9de 92%);border-left-color:#627e89}
+.archive-highlight--legacy h2{color:#29434f;border-bottom-color:#b9c9ca}
+.archive-callout--reflection{background:#e9dfca;border-left-color:#ad874e}
+.archive-callout--reflection .archive-reflection-text{font:italic 500 clamp(17px,2vw,22px)/1.6 var(--font-display);color:#564630}
+.archive-callout--reflection .archive-callout-label{color:#8a6940}
+.archive-callout--note small a{color:#375e70;text-decoration:underline;text-underline-offset:2px;font-weight:600}
 @media(max-width:710px){
 .article-mobile-toc{display:block;margin:13px 0 19px;background:#eee5d5;border:1px solid #c5b697;font:12px var(--font-body);color:#59472e}
 .article-mobile-toc summary{cursor:pointer;padding:12px 14px;font-weight:700;list-style-position:inside}
@@ -31,6 +44,7 @@
 .article-mobile-toc a.is-current{color:#263f4c;font-weight:700}
 .archive-figure--inset-left,.archive-figure--inset-right{float:none;width:100%;margin:21px 0}
 .archive-callout{padding:17px;margin:21px 0}
-.archive-callout--quote blockquote p{font-size:18px}
+.archive-callout--quote blockquote p,.archive-callout--reflection .archive-reflection-text{font-size:18px}
+.archive-highlight{margin:26px -10px;padding:15px 12px 6px}
 }
 @media(prefers-reduced-motion:reduce){.article-reading-fill{transition:none}}
