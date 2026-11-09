@@ -98,7 +98,7 @@ He did not yet know how urgently that second life would be needed.
 
 That same night, the clan's **library was set ablaze**. H's father disappeared within the fire, and the home that had sheltered generations of knowledge was consumed.
 
-H fled into the forest. **Agents loyal to the clan chief** pursued him. The chief was later described in H's account as having been manipulated by forces connected to **Cid and mind flayers**; the precise nature and full chain of that influence have not been established in the public record. H's own supplied history calls the figure **“Sid”**, while the Royal Archives use **Cid** for Aldus Greystone III's later identity.
+H fled into the forest. **Agents loyal to the clan chief** pursued him. The clan chief was later revealed to have been manipulated by forces connected to **Cid the Blood King and mind flayers**. H would come to understand the burning of his people’s library as part of the wider danger of manipulated history. The precise workings of that influence and the fate of his father remain unrecorded.
 
 The destruction threatened more than manuscripts. It threatened the clan's ability to know itself. H had learned that an archive could be hidden from its people; now he had seen an archive destroyed before its hidden truths could be freely told.
 
