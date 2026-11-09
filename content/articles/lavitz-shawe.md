@@ -34,15 +34,33 @@ illustrations:
     paragraph: 2
     layout: wide
 callouts:
-  - type: quote
-    text: They found freedom, but not equality.
-    attribution: From the account of Varis and Thia Shawe
+  - type: reflection
+    text: "What does a kingdom's promise of freedom mean to a child whose father is killed because of what he is? Lavitz would spend his life asking Avalor to answer that question with more than words."
+    attribution: Editorial reflection on the Shawe family
     after: varis-and-thia
-    paragraph: 2
+    paragraph: 6
+  - type: reflection
+    text: "At fourteen, Lavitz learned what power could take from him. Standing over his mother's killer, he discovered something power could not demand: the right to decide what kind of man he would become."
+    attribution: Editorial reflection on Lavitz's first act of restraint
+    after: the-night-he-set-the-knife-down
+    paragraph: 5
   - type: note
-    text: Lavitz's later Oath of Devotion followed his earlier Oath of Vengeance, reflecting the widening responsibilities he accepted after Cid's defeat.
+    scholar: brother-halden-korr
+    text: "Heaven's Heart taught that strength carried obligations toward the vulnerable. Lavitz's change of oath is meaningful not because the earlier vow was worthless, but because devotion asks him to keep serving after the enemy who defined his vengeance is gone."
     after: from-vengeance-to-devotion
     paragraph: 2
+  - type: note
+    scholar: professor-xiomara-thal
+    text: "Lavitz's appointment made a drow visible at the highest level of royal defense. That matters. It must not become an excuse to overlook the many drow who still face the prejudices that marked his childhood. An exceptional life does not erase an ordinary injustice."
+    after: a-drow-beneath-the-lion-banner
+    paragraph: 2
+highlight_sections:
+  - section: the-night-he-set-the-knife-down
+    tone: turning-point
+  - section: fo-gurn-and-the-cost-of-survival
+    tone: remembrance
+  - section: lord-marshal-of-avalor
+    tone: legacy
 featured: true
 ---
 
@@ -190,15 +208,13 @@ The tradition at [[Heaven's Heart]] had always placed the vulnerable at the cent
 
 ## Lord Marshal of Avalor
 
-Within weeks of Cid's defeat, [[King Gradvum Frozenroar]] appointed Lavitz **Lord Marshal**. The office had stood empty since the death of its former holder at Stanleyville.
+Within weeks of Cid's defeat, [[King Gradvum Frozenroar]] appointed Lavitz **Lord Marshal**. The office had stood vacant since its previous holder—the man who had first put his trust in the Misfits—was killed at Stanleyville. Accepting the appointment meant carrying forward a duty that had already cost someone Lavitz respected his life.
 
-Lavitz accepted responsibility for the kingdom's defenses, senior military counsel, and command of the elite royal order known as [[The Avalorian Forces#lion-s-bane|Lion's Bane]]. He also took his place on [[The Aegis]], the crown's eight-seat council, where military concerns must be weighed beside finance, law, faith, intelligence, and the other obligations of government.
+As commander of [[The Avalorian Forces#lion-s-bane|Lion's Bane]] and a member of [[The Aegis]], Lavitz could no longer answer every danger by drawing his sword. He now had to make decisions that would send other people into harm's way, weigh the king's needs against the lives of those who served, and trust his officers to act when he could not be beside them.
 
-The work differs sharply from adventuring. A paladin may meet a threat personally; a commander must plan for danger that may arrive months later, in places he has never visited. He must decide how soldiers are trained, whether defenses are ready, and how to advise a king when the easiest answer is not the wisest one.
+That last lesson was perhaps the hardest. Lavitz had survived because Fo'Gurn once stayed behind. His instinct was still to be the last man standing between danger and his friends. As Lord Marshal, he had to learn that protecting a kingdom also meant allowing others to shoulder duties he could not carry alone.
 
-The broader [[The Avalorian Forces#the-avalorian-standing-army|Avalorian Standing Army]] trains at sites including [[The Great Fork Tower]] and draws upon professional regiments, noble retinues, regional musters, and militias. Within Lion's Bane, Lavitz oversees three commanders: **Quill**, a tortle and nephew of [[Rastrin Diltir]], directs the Royal Guard; **Mira**, a female tabaxi, leads the Lion's Claws; and **Nimbus**, an aarakocra renowned for flying on his own wings rather than on a gryffion, commands the Skyward Guard. Neither is identical to [[The Avalorian Forces#dina-hyanda|Dina Hyanda]], Queen Melmiri's order of twelve women. Their separate responsibilities are part of the care required to protect the kingdom. The distinction matters in understanding the offices Lavitz must coordinate without confusing their duties.
-
-If appointment brought honor, it also demanded sacrifice. The man who had chosen his next road now held responsibilities that could not be set aside whenever distant companions called.
+The title took something from him. Where an adventurer could follow the next road with his companions, the Lord Marshal was expected to remain, prepare, and answer for what happened even when he was far from the fighting.
 
 ## The companions who remained
 
