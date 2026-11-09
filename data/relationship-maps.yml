@@ -36,7 +36,7 @@ maps:
       - {id: fellowship, label: The Misfits, x: 50, y: 48, kind: group, article: the-misfits, detail: The adventuring company whose bonds outlasted the fall of the Blood King.}
       - {id: lavitz, label: Lavitz, x: 21, y: 19, kind: person, article: lavitz-shawe, detail: A founding adventurer and later Lord Marshal. Fo'Gurn was his close friend even before the Misfits.}
       - {id: tel, label: Tel'Lora, x: 50, y: 11, kind: person, article: tellora-ebbenflow, detail: Original adventurer, half-elf spellcaster and later High Wizard of Avalor.}
-      - {id: sven, label: Sven, x: 79, y: 19, kind: person, article: svendyal-shadowwhisper, detail: Original adventurer and trusted ally of Lavitz.}
+      - {id: sven, label: Sven, x: 79, y: 19, kind: person, article: svendyal-shadowwhisper, detail: Original adventurer whose vow to protect families preceded his loyal service beside Lavitz.}
       - {id: amara, label: Amara, x: 84, y: 64, kind: person, article: amara, detail: Original adventurer and one of the five surviving companions celebrated after Cid's defeat.}
       - {id: heureux, label: Heureux, x: 64, y: 88, kind: person, article: heureux, detail: Bard who joined the adventuring party shortly after its beginning and later recorded its story.}
       - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "✧", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as one of their own, and who traveled with them.}

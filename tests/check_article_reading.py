@@ -76,3 +76,13 @@ assert any("the-six-beneath-golden-ruins.png" in (im.get("src") or "") and im.ge
 map_html = (ROOT / "_site/connections/the-misfits/index.html").read_text(encoding="utf-8")
 assert "👻" not in map_html and "✧" in map_html and "☠" in map_html
 print("Expanded character-reading treatments and Connections emblems passed.")
+
+
+# Sven's creator-confirmed family and divine history now forms the biography's foundation.
+sven, parsed = audit("svendyal-shadowwhisper")
+for phrase in ("Tristan", "Kristofer", "Vandria Gilmadrith", "Erevan Ilesere",
+               "Gwathrenflos", "Shadowwhisperer", "justice", "silver ring"):
+    assert phrase in sven, "Sven biography missing: " + phrase
+assert "archive-callout--reflection" in parsed.classes
+assert "archive-highlight--turning-point" in parsed.classes
+print("Sven's family and divine history passed.")
