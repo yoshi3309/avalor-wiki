@@ -13,6 +13,10 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 | 5 | Article reading improvements | COMPLETE | Gold reading progress, active TOC, mobile chapter navigation, CMS-managed inline artwork and gold/blue/oxblood callouts. Lavitz showcase. `docs/ARTICLE_READING_DESIGN.md`. |
 | 6 | Illustration gallery | COMPLETE | Five populated wings with 29 curated existing public artworks, captions, reference links, lightbox, and shareable exhibit URLs. `content/gallery/`; `/gallery/`. |
 
+## Active Phase 5 improvements
+
+- **Interactive Atlas regional exploration (2026-11-09):** Five curated area views based exclusively on existing approved map pins; three narrative trails using already-published locations; shareable selected-location links. These are navigation aids, not newly asserted borders, roads, measured distances or canonical itineraries. Historical border overlays remain deferred until geographic source maps are approved.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.

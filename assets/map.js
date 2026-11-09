@@ -12,6 +12,26 @@
   const editPanel = el('atlas-editor'), editToggle = el('atlas-edit-toggle');
   const editSelect = el('atlas-edit-location'), editOutput = el('atlas-edit-output');
   const copyButton = el('atlas-copy-position');
+  const areaSelect = el('atlas-area'), areaButton = el('atlas-focus-area');
+  const trailSelect = el('atlas-trail'), trailStatus = el('atlas-trail-status');
+  const trailPrevious = el('atlas-trail-previous'), trailNext = el('atlas-trail-next'), trailClear = el('atlas-trail-clear');
+  const shareButton = el('atlas-share-place'), shareStatus = el('atlas-share-status');
+  // All area anchors and trail stops are existing public map IDs, not invented coordinates.
+  // The trails are thematic reading sequences; no journey, road, timing or borders is implied.
+  const AREA_VIEWS = {
+    capital:{anchor:'renada',zoom:2.4},
+    mountains:{anchor:'spine-of-the-world',zoom:2.0},
+    western:{anchor:'cove-city',zoom:2.1},
+    eastern:{anchor:'briyans-autumn',zoom:2.0},
+    southern:{anchor:'taveras',zoom:2.1}
+  };
+  const TRAILS = {
+    founding:{label:'The Founding and Its Aftermath',stops:['lord-osmos-tower','heroes-hill','renada']},
+    six:{label:'Echoes of the Six',stops:['heavens-heart','black-tower','wayword-sun']},
+    river:{label:'Communities of the Rhys',stops:['renada','taveras','river-city']}
+  };
+  let activeTrail = null, trailIndex = -1;
+
   // The public atlas displays only approved, placed markers. The positioning
   // desk also shows player-safe drafts so the archivist can measure them.
   const locations = data.locations.map(v => ({...v, initiallyUnplaced:!v.placed}));
@@ -56,12 +76,74 @@
     view.x=centerX-localX*view.scale;view.y=centerY-localY*view.scale;
     applyTransform();
   }
-  function focus(loc) {
-    if (!loc) return;
-    if (view.zoom < 1.5) { view.zoom=1.5;view.scale=fit()*view.zoom; }
+  function focus(loc, targetZoom=1.5) {
+    if (!loc || !loc.placed) return;
+    if (view.zoom < targetZoom) { view.zoom=targetZoom;view.scale=fit()*view.zoom; }
     view.x=viewport.clientWidth/2-pxFor(loc.x,WIDTH)*view.scale;
     view.y=viewport.clientHeight/2-pxFor(loc.y,HEIGHT)*view.scale;
     applyTransform();
+  }
+  function mapUrlFor(id) {
+    const url=new URL(window.location.href);
+    url.searchParams.delete('edit');
+    if (id) url.searchParams.set('place',id);
+    else url.searchParams.delete('place');
+    return url;
+  }
+  function areaView(id) {
+    const viewConfig=AREA_VIEWS[id];
+    const loc=viewConfig ? find(viewConfig.anchor) : null;
+    if (!isPublic(loc) || state.editing) return;
+    // Reset search and filters so the selected area anchor is always visible.
+    state.filter='all';state.query='';search.value='';
+    document.querySelectorAll('#atlas-filters button').forEach(b=>{
+      const active=b.dataset.filter==='all';
+      b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active));
+    });
+    clearTrail();
+    view.zoom=viewConfig.zoom;
+    view.scale=fit()*view.zoom;
+    select(loc.id,false);
+    focus(loc,viewConfig.zoom);
+    refresh();
+    viewport.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  }
+  function clearTrail() {
+    activeTrail=null;trailIndex=-1;trailSelect.value='';
+    trailStatus.textContent='Choose a trail to follow its recorded places.';
+    trailPrevious.disabled=true;trailNext.disabled=true;trailClear.disabled=true;
+    document.querySelectorAll('.atlas-pin.is-trail').forEach(b=>b.classList.remove('is-trail'));
+  }
+  function showTrailStep(i) {
+    if(!activeTrail) return;
+    const trail=TRAILS[activeTrail];
+    if(!trail || !Number.isInteger(i) || i<0 || i>=trail.stops.length)return;
+    const loc=find(trail.stops[i]);
+    if(!isPublic(loc))return;
+    trailIndex=i;
+    state.filter='all';state.query='';search.value='';
+    document.querySelectorAll('#atlas-filters button').forEach(b=>{
+      const active=b.dataset.filter==='all';
+      b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active));
+    });
+    // Keep thematic stops highlighted without implying roads between them.
+    refresh();
+    select(loc.id,true);
+    trailStatus.textContent=trail.label+' · '+(i+1)+' of '+trail.stops.length+': '+loc.name;
+    trailPrevious.disabled=i===0;trailNext.disabled=i===trail.stops.length-1;trailClear.disabled=false;
+    document.querySelectorAll('.atlas-pin').forEach(b=>b.classList.toggle('is-trail',trail.stops.includes(b.dataset.id)));
+  }
+  function beginTrail(id) {
+    if(!TRAILS[id] || state.editing){clearTrail();return}
+    const stops=TRAILS[id].stops;
+    if(!stops.every(stop=>isPublic(find(stop)))) {
+      clearTrail();
+      trailStatus.textContent='Some trail locations are not yet available on the public map.';
+      return;
+    }
+    activeTrail=id;trailSelect.value=id;
+    areaSelect.value='';
+    showTrailStep(0);
   }
   function updateDetails() {
     const loc=find(state.selected);
@@ -220,6 +302,7 @@
   search.addEventListener('input',()=>{state.query=search.value.trim().toLowerCase();refresh()});
   editToggle.addEventListener('click',()=>{
     state.editing=!state.editing;
+    if(state.editing){clearTrail();areaSelect.value='';}
     editToggle.setAttribute('aria-pressed',String(state.editing));editPanel.hidden=!state.editing;
     viewport.classList.toggle('is-positioning',state.editing);
     if(state.editing){
@@ -251,6 +334,27 @@
     const text=`${loc.name}\nX: ${state.position.x}\nY: ${state.position.y}\nNext: Enter X/Y in Pages CMS, enable Show marker to players, untick Provisional, and Save.`;
     try {await navigator.clipboard.writeText(text);copyButton.textContent='Copied ✓';setTimeout(()=>copyButton.textContent='Copy coordinates',1700)}
     catch(e){editOutput.textContent=text+' — Clipboard unavailable; copy the coordinates above.'}
+  });
+  areaButton?.addEventListener('click',()=>areaView(areaSelect.value));
+  areaSelect?.addEventListener('change',()=>{if(areaSelect.value)areaView(areaSelect.value)});
+  trailSelect?.addEventListener('change',()=>beginTrail(trailSelect.value));
+  trailPrevious?.addEventListener('click',()=>showTrailStep(trailIndex-1));
+  trailNext?.addEventListener('click',()=>showTrailStep(trailIndex+1));
+  trailClear?.addEventListener('click',clearTrail);
+  shareButton?.addEventListener('click',async()=>{
+    const loc=find(state.selected);
+    if(!isPublic(loc)) {
+      shareStatus.textContent='Choose a published map location first.';
+      return;
+    }
+    const url=mapUrlFor(loc.id).href;
+    try {
+      if (!navigator.clipboard?.writeText) throw Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(url);
+      shareStatus.textContent='Map link copied.';
+    } catch (_) {
+      shareStatus.textContent='Copy: '+url;
+    }
   });
   const params=new URLSearchParams(window.location.search);
   if(params.get('edit')==='1')editToggle.click();

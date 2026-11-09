@@ -45,3 +45,22 @@
 
 /* Drill-down for sites within a mapped city. */
 .atlas-subplaces{margin-top:17px;border-top:1px solid #62614f;padding-top:13px}.atlas-subplaces>strong{display:block;color:#c7ab77;font-size:9px;letter-spacing:.14em;margin-bottom:6px}.atlas-subplaces>div{display:flex;gap:7px;flex-wrap:wrap}.atlas-subplaces a.atlas-subplace-link{margin:2px 0!important;padding:9px 10px;display:inline-block;border:1px solid #7c735c;color:#ead5a5;font-size:11px;text-decoration:none}.atlas-subplaces a.atlas-subplace-link:hover{background:#39443e}
+
+/* Atlas regional views & narrative exploration: curated pin anchors only. */
+.atlas-explore{padding:16px 18px 18px;border-top:1px solid #50594f;background:#21333b}
+.atlas-explore h3{font:400 21px var(--font-display);color:#f0e0c5;margin:0 0 9px}
+.atlas-explore-note{font:11px/1.6 var(--font-literary);color:#aabdb9;margin:5px 0 12px}
+.atlas-explore label{font-size:10px;letter-spacing:.05em;color:#d1b68a;display:block;margin:9px 0 7px}
+.atlas-area-controls{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px}
+.atlas-area-controls label{grid-column:1/-1}
+.atlas-explore select{font:12px var(--font-body);color:#f4e8d1;background:#263b43;border:1px solid #67706a;padding:9px;min-width:0;width:100%;min-height:38px}
+.atlas-area-controls button,.atlas-trail-actions button,.atlas-share-row button{font:11px/1.4 var(--font-body);color:#efddb8;background:#34454a;border:1px solid #97805d;padding:8px 10px;cursor:pointer}
+.atlas-area-controls button:hover,.atlas-trail-actions button:not(:disabled):hover,.atlas-share-row button:hover{background:#655438}
+.atlas-trail-status{font:12px/1.65 var(--font-literary);color:#dae2d9;padding:10px 0;min-height:36px}
+.atlas-trail-actions{display:flex;gap:6px;flex-wrap:wrap}
+.atlas-trail-actions button:disabled{opacity:.4;cursor:not-allowed}
+.atlas-pin.is-trail .atlas-pin-symbol{box-shadow:0 0 0 4px #eac07877,0 2px 8px #07161de0}
+.atlas-share-row{padding:10px 18px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;background:#1b2d34;border-top:1px solid #47574f}
+#atlas-share-status{font:10px/1.6 var(--font-body);color:#cbd7ca;overflow-wrap:anywhere}
+.atlas-explore button:focus-visible,.atlas-explore select:focus-visible,.atlas-share-row button:focus-visible{outline:2px solid #e4c788;outline-offset:3px}
+@media(max-width:710px){.atlas-explore{padding:14px}.atlas-area-controls{grid-template-columns:minmax(0,1fr) auto}.atlas-share-row{padding:10px 14px}}
