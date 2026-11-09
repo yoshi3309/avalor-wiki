@@ -26,21 +26,29 @@
 
 Under **Archival callouts and pull quotes** add a row:
 
-- `quote` — antique gold; only use an exact excerpt that already appears in the public record. Never invent dialogue or attribute speech to a character without an established source.
-- `note` — subdued blue; concise source-supported explanation or useful clarification.
+- `reflection` — antique gold; a newly written **editorial synthesis** that adds meaning instead of repeating the preceding sentence. Label it as a reflection, never as a historical quotation.
+- `quote` — antique gold; reserve for a **meaningful, already-authenticated excerpt**, not a sentence simply repeated from the surrounding paragraph. The build requires exact occurrence in the published article, but editors must also judge whether extracting it adds value. Never invent historical dialogue.
+- `note` — subdued blue; a constructive interpretive note **assigned to a known Commission scholar** (Lady Miren Dast, Brother Halden Korr, or Professor Xiomara Thal). Write in the scholar's established perspective and make it add a new angle. It is newly authored commentary, not a purported verbatim transcript.
 - `contested` — subdued oxblood; conflicting testimony or corrected traditional accounts, not arbitrary dramatic emphasis.
+
+**Highlighted chapters:** Under `highlight_sections`, specify an existing heading ID and one of `turning-point`, `remembrance`, or `legacy`. The builder tints only these chapters, keeping all text and links intact. Use at most three per article, and only when a whole chapter warrants visual distinction.
+
+**Editorial rule:** **Emphasis must earn its place.** If the note restates what the prose already explained, rewrite or omit it. Remove tangential institutional detail from a biography rather than trying to improve it with more decorative elements.
 
 Choose the section heading ID and 1-based paragraph number in which it should appear. Optional attribution may identify the actual historical record or explicitly verified speaker. Use at most one or two callouts per substantial article; the renderer permits up to four.
 
-## Lavitz Shawe demonstration
+## Lavitz Shawe — revised editorial demonstration
 
-The Lavitz public article now has:
+Following visual review, the initial highlighted sentence was removed because it merely repeated the immediately preceding line.
 
-- A pull quote in **Varis and Thia** using the exact line: “They found freedom, but not equality.”
-- One *already-approved public* Misfits illustration after the second paragraph of **Adventures on roads without a single destiny**, with alt text and archival caption.
-- A contextual note in **From vengeance to devotion** explaining his established transition of oath.
+The revised Lavitz article now includes:
+- Two **original editorial reflections** about the Shawe family's experience of prejudice and Lavitz's decision to lower his knife; these are explicitly labeled reflections rather than historical speech.
+- Two constructive Commission scholarly interpretations: Brother Halden Korr reflects on the ethical meaning of Devotion after Vengeance; Professor Xiomara Thal considers why one drow's appointment cannot by itself repair longstanding injustice.
+- Three subtly tinted turning-point chapters: **The night he set the knife down** (antique gold), **Fo'Gurn and the cost of survival** (muted green-gray), and **Lord Marshal of Avalor** (slate blue).
+- The existing approved Misfits illustration, framed within Lavitz's adventures, with alt text and archival caption.
+- An editorially tightened **Lord Marshal** chapter that keeps his relationships, personal burdens, and transition to command instead of listing military units, training sites, and unrelated royal forces.
 
-The article's main portrait remains in the right-hand rail, unchanged. No new art or canon was invented, and the builder supports adding a second illustration later when artwork is approved.
+This is an example of **visual rhythm supported by meaningful prose**, not a fixed quota of callouts for every article. The other entries should be reviewed individually and trimmed where necessary.
 
 ## Implementation / guardrails
 
