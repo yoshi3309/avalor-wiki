@@ -26,7 +26,7 @@ callouts:
   - type: note
     scholar: professor-xiomara-thal
     text: "If there were people in Aethrion who never knew of its experiments, destruction would not have made them guilty. Their absence from the surviving account is a failure of evidence, not proof of consent."
-    after: the-scribes-question
+    after: the-scribe-s-question
     paragraph: 2
   - type: reflection
     text: "An empty page is not the discovery of a lost name. It is a promise to remember that there ought to have been names."
