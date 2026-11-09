@@ -654,9 +654,13 @@ for gallery_file in sorted((ROOT / 'content' / 'gallery').glob('*.yml')):
     if collection_id not in GALLERY_COLLECTION_BY_ID:
         raise ValueError(f'{gallery_file}: unknown gallery collection {collection_id}')
     raw_image = str(record['image']).strip().lstrip('/')
-    if (not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I)
+    # Gallery images are normally existing CMS uploads. Two vetted, source-controlled
+    # archive SVGs are exceptions; never permit arbitrary SVG uploads or remote URLs.
+    vetted_artwork = {'assets/crest.svg', 'assets/hero-scene.svg'}
+    standard_upload = re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\\.(?:png|jpe?g|webp|gif)', raw_image, re.I)
+    if (not (standard_upload or raw_image in vetted_artwork)
             or '..' in Path(raw_image).parts or not (ROOT / raw_image).is_file()):
-        raise ValueError(f'{gallery_file}: gallery image must be an existing public upload')
+        raise ValueError(f'{gallery_file}: gallery image must be an existing public upload or approved archive illustration')
     related_slugs = [slug.strip() for slug in str(record.get('related_articles') or '').split(',') if slug.strip()]
     if len(related_slugs) != len(set(related_slugs)) or any(slug not in BY_SLUG for slug in related_slugs):
         raise ValueError(f'{gallery_file}: duplicate or unknown related article')

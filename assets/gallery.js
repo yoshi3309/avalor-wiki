@@ -18,6 +18,8 @@
   const previous = document.getElementById('gallery-viewer-previous');
   const next = document.getElementById('gallery-viewer-next');
   const closeButton = modal.querySelector('.gallery-viewer-close');
+  const shareButton = document.getElementById('gallery-share-link');
+  const shareFeedback = document.getElementById('gallery-share-feedback');
   let active = -1;
   let returnFocus = null;
 
@@ -56,6 +58,7 @@
       links.append(p);
     }
     setUrl(entry.id);
+    if (shareFeedback) shareFeedback.textContent = '';
   }
 
   function open(index) {
@@ -83,6 +86,20 @@
     returnFocus = null;
   }
 
+  // A stable share URL opens the selected exhibit on its original collection page.
+  // Clipboard access is optional; older browsers show a selectable URL instead.
+  shareButton?.addEventListener('click', async () => {
+    if (active < 0) return;
+    const entry = entries[active];
+    const url = new URL(root + 'gallery/' + entry.collection + '/?image=' + encodeURIComponent(entry.id), window.location.href).href;
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable');
+      await navigator.clipboard.writeText(url);
+      shareFeedback.textContent = 'Link copied';
+    } catch (_) {
+      shareFeedback.textContent = 'Copy this link: ' + url;
+    }
+  });
   cards.forEach((card, index) => card.addEventListener('click', () => open(index)));
   modal.querySelectorAll('[data-gallery-close]').forEach(button => button.addEventListener('click', close));
   previous.addEventListener('click', () => { display(active - 1); });
