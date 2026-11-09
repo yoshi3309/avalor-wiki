@@ -118,12 +118,18 @@ content:
             type: select
             required: true
             options:
-              values: [quote, note, contested]
+              values: [quote, reflection, note, contested]
           - name: text
             label: Pull quote or note text
             type: text
             required: true
-            description: "Use existing public text; quotes should reproduce article wording exactly."
+            description: "Reflections may be new editorial synthesis; direct quotes must appear verbatim in the article. Scholarly notes require a known Commission scholar."
+          - name: scholar
+            label: Commission scholar (required for scholarly notes)
+            type: select
+            options:
+              values: [lady-miren-dast, brother-halden-korr, professor-xiomara-thal]
+            description: "Interpretive commentary in the established scholar's voice, not a verbatim historical quotation."
           - name: attribution
             label: Optional source or attribution
             type: string
@@ -135,6 +141,26 @@ content:
             label: After paragraph number in this chapter (1, 2, 3...)
             type: number
             default: 1
+      - name: highlight_sections
+        label: Highlighted chapters (optional; up to 3)
+        type: object
+        description: "Reserve selective tinted backgrounds for consequential chapters, not routine exposition."
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{section}"
+        fields:
+          - name: section
+            label: Existing chapter heading ID
+            type: string
+            required: true
+            description: "Example: lord-marshal-of-avalor"
+          - name: tone
+            label: Chapter treatment
+            type: select
+            required: true
+            options:
+              values: [turning-point, remembrance, legacy]
       - name: body
         label: The Scholar's Account (PLAYER-VISIBLE)
         type: rich-text
