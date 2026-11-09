@@ -182,8 +182,8 @@ history-chronicles:
       description: New historical records that do not fit the established divisions.
       articles: []
 faith-magic-cosmology:
-  featured: faiths-and-gods-of-avalor
-  intro: Explore the beliefs and divine traditions that shape Avalorian life. Further public records will be added as scholarship allows.
+  featured: primordial-powers
+  intro: Explore Avalor's oldest cosmological traditions, the gods honored by its peoples, and the sacred obligations expressed in daily life.
   eyebrow: BELIEF AND THE BEYOND
   icon: "✧"
   featured_label: THE SCHOLAR'S COLLECTION
@@ -191,4 +191,35 @@ faith-magic-cosmology:
   group_label: RECORDS
   directory_title: The Faith & Magic Records
   directory_description: The public accounts currently held in this collection.
-  groups: []
+  catchall: other-faiths
+  groups:
+    - id: primordial-traditions
+      title: The Oldest Questions
+      eyebrow: BEFORE THE GODS
+      icon: "✧"
+      description: Primordial presences and the beginnings of existence.
+      articles:
+        - primordial-powers
+    - id: worship-devotion
+      title: Gods & Devotion
+      eyebrow: LIVING WORSHIP
+      icon: "✦"
+      description: Divine traditions, prayer, sanctuary, and their obligations.
+      articles:
+        - faiths-and-gods-of-avalor
+        - threefold-devotion
+        - lathander-and-the-dawn
+    - id: communities
+      title: Faiths of the Peoples
+      eyebrow: TRADITIONS AND MEMORY
+      icon: "❖"
+      description: Spiritual traditions carried through communities and families.
+      articles:
+        - the-faiths-of-families-and-peoples
+        - the-sacred-balance
+    - id: other-faiths
+      title: Further Traditions
+      eyebrow: OTHER ACCOUNTS
+      icon: "◇"
+      description: Additional public studies of faith, magic, and cosmology.
+      articles: []

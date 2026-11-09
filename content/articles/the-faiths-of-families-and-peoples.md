@@ -10,7 +10,7 @@ facts: |-
   Named devotions: Corellon, Moradin, Eilistraee
   Major principle: No ancestry follows one universal faith
   Historical concern: Traditions distorted by discrimination
-related: faiths-and-gods-of-avalor,forest-of-the-fey,arnauds-edicts,jaznaar,jaznaars-vindication
+related: primordial-powers,heureux,faiths-and-gods-of-avalor,forest-of-the-fey,arnauds-edicts,jaznaar,jaznaars-vindication
 source: Compendium I · Entry I.004, Section VII, public Scholar's Account; The Living Chronicle, Chapters IV–V
 featured: false
 ---
@@ -30,6 +30,14 @@ Among some elven communities associated with the [[Forest of the Fey]], **Corell
 These practices coexist with older relationships to groves and places of remembrance. Not every gathering in a forest belongs to the same rite, nor is every elven household devoted to Corellon.
 
 The variety of observance is part of the region's lived history, rather than a gap awaiting a single official account.
+
+## The Ringtree Clan and Her
+
+In the concealed canopy settlements of the **Ringtree Clan**, in the [[Forest of the Fey]], preserving memory was understood as a sacred responsibility. Their spiritual language centered on **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**, associated with growth, decay, invention, music, and the becoming of one thing from another.
+
+The bard **[[Heureux]]**, raised by the clan's leading historian, learned to carry those traditions in song. After the destruction of his people's library, his wandering performances became a way to protect stories that could otherwise have disappeared.
+
+The Ringtree's devotion demonstrates how a spiritual tradition can survive through both written learning and oral memory. It should not be mistaken for the universal faith of all firbolgs.
 
 ## Moradin and the work of the hands
 

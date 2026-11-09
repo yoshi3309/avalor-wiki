@@ -23,7 +23,7 @@ facts: |-
   Historical work: Published account of the Misfits
   Founded: Heureux's Bard Academy in Taveras
   Guiding belief: Our truth is our history, and our history is our truth
-related: the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
+related: primordial-powers,the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
 source: Creator-supplied Heureux (H) expanded Ringtree Clan biography (November 2026); The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001, public Scholar's Account
 callouts:
   - type: reflection
@@ -68,7 +68,7 @@ He has spent much of his life trying to prevent the same thing from happening ag
 
 H was born among the **Ringtree Clan**, a firbolg people who lived in hidden canopy settlements within the **[[Forest of the Fey]]**. Their communities moved when needed and were sheltered by illusion and invisibility, keeping much of their way of life beyond the sight of outsiders.
 
-The Ringtree regarded memory as part of their survival. They preserved stories in spoken tradition and written records, passing down the histories of people who might otherwise be forgotten. They understood invention, growth, decay, music, and the lives of animals as expressions of a sacred force they called **Her**.
+The Ringtree regarded memory as part of their survival. They preserved stories in spoken tradition and written records, passing down the histories of people who might otherwise be forgotten. They understood invention, growth, decay, music, and the lives of animals as expressions of a sacred force they called **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**.
 
 Her was not simply a name invoked when misfortune struck. To the Ringtree, the spiritual current of the living world touched the making of a tool, the telling of a story, and the last days of a great tree. Art and memory were not separate from nature; they belonged to it.
 
@@ -200,7 +200,7 @@ Those friendships were not undone by distance. For Heureux, a fellowship did not
 
 ## Our truth is our history
 
-Heureux remains devoted to **Her**, the sacred current he learned to recognize among the Ringtree. He sees art, invention, music, memory, and the ordinary transformations of nature as parts of a connected living world.
+Heureux remains devoted to **[[The Primordial Powers#her-and-the-work-of-becoming|Her]]**, the sacred current he learned to recognize among the Ringtree. He sees art, invention, music, memory, and the ordinary transformations of nature as parts of a connected living world.
 
 The boy who trained beside a hidden archive became a bard whose songs could be heard in places no royal library could reach. He could not save every page, and he never stopped wondering whether he might have saved his father. But he refused to let that failure—or the fear of its repetition—silence him.
 
