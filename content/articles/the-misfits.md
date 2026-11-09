@@ -30,7 +30,7 @@ callouts:
     attribution: "Editorial reflection on Jack of Stanleyville"
   - type: note
     text: "Restoring Jaznaar's name does not erase the generations in which a drow defender was called a betrayer. The testimony was brought into the light; the harder work of asking why it had been denied remained."
-    after: v-jaznaars-testimony
+    after: v-jaznaar-s-testimony
     paragraph: 3
     scholar: professor-xiomara-thal
   - type: reflection
@@ -41,7 +41,7 @@ callouts:
 highlight_sections:
   - section: iii-the-hydra-and-the-missing-companion
     tone: remembrance
-  - section: v-jaznaars-testimony
+  - section: v-jaznaar-s-testimony
     tone: turning-point
   - section: viii-the-kingdom-after-the-victory
     tone: legacy
