@@ -189,10 +189,13 @@ def insert_article_modules(rendered, article, headings):
     modules = []
     figures = article.get('illustrations') or []
     notes = article.get('callouts') or []
+    highlights = article.get('highlight_sections') or []
     if not isinstance(figures, list) or len(figures) > 3:
         raise ValueError(f"{article['slug']}: illustrations must be a list of at most three")
     if not isinstance(notes, list) or len(notes) > 4:
         raise ValueError(f"{article['slug']}: callouts must be a list of at most four")
+    if not isinstance(highlights, list) or len(highlights) > 3:
+        raise ValueError(f"{article['slug']}: highlighted chapters must be a list of at most three")
     for figure in figures:
         if not isinstance(figure, dict):
             raise ValueError(f"{article['slug']}: invalid illustration")
@@ -215,27 +218,45 @@ def insert_article_modules(rendered, article, headings):
             raise ValueError(f"{article['slug']}: invalid callout")
         position = str(note.get('after') or '').strip()
         kind = str(note.get('type') or '')
-        if kind not in {'quote', 'note', 'contested'}:
+        if kind not in {'quote', 'reflection', 'note', 'contested'}:
             raise ValueError(f"{article['slug']}: invalid callout type {kind}")
         words = str(note.get('text') or '').strip()
         if not words:
             raise ValueError(f"{article['slug']}: empty callout")
-        name = {'quote': 'FROM THIS ACCOUNT', 'note': "THE SCHOLAR'S NOTE",
-                'contested': 'A CONTESTED ACCOUNT'}[kind]
+        name = {'quote': 'FROM THIS ACCOUNT', 'reflection': 'THE ARCHIVIST\'S REFLECTION',
+                'note': "A SCHOLAR'S COMMENTARY", 'contested': 'A CONTESTED ACCOUNT'}[kind]
+        if kind == 'quote' and words not in article['body']:
+            raise ValueError(f"{article['slug']}: direct quotation must occur verbatim in the article")
         detail = html.escape(str(note.get('attribution') or '').strip())
         content = html.escape(words)
         if kind == 'quote':
             message = f'<blockquote><p>{content}</p></blockquote>'
+        elif kind == 'reflection':
+            message = f'<p class="archive-reflection-text">{content}</p>'
         else:
             message = f'<p>{content}</p>'
-        credit = f'<small>{detail}</small>' if detail else ''
+        if kind == 'note':
+            scholar = str(note.get('scholar') or '').strip()
+            scholar_names = {
+                'lady-miren-dast': 'Lady Miren Dast',
+                'brother-halden-korr': 'Brother Halden Korr',
+                'professor-xiomara-thal': 'Professor Xiomara Thal'
+            }
+            if scholar not in scholar_names or scholar not in BY_SLUG:
+                raise ValueError(f"{article['slug']}: scholarly note must name a known public Commission contributor")
+            scholar_href = '../../articles/' + scholar + '/'
+            credit = (f'<small>Commentary by <a href="{scholar_href}">'
+                      f'{html.escape(scholar_names[scholar])}</a>'
+                      + (f' · {detail}' if detail else '') + '</small>')
+        else:
+            credit = f'<small>{detail}</small>' if detail else ''
         fragment = (f'<aside class="archive-callout archive-callout--{kind}" '
                     f'aria-label="{html.escape(name, quote=True)}">'
                     f'<span class="archive-callout-label">{html.escape(name)}</span>'
                     f'{message}{credit}</aside>')
         modules.append((position, note.get('paragraph', 1), fragment))
     if not modules:
-        return rendered
+        return highlight_article_sections(rendered, article, headings)
     insertions = []
     for order, (position, paragraph, fragment) in enumerate(modules):
         section_id = slugify(position)
@@ -260,6 +281,39 @@ def insert_article_modules(rendered, article, headings):
         insertions.append((where, order, fragment))
     for position, order, fragment in sorted(insertions, key=lambda item: (item[0], item[1]), reverse=True):
         rendered = rendered[:position] + '\n' + fragment + '\n' + rendered[position:]
+    return highlight_article_sections(rendered, article, headings)
+
+
+def highlight_article_sections(rendered, article, headings):
+    """Tint a few consequential chapters while preserving every existing heading anchor."""
+    items = article.get('highlight_sections') or []
+    if not items:
+        return rendered
+    known = {h['id'] for h in headings}
+    selected = {}
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError(f"{article['slug']}: highlight entry must be an object")
+        ident = slugify(str(item.get('section') or ''))
+        tone = str(item.get('tone') or '')
+        if ident not in known or ident in selected:
+            raise ValueError(f"{article['slug']}: unknown or duplicate highlighted chapter {ident}")
+        if tone not in {'turning-point', 'remembrance', 'legacy'}:
+            raise ValueError(f"{article['slug']}: unsupported highlight tone {tone}")
+        selected[ident] = tone
+    matches = list(re.finditer(r'<h2 id="([^"]+)">.*?</h2>', rendered, re.S))
+    for i in range(len(matches)-1, -1, -1):
+        heading = matches[i]
+        ident = heading.group(1)
+        if ident not in selected:
+            continue
+        start = heading.start()
+        end = matches[i+1].start() if i+1 < len(matches) else len(rendered)
+        tone = selected[ident]
+        rendered = (rendered[:start] +
+                    f'<section class="archive-highlight archive-highlight--{tone}" aria-labelledby="{ident}">' +
+                    rendered[start:end].rstrip() +
+                    '</section>\n' + rendered[end:])
     return rendered
 
 
