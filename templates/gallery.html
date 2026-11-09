@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container gallery-container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{root}}">Archives</a><span>›</span>
+    {% if active_gallery_collection %}
+    <a href="{{root}}gallery/">Illustration Gallery</a><span>›</span><span>{{active_gallery_collection.title}}</span>
+    {% else %}
+    <span>Illustration Gallery</span>
+    {% endif %}
+  </nav>
+
+  <header class="gallery-heading">
+    <div class="kicker">THE ROYAL ARCHIVES · ILLUSTRATED RECORDS</div>
+    <h1>{% if active_gallery_collection %}{{active_gallery_collection.title}}{% else %}Illustration <em>Gallery</em>{% endif %}</h1>
+    <p>{% if active_gallery_collection %}{{active_gallery_collection.description}}{% else %}Portraits, places, and moments preserved in image. Browse the Royal Archives' curated visual collections, where every illustration has a place in Avalor's wider story.{% endif %}</p>
+    <div class="gallery-heading-footer">
+      <span>{{gallery_items|length}} {% if gallery_items|length == 1 %}exhibit{% else %}exhibits{% endif %} in this view</span>
+      {% if active_gallery_collection %}<a href="{{root}}gallery/">← All gallery collections</a>{% endif %}
+    </div>
+  </header>
+
+  {% if not active_gallery_collection %}
+  <section class="gallery-collections" aria-labelledby="gallery-collections-title">
+    <div class="gallery-section-heading"><span class="kicker">I · THE COLLECTIONS</span><h2 id="gallery-collections-title">Browse the gallery wings</h2></div>
+    <div class="gallery-collection-grid">
+      {% for wing in gallery_collections %}
+      <a class="gallery-wing" href="{{root}}gallery/{{wing.id}}/">
+        {% if wing.cover %}<img src="{{root}}{{wing.cover}}" loading="lazy" alt="" aria-hidden="true">{% endif %}
+        <span class="gallery-wing-shade"></span>
+        <span class="gallery-wing-content"><span class="gallery-wing-index">{{'%02d'|format(loop.index)}} · {{wing.count}} {% if wing.count == 1 %}exhibit{% else %}exhibits{% endif %}</span><strong>{{wing.title}}</strong><small>{{wing.description}}</small><span class="gallery-wing-cta">Enter collection ↗</span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="gallery-exhibits" aria-labelledby="gallery-exhibits-title">
+    <div class="gallery-section-heading">
+      <span class="kicker">{% if active_gallery_collection %}WORKS IN THIS COLLECTION{% else %}II · ON EXHIBIT{% endif %}</span>
+      <h2 id="gallery-exhibits-title">{% if active_gallery_collection %}{{active_gallery_collection.title}}{% else %}From the illustrated archive{% endif %}</h2>
+      <p>Select an illustration to view it in full, read its caption, and follow related records.</p>
+    </div>
+    {% if gallery_items %}
+    <div class="gallery-grid">
+      {% for piece in gallery_items %}
+      <button class="gallery-card" type="button" data-gallery-index="{{loop.index0}}" aria-label="View {{piece.title}} in the illustration viewer">
+        <span class="gallery-card-art"><img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy"></span>
+        <span class="gallery-card-copy">
+          <span class="gallery-card-eyebrow">{{piece.collection_title}}{% if piece.era %} · {{piece.era}}{% endif %}</span>
+          <strong>{{piece.title}}</strong>
+          <span class="gallery-card-caption">{{piece.caption}}</span>
+          <span class="gallery-card-open">View illustration <span aria-hidden="true">↗</span></span>
+        </span>
+      </button>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="gallery-empty"><span aria-hidden="true">✦</span><h3>This collection awaits its first approved illustration.</h3><p>Only curated, published artwork appears here. More exhibits will be added as the public archive grows.</p>{% if active_gallery_collection %}<a href="{{root}}gallery/">Return to all collections ↗</a>{% endif %}</div>
+    {% endif %}
+  </section>
+</div>
+
+<div class="gallery-lightbox" id="gallery-lightbox" hidden aria-hidden="true">
+  <div class="gallery-lightbox-backdrop" data-gallery-close></div>
+  <div class="gallery-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-viewer-title" aria-describedby="gallery-viewer-caption" tabindex="-1">
+    <div class="gallery-viewer-header"><span class="gallery-viewer-kicker">THE ILLUSTRATION GALLERY</span><span class="gallery-viewer-counter" id="gallery-viewer-counter"></span><button type="button" class="gallery-viewer-close" data-gallery-close aria-label="Close illustration">✕</button></div>
+    <div class="gallery-viewer-media">
+      <button type="button" id="gallery-viewer-previous" class="gallery-viewer-arrow" aria-label="Previous illustration">←</button>
+      <img id="gallery-viewer-image" alt="">
+      <button type="button" id="gallery-viewer-next" class="gallery-viewer-arrow" aria-label="Next illustration">→</button>
+    </div>
+    <div class="gallery-viewer-description">
+      <div class="gallery-viewer-details"><span id="gallery-viewer-category" class="gallery-viewer-category"></span><h2 id="gallery-viewer-title"></h2><p id="gallery-viewer-caption"></p><p id="gallery-viewer-credit" class="gallery-viewer-credit" hidden></p></div>
+      <div class="gallery-viewer-references"><span class="gallery-viewer-label">RELATED ARCHIVE RECORDS</span><div id="gallery-viewer-links"></div></div>
+    </div>
+    <p class="gallery-viewer-hint">Use ← → to browse · Esc to close</p>
+  </div>
+</div>
+<script id="gallery-data" type="application/json">{{gallery_data|tojson}}</script>
+{% endblock %}

@@ -165,6 +165,69 @@ content:
         label: The Scholar's Account (PLAYER-VISIBLE)
         type: rich-text
         required: true
+  - name: gallery
+    label: Illustration Gallery
+    type: collection
+    path: content/gallery
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: id
+      fields: [title, collection, era, featured, published]
+    fields:
+      - name: id
+        label: Stable gallery ID
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        description: "Permanent entry ID, e.g. lavitz-shawe. Keep unchanged after publishing; it is used by gallery links."
+      - name: title
+        label: Artwork title
+        type: string
+        required: true
+      - name: collection
+        label: Gallery collection
+        type: select
+        required: true
+        options:
+          values: [characters, locations, historical-scenes, artifacts-symbols, maps-heraldry]
+      - name: image
+        label: Approved public illustration
+        type: image
+        required: true
+        description: "Select approved artwork from public uploads. Prefer JPEG/WebP under 3 MB."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+      - name: alt
+        label: Accessible image description
+        type: string
+        required: true
+      - name: caption
+        label: Curatorial caption
+        type: text
+        required: true
+      - name: era
+        label: Era (optional)
+        type: string
+      - name: credit
+        label: Artist credit (optional)
+        type: string
+        description: "Leave blank when not known. Do not invent a credit."
+      - name: related_articles
+        label: Related article filenames
+        type: string
+        description: "Comma-separated public article slugs, e.g. lavitz-shawe,the-misfits."
+      - name: featured
+        label: Feature this exhibit
+        type: boolean
+        default: false
+      - name: published
+        label: Publish in the public gallery
+        type: boolean
+        default: false
+        description: "Draft exhibits stay hidden from the public site until explicitly enabled."
   - name: atlas
     label: Map settings & locations
     type: file

@@ -17,6 +17,8 @@
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
 {% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261108-article-reading-1">{% endif %}
 {% if page_type == "article" %}<script defer src="{{ root }}assets/article-reading.js?v=20261108-article-reading-1"></script>{% endif %}
+{% if page_type == "gallery" or page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/gallery.css?v=20261108-gallery-1">{% endif %}
+{% if page_type == "gallery" %}<script defer src="{{ root }}assets/gallery.js?v=20261108-gallery-1"></script>{% endif %}
 <link rel="stylesheet" href="{{ root }}assets/search.css?v=20261108-smart-search-1">
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
@@ -40,6 +42,7 @@
       <a class="nav-link {% if page_type=='journeys' %}active{% endif %}" href="{{ root }}journeys/"><span class="nav-icon">✧</span> Reading journeys</a>
       <a class="nav-link {% if page_type=='connections' %}active{% endif %}" href="{{ root }}connections/"><span class="nav-icon">✥</span> People &amp; connections</a>
       <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{ root }}map/"><span class="nav-icon">✥</span> Interactive map</a>
+      <a class="nav-link {% if page_type=='gallery' %}active{% endif %}" href="{{ root }}gallery/"><span class="nav-icon">▧</span> Illustration Gallery</a>
       <div class="nav-caption nav-caption-spaced">COLLECTIONS</div>
       {% for c in categories %}
       <a class="nav-link {% if current_category==c.name and page_type=='category' %}active{% endif %}" href="{{ root }}collections/{{ c.slug }}/"><span class="nav-icon">{{ c.icon }}</span><span>{{ c.name }}</span><span class="nav-count">{{ c.count }}</span></a>

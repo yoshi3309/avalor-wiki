@@ -623,6 +623,65 @@ for cat in CATEGORIES:
         raise ValueError(f"Uncategorized article in collection {cat['slug']}")
     COLLECTION_PAGES[cat['slug']] = {'config': config, 'groups': groups, 'featured': by_slug[featured_slug]}
 
+
+# The illustration gallery is deliberately curated: images uploaded for articles do
+# not become gallery exhibits unless an editor publishes a gallery record.
+GALLERY_COLLECTIONS = [
+    {'id':'characters', 'title':'Characters', 'description':'Portraits of the people whose lives shaped Avalor.'},
+    {'id':'locations', 'title':'Locations', 'description':'Cities, landscapes, sanctuaries, and distant horizons.'},
+    {'id':'historical-scenes', 'title':'Historical Scenes', 'description':'Moments from the kingdom’s remembered past.'},
+    {'id':'artifacts-symbols', 'title':'Artifacts & Symbols', 'description':'Objects, insignia, and meaningful emblems.'},
+    {'id':'maps-heraldry', 'title':'Maps & Heraldry', 'description':'The realm depicted in maps, banners, and arms.'},
+]
+GALLERY_COLLECTION_BY_ID = {wing['id']: wing for wing in GALLERY_COLLECTIONS}
+GALLERY_ITEMS = []
+GALLERY_BY_ARTICLE = {}
+gallery_ids = set()
+for gallery_file in sorted((ROOT / 'content' / 'gallery').glob('*.yml')):
+    record = yaml.safe_load(gallery_file.read_text(encoding='utf-8'))
+    if not isinstance(record, dict):
+        raise ValueError(f'{gallery_file}: expected a YAML object')
+    ident = str(record.get('id') or '')
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident) or ident != gallery_file.stem or ident in gallery_ids:
+        raise ValueError(f'{gallery_file}: invalid, duplicate, or mismatched gallery ID')
+    gallery_ids.add(ident)
+    if not record.get('published', False):
+        continue
+    for field in ('title', 'collection', 'image', 'alt', 'caption'):
+        if not str(record.get(field) or '').strip():
+            raise ValueError(f'{gallery_file}: published exhibit lacks {field}')
+    collection_id = str(record['collection'])
+    if collection_id not in GALLERY_COLLECTION_BY_ID:
+        raise ValueError(f'{gallery_file}: unknown gallery collection {collection_id}')
+    raw_image = str(record['image']).strip().lstrip('/')
+    if (not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I)
+            or '..' in Path(raw_image).parts or not (ROOT / raw_image).is_file()):
+        raise ValueError(f'{gallery_file}: gallery image must be an existing public upload')
+    related_slugs = [slug.strip() for slug in str(record.get('related_articles') or '').split(',') if slug.strip()]
+    if len(related_slugs) != len(set(related_slugs)) or any(slug not in BY_SLUG for slug in related_slugs):
+        raise ValueError(f'{gallery_file}: duplicate or unknown related article')
+    item = {
+        'id': ident,
+        'title': str(record['title']),
+        'collection': collection_id,
+        'collection_title': GALLERY_COLLECTION_BY_ID[collection_id]['title'],
+        'image': raw_image,
+        'alt': str(record['alt']),
+        'caption': str(record['caption']),
+        'era': str(record.get('era') or ''),
+        'credit': str(record.get('credit') or ''),
+        'featured': bool(record.get('featured', False)),
+        'related': [{'slug': slug, 'title': BY_SLUG[slug]['title']} for slug in related_slugs],
+    }
+    GALLERY_ITEMS.append(item)
+    for slug in related_slugs:
+        GALLERY_BY_ARTICLE.setdefault(slug, []).append(item)
+GALLERY_ITEMS.sort(key=lambda item: (not item['featured'], item['title'].casefold()))
+for wing in GALLERY_COLLECTIONS:
+    members = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
+    wing['count'] = len(members)
+    wing['cover'] = members[0]['image'] if members else ''
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 def render(template,path,depth=0,**kwargs):
@@ -668,7 +727,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -694,6 +753,10 @@ for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS,periods=PERIODS,topics=TOPICS,date_kinds=DATE_KINDS,journeys=JOURNEYS)
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
+render('gallery.html','gallery/index.html',depth=1,page_type='gallery',title='Illustration Gallery',crumbs='Illustration Gallery',gallery_items=GALLERY_ITEMS,gallery_collections=GALLERY_COLLECTIONS,active_gallery_collection=None,gallery_data=GALLERY_ITEMS)
+for wing in GALLERY_COLLECTIONS:
+    member_items = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
+    render('gallery.html',f'gallery/{wing["id"]}/index.html',depth=2,page_type='gallery',title=wing['title'] + ' · Illustration Gallery',crumbs=wing['title'],description=wing['description'],gallery_items=member_items,gallery_collections=GALLERY_COLLECTIONS,active_gallery_collection=wing,gallery_data=member_items)
 # All search data is intentionally public-facing. Aliases refer only to published
 # articles; consolidated records link directly to their actual parent sections.
 SEARCH_ALIASES = (yaml.safe_load((ROOT / 'data' / 'search-aliases.yml').read_text(encoding='utf-8')) or {}).get('aliases', {})
@@ -730,4 +793,4 @@ for old_slug, rule in MERGES.items():
     })
 (PUBLIC/'search-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 (PUBLIC/'robots.txt').write_text('User-agent: *\nAllow: /\n',encoding='utf-8')
-print(f'Built {len(ALL)} public articles, {len(CATEGORIES)} collections, a timeline and search index in {PUBLIC}')
+print(f'Built {len(ALL)} public articles, {len(CATEGORIES)} collections, {len(GALLERY_ITEMS)} curated illustrations, a timeline and search index in {PUBLIC}')
