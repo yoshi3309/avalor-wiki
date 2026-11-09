@@ -40,9 +40,15 @@ lavitz, tags = audit("lavitz-shawe")
 assert "article-reading-track" in tags.classes, "Reading progress absent"
 assert "article-mobile-toc" in tags.classes, "Mobile chapter navigation absent"
 assert "archive-figure" in tags.classes, "Lavitz demonstration illustration absent"
-assert "archive-callout--quote" in tags.classes, "Lavitz pull quote absent"
-assert "archive-callout--note" in tags.classes, "Lavitz historical note absent"
-assert "They found freedom, but not equality." in lavitz
+assert "archive-callout--reflection" in tags.classes, "Lavitz editorial reflections absent"
+assert "archive-callout--note" in tags.classes, "Lavitz historical commentary absent"
+assert "archive-highlight--turning-point" in tags.classes, "Lavitz pivotal-chapter emphasis absent"
+assert "archive-highlight--remembrance" in tags.classes, "Lavitz remembrance emphasis absent"
+assert "archive-highlight--legacy" in tags.classes, "Lavitz leadership emphasis absent"
+assert "THE ARCHIVIST" in lavitz, "Editorial reflections need distinct attribution"
+assert "brother-halden-korr" in lavitz, "Halden's scholarly perspective absent"
+assert "professor-xiomara-thal" in lavitz, "Xiomara's scholarly perspective absent"
+assert "The broader" not in lavitz or "Standing Army" not in lavitz, "Extraneous army summary remains in Lavitz account"
 assert any("enchanted-tavern-adventurers-gathering.png" in (img.get("src") or "")
            and img.get("alt") for img in tags.images), "Approved art or alt text missing"
 assert "assets/article-reading.js" in lavitz
