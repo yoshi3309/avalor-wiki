@@ -11,7 +11,7 @@ facts: |-
   Former realm: Kroubia
   Capital: Renada, an existing settlement
   Institution founded: The Aegis
-related: rynhold-frozenroar,founding-wars,kingdom-of-avalor,house-frozenroar,renada,the-aegis
+related: lord-osmo,rynhold-frozenroar,founding-wars,kingdom-of-avalor,house-frozenroar,renada,the-aegis
 source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
 featured: false
 ---

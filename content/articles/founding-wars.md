@@ -11,7 +11,7 @@ facts: |-
   Key leader: Rynhold of Kroubia
   Decisive battle: Heroes Hill
   Exact campaign dates: Unresolved
-related: rynhold-frozenroar,heroes-hill,lord-osmos-tower,unification-of-avalor,bradgem-glav,house-frozenroar
+related: lord-osmo,rynhold-frozenroar,heroes-hill,lord-osmos-tower,unification-of-avalor,bradgem-glav,house-frozenroar
 source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
 featured: false
 ---

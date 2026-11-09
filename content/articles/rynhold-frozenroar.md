@@ -17,7 +17,7 @@ facts: |-
   Capital selected: Renada
   Council founded: The Aegis
   Associated heroes: Bradgem Glav and the Six
-related: house-frozenroar,founding-wars,unification-of-avalor,renada,the-aegis,great-citadel,heroes-hill,bradgem-glav,the-six,lowkee,jaznaar,king-gradvum-frozenroar
+related: lord-osmo,house-frozenroar,founding-wars,unification-of-avalor,renada,the-aegis,great-citadel,heroes-hill,bradgem-glav,the-six,lowkee,jaznaar,king-gradvum-frozenroar
 source: The Living Chronicle, Chapters II–III and V, public historical account
   and Royal Register; Compendium II · Entries II.001–II.002, public Scholar's
   Accounts

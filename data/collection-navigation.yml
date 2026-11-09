@@ -144,6 +144,7 @@ history-chronicles:
       description: The founding wars, the Six, and the catastrophe that followed.
       articles:
         - founding-wars
+        - lord-osmo
         - unification-of-avalor
         - sundering-of-the-six
         - blood-sickness
@@ -200,6 +201,9 @@ faith-magic-cosmology:
       description: Primordial presences and the beginnings of existence.
       articles:
         - primordial-powers
+        - planes-of-existence
+        - death-souls-and-the-afterlife
+        - magic-and-the-arcane
     - id: worship-devotion
       title: Gods & Devotion
       eyebrow: LIVING WORSHIP
