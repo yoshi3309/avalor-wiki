@@ -25,6 +25,29 @@ facts: |-
   Historic encounter: Jaznaar's hidden refuge
 related: the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,cove-city,jaznaar,the-first-commission,zauks-false-lives
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001 and II.003; author-confirmed World Anvil biography, tower and crystal history (November 2026)
+callouts:
+  - type: reflection
+    text: "A spellbook, a kraken-tooth knife, and an ice-blue crystal carried different parts of Tel'Lora's childhood into the world. None could answer his questions for him, but each gave him a reason to keep asking."
+    after: a-son-of-cove-city
+    paragraph: 4
+    attribution: "Editorial reflection on Tel'Lora's inheritance"
+  - type: reflection
+    text: "Once a keepsake of his mother's magic, the ice-blue crystal became part of the search that restored a forgotten founder's name. In Tel'Lora's hands, family memory and Avalor's history briefly met."
+    after: the-last-survivor-of-the-six
+    paragraph: 2
+    attribution: "Editorial reflection on the hidden refuge"
+  - type: note
+    text: "Second Witness and the Atlas of Returns cannot guarantee that a scholar will be right. They make it harder for one person's confidence to become the only account available."
+    after: shammans-tower-and-the-responsibility-to-teach
+    paragraph: 4
+    scholar: professor-xiomara-thal
+highlight_sections:
+  - section: a-son-of-cove-city
+    tone: remembrance
+  - section: the-last-survivor-of-the-six
+    tone: turning-point
+  - section: shammans-tower-and-the-responsibility-to-teach
+    tone: legacy
 featured: false
 ---
 

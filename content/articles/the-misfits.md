@@ -17,6 +17,34 @@ facts: |-
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
 related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
+callouts:
+  - type: reflection
+    text: "Fo'Gurn bought his companions time to escape. He could not spare them the years they would spend mourning him. That grief, too, belongs to the history of his courage."
+    after: iii-the-hydra-and-the-missing-companion
+    paragraph: 2
+    attribution: "Editorial reflection on the hydra encounter"
+  - type: reflection
+    text: "Jack's life had ended, but his place among the companions was only beginning. The road offered him a kind of belonging his murder had stolen."
+    after: iv-stanleyville-and-the-stalker
+    paragraph: 3
+    attribution: "Editorial reflection on Jack of Stanleyville"
+  - type: note
+    text: "Restoring Jaznaar's name does not erase the generations in which a drow defender was called a betrayer. The testimony was brought into the light; the harder work of asking why it had been denied remained."
+    after: v-jaznaars-testimony
+    paragraph: 3
+    scholar: professor-xiomara-thal
+  - type: reflection
+    text: "Their story did not end when the five stopped traveling as one. It became a different kind of fellowship: a friendship strong enough to survive separate lives."
+    after: viii-the-kingdom-after-the-victory
+    paragraph: 4
+    attribution: "Editorial reflection on the years after victory"
+highlight_sections:
+  - section: iii-the-hydra-and-the-missing-companion
+    tone: remembrance
+  - section: v-jaznaars-testimony
+    tone: turning-point
+  - section: viii-the-kingdom-after-the-victory
+    tone: legacy
 featured: true
 ---
 
@@ -145,8 +173,6 @@ Jinlin's lair later appeared among the places recreated by [[Zauks and the False
 The **faction** and its founder have a separate entry because their existence does not begin or end with this encounter. The encounter itself belongs to the journey of the Misfits.
 
 ## VI. False lives and dangerous alliances
-
-The companions later encountered [[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]], a dragonborn vampire who also hated Cid. His hatred did not make him trustworthy.
 
 The mind flayer [[Zauks and the False Lives|Zauks]] then subjected the fellowship to manufactured ordeals, recreating earlier dangers from their memories. His final deception offered idealized lives in which grief and loss seemed to have been undone.
 

@@ -39,7 +39,7 @@ maps:
       - {id: sven, label: Sven, x: 79, y: 19, kind: person, article: svendyal-shadowwhisper, detail: Original adventurer and trusted ally of Lavitz.}
       - {id: amara, label: Amara, x: 84, y: 64, kind: person, article: amara, detail: Original adventurer and one of the five surviving companions celebrated after Cid's defeat.}
       - {id: heureux, label: Heureux, x: 64, y: 88, kind: person, article: heureux, detail: Bard who joined the adventuring party shortly after its beginning and later recorded its story.}
-      - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "👻", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as one of their own, and who traveled with them.}
+      - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "✧", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as one of their own, and who traveled with them.}
       - {id: fo, label: Fo'Gurn, x: 15, y: 64, kind: person, symbol: "☠", article: fo-gurn, detail: Dragonborn paladin and Lavitz's friend from before the fellowship; traveled with the original company and died protecting them during the hydra battle.}
     edges:
       - {from: fellowship, to: lavitz, type: fellowship, label: Adventuring party member}

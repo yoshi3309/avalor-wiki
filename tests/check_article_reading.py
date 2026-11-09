@@ -59,3 +59,20 @@ other, tags = audit("heavens-heart")
 assert "article-reading-track" in tags.classes, "Reading progress must work on every article"
 assert "archive-figure" not in tags.classes, "Unconfigured article acquired an illustration"
 print("Article Reading 2.0 smoke tests passed (Lavitz showcase + unchanged article).")
+
+# These four major histories now use the illuminated Lavitz reading treatment.
+for slug, required in (
+    ("tellora-ebbenflow", ("archive-callout--reflection", "archive-callout--note", "archive-highlight--legacy")),
+    ("svendyal-shadowwhisper", ("archive-callout--reflection", "archive-callout--note", "archive-highlight--turning-point")),
+    ("the-misfits", ("archive-callout--reflection", "archive-callout--note", "archive-highlight--remembrance")),
+    ("aldus-greystone-iii", ("archive-figure", "archive-callout--note", "archive-highlight--turning-point")),
+):
+    page, parsed = audit(slug)
+    for cls in required:
+        assert cls in parsed.classes, f"{slug} missing {cls}"
+    assert "article-reading-track" in parsed.classes and "article-mobile-toc" in parsed.classes
+page, parsed = audit("aldus-greystone-iii")
+assert any("the-six-beneath-golden-ruins.png" in (im.get("src") or "") and im.get("alt") for im in parsed.images)
+map_html = (ROOT / "_site/connections/the-misfits/index.html").read_text(encoding="utf-8")
+assert "👻" not in map_html and "✧" in map_html and "☠" in map_html
+print("Expanded character-reading treatments and Connections emblems passed.")

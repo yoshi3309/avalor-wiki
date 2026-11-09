@@ -18,6 +18,29 @@ facts: |-
   Later public record: Specific operations remain undisclosed
 related: the-misfits,lavitz-shawe,tellora-ebbenflow,katiri-tenderfoot,heureux,amara,fo-gurn,forest-of-the-fey,the-first-commission,zauks-false-lives
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001; author-approved network and relationship details (November 2026)
+callouts:
+  - type: reflection
+    text: "Sven's unusual appearance made him difficult to overlook. His later work made him difficult to find. The Iron Shadow's legend grew in the distance between those two truths."
+    after: the-eladrin-in-grayscale
+    paragraph: 2
+    attribution: "Editorial reflection on the Iron Shadow"
+  - type: note
+    text: "Silence is not proof of loyalty or disloyalty. Sven's independent network is part of the known record; the deeds attributed to it by rumor must be judged separately."
+    after: the-iron-shadow
+    paragraph: 3
+    scholar: lady-miren-dast
+  - type: reflection
+    text: "Lavitz and Tel'Lora entered the kingdom's most visible service. Sven followed another road. Their friendship endured because it had been made before any of them acquired those titles."
+    after: two-friends-in-the-public-eye
+    paragraph: 2
+    attribution: "Editorial reflection on the companions"
+highlight_sections:
+  - section: roads-traveled-in-company
+    tone: remembrance
+  - section: the-iron-shadow
+    tone: turning-point
+  - section: friendship-beyond-the-official-record
+    tone: legacy
 featured: false
 ---
 
@@ -32,8 +55,6 @@ The record is not empty. It establishes his participation in the fellowship, his
 ## The eladrin in grayscale
 
 Sven is an **eladrin**, an ancestry often associated in Avalorian scholarship with the Feywild. His striking **grayscale appearance** made him unusual even to people familiar with the varied peoples of Avalor.
-
-His grayscale appearance set him apart even among eladrin, and people often noticed it before they learned anything else about him.
 
 The Feywild and the [[Forest of the Fey]] both appear in stories about eladrin ancestry, though they are not the same place. Sven's early home remains less familiar to the kingdom than the roads he traveled with the Misfits.
 
@@ -75,7 +96,7 @@ In the years after Cid's defeat, Sven became known as **the Iron Shadow**. His l
 
 The official **Silver Hand**, [[Katiri Tenderfoot]], runs **another spy network** in service to the crown. The two networks sometimes clash. Katiri respects Sven's capabilities but also distrusts a man who can gather information without answering to her office. Sven is neither her subordinate nor a member of the Aegis by virtue of this work.
 
-Whispers credit the Iron Shadow with more deeds than one man could comfortably claim. He has an intelligence network of his own, though its agents and operations remain as elusive as the man at its center.
+Whispers credit the Iron Shadow with more deeds than one man could comfortably claim. Most of those claims have no evidence beyond the whispers themselves.
 
 For Katiri, the rivalry carries an inconvenient complication: she is drawn to Sven even as she distrusts him. Whatever he makes of that affection, neither spy has allowed it to dissolve their competing loyalties.
 

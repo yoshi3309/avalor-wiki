@@ -18,6 +18,41 @@ facts: |-
 related: guilds-of-avalor,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,cid-the-blood-king,rynhold-park,great-library-aldus-greystone
 source: The Living Chronicle, Chapters III–IV and VI–VII; Compendium II ·
   Entries II.001–II.002, public Scholar's Accounts
+illustrations:
+  - image: /assets/uploads/the-six-beneath-golden-ruins.png
+    alt: "An archival fantasy illustration depicting six founding companions among ancient golden ruins."
+    caption: "An artistic depiction of the Six in the founding age, before friendship gave way to the Sundering."
+    after: a-companion-of-the-six
+    paragraph: 2
+    layout: wide
+callouts:
+  - type: reflection
+    text: "The tragedy of Aldus is not that he never healed anyone. It is that the good he once did became, in his own reasoning, permission to inflict suffering in pursuit of a greater cure."
+    after: the-healer-before-the-blood-king
+    paragraph: 2
+    attribution: "Editorial reflection on Aldus's early reputation"
+  - type: reflection
+    text: "He began by trying to spare others from death. He came to believe that suffering inflicted now could be excused by a future in which death no longer existed."
+    after: when-preservation-became-defiance
+    paragraph: 3
+    attribution: "Editorial reflection on the turning of his purpose"
+  - type: note
+    text: "The story of a betrayed healer did more than preserve an error. It helped determine whose testimony could be trusted—and whose, including that of a drow defender, could be dismissed without being heard."
+    after: the-man-who-endured-as-cid
+    paragraph: 4
+    scholar: professor-xiomara-thal
+  - type: note
+    text: "A corrected statue does not settle how Aldus ought to be remembered. It permits both the old praise and the later reckoning to remain visible to those willing to examine them."
+    after: a-name-that-remains
+    paragraph: 2
+    scholar: lady-miren-dast
+highlight_sections:
+  - section: when-preservation-became-defiance
+    tone: turning-point
+  - section: the-catastrophe-at-the-black-tower
+    tone: remembrance
+  - section: a-name-that-remains
+    tone: legacy
 featured: false
 ---
 ## The healer before the Blood King
@@ -25,8 +60,6 @@ featured: false
 For much of Avalor's history, **Aldus Greystone III** was celebrated as one of the kingdom's greatest founding heroes. His name was associated with healing, scholarship, and the hope that suffering might one day be overcome. The discoveries made after the defeat of [[Cid the Blood King]] transformed that reputation, but they did not erase the man who existed before the catastrophe.
 
 Aldus possessed remarkable gifts in restorative magic and an unusual command of the forces of weather. Accounts of his early work describe a healer sought by the sick and injured, one whose abilities gave hope to people beyond the reach of ordinary remedies. His reputation was earned long before the crimes for which he would later be remembered.
-
-Aldus enters Avalor's story as an extraordinarily capable healer, celebrated for talents that promised relief from suffering. The path that turned this gift toward cruelty is far better remembered than the details of his youth.
 
 ## A student of the Silver Forge
 
