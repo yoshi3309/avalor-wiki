@@ -657,7 +657,7 @@ for gallery_file in sorted((ROOT / 'content' / 'gallery').glob('*.yml')):
     # Gallery images are normally existing CMS uploads. Two vetted, source-controlled
     # archive SVGs are exceptions; never permit arbitrary SVG uploads or remote URLs.
     vetted_artwork = {'assets/crest.svg', 'assets/hero-scene.svg'}
-    standard_upload = re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\\.(?:png|jpe?g|webp|gif)', raw_image, re.I)
+    standard_upload = re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I)
     if (not (standard_upload or raw_image in vetted_artwork)
             or '..' in Path(raw_image).parts or not (ROOT / raw_image).is_file()):
         raise ValueError(f'{gallery_file}: gallery image must be an existing public upload or approved archive illustration')
