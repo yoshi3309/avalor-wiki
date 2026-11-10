@@ -17,16 +17,14 @@ The strongest accounts, including Lavitz Shawe, Renada, the Six and the Misfits,
 
 ## Editorial priorities
 
-### Priority A — Evidence and continuity (source review before publication)
+### Priority A — Provenance and continuity (source cross-check)
 
-These deserve paragraph-by-paragraph checking against the user's authorized historical materials before being strengthened or expanded. **Do not assume that a compelling custom or anecdote is an independently attested part of the world.**
+**Source-check correction, November 10:** The previously listed customs and scholarly illustrations are supported by the authorized material's **public-facing historical accounts**. *Stone and the Seed*, *First Loaf*, *Three Questions*, *Atlas of Returns*, *Returning Thread*, *Scribe's Question* and *Blank Folio* should **not** be called invented or removed. Preserve their stated limits: localized practices, modern scholarly observations, or later marginalia—not universally obligatory rituals, firsthand ancient documents, or powers beyond the documented traditions.
 
-- **Primordial Powers:** Check whether *the Stone and the Seed* lesson, Heureux's purported joke, and scholars' attributed interpretations come from confirmed source material or are editorial illustrative inventions. Keep the distinction clear if retained.
-- **Lathander and the Dawn:** Verify the *First Loaf* observance and the degree to which the practice is established in the setting. Its moral character is plausible, but plausibility is not historical evidence.
-- **Planes of Existence:** Verify the *Three Questions* at Shamman’s Tower, the *Atlas of Returns*, and the *Returning Thread* custom as recorded practices rather than unattributed embellishments.
-- **Aethrion:** Recheck the scholarly interpretations, *Scribe's Question* and *Blank Folio* for provenance. Preserve the contested voices where documented; do not turn an unattributed moral illustration into a purported rediscovered historical artifact.
-- **Chronological continuity:** Check which dates are exact, approximate or reign-based; retain distinction between the founding in 1 AF and Heroes Hill; keep Jaznaar's exact class unresolved unless the author settles it. Avoid giving publication dates the appearance of in-world AF dates.
-- **Character images:** A filename is not sufficient evidence of identity; any new image-to-character associations must be drawn from the image field of the published biography or from reviewed gallery entries.
+- **Cosmological precision:** Preserve Aethrion's uncertain historic location and interpretation, the incomplete nature of planar cosmology, and the scholarly disagreement over primordial origins. Keep private revelations separate from the public account.
+- **Chronological continuity:** Distinguish exact dates, approximate years, royal reigns, and editorial publication dates; retain Jaznaar's class as unresolved until explicitly settled.
+- **Identity and imagery:** Use deliberate, author-assigned character artwork in articles and Gallery; renamed files alone do not identify a character unless the author has made that association.
+- **Unverified detail:** Continue checking other claims for explicit source support before new expansions, especially unnamed offices, geographical boundaries, direct quotations, and numerical specificity.
 
 ### Priority B — Stronger prose (safe structural editing)
 
@@ -58,5 +56,5 @@ These deserve paragraph-by-paragraph checking against the user's authorized hist
 
 - **Pass 1:** All 112 articles inventoried for length, media, headings and prominent editor-facing terminology; selected narrative close-read completed.
 - **Pass 1 revisions:** Stylistic edits only to Stanleyville, Denzians Forest, Black Tower, Lathander and the Dawn, Planes of Existence, and Primordial Powers. No hidden lore introduced.
-- **Pass 2 needed:** Verify authorial provenance of the named illustrative customs and scholarly anecdotes listed in Priority A, then do a chapter-by-chapter narrative review of the longer encyclopedic accounts.
+- **Pass 2 needed:** Source-check the remaining substantive claims and do a chapter-by-chapter narrative review of the longer encyclopedic accounts. The previously flagged localized customs have been verified and do not require invention-related correction.
 - **Phase 6.6 — Chapter Sharing to Discord** remains **on hold** until the author is satisfied with editorial consistency.
