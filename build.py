@@ -931,6 +931,44 @@ for gallery_file in sorted((ROOT / 'content' / 'gallery').glob('*.yml')):
     GALLERY_ITEMS.append(item)
     for slug in related_slugs:
         GALLERY_BY_ARTICLE.setdefault(slug, []).append(item)
+# Automatically catalogue approved character portraits already assigned to
+# published People & Legends articles. The curated galleries remain authoritative
+# when they have an entry for that character; this only fills genuine gaps.
+# Never infer artwork identity from a filename alone.
+for article in ALL:
+    if article['category'] != 'People & Legends':
+        continue
+    slug=article['slug']
+    if any(item['collection'] == 'characters' and item['related']
+           and item['related'][0]['slug'] == slug for item in GALLERY_ITEMS):
+        continue
+    raw_image=str(article.get('image_url') or '').strip().lstrip('/')
+    # Image paths were validated by article_image_src; do not expose arbitrary
+    # URLs, private material, or non-image assets as a portrait.
+    if not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I):
+        continue
+    if not (ROOT / raw_image).is_file():
+        continue
+    ident='portrait-'+slug
+    if ident in gallery_ids:
+        continue
+    gallery_ids.add(ident)
+    item={
+        'id':ident,
+        'title':article['title'],
+        'collection':'characters',
+        'collection_title':GALLERY_COLLECTION_BY_ID['characters']['title'],
+        'image':raw_image,
+        'alt':str(article.get('image_alt') or 'Portrait associated with '+article['title']+'.'),
+        'caption':str(article.get('image_caption') or article['summary']),
+        'era':str(article.get('era') or ''),
+        'credit':'',
+        'featured':False,
+        'related':[{'slug':slug,'title':article['title']}],
+    }
+    GALLERY_ITEMS.append(item)
+    GALLERY_BY_ARTICLE.setdefault(slug,[]).append(item)
+
 GALLERY_ITEMS.sort(key=lambda item: (not item['featured'], item['title'].casefold()))
 for wing in GALLERY_COLLECTIONS:
     members = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
