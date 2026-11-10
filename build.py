@@ -8,6 +8,8 @@ import html
 import json
 import re
 import shutil
+import os
+from urllib.parse import urljoin
 import unicodedata
 from pathlib import Path
 from functools import lru_cache
@@ -15,6 +17,7 @@ import yaml
 import mistune
 from public_references import public_sources
 from media_optimization import generate_media
+from social_cards import card as social_card
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
@@ -786,13 +789,97 @@ for wing in GALLERY_COLLECTIONS:
 
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
+# The canonical base must match the published GitHub Pages project URL; an
+# eventual custom domain can override it in CI using AVALOR_SITE_URL.
+SITE_URL = os.environ.get('AVALOR_SITE_URL', 'https://yoshi3309.github.io/avalor-wiki/').strip()
+if not SITE_URL.startswith('https://') or ' ' in SITE_URL or '?' in SITE_URL or '#' in SITE_URL:
+    raise ValueError('AVALOR_SITE_URL must be an absolute HTTPS site base URL')
+SITE_URL = SITE_URL.rstrip('/') + '/'
+
+
+def preview_subject(values):
+    """Choose only artwork already assigned to public wiki records."""
+    kind = values['page_type']
+    title = str(values['title'])
+    summary = str(values['description'])
+    label = 'The Royal Archives'
+    artwork = None
+    if kind == 'article':
+        a = values['article']
+        label = a['category']
+        artwork = a.get('image_url')
+        if not artwork and GALLERY_BY_ARTICLE.get(a['slug']):
+            artwork = GALLERY_BY_ARTICLE[a['slug']][0]['image']
+    elif kind == 'gallery':
+        wing = values.get('active_gallery_collection')
+        label = 'Illustration Gallery'
+        if wing:
+            artwork = wing.get('cover')
+        elif GALLERY_ITEMS:
+            artwork = GALLERY_ITEMS[0]['image']
+    elif kind == 'exhibits':
+        label = 'Historical Documents'
+        # A reconstructed folio has no approved photograph of the original.
+        # Use neutral archive branding rather than suggesting a real original.
+        if values.get('exhibit'):
+            label = str(values['exhibit']['kind'])
+    elif kind == 'map':
+        label = 'Cartographer’s Table'
+        artwork = MAP_IMAGE
+    elif kind == 'home':
+        label = 'A World of Kingdoms and Legends'
+        artwork = 'assets/uploads/avalor-official-map.webp'
+    elif kind == 'journeys':
+        label = 'Guided Reading'
+        journey = values.get('journey')
+        if journey and journey.get('steps'):
+            first = journey['steps'][0]['article']
+            artwork = first.get('image_url')
+            if not artwork and GALLERY_BY_ARTICLE.get(first['slug']):
+                artwork = GALLERY_BY_ARTICLE[first['slug']][0]['image']
+    elif kind == 'connections':
+        label = 'People & Connections'
+    elif kind == 'timeline':
+        label = 'The Living Chronicle'
+    elif kind == 'category':
+        label = 'Public Collections'
+        collection = values.get('current_category')
+        for candidate in ALL:
+            if candidate['category'] == collection and candidate.get('image_url'):
+                artwork = candidate['image_url']
+                break
+    elif kind == 'reading-desk':
+        label = 'Personal Reading Desk'
+    elif kind == 'all':
+        label = 'Encyclopedia'
+    return (title, summary, label, artwork)
+
+
 def render(template,path,depth=0,**kwargs):
-    path=PUBLIC/path
-    path.parent.mkdir(parents=True,exist_ok=True)
+    path_relative = str(path)
+    page = PUBLIC / path_relative
+    page.parent.mkdir(parents=True,exist_ok=True)
     rel='../'*depth or './'
-    values={'root':rel,'categories':CATEGORIES,'total_count':len(ALL),'page_type':'home','current_category':None,'crumbs':'','description':'Explore the people, places, and histories of the World of Avalor.','title':'The Royal Archives'}
+    values={'root':rel,'categories':CATEGORIES,'total_count':len(ALL),'page_type':'home','current_category':None,'crumbs':'',
+            'description':'Explore the people, places, and histories of the World of Avalor.','title':'The Royal Archives'}
     values.update(kwargs)
-    path.write_text(ENV.get_template(template).render(**values),encoding='utf-8')
+    title, summary, label, artwork = preview_subject(values)
+    # The path is already a trusted, build-authored page path (never a URL from
+    # uploaded content). Preserve canonical trailing slashes for Discord bots.
+    canonical = urljoin(SITE_URL, path_relative.removesuffix('index.html'))
+    key = path_relative.removesuffix('/index.html').removesuffix('.html')
+    if key == 'index':
+        key = 'home'
+    preview = social_card(ROOT, PUBLIC, key, title, summary, label, artwork)
+    values.update({
+        'canonical_url': canonical,
+        'social_title': title + ' | Archives of Avalor',
+        'social_image': urljoin(SITE_URL, preview),
+        'social_description': ' '.join(summary.split())[:220],
+        'social_image_alt': 'Archive-style preview for ' + title,
+        'social_type': 'article' if values['page_type'] in ('article','exhibits') and kwargs.get('exhibit') or values['page_type']=='article' else 'website'
+    })
+    page.write_text(ENV.get_template(template).render(**values),encoding='utf-8')
 
 if PUBLIC.exists():shutil.rmtree(PUBLIC)
 PUBLIC.mkdir()

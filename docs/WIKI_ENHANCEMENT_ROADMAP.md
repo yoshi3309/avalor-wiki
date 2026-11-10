@@ -27,6 +27,8 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Responsive artwork & mobile media optimization (2026-11-09):** Automatic Pillow/WebP variants (480/960/1440px) generated for approved public raster uploads during GitHub Pages builds, using source-preserving picture tags for gallery cards, collection covers, article figures and portraits. Full-resolution originals remain accessible, especially the atlas map. Intrinsic image dimensions, lazy loading, and a public build-time media report are included. `media_optimization.py`, `tests/check_media_performance.py`.
 
+- **Discord & social previews (2026-11-09):** Open Graph and Twitter large-card metadata with canonical absolute URLs, source-grounded descriptions, and generated 1200 × 630 JPEG artwork for every public page. Approved public article/gallery art is preferred; pages without suitable assets receive an archival heraldic card. Preserves originals, embeds image metadata for Discord bots, tests paths and dimensions, and allows a future HTTPS base URL through AVALOR_SITE_URL. See docs/DISCORD_SOCIAL_PREVIEWS.md.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
@@ -37,7 +39,7 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - Media delivery follow-up: assess field performance on phones (real-device Web Vitals) and consider caching policies after deployment
 - Further assistive-technology and keyboard usability audits (manual cross-browser/screen-reader verification)
-- Social preview and page metadata
+- Social preview follow-up: check Discord's cached embeds and consider per-article editorial artwork overrides after live testing
 - Sitemap generation and more maintainable timeline data
 - README / editor documentation updates
 
