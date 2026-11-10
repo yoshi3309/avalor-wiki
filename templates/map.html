@@ -12,7 +12,7 @@
       <div class="atlas-tools" aria-label="Map controls">
         <div class="atlas-zoom-buttons"><button id="atlas-zoom-in" type="button" title="Zoom in" aria-label="Zoom in">+</button><button id="atlas-zoom-out" type="button" title="Zoom out" aria-label="Zoom out">−</button><button id="atlas-reset" type="button">Fit map</button></div>
         <div class="atlas-tool-note">Drag to pan · Scroll to zoom · Arrow keys to move</div>
-        <button id="atlas-edit-toggle" type="button" class="atlas-editor-toggle" aria-pressed="false">✧ Position pins</button>
+        <button id="atlas-edit-toggle" type="button" class="atlas-editor-toggle" aria-pressed="false" hidden>✧ Position pins</button>
       </div>
       <div class="atlas-viewport" id="atlas-viewport" tabindex="0" aria-label="Interactive map. Use the location list on the right to select a place.">
         <div class="atlas-scene" id="atlas-scene">
@@ -30,7 +30,7 @@
         <div class="atlas-map-fallback" id="atlas-fallback" hidden><span aria-hidden="true">♜</span><strong>The map awaits its first hanging</strong><p>The cartographer's chart has been prepared. An archivist can attach the illustrated map through <em>Map settings</em> in Pages CMS; the pins and records are already in place.</p></div>
         <div class="atlas-zoom-readout" id="atlas-zoom-readout">100%</div>
       </div>
-      <div class="atlas-map-foot"><span>ⓘ Open circles indicate approximate, yet-to-be-verified placements.</span><span>Coordinates refer to the full map image.</span></div>
+      <div class="atlas-map-foot"><span>ⓘ Open circles mark positions still under study.</span><span>The Commission continues to revise its surveys.</span></div>
       <div class="atlas-edit-workspace" id="atlas-editor" hidden>
         <div class="atlas-edit-title"><strong>Archivist's positioning desk</strong><span>Preview only · does not save to GitHub or Pages CMS</span></div>
         <p>Choose an unplaced landmark from the tray directly on the map, or from the dropdown below. Click its correct location; a provisional preview pin will appear immediately. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗</a>. Enter <strong>both X and Y</strong>, enable <strong>Show marker to players</strong>, turn off <em>Provisional</em>, and <strong>Save</strong> in Pages CMS. Unplaced landmarks are hidden from the public map until you do so.</p>
@@ -75,7 +75,7 @@
       <div class="atlas-detail" id="atlas-detail" aria-live="polite"><span class="atlas-detail-empty">Choose a place to reveal its record.</span></div>
     </aside>
   </div>
-  <div class="atlas-legend"><span><i class="atlas-key atlas-key-settlement"></i> Settlements</span><span><i class="atlas-key atlas-key-region"></i> Regions</span><span><i class="atlas-key atlas-key-water"></i> Waters</span><span><i class="atlas-key atlas-key-historic"></i> History</span><span><i class="atlas-key atlas-key-institution"></i> Institutions</span><span><i class="atlas-key atlas-key-provisional"></i> Provisional placement</span></div>
+  <div class="atlas-legend"><span><i class="atlas-key atlas-key-settlement"></i> Settlements</span><span><i class="atlas-key atlas-key-region"></i> Regions</span><span><i class="atlas-key atlas-key-water"></i> Waters</span><span><i class="atlas-key atlas-key-historic"></i> History</span><span><i class="atlas-key atlas-key-institution"></i> Institutions</span> </div>
   <details class="atlas-history-drawer" id="atlas-history-drawer"><summary><span>✦ HISTORICAL CARTOGRAPHY</span><strong>Explore Avalor Through Time</strong><small>Open the Chronicle's geographical accounts</small></summary>
   <section class="atlas-time" id="atlas-history" aria-labelledby="atlas-history-title">
     <header class="atlas-time-header">
@@ -118,7 +118,7 @@
     <p class="atlas-time-caution">The map is the present approved cartographic illustration. These marks trace the places remembered in the Chronicle. Earlier boundaries and the paths of armies have not survived in comparable detail; approximate dates remain approximate.</p>
   </section>
   </details>
-  <details class="atlas-cartographer-drawer"><summary>Cartographer's desk · Uncharted landmarks</summary>
+  <details class="atlas-cartographer-drawer" hidden><summary>Cartographer's desk · Uncharted landmarks</summary>
   {% set unplaced = map_data.locations | rejectattr("placed") | list %}
   {% if unplaced %}
   <section class="atlas-unplaced" aria-label="Landmarks awaiting placement">

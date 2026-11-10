@@ -386,7 +386,11 @@
     document.dispatchEvent(new CustomEvent('avalor:history-focus-result', {detail:{success:true,id:loc.id}}));
   });
   const params=new URLSearchParams(window.location.search);
-  if(params.get('edit')==='1')editToggle.click();
+  const editingRequested=params.get('edit')==='1';
+  editToggle.hidden=!editingRequested;
+  const cartographerDrawer=document.querySelector('.atlas-cartographer-drawer');
+  if(cartographerDrawer) cartographerDrawer.hidden=!editingRequested;
+  if(editingRequested)editToggle.click();
   const requested=params.get('place');
   if(requested && find(requested))select(requested,true);
   else if(!state.editing && locations.some(isPublic))select(locations.find(v=>v.id==='renada'&&isPublic(v))?.id||locations.find(isPublic).id,false);

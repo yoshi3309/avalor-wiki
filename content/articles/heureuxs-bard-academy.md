@@ -12,7 +12,6 @@ facts: |-
   Purpose: Study and practice of the bardic arts
   Known student: Myxi Twinefoot, Golden Hand of the Aegis
   Related institution: Society of Silk & Story, independently established
-  Formal academy name: Not established
 related: heureux,myxi-twinefoot,bard-guild,taveras,the-misfits,kelsalor,royal-commission-historical-inquiry
 source: The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible Volume I, VI–VII; author-approved student detail and Society of Silk & Story distinction (November 2026)
 featured: false
