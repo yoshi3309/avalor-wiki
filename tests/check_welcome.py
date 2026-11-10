@@ -17,7 +17,8 @@ assert 'id="archive-collections"' in home and 'id="archive-chronicle"' in home
 assert 'href="./archive/"' in page
 assert 'name="robots" content="noindex"' in old_start
 assert 'location.hash' in old_start
-assert 'Keeper material' in page
+assert 'Keeper material' not in page
+assert 'The Royal Commission welcomes all' in page
 assert 'data-welcome-panel' in page and 'data-welcome-choice' in page
 assert 'aria-controls="welcome-' in page
 assert 'data-welcome-panel="kingdom"' in page and 'data-welcome-panel="world"' in page

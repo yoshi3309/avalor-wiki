@@ -33,6 +33,11 @@ callouts:
     attribution: Editorial reflection on the Blank Folio
     after: a-blank-folio-for-the-forgotten
     paragraph: 3
+  - type: contested
+    text: "Brother Halden Korr interprets Aethrion's fall as a warning against power divorced from duty. Professor Xiomara Thal challenges the condemnation of its ordinary inhabitants, while Lady Miren Dast questions the strength of the surviving testimony. Their accounts remain in disagreement."
+    attribution: The Royal Commission's review of three scholarly interpretations
+    after: judgment-intervention-or-explanation
+    paragraph: 4
 highlight_sections:
   - section: the-catastrophe-without-a-witness
     tone: turning-point
@@ -112,10 +117,6 @@ These cannot all be treated as precise observations of the same physical event. 
 A city destroyed by fire ordinarily leaves debris. A conquered state appears in an enemy's register. Refugees may remember a lost homeland. In Aethrion's case, **no authenticated eyewitness account, ruin, or identifiable body of refugee testimony** has been securely established.
 
 Some take this as grounds to doubt the civilization's existence. Others believe a disaster of unusual character could explain the absence. But a missing record cannot become proof of the very event invoked to explain its loss.
-
-**CONTESTED ACCOUNTS · THE FATE OF AETHRION**
-
-> Brother Halden Korr interprets Aethrion's fall as a warning against power divorced from duty. Professor Xiomara Thal questions the condemnation of its ordinary people, while Lady Miren Dast asks what surviving testimony can truly prove. The Commission preserves these differing readings without declaring a verdict.
 
 ## Judgment, intervention, or explanation?
 
