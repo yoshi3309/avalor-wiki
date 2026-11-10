@@ -52,6 +52,26 @@ The strongest accounts, including Lavitz Shawe, Renada, the Six and the Misfits,
 6. Avoid attributing verbatim quotations to characters or archival contributors without the text existing in a confirmed source.
 7. Prioritize corrections that affect readers' understanding, then eliminate repetition, and only then consider stylistic polish.
 
+## Source-check findings and corrections (10 November 2026)
+
+The following once-questioned details are confirmed in the authorized **public-facing scholarly sections** of the Avalor Compendium and may stay in the encyclopedia. They must retain their limited scope rather than becoming universal rituals or ancient eyewitness evidence:
+
+- **Stone and the Seed:** A local instructional custom among certain druidic circles influenced by Kelsalor; Compendium Volume I, entry I.001.
+- **First Loaf:** A charitable dawn practice among some Lathander devotees; Volume I, entry I.004.
+- **Three Questions:** Shamman’s Tower exercise about entering, surviving and returning from another plane; Volume I, entry I.006.
+- **Atlas of Returns:** A scholarly record of planar routes and testimony, *not* a perfectly reliable travel chart; entry I.006.
+- **Returning Thread:** A symbolic household practice, not a protective spell; entry I.006.
+- **Scribe's Question:** An annotation in a later theological manuscript about Aethrion, not an authenticated ancient eyewitness account; entry I.002.
+- **Blank Folio:** A contemporary commemorative scholarly device associated with Professor Xiomara Thal, not an excavated relic; entry I.002.
+
+The public wiki must cite only the scholarly account and must never incorporate the enclosed restricted commentary about underlying cosmic truths. **Do not remove these traditions as fabricated:** the earlier review's provisional doubt was resolved by direct inspection of the source.
+
+The authorized Master Canon Bible and Living Chronicle also confirm that **Tel’Lora uses he/him**, **the original Lord Marshal's office remained vacant until Lavitz**, **Jaznaar was innocent**, and **Fo'Gurn's part in Cid's defeat was not widely known**. Treat those as mandatory continuity checks. The Living Chronicle's 34-sovereign register is later specific published historiography; do not silently replace it with an older shorthand dynastic count.
+
+## Image production
+
+See [Artwork Production Plan](ARTWORK_PRODUCTION_PLAN.md) for four high-priority places to illustrate, secondary landscape briefs, character identity checks, style/format standards, and image-to-Gallery publishing steps. Newly assigned named portraits have been linked across their corresponding biographies and curated exhibits; do not create new images merely to solve filename mismatches.
+
 ## Review disposition
 
 - **Pass 1:** All 112 articles inventoried for length, media, headings and prominent editor-facing terminology; selected narrative close-read completed.
