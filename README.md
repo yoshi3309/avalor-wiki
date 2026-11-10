@@ -1,157 +1,83 @@
-## Wiki improvement roadmap
+# The Archives of Avalor
 
-The six-part website enhancement checklist (including completed milestones, current focus, and parked technical tasks) lives in [docs/WIKI_ENHANCEMENT_ROADMAP.md](docs/WIKI_ENHANCEMENT_ROADMAP.md). The relationship atlas is documented in [docs/RELATIONSHIP_ATLAS.md](docs/RELATIONSHIP_ATLAS.md).
+The **player-facing Scholar's Edition of the World of Avalor** — a static, illustrated fantasy encyclopedia published on GitHub Pages. It is not a DM repository or a transcription of secret campaign material.
 
-# The Archives of Avalor — Player-facing Wiki
+**Live site:** https://yoshi3309.github.io/avalor-wiki/
 
-A **free, customizable fantasy encyclopedia** built for GitHub Pages. This repository holds **only player-approved Scholar's Accounts**. It must never contain Keeper's Notes, campaign twists, secret maps, DM-only PDFs, or future campaign plans.
+**Content editor:** https://app.pagescms.org/ (repository: yoshi3309/avalor-wiki)
 
-## What is ready now?
+**Current roadmap:** [Wiki Enhancement Roadmap](docs/WIKI_ENHANCEMENT_ROADMAP.md)
 
-- Home page with original lion crest and illustrated skyline.
-- 15 interconnected public articles in five categories.
-- Search across public article text (Cmd/Ctrl + K).
-- At-a-glance information boxes, table of contents, related pages, mobile navigation.
-- A public Living Chronicle timeline.
-- Browser editing through **Pages CMS** (`.pages.yml`).
-- GitHub Actions publication workflow for free GitHub Pages hosting.
-- Entire site is static. No subscription, database, login server, or paid CDN is needed.
+## What's inside?
 
-## 1 — Preview it locally (optional)
+As of November 10, 2026, the repository holds **112 public encyclopedia articles** across five collections, **29 curated illustration exhibits**, and **five editorial historical exhibits**. These counts change as editors publish new material.
 
-The preview PNG files shared with this package show the design. For live navigation and search in a local browser, serve the site with Python:
+| Explore | URL | Purpose |
+|---|---|---|
+| Archivist's Welcome | /start/ | Four introductory pathways using established public lore |
+| Encyclopedia | /articles/ | Discover and search public records |
+| Living Chronicle | /chronicle/ | 18 historically qualified entries |
+| Interactive Atlas | /map/ | Approved public map pins, regions, and landmarks |
+| Atlas Through Time | /map/#atlas-history | Six documented geographic links to Chronicle events |
+| Connections Explorer | /connections/ | Curated, source-backed relationships |
+| Character Comparison Dossiers | /compare/ | 17 reviewed people, with cited facts and shareable comparisons |
+| Reading Journeys | /journeys/ | Curated reading sequences |
+| Illustration Gallery | /gallery/ | Public character artwork and landscape exhibits |
+| Historical Exhibits | /exhibits/ | Five explicitly modern editorial reconstructions |
+| My Reading Desk | /reading-desk/ | Browser-local bookmarks and progress |
 
-```bash
-python -m pip install -r requirements.txt
-python build.py
-cd _site
-python -m http.server 8000
-```
+Additional features include responsive WebP artwork, original full-resolution files, Discord preview cards for published pages, the search command (Cmd/Ctrl + K), chapter navigation, and reading comfort settings for font size, typeface, contrast, and motion.
 
-Then open http://localhost:8000 in a browser. To change text, edit any Markdown file under `content/articles`, then run `python build.py` again.
+## Edit public material through Pages CMS
 
-## 2 — Publish for free with GitHub Pages
+Sign in to [Pages CMS](https://app.pagescms.org/), open **yoshi3309/avalor-wiki**, and choose an editorial collection. Saving creates a GitHub commit and triggers publishing checks.
 
-1. Create a free GitHub account at https://github.com if needed.
-2. Create a **PUBLIC** repository, e.g. `avalor-wiki`. A public repo is necessary for GitHub Pages with GitHub Free. **Do not add any restricted source files.**
-3. Upload **the contents of this starter folder** (including hidden `.github/workflows` and `.pages.yml`) into the repository root. Do **not** upload the entire ZIP as one file.
-4. On GitHub open **Settings → Pages**. Under **Build and deployment**, set **Source = GitHub Actions**.
-5. Open **Actions → Publish the Archives of Avalor → Run workflow**, if it hasn't run automatically after the upload. The build generates `_site/` and publishes it.
-6. GitHub supplies a URL like `https://YOUR-USERNAME.github.io/avalor-wiki/`. No domain purchase is required. Subsequent edits to Markdown trigger a rebuild automatically.
+- **Articles:** Source Markdown is under content/articles/. Use unique lowercase-hyphenated filenames. Supply a public title, category, summary, provenance, and body. Markdown links and public wiki links support named articles and chapter headings.
+- **Illustrations:** Upload only approved public JPG, PNG, or WebP files to assets/uploads through Pages CMS. Provide meaningful alternative text. WebP previews are regenerated automatically; originals are preserved.
+- **Atlas:** data/avalor-map.yml is editable under Map settings & locations. Open /map/?edit=1 to preview positions, then copy both X and Y into Pages CMS and save. Clicking the map alone does NOT publish coordinates. Never invent a marker position for convenience.
+- **Gallery:** Records under content/gallery/ include title, collection, caption, image, and related sources. Renaming an artwork does not automatically change its gallery collection; update that field separately.
+- **Historical exhibits:** Records under content/exhibits/ are labeled editorial reconstructions. Do not claim their wording, parchment, or modern archive crest are genuine recovered manuscripts.
+- **Historical and comparison datasets:** Source-controlled YAML under data/ requires valid public article IDs and, where applicable, verified chapter anchors.
 
-The site uses relative paths, so it works under any project-repository name or at the root of a domain—no base URL configuration required.
+Detailed feature guides: [Archivist's Welcome](docs/ARCHIVISTS_WELCOME.md), [Character Comparisons](docs/CHARACTER_COMPARISONS.md), [Atlas Through Time](docs/ATLAS_THROUGH_TIME.md), [Responsive Media](docs/RESPONSIVE_MEDIA.md), and [Discord Previews](docs/DISCORD_SOCIAL_PREVIEWS.md).
 
-## 3 — Edit articles visually with Pages CMS (free)
+## Preview locally
 
-1. Visit https://app.pagescms.org and sign in with GitHub.
-2. Give Pages CMS access **only to the public Avalor repository**; never authorize or store Keeper files in it.
-3. Pages CMS automatically reads `.pages.yml` from the repo root. Open **Public archive articles** to edit/create a page.
-4. Edit the title, category, summary, fact box, related article filenames, and article body. Save. Your changes go to GitHub; the Actions workflow republishes the public site.
+Requires Python 3.12. Install the requirements from requirements.txt, build with Python, then serve _site with any static HTTP server. Example commands:
 
-The editable `body` is normal Markdown; you can also write `[[The Aegis]]` or `[[The Misfits|Misfits]]` to create automatic cross-links to known article titles.
+    python -m pip install -r requirements.txt
+    python build.py
+    python tests/check_site_quality.py
+    python -m http.server 8000 --directory _site
 
-**Article-section links and editorial merges.** Wiki links can point to a named section with `[[Renada#the-mudsteps|Mudsteps]]`. Only headings that actually exist are valid; the public-canon test checks them. The source-controlled `data/article-merges.yml` maintains old article URLs as redirects after a section is consolidated. Do not reuse a retired slug or delete its redirect: old bookmarks and map links depend on it.
+Then visit http://localhost:8000/. No paid hosting or local database is required. The build writes _site/sitemap.xml, _site/quality-report.json, and _site/media-report.json.
 
-**Important:** The hosted CMS is third party, although its product currently advertises that it is free. Read its access permission screen before authorizing. No passwords or GitHub tokens belong in the project files.
+To reproduce the complete publishing checks, follow [.github/workflows/publish.yml](.github/workflows/publish.yml). The workflow validates public canon, internal links and chapter anchors, generated HTML, image alternative text, previews, historical references, and accessibility smoke checks.
 
-## 4 — Add a new public article
+## Search engine and quality safeguards
 
-In Pages CMS create an article and save. To add manually, duplicate a file in `content/articles`, rename it to a lowercase-hyphenated slug, and replace its frontmatter and Markdown. Example:
+Each build creates a canonical sitemap at /sitemap.xml and a robots.txt sitemap pointer. Retired articles remain accessible through redirects but are excluded from the sitemap.
 
-```markdown
----
-title: The Great Citadel
-subtitle: Seat of the Lion Throne
-summary: A historical description suitable for players.
-category: Kingdoms & Places
-entry: LOC.004
-era: Age of Ascendancy
-facts: "Location: Renada\nInstitution: Royal government"
-related: renada,kingdom-of-avalor
-source: Approved Scholar's Account
-featured: false
----
+The build's quality report checks actual generated pages and references: local links, destination chapters, resources, duplicate IDs, missing image alt attributes and top-level headings. The publishing test fails if unresolved issues remain. Off-site links are not fetched and require separate human verification.
 
-## The citadel
+The site audit is **not** a formal WCAG certification, an automated screen-reader test, or a guarantee of live mobile speed. Manually test iPhone Safari, Android Chrome, keyboard navigation, high browser zoom and assistive technology after major visual changes.
 
-The citadel overlooks [[Renada]].
-```
+## GitHub Pages and domain notes
 
-### Categories
+This repository publishes to https://yoshi3309.github.io/avalor-wiki/ through GitHub Actions.
 
-- Kingdoms & Places
-- People & Legends
-- Organizations & Factions
-- History & Chronicles
-- Faith, Magic & Cosmology
+The builder uses that actual HTTPS base for canonical links, sitemap entries, and absolute Discord preview image URLs. If the site moves to a custom domain, configure AVALOR_SITE_URL to match the **real deployed HTTPS address**, and test the deployment and crawler metadata. Do not merely change URLs in documentation.
 
-## 5 — The non-negotiable security boundary
+Discord can cache older link previews. Curated paired comparisons have independent preview cards; arbitrary selector combinations use the general comparison-page image.
 
-**PUBLIC REPOSITORY:** This package, the `content/articles` directory, the compiled `_site` and the publicly searchable index. Players can read all of this and inspect its source. Every fact is assumed public, even if it appears only in metadata or a hidden HTML element.
+## Non-negotiable canon and privacy boundary
 
-**PRIVATE DM ARCHIVE:** Keep the Master Canon Bible, the Keeper's Editions of Volumes I and II, restricted annotations, character plans, encounter notes, and future campaign material in a **separate private repository or your own local folder**. Create the private repo independently on GitHub, choose **Private**, and do not turn on GitHub Pages for it. No private notes or PDFs are included in this starter package.
+**Everything committed to this public repository can be viewed by players.** That includes all source Markdown and YAML, images, datasets, generated HTML, and search metadata. Hiding an entry in the interface does not keep it secret in GitHub.
 
-**Publication rule:** Only export and publish a scholar-approved text after reviewing it. The script reads `content/articles/*.md` exclusively, never a Keeper PDF; and the search index is built solely from those same public articles. A private folder inside a public repository is *not private*.
+Keep Master Canon Bibles, Keeper volumes, private encounters, undisclosed lore, secret maps, unreleased character art, and future campaign plans in a **separate private repository or local folder**. Never publish DM-only information in public-source metadata.
 
-## Editorial boundary / historical scope
+Do not invent missing genealogies, personal relationships, ancient political borders, exact historical event locations, fake document provenance, character abilities, dates, or map coordinates just to populate an interactive feature.
 
-This starter's articles follow the **Age of Ascendancy**, after the Misfits defeated Cid and at the established Age of Ascendancy historical boundary. Sources consulted for player-approved facts: *The Living Chronicle (Historical Sources Edition)* and the public Scholar's Account portions of *Compendium Volume II (Keeper's Edition)*. The Keeper sections were consulted for continuity and **were not copied**. Entries are concise editorial adaptations, **not full transcriptions** of the source books; review public-facing wording before inviting players.
+## Operating cost
 
-## Cost
-
-**$0 required** for a public repository, GitHub Pages hosting, the site's code, and the optional Pages CMS editing interface under their currently published free offerings. A custom domain is optional and not included. If you need to restrict website viewers to specific players, GitHub Pages' public hosting does **not** provide password-protected access on the free tier.
-## 6 — Add images yourself (no coding)
-
-In [Pages CMS](https://app.pagescms.org), open `yoshi3309/avalor-wiki` and select **Public archive articles**. Open a public article:
-
-- **Main image / character portrait**: choose or upload a JPG, PNG, or WebP. It appears in the illustrated panel alongside the article's facts. Add a useful **Image description** and optional **Image caption or artist credit**.
-- **The Scholar's Account**: use the rich-text editor's image tool to insert extra artwork between paragraphs, such as maps, ruins, or tavern illustrations. The editor stores uploaded images in `assets/uploads` automatically.
-- Click **Save**. The GitHub Actions workflow rebuilds the website. You never need to edit the code to add art.
-
-**Important:** Every image in the public repository is visible to players. Do not upload secret location maps, villain concept art, or unpublished campaign reveals here. Keep the Keeper archive separate.
-
-
-## Interactive Atlas of Avalor (The Cartographer's Table)
-
-Open the atlas at `/map/`. It supports zoom/pan, searchable and filtered markers, summaries, hyperlinks to articles, and provisional-location markers. The atlas has no paid map service or external map data provider.
-
-### One-time map artwork upload
-
-The original map was supplied in chat, not through GitHub, so the code does not automatically contain that image. To attach the **exact original artwork**:
-
-1. Visit https://app.pagescms.org and open your `yoshi3309/avalor-wiki` repository.
-2. Choose **Map settings & locations** (new section).
-3. Find **Map illustration**. Upload the new Avalor PNG (the one with the White Sea, Forest of the Fey, and Great Desert), then Save.
-4. The Pages CMS media manager commits it into `assets/uploads/`; GitHub Actions rebuilds the atlas. Your original file is preserved, not redrawn.
-
-### Verify the provisional town locations
-
-1. Open `/map/?edit=1` and press **Position pins** if it isn't already active.
-2. Pick Renada, Heaven's Heart, Heroes Hill, Stanleyville, or Shamman’s Tower in **Place to position**.
-3. Click the exact location on your illustrated map. The positioning desk shows X and Y coordinates (percentages).
-4. Open **Map settings & locations** in Pages CMS, expand that place's entry, and enter its new X/Y. Untick **Mark position as provisional** when you're satisfied; Save.
-5. Revisit the atlas. The pin moves and its provisional marker disappears.
-
-The 12 labeled regional/water markers are anchored approximately to their printed labels. You can also move these. Add locations by creating another record in the CMS list; give each an unused lowercase-hyphen key, name, type, coordinates, and optional article filename (without `.md`). For unverified content, set **Show marker to players** to off.
-
-### DM safety
-
-This atlas is **fully public**, including each point's name, description, and image in the underlying GitHub files. Never put Keeper secrets, hidden passages, undiscovered plot locations, private campaign maps, or future encounters in Map settings. A secret or unrevealed location belongs only in the separate private DM archive. Provisional means **uncertain placement**, not hidden or confidential.
-
-
-## Nine newly prepared landmarks (unplaced drafts)
-
-The following player-safe landmarks have dedicated articles and a draft marker in **Map settings & locations**: Wayword Sun, the Black Tower, Great Citadel, Land's End, Karhold, Black Stair, Lord Osmo's Tower, Great Fork Tower, and Great Cathedral. Their X/Y coordinates are deliberately blank; the wiki does **not** invent their canonical positions.
-
-In `/map/?edit=1`, open the **Position pins** panel (it opens automatically) and select the landmark in the dropdown. The nine unplaced entries appear first. Click the precise location on the map, copy the reported X/Y, then open Pages CMS → **Map settings & locations**, enter the coordinates for that landmark, enable **Show marker to players**, disable **Mark position as provisional**, and click **Save**. The marker becomes visible on the public map and its article receives a **Locate on map** link. Simply clicking on the map does **not** save a position to GitHub.
-
-
-## Finding unplaced landmark drafts on the public atlas
-
-The map page now has an **Uncharted places** section above the map whenever landmarks lack coordinates. Each place has a **Place** link opening the positioning desk with that location selected. The regular public map's pins remain limited to explicitly approved coordinates, preventing false placements.
-
-When selecting an unplaced landmark from this section, the location list, or the dropdown, the Positioning Desk automatically switches the active target to that location. Click the image, copy X/Y, enter them in Pages CMS → Map settings & locations, then enable Show marker to players and disable Provisional. The visual click itself is never a save operation.
-
-
-### On-map draft picker and preview visibility fix
-The interactive map now includes an **Unplaced landmarks** tray floating over the map artwork, listing every landmark without saved coordinates. Select a name to activate the positioning desk; the tray minimizes so it doesn't block map clicks. Click the desired location to see a **provisional pin immediately on the map** and its exact coordinates. This is still a local preview; it is intentionally not a persisted/public location until you copy X/Y to Pages CMS, enable **Show marker to players**, turn off **Provisional**, and save. Previously-approved pins, including Karhold, are preserved unchanged.
+The public site is static and does not need a database, paid CDN, account system or purchased domain. GitHub Pages is publicly accessible and does not provide private player-only access through a public repository. Pages CMS is a third-party service; review its current access permissions and pricing before granting repository access.

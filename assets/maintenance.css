@@ -1,0 +1,27 @@
+/* Phase 6.4 — conservative mobile and keyboard safeguards.
+ * Complement existing per-feature styles, preserve archive color and layout.
+ */
+html{scroll-padding-top:18px}
+#main-content{min-width:0;overflow-wrap:break-word}
+#main-content:focus{outline:none}
+.skip-link{position:fixed;left:14px;top:-90px;z-index:500;min-height:44px;display:flex;align-items:center;background:#fffdf1;color:#122734;border:3px solid #d8b479;border-radius:3px;padding:8px 15px;font:700 13px var(--font-body)}
+.skip-link:focus-visible{top:12px;outline:3px solid #143f5b;outline-offset:2px}
+.side-nav .nav-link{min-height:44px}
+.sidebar-search{min-height:44px}
+#main-content :is(p,li,blockquote,figcaption){overflow-wrap:break-word}
+@media(max-width:760px){
+  .site-footer{padding:20px clamp(14px,4vw,28px);flex-wrap:wrap}
+  .site-main{min-width:0}
+  .article-body{overflow-wrap:anywhere}
+  .article-body :is(pre,table){max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .atlas-time,.dossier-workspace,.welcome-page{max-width:100%}
+  .atlas-time-detail-actions>button{min-height:44px}
+}
+@media(forced-colors:active){
+  :is(a,button,input,select,textarea,summary):focus-visible{outline:3px solid Highlight!important;outline-offset:3px}
+  .nav-link.active,.atlas-time-card.is-history-selected,.dossier-preset:focus-visible{outline:2px solid Highlight;outline-offset:-2px}
+  .skip-link{color:CanvasText;background:Canvas;border-color:CanvasText}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}

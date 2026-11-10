@@ -18,6 +18,7 @@ import mistune
 from public_references import public_sources
 from media_optimization import generate_media
 from social_cards import card as social_card
+from site_quality import write_sitemap, audit_site
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
@@ -1184,5 +1185,10 @@ for old_slug, rule in MERGES.items():
         'body': ''
     })
 (PUBLIC/'search-index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-(PUBLIC/'robots.txt').write_text('User-agent: *\nAllow: /\n',encoding='utf-8')
+SITEMAP_RESULT = write_sitemap(PUBLIC, SITE_URL)
+QUALITY_RESULT = audit_site(PUBLIC, SITE_URL)
+print(f'Archive index: {SITEMAP_RESULT["indexable_pages"]} canonical pages; '
+      f'{SITEMAP_RESULT["redirects_excluded"]} retired redirects excluded. '
+      f'Checked {QUALITY_RESULT["local_references_checked"]} local references; '
+      f'{QUALITY_RESULT["issue_count"]} issues.')
 print(f'Built {len(ALL)} public articles, {len(CATEGORIES)} collections, {len(GALLERY_ITEMS)} curated illustrations, a timeline and search index in {PUBLIC}')
