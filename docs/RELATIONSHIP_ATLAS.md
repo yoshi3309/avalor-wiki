@@ -3,6 +3,9 @@
 The relationship atlas is a **public navigation and discovery feature**. It does not infer or establish new canon.
 
 - Directory: `/connections/`
+- Cross-archive focus link: `/connections/?focus=lavitz-shawe`
+- Curated public evidence data: `data/connections-explorer.yml`
+- Cross-archive UI: `assets/connections-web.js` and the shared connections stylesheet
 - The Six: `/connections/the-six/`
 - The Misfits: `/connections/the-misfits/`
 - House Frozenroar: `/connections/house-frozenroar/`
@@ -31,6 +34,10 @@ When a map includes an article as a node or its `related_article`, the article a
 - All nodes use native keyboard-focusable buttons, with a details panel and a secondary figure directory; no third-party graph library is needed.
 - Keep the public record navigable without JavaScript using the provided static source links.
 
+## Cross-archive explorer (9 November 2026)
+
+The searchable explorer draws only from a curated list of public article nodes and explicit relationships with evidence articles. It never guesses relations from article cross-links, common surnames, succession, or shared campaign appearances. Its diagram shows up to eight immediate neighbors; the adjacent list shows all documented connections. Each relationship identifies its own public source. Existing fellowship and dynasty diagrams remain unchanged and link to the broader explorer.
+
 ## Enhancement roadmap
 
-See `docs/WIKI_ENHANCEMENT_ROADMAP.md` for the six-part running checklist. The next core milestone is Smarter Archive Search.
+See `docs/WIKI_ENHANCEMENT_ROADMAP.md` for the six-part running checklist. The six initial enhancement milestones are complete; later phases are planned independently.

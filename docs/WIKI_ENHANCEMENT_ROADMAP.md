@@ -19,6 +19,8 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Personal Reading Desk (2026-11-09):** Browser-local bookmarks, saved chapter positions, recently opened accounts and explicit completed-reading markers, with a personal shelf at `/reading-desk/`. No accounts, uploads, analytics, or cross-device synchronization.
 
+- **Cross-Archive Connections Explorer (2026-11-09):** 40 curated public nodes and 56 sourced relationships spanning people, organizations, places and events, with search, subject filters, focus links, evidence links and bridges to the original three maps. Data is deliberately curated, never inferred from cross-references. `data/connections-explorer.yml`; `/connections/`.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.

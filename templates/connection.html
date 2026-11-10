@@ -37,6 +37,7 @@
       <p id="connection-detail-description">Choose a name in the diagram or the directory below to examine its documented relationships.</p>
       <ul id="connection-detail-links" class="connection-detail-links"></ul>
       <a class="connection-record-link" id="connection-record-link" hidden href="#">Open the complete record ↗</a>
+      <a class="connection-record-link connection-web-return" id="connection-web-return" hidden href="#">Follow across the archives ↗</a>
     </div>
     <noscript><div class="connection-detail"><div class="connection-detail-eyebrow">THE SCHOLAR'S DIRECTORY</div><h3>Figures and connections</h3><p>Interactive highlighting requires JavaScript, but these public records are available directly.</p><ul>{% for node in graph.nodes %}<li>{% if node.article %}<a class="connection-record-link" href="{{root}}articles/{{node.article}}/">{{node.label}}</a>{% else %}<strong>{{node.label}}</strong>{% endif %} — {{node.detail}}</li>{% endfor %}</ul></div></noscript>
     <details class="connection-directory">
@@ -49,7 +50,7 @@
     </details>
   </section>
   <aside class="connection-scholars-note"><div class="kicker">A NOTE FROM THE ARCHIVIST</div><p>{{graph.note}}</p><a href="{{root}}articles/{{graph.related_article}}/">Read the main historical record ↗</a></aside>
-  <div class="connection-more"><h2>Continue exploring</h2><a href="{{root}}connections/">All relationship maps ↗</a></div>
+  <div class="connection-more"><h2>Continue exploring</h2><p><a href="{{root}}connections/#cross-explorer-title">Open the broader Archive Connections Explorer ↗</a></p><a href="{{root}}connections/">All relationship maps ↗</a></div>
 </div>
 <script type="application/json" id="connection-map-data">{{ graph.client_data | tojson }}</script>
 {% endblock %}

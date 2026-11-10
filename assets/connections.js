@@ -13,6 +13,8 @@
   const list = section.querySelector('#connection-detail-links');
   const record = section.querySelector('#connection-record-link');
   const root = window.AVALOR_ROOT || '../../';
+  const webLink = section.querySelector('#connection-web-return');
+  const webArticles = new Set(graph.web_articles || []);
   const highlight = id => {
     if (!nodes.has(id)) return;
     const node = nodes.get(id);
@@ -48,6 +50,10 @@
     }
     record.hidden = !node.article;
     if (node.article) record.href = root + 'articles/' + encodeURIComponent(node.article) + '/';
+    if (webLink) {
+      webLink.hidden = !(node.article && webArticles.has(node.article));
+      if (!webLink.hidden) webLink.href = root + 'connections/?focus=' + encodeURIComponent(node.article) + '#cross-explorer-title';
+    }
   };
   buttons.forEach(button => button.addEventListener('click', () => highlight(button.dataset.nodeId)));
   section.querySelectorAll('[data-select-node]').forEach(button => button.addEventListener('click', () => {

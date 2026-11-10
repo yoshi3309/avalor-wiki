@@ -466,6 +466,52 @@ for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
     if graph not in RELATIONSHIP_BY_ARTICLE[anchor]:
         RELATIONSHIP_BY_ARTICLE[anchor].append(graph)
 
+# A cross-archive connection index is separately curated rather than inferred
+# from related-article lists (which indicate reading recommendations, not facts).
+CONNECTION_WEB_SOURCE = yaml.safe_load((ROOT / 'data' / 'connections-explorer.yml').read_text(encoding='utf-8')) or {}
+WEB_KINDS = {'people', 'organizations', 'places', 'events'}
+WEB_EDGE_TYPES = {'fellowship', 'friendship', 'training', 'office', 'stewardship',
+                  'heritage', 'location', 'record', 'history', 'kinship',
+                  'founding', 'opposition', 'faith'}
+CONNECTION_WEB_NODES = []
+CONNECTION_WEB_BY_ARTICLE = {}
+for raw_node in CONNECTION_WEB_SOURCE.get('nodes', []):
+    slug = str(raw_node.get('article') or '')
+    kind = raw_node.get('kind')
+    if slug not in BY_SLUG or kind not in WEB_KINDS or slug in CONNECTION_WEB_BY_ARTICLE:
+        raise ValueError('Connection Explorer has unknown, duplicated or mistyped public node: ' + slug)
+    source_article = BY_SLUG[slug]
+    item = {'id': slug, 'article': slug, 'label': source_article['title'],
+            'kind': kind, 'summary': source_article['summary']}
+    CONNECTION_WEB_NODES.append(item)
+    CONNECTION_WEB_BY_ARTICLE[slug] = item
+if len(CONNECTION_WEB_NODES) < 15:
+    raise ValueError('Connection Explorer needs a meaningful range of public records')
+CONNECTION_WEB_EDGES = []
+connection_pairs = set()
+for raw_edge in CONNECTION_WEB_SOURCE.get('edges', []):
+    left, right = str(raw_edge.get('from') or ''), str(raw_edge.get('to') or '')
+    evidence = str(raw_edge.get('evidence') or '')
+    typ = str(raw_edge.get('type') or '')
+    label = str(raw_edge.get('label') or '').strip()
+    pair = tuple(sorted((left, right)))
+    if (left not in CONNECTION_WEB_BY_ARTICLE or right not in CONNECTION_WEB_BY_ARTICLE or
+            left == right or pair in connection_pairs or evidence not in BY_SLUG or
+            typ not in WEB_EDGE_TYPES or not label):
+        raise ValueError('Connection Explorer has an unsupported/duplicate relationship: ' + left + '/' + right)
+    connection_pairs.add(pair)
+    CONNECTION_WEB_EDGES.append({'from': left, 'to': right, 'label': label,
+                                 'type': typ, 'evidence': evidence,
+                                 'source_title': BY_SLUG[evidence]['title']})
+if len(CONNECTION_WEB_EDGES) < 25:
+    raise ValueError('Connection Explorer has too few curated relationships')
+if any(not any(e['from']==n['id'] or e['to']==n['id'] for e in CONNECTION_WEB_EDGES) for n in CONNECTION_WEB_NODES):
+    raise ValueError('Connection Explorer may not publish isolated nodes')
+CONNECTION_WEB = {'nodes': CONNECTION_WEB_NODES, 'edges': CONNECTION_WEB_EDGES}
+for graph in RELATIONSHIP_MAPS:
+    graph['client_data']['web_articles'] = [node['article'] for node in graph['nodes']
+                                           if node['article'] in CONNECTION_WEB_BY_ARTICLE]
+
 # The cartographer's table is public-facing. This file contains no hidden
 # locations; the original Keeper documents are never read by this build.
 MAP_CONFIG = ROOT / 'data' / 'avalor-map.yml'
@@ -731,7 +777,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),web_connection=a['slug'] in CONNECTION_WEB_BY_ARTICLE,gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -755,7 +801,7 @@ for old, rule in MERGES.items():
     for a in ALL
 ],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 render('reading-desk.html','reading-desk/index.html',depth=1,page_type='reading-desk',title='My Reading Desk',crumbs='My Reading Desk')
-render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS)
+render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS,connection_web=CONNECTION_WEB)
 for graph in RELATIONSHIP_MAPS:
     render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)
 render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title='Reading Journeys',crumbs='Reading Journeys',journeys=JOURNEYS)

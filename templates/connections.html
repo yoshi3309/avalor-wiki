@@ -7,6 +7,30 @@
     <h1>Connections Across Avalor</h1>
     <p>Every history is made of relationships: those sworn, those inherited, and those broken. Choose a fellowship or royal household to explore how its figures are connected.</p>
   </header>
+
+  <section class="cross-explorer" data-cross-explorer aria-labelledby="cross-explorer-title">
+    <header class="cross-head">
+      <div><div class="kicker">A BROADER VIEW OF THE KINGDOM</div><h2 id="cross-explorer-title">The Archive Connections Explorer</h2>
+        <p>Follow documented ties between people, organizations, places, and events. Every relationship links back to an established public source.</p></div>
+      <div class="cross-stats"><strong>{{connection_web.nodes|length}}</strong><span>public records</span><strong>{{connection_web.edges|length}}</strong><span>documented ties</span></div>
+    </header>
+    <div class="cross-controls">
+      <label for="cross-search">Find a record</label><label for="cross-kind">Browse by subject</label>
+      <input id="cross-search" type="search" placeholder="Lavitz, Renada, Heaven's Heart…" autocomplete="off">
+      <select id="cross-kind"><option value="all">All public records</option><option value="people">People &amp; legends</option><option value="organizations">Organizations &amp; fellowships</option><option value="places">Places &amp; institutions</option><option value="events">Events &amp; history</option></select>
+    </div>
+    <div class="cross-layout">
+      <aside class="cross-directory"><h3>Choose a record <span id="cross-count"></span></h3><div id="cross-results" class="cross-results" aria-label="Search results"></div></aside>
+      <div class="cross-main">
+        <div class="cross-graph" aria-label="Focused relationship diagram"><svg id="cross-lines" viewBox="0 0 1000 480" preserveAspectRatio="none" aria-hidden="true"></svg><div id="cross-orbit" class="cross-orbit"></div><p id="cross-more" class="cross-more"></p></div>
+        <section class="cross-detail" aria-live="polite" aria-atomic="false"><span class="cross-eyebrow">THE SCHOLAR'S RECORD</span><h3 id="cross-name">Choose a record</h3><p id="cross-summary">Select a name to explore documented connections.</p><div id="cross-actions" class="cross-actions"></div><h4>Documented connections <span id="cross-edge-count"></span></h4><div id="cross-edges" class="cross-edges"></div></section>
+      </div>
+    </div>
+    <p class="cross-note"><strong>Reading the lines:</strong> A link represents the specific relationship named in its source, not inferred family ties, personal acquaintance, or hidden knowledge. Select any connected record to follow it. The diagram shows up to eight neighbors; the list includes all documented connections.</p>
+    <noscript><div class="cross-noscript"><h3>Public records</h3><ul>{% for node in connection_web.nodes %}<li><a href="{{root}}articles/{{node.article}}/">{{node.label}}</a></li>{% endfor %}</ul></div></noscript>
+  </section>
+  <script type="application/json" id="cross-data">{{connection_web|tojson}}</script>
+  <div class="cross-previous"><div class="kicker">THE ORIGINAL DIAGRAMS</div><h2>Fellowships and Royal House</h2><p>Continue to the three focused diagrams, which retain their existing relationships and layouts.</p></div>
   <div class="connections-grid">
     {% for graph in relationship_maps %}
     <a class="connections-card" href="{{root}}connections/{{graph.id}}/">

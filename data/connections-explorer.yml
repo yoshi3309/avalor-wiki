@@ -1,0 +1,100 @@
+# Public navigation relationships only. Do not infer links from co-occurrence or succession.
+# Each edge names the public archive record establishing the stated relationship.
+nodes:
+  - {article: "lavitz-shawe", kind: "people"}
+  - {article: "fo-gurn", kind: "people"}
+  - {article: "tellora-ebbenflow", kind: "people"}
+  - {article: "svendyal-shadowwhisper", kind: "people"}
+  - {article: "amara", kind: "people"}
+  - {article: "heureux", kind: "people"}
+  - {article: "jack-of-stanleyville", kind: "people"}
+  - {article: "samuel-the-devoted", kind: "people"}
+  - {article: "king-gradvum-frozenroar", kind: "people"}
+  - {article: "queen-melmiri", kind: "people"}
+  - {article: "rynhold-frozenroar", kind: "people"}
+  - {article: "lord-osmo", kind: "people"}
+  - {article: "bradgem-glav", kind: "people"}
+  - {article: "aldus-greystone-iii", kind: "people"}
+  - {article: "jaznaar", kind: "people"}
+  - {article: "faelynn", kind: "people"}
+  - {article: "kelsalor", kind: "people"}
+  - {article: "petris", kind: "people"}
+  - {article: "lowkee", kind: "people"}
+  - {article: "katiri-tenderfoot", kind: "people"}
+  - {article: "astronoph", kind: "people"}
+  - {article: "the-misfits", kind: "organizations"}
+  - {article: "the-six", kind: "organizations"}
+  - {article: "the-aegis", kind: "organizations"}
+  - {article: "shammans-tower", kind: "organizations"}
+  - {article: "ringtree-clan", kind: "organizations"}
+  - {article: "hunters-guild", kind: "organizations"}
+  - {article: "great-cathedral", kind: "organizations"}
+  - {article: "royal-commission-historical-inquiry", kind: "organizations"}
+  - {article: "heavens-heart", kind: "places"}
+  - {article: "stanleyville", kind: "places"}
+  - {article: "renada", kind: "places"}
+  - {article: "black-tower", kind: "places"}
+  - {article: "forest-of-the-fey", kind: "places"}
+  - {article: "heroes-hill", kind: "places"}
+  - {article: "wayword-sun", kind: "places"}
+  - {article: "founding-wars", kind: "events"}
+  - {article: "sundering-of-the-six", kind: "events"}
+  - {article: "jaznaars-vindication", kind: "events"}
+  - {article: "the-first-commission", kind: "events"}
+edges:
+  - {from: "lavitz-shawe", to: "the-misfits", label: "Original member of the adventuring company", evidence: "the-misfits", type: "fellowship"}
+  - {from: "fo-gurn", to: "the-misfits", label: "Travelled with the original company and died protecting his companions", evidence: "fo-gurn", type: "fellowship"}
+  - {from: "tellora-ebbenflow", to: "the-misfits", label: "Original adventurer and spellcaster", evidence: "the-misfits", type: "fellowship"}
+  - {from: "svendyal-shadowwhisper", to: "the-misfits", label: "Original adventurer and loyal companion", evidence: "svendyal-shadowwhisper", type: "fellowship"}
+  - {from: "amara", to: "the-misfits", label: "Original member of the adventuring party", evidence: "the-misfits", type: "fellowship"}
+  - {from: "heureux", to: "the-misfits", label: "Joined the fellowship shortly after it began", evidence: "heureux", type: "fellowship"}
+  - {from: "jack-of-stanleyville", to: "the-misfits", label: "Ghost boy who travelled with the companions", evidence: "jack-of-stanleyville", type: "fellowship"}
+  - {from: "lavitz-shawe", to: "fo-gurn", label: "Close friends before the Misfits formed", evidence: "fo-gurn", type: "friendship"}
+  - {from: "lavitz-shawe", to: "heavens-heart", label: "Trained as a paladin at Heaven's Heart", evidence: "lavitz-shawe", type: "training"}
+  - {from: "fo-gurn", to: "heavens-heart", label: "Trained as a paladin while Lavitz studied there", evidence: "fo-gurn", type: "training"}
+  - {from: "lavitz-shawe", to: "the-aegis", label: "Serves as Lord Marshal on the royal council", evidence: "the-aegis", type: "office"}
+  - {from: "tellora-ebbenflow", to: "the-aegis", label: "Serves as High Wizard in the independent eighth seat", evidence: "the-aegis", type: "office"}
+  - {from: "samuel-the-devoted", to: "the-aegis", label: "Serves as the Devoted on the royal council", evidence: "the-aegis", type: "office"}
+  - {from: "katiri-tenderfoot", to: "the-aegis", label: "Serves as the Silver Hand on the royal council", evidence: "the-aegis", type: "office"}
+  - {from: "samuel-the-devoted", to: "heavens-heart", label: "Trains paladins at Heaven's Heart", evidence: "samuel-the-devoted", type: "training"}
+  - {from: "tellora-ebbenflow", to: "shammans-tower", label: "Revived Shamman’s Tower after Cid's defeat", evidence: "shammans-tower", type: "stewardship"}
+  - {from: "heureux", to: "ringtree-clan", label: "Raised among the clan's hidden canopy communities", evidence: "ringtree-clan", type: "heritage"}
+  - {from: "ringtree-clan", to: "forest-of-the-fey", label: "Clan settlements hidden within the woodland canopy", evidence: "ringtree-clan", type: "location"}
+  - {from: "heureux", to: "royal-commission-historical-inquiry", label: "His published testimony contributes to the historical record", evidence: "royal-commission-historical-inquiry", type: "record"}
+  - {from: "jack-of-stanleyville", to: "stanleyville", label: "Murdered as a child in Stanleyville", evidence: "jack-of-stanleyville", type: "location"}
+  - {from: "the-misfits", to: "the-first-commission", label: "An earlier commission brought several future companions together", evidence: "the-first-commission", type: "history"}
+  - {from: "the-misfits", to: "aldus-greystone-iii", label: "Confronted and defeated Aldus's later identity, Cid the Blood King", evidence: "the-misfits", type: "history"}
+  - {from: "the-misfits", to: "jaznaars-vindication", label: "Helped uncover the false accusation against Jaznaar", evidence: "jaznaars-vindication", type: "history"}
+  - {from: "king-gradvum-frozenroar", to: "jaznaars-vindication", label: "Formally restored Jaznaar's reputation", evidence: "jaznaars-vindication", type: "history"}
+  - {from: "king-gradvum-frozenroar", to: "queen-melmiri", label: "Royal consorts", evidence: "house-frozenroar", type: "kinship"}
+  - {from: "king-gradvum-frozenroar", to: "the-aegis", label: "Reigning monarch advised by the council", evidence: "the-aegis", type: "office"}
+  - {from: "queen-melmiri", to: "the-misfits", label: "Rescued from Cid's captivity by the companions", evidence: "queen-melmiri", type: "history"}
+  - {from: "the-aegis", to: "renada", label: "The royal council serves the crown in the capital", evidence: "kingdom-of-avalor", type: "location"}
+  - {from: "rynhold-frozenroar", to: "the-aegis", label: "Established the first seven council offices", evidence: "the-aegis", type: "founding"}
+  - {from: "rynhold-frozenroar", to: "founding-wars", label: "Led the coalition against Lord Osmo", evidence: "rynhold-frozenroar", type: "history"}
+  - {from: "lord-osmo", to: "founding-wars", label: "His campaigns forced the northern kingdoms into alliance", evidence: "lord-osmo", type: "history"}
+  - {from: "rynhold-frozenroar", to: "lord-osmo", label: "Opposing rulers in the pre-unification conflict", evidence: "lord-osmo", type: "opposition"}
+  - {from: "founding-wars", to: "heroes-hill", label: "The decisive confrontation is remembered at Heroes Hill", evidence: "heroes-hill", type: "location"}
+  - {from: "lord-osmo", to: "heroes-hill", label: "Killed during the decisive battle", evidence: "lord-osmo", type: "history"}
+  - {from: "bradgem-glav", to: "heroes-hill", label: "Struck down Osmo and suffered mortal wounds", evidence: "bradgem-glav", type: "history"}
+  - {from: "bradgem-glav", to: "lord-osmo", label: "Bradgem killed Osmo in the battle at Heroes Hill", evidence: "lord-osmo", type: "opposition"}
+  - {from: "rynhold-frozenroar", to: "renada", label: "Chose the city as the new union's capital", evidence: "rynhold-frozenroar", type: "founding"}
+  - {from: "the-six", to: "aldus-greystone-iii", label: "Founding companion and celebrated healer", evidence: "the-six", type: "fellowship"}
+  - {from: "the-six", to: "lowkee", label: "Founding companion and paladin", evidence: "the-six", type: "fellowship"}
+  - {from: "the-six", to: "faelynn", label: "Founding companion and ranger", evidence: "the-six", type: "fellowship"}
+  - {from: "the-six", to: "petris", label: "Founding companion devoted to Lathander", evidence: "the-six", type: "fellowship"}
+  - {from: "the-six", to: "kelsalor", label: "Founding companion and druid", evidence: "the-six", type: "fellowship"}
+  - {from: "the-six", to: "jaznaar", label: "Founding companion later falsely condemned", evidence: "the-six", type: "fellowship"}
+  - {from: "faelynn", to: "hunters-guild", label: "Founded the guild to protect people beyond ordinary patrols", evidence: "hunters-guild", type: "founding"}
+  - {from: "hunters-guild", to: "wayword-sun", label: "The refuge developed into the guild's settlement", evidence: "hunters-guild", type: "location"}
+  - {from: "lowkee", to: "heavens-heart", label: "Established an enduring center of paladin training", evidence: "lowkee", type: "founding"}
+  - {from: "aldus-greystone-iii", to: "black-tower", label: "Performed the forbidden experiment at the Tower", evidence: "black-tower", type: "history"}
+  - {from: "sundering-of-the-six", to: "black-tower", label: "The fellowship's confrontation occurred at the Tower", evidence: "sundering-of-the-six", type: "location"}
+  - {from: "the-six", to: "sundering-of-the-six", label: "Divided over Aldus's escalating experimentation", evidence: "sundering-of-the-six", type: "history"}
+  - {from: "aldus-greystone-iii", to: "sundering-of-the-six", label: "His experiments drove the companions to intervene", evidence: "sundering-of-the-six", type: "history"}
+  - {from: "jaznaar", to: "jaznaars-vindication", label: "His name was cleared after centuries of false accusation", evidence: "jaznaars-vindication", type: "history"}
+  - {from: "astronoph", to: "great-cathedral", label: "Serves as High Priest of the Cathedral", evidence: "astronoph", type: "office"}
+  - {from: "great-cathedral", to: "renada", label: "Located within the capital", evidence: "great-cathedral", type: "location"}
+  - {from: "royal-commission-historical-inquiry", to: "jaznaars-vindication", label: "Preserves scholarship and the corrected public account", evidence: "royal-commission-historical-inquiry", type: "record"}
+  - {from: "heavens-heart", to: "great-cathedral", label: "Distinct institutions sharing part of the Threefold tradition", evidence: "great-cathedral", type: "faith"}
+  - {from: "svendyal-shadowwhisper", to: "lavitz-shawe", label: "Fellow adventurers and trusted friends", evidence: "svendyal-shadowwhisper", type: "friendship"}
