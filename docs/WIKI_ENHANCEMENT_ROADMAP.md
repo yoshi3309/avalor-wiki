@@ -25,6 +25,8 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Reading Comfort & Accessibility (2026-11-09):** Shared Aa reading controls with browser-local font sizing (standard/large/extra large), classic/clear typeface, higher-contrast mode and site motion reduction. Improved paper/exhibit legibility, focus indicators, chapter jump focus, and keyboard-safe mobile navigation; includes automated build checks. Further manual screen-reader and multi-device testing remain worthwhile. `assets/reading-comfort.js`, `assets/reading-comfort.css`.
 
+- **Responsive artwork & mobile media optimization (2026-11-09):** Automatic Pillow/WebP variants (480/960/1440px) generated for approved public raster uploads during GitHub Pages builds, using source-preserving picture tags for gallery cards, collection covers, article figures and portraits. Full-resolution originals remain accessible, especially the atlas map. Intrinsic image dimensions, lazy loading, and a public build-time media report are included. `media_optimization.py`, `tests/check_media_performance.py`.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
@@ -33,7 +35,7 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 ## Supporting technical work (as useful, not a seventh major phase)
 
-- Image performance / media optimization, especially on phones
+- Media delivery follow-up: assess field performance on phones (real-device Web Vitals) and consider caching policies after deployment
 - Further assistive-technology and keyboard usability audits (manual cross-browser/screen-reader verification)
 - Social preview and page metadata
 - Sitemap generation and more maintainable timeline data

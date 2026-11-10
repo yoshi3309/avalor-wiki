@@ -9,6 +9,8 @@
   const dialog = modal.querySelector('.gallery-lightbox-dialog');
   const cards = [...document.querySelectorAll('.gallery-card[data-gallery-index]')];
   const image = document.getElementById('gallery-viewer-image');
+  const webpSource = document.getElementById('gallery-viewer-webp');
+  const originalLink = document.getElementById('gallery-original-link');
   const heading = document.getElementById('gallery-viewer-title');
   const caption = document.getElementById('gallery-viewer-caption');
   const credit = document.getElementById('gallery-viewer-credit');
@@ -33,8 +35,25 @@
   function display(index) {
     active = (index + entries.length) % entries.length;
     const entry = entries[active];
+    const variants = entry.media?.variants || [];
+    // Keep the genuine original as the fallback and always allow full-size access.
+    // Original cartography remains the zoomable map representation.
+    if (webpSource) {
+      if (variants.length && !entry.media.modal_original) {
+        webpSource.srcset = variants.map(v => root + v.path + ' ' + v.width + 'w').join(', ');
+        webpSource.sizes = '(max-width: 710px) 94vw, 1000px';
+      } else {
+        webpSource.removeAttribute('srcset');
+        webpSource.removeAttribute('sizes');
+      }
+    }
     image.src = root + entry.image;
     image.alt = entry.alt;
+    if (entry.media) {
+      image.width = entry.media.width;
+      image.height = entry.media.height;
+    }
+    if (originalLink) originalLink.href = root + entry.image;
     heading.textContent = entry.title;
     caption.textContent = entry.caption;
     category.textContent = entry.collection_title + (entry.era ? ' · ' + entry.era : '');
@@ -79,6 +98,7 @@
     modal.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('gallery-viewer-open');
     image.removeAttribute('src');
+    webpSource?.removeAttribute('srcset');
     setUrl('');
     active = -1;
     if (returnFocus && document.contains(returnFocus)) returnFocus.focus();

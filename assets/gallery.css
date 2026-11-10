@@ -83,3 +83,16 @@ body.gallery-viewer-open{overflow:hidden}
 .gallery-share-link:hover{background:#314953}
 .gallery-share-link:focus-visible{outline:2px solid #edcd91;outline-offset:3px}
 .gallery-share-feedback{font:11px/1.6 var(--font-body);color:#c4d4c5;overflow-wrap:anywhere;max-width:100%}
+
+/* Responsive gallery pictures use derived previews; original images remain intact. */
+.gallery-wing>picture{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:.43}
+.gallery-wing>picture>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.gallery-card-art picture{display:block;width:100%;height:100%}
+.gallery-card-art picture img{display:block;width:100%;height:100%;object-fit:contain}
+.gallery-related-card picture{display:block;flex:0 0 90px;width:90px;height:100px;overflow:hidden}
+.gallery-related-card picture img{display:block;width:90px;height:100px;object-fit:contain}
+.article-illustration picture{display:block}
+.article-illustration picture img{display:block}
+.gallery-viewer-picture{display:flex;align-items:center;justify-content:center;min-width:0;max-width:100%;max-height:min(58dvh,650px)}
+.gallery-viewer-picture img{display:block;max-width:100%;max-height:min(58dvh,650px);width:auto;height:auto;object-fit:contain}
+.gallery-share-tools a{color:#eed2a0;font:11px/1.5 var(--font-body);text-decoration:underline;text-underline-offset:3px}

@@ -14,6 +14,7 @@ from functools import lru_cache
 import yaml
 import mistune
 from public_references import public_sources
+from media_optimization import generate_media
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
@@ -796,6 +797,42 @@ def render(template,path,depth=0,**kwargs):
 if PUBLIC.exists():shutil.rmtree(PUBLIC)
 PUBLIC.mkdir()
 shutil.copytree(ROOT/'assets',PUBLIC/'assets',dirs_exist_ok=True)
+MEDIA_CATALOG = generate_media(ROOT, PUBLIC)
+# The originals keep their existing stable URLs. Preview metadata is attached
+# only after the optimized variants have been generated and verified.
+for item in GALLERY_ITEMS:
+    item['media'] = MEDIA_CATALOG.get(item['image'])
+for wing in GALLERY_COLLECTIONS:
+    wing['cover_media'] = MEDIA_CATALOG.get(wing['cover'])
+for article in ALL:
+    raw_image = str(article.get('image_url') or '').replace('../../','',1)
+    article['image_media'] = MEDIA_CATALOG.get(raw_image)
+    # Inline CMS figures and Markdown images are progressive-enhanced with
+    # WebP <picture> sources, leaving their real original src/alt in place.
+    def responsive_article_img(match):
+        original_tag = match.group(0)
+        src_match = re.search(r'\bsrc="([^"]+)"',original_tag)
+        if not src_match:
+            return original_tag
+        src = html.unescape(src_match.group(1))
+        if not src.startswith('../../assets/uploads/'):
+            return original_tag
+        media = MEDIA_CATALOG.get(src.replace('../../','',1))
+        if not media or not media['variants']:
+            return original_tag
+        variants = media['variants']
+        srcset = ', '.join('../../'+v['path']+' '+str(v['width'])+'w' for v in variants)
+        img = original_tag
+        if not re.search(r'\bwidth\s*=',img):
+            img = img.replace('<img ','<img width="'+str(media['width'])+'" height="'+str(media['height'])+'" ',1)
+        if not re.search(r'\bloading\s*=',img):
+            img = img.replace('<img ','<img loading="lazy" ',1)
+        if not re.search(r'\bdecoding\s*=',img):
+            img = img.replace('<img ','<img decoding="async" ',1)
+        return ('<picture class="archive-responsive-picture"><source type="image/webp" srcset="'
+                +html.escape(srcset,quote=True)+'" sizes="(max-width: 710px) 90vw, 680px">'
+                +img+'</picture>')
+    article['html'] = re.sub(r'<img\b[^>]*>',responsive_article_img,article['html'])
 (PUBLIC/'.nojekyll').write_text('')
 render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
