@@ -19,6 +19,6 @@ for issue in published:
         assert f'id="dispatch-{i}"' in html
         assert f'href="../../articles/{item["article"]}/"' in html
         assert (ROOT/'content/articles'/f'{item["article"]}.md').exists()
-    assert f'href="../{issue["id"]}/"' in home
+    assert f'href="../gazette/{issue["id"]}/"' in home
 assert 'href="./gazette/"' in (SITE/'index.html').read_text(encoding='utf-8')
 print('Royal Gazette pages passed:',len(published),'edition(s).')
