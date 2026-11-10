@@ -37,8 +37,6 @@
     const slug = article.dataset.readingSlug;
     if (validSlug(slug)) {
       const bookmark = document.getElementById('reading-bookmark');
-      const finished = document.getElementById('reading-finished');
-      const resume = document.getElementById('reading-resume');
       const status = document.getElementById('reading-action-status');
       const headings = [...article.querySelectorAll('.article-body h2[id]')];
       const latest = entries[slug] || {};
@@ -46,15 +44,12 @@
       update(slug,{visited:now()});
       function syncButtons() {
         const item=entries[slug]||{};
-        const isSaved=Boolean(item.bookmarked), isDone=Boolean(item.completed);
-        bookmark.setAttribute('aria-pressed',String(isSaved));
-        bookmark.textContent=isSaved?'★ Saved to Reading Desk':'☆ Save to Reading Desk';
-        finished.setAttribute('aria-pressed',String(isDone));
-        finished.textContent=isDone?'✓ Finished reading':'✓ Mark as read';
-        if (resume) {
-          const chapter=safeChapter(item.chapter);
-          resume.hidden=!chapter;
-          if (chapter) resume.href='#'+encodeURIComponent(chapter);
+        const isSaved=Boolean(item.bookmarked);
+        if (bookmark) {
+          bookmark.setAttribute('aria-pressed',String(isSaved));
+          bookmark.textContent=isSaved?'★':'☆';
+          bookmark.setAttribute('aria-label',isSaved?'Remove saved record from Reading Desk':'Save record to Reading Desk');
+          bookmark.title=isSaved?'Remove saved record':'Save record to Reading Desk';
         }
       }
       bookmark?.addEventListener('click',()=>{
@@ -62,13 +57,7 @@
         update(slug,{bookmarked:next,visited:now()});
         syncButtons();mark(next?'Saved to your personal shelf.':'Removed from saved records.');
       });
-      finished?.addEventListener('click',()=>{
-        const next=!entries[slug]?.completed;
-        update(slug,{completed:next,visited:now()});
-        syncButtons();mark(next?'Marked as finished.':'Marked as not yet finished.');
-      });
       let lastChapter=latest.chapter;
-      let lastWritten=0;
       function capture() {
         if (!headings.length || document.visibilityState==='hidden')return;
         const y=Math.min(190,window.innerHeight*0.29);
@@ -80,7 +69,6 @@
         if (!active || !validHeading(active) || active===lastChapter)return;
         lastChapter=active;
         update(slug,{chapter:active,visited:now()});
-        lastWritten=now();
         syncButtons();
       }
       let ticking=false;

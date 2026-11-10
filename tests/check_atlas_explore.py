@@ -9,8 +9,8 @@ for attr in ('atlas-area','atlas-focus-area','atlas-trail','atlas-trail-status',
 for marker in ("AREA_VIEWS","TRAILS","isPublic(loc)","mapUrlFor","showTrailStep","beginTrail"):
     assert marker in js, 'Missing atlas navigation function: '+marker
 assert "fictional" not in map_page.lower()
-assert "not verified travel itineraries" in map_page
-assert "not political boundaries" in map_page
+assert "their order is not a measured travel route" in map_page
+assert "views follow the chart" in map_page
 assert "const url=mapUrlFor(loc.id).href;" in js
 assert "document.querySelectorAll('.atlas-pin').forEach" in js
 assert 'id="atlas-edit-toggle"' in map_page

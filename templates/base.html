@@ -47,6 +47,7 @@
 <link rel="stylesheet" href="{{ root }}assets/search.css?v=20261108-smart-search-1">
 <link rel="stylesheet" href="{{root}}assets/reading-comfort.css?v=20261109-comfort-1">
 <link rel="stylesheet" href="{{root}}assets/maintenance.css?v=20261110-quality-1">
+<link rel="stylesheet" href="{{root}}assets/reader-polish.css?v=20261110-polish-1">
 {% if page_type == 'home' %}<link rel="stylesheet" href="{{root}}assets/archive-home.css?v=20261110-hub-v1">{% endif %}
 <script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
@@ -63,25 +64,28 @@
     </a>
     <p class="sidebar-overline">Royal Commission of Historical Inquiry</p>
     <button type="button" class="sidebar-search search-trigger" aria-label="Search the archive"><span class="search-icon">⌕</span> Search the archives <kbd>⌘ K</kbd></button>
-    <nav class="side-nav" aria-label="Browse categories">
+    <nav class="side-nav" aria-label="Browse the Royal Archives">
       <div class="nav-caption">EXPLORE</div>
-      <a class="nav-link {% if page_type=='welcome' %}active{% endif %}" href="{{root}}"><span class="nav-icon">✧</span> Start here</a>
-      <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{root}}archive/"><span class="nav-icon">⌂</span> Archive home</a>
-      <a class="nav-link {% if page_type=='all' %}active{% endif %}" href="{{ root }}articles/"><span class="nav-icon">▦</span> All records <span class="nav-count">{{ total_count }}</span></a>
-      <a class="nav-link {% if page_type=='timeline' %}active{% endif %}" href="{{ root }}chronicle/"><span class="nav-icon">◷</span> Living chronology</a>
-      <a class="nav-link {% if page_type=='journeys' %}active{% endif %}" href="{{ root }}journeys/"><span class="nav-icon">✧</span> Reading journeys</a>
-      <a class="nav-link {% if page_type=='reading-desk' %}active{% endif %}" href="{{ root }}reading-desk/"><span class="nav-icon">▤</span> My Reading Desk</a>
-      <a class="nav-link {% if page_type=='connections' %}active{% endif %}" href="{{ root }}connections/"><span class="nav-icon">✥</span> People &amp; connections</a>
-      <a class="nav-link {% if page_type=='compare' %}active{% endif %}" href="{{root}}compare/"><span class="nav-icon">⚖</span> Compare characters</a>
-      <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{ root }}map/"><span class="nav-icon">✥</span> Interactive map</a>
-      <a class="nav-link {% if page_type=='gallery' %}active{% endif %}" href="{{ root }}gallery/"><span class="nav-icon">▧</span> Illustration Gallery</a>
-      <a class="nav-link {% if page_type=='exhibits' %}active{% endif %}" href="{{root}}exhibits/"><span class="nav-icon">▤</span> Historical Exhibits</a>
-      <div class="nav-caption nav-caption-spaced">COLLECTIONS</div>
-      {% for c in categories %}
-      <a class="nav-link {% if current_category==c.name and page_type=='category' %}active{% endif %}" href="{{ root }}collections/{{ c.slug }}/"><span class="nav-icon">{{ c.icon }}</span><span>{{ c.name }}</span><span class="nav-count">{{ c.count }}</span></a>
-      {% endfor %}
+      <a class="nav-link {% if page_type=='welcome' %}active{% endif %}" href="{{root}}"><span class="nav-icon">✧</span> Start</a>
+      <a class="nav-link {% if page_type in ('home','all','category','article','connections','compare') %}active{% endif %}" href="{{root}}archive/"><span class="nav-icon">▦</span> Records</a>
+      <details class="nav-subgroup" {% if page_type in ('home','all','category','article','connections','compare') %}open{% endif %}>
+        <summary>Browse records <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-subgroup-links">
+          <a href="{{root}}articles/">All records <small>{{total_count}}</small></a>
+          <a href="{{root}}connections/">People &amp; connections</a>
+          <a href="{{root}}compare/">Compare characters</a>
+          {% for c in categories %}<a href="{{root}}collections/{{c.slug}}/">{{c.name}}</a>{% endfor %}
+        </div>
+      </details>
+      <a class="nav-link {% if page_type in ('timeline','journeys','exhibits') %}active{% endif %}" href="{{root}}chronicle/"><span class="nav-icon">◷</span> Chronicle</a>
+      <details class="nav-subgroup" {% if page_type in ('journeys','exhibits') %}open{% endif %}>
+        <summary>Reading &amp; exhibits <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-subgroup-links"><a href="{{root}}journeys/">Reading journeys</a><a href="{{root}}exhibits/">Historical exhibits</a></div>
+      </details>
+      <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{root}}map/"><span class="nav-icon">✥</span> Atlas</a>
+      <a class="nav-link {% if page_type=='gallery' %}active{% endif %}" href="{{root}}gallery/"><span class="nav-icon">▧</span> Gallery</a>
     </nav>
-    <div class="side-bottom"><div class="side-rule"></div><div class="edition-dot"></div><div><strong>The Scholar's Edition</strong><p>Records fit for the public eye.</p></div></div>
+    <div class="side-bottom"><div class="side-rule"></div><div class="edition-dot"></div><div><strong>The Scholar's Edition</strong><p>Histories of a living realm.</p></div></div>
   </aside>
   <div class="sidebar-scrim" id="sidebar-scrim" aria-hidden="true"></div>
   <div class="main-column">
@@ -107,7 +111,7 @@
     <div class="reading-prefs-footer"><button type="button" id="reading-prefs-reset">Restore defaults</button><span>Stored in this browser only.</span></div>
     <p id="reading-prefs-status" class="reading-prefs-status" role="status" aria-live="polite"></p>
   </section>
-</div><span class="public-pill"><span></span> PUBLIC ARCHIVE</span><button type="button" class="icon-button search-trigger" aria-label="Search records">⌕</button></div>
+</div><a class="reading-desk-top-link {% if page_type=='reading-desk' %}active{% endif %}" href="{{root}}reading-desk/" aria-label="My Reading Desk" title="My Reading Desk"><span aria-hidden="true">▤</span><span>Reading Desk</span></a><button type="button" class="icon-button search-trigger" aria-label="Search records">⌕</button></div>
     </header>
     <main id="main-content" class="site-main" tabindex="-1">{% block main %}{% endblock %}</main>
     <footer class="site-footer"><span>THE ARCHIVES OF AVALOR <span class="footer-star">✦</span> An ongoing record of a living world</span><span>Prepared for the curious. Preserved for the ages.</span></footer>
@@ -124,7 +128,7 @@
     </div>
     <div class="search-status" id="search-status" role="status" aria-live="polite">Start typing to find people, places, or stories.</div>
     <div id="search-results" class="search-results"><p class="search-empty">Loading the public archive…</p></div>
-    <div class="search-dialog-footer">Only public records appear in this archive <span>↑ ↓ choose · ↵ open · ESC close</span></div>
+    <div class="search-dialog-footer">Explore the collections of the Royal Commission <span>↑ ↓ choose · ↵ open · ESC close</span></div>
   </div>
 </div>
 </body>

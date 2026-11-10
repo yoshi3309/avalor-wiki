@@ -26,7 +26,7 @@ chronicle=(SITE/'chronicle/index.html').read_text(encoding='utf-8')
 for token in ('id="atlas-history"','id="atlas-history-period"','id="atlas-history-all"',
               'id="atlas-history-cards"','id="atlas-history-count"','id="atlas-history-detail"',
               'id="atlas-history-share"','id="atlas-history-data"',
-              'assets/atlas-time.css','assets/atlas-time.js','historical border overlays'):
+              'assets/atlas-time.css','assets/atlas-time.js','atlas-history-drawer'):
     assert token in map_page, 'Atlas feature missing '+token
 assert map_page.count('data-history-card')==len(events)
 assert map_page.count('data-history-mapped="true"')==len(links)

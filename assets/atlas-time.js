@@ -36,8 +36,8 @@
     spotlight([]);
     era.textContent="THE SCHOLAR'S GEOGRAPHIC RECORD";
     heading.textContent='Choose a moment in history';
-    text.textContent='Select a record above to read its historical context and, where established, focus its related place on the map below.';
-    note.textContent='The pins mark known sites, affected regions, or related places. They do not establish former political borders, routes, or the location of every ceremony.';
+    text.textContent='Select an account to read its history and, where possible, illuminate a place on the chart above.';
+    note.textContent='The chart marks sites, regions, and places associated with the accounts. The boundaries of earlier ages remain a subject of study.';
     read.href=root+'chronicle/';
     sourceLink.hidden=true;
     share.disabled=true;
@@ -51,7 +51,7 @@
     }
     const countNow=displayCount();
     count.textContent=countNow+' of '+events.length+' Chronicle entries shown'
-      +(!all?' · approved geographical connections only':' · including events without mapped locations');
+      +(!all?' · events with charted locations':' · including events with unrecorded locations');
     if(selected && host.querySelector('[data-history-id="'+selected+'"]')?.hidden){
       deselect();
       const url=new URL(location.href);
@@ -62,6 +62,8 @@
   function select(id,fromAddress=false){
     const record=byId.get(id);
     if(!record)return false;
+    const drawer=host.closest('details');
+    if(drawer) drawer.open=true;
     if(period.value!=='all' && period.value!==record.period) period.value=record.period;
     if(!record.atlas && !showAll.checked) showAll.checked=true;
     selected=id;
@@ -84,7 +86,7 @@
       spotlight([record.atlas.pin]);
       document.dispatchEvent(new CustomEvent('avalor:history-focus',{detail:{id:record.atlas.pin}}));
     }else{
-      note.textContent='LOCATION NOT ESTABLISHED — This Chronicle event has no approved event site, affected region, or related landmark on the public map. Its historical account remains available. '+record.date_label+': '+record.date_note;
+      note.textContent='LOCATION UNRECORDED — No surviving chart identifies a site, region, or landmark for this event. '+record.date_label+': '+record.date_note;
       spotlight([]);
     }
     if(!fromAddress){

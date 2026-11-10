@@ -346,7 +346,10 @@ def make_html(article):
         article['image_url']=rel+image_raw
     else:
         article['image_url']=None
+    article['brief_entry'] = article['category'] == 'Kingdoms & Places' and len(re.findall(r"\b[\w'-]+\b", article['body'])) < 420
     for fact in article['facts_parsed']:
+        if str(fact['value']).strip().casefold() == 'not established':
+            fact['value'] = 'Unrecorded'
         fact['value_html'] = render_fact_value(fact['value'])
     article['html']=rendered; article['headings']=headings
     return article
