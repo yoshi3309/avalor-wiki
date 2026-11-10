@@ -1,45 +1,36 @@
 ---
 title: Lord Osmo
 subtitle: The Conqueror Who Made Unity Necessary
-summary: A mortal warlord whose expanding dominion forced the northern kingdoms into a coalition and whose defeat at Heroes Hill preceded Avalor's unification.
+summary: A mortal warlord whose expanding dominion forced the northern kingdoms
+  into a coalition and whose defeat at Heroes Hill preceded Avalor's
+  unification.
 category: People & Legends
+image: /assets/uploads/lord-osmo-at-heroes-hill.png
 entry: BIO.035
 era: Before the Founding Age
-facts: |-
+facts: >-
   Calling: Military conqueror and political strategist
+
   Nature: Mortal man; no established supernatural patron
-  Sphere of power: Expanding dominion across the pre-unification northern kingdoms
+
+  Sphere of power: Expanding dominion across the pre-unification northern
+  kingdoms
+
   Principal adversary: Rynhold Frozenroar of Kroubia and the allied crowns
+
   Seat associated with his campaigns: Lord Osmo's Tower
+
   Death: Killed by Bradgem Glav at Heroes Hill
-  Lasting consequence: His campaigns drove the coalition preceding Avalor's founding
+
+  Lasting consequence: His campaigns drove the coalition preceding Avalor's
+  founding
+
   Exact dates and borders: Not established
 related: founding-wars,rynhold-frozenroar,bradgem-glav,heroes-hill,lord-osmos-tower,unification-of-avalor,kingdom-of-avalor,dead-marshes,house-frozenroar
-source: The Living Chronicle, Chapter II, III–VIII; Compendium II · II.001, public Scholar's Account
-callouts:
-  - type: reflection
-    text: "Osmo did not need sorcery to place entire kingdoms in danger. He needed armies, ambition, and opponents who believed that their neighbor's defeat could never become their own."
-    attribution: Editorial reflection on the divided kingdoms
-    after: an-empire-made-of-victories
-    paragraph: 3
-  - type: note
-    scholar: lady-miren-dast
-    text: "A battlefield can end a conquest without settling who will govern what remains. To call Osmo's death the founding of Avalor would erase the negotiations that followed."
-    after: the-death-at-heroes-hill
-    paragraph: 3
-  - type: reflection
-    text: "The man who wished to place many crowns beneath his will left, unintentionally, a reason for those crowns to create something together."
-    attribution: Editorial reflection on Osmo's place in history
-    after: the-kingdom-he-never-ruled
-    paragraph: 3
-highlight_sections:
-  - section: the-death-at-heroes-hill
-    tone: remembrance
-  - section: the-kingdom-he-never-ruled
-    tone: legacy
+source: The Living Chronicle, Chapter II, III–VIII; Compendium II · II.001,
+  public Scholar's Account
 featured: false
 ---
-
 ## Before there was Avalor
 
 The northern kingdoms did not unite because their rulers suddenly discovered that old quarrels were foolish. Their agreement grew from a danger they could no longer meet separately.
