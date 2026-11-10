@@ -4,6 +4,35 @@ media:
   input: assets/uploads
   output: /assets/uploads
 content:
+  - name: gazette
+    label: Royal Gazette issues
+    type: collection
+    path: content/gazette
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: title
+      fields: [date, published]
+    fields:
+      - {name: id, label: Stable issue ID, type: string, required: true, pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+      - {name: title, label: Issue headline, type: string, required: true}
+      - {name: subtitle, label: Issue subtitle, type: string, required: true}
+      - {name: date, label: Editorial date YYYY-MM-DD, type: string, required: true}
+      - {name: intro, label: Introductory letter, type: text, required: true}
+      - {name: published, label: Publish issue, type: boolean, default: false}
+      - name: dispatches
+        label: Source-linked dispatches (2–8)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - {name: title, label: Dispatch headline, type: string, required: true}
+          - {name: kicker, label: Section label, type: string, required: true}
+          - {name: summary, label: Brief summary, type: text, required: true}
+          - {name: body, label: Scholarly commentary, type: text, required: true}
+          - {name: article, label: Source article slug, type: string, required: true}
   - name: articles
     label: Public archive articles
     type: collection

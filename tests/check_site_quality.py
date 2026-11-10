@@ -23,6 +23,8 @@ assert all(url.endswith('/') for url in urls)
 assert BASE in urls
 assert BASE+'map/' in urls
 assert BASE+'chronicle/' in urls
+assert BASE+'gazette/' in urls
+assert BASE+'gazette/the-truth-in-the-margins/' in urls
 assert BASE+'archive/' in urls
 assert BASE+'start/' not in urls
 assert BASE+'compare/' in urls

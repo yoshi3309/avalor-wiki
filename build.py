@@ -9,6 +9,7 @@ import json
 import re
 import shutil
 import os
+from datetime import date
 from urllib.parse import urljoin
 import unicodedata
 from pathlib import Path
@@ -936,6 +937,34 @@ for wing in GALLERY_COLLECTIONS:
     wing['count'] = len(members)
     wing['cover'] = members[0]['image'] if members else ''
 
+# Dated editorial circulars; publication dates are not dates in Avalor's history.
+GAZETTE_ISSUES=[]
+for path in sorted((ROOT/'content/gazette').glob('*.yml')):
+    issue=yaml.safe_load(path.read_text(encoding='utf-8')) or {}
+    if not isinstance(issue,dict) or issue.get('published') is not True:
+        continue
+    ident=issue.get('id')
+    if not isinstance(ident,str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',ident) or path.stem!=ident or any(x['id']==ident for x in GAZETTE_ISSUES):
+        raise ValueError(f'{path}: invalid Gazette ID')
+    if any(not isinstance(issue.get(k),str) or not issue[k].strip() for k in ('title','subtitle','intro','date')):
+        raise ValueError(f'{ident}: missing Gazette details')
+    try: day=date.fromisoformat(issue['date'])
+    except ValueError: raise ValueError(f'{ident}: invalid publication date')
+    notes=issue.get('dispatches')
+    if not isinstance(notes,list) or not 2<=len(notes)<=8:
+        raise ValueError(f'{ident}: two to eight dispatches required')
+    prepared=[]
+    for n,item in enumerate(notes,1):
+        if not isinstance(item,dict) or any(not isinstance(item.get(k),str) or not item[k].strip() for k in ('title','kicker','summary','body','article')):
+            raise ValueError(f'{ident}: incomplete dispatch {n}')
+        slug=item['article'].strip()
+        if slug not in BY_SLUG: raise ValueError(f'{ident}: missing source record {slug}')
+        prepared.append({**item,'article':BY_SLUG[slug],'number':n})
+    GAZETTE_ISSUES.append({**issue,'date_display':day.strftime('%d %B %Y').lstrip('0'),'dispatches':prepared})
+for n,issue in enumerate(sorted(GAZETTE_ISSUES,key=lambda x:(x['date'],x['id'])),1):
+    issue['issue_number']=n
+GAZETTE_ISSUES.sort(key=lambda x:(x['date'],x['id']),reverse=True)
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 # The canonical base must match the published GitHub Pages project URL; an
@@ -1004,6 +1033,12 @@ def preview_subject(values):
             if candidate['category'] == collection and candidate.get('image_url'):
                 artwork = candidate['image_url']
                 break
+    elif kind == 'gazette':
+        label = 'The Royal Gazette'
+        issue=values.get('gazette_issue')
+        if issue:
+            a=issue['dispatches'][0]['article']
+            artwork=a.get('image_url') or (GALLERY_BY_ARTICLE.get(a['slug']) or [{}])[0].get('image')
     elif kind == 'reading-desk':
         label = 'Personal Reading Desk'
     elif kind == 'all':
@@ -1161,6 +1196,10 @@ render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title=
 for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS,periods=PERIODS,topics=TOPICS,date_kinds=DATE_KINDS,journeys=JOURNEYS)
+render('gazette.html','gazette/index.html',depth=1,page_type='gazette',title='The Royal Gazette',crumbs='The Royal Gazette',description='Dated scholarly dispatches from the Royal Archives.',gazette_issues=GAZETTE_ISSUES)
+for issue in GAZETTE_ISSUES:
+    render('gazette-issue.html',f'gazette/{issue["id"]}/index.html',depth=2,page_type='gazette',title=issue['title']+' · The Royal Gazette',description=issue['intro'],crumbs=issue['title'],gazette_issue=issue)
+
 render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA,atlas_history_events=ATLAS_HISTORY_EVENTS,atlas_history_periods=PERIODS,atlas_history_count=len(ATLAS_HISTORY_LINKS))
 render('gallery.html','gallery/index.html',depth=1,page_type='gallery',title='Illustration Gallery',crumbs='Illustration Gallery',gallery_items=GALLERY_ITEMS,gallery_collections=GALLERY_COLLECTIONS,active_gallery_collection=None,gallery_data=GALLERY_ITEMS)
 for wing in GALLERY_COLLECTIONS:

@@ -20,6 +20,7 @@ As of November 10, 2026, the repository holds **112 public encyclopedia articles
 | Archive Home | /archive/ | Color-coded deeper exploration hub |
 | Encyclopedia | /articles/ | Discover and search public records |
 | Living Chronicle | /chronicle/ | 18 historically qualified entries |
+| Royal Gazette | /gazette/ | Dated source-linked editorial circulars |
 | Interactive Atlas | /map/ | Approved public map pins, regions, and landmarks |
 | Atlas Through Time | /map/#atlas-history | Six documented geographic links to Chronicle events |
 | Connections Explorer | /connections/ | Curated, source-backed relationships |
@@ -39,6 +40,7 @@ Sign in to [Pages CMS](https://app.pagescms.org/), open **yoshi3309/avalor-wiki*
 - **Illustrations:** Upload only approved public JPG, PNG, or WebP files to assets/uploads through Pages CMS. Provide meaningful alternative text. WebP previews are regenerated automatically; originals are preserved.
 - **Atlas:** data/avalor-map.yml is editable under Map settings & locations. Open /map/?edit=1 to preview positions, then copy both X and Y into Pages CMS and save. Clicking the map alone does NOT publish coordinates. Never invent a marker position for convenience.
 - **Gallery:** Records under content/gallery/ include title, collection, caption, image, and related sources. Renaming an artwork does not automatically change its gallery collection; update that field separately.
+- **Royal Gazette:** Edit issues in content/gazette/ via Pages CMS. Publication dates are editorial and do not date in-world events. Set published true only when reviewed; every dispatch must link to an existing public article.
 - **Historical exhibits:** Records under content/exhibits/ are labeled editorial reconstructions. Do not claim their wording, parchment, or modern archive crest are genuine recovered manuscripts.
 - **Historical and comparison datasets:** Source-controlled YAML under data/ requires valid public article IDs and, where applicable, verified chapter anchors.
 

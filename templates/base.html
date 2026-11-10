@@ -49,6 +49,7 @@
 <link rel="stylesheet" href="{{root}}assets/maintenance.css?v=20261110-quality-1">
 <link rel="stylesheet" href="{{root}}assets/reader-polish.css?v=20261110-polish-1">
 {% if page_type == 'home' %}<link rel="stylesheet" href="{{root}}assets/archive-home.css?v=20261110-hub-v1">{% endif %}
+{% if page_type in ('home','gazette') %}<link rel="stylesheet" href="{{root}}assets/gazette.css?v=20261110-gazette-1">{% endif %}
 <script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
@@ -77,10 +78,10 @@
           {% for c in categories %}<a href="{{root}}collections/{{c.slug}}/">{{c.name}}</a>{% endfor %}
         </div>
       </details>
-      <a class="nav-link {% if page_type in ('timeline','journeys','exhibits') %}active{% endif %}" href="{{root}}chronicle/"><span class="nav-icon">◷</span> Chronicle</a>
-      <details class="nav-subgroup" {% if page_type in ('journeys','exhibits') %}open{% endif %}>
-        <summary>Reading &amp; exhibits <span aria-hidden="true">⌄</span></summary>
-        <div class="nav-subgroup-links"><a href="{{root}}journeys/">Reading journeys</a><a href="{{root}}exhibits/">Historical exhibits</a></div>
+      <a class="nav-link {% if page_type in ('timeline','journeys','exhibits','gazette') %}active{% endif %}" href="{{root}}chronicle/"><span class="nav-icon">◷</span> Chronicle</a>
+      <details class="nav-subgroup" {% if page_type in ('journeys','exhibits','gazette') %}open{% endif %}>
+        <summary>Chronicle collections <span aria-hidden="true">⌄</span></summary>
+        <div class="nav-subgroup-links"><a href="{{root}}gazette/">The Royal Gazette</a><a href="{{root}}journeys/">Reading journeys</a><a href="{{root}}exhibits/">Historical exhibits</a></div>
       </details>
       <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{root}}map/"><span class="nav-icon">✥</span> Atlas</a>
       <a class="nav-link {% if page_type=='gallery' %}active{% endif %}" href="{{root}}gallery/"><span class="nav-icon">▧</span> Gallery</a>

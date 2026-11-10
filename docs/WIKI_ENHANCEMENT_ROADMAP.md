@@ -39,12 +39,14 @@ These priorities reflect the author's chosen order on November 9, 2026. This tab
 | 2 | Character Comparison Dossiers | COMPLETE | Source-cited dossiers for 17 reviewed public figures, four matched categories, responsive portraits, shareable selections, and seven curated pair pages with unique Discord previews. No invented rankings, abilities, or relationships. |
 | 3 | Atlas Through Time | COMPLETE | Source-aware geographical layer joining all 18 Chronicle events to current Atlas navigation. Six reviewed public pin associations distinguish sites, affected regions and associated places; twelve uncharted events remain visible. Era filters, contextual spotlight, date-precision notices, and Chronicle/Discord links. No invented historic borders, routes or dates. |
 | 4 | Archive Quality & Maintenance | COMPLETE | Canonical XML sitemap with retired redirects excluded, robots sitemap pointer, generated-page link/anchor/resource and image-alt audits, refreshed 112-article maintainer guide, safe mobile/keyboard improvements, and CI publication gates. Manual device and assistive-technology checks remain recommended. |
-| 5 | The Royal Gazette | NEXT | Dated editorial publication and update highlights; no invented in-world breaking news. |
+| 5 | The Royal Gazette | COMPLETE | Source-linked dated editorial circulars; public index and issue pages, CMS editing, archival navigation and publishing checks. No invented in-world news. |
 | 6 | Chapter Sharing to Discord | PLANNED | Copy chapter URLs and source-grounded citations; reuse existing anchors and social previews. |
 
 The first-time welcome is an invitation, not a gate. Returning readers can keep using the full site directly. Data lives in data/welcome-routes.yml and links only to published articles, existing reading journeys, or the atlas.
 
 ## Completed interface refinements after Phase 6.4
+- **Atlas layout & Royal Gazette (2026-11-10):** Keep the atlas chart visible while scanning the longer location index on desktop. Phase 6.5 establishes dated, source-linked Commission circulars. The dates describe archive publication, not events in Avalor.
+
 - **In-world editorial polish and usability pass (2026-11-10):** Recast visible authoring caveats in selected articles into Commission language; introduced a documented Aethrion debate using the existing Contested Account callout format, moved the historical atlas index after the map, grouped sidebar destinations, hid the cartographer's editing controls unless explicitly requested, and condensed article controls. Further line-by-line editorial review remains open.
 
 - **Welcome-first entrance and redesigned archive home (2026-11-10):** The main URL now opens the four-doorway Archivist's Welcome; the full archive moves to /archive/ with six subdued color-coded sections and jump navigation. Legacy /start/ links preserve doorway hashes. All public lore and features remain available.
@@ -65,7 +67,7 @@ The first-time welcome is an invitation, not a gate. Returning readers can keep 
 
 ## Current focus and guardrails
 
-- **Current main quest:** Phase 6 priorities are locked in the table above. The Archivist's Welcome, Character Comparison Dossiers and Atlas Through Time and Archive Quality & Maintenance are complete; The Royal Gazette is next. The original six website enhancements remain complete.
+- **Current main quest:** Phase 6 priorities are locked in the table above. The Archivist's Welcome, Character Comparison Dossiers and Atlas Through Time and Archive Quality & Maintenance are complete; The Royal Gazette is complete; Chapter Sharing to Discord is next. The original six website enhancements remain complete.
 - Future lore development, content audits, or other ideas can be handled as side quests without losing this list.
 - Add a new idea here rather than silently changing the order of the main quest.
 - No Keeper notes, future campaign secrets, unapproved family genealogy, or speculative personal ties may appear in public relationship data.

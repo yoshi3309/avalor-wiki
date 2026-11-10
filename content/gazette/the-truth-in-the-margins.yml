@@ -1,0 +1,59 @@
+# A dated editorial circular. The date does not refer to any in-world event.
+id: the-truth-in-the-margins
+title: The Truth in the Margins
+subtitle: Histories reconsidered in the Royal Archives
+date: "2026-11-10"
+published: true
+intro: >-
+  A royal archive is never finished simply because its books have been shelved.
+  The stories of Avalor acquire new meaning when witnesses are heard, inherited
+  judgments are examined, and the places between the chronicles are given
+  their proper attention. This inaugural circular revisits four threads already
+  preserved in the Royal Commission's collection.
+dispatches:
+  - kicker: Lead Account · Historical Reckoning
+    title: The Name the Kingdom Restored
+    summary: Jaznaar's innocence changed the kingdom's account of its founding heroes.
+    body: >-
+      For generations, Jaznaar's name carried an accusation of betrayal.
+      The defeat of Cid and evidence recovered by the Misfits overturned
+      the accepted history of the Black Tower. King Gradvum proclaimed Jaznaar
+      innocent, and the inscription at Rynhold Park was corrected while
+      the former plaque was preserved. These acts restored a name to the royal
+      record; they could not reverse the centuries in which the false story
+      shaped lives and law.
+    article: jaznaars-vindication
+  - kicker: Chronicle · Fellowships
+    title: Two Companies, One Buried History
+    summary: The Six and the Misfits, divided by centuries and connected by the Black Tower.
+    body: >-
+      The founding fellowship of the Six stands at the center of Avalor's
+      earliest legends. Centuries later, the Misfits became caught in the
+      consequences of the Black Tower. These histories reward reading
+      side by side: the first concerns a friendship broken by catastrophe
+      and false accusation, while the second follows those whose discoveries
+      finally exposed the deception.
+    article: the-six
+  - kicker: Cartography · Local Histories
+    title: Lands Beyond the Great Landmarks
+    summary: Forests and crossings tell stories that the great map cannot carry alone.
+    body: >-
+      The Spine of the World, Dead Marshes, and Forest of the Fey dominate
+      the realm's great descriptions. Local names matter no less to those who
+      live beside them. The King's Forest near Alexiverde, the Forest of the
+      Westfold near Briyan's Autumn, and the difficult region called the
+      Drought survive in the geographical accounts. Their histories are
+      preserved even where their exact cartographic marks await further survey.
+    article: geography-of-avalor
+  - kicker: Contested Accounts · Antiquity
+    title: Who Bears the Guilt of Aethrion?
+    summary: Three scholars consider the moral meaning of an ancient disappearance.
+    body: >-
+      Accounts of Aethrion describe extraordinary learning, the pursuit of
+      power over mortality, and a sudden disappearance. Brother Halden Korr
+      emphasizes the obligations attached to dangerous power. Professor
+      Xiomara Thal questions the condemnation of ordinary inhabitants for
+      the acts of rulers or scholars. Lady Miren Dast examines what surviving
+      testimony can prove. The Commission retains the disagreement rather
+      than offer a certainty the evidence cannot bear.
+    article: aethrion
