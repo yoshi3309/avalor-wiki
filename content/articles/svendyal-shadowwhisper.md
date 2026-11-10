@@ -3,7 +3,7 @@ title: S'vendyal Shadowwhisperer
 subtitle: Sven, the Iron Shadow
 summary: Once a springhearted trickster of the Feywild, Sven found love and fatherhood in Avalor, lost them to a terrible sacrifice, and swore himself to justice before joining the Misfits.
 category: People & Legends
-image: /assets/uploads/brooding-eladrin-scholar-in-a-candlelit-library.png
+image: /assets/uploads/svendyal-shadowwhisperer.png
 entry: BIO.026
 era: Age of the Misfits to Age of Ascendancy
 facts: |-

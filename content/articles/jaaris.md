@@ -3,7 +3,7 @@ title: Jaaris
 subtitle: The Necromancer Entangled with Fo’Gurn
 summary: The necromancer linked to Fo'Gurn's altered fate, whose crimes cast a shadow over the sacrifices of the Misfits.
 category: People & Legends
-image: /assets/uploads/horned-necromancer-with-ghostly-grimoire.png
+image: /assets/uploads/jaaris.png
 entry: BIO.031
 era: Age of the Misfits
 facts: |-

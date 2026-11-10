@@ -3,7 +3,7 @@ title: Malikeah
 subtitle: Present Leader of the Hunters Guild
 summary: Malikeah now leads the Hunters Guild, carrying Faelynn's protective tradition into Avalor's present age.
 category: People & Legends
-image: /assets/uploads/battle-worn-ranger-in-the-wayward-sun.png
+image: /assets/uploads/malikeah.png
 entry: BIO.024
 era: Age of Ascendancy
 facts: |-

@@ -3,7 +3,7 @@ title: Heureux
 subtitle: The Bard Who Remembered
 summary: Called H by his friends, the blue-furred firbolg bard of the Ringtree Clan carried his people's endangered memory through song, joined the Misfits, and founded a school so stories could outlive those who told them.
 category: People & Legends
-image: /assets/uploads/boisterous-woodland-fey-celebration.png
+image: /assets/uploads/heureux.png
 entry: BIO.025
 era: Age of the Misfits to Age of Ascendancy
 facts: |-
