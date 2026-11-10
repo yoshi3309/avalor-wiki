@@ -5,14 +5,18 @@ ROOT=Path(__file__).resolve().parent.parent
 SITE=ROOT/'_site'
 routes=yaml.safe_load((ROOT/'data/welcome-routes.yml').read_text(encoding='utf-8'))['routes']
 assert [r['id'] for r in routes]==['kingdom','heroes','history','world']
-page=(SITE/'start/index.html').read_text(encoding='utf-8')
-home=(SITE/'index.html').read_text(encoding='utf-8')
+page=(SITE/'index.html').read_text(encoding='utf-8')
+home=(SITE/'archive/index.html').read_text(encoding='utf-8')
+old_start=(SITE/'start/index.html').read_text(encoding='utf-8')
 assert 'assets/welcome.js' in page and 'assets/welcome.css' in page
 assert 'ARCHIVIST' in page
 assert 'What brings you to Avalor, traveler?' in page
-assert 'href="./start/"' in home
-assert 'New here? Begin your visit' in home and 'Meet the Archivist' in home
-assert 'href="../start/"' in page
+assert 'href="../"' in home and 'Back to Start Here' in home
+assert 'assets/archive-home.css' in home
+assert 'id="archive-collections"' in home and 'id="archive-chronicle"' in home
+assert 'href="./archive/"' in page
+assert 'name="robots" content="noindex"' in old_start
+assert 'location.hash' in old_start
 assert 'Keeper material' in page
 assert 'data-welcome-panel' in page and 'data-welcome-choice' in page
 assert 'aria-controls="welcome-' in page
@@ -38,13 +42,13 @@ for route in routes:
         slug=step['article']
         assert step['invitation']
         assert (ROOT/'content/articles'/f'{slug}.md').is_file(), (name,slug)
-        assert f'href="../articles/{slug}/"' in page, slug
+        assert f'href="./articles/{slug}/"' in page, slug
     dest=route['destination']
     if dest=='atlas':
-        assert 'href="../map/"' in page
+        assert 'href="./map/"' in page
     else:
         assert dest in ids,(name,dest)
-        assert f'href="../journeys/{dest}/"' in page
+        assert f'href="./journeys/{dest}/"' in page
 assert (SITE/'assets/welcome.js').is_file()
 assert (SITE/'assets/welcome.css').is_file()
 script=(SITE/'assets/welcome.js').read_text(encoding='utf-8')
@@ -52,5 +56,5 @@ for token in ("window.addEventListener('popstate'","window.addEventListener('has
               "target.focus({preventScroll:true})","prefers-reduced-motion","dataset.readingMotion"):
     assert token in script, 'Welcome keyboard/history navigation missing '+token
 assert '<meta property="og:image"' in page
-assert '<link rel="canonical" href="https://yoshi3309.github.io/avalor-wiki/start/">' in page
+assert '<link rel="canonical" href="https://yoshi3309.github.io/avalor-wiki/">' in page
 print('Archivist Welcome passed: four curated public paths and homepage navigation.')

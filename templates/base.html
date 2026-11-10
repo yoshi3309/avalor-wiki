@@ -47,6 +47,7 @@
 <link rel="stylesheet" href="{{ root }}assets/search.css?v=20261108-smart-search-1">
 <link rel="stylesheet" href="{{root}}assets/reading-comfort.css?v=20261109-comfort-1">
 <link rel="stylesheet" href="{{root}}assets/maintenance.css?v=20261110-quality-1">
+{% if page_type == 'home' %}<link rel="stylesheet" href="{{root}}assets/archive-home.css?v=20261110-hub-v1">{% endif %}
 <script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
@@ -64,8 +65,8 @@
     <button type="button" class="sidebar-search search-trigger" aria-label="Search the archive"><span class="search-icon">⌕</span> Search the archives <kbd>⌘ K</kbd></button>
     <nav class="side-nav" aria-label="Browse categories">
       <div class="nav-caption">EXPLORE</div>
-      <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{ root }}"><span class="nav-icon">⌂</span> Archive home</a>
-      <a class="nav-link {% if page_type=='welcome' %}active{% endif %}" href="{{root}}start/"><span class="nav-icon">✧</span> Start here</a>
+      <a class="nav-link {% if page_type=='welcome' %}active{% endif %}" href="{{root}}"><span class="nav-icon">✧</span> Start here</a>
+      <a class="nav-link {% if page_type=='home' %}active{% endif %}" href="{{root}}archive/"><span class="nav-icon">⌂</span> Archive home</a>
       <a class="nav-link {% if page_type=='all' %}active{% endif %}" href="{{ root }}articles/"><span class="nav-icon">▦</span> All records <span class="nav-count">{{ total_count }}</span></a>
       <a class="nav-link {% if page_type=='timeline' %}active{% endif %}" href="{{ root }}chronicle/"><span class="nav-icon">◷</span> Living chronology</a>
       <a class="nav-link {% if page_type=='journeys' %}active{% endif %}" href="{{ root }}journeys/"><span class="nav-icon">✧</span> Reading journeys</a>

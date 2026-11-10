@@ -1076,8 +1076,21 @@ for article in ALL:
                 +img+'</picture>')
     article['html'] = re.sub(r'<img\b[^>]*>',responsive_article_img,article['html'])
 (PUBLIC/'.nojekyll').write_text('')
-render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
-render('welcome.html','start/index.html',depth=1,page_type='welcome',title='Begin Your Journey',crumbs='Start Here',description='Choose your first path into Avalor: meet the kingdom, its heroes, its history, or the world itself.',welcome_routes=WELCOME_ROUTES)
+render('welcome.html','index.html',page_type='welcome',title='Start Here',crumbs='Start Here',description='Choose your first path into Avalor: meet the kingdom, its heroes, its history, or the world itself.',welcome_routes=WELCOME_ROUTES)
+render('home.html','archive/index.html',depth=1,page_type='home',title='Archive Home',crumbs='Archive Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
+# Keep older shared /start/ links valid, including a selected doorway hash.
+legacy_start = PUBLIC / 'start' / 'index.html'
+legacy_start.parent.mkdir(parents=True, exist_ok=True)
+legacy_start.write_text(
+    '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+    '<title>Start Here — Archives of Avalor</title>'
+    '<meta name="robots" content="noindex">'
+    f'<link rel="canonical" href="{SITE_URL}">'
+    '<meta http-equiv="refresh" content="0; url=../">'
+    '</head><body><p>Start Here has moved to the main entrance. '
+    '<a href="../">Begin your visit</a>.</p>'
+    '<script>location.replace("../" + location.search + location.hash);</script>'
+    '</body></html>', encoding='utf-8')
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
 for cat in CATEGORIES:
     subset=[a for a in ALL if a['category']==cat['name']]

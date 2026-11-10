@@ -2,7 +2,9 @@
 
 The **player-facing Scholar's Edition of the World of Avalor** — a static, illustrated fantasy encyclopedia published on GitHub Pages. It is not a DM repository or a transcription of secret campaign material.
 
-**Live site:** https://yoshi3309.github.io/avalor-wiki/
+**Live site / Start Here:** https://yoshi3309.github.io/avalor-wiki/
+
+**Archive Home:** https://yoshi3309.github.io/avalor-wiki/archive/
 
 **Content editor:** https://app.pagescms.org/ (repository: yoshi3309/avalor-wiki)
 
@@ -14,7 +16,8 @@ As of November 10, 2026, the repository holds **112 public encyclopedia articles
 
 | Explore | URL | Purpose |
 |---|---|---|
-| Archivist's Welcome | /start/ | Four introductory pathways using established public lore |
+| Archivist's Welcome | / | Four introductory pathways; the default landing page |
+| Archive Home | /archive/ | Color-coded deeper exploration hub |
 | Encyclopedia | /articles/ | Discover and search public records |
 | Living Chronicle | /chronicle/ | 18 historically qualified entries |
 | Interactive Atlas | /map/ | Approved public map pins, regions, and landmarks |

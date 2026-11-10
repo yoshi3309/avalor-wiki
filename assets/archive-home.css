@@ -1,0 +1,26 @@
+/* Archive Home: pigmented editorial wings; the root page is the public entrance. */
+.page-home .archive-wing-nav{display:flex;align-items:center;flex-wrap:wrap;gap:15px;background:linear-gradient(110deg,#283b42,#1c2d36);border:1px solid #566862;padding:16px 22px;margin:20px 0 32px}
+.page-home .archive-wing-nav>span{color:#e5c994;font:700 10px/1.5 var(--font-body);letter-spacing:.14em}
+.page-home .archive-wing-nav>div{display:flex;flex-wrap:wrap;gap:9px}
+.page-home .archive-wing-nav a{display:inline-flex;align-items:center;min-height:42px;padding:9px 12px;color:#f1e5ce;border:1px solid #6d776d;background:#253941;font:11px/1.5 var(--font-body)}
+.page-home .archive-wing-nav a:hover{border-color:#e0c28d;background:#344c50}
+.page-home .archive-wing-nav a:focus-visible{outline:2px solid #f4d598;outline-offset:3px}
+.page-home .archive-wing{--accent:#e5c18b;--edge:#7e6c51;--base:#3b332e;scroll-margin-top:78px;position:relative;margin-top:28px;padding:clamp(22px,3vw,38px);border:1px solid var(--edge);border-left:4px solid var(--accent);background:linear-gradient(122deg,var(--base),#1b2a34 78%);box-shadow:0 12px 26px #09151c25}
+.page-home .archive-wing .section-heading{border-bottom:1px solid #c9c7ba33;padding-bottom:19px;margin-bottom:25px;flex-wrap:wrap}
+.page-home .archive-wing .kicker,.page-home .archive-wing .section-link{color:var(--accent)}
+.page-home .archive-wing .section-heading h2{font-size:clamp(23px,2.55vw,30px)}
+.page-home .archive-wing--collections{--accent:#ebc793;--edge:#80694d;--base:#40352e}
+.page-home .archive-wing--featured{--accent:#a7c6e2;--edge:#526d80;--base:#2b4050}
+.page-home .archive-wing--journeys{--accent:#afd4b9;--edge:#557566;--base:#2c4439}
+.page-home .archive-wing--connections{--accent:#d0acd4;--edge:#76607a;--base:#3c3043}
+.page-home .archive-wing--atlas{--accent:#add2cb;--edge:#577874;--base:#2b4444}
+.page-home .archive-wing--chronicle{--accent:#e6bd9f;--edge:#816850;--base:#43342b}
+.page-home .archive-wing--featured .featured-card{background:#192b39}
+.page-home .archive-wing--collections .collection-card{background:#273139}
+.page-home .archive-wing--journeys .journeys-card{background:linear-gradient(145deg,#29443d,#192b32 78%)}
+.page-home .archive-wing--connections .connections-card{background:linear-gradient(145deg,#342f42,#1b2934 80%)}
+.page-home .archive-wing--atlas,.page-home .archive-wing--chronicle{display:block;overflow:hidden}
+.page-home .archive-wing--atlas p,.page-home .archive-wing--chronicle p{color:#d5ddd4}
+.page-home .archive-wing--atlas a,.page-home .archive-wing--chronicle a{color:#f2d7ab}
+html[data-reading-contrast="high"] .page-home .archive-wing,html[data-reading-contrast="high"] .page-home .archive-wing-nav{border-color:#dccba8}
+@media(max-width:710px){.page-home .archive-wing-nav{align-items:flex-start;padding:15px}.page-home .archive-wing{padding:22px 17px;margin-top:21px;scroll-margin-top:68px}.page-home .archive-wing .section-heading{margin-bottom:18px}}
