@@ -3,7 +3,7 @@ title: Cid the Blood King
 subtitle: The Healer Who Became the Kingdom's Oldest Enemy
 summary: Once Aldus Greystone III of the founding Six, the Blood King endured in the Shadowfell, corrupted the memory of Avalor's origins, and fell before the Misfits.
 category: People & Legends
-image: /assets/uploads/crimson-scythe-warden.png
+image: /assets/uploads/cid.png
 entry: HIS.004
 era: Founding Age to Age of the Misfits
 facts: |-

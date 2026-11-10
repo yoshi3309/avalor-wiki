@@ -4,7 +4,7 @@ subtitle: The Light That Asked for Nothing
 summary: An elven cleric of Lathander whose compassion for the wounded and
   displaced became a lasting inheritance of the Six.
 category: People & Legends
-image: /assets/uploads/elven-sunlight-cleric-in-ruined-sanctuary.png
+image: /assets/uploads/petris.png
 entry: BIO.006
 era: Founding Age
 facts: |-

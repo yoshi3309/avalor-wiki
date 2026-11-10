@@ -5,7 +5,7 @@ summary: King of Kroubia, architect of the alliance against Lord Osmo, and first
   sovereign of Avalor, whose founding reign established a kingdom intended to
   outlast him.
 category: People & Legends
-image: /assets/uploads/sunlit-king-overlooks-the-rising-citadel.png
+image: /assets/uploads/rynhold-frozenroar.png
 entry: BIO.034
 era: Founding Age
 facts: |-
