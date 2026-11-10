@@ -58,7 +58,7 @@ That variety gives the Society its particular importance. Avalor's culture is no
 
 After the defeat of Cid, **[[Heureux]]** founded a **[[Heureux’s Bard Academy|bardic academy]]** in Taveras. The school and the Society share a city and an interest in the arts, but they are **distinct institutions**.
 
-The academy is a place of education, founded to teach a new generation. The Society is a professional fellowship whose concern extends to the lives and work of practitioners. **Heureux is not established as the Society's founder or ruler**, and no formal governing relationship between the school and guild has been recorded.
+The academy is a place of education, founded to teach a new generation. The Society is a professional fellowship whose concern extends to the lives and work of practitioners. The surviving charters name no formal governing bond between Heureux's school and the Society. Each pursues its own calling: one instructs aspiring bards, while the other serves working performers.
 
 Heureux's own history nevertheless illustrates the importance of their shared vocation. He traveled with **[[The Misfits]]**, witnessed events that overturned a kingdom's accepted past, and later helped carry that revised history to a wider public. His work showed that telling a story well and taking responsibility for its truth need not be opposing ambitions.
 

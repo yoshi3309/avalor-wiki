@@ -21,5 +21,5 @@ assert 'id="reading-finished"' not in article and 'class="reading-desk-entry"' n
 assert 'aria-label="My Reading Desk"' in article
 assert "localStorage.setItem(KEY" in script and "data-reading-action" in script
 assert 'fetch(root+\'reading-desk-index.json\')' in script
-assert 'completed:next' in script and 'chapter:active' in script
+assert "action==='unfinish'" in script and 'chapter:active' in script
 print('Personal Reading Desk build checks passed.')

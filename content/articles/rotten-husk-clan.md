@@ -10,7 +10,7 @@ facts: |-
   Historical crisis: A dangerous chieftain
   Allied adventurers: The Misfits
   Recorded outcome: Liberation and goodwill
-  Homeland: Not established in the public record
+  Homeland: Unrecorded
 related: the-misfits,heureux,amara,the-first-commission
 source: The Living Chronicle, Chapter VI, Section II; Master Canon Bible Volume I, public Misfits accounts
 featured: false
@@ -36,6 +36,6 @@ The episode is told in [[The Misfits#the-liberation-of-the-rotten-husk|the fello
 
 ## The history that remains theirs
 
-The public sources do not establish the Rotten Husk's later leadership, lands, or present alliance arrangements. It would be wrong to claim that the adventurers took command of the tribe or that one encounter settled the community's future.
+The clan's later leadership, territory, and alliances are absent from the Commission's surviving accounts. The Misfits' intervention ended the immediate danger, while the community's subsequent history remains largely unwritten.
 
 The significance of the Rotten Husk is precisely that they were **people worth defending on their own terms**. Avalor's history has too often treated entire communities as though the deeds of one leader defined them all. The surviving account of this clan remembers a better distinction.

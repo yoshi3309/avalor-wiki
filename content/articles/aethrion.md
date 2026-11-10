@@ -113,6 +113,10 @@ A city destroyed by fire ordinarily leaves debris. A conquered state appears in 
 
 Some take this as grounds to doubt the civilization's existence. Others believe a disaster of unusual character could explain the absence. But a missing record cannot become proof of the very event invoked to explain its loss.
 
+**CONTESTED ACCOUNTS · THE FATE OF AETHRION**
+
+> Brother Halden Korr interprets Aethrion's fall as a warning against power divorced from duty. Professor Xiomara Thal questions the condemnation of its ordinary people, while Lady Miren Dast asks what surviving testimony can truly prove. The Commission preserves these differing readings without declaring a verdict.
+
 ## Judgment, intervention, or explanation?
 
 In inherited Cathedral commentary, Aethrion's ending is sometimes described as **divine judgment** upon scholars whose ambitions threatened the proper order of existence.

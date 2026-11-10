@@ -150,10 +150,10 @@ def card(root: Path, site: Path, key: str, title: str,
               font=font(12, bold=True), fill=GOLD)
 
     max_text_width = 670 if with_photo else 950
-    tag = ('PUBLIC ARCHIVE  /  ' + str(category).upper()).strip()
+    tag = ('ROYAL ARCHIVES  /  ' + str(category).upper()).strip()
     tag_font = font(16, bold=True)
     if draw.textlength(tag, font=tag_font) > max_text_width:
-        tag = 'PUBLIC ARCHIVE'
+        tag = 'ROYAL ARCHIVES'
     draw.text((66, 189), tag, font=tag_font, fill=GOLD)
     draw.line((66, 224, 164, 224), fill=GOLD, width=3)
 

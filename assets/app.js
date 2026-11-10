@@ -36,13 +36,13 @@
     const results = window.AvalorSearch.search(records, query, searchCategory, 20);
     selectedSearchIndex = -1;
     if (!query && searchCategory === 'all') {
-      searchStatus.textContent = 'Featured public records';
+      searchStatus.textContent = 'Featured records';
     } else {
       searchStatus.textContent = results.length + (results.length === 1 ? ' matching record' : ' matching records') + (searchCategory === 'all' ? '' : ' in ' + searchCategory);
     }
     searchResults.innerHTML = results.length
       ? results.map(resultMarkup).join('')
-      : '<p class="search-empty">No matching public records. Try another spelling, name, or collection.</p>';
+      : '<p class="search-empty">No matching records. Try another spelling, name, or collection.</p>';
   };
   const closeSearch = () => {
     if (!searchModal?.classList.contains('is-open')) return;
@@ -69,7 +69,7 @@
       displaySearch();
     } catch(err) {
       searchStatus.textContent = 'Search unavailable';
-      searchResults.innerHTML = '<p class="search-empty">The public search index could not be loaded. Try reloading the page or browsing the collections.</p>';
+      searchResults.innerHTML = '<p class="search-empty">The catalogue could not be loaded. Try reloading the page or browsing the collections.</p>';
     }
   };
   categoryButtons.forEach(button => button.addEventListener('click', () => {
@@ -199,7 +199,7 @@
         ? 'All People A–Z'
         : button.querySelector('strong').textContent.trim();
       peopleDescription.textContent = activeGroup === 'all'
-        ? 'Explore all public records in this collection.'
+        ? 'Explore all records in this collection.'
         : button.querySelector('.people-group-description').textContent.trim();
       updatePeople();
       peopleDirectory.scrollIntoView({ behavior: 'auto', block: 'start' });

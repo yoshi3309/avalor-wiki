@@ -29,7 +29,7 @@ Even among their unusual adventures, Noki stood out. A person accustomed to spel
 
 ## An unusual encounter
 
-How Noki came to be transformed remains a mystery within the telling of this early adventure. The important part is not a conveniently invented explanation, but the encounter itself: the Misfits found a spellcaster whose circumstances made the ordinary rules of adventuring seem rather silly.
+How Noki came to be transformed remains a mystery within the telling of this early adventure. What the companions remembered was the encounter itself: they found a spellcaster stranded in the form of a sheep, an indignity they would not soon forget.
 
 Noki's story has room for further adventures and revelations. For the moment, this peculiar meeting is the one that placed his name among the companions' memories.
 
@@ -37,6 +37,6 @@ Noki's story has room for further adventures and revelations. For the moment, th
 
 The mind flayer [[Zauks and the False Lives|Zauks]] later drew upon the Misfits' recollections to recreate earlier encounters and dangers. Noki appeared among those memories.
 
-The second appearance was part of Zauks's illusion, not another confirmed transformation. For those who survived the ordeal, the sight of Noki was one more reminder that even the most ridiculous incidents of a journey could remain vivid years later.
+Within Zauks's illusion, the companions encountered Noki once more. His familiar woolly form brought back an absurd adventure at a moment when their own memories had become the mind flayer's weapons.
 
 Not every memorable person in the Misfits' story was a king, knight, or terrible foe. Sometimes the name that endured belonged to a wizard who had become a sheep.

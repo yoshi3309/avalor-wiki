@@ -45,6 +45,7 @@ These priorities reflect the author's chosen order on November 9, 2026. This tab
 The first-time welcome is an invitation, not a gate. Returning readers can keep using the full site directly. Data lives in data/welcome-routes.yml and links only to published articles, existing reading journeys, or the atlas.
 
 ## Completed interface refinements after Phase 6.4
+- **In-world editorial polish and usability pass (2026-11-10):** Recast visible authoring caveats in selected articles into Commission language; introduced a documented Aethrion debate, moved the historical atlas index after the map, grouped sidebar destinations, and condensed article controls. Further line-by-line editorial review remains open.
 
 - **Welcome-first entrance and redesigned archive home (2026-11-10):** The main URL now opens the four-doorway Archivist's Welcome; the full archive moves to /archive/ with six subdued color-coded sections and jump navigation. Legacy /start/ links preserve doorway hashes. All public lore and features remain available.
 

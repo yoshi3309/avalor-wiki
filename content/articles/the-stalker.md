@@ -31,12 +31,12 @@ Later testimony and the royal inquiry attributed the **Stalker's direction to [[
 
 Accounts also describe a brief manifestation of Cid and an **attempt to burn the town**. The companions saw consequences of that intervention without openly confronting the Blood King or discovering his true history at the time.
 
-The exact nature, origin, and full capabilities of the Stalker are not established in the public chronicle. Its connection to Cid should not be expanded into an invented account of how the creature was made.
+The Stalker's origin and the full extent of its powers remain obscure. The royal inquiry identified the hand directing the creature, but left the circumstances of its creation unanswered.
 
 ## Two kinds of loss
 
 Among the town's dead was [[Jack of Stanleyville]], a boy killed by a spell concealed in a manuscript sold by Cid in disguise. Jack's spirit later traveled with the Misfits.
 
-The record does **not** say that the Stalker killed Jack. Both deaths belong to the same broad inquiry, but their causes must not be confused.
+Jack died through the concealed spell in Cid's manuscript, while the Stalker claimed the Lord Marshal's life. Their deaths became part of the same inquiry, though they occurred by different means.
 
 Stanleyville's story includes the Stalker; it is not defined solely by the creature.

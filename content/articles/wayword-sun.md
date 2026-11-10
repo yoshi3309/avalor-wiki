@@ -33,7 +33,7 @@ What began as one ranger's place of refuge drew other hunters. Together they fou
 
 The guild's duties extend beyond confronting beasts. Its members must recognize dangers, understand unstable terrain, guide travelers, and judge when intervention is needed. Their protection can mean most to people whose appeals might never reach [[Renada]] or a distant royal garrison.
 
-Travel accounts of the wider marshes also mention the **Leaking Bucket Inn** as a welcome place of relative safety. Its exact relationship to every route serving Wayword Sun is not established; to presume otherwise would be to replace the uncertainties of a difficult landscape with the convenience of a scholar's map.
+Travelers' accounts also praise the **Leaking Bucket Inn** as a welcome refuge in the wider marshes. Whether its roads meet the routes through Wayword Sun is unclear from surviving descriptions of the region.
 
 ## An institution that endures
 

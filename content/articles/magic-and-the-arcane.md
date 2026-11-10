@@ -8,7 +8,7 @@ era: Founding Age to Age of Ascendancy
 facts: |-
   Common approaches: Arcane, divine, primal, innate
   Schools: Abjuration; conjuration; divination; enchantment; evocation; illusion; necromancy; transmutation
-  Universal Weave: Not established as a necessary common mechanism
+  Universal Weave: A matter of scholarly debate
   Major research institution: Shamman’s Tower
   Historical repository: Great Library of Aldus Greystone
   Royal adviser: Tel'Lora Ebbenflow, High Wizard and eighth seat of the Aegis
@@ -95,7 +95,7 @@ The use of magic to injure innocents, compel unwilling people, or recklessly end
 
 The persecution of drow citizens under Arnaud demonstrates the danger of turning fear into official authority. Avalor's rulers must distinguish **possession of magical ability** from **harmful use**.
 
-No public canon establishes a universal license, mandatory registration, or royal monopoly over every magical practice.
+The Royal Archives contain no kingdom-wide statute requiring all spellcasters to hold a license, register their gifts, or practice solely under royal authority.
 
 ## Necromancy and the limits of names
 

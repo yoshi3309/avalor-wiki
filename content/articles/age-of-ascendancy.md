@@ -18,7 +18,7 @@ featured: false
 
 The period historians call the **Age of Ascendancy** began after [[The Misfits]] defeated [[Cid the Blood King]]. Their victory ended a long deception about Avalor's founding age and helped restore the name of [[Jaznaar]]. The kingdom's place among other powers changed as knowledge of its champions spread.
 
-The name is established in the Living Chronicle as a way to describe the era, although the reference canon does not establish a formal royal act adopting it as an official calendar period.
+The name entered the language of historians and chroniclers. No surviving royal proclamation records its adoption as a formal division of the calendar.
 
 ## Prestige and responsibility
 

@@ -38,4 +38,4 @@ The victory made a new political order possible. It did not, by itself, unite th
 
 Travelers repeat stories of enchantments and hidden chambers. Those tales form part of the tower's reputation; the Royal Commission cannot treat them as authenticated events.
 
-A mortal conqueror needs no invented sorcery to have changed the course of history. The fear Osmo inspired and the lives spent ending his ambitions provide a sufficiently serious record.
+The tower's most enduring shadow is the one Osmo cast over his neighbors. It was his armies and his ambitions that drove the northern kingdoms to war, and many lives were spent bringing his campaigns to an end.
