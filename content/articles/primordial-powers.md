@@ -77,7 +77,7 @@ Yet an ancient title does not explain an ancient deed. Did the Creator bring exi
 
 These are not identical acts, and the oldest stories do not reliably distinguish them. Thal asks what can safely be concluded from a title whose meaning has passed through countless generations. The name may preserve genuine devotion and still leave the actual process of creation unknown.
 
-No surviving public account permits scholars to say exactly **what was created, by what means, or whether anything preceded it**.
+The earliest stories do not agree about **what was created, how it came into being, or whether something existed before it**.
 
 ## The Formless One and the question of identity
 
@@ -101,7 +101,7 @@ The idea extends beyond trees and seasons. A child matures. A craft develops. A 
 
 The old texts do not consistently treat growth and destruction as opposite divine functions. Both can be understood as transformations. For this reason, scholars sometimes compare traditions of Her to those of nature, renewal, and dawn, including the work of **[[Kelsalor]]** and devotion to **[[Lathander and the Devotion of the Dawn|Lathander]]**. Those comparisons do not make Her another name for those gods.
 
-Some commentators understand Her as a personal presence; others emphasize a principle that is difficult to separate from the very process of change. The oldest public account does not resolve every aspect of that question.
+Some commentators understand Her as a personal presence; others emphasize a principle inseparable from the process of change. The oldest accounts leave that question open.
 
 ## The stone and the seed
 
@@ -163,7 +163,7 @@ The story of the **[[The Six]]** and the false condemnation of **[[Jaznaar]]** o
 
 Some instructional manuscripts at the Great Library deliberately leave **an empty space before the first stage of a diagram of creation**. Called the **Empty Beginning**, the gap acknowledges that no living scholar can date or describe the first event with confidence.
 
-The scholars also preserve older references to a figure called **the Keeper**, associated with the First Dawn and boundaries between worlds. The name belongs to a separate body of tradition; no reliable public testimony identifies the Keeper as one of these four presences.
+Older accounts also mention **the Keeper**, associated with the First Dawn and the boundaries between worlds. The Commission treats those references separately from the traditions of the four primordial powers.
 
 The scholars of the Royal Commission therefore preserve the four names without inventing a complete account of their acts. The Creator remains bound to questions of beginning; the Formless One to an ancient companionship and an elusive nature; Her to becoming; the One Below to concealed depths.
 

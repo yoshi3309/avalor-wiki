@@ -116,7 +116,7 @@ Fragments concerning **Aethrion** have sometimes been compared to the Black Towe
 
 The name **[[The Beyond|the Beyond]]** appears in scattered cosmological references, but scholars disagree about what it designates. Some use the term for the unknown; others suggest something unlike the realms ordinarily described as planes.
 
-No reliable public account establishes that it is a plane, the darkness between them, or a destination past the last mapped reality.
+Surviving accounts offer no settled description of the Beyond. It remains unclear whether the term names a realm, a passage between realms, or something for which the cartographers of the planes have no category.
 
 The gods likewise have diverse associations with their own realms. No single heavenly residence or universal final destination for souls has been demonstrated.
 

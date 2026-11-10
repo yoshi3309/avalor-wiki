@@ -44,6 +44,10 @@ These priorities reflect the author's chosen order on November 9, 2026. This tab
 
 The first-time welcome is an invitation, not a gate. Returning readers can keep using the full site directly. Data lives in data/welcome-routes.yml and links only to published articles, existing reading journeys, or the atlas.
 
+## Editorial review ahead of Phase 6.6
+
+- **In progress (2026-11-10):** Completed a catalog-wide structural/voice scan of all 112 public encyclopedia articles with selected close reading. Initial safe prose revisions are committed. Priority A requires source verification of specific customs and scholars' anecdotes before further rewrites. See [Editorial Review](EDITORIAL_REVIEW_2026_11.md). Do not begin Phase 6.6 until this review is resolved.
+
 ## Completed interface refinements after Phase 6.4
 - **Atlas layout & Royal Gazette (2026-11-10):** Keep the atlas chart visible while scanning the longer location index on desktop. Phase 6.5 establishes dated, source-linked Commission circulars. The dates describe archive publication, not events in Avalor.
 

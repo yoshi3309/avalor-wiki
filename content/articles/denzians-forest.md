@@ -15,7 +15,7 @@ featured: false
 
 **Denzians Forest** lies apart from the [[Forest of the Fey]]. The resemblance between two great woodlands on a map conceals separate histories. The Forest of the Fey is known for ancient elven territories and treaties with the crown; Denzians Forest owes its familiar name to **Denzian**, a wizard remembered as having lived nearby long ago.
 
-Beyond that association, little of the wizard's life can be established with confidence from the public record. In local retellings, the uncertainty has become an invitation to stories more remarkable than any sober biography.
+The wizard's life remains elusive in the surviving histories. Local retellings have filled that silence with tales more remarkable than any sober biography.
 
 ## The rumored trove
 

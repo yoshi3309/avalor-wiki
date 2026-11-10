@@ -28,7 +28,7 @@ Its reputation is not merely architectural. The tower is remembered as the place
 
 The sanctuary of [[Heaven's Heart]] lies nearby in the same mountainous region, but **the Black Stair is not the road to that sanctuary**. It leads toward Aldus's tower. Confusing the two places misrepresents their distinct histories: one is known for paladin training and scholarship; the other for forbidden experiments, long-standing restrictions, and the catastrophe that divided the Six.
 
-The royal prohibition upon access to the tower made the stair's destination particularly ominous. The public sources do not identify an authenticated ancient builder or a separate magical purpose for every stone of the ascent. Its significance is as the route to the Black Tower, not as an independent institution.
+The royal prohibition upon access to the tower made the stair's destination particularly ominous. No surviving inscription names the stair's ancient builder. Its place in history comes from leading travelers toward the Black Tower itself.
 
 Centuries later, **[[Lavitz Shawe]]** kept a **ninety-day vigil at a tomb near the stair's foot** during his paladin training. His vigil did not change where the stairs led, and the sanctuary of Heaven's Heart remained a separate place nearby.
 

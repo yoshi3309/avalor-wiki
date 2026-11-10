@@ -22,7 +22,7 @@ Among Avalor's many religious traditions, the worship of **Lathander**, the Morn
 
 Devotion need not be confined to a temple. The blessing of a new endeavor, a prayer before setting out upon a journey, or the care of a community recovering from disaster may all express these convictions. Some families observe such customs openly; others follow quieter practices inherited from those who came before them.
 
-The public record does not establish one central religious order governing all Avalorian worshippers of Lathander. Temples, charitable communities, small congregations, and individual households may observe the faith in different ways.
+The Morninglord's worship takes many forms across Avalor. Temples, charitable communities, small congregations, and individual households observe the faith according to their own traditions.
 
 ## The First Loaf
 

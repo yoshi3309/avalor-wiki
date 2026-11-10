@@ -24,13 +24,11 @@ featured: false
 
 Blades, armor components, tools, and other forged goods from Stanleyville travel along the kingdom's commercial networks toward [[Renada]] and the ports. To merchants, the town's name is a mark of workmanship; to its residents, that reputation represents apprenticeships, labor, household livelihoods, and the continued passing of craft from one generation to the next.
 
-The surviving account does not establish a complete list of smithing guilds, every workshop's ownership, or a founding charter. The town's importance can be understood without inventing them.
+The Commission's holdings preserve the town's reputation for workmanship, though no complete register of its workshops or founding charter has survived.
 
 ## Hjoldan and the pony Stanley
 
-Local tradition links the town's beginnings to **Hjoldan**, a dwarven blacksmith, and preserves the curious story of a **pony named Stanley**.
-
-The town's founding story credits **Hjoldan**, a dwarven blacksmith who gave the settlement the name of his **pony, Stanley**. Travelers still delight in the contrast between the humble pony and the powerful forge town that grew around his name.
+Local tradition credits **Hjoldan**, a dwarven blacksmith, with naming the settlement after his **pony, Stanley**. Travelers still delight in the contrast between the humble animal and the powerful forge town that grew around his name.
 
 For the people who live in Stanleyville, the point is larger than a clever name. Their town is known for work that has endured over generations, not simply for a story one visitor can tell another over a drink.
 
@@ -78,7 +76,7 @@ The most visible consequences of the Stanleyville affair appear in royal chronic
 
 For Stanleyville itself, the story was also one of people living with danger and uncertainty. Ordinary citizens could not put aside their work or obligations while waiting for the larger mystery to be resolved. The town's reputation for good steel had to coexist with memories of those it lost.
 
-The record does not establish that all the forges were destroyed, that trade permanently collapsed, or that the community was abandoned. Such claims would need evidence not presently available in the public history.
+The Commission has found no account of the town's abandonment or the permanent collapse of its forge trade. The surviving histories instead return repeatedly to its long-established craft.
 
 ## Jack's place in its memory
 
