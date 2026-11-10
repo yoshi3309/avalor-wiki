@@ -3,7 +3,7 @@ title: The Misfits
 subtitle: Champions of the Age of Ascendancy
 summary: From a Lord Marshal's first commission to the defeat of Cid, the adventuring fellowship whose friendship and discoveries transformed Avalor's history.
 category: People & Legends
-image: /assets/uploads/enchanted-tavern-adventurers-gathering.png
+image: /assets/uploads/the-misfits.png
 entry: HIS.001
 era: Age of the Misfits to Age of Ascendancy
 facts: |-

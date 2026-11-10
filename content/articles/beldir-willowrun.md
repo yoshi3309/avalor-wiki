@@ -3,7 +3,7 @@ title: Beldir Willowrun
 subtitle: The Admiral Who Was Born at Sea
 summary: Born aboard his father's fishing boat, the human admiral Beldir Willowrun rose from Royal Navy captain to Sentinel of the Seas, never truly leaving the ocean behind.
 category: People & Legends
-image: /assets/uploads/dignified-lion-emblemed-admiral-overlooking-the-harbor.png
+image: /assets/uploads/beldir-willowrun.png
 entry: BIO.020
 era: Age of Ascendancy
 facts: |-

@@ -3,7 +3,7 @@ title: Brother Halden Korr
 subtitle: Archivist of Heaven's Heart
 summary: Brother Halden Korr, an archivist at Heaven's Heart, values the testimony of faith while insisting that the cathedral confront errors preserved in its own records.
 category: People & Legends
-image: /assets/uploads/candlelit-gothic-scholar-with-ancient-tome.png
+image: /assets/uploads/brother-halden-korr.png
 entry: BIO.023
 era: Age of Ascendancy
 facts: |-
