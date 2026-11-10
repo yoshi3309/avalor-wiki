@@ -398,6 +398,46 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
             'next': mapped_steps[i+1] if i+1 < len(mapped_steps) else None
         })
 
+# The Archivist's Welcome routes are curated player-facing navigation, never
+# newly established facts or campaign secrets. Every reading step is a real
+# public article, and every longer path is an existing public reading journey.
+WELCOME_SOURCE = yaml.safe_load((ROOT / 'data' / 'welcome-routes.yml').read_text(encoding='utf-8')) or {}
+WELCOME_ROUTES = []
+WELCOME_EXPECTED_IDS = ('kingdom','heroes','history','world')
+WELCOME_REQUIRED_TEXT = ('title','kicker','symbol','tagline','intro','welcome','destination_label')
+for raw_route in WELCOME_SOURCE.get('routes', []):
+    ident = str(raw_route.get('id') or '').strip()
+    if ident not in WELCOME_EXPECTED_IDS or ident in {r['id'] for r in WELCOME_ROUTES}:
+        raise ValueError(f'Welcome route ID is invalid or duplicated: {ident}')
+    if any(not str(raw_route.get(key) or '').strip() for key in WELCOME_REQUIRED_TEXT):
+        raise ValueError(f'Welcome route {ident} has missing display text')
+    steps = raw_route.get('articles') or []
+    if not isinstance(steps, list) or len(steps) != 3:
+        raise ValueError(f'Welcome route {ident} must present exactly three public starting records')
+    seen = set()
+    mapped = []
+    for number, step in enumerate(steps, 1):
+        slug = str(step.get('article') or '')
+        if slug not in BY_SLUG or slug in seen or not str(step.get('invitation') or '').strip():
+            raise ValueError(f'Welcome route {ident}: invalid or repeated public article {slug}')
+        seen.add(slug)
+        mapped.append({'number':number,'article':BY_SLUG[slug],'invitation':str(step['invitation'])})
+    dest = str(raw_route.get('destination') or '')
+    if dest == 'atlas':
+        dest_url = 'map/'
+        dest_type = 'ATLAS'
+    elif dest in JOURNEY_IDS:
+        dest_url = 'journeys/' + dest + '/'
+        dest_type = 'GUIDED READING JOURNEY'
+    else:
+        raise ValueError(f'Welcome route {ident}: destination must be a published journey or the Atlas')
+    WELCOME_ROUTES.append({
+        'id':ident, **{key:str(raw_route[key]) for key in WELCOME_REQUIRED_TEXT},
+        'steps':mapped,'destination':dest_url,'destination_type':dest_type,
+    })
+if [r['id'] for r in WELCOME_ROUTES] != list(WELCOME_EXPECTED_IDS):
+    raise ValueError('Welcome routes must contain the four established entry choices in order')
+
 # The relationship atlas only depicts curated public connections. Never infer
 # genealogy from consecutive reigns or invent links to make a diagram prettier.
 RELATIONSHIPS_SOURCE = yaml.safe_load((ROOT / 'data' / 'relationship-maps.yml').read_text(encoding='utf-8')) or {}
@@ -829,6 +869,8 @@ def preview_subject(values):
     elif kind == 'home':
         label = 'A World of Kingdoms and Legends'
         artwork = 'assets/uploads/avalor-official-map.webp'
+    elif kind == 'welcome':
+        label = 'The Archivist’s Welcome'
     elif kind == 'journeys':
         label = 'Guided Reading'
         journey = values.get('journey')
@@ -922,6 +964,7 @@ for article in ALL:
     article['html'] = re.sub(r'<img\b[^>]*>',responsive_article_img,article['html'])
 (PUBLIC/'.nojekyll').write_text('')
 render('home.html','index.html',page_type='home',title='Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
+render('welcome.html','start/index.html',depth=1,page_type='welcome',title='Begin Your Journey',crumbs='Start Here',description='Choose your first path into Avalor: meet the kingdom, its heroes, its history, or the world itself.',welcome_routes=WELCOME_ROUTES)
 render('list.html','articles/index.html',depth=1,page_type='all',title='All records',crumbs='All records',heading='All records',overline='CATALOGUE · A–Z',intro='An alphabetical index of publicly accessible records, maintained by the Royal Commission of Historical Inquiry.',items=ALL)
 for cat in CATEGORIES:
     subset=[a for a in ALL if a['category']==cat['name']]

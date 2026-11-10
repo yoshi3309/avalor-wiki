@@ -29,6 +29,21 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Discord & social previews (2026-11-09):** Open Graph and Twitter large-card metadata with canonical absolute URLs, source-grounded descriptions, and generated 1200 × 630 JPEG artwork for every public page. Approved public article/gallery art is preferred; pages without suitable assets receive an archival heraldic card. Preserves originals, embeds image metadata for Discord bots, tests paths and dimensions, and allows a future HTTPS base URL through AVALOR_SITE_URL. See docs/DISCORD_SOCIAL_PREVIEWS.md.
 
+## Phase 6 — User-selected implementation order
+
+These priorities reflect the author's chosen order on November 9, 2026. This table's priority numbers are the new execution sequence, not the original numbered suggestions.
+
+| Priority | Feature | Status | Focus |
+|---|---|---|---|
+| 1 | The Archivist's Welcome | COMPLETE | Optional first-visit page at /start/. Four public starting paths (kingdom, heroes, history, world), three verified public records each, reading-journey/atlas handoffs, homepage invitation. No forced onboarding. |
+| 2 | Character Comparison Dossiers | NEXT | Compare established biographies, eras, roles and affiliations with evidence links; no invented rankings or relations. |
+| 3 | Atlas Through Time | PLANNED | Link dated events to approved map pins; no invented past borders, positions, routes or dates. |
+| 4 | Archive Quality & Maintenance | PLANNED | Sitemap, documentation, broken-link checks, mobile and assistive-technology audits. |
+| 5 | The Royal Gazette | PLANNED | Dated editorial publication and update highlights; no invented in-world breaking news. |
+| 6 | Chapter Sharing to Discord | PLANNED | Copy chapter URLs and source-grounded citations; reuse existing anchors and social previews. |
+
+The first-time welcome is an invitation, not a gate. Returning readers can keep using the full site directly. Data lives in data/welcome-routes.yml and links only to published articles, existing reading journeys, or the atlas.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
@@ -45,7 +60,7 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 ## Current focus and guardrails
 
-- **Current main quest:** All six initial website enhancements complete. Future features are scoped separately as selected, without automatically expanding lore.
+- **Current main quest:** Phase 6 priorities are locked in the table above. The Archivist's Welcome is the first deliverable; Character Comparison Dossiers are next. The original six website enhancements remain complete.
 - Future lore development, content audits, or other ideas can be handled as side quests without losing this list.
 - Add a new idea here rather than silently changing the order of the main quest.
 - No Keeper notes, future campaign secrets, unapproved family genealogy, or speculative personal ties may appear in public relationship data.

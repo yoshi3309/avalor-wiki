@@ -48,6 +48,7 @@ jobs:
           node --check assets/exhibits.js
           node --check assets/reading-desk.js
           node --check assets/reading-comfort.js
+          node --check assets/welcome.js
       - name: Test smart archive search
         run: node --test tests/test_search.js
       - name: Check public canon and article links
@@ -62,6 +63,8 @@ jobs:
         run: python tests/check_media_performance.py
       - name: Check Discord & Social Previews
         run: python tests/check_social_previews.py
+      - name: Check Archivist Welcome
+        run: python tests/check_welcome.py
       - name: Check Atlas exploration controls
         run: python tests/check_atlas_explore.py
       - name: Check Cross-Archive Connections

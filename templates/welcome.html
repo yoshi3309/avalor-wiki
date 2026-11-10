@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container welcome-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><span>Start Here</span></nav>
+  <header class="welcome-hero">
+    <div class="welcome-hero-scenery" aria-hidden="true"></div>
+    <div class="welcome-hero-copy">
+      <span class="welcome-overline">THE ROYAL COMMISSION · AN INVITATION TO EXPLORE</span>
+      <img class="welcome-crest" src="{{root}}assets/crest.svg" width="80" height="80" alt="" decoding="async">
+      <h1>Welcome to <em>Avalor.</em></h1>
+      <p>A kingdom with a long memory. Heroes with unfinished stories. Forests, cities, and histories waiting beyond the palace walls.</p>
+      <p class="welcome-hero-message">You need not know a single name to begin. Choose what calls to you, and the Archivist will show you a place to start.</p>
+      <a href="#welcome-choices" class="welcome-hero-action">Choose your first path <span aria-hidden="true">↓</span></a>
+    </div>
+    <span class="welcome-hero-edition" aria-hidden="true">THE SCHOLAR'S EDITION · EST. 1 AF</span>
+  </header>
+
+  <section class="welcome-choices" id="welcome-choices" aria-labelledby="welcome-choices-title">
+    <div class="welcome-section-heading">
+      <div><span class="kicker">I · THE FOUR DOORWAYS</span><h2 id="welcome-choices-title">What brings you to Avalor, traveler?</h2></div>
+      <p>There is no wrong starting point. Each path offers three published records and a longer road to follow.</p>
+    </div>
+    <nav class="welcome-choice-grid" aria-label="Choose an introduction to Avalor">
+      {% for route in welcome_routes %}
+      <a class="welcome-choice welcome-choice-{{route.id}}" href="#welcome-{{route.id}}" data-welcome-choice="{{route.id}}" aria-controls="welcome-{{route.id}}">
+        <div class="welcome-choice-upper"><span class="welcome-choice-index">PATH {{'%02d'|format(loop.index)}}</span><span class="welcome-choice-symbol" aria-hidden="true">{{route.symbol}}</span></div>
+        <strong>{{route.title}}</strong>
+        <span class="welcome-choice-tagline">{{route.tagline}}</span>
+        <span class="welcome-choice-arrow">Enter this wing <span aria-hidden="true">↗</span></span>
+      </a>
+      {% endfor %}
+    </nav>
+    <p class="welcome-choices-note">An introduction, not a quiz. You may change paths at any time. Deeper records contain the complete public historical account.</p>
+  </section>
+
+  <div class="welcome-panels" id="welcome-panels">
+  {% for route in welcome_routes %}
+    <section class="welcome-panel welcome-panel-{{route.id}}" id="welcome-{{route.id}}" data-welcome-panel="{{route.id}}" aria-labelledby="welcome-panel-title-{{route.id}}">
+      <header class="welcome-panel-heading">
+        <div><div class="welcome-panel-kicker">II · {{route.kicker}} · PATH {{'%02d'|format(loop.index)}}</div>
+          <h2 id="welcome-panel-title-{{route.id}}">{{route.title}}</h2>
+          <p>{{route.intro}}</p>
+        </div>
+        <span class="welcome-panel-symbol" aria-hidden="true">{{route.symbol}}</span>
+      </header>
+      <div class="welcome-panel-grid">
+        <div class="welcome-archivist-letter">
+          <div class="welcome-letter-top"><span>AN INVITATION FROM THE ARCHIVIST</span><span aria-hidden="true">✦</span></div>
+          <p class="welcome-letter-drop">{{route.welcome}}</p>
+          <div class="welcome-letter-seal" aria-hidden="true">❦</div>
+          <div class="welcome-letter-bottom">THE ROYAL ARCHIVES · PUBLIC RECORDS</div>
+        </div>
+        <div class="welcome-reading-shelf">
+          <div class="welcome-reading-heading"><span>THREE PLACES TO BEGIN</span><span>01 — 03</span></div>
+          <ol class="welcome-steps">
+            {% for item in route.steps %}
+            <li>
+              <span class="welcome-step-number">{{'%02d'|format(item.number)}}</span>
+              <div class="welcome-step-body">
+                <h3><a href="{{root}}articles/{{item.article.slug}}/">{{item.article.title}} <span aria-hidden="true">↗</span></a></h3>
+                <p>{{item.invitation}}</p>
+                {% if loop.first %}<span class="welcome-step-first">BEGIN HERE</span>{% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
+          <div class="welcome-longer-road">
+            <div><span class="welcome-longer-overline">{{route.destination_type}}</span><p>Ready to follow the longer road?</p></div>
+            <a href="{{root}}{{route.destination}}">{{route.destination_label}} <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+  </div>
+
+  <footer class="welcome-afterword">
+    <div><div class="kicker">III · THE ARCHIVES ARE YOURS TO EXPLORE</div><h2>Stay curious. Follow the next thread.</h2>
+      <p>This guide is only a doorway. The full Archives, Interactive Atlas, Living Chronicle, and your personal Reading Desk remain open whenever you wish to wander.</p></div>
+    <div class="welcome-afterword-links">
+      <a href="{{root}}articles/">Browse every record <span aria-hidden="true">↗</span></a>
+      <a href="{{root}}map/">Open the Interactive Atlas <span aria-hidden="true">↗</span></a>
+      <a href="{{root}}chronicle/">Explore the Living Chronicle <span aria-hidden="true">↗</span></a>
+      <a href="{{root}}reading-desk/">Visit My Reading Desk <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+  <p class="welcome-public-note">All featured records belong to the public Scholar's Edition. The guide introduces established lore without adding unverified claims or private Keeper material.</p>
+</div>
+{% endblock %}

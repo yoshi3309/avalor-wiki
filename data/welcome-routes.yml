@@ -1,0 +1,68 @@
+# Public-facing starting routes only. Each suggested article must exist in
+# content/articles and each journey must be a curated, published journey.
+# This guide is editorial navigation, not new setting canon or Keeper lore.
+routes:
+  - id: kingdom
+    title: Discover the Kingdom
+    kicker: THE CROWN & ITS PEOPLE
+    symbol: "♛"
+    tagline: A kingdom made through agreement.
+    intro: "Begin with the northern union, then see how crown, communities, and the capital shaped the realm that followed."
+    welcome: "Avalor was not born empty. Its founders united existing peoples, cities, and obligations under a common crown. The archive begins where their histories meet."
+    articles:
+      - article: kingdom-of-avalor
+        invitation: "Meet the kingdom as it exists: its crown, council, and many peoples."
+      - article: unification-of-avalor
+        invitation: "Follow the negotiated union that established Avalor in 1 AF."
+      - article: renada
+        invitation: "Explore the lived-in capital beside the River Rhys."
+    destination: frozenroar-dynasty
+    destination_label: Continue with the Frozenroar Dynasty
+  - id: heroes
+    title: Meet the Heroes
+    kicker: THE FELLOWSHIPS
+    symbol: "⚔"
+    tagline: The people who changed the record.
+    intro: "Begin with the Misfits, meet a protector among them, and encounter the earlier fellowship that shaped Avalor's memory."
+    welcome: "Legends grow around choices made by ordinary people. The records of Avalor's adventuring fellowships are as much about friendship and responsibility as they are about triumph."
+    articles:
+      - article: the-misfits
+        invitation: "Meet the fellowship at the heart of Avalor's later histories."
+      - article: lavitz-shawe
+        invitation: "Follow a paladin from Renada into a life of public service."
+      - article: the-six
+        invitation: "Discover the founding-era companions who came before them."
+    destination: rise-of-the-misfits
+    destination_label: Follow the Rise of the Misfits
+  - id: history
+    title: Uncover the History
+    kicker: THE COMMISSION'S ACCOUNT
+    symbol: "⌛"
+    tagline: Remembered stories. Reconsidered truths.
+    intro: "Begin at the founding and follow the Six toward the difficult questions that later scholars had to revisit."
+    welcome: "History is not simply what survived in a royal inscription. The Commission compares inherited stories with witness accounts, later discoveries, and uncertainties that remain."
+    articles:
+      - article: unification-of-avalor
+        invitation: "Start with the political agreement that begins the AF calendar."
+      - article: the-six
+        invitation: "Meet six people whose remembered deeds helped define the early kingdom."
+      - article: sundering-of-the-six
+        invitation: "Continue into a contested chapter of the founding fellowship."
+    destination: fall-of-the-six
+    destination_label: Read the Fall of the Six
+  - id: world
+    title: Explore the World
+    kicker: LAND, RIVER & FOREST
+    symbol: "✧"
+    tagline: A place with histories beyond its crown.
+    intro: "Start with the realm's geography, enter one of its ancient inhabited forests, and arrive in the capital before exploring the atlas."
+    welcome: "Avalor is larger than its rulers and heroes. Its forests, rivers, roads, and communities hold their own histories, whether or not those stories ever reached the throne."
+    articles:
+      - article: geography-of-avalor
+        invitation: "Learn the landscapes and named regions of the kingdom."
+      - article: forest-of-the-fey
+        invitation: "Meet an ancestral forest whose communities defended enduring rights."
+      - article: renada
+        invitation: "Visit the river city that became the seat of the crown."
+    destination: atlas
+    destination_label: Open the Interactive Atlas
