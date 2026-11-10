@@ -942,7 +942,7 @@ for article in ALL:
     if any(item['collection'] == 'characters' and item['related']
            and item['related'][0]['slug'] == slug for item in GALLERY_ITEMS):
         continue
-    raw_image=str(article.get('image_url') or '').strip().lstrip('/')
+    raw_image=str(article.get('image') or '').strip().lstrip('/')
     # Image paths were validated by article_image_src; do not expose arbitrary
     # URLs, private material, or non-image assets as a portrait.
     if not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I):
