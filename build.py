@@ -556,6 +556,66 @@ for graph in RELATIONSHIP_MAPS:
     graph['client_data']['web_articles'] = [node['article'] for node in graph['nodes']
                                            if node['article'] in CONNECTION_WEB_BY_ARTICLE]
 
+# Only independently curated, public character dossiers enter side-by-side
+# comparisons. Facts must name a chapter in that character's own published
+# biography; a missing source section fails the build rather than guessing.
+COMPARISON_SOURCE = yaml.safe_load((ROOT/'data'/'character-comparisons.yml').read_text(encoding='utf-8')) or {}
+COMPARISON_FIELDS = ('role', 'affiliations', 'turning', 'legacy')
+COMPARISON_LABELS = {'role':'Calling & public identity',
+                     'affiliations':'Alliances & institutions',
+                     'turning':'Defining decisions',
+                     'legacy':'Legacy & significance'}
+COMPARISON_PROFILES = []
+COMPARISON_BY_SLUG = {}
+for raw in COMPARISON_SOURCE.get('profiles', []):
+    slug = str(raw.get('article') or '')
+    if slug not in BY_SLUG or BY_SLUG[slug]['category'] != 'People & Legends' or slug in COMPARISON_BY_SLUG:
+        raise ValueError('Comparison dossier references an unknown or duplicated public person: ' + slug)
+    source = BY_SLUG[slug]
+    known_chapters = {h['id'] for h in source['headings']}
+    facts = {}
+    for key in COMPARISON_FIELDS:
+        record = raw.get(key)
+        if not isinstance(record,dict):
+            raise ValueError(f'Comparison dossier {slug}: missing {key}')
+        statement = str(record.get('text') or '').strip()
+        chapter = str(record.get('chapter') or '').strip()
+        if not statement or chapter not in known_chapters:
+            raise ValueError(f'Comparison dossier {slug}: unsupported {key} chapter {chapter}')
+        facts[key] = {'text':statement,'chapter':chapter,
+                      'source':'Chapter: '+next(h['text'] for h in source['headings'] if h['id']==chapter)}
+    artwork = str(source.get('image') or '').lstrip('/')
+    if artwork and (not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)',artwork,re.I)
+                    or '..' in artwork.split('/') or not (ROOT/artwork).is_file()):
+        raise ValueError(f'Comparison dossier {slug}: invalid or missing public portrait')
+    person = {'id':slug,'name':source['title'],'subtitle':str(source.get('subtitle') or ''),
+              'summary':source['summary'],'era':str(source.get('era') or 'Era not recorded'),
+              'image':artwork,'image_alt':str(source.get('image_alt') or ('Illustration accompanying the public record of '+source['title'])),
+              'facts':facts}
+    COMPARISON_PROFILES.append(person)
+    COMPARISON_BY_SLUG[slug] = person
+COMPARISON_PROFILES.sort(key=lambda p:p['name'].casefold())
+if len(COMPARISON_PROFILES)<12:
+    raise ValueError('Comparison Dossiers requires a substantial reviewed collection')
+
+COMPARISON_PRESETS = []
+COMPARISON_PRESET_IDS = set()
+for raw in COMPARISON_SOURCE.get('presets', []):
+    ident = str(raw.get('id') or '')
+    left, right = str(raw.get('left') or ''), str(raw.get('right') or '')
+    if (not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',ident) or
+            ident in COMPARISON_PRESET_IDS or left not in COMPARISON_BY_SLUG or
+            right not in COMPARISON_BY_SLUG or left == right or
+            not str(raw.get('title') or '').strip() or not str(raw.get('description') or '').strip()):
+        raise ValueError('Comparison Dossiers has invalid or duplicate suggested pairing: '+ident)
+    COMPARISON_PRESET_IDS.add(ident)
+    COMPARISON_PRESETS.append({
+        'id': ident,'title':str(raw['title']),'description':str(raw['description']),
+        'left':left,'right':right,
+        'left_name':COMPARISON_BY_SLUG[left]['name'],'right_name':COMPARISON_BY_SLUG[right]['name']})
+COMPARISON_DATA = {'profiles':COMPARISON_PROFILES,'presets':COMPARISON_PRESETS,
+                   'fields':[{'key':key,'label':COMPARISON_LABELS[key]} for key in COMPARISON_FIELDS]}
+
 # The cartographer's table is public-facing. This file contains no hidden
 # locations; the original Keeper documents are never read by this build.
 MAP_CONFIG = ROOT / 'data' / 'avalor-map.yml'
@@ -879,6 +939,11 @@ def preview_subject(values):
             artwork = first.get('image_url')
             if not artwork and GALLERY_BY_ARTICLE.get(first['slug']):
                 artwork = GALLERY_BY_ARTICLE[first['slug']][0]['image']
+    elif kind == 'compare':
+        label = 'Character Comparison Dossiers'
+        pair = values.get('comparison_pair')
+        if pair:
+            artwork = COMPARISON_BY_SLUG[pair['left']]['image'] or None
     elif kind == 'connections':
         label = 'People & Connections'
     elif kind == 'timeline':
@@ -927,6 +992,8 @@ if PUBLIC.exists():shutil.rmtree(PUBLIC)
 PUBLIC.mkdir()
 shutil.copytree(ROOT/'assets',PUBLIC/'assets',dirs_exist_ok=True)
 MEDIA_CATALOG = generate_media(ROOT, PUBLIC)
+for dossier in COMPARISON_PROFILES:
+    dossier['media'] = MEDIA_CATALOG.get(dossier['image'])
 # The originals keep their existing stable URLs. Preview metadata is attached
 # only after the optimized variants have been generated and verified.
 for item in GALLERY_ITEMS:
@@ -995,7 +1062,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),web_connection=a['slug'] in CONNECTION_WEB_BY_ARTICLE,gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []),historical_exhibits=EXHIBITS_BY_ARTICLE.get(a['slug'], []))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),web_connection=a['slug'] in CONNECTION_WEB_BY_ARTICLE,gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []),historical_exhibits=EXHIBITS_BY_ARTICLE.get(a['slug'], []),comparison_available=a['slug'] in COMPARISON_BY_SLUG)
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -1022,6 +1089,9 @@ render('reading-desk.html','reading-desk/index.html',depth=1,page_type='reading-
 render('exhibits.html','exhibits/index.html',depth=1,page_type='exhibits',title='Historical Documents & Exhibits',crumbs='Historical Exhibits',exhibits=EXHIBITS)
 for exhibit in EXHIBITS:
     render('exhibit.html',f'exhibits/{exhibit["id"]}/index.html',depth=2,page_type='exhibits',title=exhibit['title'],description=exhibit['summary'],crumbs=exhibit['title'],exhibit=exhibit)
+render('compare.html','compare/index.html',depth=1,page_type='compare',title='Character Comparison Dossiers',description='Examine documented lives side by side: public identity, institutions, turning points, and legacies, with sources for every claim.',crumbs='Character Comparisons',comparison_data=COMPARISON_DATA,comparison_pair=None)
+for pair in COMPARISON_PRESETS:
+    render('compare.html',f'compare/pairs/{pair["id"]}/index.html',depth=3,page_type='compare',title=pair['title']+' · Character Dossiers',description=pair['description'],crumbs=pair['title'],comparison_data=COMPARISON_DATA,comparison_pair=pair)
 render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS,connection_web=CONNECTION_WEB)
 for graph in RELATIONSHIP_MAPS:
     render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)

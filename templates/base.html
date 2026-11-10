@@ -30,6 +30,8 @@
 {% if page_type == 'welcome' %}<script defer src="{{root}}assets/welcome.js?v=20261109-welcome-1"></script>{% endif %}
 {% if page_type == "connections" or page_type == "article" or page_type == "home" %}<link rel="stylesheet" href="{{ root }}assets/connections.css?v=20261109-connect-2">{% endif %}
 {% if page_type == "connections" %}<script defer src="{{ root }}assets/connections.js?v=20261109-connect-2"></script><script defer src="{{ root }}assets/connections-web.js?v=20261109-cross-1"></script>{% endif %}
+{% if page_type == 'compare' or page_type == 'article' %}<link rel="stylesheet" href="{{root}}assets/comparisons.css?v=20261110-compare-1">{% endif %}
+{% if page_type == 'compare' %}<script defer src="{{root}}assets/comparisons.js?v=20261110-compare-1"></script>{% endif %}
 {% if page_type == "timeline" %}<link rel="stylesheet" href="{{ root }}assets/chronicle.css?v=20261108-chronicle-v2">{% endif %}
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
@@ -68,6 +70,7 @@
       <a class="nav-link {% if page_type=='journeys' %}active{% endif %}" href="{{ root }}journeys/"><span class="nav-icon">✧</span> Reading journeys</a>
       <a class="nav-link {% if page_type=='reading-desk' %}active{% endif %}" href="{{ root }}reading-desk/"><span class="nav-icon">▤</span> My Reading Desk</a>
       <a class="nav-link {% if page_type=='connections' %}active{% endif %}" href="{{ root }}connections/"><span class="nav-icon">✥</span> People &amp; connections</a>
+      <a class="nav-link {% if page_type=='compare' %}active{% endif %}" href="{{root}}compare/"><span class="nav-icon">⚖</span> Compare characters</a>
       <a class="nav-link {% if page_type=='map' %}active{% endif %}" href="{{ root }}map/"><span class="nav-icon">✥</span> Interactive map</a>
       <a class="nav-link {% if page_type=='gallery' %}active{% endif %}" href="{{ root }}gallery/"><span class="nav-icon">▧</span> Illustration Gallery</a>
       <a class="nav-link {% if page_type=='exhibits' %}active{% endif %}" href="{{root}}exhibits/"><span class="nav-icon">▤</span> Historical Exhibits</a>

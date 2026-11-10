@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container dossier-page" id="comparison-dossiers" data-comparisons data-initial-left="{{comparison_pair.left if comparison_pair else ''}}" data-initial-right="{{comparison_pair.right if comparison_pair else ''}}">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}connections/">People &amp; connections</a><span>›</span><span>Character Dossiers</span></nav>
+  <header class="dossier-intro">
+    <div class="dossier-kicker">THE ROYAL COMMISSION · COMPARATIVE HISTORIES</div>
+    <div class="dossier-intro-layout">
+      <div>
+        <h1>Character <em>Comparison Dossiers</em></h1>
+        <p class="dossier-deck">Two lives. Two records. A closer look at the choices and legacies that shaped Avalor.</p>
+        <p>Choose two documented figures to examine their backgrounds, responsibilities, turning points, and historical impact. Each statement links to the exact chapter that supports it.</p>
+      </div>
+      <span class="dossier-intro-seal" aria-hidden="true">⚖</span>
+    </div>
+    <div class="dossier-truth"><span aria-hidden="true">◇</span><p><strong>A note from the Commission:</strong> This is a comparison of the surviving <em>public record</em>, not a contest of strength or a claim that the subjects knew one another. Missing information remains unasserted; the cited biographies provide fuller context.</p></div>
+  </header>
+
+  <section class="dossier-workspace" aria-labelledby="dossier-workspace-title">
+    <div class="dossier-section-heading"><div><div class="kicker">I · THE TWO RECORDS</div><h2 id="dossier-workspace-title">Choose the lives to examine</h2></div><span class="dossier-record-count">{{comparison_data.profiles|length}} CURATED BIOGRAPHIES</span></div>
+    <div class="dossier-controls" aria-label="Choose two public biographies">
+      <div class="dossier-selector"><label for="dossier-left">First record</label><select id="dossier-left">{% for item in comparison_data.profiles %}<option value="{{item.id}}">{{item.name}}</option>{% endfor %}</select></div>
+      <button type="button" class="dossier-swap" id="dossier-swap" aria-label="Swap the two selected characters" title="Swap characters"><span aria-hidden="true">⇄</span><span>Swap</span></button>
+      <div class="dossier-selector"><label for="dossier-right">Second record</label><select id="dossier-right">{% for item in comparison_data.profiles %}<option value="{{item.id}}">{{item.name}}</option>{% endfor %}</select></div>
+      <button type="button" class="dossier-share" id="dossier-copy">Copy comparison link <span aria-hidden="true">↗</span></button>
+    </div>
+    <p class="dossier-status" id="dossier-status" role="status" aria-live="polite">Select two different published biographies to begin.</p>
+
+    <div class="dossier-portraits" id="dossier-portraits" aria-label="Selected biographies">
+      <article id="dossier-left-profile" class="dossier-person"><div class="dossier-loading">The first biography is being prepared.</div></article>
+      <div class="dossier-vs" aria-hidden="true"><span>AND</span></div>
+      <article id="dossier-right-profile" class="dossier-person"><div class="dossier-loading">The second biography is being prepared.</div></article>
+    </div>
+    <section class="dossier-research" aria-labelledby="dossier-research-title">
+      <div class="dossier-research-heading"><div><span class="dossier-research-overline">II · SCHOLARLY EXAMINATION</span><h2 id="dossier-research-title">Comparative records</h2></div><span>VERIFIED PUBLIC CHAPTERS</span></div>
+      <div id="dossier-rows" class="dossier-rows"></div>
+    </section>
+    <div class="dossier-method-note"><strong>Method:</strong> Each of the four categories is an editorial summary grounded in the subject's own biography. The display deliberately omits ability scores, level, speculative motivations, fabricated quotations, and unverified connections.</div>
+  </section>
+
+  <section class="dossier-examples" aria-labelledby="dossier-examples-title">
+    <div class="dossier-section-heading"><div><div class="kicker">III · SUGGESTED INVESTIGATIONS</div><h2 id="dossier-examples-title">Open a paired dossier</h2></div><span class="dossier-record-count">CURATED READING PAIRS</span></div>
+    <p>These pairings offer useful contrasts across different eras and kinds of service. Each has its own shareable page and Discord preview.</p>
+    <div class="dossier-preset-grid">
+    {% for pair in comparison_data.presets %}
+      <a class="dossier-preset" href="{{root}}compare/pairs/{{pair.id}}/">
+        <span class="dossier-preset-no">DOSSIER {{'%02d'|format(loop.index)}}</span>
+        <h3>{{pair.title}}</h3>
+        <span class="dossier-preset-names">{{pair.left_name}} <span aria-hidden="true">◇</span> {{pair.right_name}}</span>
+        <p>{{pair.description}}</p>
+        <span class="dossier-preset-footer">Examine these lives <span aria-hidden="true">↗</span></span>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+
+  <footer class="dossier-afterword">
+    <div><div class="kicker">THE ROYAL COMMISSION OF HISTORICAL INQUIRY</div><h2>Every life deserves its own record.</h2><p>These portraits are not exhaustive biographies. Return to each source for the experiences, doubts, relationships, and uncertainties that a short comparison cannot fully preserve.</p></div>
+    <div><a href="{{root}}connections/">Explore the connections atlas ↗</a><a href="{{root}}collections/people-legends/">Browse all People &amp; Legends ↗</a></div>
+  </footer>
+  <noscript><div class="dossier-noscript"><h2>Browse the source biographies</h2><p>The interactive side-by-side view requires JavaScript. The suggested pairs above still link to published records, and all participating biographies remain available directly:</p><ul>{% for profile in comparison_data.profiles %}<li><a href="{{root}}articles/{{profile.id}}/">{{profile.name}}</a></li>{% endfor %}</ul></div></noscript>
+</div>
+<script id="dossier-data" type="application/json">{{comparison_data|tojson}}</script>
+{% endblock %}

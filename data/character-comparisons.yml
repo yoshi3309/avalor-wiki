@@ -1,0 +1,261 @@
+# Curated, player-visible character dossiers only. Each editorial fact names a
+# verified chapter ID in its own existing public biography. Never infer
+# ancestry, family links, magical levels, power rankings, or private canon.
+profiles:
+  - article: "lavitz-shawe"
+    role:
+      text: "Drow paladin and Lord Marshal of Avalor."
+      chapter: "lord-marshal-of-avalor"
+    affiliations:
+      text: "The Misfits; a royal council seat on the Aegis."
+      chapter: "lord-marshal-of-avalor"
+    turning:
+      text: "Moved from an oath of vengeance to devotion after Cid's defeat."
+      chapter: "from-vengeance-to-devotion"
+    legacy:
+      text: "His public office challenges the kingdom to confront prejudice against drow people."
+      chapter: "a-drow-beneath-the-lion-banner"
+  - article: "lowkee"
+    role:
+      text: "Human paladin; founding companion of the Six."
+      chapter: "the-strength-to-stand-for-others"
+    affiliations:
+      text: "Founded the Cathedral Paladins at Heaven's Heart."
+      chapter: "the-first-teaching"
+    turning:
+      text: "Judged Aldus's experiments too dangerous to continue, despite the division of the Six."
+      chapter: "the-sundering-of-the-fellowship"
+    legacy:
+      text: "His First Teaching places protection of the vulnerable above unquestioning obedience."
+      chapter: "the-first-teaching"
+  - article: "fo-gurn"
+    role:
+      text: "Brass dragonborn paladin; original Misfit."
+      chapter: "a-member-of-the-first-company"
+    affiliations:
+      text: "Trained at Heaven's Heart and shared a lifelong friendship with Lavitz."
+      chapter: "heaven-s-heart-and-a-lifelong-friendship"
+    turning:
+      text: "Stayed behind to face a hydra while the Misfits escaped."
+      chapter: "the-hydra-and-the-decision-to-remain"
+    legacy:
+      text: "Remembered as an original companion whose life was greater than the sacrifice that ended it."
+      chapter: "an-original-misfit-not-an-afterthought"
+  - article: "rynhold-frozenroar"
+    role:
+      text: "Former king of Kroubia; first king of united Avalor."
+      chapter: "before-the-first-lion-banner"
+    affiliations:
+      text: "Assembled a coalition of previously independent kingdoms."
+      chapter: "the-gathering-of-crowns"
+    turning:
+      text: "Turned wartime cooperation into a negotiated political union."
+      chapter: "from-an-alliance-to-a-kingdom"
+    legacy:
+      text: "Established the Aegis to give the new kingdom institutions beyond its first king."
+      chapter: "the-aegis-and-the-problem-of-permanence"
+  - article: "king-gradvum-frozenroar"
+    role:
+      text: "Reigning king of Avalor since 1983 AF."
+      chapter: "an-approachable-king"
+    affiliations:
+      text: "Governs with Queen Melmiri and is advised by the Aegis."
+      chapter: "the-people-beside-him"
+    turning:
+      text: "Publicly vindicated Jaznaar after the Misfits exposed the false history."
+      chapter: "the-crown-and-the-truth"
+    legacy:
+      text: "Commissioned a historical inquiry willing to challenge the crown's own inherited stories."
+      chapter: "the-crown-and-the-truth"
+  - article: "jaznaar"
+    role:
+      text: "Drow spellcaster of the founding Six; exact magical class remains unresolved."
+      chapter: "the-sixth-name"
+    affiliations:
+      text: "Served among the Six and was close to Rynhold Frozenroar."
+      chapter: "before-there-was-a-betrayer"
+    turning:
+      text: "Contained Cid and the Blood Sickness while the kingdom falsely condemned him."
+      chapter: "the-guardian-no-one-thanked"
+    legacy:
+      text: "Vindicated long after his death, restoring the name erased from the fellowship's story."
+      chapter: "the-homecoming-he-did-not-see"
+  - article: "aldus-greystone-iii"
+    role:
+      text: "Founding companion known for remarkable healing magic."
+      chapter: "the-healer-before-the-blood-king"
+    affiliations:
+      text: "Studied at the Silver Forge and adventured with the Six."
+      chapter: "a-student-of-the-silver-forge"
+    turning:
+      text: "Pursuit of mastery over death culminated in the Black Tower catastrophe."
+      chapter: "the-catastrophe-at-the-black-tower"
+    legacy:
+      text: "Later identity as Cid the Blood King overturned centuries of commemorative history."
+      chapter: "the-man-who-endured-as-cid"
+  - article: "tellora-ebbenflow"
+    role:
+      text: "Half-elven wizard; High Wizard of Avalor."
+      chapter: "the-wizard-behind-the-eighth-seat"
+    affiliations:
+      text: "A Misfit with an independent eighth seat on the Aegis."
+      chapter: "the-eighth-seat-of-the-aegis"
+    turning:
+      text: "Helped discover Jaznaar's refuge and recover the truth behind the founding legend."
+      chapter: "the-last-survivor-of-the-six"
+    legacy:
+      text: "Revived Shamman’s Tower with an emphasis on responsible scholarship."
+      chapter: "shamman-s-tower-and-the-responsibility-to-teach"
+  - article: "svendyal-shadowwhisper"
+    role:
+      text: "Eladrin adventurer known as Sven, the Iron Shadow."
+      chapter: "the-man-the-shadows-did-not-make"
+    affiliations:
+      text: "An early Misfit with an intelligence network separate from the Silver Hand."
+      chapter: "the-iron-shadow"
+    turning:
+      text: "Responded to profound family loss by choosing justice rather than vengeance."
+      chapter: "justice-not-vengeance"
+    legacy:
+      text: "Works discreetly beyond the royal court, supported by enduring friendship with Lavitz and Tel'Lora."
+      chapter: "two-friends-in-the-public-eye"
+  - article: "queen-melmiri"
+    role:
+      text: "Queen of Avalor; a practical leader of daily royal administration."
+      chapter: "more-than-a-royal-consort"
+    affiliations:
+      text: "Governs alongside King Gradvum; connected to the Northern Desert Tribes."
+      chapter: "heritage-and-family"
+    turning:
+      text: "Returned after Cid's abduction and later established her own protective order."
+      chapter: "the-queen-who-returned"
+    legacy:
+      text: "Her influence is measured in the work of government, beyond royal ceremony."
+      chapter: "more-than-a-royal-consort"
+  - article: "faelynn"
+    role:
+      text: "Wood-elf ranger of the founding Six, called the Night Mistress."
+      chapter: "beneath-the-east-facing-roofs"
+    affiliations:
+      text: "Born in the Forest of the Fey; later traveled with the Six."
+      chapter: "a-friend-among-the-six"
+    turning:
+      text: "A fiend's deception destroyed her home and shaped her pursuit of justice."
+      chapter: "the-boar-and-the-gate"
+    legacy:
+      text: "Founded the Hunters Guild at Wayword Sun."
+      chapter: "the-wayword-sun"
+  - article: "petris"
+    role:
+      text: "Elven cleric of Lathander and member of the Six."
+      chapter: "the-hero-who-stayed"
+    affiliations:
+      text: "Worked among the wounded and displaced in the kingdom's founding years."
+      chapter: "the-promise-of-another-morning"
+    turning:
+      text: "Opposed the danger in Aldus's work while still hoping her old friend could be saved."
+      chapter: "the-disagreement-with-aldus"
+    legacy:
+      text: "Remembered for compassion, renewal, and a distant descendant: Amara."
+      chapter: "a-peaceful-ending-and-a-distant-descendant"
+  - article: "kelsalor"
+    role:
+      text: "Firbolg druid of the Six."
+      chapter: "the-world-beyond-a-boundary-stone"
+    affiliations:
+      text: "Advocated stewardship of nature beyond the interests of the crown."
+      chapter: "a-different-kind-of-stewardship"
+    turning:
+      text: "Sought to mediate the fellowship's division at the Black Tower."
+      chapter: "between-friends-at-the-black-tower"
+    legacy:
+      text: "His legacy survived among later travelers, including his descendant Heureux."
+      chapter: "a-legacy-carried-by-travelers"
+  - article: "amara"
+    role:
+      text: "Druid among the Misfits, descended from Petris of the Six."
+      chapter: "an-inheritance-across-two-thousand-years"
+    affiliations:
+      text: "Joined the adventuring fellowship but later journeyed beyond the royal court."
+      chapter: "a-life-away-from-the-citadel"
+    turning:
+      text: "Helped the Misfits discover the truth concerning the Black Tower."
+      chapter: "the-truth-of-the-black-tower"
+    legacy:
+      text: "Her later work in the natural world is less fully documented than the deeds of court officials."
+      chapter: "where-the-kingdom-s-stories-end"
+  - article: "heureux"
+    role:
+      text: "Blue-furred firbolg bard and keeper of Ringtree oral history."
+      chapter: "a-bard-who-carries-a-people-s-memory"
+    affiliations:
+      text: "A Misfit from the Ringtree Clan of the Forest of the Fey."
+      chapter: "a-voice-among-the-misfits"
+    turning:
+      text: "Preserved endangered clan memory through song after the loss of the Yesteryear Tome."
+      chapter: "the-songs-that-survived"
+    legacy:
+      text: "Founded a bard academy in Taveras so stories could outlive their tellers."
+      chapter: "the-academy-in-taveras"
+  - article: "katiri-tenderfoot"
+    role:
+      text: "Half-orc intelligence chief holding the office of Silver Hand."
+      chapter: "the-woman-behind-the-silver-hand"
+    affiliations:
+      text: "Commands crown intelligence; operates apart from Sven's independent network."
+      chapter: "the-iron-shadow-problem"
+    turning:
+      text: "Turned other people's prejudice and inattention into an advantage."
+      chapter: "the-girl-everyone-overlooked"
+    legacy:
+      text: "Succeeded Calston as the crown's Silver Hand under King Gradvum."
+      chapter: "the-woman-behind-the-silver-hand"
+  - article: "samuel-the-devoted"
+    role:
+      text: "Winged Monadic Deva representing Tyr and Helm."
+      chapter: "an-angel-who-has-no-use-for-pretense"
+    affiliations:
+      text: "The Devoted on the Aegis; trains paladins at Heaven's Heart."
+      chapter: "at-heaven-s-heart"
+    turning:
+      text: "Founded the Bloodless to pursue Cid and defend balance."
+      chapter: "the-bloodless"
+    legacy:
+      text: "Combines celestial devotion with a deliberately direct, deeply engaged mortal presence."
+      chapter: "a-divinity-with-a-mortal-heart"
+presets:
+  - id: "two-paladins"
+    title: "The Oath Across Ages"
+    left: "lavitz-shawe"
+    right: "lowkee"
+    description: "A founder's teaching and the later defender who carried his sword."
+  - id: "two-lions"
+    title: "Two Lions of Avalor"
+    left: "rynhold-frozenroar"
+    right: "king-gradvum-frozenroar"
+    description: "Compare the first king's founding decisions with the reigning king's historical reckoning."
+  - id: "truth-and-the-lie"
+    title: "The Hero and the Betrayer Legend"
+    left: "jaznaar"
+    right: "aldus-greystone-iii"
+    description: "Two founding companions whose later reputations were turned upside down by the public record."
+  - id: "brothers-in-duty"
+    title: "Friends Under Oath"
+    left: "lavitz-shawe"
+    right: "fo-gurn"
+    description: "Two paladins whose friendship was older than the fellowship they joined."
+  - id: "unseen-kingdom"
+    title: "The Unseen Kingdom"
+    left: "svendyal-shadowwhisper"
+    right: "katiri-tenderfoot"
+    description: "Different intelligence traditions operating around the crown."
+  - id: "two-legacies"
+    title: "Compassion Across Generations"
+    left: "petris"
+    right: "amara"
+    description: "A founding cleric and the distant descendant remembered among the Misfits."
+  - id: "memory-and-magic"
+    title: "Keepers of the Record"
+    left: "heureux"
+    right: "tellora-ebbenflow"
+    description: "An oral historian and an institutional scholar after the Misfits' triumph."

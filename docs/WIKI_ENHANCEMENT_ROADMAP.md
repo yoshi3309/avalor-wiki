@@ -36,8 +36,8 @@ These priorities reflect the author's chosen order on November 9, 2026. This tab
 | Priority | Feature | Status | Focus |
 |---|---|---|---|
 | 1 | The Archivist's Welcome | COMPLETE | Optional first-visit page at /start/. Four public starting paths (kingdom, heroes, history, world), three verified public records each, reading-journey/atlas handoffs, homepage invitation. No forced onboarding. |
-| 2 | Character Comparison Dossiers | NEXT | Compare established biographies, eras, roles and affiliations with evidence links; no invented rankings or relations. |
-| 3 | Atlas Through Time | PLANNED | Link dated events to approved map pins; no invented past borders, positions, routes or dates. |
+| 2 | Character Comparison Dossiers | COMPLETE | Source-cited dossiers for 17 reviewed public figures, four matched categories, responsive portraits, shareable selections, and seven curated pair pages with unique Discord previews. No invented rankings, abilities, or relationships. |
+| 3 | Atlas Through Time | NEXT | Link dated events to approved map pins; no invented past borders, positions, routes or dates. |
 | 4 | Archive Quality & Maintenance | PLANNED | Sitemap, documentation, broken-link checks, mobile and assistive-technology audits. |
 | 5 | The Royal Gazette | PLANNED | Dated editorial publication and update highlights; no invented in-world breaking news. |
 | 6 | Chapter Sharing to Discord | PLANNED | Copy chapter URLs and source-grounded citations; reuse existing anchors and social previews. |
@@ -60,7 +60,7 @@ The first-time welcome is an invitation, not a gate. Returning readers can keep 
 
 ## Current focus and guardrails
 
-- **Current main quest:** Phase 6 priorities are locked in the table above. The Archivist's Welcome is the first deliverable; Character Comparison Dossiers are next. The original six website enhancements remain complete.
+- **Current main quest:** Phase 6 priorities are locked in the table above. The Archivist's Welcome and Character Comparison Dossiers are complete; Atlas Through Time is next. The original six website enhancements remain complete.
 - Future lore development, content audits, or other ideas can be handled as side quests without losing this list.
 - Add a new idea here rather than silently changing the order of the main quest.
 - No Keeper notes, future campaign secrets, unapproved family genealogy, or speculative personal ties may appear in public relationship data.
