@@ -64,3 +64,11 @@
 #atlas-share-status{font:10px/1.6 var(--font-body);color:#cbd7ca;overflow-wrap:anywhere}
 .atlas-explore button:focus-visible,.atlas-explore select:focus-visible,.atlas-share-row button:focus-visible{outline:2px solid #e4c788;outline-offset:3px}
 @media(max-width:710px){.atlas-explore{padding:14px}.atlas-area-controls{grid-template-columns:minmax(0,1fr) auto}.atlas-share-row{padding:10px 14px}}
+
+
+/* Keep the cartographic chart in view while readers browse the longer
+   location sidebar. On smaller screens both regions flow normally. */
+@media(min-width:981px){
+  .atlas-layout{align-items:start}
+  .atlas-map-column{position:sticky;top:16px;align-self:start;z-index:1}
+}
