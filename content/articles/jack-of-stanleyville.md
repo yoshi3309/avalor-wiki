@@ -4,7 +4,7 @@ subtitle: The Boy Who Would Not Leave
 summary: A Stanleyville child killed by a spell concealed in a manuscript sold
   by Cid, whose conscious spirit traveled with the Misfits.
 category: People & Legends
-image: /assets/uploads/cheerful-ghost-in-a-lantern-lit-village.png
+image: /assets/uploads/jack-of-stanleyville.png
 entry: BIO.029
 era: Age of the Misfits
 facts: |-

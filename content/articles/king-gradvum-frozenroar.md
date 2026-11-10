@@ -3,7 +3,7 @@ title: King Gradvum Frozenroar
 subtitle: The Approachable Lion
 summary: Avalor's approachable reigning king, Gradvum governs with Queen Melmiri and chose to confront the kingdom's distorted founding history rather than leave it undisturbed.
 category: People & Legends
-image: /assets/uploads/regal-fantasy-king-in-a-candlelit-hall.png
+image: /assets/uploads/king-gradvum-frozenroar.png
 entry: BIO.009
 era: Age of Ascendancy
 facts: |-

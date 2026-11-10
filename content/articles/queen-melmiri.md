@@ -3,7 +3,7 @@ title: Queen Melmiri
 subtitle: The Queen Behind the Work of Government
 summary: Queen Melmiri, Gradvum's partner in government, combines a formidable public presence with the practical administration of Avalor and a commitment to her own royal protective order.
 category: People & Legends
-image: /assets/uploads/warrior-queen-of-the-sunlit-palace.png
+image: /assets/uploads/queen-melmiri.png
 entry: BIO.010
 era: Age of Ascendancy
 facts: |-
