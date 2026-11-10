@@ -939,8 +939,8 @@ for article in ALL:
     if article['category'] != 'People & Legends':
         continue
     slug=article['slug']
-    if any(item['collection'] == 'characters' and item['related']
-           and item['related'][0]['slug'] == slug for item in GALLERY_ITEMS):
+    if any(item['related'] and item['related'][0]['slug'] == slug
+           for item in GALLERY_ITEMS):
         continue
     raw_image=str(article.get('image') or '').strip().lstrip('/')
     # Image paths were validated by article_image_src; do not expose arbitrary
