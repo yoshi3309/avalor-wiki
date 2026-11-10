@@ -32,7 +32,7 @@ The cathedral honors **Tyr, Helm, and Torm**, whose teachings form [[The Threefo
 
 Avalor's recent correction of its founding history has made those questions urgent. For generations, respected institutions repeated the false accusation against [[Jaznaar]]. Their responsibility now includes considering how devotion can be used to challenge injustice rather than protect a comfortable mistake.
 
-Astronoph leads the cathedral in this changing age. The part she will personally play in its reckoning remains a story yet to unfold.
+Astronoph leads the cathedral in this changing age, with the weight of inherited tradition and the obligation to examine it both resting upon her office.
 
 ## The young paladin she recognized
 

@@ -23,9 +23,7 @@ featured: false
 
 **Fo’Gurn** is remembered as the **brass dragonborn** paladin who stood against a hydra so that [[The Misfits]] could escape. The story is true as far as the companions understood it at the time, but it is a poor way to introduce a man whose life had already become inseparable from theirs.
 
-Fo'Gurn had known [[Lavitz Shawe]] long before either adventured with the company. Their friendship was associated with the years of paladin training at [[Heaven's Heart]], beneath the [[Spine of the World]]. By the time they faced a hydra together, theirs was not the hastily formed loyalty of strangers who happened to survive one battle.
-
-Long before the hydra, Fo'Gurn had forged a friendship with Lavitz at Heaven's Heart. That bond, more than any tale of ancestry or prophecy, explains why his sacrifice was remembered with such grief.
+Fo'Gurn had known [[Lavitz Shawe]] long before either adventured with the company. Their friendship began during their years of paladin training at [[Heaven's Heart]], beneath the [[Spine of the World]]. By the time they faced a hydra together, theirs was a bond forged through shared duty and tested long before that final stand.
 
 ## Heaven's Heart and a lifelong friendship
 
