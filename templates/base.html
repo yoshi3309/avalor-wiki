@@ -34,7 +34,7 @@
 {% if page_type == 'compare' %}<script defer src="{{root}}assets/comparisons.js?v=20261110-compare-1"></script>{% endif %}
 {% if page_type == "timeline" %}<link rel="stylesheet" href="{{ root }}assets/chronicle.css?v=20261108-chronicle-v2">{% endif %}
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
-{% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b">{% endif %}
+{% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b"><link rel="stylesheet" href="{{root}}assets/atlas-time.css?v=20261110-time-1">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
 {% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261108-article-reading-1">{% endif %}
 {% if page_type == "article" %}<script defer src="{{ root }}assets/article-reading.js?v=20261108-article-reading-1"></script>{% endif %}
@@ -49,7 +49,7 @@
 <script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
-{% if page_type == "map" %}<script defer src="{{ root }}assets/map.js?v=atlas-renada-20261107b"></script>{% endif %}
+{% if page_type == "map" %}<script defer src="{{ root }}assets/map.js?v=atlas-renada-20261107b"></script><script defer src="{{root}}assets/atlas-time.js?v=20261110-time-1"></script>{% endif %}
 </head>
 <body class="page-{{ page_type }}">
 <a class="skip-link" href="#main-content">Skip to content</a>

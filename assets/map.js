@@ -31,6 +31,7 @@
     river:{label:'Communities of the Rhys',stops:['renada','taveras','river-city']}
   };
   let activeTrail = null, trailIndex = -1;
+  let historicalPins = new Set();
 
   // The public atlas displays only approved, placed markers. The positioning
   // desk also shows player-safe drafts so the archivist can measure them.
@@ -178,7 +179,7 @@
     if (!data.image) return;
     filtered().filter(loc => loc.placed).forEach(loc=>{
       const btn=document.createElement('button');
-      btn.type='button';btn.className='atlas-pin'+(loc.provisional?' is-provisional':'')+(loc.initiallyUnplaced?' is-preview':'')+(loc.id===state.selected?' is-selected':'');
+      btn.type='button';btn.className='atlas-pin'+(loc.provisional?' is-provisional':'')+(loc.initiallyUnplaced?' is-preview':'')+(loc.id===state.selected?' is-selected':'')+(historicalPins.has(loc.id)?' is-historical':'');
       btn.dataset.id=loc.id;btn.dataset.type=loc.type;
       btn.style.left=loc.x+'%';btn.style.top=loc.y+'%';
       btn.setAttribute('aria-label',loc.name+(loc.provisional?' (approximate location)':''));
@@ -355,6 +356,34 @@
     } catch (_) {
       shareStatus.textContent='Copy: '+url;
     }
+  });
+  // Public historical layer can request a spotlight through document events;
+  // it cannot create pins, move coordinates, or open draft landmarks.
+  document.addEventListener('avalor:history-pins', event => {
+    const requested = Array.isArray(event.detail?.ids) ? event.detail.ids : [];
+    historicalPins = new Set(requested.filter(id => isPublic(find(id))));
+    viewport.classList.toggle('is-history-view', historicalPins.size>0);
+    document.querySelectorAll('.atlas-pin').forEach(pin => {
+      pin.classList.toggle('is-historical', historicalPins.has(pin.dataset.id));
+    });
+  });
+  document.addEventListener('avalor:history-focus', event => {
+    const loc = find(event.detail?.id);
+    if (!isPublic(loc) || state.editing) {
+      document.dispatchEvent(new CustomEvent('avalor:history-focus-result', {detail:{success:false}}));
+      return;
+    }
+    clearTrail();
+    areaSelect.value='';
+    state.filter='all';state.query='';search.value='';
+    document.querySelectorAll('#atlas-filters button').forEach(button => {
+      const active=button.dataset.filter==='all';
+      button.classList.toggle('is-active',active);
+      button.setAttribute('aria-pressed',String(active));
+    });
+    refresh();
+    select(loc.id,true);
+    document.dispatchEvent(new CustomEvent('avalor:history-focus-result', {detail:{success:true,id:loc.id}}));
   });
   const params=new URLSearchParams(window.location.search);
   if(params.get('edit')==='1')editToggle.click();

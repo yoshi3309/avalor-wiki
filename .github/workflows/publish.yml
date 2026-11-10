@@ -38,6 +38,7 @@ jobs:
       - name: Check browser JavaScript syntax
         run: |
           node --check assets/map.js
+          node --check assets/atlas-time.js
           node --check assets/app.js
           node --check assets/search.js
           node --check assets/chronicle.js
@@ -70,6 +71,8 @@ jobs:
         run: python tests/check_comparisons.py
       - name: Check Atlas exploration controls
         run: python tests/check_atlas_explore.py
+      - name: Check Atlas Through Time
+        run: python tests/check_atlas_time.py
       - name: Check Cross-Archive Connections
         run: python tests/check_connections_web.py
       - name: Check Reading Comfort & Accessibility

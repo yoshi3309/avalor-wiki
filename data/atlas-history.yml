@@ -1,0 +1,29 @@
+# Public historical geography, curated against the Living Chronicle and the
+# placed/published Cartographer's Table pins. No borders, battle frontlines,
+# treaty signing sites, or throne-room coordinates are inferred here.
+# Relationship labels distinguish event sites from associated locations.
+links:
+  - event: gathering-of-crowns
+    place: heroes-hill
+    relation: event-site
+    note: "Heroes Hill marks Bradgem Glav's fatal victory over Lord Osmo. It is not presented as the meeting place of the northern alliance."
+  - event: kingdom-established
+    place: renada
+    relation: associated-place
+    note: "Renada became the united kingdom's capital. The precise place where the founding agreement was concluded is not established."
+  - event: black-tower
+    place: black-tower
+    relation: event-site
+    note: "The Black Tower is the recorded setting of Aldus's catastrophe. The year around 10 AF remains approximate."
+  - event: elven-concord
+    place: forest-of-the-fey
+    relation: affected-region
+    note: "The Forest of the Fey represents the communities and ancient woodland rights affected by the Concord, not a verified treaty-signing site."
+  - event: arnauds-edicts
+    place: heavens-heart
+    relation: associated-place
+    note: "Heaven's Heart was a place of resistance to the persecution, not a claimed location where Arnaud issued his decrees."
+  - event: gradvum-accession
+    place: renada
+    relation: associated-place
+    note: "Renada is the established royal capital and seat of Gradvum's government. This pin does not identify a coronation site."

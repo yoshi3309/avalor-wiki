@@ -21,6 +21,46 @@
   </section>
   {% endif %}
   <div class="atlas-topline"><div class="atlas-topline-left"><span class="atlas-star">✦</span> THE NORTHERN KINGDOM · EXPLORER'S EDITION</div><div class="atlas-topline-right"><span id="atlas-count">—</span> charted locations</div></div>
+  <section class="atlas-time" id="atlas-history" aria-labelledby="atlas-history-title">
+    <header class="atlas-time-header">
+      <div>
+        <span class="atlas-time-eyebrow">THE ROYAL COMMISSION · HISTORICAL CARTOGRAPHY</span>
+        <h2 id="atlas-history-title">Avalor <em>Through Time</em></h2>
+        <p>Follow the Living Chronicle across the realm. Events with established geography spotlight a published map pin; the rest remain documented without invented locations.</p>
+      </div>
+      <div class="atlas-time-tally"><strong>{{atlas_history_count}} <span>/ {{atlas_history_events|length}}</span></strong><small>entries with an approved geographical connection</small></div>
+    </header>
+    <div class="atlas-time-controls" aria-label="Historical atlas filters">
+      <label for="atlas-history-period">Historical period
+        <select id="atlas-history-period"><option value="all">All historical periods</option>{% for period in atlas_history_periods %}<option value="{{period.id}}">{{period.title}}</option>{% endfor %}</select>
+      </label>
+      <label class="atlas-time-show-all"><input id="atlas-history-all" type="checkbox"><span>Show events without established map pins</span></label>
+      <span class="atlas-time-count" id="atlas-history-count" role="status" aria-live="polite">Select a period or explore the records below.</span>
+    </div>
+    <div class="atlas-time-cards" id="atlas-history-cards" aria-label="Chronicle events available in the atlas">
+      {% for e in atlas_history_events %}
+      <article class="atlas-time-card" data-history-card data-history-period="{{e.period}}" data-history-mapped="{{'true' if e.atlas else 'false'}}" data-history-id="{{e.id}}">
+        <a class="atlas-time-card-select" data-history-select="{{e.id}}" href="{{root}}map/?event={{e.id}}#atlas-history-detail" aria-current="false">
+          <span class="atlas-time-card-date">{{e.date}} <span aria-hidden="true">◇</span></span>
+          <span class="atlas-time-card-title">{{e.title}}</span>
+          <span class="atlas-time-card-location">{% if e.atlas %}<span aria-hidden="true">✥</span> {{e.atlas.place_name}}{% else %}No established map pin{% endif %}</span>
+        </a>
+        <div class="atlas-time-card-foot"><span>{{e.date_label}}</span><a href="{{root}}chronicle/#event-{{e.id}}">Chronicle ↗</a></div>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="atlas-time-inspection" id="atlas-history-detail" tabindex="-1" aria-live="polite">
+      <div class="atlas-time-detail-mark" aria-hidden="true">❦</div>
+      <div class="atlas-time-detail-copy">
+        <span class="atlas-time-detail-eyebrow" id="atlas-history-detail-era">THE SCHOLAR'S GEOGRAPHIC RECORD</span>
+        <h3 id="atlas-history-detail-title">Choose a moment in history</h3>
+        <p id="atlas-history-detail-text">Select a record above to read its historical context and, where established, focus its related place on the map below.</p>
+        <p id="atlas-history-detail-note" class="atlas-time-detail-note">The pins mark known sites, affected regions, or related places. They do not establish former political borders, routes, or the location of every ceremony.</p>
+        <div class="atlas-time-detail-actions"><a id="atlas-history-read" href="{{root}}chronicle/" >Read the Living Chronicle ↗</a><a id="atlas-history-source" href="{{root}}articles/kingdom-of-avalor/" hidden>Read supporting article ↗</a><button id="atlas-history-share" type="button" disabled>Copy this historical view ↗</button></div>
+      </div>
+    </div>
+    <p class="atlas-time-caution">The map is the present approved cartographic illustration. These highlights connect public records to geography; they are <strong>not historical border overlays</strong>, not exact battle movements, and not newly assigned dates. Reign ranges and approximate dates retain their qualifications.</p>
+  </section>
   <div class="atlas-layout" id="atlas-app">
     <div class="atlas-map-column">
       <div class="atlas-tools" aria-label="Map controls">
@@ -93,4 +133,5 @@
   <p class="atlas-disclaimer">This cartographic record reflects the geographic understanding available to the Royal Commission. Locations marked provisional are awaiting cartographic confirmation.</p>
 </div>
 <script id="atlas-data" type="application/json">{{ map_data | tojson }}</script>
+<script id="atlas-history-data" type="application/json">{{ atlas_history_events | tojson }}</script>
 {% endblock %}

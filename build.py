@@ -679,6 +679,51 @@ if raw_map_image and (not raw_map_image.startswith('assets/uploads/') or '..' in
     raise ValueError('Map image must be a public file in assets/uploads/')
 MAP_IMAGE = '../'+raw_map_image if raw_map_image else ''
 MAP_DATA = {'image': MAP_IMAGE, 'root':'../','locations': MAP_LOCATIONS}
+# Atlas Through Time: explicit provenance for each historic map spotlight.
+# Events without source-supported locations remain visible in chronology but
+# NEVER acquire invented coordinates, battlefields or ceremonial sites.
+ATLAS_HISTORY_SOURCE = yaml.safe_load((ROOT/'data'/'atlas-history.yml').read_text(encoding='utf-8')) or {}
+if not isinstance(ATLAS_HISTORY_SOURCE,dict) or not isinstance(ATLAS_HISTORY_SOURCE.get('links'),list):
+    raise ValueError('Historical atlas links must be a YAML list')
+ATLAS_HISTORY_RELATIONS = {
+    'event-site':'Recorded site',
+    'affected-region':'Affected region',
+    'associated-place':'Associated place — not necessarily the event site',
+}
+ATLAS_HISTORY_LINKS = {}
+mapped_by_id = {loc['id']:loc for loc in MAP_LOCATIONS}
+event_by_id = {event['id']:event for event in EVENTS}
+for item in ATLAS_HISTORY_SOURCE['links']:
+    if not isinstance(item,dict):
+        raise ValueError('Historical atlas link must be an object')
+    event_id, place_id = str(item.get('event') or ''),str(item.get('place') or '')
+    relation = str(item.get('relation') or '')
+    note = str(item.get('note') or '').strip()
+    loc = mapped_by_id.get(place_id)
+    if event_id not in event_by_id or event_id in ATLAS_HISTORY_LINKS:
+        raise ValueError(f'Historical atlas: unknown or duplicate event {event_id}')
+    if not loc or not loc['published'] or not loc['placed'] or loc['provisional']:
+        raise ValueError(f'Historical atlas: {event_id} requires an approved, non-provisional placed pin, got {place_id}')
+    if relation not in ATLAS_HISTORY_RELATIONS or len(note)<35:
+        raise ValueError(f'Historical atlas: {event_id} requires a clear type and public provenance note')
+    ATLAS_HISTORY_LINKS[event_id] = {
+        'pin':place_id,'place_name':loc['name'],'relation':relation,
+        'relation_label':ATLAS_HISTORY_RELATIONS[relation],'note':note,
+    }
+ATLAS_HISTORY_EVENTS = []
+for event in EVENTS:
+    attachment = ATLAS_HISTORY_LINKS.get(event['id'])
+    event['atlas_link'] = attachment
+    ATLAS_HISTORY_EVENTS.append({
+        'id':event['id'],'date':event['date'],'date_kind':event['date_kind'],
+        'date_label':event['date_label'],'date_note':event['date_note'],
+        'period':event['period'],'period_title':event['period_title'],
+        'title':event['title'],'era':event['era'],'text':event['text'],
+        'article':event['article'],'atlas':attachment,
+    })
+if len(ATLAS_HISTORY_EVENTS)!=len(EVENTS):
+    raise ValueError('Atlas chronology must preserve every Chronicle record')
+
 MAP_LINKS = {}
 for loc in MAP_LOCATIONS:
     if loc['published'] and loc['placed']:
@@ -1099,7 +1144,7 @@ render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title=
 for journey in JOURNEYS:
     render('journey.html',f'journeys/{journey["id"]}/index.html',depth=2,page_type='journeys',title=journey['title'],description=journey['summary'],crumbs=journey['title'],journey=journey)
 render('timeline.html','chronicle/index.html',depth=1,page_type='timeline',title='The Living Chronicle',crumbs='The Living Chronicle',events=EVENTS,periods=PERIODS,topics=TOPICS,date_kinds=DATE_KINDS,journeys=JOURNEYS)
-render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA)
+render('map.html','map/index.html',depth=1,page_type='map',title='The Cartographer\'s Table',crumbs='Interactive map',map=MAP,map_data=MAP_DATA,atlas_history_events=ATLAS_HISTORY_EVENTS,atlas_history_periods=PERIODS,atlas_history_count=len(ATLAS_HISTORY_LINKS))
 render('gallery.html','gallery/index.html',depth=1,page_type='gallery',title='Illustration Gallery',crumbs='Illustration Gallery',gallery_items=GALLERY_ITEMS,gallery_collections=GALLERY_COLLECTIONS,active_gallery_collection=None,gallery_data=GALLERY_ITEMS)
 for wing in GALLERY_COLLECTIONS:
     member_items = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]

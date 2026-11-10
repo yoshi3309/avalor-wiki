@@ -40,7 +40,7 @@
               <div class="kicker">{{e.era}}</div>
               <h3>{{e.title}}</h3>
               <p>{{e.text}}</p>
-              <div class="chronicle-event-actions"><a href="{{root}}articles/{{e.article}}/">Read the record ↗</a><span class="chronicle-date-note" title="{{e.date_note}}">{{e.date_label}} <span aria-hidden="true">ⓘ</span></span></div>
+              <div class="chronicle-event-actions"><a href="{{root}}articles/{{e.article}}/">Read the record ↗</a>{% if e.atlas_link %}<a class="chronicle-atlas-link" href="{{root}}map/?event={{e.id}}#atlas-history-detail" title="{{e.atlas_link.relation_label}}: {{e.atlas_link.note}}">Explore on the Atlas ↗</a>{% endif %}<span class="chronicle-date-note" title="{{e.date_note}}">{{e.date_label}} <span aria-hidden="true">ⓘ</span></span></div>
             </div>
           </article>
           {% endfor %}
@@ -51,6 +51,7 @@
     </div>
     <aside class="chronicle-sidebar" aria-label="Chronicle reference tools">
       <div class="chronicle-side-panel"><div class="kicker">MOVE THROUGH THE AGES</div><h2>Historical periods</h2><nav aria-label="Jump to historical period">{% for period in periods %}<a href="#period-{{period.id}}" data-chronicle-jump="{{period.id}}"><span>{{'%02d'|format(loop.index)}}</span>{{period.title}}</a>{% endfor %}</nav></div>
+      <div class="chronicle-side-panel chronicle-atlas-companion"><div class="kicker">THE CARTOGRAPHER'S CHRONICLE</div><h2>History has a place</h2><p>Discover which recorded events can be connected to existing map landmarks. Where the sources are silent, the Atlas leaves the site unmarked.</p><a class="chronicle-side-link" href="{{root}}map/#atlas-history">Explore Avalor Through Time ↗</a></div>
       <div class="chronicle-side-panel"><div class="kicker">THE ROYAL REGISTER</div><h2>Thirty-four sovereigns</h2><p>Follow the royal succession from Rynhold to Gradvum, with the recorded reigns and only the family relationships the evidence establishes.</p><a class="chronicle-side-link" href="{{root}}articles/house-frozenroar/#the-royal-register">View all royal reigns ↗</a><a class="chronicle-side-link" href="{{root}}connections/house-frozenroar/">Explore documented kinship ↗</a></div>
       <div class="chronicle-side-panel"><div class="kicker">READ THE LONG STORY</div><h2>Guided journeys</h2><p>For a deeper path through these turning points, follow a curated sequence of original records.</p>{% for journey in journeys %}<a class="chronicle-side-link" href="{{root}}journeys/{{journey.id}}/">{{journey.title}} ↗</a>{% endfor %}</div>
       <details class="chronicle-precision-guide"><summary>How to read the dates</summary>{% for kind in date_kinds %}<p><strong>{{kind.label}}</strong> — {{kind.description}}</p>{% endfor %}</details>
