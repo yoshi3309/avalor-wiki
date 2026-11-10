@@ -66,9 +66,12 @@
 @media(max-width:710px){.atlas-explore{padding:14px}.atlas-area-controls{grid-template-columns:minmax(0,1fr) auto}.atlas-share-row{padding:10px 14px}}
 
 
-/* Keep the cartographic chart in view while readers browse the longer
-   location sidebar. On smaller screens both regions flow normally. */
-@media(min-width:981px){
-  .atlas-layout{align-items:start}
-  .atlas-map-column{position:sticky;top:16px;align-self:start;z-index:1}
+/* Independent map and location columns: each ends with its own content.
+   Never stretch or pin the map to the height of the longer location sidebar. */
+.atlas-layout{align-items:start;min-height:0;border:0}
+.atlas-map-column{position:static;top:auto;align-self:start;min-height:0;height:auto;border:1px solid #606049;border-right:0}
+.atlas-panel{align-self:start;border:1px solid #606049;border-left:1px solid #56605b}
+@media(max-width:980px){
+  .atlas-map-column{border-right:1px solid #606049}
+  .atlas-panel{border-top:0;border-left:1px solid #606049}
 }
