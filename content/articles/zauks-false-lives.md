@@ -21,7 +21,7 @@ These were **not fresh occurrences of the original incidents**. They were manufa
 
 Zauks ultimately offered the adventurers convincing visions of **ideal lives**, free of the losses and grief they had endured.
 
-Heureux's published account records a recurring **owl associated with [[Amara]]** as one clue that the apparent happiness was not what it seemed. The Commission has not made a complete public record of the private imagined lives of every companion.
+Heureux remembered a recurring **owl associated with [[Amara]]** as one clue that the apparent happiness was not what it seemed. The visions offered to the other companions survive only in fragments of their testimony.
 
 The trial was harder than a simple confrontation with a visible monster. The company had to relinquish lives in which painful absences seemed to have been repaired.
 

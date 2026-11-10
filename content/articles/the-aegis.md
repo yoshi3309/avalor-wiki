@@ -35,7 +35,7 @@ The division reflected the practical needs of a newly united kingdom. Revenues h
 
 One office, the Third Hand, held a particularly important coordinating role. Its purpose was to connect responsibilities that were too easily treated as separate matters, not to replace the king or claim all other seats as subordinates.
 
-The precise procedures of the earliest council, the complete language of its original charter, and the staffing of every founding office have not been fully recovered in the public record.
+Only fragments of the earliest council's procedures and charter survive. The names of every founding officer have not been recovered.
 
 ## The modern eight seats
 
@@ -52,7 +52,7 @@ The precise procedures of the earliest council, the complete language of its ori
 
 These offices are distinct even when their responsibilities overlap. The kingdom's safety depends in part upon a councilor recognizing when an apparently simple proposal carries consequences outside the councilor's own field.
 
-The Aegis **typically meets weekly**, though the public sources do not provide a binding schedule for every circumstance or a complete set of its voting procedures.
+The Aegis **typically meets weekly**. Its full voting procedures and the provisions governing extraordinary sessions are not preserved in the Commission's present holdings.
 
 ## The Third Hand and the Golden Hand
 

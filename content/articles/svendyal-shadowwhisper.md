@@ -171,7 +171,7 @@ They also endured the loss of Fo'Gurn, who stood before a hydra so the others co
 
 A child whose life had been taken had found a place among Sven's companions. The resemblance to his own loss is difficult to ignore, though no surviving account records how Sven spoke of it.
 
-The mind flayer **[[Zauks and the False Lives|Zauks]]** later fashioned convincing false lives for the companions, offering a world freed from their real grief. The particular hopes shown to Sven have not been established. It would be wrong to claim that Tristan and Kristofer appeared there simply because their story now makes that possibility poignant.
+The mind flayer **[[Zauks and the False Lives|Zauks]]** later fashioned convincing false lives for the companions, offering a world freed from their real grief. The surviving accounts describe that promise, but leave the particulars of Sven's vision untold.
 
 ## The revelation and the final campaign
 

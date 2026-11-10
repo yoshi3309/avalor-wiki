@@ -109,7 +109,7 @@ The unnamed necromancer of their **first commission** was distinct from [[Jaaris
 
 Cid manipulated people and used servants, but the Misfits' every enemy was not his agent. Their travels were larger and stranger than the designs of any one villain.
 
-That caution strengthens rather than weakens the case against him. The suffering and deception for which his responsibility is known need no additional invented crimes.
+The crimes traced to Cid were grave enough to darken the history of the kingdom. His deceptions ruined lives, turned allies against one another, and endured long after the original fellowship fell apart.
 
 ## The revelation from Jaznaar
 

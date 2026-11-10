@@ -85,7 +85,7 @@ The Misfits' struggle against Cid reached its crisis after [[The Tournament of C
 
 In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** alongside the friends who had believed him dead. The authorized testimony describes him carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
 
-The people present observed Cid's removal; they did not establish the nature of the force responsible for it. The spiritual circumstances of Fo'Gurn's reappearance likewise remained disputed in the public record.
+Those present witnessed Cid's disappearance into the darkness but could not identify the power that carried him away. Accounts of Fo'Gurn's return likewise left the kingdom divided over what had occurred.
 
 The earliest popular celebrations did not uniformly repeat every part of this testimony. The Archives therefore distinguish between what participants later described, what the wider kingdom commonly believed, and what scholars can conclusively explain.
 

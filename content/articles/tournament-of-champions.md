@@ -29,7 +29,7 @@ Cid appeared and seized Melmiri. He escaped before the Misfits could retrieve he
 
 The abduction turned a public celebration into a royal emergency. For the companions, it made their confrontation with the Blood King unavoidable.
 
-The surviving record does not establish that Melmiri was chosen because of a special property of her blood or ancestry. Her place in the royal family, and Cid’s knowledge that the Misfits would try to rescue her, explain the immediate leverage the capture gave him.
+Melmiri's place in the royal family made her an especially powerful hostage. Cid knew the Misfits would attempt her rescue, turning the princess's captivity into a direct challenge to the companions.
 
 ## Into the Shadowfell
 
