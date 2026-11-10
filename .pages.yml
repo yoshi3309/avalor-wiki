@@ -228,6 +228,41 @@ content:
         type: boolean
         default: false
         description: "Draft exhibits stay hidden from the public site until explicitly enabled."
+  - name: exhibits
+    label: Historical archive exhibits
+    type: collection
+    path: content/exhibits
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: title
+      fields: [kind, period, period_group, published]
+    fields:
+      - {name: id, label: Stable exhibit ID, type: string, required: true, pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+      - {name: title, label: Exhibit title, type: string, required: true}
+      - {name: subtitle, label: Exhibit subtitle, type: string, required: true}
+      - {name: kind, label: Document category, type: string, required: true}
+      - {name: period, label: Historical date or reign, type: string, required: true}
+      - name: period_group
+        label: Historical period
+        type: select
+        required: true
+        options:
+          values: ["Founding Age", "Later Reigns", "Age of Ascendancy"]
+      - {name: symbol, label: Decorative symbol, type: string, required: true}
+      - {name: summary, label: Short public summary, type: text, required: true}
+      - {name: folio_title, label: Folio heading, type: string, required: true}
+      - name: folio_text
+        label: Modern reconstruction (paragraph per line; never purported original wording)
+        type: text
+        required: true
+      - {name: evidence, label: Established facts (one per line), type: text, required: true}
+      - {name: uncertainty, label: Unverified or missing details (one per line), type: text, required: true}
+      - {name: interpretation, label: Modern scholarly perspective, type: text, required: true}
+      - {name: source_article, label: Exact source article slug, type: string, required: true}
+      - {name: related_articles, label: Related article slugs (comma separated), type: string}
+      - {name: featured, label: Featured display, type: boolean, default: false}
+      - {name: published, label: Publish publicly, type: boolean, default: false}
   - name: atlas
     label: Map settings & locations
     type: file

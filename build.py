@@ -672,6 +672,57 @@ for cat in CATEGORIES:
 
 # The illustration gallery is deliberately curated: images uploaded for articles do
 # not become gallery exhibits unless an editor publishes a gallery record.
+# Editorial folios are modern public reconstructions, not authenticated originals.
+EXHIBITS = []
+EXHIBIT_IDS = set()
+EXHIBITS_BY_ARTICLE = {}
+EXHIBIT_PERIODS = {'Founding Age', 'Later Reigns', 'Age of Ascendancy'}
+for path in sorted((ROOT/'content'/'exhibits').glob('*.yml')):
+    record = yaml.safe_load(path.read_text(encoding='utf-8'))
+    if not isinstance(record, dict):
+        raise ValueError(f'{path}: expected YAML object')
+    ident = str(record.get('id') or '').strip()
+    if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', ident) or ident != path.stem or ident in EXHIBIT_IDS:
+        raise ValueError(f'{path}: invalid, duplicated or mismatched ID')
+    EXHIBIT_IDS.add(ident)
+    if not record.get('published', False): continue
+    for field in ('title','subtitle','kind','period','period_group','symbol','summary',
+                  'folio_title','folio_text','evidence','uncertainty','interpretation','source_article'):
+        if not str(record.get(field) or '').strip():
+            raise ValueError(f'{path}: published exhibit missing {field}')
+    if record['period_group'] not in EXHIBIT_PERIODS:
+        raise ValueError(f'{path}: unknown historical period group')
+    src = str(record['source_article'])
+    if src not in BY_SLUG:
+        raise ValueError(f'{path}: unknown public source article {src}')
+    paragraphs = str(record['folio_text']).splitlines()
+    if len(paragraphs) < 2 or any(not line.strip() for line in paragraphs):
+        raise ValueError(f'{path}: folio requires distinct, nonempty prose paragraphs')
+    related = [slug.strip() for slug in str(record.get('related_articles') or '').split(',') if slug.strip()]
+    if len(related) != len(set(related)) or any(slug not in BY_SLUG for slug in related):
+        raise ValueError(f'{path}: duplicate or unknown related article')
+    item = {
+        'id': ident, 'title': str(record['title']), 'subtitle': str(record['subtitle']),
+        'kind': str(record['kind']), 'period': str(record['period']),
+        'period_group': str(record['period_group']), 'symbol': str(record['symbol']),
+        'summary': str(record['summary']), 'folio_title': str(record['folio_title']),
+        'folio_lines': paragraphs, 'evidence_lines': str(record['evidence']).splitlines(),
+        'uncertainty_lines': str(record['uncertainty']).splitlines(),
+        'interpretation': str(record['interpretation']),
+        'source': {'slug':src, 'title':BY_SLUG[src]['title']},
+        'related': [{'slug':slug,'title':BY_SLUG[slug]['title']} for slug in related],
+        'featured': bool(record.get('featured', False)), 'reconstruction': True}
+    EXHIBITS.append(item)
+    for slug in set([src, *related]):
+        EXHIBITS_BY_ARTICLE.setdefault(slug, []).append(item)
+ORDER = {'founding-settlement':0,'elven-concord':1,'arnauds-edicts':2,
+         'reinas-reforms':3,'jaznaars-vindication':4}
+EXHIBITS.sort(key=lambda e:(ORDER.get(e['id'],100),e['title']))
+for i,item in enumerate(EXHIBITS):
+    item['number'] = f'{i+1:02d}'
+    item['previous'] = EXHIBITS[i-1] if i else None
+    item['next'] = EXHIBITS[i+1] if i+1 < len(EXHIBITS) else None
+
 GALLERY_COLLECTIONS = [
     {'id':'characters', 'title':'Characters', 'description':'Portraits of the people whose lives shaped Avalor.'},
     {'id':'locations', 'title':'Locations', 'description':'Cities, landscapes, sanctuaries, and distant horizons.'},
@@ -777,7 +828,7 @@ for a in ALL:
             if key not in related_seen:
                 related.append(BY_SLUG[related_slug])
                 related_seen.add(key)
-    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),web_connection=a['slug'] in CONNECTION_WEB_BY_ARTICLE,gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []))
+    render('article.html',f'articles/{a["slug"]}/index.html',depth=2,page_type='article',title=a['title'],description=a['summary'],crumbs=a['title'],article=a,related=related,category_slug=category_slug,map_location=MAP_LINKS.get(a['slug']),reading_paths=JOURNEY_ARTICLE_STEPS.get(a['slug'], []),relationship_maps=RELATIONSHIP_BY_ARTICLE.get(a['slug'], []),web_connection=a['slug'] in CONNECTION_WEB_BY_ARTICLE,gallery_items=GALLERY_BY_ARTICLE.get(a['slug'], []),historical_exhibits=EXHIBITS_BY_ARTICLE.get(a['slug'], []))
 # Keep all bookmarks to consolidated entries working with immediate, crawler-safe redirects.
 for old, rule in MERGES.items():
     target=f'../../articles/{rule["parent"]}/#{rule["section"]}'
@@ -801,6 +852,9 @@ for old, rule in MERGES.items():
     for a in ALL
 ],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 render('reading-desk.html','reading-desk/index.html',depth=1,page_type='reading-desk',title='My Reading Desk',crumbs='My Reading Desk')
+render('exhibits.html','exhibits/index.html',depth=1,page_type='exhibits',title='Historical Documents & Exhibits',crumbs='Historical Exhibits',exhibits=EXHIBITS)
+for exhibit in EXHIBITS:
+    render('exhibit.html',f'exhibits/{exhibit["id"]}/index.html',depth=2,page_type='exhibits',title=exhibit['title'],description=exhibit['summary'],crumbs=exhibit['title'],exhibit=exhibit)
 render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS,connection_web=CONNECTION_WEB)
 for graph in RELATIONSHIP_MAPS:
     render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)

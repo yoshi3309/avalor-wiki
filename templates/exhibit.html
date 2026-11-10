@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container exhibit-page">
+  <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}exhibits/">Historical exhibits</a><span>›</span><span>{{exhibit.title}}</span></nav>
+  <header class="exhibit-heading">
+    <div class="exhibits-kicker">THE DOCUMENTARY CABINET · EXHIBIT {{exhibit.number}}</div>
+    <div class="exhibit-heading-row">
+      <div><p class="exhibit-kind">{{exhibit.kind}} <span aria-hidden="true">◇</span> {{exhibit.period}}</p><h1>{{exhibit.title}}</h1><p class="exhibit-subtitle">{{exhibit.subtitle}}</p><p class="exhibit-deck">{{exhibit.summary}}</p></div>
+      <span class="exhibit-heading-seal" aria-hidden="true">{{exhibit.symbol}}</span>
+    </div>
+  </header>
+  <div class="exhibit-warning" role="note"><strong>EDITORIAL RECONSTRUCTION — NOT AN ORIGINAL DOCUMENT</strong><p>The parchment below is a modern scholarly display. It is not an authenticated historical text, signature, original seal, or physical artifact.</p></div>
+  <div class="exhibit-layout">
+    <div class="exhibit-left">
+      <figure class="exhibit-display">
+        <div class="exhibit-paper"><div class="exhibit-paper-border">
+          <header class="exhibit-paper-header"><span>THE ROYAL COMMISSION<br>OF HISTORICAL INQUIRY</span><img src="{{root}}assets/crest.svg" width="56" height="56" alt="" loading="lazy"><span>MODERN EDITION<br>PUBLIC ACCOUNT</span></header>
+          <div class="exhibit-paper-rule" aria-hidden="true">✦ &nbsp; ◇ &nbsp; ✦</div>
+          <p class="exhibit-paper-kicker">ILLUSTRATIVE FOLIO · {{exhibit.period}}</p>
+          <h2>{{exhibit.folio_title}}</h2>
+          <div class="exhibit-paper-body">{% for line in exhibit.folio_lines %}<p>{{line}}</p>{% endfor %}</div>
+          <div class="exhibit-paper-ornament" aria-hidden="true">❦</div>
+          <footer class="exhibit-paper-footer"><span>ARCHIVAL RECONSTRUCTION</span><span>R.C.H.I. · {{exhibit.number}}</span></footer>
+        </div></div>
+        <figcaption>Illustrative typography and the Archives' present-day lion crest; no recovered document, historical seal, or manuscript lettering is claimed.</figcaption>
+      </figure>
+      <section class="exhibit-transcription" id="transcription"><div class="kicker">ACCESSIBLE TEXT · THE EDITORIAL TRANSCRIPTION</div><h2>Read the reconstructed account</h2><p>This accessible version repeats the modern summary above, not the verbatim wording of an original document.</p><div class="exhibit-transcription-body">{% for line in exhibit.folio_lines %}<p>{{line}}</p>{% endfor %}</div></section>
+    </div>
+    <aside class="exhibit-right">
+      <div class="exhibit-dossier">
+        <div class="exhibit-dossier-top"><span>DOCUMENTARY DOSSIER</span><span>{{exhibit.number}}</span></div>
+        <section class="exhibit-dossier-section" id="established"><h2>What the record establishes</h2><ul>{% for item in exhibit.evidence_lines %}<li>{{item}}</li>{% endfor %}</ul></section>
+        <section class="exhibit-dossier-section exhibit-dossier-uncertainty" id="uncertainties"><h2>What remains unverified</h2><ul>{% for item in exhibit.uncertainty_lines %}<li>{{item}}</li>{% endfor %}</ul></section>
+        <section class="exhibit-dossier-section exhibit-dossier-interpretation"><h2>Curatorial interpretation</h2><p>{{exhibit.interpretation}}</p></section>
+        <section class="exhibit-dossier-section exhibit-sources"><h2>Sources &amp; further reading</h2><a class="exhibit-primary-source" href="{{root}}articles/{{exhibit.source.slug}}/">{{exhibit.source.title}} ↗</a>{% if exhibit.related %}<div class="exhibit-related-sources">{% for article in exhibit.related %}<a href="{{root}}articles/{{article.slug}}/">{{article.title}} ↗</a>{% endfor %}</div>{% endif %}</section>
+      </div>
+    </aside>
+  </div>
+  <nav class="exhibit-page-nav" aria-label="Browse historical exhibits">
+    {% if exhibit.previous %}<a href="{{root}}exhibits/{{exhibit.previous.id}}/"><span>← PREVIOUS EXHIBIT</span><strong>{{exhibit.previous.title}}</strong></a>{% else %}<a href="{{root}}exhibits/"><span>← DOCUMENTARY CABINET</span><strong>All historical exhibits</strong></a>{% endif %}
+    {% if exhibit.next %}<a href="{{root}}exhibits/{{exhibit.next.id}}/"><span>NEXT EXHIBIT →</span><strong>{{exhibit.next.title}}</strong></a>{% else %}<a href="{{root}}exhibits/"><span>RETURN TO THE CABINET →</span><strong>All historical exhibits</strong></a>{% endif %}
+  </nav>
+</div>
+{% endblock %}

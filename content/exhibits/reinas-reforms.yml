@@ -1,0 +1,28 @@
+id: "reinas-reforms"
+title: "The Reforms of Queen Reina"
+subtitle: "Justice pursued before the truth was complete"
+kind: "Reform dossier"
+period: "1316–1402 AF"
+period_group: "Later Reigns"
+symbol: "✧"
+summary: "Queen Reina curtailed discriminatory royal policies centuries before Jaznaar’s public vindication, proving legal reform did not have to await a solved historical mystery."
+folio_title: "A Crown Changes Course"
+folio_text: |-
+  Queen Reina succeeded Arnaud in 1316 AF and sought to curtail restrictions against drow families.
+  Her reforms pursued equal treatment even though the kingdom had not yet established the truth of the Black Tower and Jaznaar’s innocence.
+  The repeal or restriction of unjust measures could not automatically restore homes, livelihoods, or trust destroyed under the previous reign.
+evidence: |-
+  Reina succeeded Arnaud and reigned from 1316 to 1402 AF.
+  She curtailed further discriminatory restrictions and sought a return to equal treatment.
+  Her reforms preceded the Misfits’ discovery and King Gradvum’s later vindication of Jaznaar by centuries.
+  The harm of previous enforcement survived the change in policy.
+uncertainty: |-
+  Public sources do not establish exact repeal dates for every measure.
+  No verified comprehensive account shows that each affected household recovered lost property, work, or safety.
+  The reforms must not be presented as the end of all discrimination.
+interpretation: |-
+  The law could begin to reject ancestry-based injustice before scholarship had dismantled the false story that helped justify it.
+source_article: "reinas-reforms"
+related_articles: "arnauds-edicts,sanctuary-at-heavens-heart,jaznaars-vindication,house-frozenroar"
+featured: false
+published: true

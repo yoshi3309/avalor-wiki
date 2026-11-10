@@ -1,0 +1,28 @@
+id: "jaznaars-vindication"
+title: "The Vindication of Jaznaar"
+subtitle: "A name restored; an old plaque retained"
+kind: "Royal proclamation dossier"
+period: "Age of Ascendancy"
+period_group: "Age of Ascendancy"
+symbol: "✦"
+summary: "Gradvum’s verified proclamation of Jaznaar’s innocence, the corrected monument in Renada, and the difficult work of undoing a public lie."
+folio_title: "The Betrayer Named Innocent"
+folio_text: |-
+  After the Misfits exposed the truth concerning Aldus Greystone III and Cid the Blood King, King Gradvum Frozenroar formally proclaimed Jaznaar Mizzrorzza innocent.
+  Public histories and commemorations were revised. At Rynhold Park, Aldus’s statue remained, but its inscription was replaced to identify Aldus with Cid and acknowledge Jaznaar’s innocence.
+  The former plaque was preserved at the Great Library of Aldus Greystone as evidence of the kingdom’s previous error.
+evidence: |-
+  Gradvum issued a formal proclamation vindicating Jaznaar.
+  The Misfits’ findings and historical inquiry established Aldus’s identity with Cid and Jaznaar’s wrongful condemnation.
+  The Rynhold Park plaque was changed, and the previous inscription retained at the Great Library.
+  Reina’s legal reforms were earlier; the vindication did not create legal equality for the first time.
+uncertainty: |-
+  The public accounts establish the proclamation but do not preserve an authenticated verbatim decree here.
+  Jaznaar had died before his innocence was proclaimed; the decree could not undo his loss or the persecution of drow families.
+  The exact wording of the new memorial inscription is not supplied and is not invented in this display.
+interpretation: |-
+  A revised public inscription corrects the words the kingdom teaches. It cannot, by itself, repay those whose lives were shaped by the earlier lie.
+source_article: "jaznaars-vindication"
+related_articles: "jaznaar,rynhold-park,royal-commission-historical-inquiry,reinas-reforms,king-gradvum-frozenroar,great-library-aldus-greystone"
+featured: true
+published: true

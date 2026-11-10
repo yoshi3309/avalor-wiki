@@ -1,0 +1,28 @@
+id: "founding-settlement"
+title: "The Settlement of 1 AF"
+subtitle: "When allied crowns became a kingdom"
+kind: "Founding record"
+period: "1 AF"
+period_group: "Founding Age"
+symbol: "♛"
+summary: "The negotiated political union through which Rynhold Frozenroar became Avalor’s first king—and an alliance learned to govern beyond a shared war."
+folio_title: "A Kingdom Formed Through Agreement"
+folio_text: |-
+  The alliance against Lord Osmo endured beyond the battlefield at Heroes Hill.
+  In 1 After Founding, the northern realms accepted a common crown beneath Rynhold Frozenroar, formerly King of Kroubia.
+  Renada, already an inhabited city, became the capital. The new kingdom retained distinct local customs and obligations, and founded institutions intended to survive its first sovereign.
+evidence: |-
+  The founding settlement is dated to 1 AF.
+  Rynhold ruled Kroubia before the union.
+  The union followed the defeat of Lord Osmo but was a political negotiation, not a conquest of every former ally.
+  Renada predated its selection as capital; the Aegis traces its founding to Rynhold.
+uncertainty: |-
+  No complete, authenticated founding charter or word-for-word settlement text is preserved in the public record.
+  The founding year should not be treated as a confirmed date for Osmo’s death.
+  The original provisions agreed by each former kingdom have not been reproduced as a single surviving instrument.
+interpretation: |-
+  The year 1 AF commemorates a decision to share institutions. It does not signify the beginning of the peoples, lands, or histories brought beneath the lion banner.
+source_article: "unification-of-avalor"
+related_articles: "rynhold-frozenroar,kingdom-of-avalor,founding-wars,renada,the-aegis"
+featured: true
+published: true

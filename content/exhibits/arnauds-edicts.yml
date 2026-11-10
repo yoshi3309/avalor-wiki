@@ -1,0 +1,28 @@
+id: "arnauds-edicts"
+title: "Arnaud’s Edicts"
+subtitle: "When inherited suspicion became state policy"
+kind: "Royal law dossier"
+period: "1259–1315 AF"
+period_group: "Later Reigns"
+symbol: "⚖"
+summary: "The persecution of drow families under Arnaud’s rule, shown through the recorded consequences of laws justified by the false Betrayer legend."
+folio_title: "The Burden of a False Accusation"
+folio_text: |-
+  Under King Arnaud Frozenroar, the long-repeated accusation against Jaznaar helped justify royal restrictions aimed at drow communities.
+  Enforcement included residence records, searches, travel limits, displacement, and lost commercial or professional opportunities. Individuals were subjected to suspicion because of ancestry rather than demonstrated wrongdoing.
+  At Heaven’s Heart, Jeyse and Cal’el defended sanctuary for families threatened by the measures; opposition and negotiation eventually curtailed their harshest enforcement.
+evidence: |-
+  Arnaud reigned from 1259 to 1315 AF.
+  The edicts targeted drow families and enabled searches, record demands, movement restrictions, and displacements.
+  Sanctuary at Heaven’s Heart was maintained; there was no general war between the crown and its paladins.
+  Some later provincial copies survive with public-safety justifications, but enforcement differed across districts.
+uncertainty: |-
+  No verified total is established for families displaced or livelihoods lost.
+  The surviving copies do not justify presenting a single uniform statutory text used in every district.
+  The false accusation against Jaznaar was not established by the eyewitness companions or Rynhold.
+interpretation: |-
+  An archival record should preserve the injustice plainly without reproducing a fabricated proclamation in Arnaud’s voice or treating prejudice as a proven threat.
+source_article: "arnauds-edicts"
+related_articles: "sanctuary-at-heavens-heart,reinas-reforms,jaznaar,house-frozenroar"
+featured: false
+published: true

@@ -43,6 +43,7 @@ jobs:
           node --check assets/connections-web.js
           node --check assets/article-reading.js
           node --check assets/gallery.js
+          node --check assets/exhibits.js
           node --check assets/reading-desk.js
       - name: Test smart archive search
         run: node --test tests/test_search.js
@@ -58,6 +59,8 @@ jobs:
         run: python tests/check_atlas_explore.py
       - name: Check Cross-Archive Connections
         run: python tests/check_connections_web.py
+      - name: Check Historical Exhibits
+        run: python tests/check_exhibits.py
       - name: Check Personal Reading Desk
         run: python tests/check_reading_desk.py
       - uses: actions/configure-pages@v5

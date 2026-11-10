@@ -1,0 +1,95 @@
+/* Documentary Cabinet — public scholarly reconstruction, not historic facsimile. */
+.exhibits-index,.exhibit-page{max-width:1270px;margin:0 auto;padding-bottom:85px}
+.exhibits-heading,.exhibit-heading{padding:35px 0 28px}
+.exhibits-kicker{font:700 10px/1.6 var(--font-body);color:#cba773;letter-spacing:.18em}
+.exhibits-heading h1,.exhibit-heading h1{font:500 clamp(32px,4.2vw,55px)/1.19 var(--font-display);color:#f2e4c9;margin:16px 0}
+.exhibits-heading h1 em{font:italic 400 .94em var(--font-literary);color:#d0b17a}
+.exhibits-heading>p,.exhibit-deck{font:13px/1.95 var(--font-literary);color:#c1cfc6;max-width:850px}
+.exhibits-principle{display:flex;align-items:flex-start;gap:14px;border:1px solid #74664e;border-left:3px solid #d0ad72;background:#26363b;margin-top:29px;padding:17px 19px;max-width:950px}
+.exhibits-principle>span{font:27px var(--font-display);color:#d8bb86}
+.exhibits-principle p{font:12px/1.85 var(--font-body);color:#c8d3ca;margin:0}
+.exhibits-principle strong{color:#f2dbae}
+.exhibits-toolbar{display:grid;grid-template-columns:minmax(0,2fr) minmax(180px,1fr);gap:14px;border:1px solid #566256;background:#1f3037;padding:18px 19px;margin:24px 0 16px}
+.exhibits-toolbar>div{display:flex;flex-direction:column;gap:6px}
+.exhibits-toolbar label{font:11px/1.4 var(--font-body);color:#d7b987}
+.exhibits-toolbar input,.exhibits-toolbar select{width:100%;background:#2a3e45;color:#f2e5ce;border:1px solid #777869;border-radius:2px;padding:10px 12px;font:12px var(--font-body)}
+.exhibits-list-summary{border-bottom:1px solid #84795e;display:flex;justify-content:space-between;gap:14px;padding:10px 3px 14px;color:#b8a88b;font:700 10px/1.4 var(--font-body);letter-spacing:.12em}
+.exhibits-catalogue{display:grid;grid-template-columns:1fr;gap:18px;margin-top:21px}
+.exhibits-card{display:grid;grid-template-columns:190px minmax(0,1fr);border:1px solid #5d6759;background:linear-gradient(130deg,#273940,#1c2c34);min-height:224px;overflow:hidden;transition:border-color .2s,transform .2s}
+.exhibits-card:hover{border-color:#dfb980;transform:translateY(-2px)}
+.exhibits-card[hidden],.exhibits-empty[hidden]{display:none}
+.exhibits-card-leaf{background:linear-gradient(150deg,#d3bb95,#ecdec3 55%,#d6c09e);border-right:1px solid #a08a69;color:#65543d;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:17px;position:relative}
+.exhibits-card-leaf:before{content:"";position:absolute;inset:9px;border:1px solid #947a57aa;pointer-events:none}
+.exhibits-card-number,.exhibits-card-mark{font:700 9px var(--font-display);letter-spacing:.13em}
+.exhibits-card-symbol{font:66px/1 var(--font-display);color:#8d6c48;text-shadow:0 1px #fff8}
+.exhibits-card-rule{width:66%;height:1px;background:#ab936b}
+.exhibits-card-body{display:flex;flex-direction:column;padding:23px 26px 20px}
+.exhibits-card-meta{display:flex;gap:8px 19px;flex-wrap:wrap;color:#ceb18a;font:700 10px/1.5 var(--font-body);letter-spacing:.07em}
+.exhibits-card h2{font:500 clamp(22px,2.4vw,28px)/1.3 var(--font-display);color:#f1debc;margin:10px 0 4px}
+.exhibits-card-subtitle{font:italic 12px/1.7 var(--font-literary)!important;color:#e0c497!important;margin:0!important}
+.exhibits-card-body>p:not(.exhibits-card-subtitle){font:12px/1.8 var(--font-body);color:#b9c8c4;max-width:780px}
+.exhibits-card-foot{display:flex;justify-content:space-between;align-items:center;gap:11px;margin-top:auto;padding-top:12px;border-top:1px solid #4b5a54;font:10px var(--font-body);color:#a9b6af}
+.exhibits-card-foot strong{color:#f1ce96}
+.exhibits-empty{border:1px dashed #6b7262;background:#233740;padding:25px;color:#d0decf;font-size:12px}
+.exhibits-endnote{border-top:1px solid #656252;margin-top:39px;padding:26px 0;display:flex;align-items:center;gap:16px}
+.exhibits-endnote>span{font:37px var(--font-display);color:#c4a775}
+.exhibits-endnote p{font:12px/1.8 var(--font-literary);color:#b6c4bc;flex:1}
+.exhibits-endnote a{font:11px var(--font-body);color:#e7c58e;white-space:nowrap}
+.exhibit-heading-row{display:flex;justify-content:space-between;align-items:center;gap:25px}
+.exhibit-heading h1{margin:12px 0}
+.exhibit-kind{font:11px var(--font-body);color:#d8bc88;letter-spacing:.04em}
+.exhibit-subtitle{font:italic 15px/1.75 var(--font-literary);color:#dec69e;margin:0}
+.exhibit-heading-seal{width:102px;height:102px;border:1px solid #826e4e;border-radius:50%;color:#d5b983;display:grid;place-items:center;font:48px var(--font-display);flex:0 0 auto}
+.exhibit-warning{display:flex;flex-direction:column;gap:4px;border-left:4px solid #d5ad70;background:#304044;margin:10px 0 27px;padding:15px 19px}
+.exhibit-warning strong{font:700 11px/1.5 var(--font-body);color:#f3d6a4;letter-spacing:.08em}
+.exhibit-warning p{font:11px/1.75 var(--font-body);color:#d1d6cc;margin:0}
+.exhibit-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(310px,.85fr);gap:24px;align-items:start}
+.exhibit-display{margin:0}
+.exhibit-paper{position:relative;background:linear-gradient(115deg,#c3af8b,#ebdcc1 18%,#f1e7d1 65%,#d0b794);padding:20px;color:#3e3425;box-shadow:0 18px 49px #051016b8,0 0 0 1px #bba380}
+.exhibit-paper:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 80% 0%,#fff8,transparent 45%)}
+.exhibit-paper-border{position:relative;border:1px solid #99805e;padding:26px clamp(16px,2.6vw,38px) 22px;display:flex;flex-direction:column;min-height:635px}
+.exhibit-paper-header{display:flex;justify-content:space-between;align-items:center;gap:8px;text-align:center;color:#69553c;font:700 8px/1.8 var(--font-display);letter-spacing:.08em}
+.exhibit-paper-header img{filter:sepia(1) saturate(.6);opacity:.68}
+.exhibit-paper-rule{text-align:center;color:#a68a5c;margin:25px 0 18px}
+.exhibit-paper-kicker{text-align:center;font:700 9px/1.6 var(--font-display);letter-spacing:.12em;color:#7f6642;margin:0}
+.exhibit-paper h2{text-align:center;font:500 clamp(23px,2.1vw,31px)/1.34 var(--font-display);color:#453925;margin:14px 0 30px}
+.exhibit-paper-body p{font:13px/2.06 var(--font-literary);color:#43382b;margin:0 0 17px}
+.exhibit-paper-body p:first-child:first-letter{float:left;font:43px/.94 var(--font-display);padding:7px 9px 0 0;color:#755c37}
+.exhibit-paper-ornament{text-align:center;font-size:30px;color:#94744e;margin:auto 0 12px}
+.exhibit-paper-footer{display:flex;justify-content:space-between;gap:12px;padding-top:12px;border-top:1px solid #b29b77;color:#766247;font:700 8px var(--font-display);letter-spacing:.05em}
+.exhibit-display figcaption{font:11px/1.85 var(--font-literary);color:#b8c4bb;margin-top:17px}
+.exhibit-dossier{border:1px solid #58695e;background:#23363d}
+.exhibit-dossier-top{padding:16px 19px;border-bottom:1px solid #607364;display:flex;justify-content:space-between;color:#e6c58e;font:700 10px var(--font-body);letter-spacing:.1em}
+.exhibit-dossier-section{padding:20px 22px;border-bottom:1px solid #435a50}
+.exhibit-dossier-section h2{font:500 18px/1.5 var(--font-display);color:#f0e0c1;margin:0 0 15px}
+.exhibit-dossier-section ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+.exhibit-dossier-section li{position:relative;padding-left:16px;font:12px/1.82 var(--font-body);color:#c5d0c7}
+.exhibit-dossier-section li:before{content:"◇";position:absolute;left:0;color:#c4a06d}
+.exhibit-dossier-uncertainty{background:#2f383d}
+.exhibit-dossier-uncertainty li:before{content:"?";font-weight:700;color:#e0b17b}
+.exhibit-dossier-interpretation p{font:italic 12px/1.95 var(--font-literary);color:#d1d7cb;margin:0}
+.exhibit-primary-source{font:600 12px var(--font-body);color:#ecd099}
+.exhibit-related-sources{display:flex;flex-direction:column;gap:10px;margin-top:15px}
+.exhibit-related-sources a{font:11px/1.5 var(--font-body);color:#b3cfc7}
+.exhibit-transcription{padding:28px 0;margin-top:27px;border-top:1px solid #68705b}
+.exhibit-transcription h2{font:500 22px var(--font-display);color:#e9d7b9;margin:9px 0}
+.exhibit-transcription>p{font:12px/1.8 var(--font-body);color:#c2cbc2}
+.exhibit-transcription-body{border-left:2px solid #be9d6d;padding:2px 22px;margin-top:17px}
+.exhibit-transcription-body p{font:13px/1.95 var(--font-literary);color:#e5e5d8}
+.exhibit-page-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:37px}
+.exhibit-page-nav>a{border:1px solid #6b644e;background:#26373d;padding:18px 21px;display:flex;flex-direction:column;gap:6px}
+.exhibit-page-nav>a:last-child{text-align:right}
+.exhibit-page-nav span{font:700 9px var(--font-body);color:#c6a978;letter-spacing:.12em}
+.exhibit-page-nav strong{font:500 15px var(--font-display);color:#eee1c7}
+.exhibit-article-related{margin:28px 0;border:1px solid #5e6756;background:#1c2d36;padding:22px 24px}
+.exhibit-article-related h2{font:500 23px var(--font-display);color:#e9d9b9;margin:8px 0}
+.exhibit-article-related>p{font:12px/1.8 var(--font-literary);color:#c0c9bf}
+.exhibit-article-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:16px}
+.exhibit-article-links a{display:flex;align-items:center;gap:12px;border:1px solid #596656;padding:12px;color:#ebdcbf}
+.exhibit-article-links a>span:last-child{margin-left:auto;color:#d3b884}
+.exhibit-article-links strong{display:block;font:600 12px/1.5 var(--font-body)}
+.exhibit-article-links small{display:block;color:#b0c0b8;font:10px/1.5 var(--font-body);margin-top:2px}
+.exhibit-mini-symbol{font:24px var(--font-display);color:#d7bb8b}
+@media(max-width:1020px){.exhibit-layout{grid-template-columns:1fr}.exhibit-dossier{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.exhibit-dossier-top{grid-column:1/-1}}
+@media(max-width:680px){.exhibits-toolbar{grid-template-columns:1fr}.exhibits-card{grid-template-columns:95px minmax(0,1fr)}.exhibits-card-leaf{padding:13px 7px}.exhibits-card-symbol{font-size:41px}.exhibits-card-body{padding:15px}.exhibits-card h2{font-size:20px}.exhibits-card-foot{flex-direction:column;align-items:flex-start}.exhibits-endnote{flex-wrap:wrap}.exhibit-heading-seal{display:none}.exhibit-paper{padding:11px}.exhibit-paper-border{min-height:0;padding:18px 13px}.exhibit-paper-header{font-size:7px}.exhibit-paper-header img{width:42px;height:42px}.exhibit-paper-body p{font-size:12px}.exhibit-dossier{display:block}.exhibit-article-links{grid-template-columns:1fr}.exhibit-page-nav{grid-template-columns:1fr}.exhibit-page-nav>a:last-child{text-align:left}}
+@media(prefers-reduced-motion:reduce){.exhibits-card{transition:none}.exhibits-card:hover{transform:none}}

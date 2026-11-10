@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container exhibits-index">
+  <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>Historical exhibits</span></nav>
+  <header class="exhibits-heading">
+    <div class="exhibits-kicker">ROYAL COMMISSION · THE DOCUMENTARY CABINET</div>
+    <h1>Historical <em>Documents</em> &amp; Exhibits</h1>
+    <p>Open the records through which Avalor has defined, questioned, and rewritten its history: a kingdom formed by agreement, woodland rights defended, laws misused, and an innocent name restored.</p>
+    <div class="exhibits-principle"><span aria-hidden="true">◇</span><p><strong>A note on authenticity:</strong> These folios are modern <strong>editorial reconstructions</strong>, not discovered originals, authenticated facsimiles, or verbatim royal proclamations. Each separates what the sources establish from what they do not.</p></div>
+  </header>
+  <div class="exhibits-toolbar" role="search" aria-label="Filter historical exhibits">
+    <div><label for="exhibits-search">Find an exhibit</label><input id="exhibits-search" type="search" autocomplete="off" placeholder="Search by name, event, or reign…"></div>
+    <div><label for="exhibits-period">Historical period</label><select id="exhibits-period"><option value="all">All periods</option><option value="Founding Age">Founding Age</option><option value="Later Reigns">Later Reigns</option><option value="Age of Ascendancy">Age of Ascendancy</option></select></div>
+  </div>
+  <div class="exhibits-list-summary"><span>COMMISSION EXHIBIT INDEX</span><span id="exhibits-count" role="status" aria-live="polite">{{exhibits|length}} DOCUMENTARY DISPLAYS</span></div>
+  <div class="exhibits-catalogue" id="exhibits-catalogue">
+  {% for exhibit in exhibits %}
+    <a class="exhibits-card" data-exhibit-card data-exhibit-group="{{exhibit.period_group}}" data-exhibit-text="{{exhibit.title}} {{exhibit.subtitle}} {{exhibit.kind}} {{exhibit.summary}} {{exhibit.period}}" href="{{root}}exhibits/{{exhibit.id}}/">
+      <div class="exhibits-card-leaf" aria-hidden="true"><span class="exhibits-card-number">FOLIO {{exhibit.number}}</span><span class="exhibits-card-symbol">{{exhibit.symbol}}</span><span class="exhibits-card-rule"></span><span class="exhibits-card-mark">R.C.H.I.</span></div>
+      <div class="exhibits-card-body">
+        <div class="exhibits-card-meta"><span>{{exhibit.kind}}</span><span>{{exhibit.period}}</span></div>
+        <h2>{{exhibit.title}}</h2><p class="exhibits-card-subtitle">{{exhibit.subtitle}}</p><p>{{exhibit.summary}}</p>
+        <div class="exhibits-card-foot"><span>Editorial reconstruction · Source-linked</span><strong>Inspect exhibit ↗</strong></div>
+      </div>
+    </a>
+  {% endfor %}
+  </div>
+  <div class="exhibits-empty" id="exhibits-empty" hidden>No exhibits match those filters. Try another term or period.</div>
+  <footer class="exhibits-endnote"><span aria-hidden="true">❦</span><p>History may be corrected, and inherited claims tested against evidence. The Commission preserves uncertainty rather than silently filling the gaps.</p><a href="{{root}}articles/royal-commission-historical-inquiry/">About the Royal Commission ↗</a></footer>
+</div>
+{% endblock %}
