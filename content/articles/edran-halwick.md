@@ -3,7 +3,7 @@ title: Edran Halwick
 subtitle: The Practical Steward
 summary: A half-orc woman of House Halwick, Edran governs the Royal Heartlands with meticulous care while navigating the competing obligations of family and crown.
 category: People & Legends
-image: /assets/uploads/half-orc-wheatwarden-on-the-terrace.png
+image: /assets/uploads/edran.png
 entry: BIO.013
 era: Age of Ascendancy
 facts: |-

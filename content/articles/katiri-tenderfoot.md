@@ -3,7 +3,7 @@ title: Katiri Tenderfoot
 subtitle: The Silver Hand Who Learned to Disappear
 summary: A half-orc spymaster trained from fifteen by King Gerran's Silver Hand, Katiri turned prejudice into cover and now commands the crown's intelligence network.
 category: People & Legends
-image: /assets/uploads/orc-warrior-overlooking-the-golden-citadel.png
+image: /assets/uploads/katiri-tenderfoot.png
 entry: BIO.018
 era: Age of Ascendancy
 facts: |-

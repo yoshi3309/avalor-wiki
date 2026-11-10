@@ -3,7 +3,7 @@ title: Seren Thornwyck
 subtitle: The Patient Diplomat
 summary: A satyr of House Thornwyck, Seren serves as sheriff of the Western Verge, where his gift for listening is tested by the demands of decisive leadership.
 category: People & Legends
-image: /assets/uploads/satyr-ranger-beneath-the-forest-arch.png
+image: /assets/uploads/seren-thornwyck.png
 entry: BIO.014
 era: Age of Ascendancy
 facts: |-

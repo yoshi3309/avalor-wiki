@@ -3,7 +3,7 @@ title: Jaznaar
 subtitle: The Name Restored
 summary: The drow spellcaster of the founding Six who quietly contained the Blood King for centuries while Avalor remembered him as a betrayer.
 category: People & Legends
-image: /assets/uploads/drow-sorcerers-arcane-convergence.png
+image: /assets/uploads/jaznaar.png
 entry: BIO.002
 era: Founding Age to Age of the Misfits
 facts: |-

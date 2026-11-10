@@ -3,7 +3,7 @@ title: Rastrin Diltir
 subtitle: The Warden Who Admires a Paladin
 summary: An aging tortle Warden of Order, Rastrin admires Lavitz's commitment to protecting others while fearing his own years would make him a burden in a paladin's calling.
 category: People & Legends
-image: /assets/uploads/tortle-magistrate-in-the-grand-hall.png
+image: /assets/uploads/rastrin-diltir.png
 entry: BIO.019
 era: Age of Ascendancy
 facts: |-

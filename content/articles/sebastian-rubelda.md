@@ -3,7 +3,7 @@ title: Sebastian Rubelda
 subtitle: The Queen's Brother at the Northern Frontier
 summary: A human sheriff and brother of Queen Melmiri, Sebastian defends the Northern March while hoping to bring greater cooperation among the Northern Desert Tribes.
 category: People & Legends
-image: /assets/uploads/regal-renaissance-noble-in-candlelit-study.png
+image: /assets/uploads/sebastian-rubelda.png
 entry: BIO.012
 era: Age of Ascendancy
 facts: |-

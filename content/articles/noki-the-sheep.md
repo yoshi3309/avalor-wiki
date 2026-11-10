@@ -4,7 +4,7 @@ subtitle: The Wizard Transformed into a Sheep
 summary: A wizard remembered for having been transformed into a sheep during the
   early Misfits' unusual travels.
 category: People & Legends
-image: /assets/uploads/swamp-warlords-violet-fury.png
+image: /assets/uploads/noki.png
 entry: BIO.030
 era: Age of the Misfits
 facts: |-

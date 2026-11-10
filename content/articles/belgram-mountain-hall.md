@@ -3,7 +3,7 @@ title: Belgram of Mountain Hall Clan
 subtitle: The Gruff Mediator
 summary: A dwarven Third Hand of the Aegis, Belgram patiently untangles royal disagreements but sometimes thinks a friendly bout of fisticuffs would accomplish more.
 category: People & Legends
-image: /assets/uploads/regal-dwarven-king-in-a-lion-hall.png
+image: /assets/uploads/belgram.png
 entry: BIO.016
 era: Age of Ascendancy
 facts: |-
