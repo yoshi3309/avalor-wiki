@@ -749,6 +749,12 @@ for old, rule in MERGES.items():
         f'<body><p>{label} is now part of {destination}. '
         f'<a href="{location}">Open the section</a>.</p></body></html>',
         encoding='utf-8')
+# Public reading-desk catalogue contains metadata only; browser preferences never reach the build.
+(PUBLIC/'reading-desk-index.json').write_text(json.dumps([
+    {'slug':a['slug'],'title':a['title'],'summary':a['summary'],'category':a['category']}
+    for a in ALL
+],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+render('reading-desk.html','reading-desk/index.html',depth=1,page_type='reading-desk',title='My Reading Desk',crumbs='My Reading Desk')
 render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS)
 for graph in RELATIONSHIP_MAPS:
     render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)

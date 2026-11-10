@@ -17,6 +17,8 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Interactive Atlas regional exploration (2026-11-09):** Five curated area views based exclusively on existing approved map pins; three narrative trails using already-published locations; shareable selected-location links. These are navigation aids, not newly asserted borders, roads, measured distances or canonical itineraries. Historical border overlays remain deferred until geographic source maps are approved.
 
+- **Personal Reading Desk (2026-11-09):** Browser-local bookmarks, saved chapter positions, recently opened accounts and explicit completed-reading markers, with a personal shelf at `/reading-desk/`. No accounts, uploads, analytics, or cross-device synchronization.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.

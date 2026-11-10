@@ -42,6 +42,7 @@ jobs:
           node --check assets/connections.js
           node --check assets/article-reading.js
           node --check assets/gallery.js
+          node --check assets/reading-desk.js
       - name: Test smart archive search
         run: node --test tests/test_search.js
       - name: Check public canon and article links
@@ -54,6 +55,8 @@ jobs:
         run: python tests/check_gallery.py
       - name: Check Atlas exploration controls
         run: python tests/check_atlas_explore.py
+      - name: Check Personal Reading Desk
+        run: python tests/check_reading_desk.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

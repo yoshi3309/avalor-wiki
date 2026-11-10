@@ -1,9 +1,17 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="article-reading-track" role="progressbar" aria-label="Progress through this article" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="article-reading-fill"></div></div>
-<div class="content-container article-container" data-article-reading>
+<div class="content-container article-container" data-article-reading data-reading-slug="{{article.slug}}" data-reading-title="{{article.title}}" data-reading-category="{{article.category}}">
   <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
-  <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT</div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>{% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
+  <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT</div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>
+    <div class="reading-article-tools" aria-label="Personal reading controls">
+      <button type="button" id="reading-bookmark" aria-pressed="false">☆ Save to Reading Desk</button>
+      <button type="button" id="reading-finished" aria-pressed="false">✓ Mark as read</button>
+      <a id="reading-resume" href="#" hidden>↪ Resume saved chapter</a>
+      <a href="{{root}}reading-desk/" class="reading-desk-entry">My Reading Desk ↗</a>
+      <span id="reading-action-status" role="status" aria-live="polite"></span>
+    </div>
+    {% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
   <div class="article-split"><div class="article-column">
     <div class="document-paper"><div class="paper-top"><span class="ornamental-letter">A</span><span>THE ROYAL COMMISSION OF HISTORICAL INQUIRY</span><span class="paper-sigil">✦</span></div>
       {% if article.headings %}<details class="article-mobile-toc"><summary>In this record <span aria-hidden="true">⌄</span></summary><nav aria-label="Article chapters">{% for h in article.headings %}<a href="#{{h.id}}">{{h.text}}</a>{% endfor %}</nav></details>{% endif %}

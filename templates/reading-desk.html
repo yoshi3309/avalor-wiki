@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container reading-desk-page" data-reading-desk>
+  <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>My Reading Desk</span></nav>
+  <header class="reading-desk-heading">
+    <div class="kicker">THE ROYAL ARCHIVES · YOUR PRIVATE SHELF</div>
+    <h1>My <em>Reading Desk</em></h1>
+    <p>Keep your favorite records close, return to the chapters you left, and remember the histories you have finished.</p>
+    <p class="reading-desk-privacy">This desk is saved <strong>only in this browser on this device</strong>. It requires no account, and your reading choices are not sent to the Archives. Clearing browser/site data, using private browsing, or switching devices may erase them.</p>
+  </header>
+  <div class="reading-desk-status" role="status" aria-live="polite" id="reading-desk-status"></div>
+  <section class="reading-desk-summary" aria-label="Your reading overview">
+    <div><strong id="reading-bookmark-count">0</strong><span>Saved records</span></div>
+    <div><strong id="reading-in-progress-count">0</strong><span>In progress</span></div>
+    <div><strong id="reading-completed-count">0</strong><span>Finished</span></div>
+  </section>
+  <section class="reading-desk-section" aria-labelledby="reading-continue-title">
+    <div class="reading-desk-section-heading"><div><div class="kicker">I · PICK UP THE THREAD</div><h2 id="reading-continue-title">Continue Reading</h2></div></div>
+    <div id="reading-continue-list" class="reading-desk-grid"></div>
+  </section>
+  <section class="reading-desk-section" aria-labelledby="reading-saved-title">
+    <div class="reading-desk-section-heading"><div><div class="kicker">II · YOUR COLLECTION</div><h2 id="reading-saved-title">Bookmarked Records</h2></div></div>
+    <div id="reading-bookmarked-list" class="reading-desk-grid"></div>
+  </section>
+  <section class="reading-desk-section" aria-labelledby="reading-completed-title">
+    <div class="reading-desk-section-heading"><div><div class="kicker">III · COMPLETED ACCOUNTS</div><h2 id="reading-completed-title">Finished Reading</h2></div></div>
+    <div id="reading-completed-list" class="reading-desk-grid"></div>
+  </section>
+  <section class="reading-desk-section" aria-labelledby="reading-recent-title">
+    <div class="reading-desk-section-heading"><div><div class="kicker">IV · YOUR RECENT TRAIL</div><h2 id="reading-recent-title">Recently Opened</h2></div></div>
+    <div id="reading-recent-list" class="reading-desk-grid"></div>
+  </section>
+  <div class="reading-desk-footer"><p>Your reading history is private to this browser. Removing an item from your shelf does not remove the article from the public Archives.</p><a href="{{root}}articles/">Browse all public records ↗</a></div>
+</div>
+{% endblock %}
