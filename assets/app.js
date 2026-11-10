@@ -6,6 +6,8 @@
   const searchResults = document.getElementById('search-results');
   const sidebar = document.getElementById('sidebar');
   const scrim = document.getElementById('sidebar-scrim');
+  const menuTrigger = document.getElementById('menu-trigger');
+  const mobileMenu = window.matchMedia('(max-width: 920px)');
   let records = null;
   let searchCategory = 'all';
   let selectedSearchIndex = -1;
@@ -88,7 +90,7 @@
   });
   document.addEventListener('keydown',e=>{
     if ((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k') {e.preventDefault();openSearch();return;}
-    if (e.key==='Escape') {closeSearch();closeMenu();return;}
+    if (e.key==='Escape') {closeSearch();closeMenu(true);return;}
     if (!searchModal?.classList.contains('is-open')) return;
     if (e.key==='ArrowDown' || e.key==='ArrowUp') {
       e.preventDefault();
@@ -106,10 +108,51 @@
       }
     }
   });
-  const closeMenu = () => { sidebar.classList.remove('show');scrim.classList.remove('show'); };
-  document.getElementById('menu-trigger')?.addEventListener('click',()=>{sidebar.classList.add('show');scrim.classList.add('show')});
-  scrim?.addEventListener('click',closeMenu);
-  document.querySelectorAll('.side-nav a').forEach(a=>a.addEventListener('click',closeMenu));
+  // A hidden mobile sidebar must not leave dozens of off-screen links tabbable.
+  // The open drawer has keyboard focus management; desktop navigation stays normal.
+  const syncMenu = () => {
+    if (!mobileMenu.matches) {
+      sidebar.classList.remove('show');
+      scrim.classList.remove('show');
+      sidebar.inert = false;
+      menuTrigger?.setAttribute('aria-expanded','false');
+      return;
+    }
+    const open = sidebar.classList.contains('show');
+    sidebar.inert = !open;
+    menuTrigger?.setAttribute('aria-expanded',String(open));
+  };
+  const closeMenu = (restoreFocus=false) => {
+    const wasOpen = sidebar.classList.contains('show');
+    sidebar.classList.remove('show');
+    scrim.classList.remove('show');
+    syncMenu();
+    if (restoreFocus && wasOpen && mobileMenu.matches) menuTrigger?.focus();
+  };
+  const openMenu = () => {
+    sidebar.classList.add('show');
+    scrim.classList.add('show');
+    syncMenu();
+    const first=sidebar.querySelector('a[href],button:not([disabled])');
+    first?.focus();
+  };
+  menuTrigger?.addEventListener('click',()=>{
+    if (sidebar.classList.contains('show')) closeMenu(true);
+    else openMenu();
+  });
+  scrim?.addEventListener('click',()=>closeMenu(true));
+  document.querySelectorAll('.side-nav a').forEach(a=>a.addEventListener('click',()=>closeMenu(false)));
+  document.addEventListener('keydown',e=>{
+    if (e.key!=='Tab'||!mobileMenu.matches||!sidebar.classList.contains('show')||searchModal?.classList.contains('is-open'))return;
+    const items=[...sidebar.querySelectorAll('a[href],button:not([disabled]),input:not([disabled])')]
+      .filter(item=>item.getClientRects().length>0);
+    if (!items.length)return;
+    const first=items[0],last=items[items.length-1];
+    if (e.shiftKey && document.activeElement===first) {e.preventDefault();last.focus();}
+    else if (!e.shiftKey && document.activeElement===last) {e.preventDefault();first.focus();}
+  });
+  mobileMenu.addEventListener?.('change',syncMenu);
+  syncMenu();
   const filter = document.getElementById('catalog-filter');
   filter?.addEventListener('input',()=>{
     const q=filter.value.toLocaleLowerCase().trim();let count=0;

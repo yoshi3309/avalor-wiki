@@ -106,7 +106,7 @@
     select(loc.id,false);
     focus(loc,viewConfig.zoom);
     refresh();
-    viewport.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    viewport.scrollIntoView({block:'nearest',behavior:(window.matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.dataset.readingMotion==='reduce')?'instant':'smooth'});
   }
   function clearTrail() {
     activeTrail=null;trailIndex=-1;trailSelect.value='';

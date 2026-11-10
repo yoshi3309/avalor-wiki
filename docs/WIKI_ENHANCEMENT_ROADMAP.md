@@ -23,6 +23,8 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 
 - **Historical Documents & Archive Exhibits (2026-11-09):** Five canon-grounded, clearly labeled editorial reconstructions, rendered as archival folios with accessible text, evidence, uncertainties, and links to source articles. No invented quotations, original decrees, signatures, seals, or undocumented political details. Public exhibit pages: `/exhibits/`.
 
+- **Reading Comfort & Accessibility (2026-11-09):** Shared Aa reading controls with browser-local font sizing (standard/large/extra large), classic/clear typeface, higher-contrast mode and site motion reduction. Improved paper/exhibit legibility, focus indicators, chapter jump focus, and keyboard-safe mobile navigation; includes automated build checks. Further manual screen-reader and multi-device testing remain worthwhile. `assets/reading-comfort.js`, `assets/reading-comfort.css`.
+
 ## Completed side quests
 
 - **Misfits relationship map refinement (2026-11-08):** The five main adventurers have solid links. Fo'Gurn and Jack are honored companions with distinct dashed links and memorial/ghost symbols; Lavitz and Fo'Gurn's earlier friendship has its own blue dashed line. The presentation does not erase Fo'Gurn's historical membership.
@@ -32,7 +34,7 @@ Last updated: 2026-11-09. This is the canonical **project checklist for website 
 ## Supporting technical work (as useful, not a seventh major phase)
 
 - Image performance / media optimization, especially on phones
-- Accessibility and keyboard usability audits
+- Further assistive-technology and keyboard usability audits (manual cross-browser/screen-reader verification)
 - Social preview and page metadata
 - Sitemap generation and more maintainable timeline data
 - README / editor documentation updates

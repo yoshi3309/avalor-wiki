@@ -1,0 +1,150 @@
+/* Reading Comfort 1.0 — consistent, adjustable reading across the public archive.
+   Article prose, contextual notes, exhibits and reading desk summaries scale together.
+   Navigation and decorative headings keep their own visual hierarchy. */
+:root{
+  --reader-text-size:15px;
+  --reader-line-height:1.85;
+  --reader-font:var(--font-literary);
+}
+html[data-reading-size="large"]{--reader-text-size:17px;--reader-line-height:1.82}
+html[data-reading-size="extra-large"]{--reader-text-size:19px;--reader-line-height:1.78}
+html[data-reading-font="clear"]{--reader-font:var(--font-body)}
+.article-body{font-size:var(--reader-text-size);line-height:var(--reader-line-height);font-family:var(--reader-font);overflow-wrap:break-word;hyphens:auto}
+.article-body h2{font-size:clamp(21px,calc(var(--reader-text-size) * 1.47),29px);line-height:1.42;scroll-margin-top:28px}
+.article-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:max(13px,calc(var(--reader-text-size) * .84))}
+.article-body table th,.article-body table td{min-width:85px}
+.article-deck{font-size:var(--reader-text-size);font-family:var(--reader-font);line-height:1.82}
+.archive-callout p{font-size:var(--reader-text-size);line-height:var(--reader-line-height);font-family:var(--reader-font)}
+.archive-callout--reflection .archive-reflection-text,.archive-callout--quote blockquote p{font-size:clamp(18px,calc(var(--reader-text-size) * 1.23),25px);line-height:1.62}
+.archive-callout small,.archive-figure figcaption,.source-note p,.source-note .scholar-notice{font-size:max(12px,calc(var(--reader-text-size) * .8));line-height:1.75}
+.article-mobile-toc,.article-mobile-toc a,.toc-panel .toc-link{font-size:max(12px,calc(var(--reader-text-size) * .8));line-height:1.55}
+.article-body :is(h2,h3,h4)[tabindex="-1"]:focus{outline:2px solid #386782;outline-offset:4px}
+.exhibit-paper-body p,.exhibit-transcription-body p{font-size:var(--reader-text-size);font-family:var(--reader-font);line-height:var(--reader-line-height);overflow-wrap:break-word}
+.exhibit-dossier-section li,.exhibit-dossier-interpretation p,.exhibit-display figcaption,.exhibit-warning p{font-size:max(13px,calc(var(--reader-text-size) * .87));line-height:1.82}
+.exhibits-heading>p,.exhibit-deck,.exhibits-card-body>p:not(.exhibits-card-subtitle){font-size:var(--reader-text-size);font-family:var(--reader-font);line-height:1.85}
+.reading-desk-heading>p,.reading-desk-card p,.reading-desk-empty,.reading-desk-footer{font-size:var(--reader-text-size);font-family:var(--reader-font);line-height:1.8}
+.gallery-viewer-description p,.connection-web-article-prompt p{font-size:var(--reader-text-size);line-height:1.8}
+/* Preferences control in the shared topbar; a lightweight, non-modal disclosure. */
+.reading-prefs{position:relative;flex:0 0 auto}
+.reading-prefs-trigger{min-height:42px;min-width:48px;display:flex;align-items:center;justify-content:center;gap:6px;border:1px solid #6d644c;border-radius:3px;background:#25353d;color:#f1dcad;padding:6px 11px;font:700 16px var(--font-body)}
+.reading-prefs-trigger-label{font:600 11px var(--font-body)}
+.reading-prefs-trigger[aria-expanded="true"],.reading-prefs-trigger:hover{background:#394c4a;border-color:#caaa76}
+.reading-prefs-panel{position:absolute;z-index:125;right:0;top:calc(100% + 10px);width:min(345px,calc(100vw - 25px));max-height:calc(100vh - 92px);max-height:calc(100dvh - 92px);overflow-y:auto;background:#13242d;border:1px solid #a28c68;box-shadow:0 17px 55px #000b;padding:19px 19px 16px;color:#f1e5ce}
+.reading-prefs-panel[hidden]{display:none!important}
+.reading-prefs-heading{display:flex;gap:14px;align-items:center;justify-content:space-between}
+.reading-prefs-heading h2{font:500 19px/1.5 var(--font-display);color:#f3dfb9;margin:0}
+.reading-prefs-heading button{min-height:40px;min-width:40px;background:#253840;color:#f5e6c8;border:1px solid #72786a}
+.reading-prefs-intro{font:12px/1.7 var(--font-body);color:#cad5c9;margin:9px 0 15px}
+.reading-prefs-fieldset{border:0;border-top:1px solid #52645c;margin:0 0 15px;padding:12px 0 0;min-width:0}
+.reading-prefs-fieldset legend{font:700 11px var(--font-body);color:#e3c58f;padding-right:10px}
+.reading-prefs-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.reading-prefs-choices:has([data-reader-font]){grid-template-columns:repeat(2,minmax(0,1fr))}
+.reading-prefs-choices button{min-height:42px;padding:8px 6px;border:1px solid #718579;background:#243943;color:#e8e4d9;text-align:center;font:600 11px/1.4 var(--font-body)}
+.reading-prefs-choices button[aria-pressed="true"]{border-color:#e9c989;background:#635237;color:#fff0d7;box-shadow:inset 0 0 0 1px #edd3a2}
+.reading-prefs-toggle{display:flex;align-items:center;gap:11px;border-top:1px solid #50615b;padding:13px 2px;cursor:pointer}
+.reading-prefs-toggle input{flex:0 0 auto;width:19px;height:19px;accent-color:#d8b981}
+.reading-prefs-toggle strong{display:block;font:600 12px/1.6 var(--font-body);color:#f2e6d4}
+.reading-prefs-toggle small{display:block;font:11px/1.55 var(--font-body);color:#c0d0c9}
+.reading-prefs-footer{border-top:1px solid #50615b;display:flex;align-items:center;justify-content:space-between;gap:11px;padding-top:14px}
+.reading-prefs-footer button{min-height:39px;flex:0 0 auto;padding:7px 10px;background:#273c45;color:#f1d9ae;border:1px solid #827359;font:600 11px var(--font-body)}
+.reading-prefs-footer span{font:10px/1.4 var(--font-body);color:#b7c7be;text-align:right}
+.reading-prefs-status{font:11px/1.7 var(--font-body);color:#e9cc9d;margin:8px 0 0}
+.reading-prefs-status:empty{display:none}
+/* Strong and consistent keyboard target visibility on dark and paper backgrounds. */
+:where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #f9ce81!important;outline-offset:3px}
+.document-paper :where(a,button,input,select,summary,[tabindex]):focus-visible,
+.exhibit-paper :where(a,button,input,select,[tabindex]):focus-visible{outline-color:#24536b!important}
+.menu-trigger,.icon-button{min-width:42px;min-height:42px}
+.article-mobile-toc summary{min-height:44px}
+/* Higher-contrast presentation keeps the paper/archive distinction but makes
+   important editorial surfaces, links and controls more legible. */
+html[data-reading-contrast="high"]{
+  --dark:#06141c;--paper:#fffcef;--ink:#162b35;--gold:#ffda91;--gold-light:#ffdf9e;
+  --rule:rgba(241,219,174,.48)
+}
+html[data-reading-contrast="high"] body{background:#06141c;color:#fffaf1}
+html[data-reading-contrast="high"] .sidebar,
+html[data-reading-contrast="high"] .topbar{background:#071a23;border-color:#9bb7b2}
+html[data-reading-contrast="high"] .side-nav a,
+html[data-reading-contrast="high"] .sidebar-overline,
+html[data-reading-contrast="high"] .site-footer,
+html[data-reading-contrast="high"] .breadcrumbs,
+html[data-reading-contrast="high"] .crumb-text{color:#e8eee9}
+html[data-reading-contrast="high"] .sidebar-search,
+html[data-reading-contrast="high"] .public-pill{color:#fff2d7;border-color:#c2aa7f}
+html[data-reading-contrast="high"] .document-paper{background:#fffcef;border-color:#8b7658;color:#162b35}
+html[data-reading-contrast="high"] .article-body{color:#192d36}
+html[data-reading-contrast="high"] .article-body h2{color:#102f41;border-bottom-color:#8fa5ac}
+html[data-reading-contrast="high"] .article-body strong{color:#153241}
+html[data-reading-contrast="high"] .article-body a{color:#624110;text-decoration-color:#624110;text-decoration-thickness:2px}
+html[data-reading-contrast="high"] .article-body blockquote{color:#29424e;border-color:#845d29}
+html[data-reading-contrast="high"] .source-note p{color:#33464a}
+html[data-reading-contrast="high"] .source-note .scholar-notice{color:#34494b}
+html[data-reading-contrast="high"] .archive-callout,
+html[data-reading-contrast="high"] .archive-callout--reflection,
+html[data-reading-contrast="high"] .archive-callout--quote{background:#fff2d3;color:#2f312f;border-left-color:#755116}
+html[data-reading-contrast="high"] .archive-callout--note{background:#e4f3f3;color:#183c4b;border-left-color:#235774}
+html[data-reading-contrast="high"] .archive-callout--contested{background:#fff0eb;color:#5e2927;border-left-color:#863b35}
+html[data-reading-contrast="high"] .archive-callout p,
+html[data-reading-contrast="high"] .archive-reflection-text,
+html[data-reading-contrast="high"] .archive-callout--quote blockquote p{color:inherit}
+html[data-reading-contrast="high"] .archive-callout .archive-callout-label{color:#5e4019}
+html[data-reading-contrast="high"] .archive-callout--note .archive-callout-label{color:#1f5067}
+html[data-reading-contrast="high"] .archive-highlight{background:#f6f5e8;border-left-color:#475b61}
+html[data-reading-contrast="high"] .archive-highlight h2{color:#193440;border-bottom-color:#8ba3a4}
+html[data-reading-contrast="high"] .article-mobile-toc{background:#fff8e7;border-color:#867054;color:#173846}
+html[data-reading-contrast="high"] .article-mobile-toc a{color:#254551;border-color:#ac9475}
+html[data-reading-contrast="high"] .toc-link{color:#e5eae2}
+html[data-reading-contrast="high"] .toc-panel .toc-link.is-current{color:#ffda94;border-color:#ffda94}
+html[data-reading-contrast="high"] .reading-prefs-panel{background:#061923;border-color:#e7cc94;color:#fff7e8}
+html[data-reading-contrast="high"] .reading-prefs-trigger,
+html[data-reading-contrast="high"] .reading-prefs-choices button,
+html[data-reading-contrast="high"] .reading-prefs-footer button{color:#fff6de;border-color:#e3c58b}
+html[data-reading-contrast="high"] .reading-prefs-choices button[aria-pressed="true"]{background:#76572b;border-color:#ffe19e}
+html[data-reading-contrast="high"] .exhibit-paper{background:#fff7e8;color:#172e36}
+html[data-reading-contrast="high"] .exhibit-paper-border{border-color:#745d36}
+html[data-reading-contrast="high"] .exhibit-paper-body p,
+html[data-reading-contrast="high"] .exhibit-paper h2,
+html[data-reading-contrast="high"] .exhibit-paper-kicker{color:#172e36}
+html[data-reading-contrast="high"] .exhibit-dossier{background:#0b2430;border-color:#adc4bb}
+html[data-reading-contrast="high"] .exhibit-dossier-section li,
+html[data-reading-contrast="high"] .exhibit-dossier-interpretation p,
+html[data-reading-contrast="high"] .exhibit-transcription-body p{color:#fff9ee}
+html[data-reading-contrast="high"] .exhibits-card,
+html[data-reading-contrast="high"] .reading-desk-card{background:#0b2630;border-color:#9bb3a6}
+html[data-reading-contrast="high"] .exhibits-card-body>p:not(.exhibits-card-subtitle),
+html[data-reading-contrast="high"] .reading-desk-card p{color:#f0f5ed}
+html[data-reading-contrast="high"] .exhibit-primary-source,
+html[data-reading-contrast="high"] .exhibit-related-sources a,
+html[data-reading-contrast="high"] .reading-desk-card-foot a{color:#ffe0a3}
+@media(max-width:920px){
+  .reading-prefs-trigger-label{display:none}
+  .reading-prefs-trigger{padding:7px 9px;min-width:43px}
+}
+@media(max-width:710px){
+  .reading-prefs-panel{position:fixed;top:65px;right:12px;left:12px;width:auto;max-height:calc(100dvh - 78px)}
+  .topbar-actions{gap:7px}
+  .document-paper{padding-left:clamp(14px,3vw,24px);padding-right:clamp(14px,3vw,24px)}
+  .archive-highlight{margin-left:-7px;margin-right:-7px}
+  .reading-prefs-choices button{min-height:44px}
+  .exhibit-paper-body p,.article-body{hyphens:auto;overflow-wrap:anywhere}
+}
+@media(max-width:390px){.public-pill{display:none}}
+@media(hover:none){.reading-prefs-trigger,.reading-prefs-choices button{min-height:44px}}
+html[data-reading-motion="reduce"] *,
+html[data-reading-motion="reduce"] *::before,
+html[data-reading-motion="reduce"] *::after{
+  animation-duration:.01ms!important;
+  animation-iteration-count:1!important;
+  transition-duration:.01ms!important;
+  scroll-behavior:auto!important;
+}
+html[data-reading-motion="reduce"]{scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  html{scroll-behavior:auto!important}
+}
+@media print{
+  .reading-prefs,.article-reading-track{display:none!important}
+  .article-body{font-size:12pt;line-height:1.6;color:#000}
+}

@@ -24,6 +24,8 @@
 <link rel="stylesheet" href="{{ root }}assets/reading-desk.css?v=20261109-desk-1">
 <script defer src="{{ root }}assets/reading-desk.js?v=20261109-desk-1"></script>
 <link rel="stylesheet" href="{{ root }}assets/search.css?v=20261108-smart-search-1">
+<link rel="stylesheet" href="{{root}}assets/reading-comfort.css?v=20261109-comfort-1">
+<script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
 {% if page_type == "map" %}<script defer src="{{ root }}assets/map.js?v=atlas-renada-20261107b"></script>{% endif %}
@@ -56,12 +58,31 @@
     </nav>
     <div class="side-bottom"><div class="side-rule"></div><div class="edition-dot"></div><div><strong>The Scholar's Edition</strong><p>Records fit for the public eye.</p></div></div>
   </aside>
-  <div class="sidebar-scrim" id="sidebar-scrim"></div>
+  <div class="sidebar-scrim" id="sidebar-scrim" aria-hidden="true"></div>
   <div class="main-column">
     <header class="topbar">
-      <button class="menu-trigger" aria-label="Open navigation" id="menu-trigger">☰</button>
+      <button type="button" class="menu-trigger" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false" id="menu-trigger">☰</button>
       <div class="topbar-crumb"><span class="topbar-label">THE WORLD OF AVALOR</span>{% if crumbs %}<span class="crumb-slash">/</span><span class="crumb-text">{{ crumbs }}</span>{% endif %}</div>
-      <div class="topbar-actions"><span class="public-pill"><span></span> PUBLIC ARCHIVE</span><button type="button" class="icon-button search-trigger" aria-label="Search records">⌕</button></div>
+      <div class="topbar-actions"><div class="reading-prefs" id="reading-prefs">
+  <button type="button" id="reading-prefs-trigger" class="reading-prefs-trigger" aria-label="Reading comfort settings" aria-controls="reading-prefs-panel" aria-expanded="false"><span aria-hidden="true">Aa</span><span class="reading-prefs-trigger-label">Reading</span></button>
+  <section class="reading-prefs-panel" id="reading-prefs-panel" aria-labelledby="reading-prefs-heading" hidden>
+    <div class="reading-prefs-heading"><h2 id="reading-prefs-heading">Reading comfort</h2><button type="button" id="reading-prefs-close" aria-label="Close reading settings">✕</button></div>
+    <p class="reading-prefs-intro">Adjust the Archives for a comfortable reading experience.</p>
+    <fieldset class="reading-prefs-fieldset"><legend>Text size</legend><div class="reading-prefs-choices" role="group" aria-label="Text size">
+      <button type="button" data-reader-size="comfortable" aria-pressed="true">Standard</button>
+      <button type="button" data-reader-size="large" aria-pressed="false">Large</button>
+      <button type="button" data-reader-size="extra-large" aria-pressed="false">Extra large</button>
+    </div></fieldset>
+    <fieldset class="reading-prefs-fieldset"><legend>Reading typeface</legend><div class="reading-prefs-choices" role="group" aria-label="Reading typeface">
+      <button type="button" data-reader-font="literary" aria-pressed="true">Classic serif</button>
+      <button type="button" data-reader-font="clear" aria-pressed="false">Clear sans</button>
+    </div></fieldset>
+    <label class="reading-prefs-toggle"><input type="checkbox" id="reading-prefs-contrast"><span><strong>High contrast</strong><small>Clearer text, borders and parchment.</small></span></label>
+    <label class="reading-prefs-toggle"><input type="checkbox" id="reading-prefs-motion"><span><strong>Reduce motion</strong><small>Turn off decorative movement and smooth scrolling.</small></span></label>
+    <div class="reading-prefs-footer"><button type="button" id="reading-prefs-reset">Restore defaults</button><span>Stored in this browser only.</span></div>
+    <p id="reading-prefs-status" class="reading-prefs-status" role="status" aria-live="polite"></p>
+  </section>
+</div><span class="public-pill"><span></span> PUBLIC ARCHIVE</span><button type="button" class="icon-button search-trigger" aria-label="Search records">⌕</button></div>
     </header>
     <main id="main-content" class="site-main">{% block main %}{% endblock %}</main>
     <footer class="site-footer"><span>THE ARCHIVES OF AVALOR <span class="footer-star">✦</span> An ongoing record of a living world</span><span>Prepared for the curious. Preserved for the ages.</span></footer>

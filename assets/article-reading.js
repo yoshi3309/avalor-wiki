@@ -37,9 +37,17 @@
   };
   window.addEventListener('scroll', schedule, {passive:true});
   window.addEventListener('resize', schedule, {passive:true});
-  article.querySelectorAll('.article-mobile-toc a').forEach(a => a.addEventListener('click', () => {
-    const details = a.closest('details');
+  // Move keyboard/screen-reader focus to the requested section after jumping.
+  // Plain anchors remain fully usable when scripting is unavailable.
+  for (const link of [...desktop,...mobile]) link.addEventListener('click',()=>{
+    const raw = link.getAttribute('href') || '';
+    const heading = raw.startsWith('#') ? document.getElementById(decodeURIComponent(raw.slice(1))) : null;
+    if (heading && body.contains(heading)) {
+      if (!heading.hasAttribute('tabindex')) heading.setAttribute('tabindex','-1');
+      requestAnimationFrame(()=>heading.focus({preventScroll:true}));
+    }
+    const details = link.closest('.article-mobile-toc');
     if (details) details.open = false;
-  }));
+  });
   update();
 })();
