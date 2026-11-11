@@ -1,51 +1,37 @@
 ---
 title: Renada
 subtitle: The Royal Capital
-summary: An ancient city beside the River Rhys, transformed into Avalor's capital yet sustained by the labor, faiths, markets, and memories of people beyond the lion throne.
+summary: An ancient city beside the River Rhys, transformed into Avalor's
+  capital yet sustained by the labor, faiths, markets, and memories of people
+  beyond the lion throne.
 category: Kingdoms & Places
+image: /assets/uploads/renada-citadel-above-the-river-rhys.png
 entry: II.002
 era: Age of Ascendancy
-facts: |-
+facts: >-
   Region: Royal Heartlands
+
   River: Rhys
+
   Population: About 100,000–200,000
+
   Landmark: The Great Citadel
-  Principal districts: Old Renada; Crownrise; Rhys Quays; Lantern Ward; Cathedral Ward
+
+  Principal districts: Old Renada; Crownrise; Rhys Quays; Lantern Ward;
+  Cathedral Ward
+
   Waterfront neighborhood: The Mudsteps, within Rhys Quays
+
   Notable bridges: Great Stone Bridge; Millers' Bridge
+
   Civic governor: Maera Vell
+
   Civic market: Lantern Market and the Hall of Measures
+
   Festival: Riverlight Fair
 related: rynhold-frozenroar,great-citadel,great-cathedral,lavitz-shawe,the-aegis,peoples-of-avalor,kingdom-of-avalor,rynhold-frozenroar,heureux,jaznaar,jaznaars-vindication,king-gradvum-frozenroar,queen-melmiri,threefold-devotion,royal-commission-historical-inquiry,heavens-heart
-source: Compendium II · Entry II.002, public Sections II–XVI; The Living Chronicle, public historical record
-callouts:
-  - type: reflection
-    text: "The capital did not begin when a king chose it. The households already living beside the Rhys brought their own history to the kingdom that would later claim Renada as its heart."
-    attribution: Editorial reflection on the city's older life
-    after: older-than-the-crown
-    paragraph: 2
-  - type: note
-    scholar: lady-miren-dast
-    text: "A citadel makes government visible. It does not make government possible by itself. The clerks, porters, petitioners, and citizens below its walls are as much a part of the institution's history as the kings who ruled from above."
-    after: the-citadel-as-a-workplace
-    paragraph: 3
-  - type: reflection
-    text: "An arriving cargo may signify prosperity to a merchant and tomorrow's supper to a porter. One city can celebrate growth while its people experience very different measures of security."
-    attribution: Editorial reflection on the working waterfront
-    after: the-mudsteps
-    paragraph: 3
-  - type: note
-    scholar: professor-xiomara-thal
-    text: "A corrected inscription changes the words a city publicly teaches. It cannot by itself repair the lives lived under the older lie. The second obligation is harder and less easily carved in stone."
-    after: rynhold-park-and-public-memory
-    paragraph: 3
-highlight_sections:
-  - section: the-mudsteps
-    tone: remembrance
-  - section: the-misfits-and-a-capital-forced-to-reconsider
-    tone: turning-point
-  - section: the-city-belongs-to-its-people
-    tone: legacy
+source: Compendium II · Entry II.002, public Sections II–XVI; The Living
+  Chronicle, public historical record
 featured: true
 ---
 ## The city beneath the lion
