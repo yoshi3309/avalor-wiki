@@ -1,9 +1,10 @@
 ---
 title: Wayword Sun
 subtitle: The Hunters’ Refuge in the Marshes
-summary: A settlement in the Dead Marshes where Faelynn established the Hunters Guild to protect travelers and vulnerable
-  communities.
+summary: A settlement in the Dead Marshes where Faelynn established the Hunters
+  Guild to protect travelers and vulnerable communities.
 category: Kingdoms & Places
+image: /assets/uploads/wayward-sun.png
 entry: LOC.009
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -11,10 +12,10 @@ facts: |-
   Historic founder: Faelynn, the Night Mistress
   Institution: Hunters Guild
 related: hunters-guild,malikeah,faelynn,dead-marshes
-source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters II–III; author-approved World Anvil background (November 2026)
+source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters
+  II–III; author-approved World Anvil background (November 2026)
 featured: false
 ---
-
 ## A light amid dangerous country
 
 **Wayword Sun** stands within the [[Dead Marshes]], a landscape of changing paths, difficult waters, and dangers that ordinary patrols cannot always answer. It is remembered not for royal splendor, but for an institution founded where protection was especially hard to obtain.
