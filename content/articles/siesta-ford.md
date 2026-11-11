@@ -1,16 +1,22 @@
 ---
-title: "Siesta Ford"
-subtitle: "The Prosperous Coastal Retreat"
-summary: "A coastal Avalorian settlement remembered for prosperity, leisure, and the comfortable retreat sought by those able to afford it."
+title: Siesta Ford
+subtitle: The Prosperous Coastal Retreat
+summary: A coastal Avalorian settlement remembered for prosperity, leisure, and
+  the comfortable retreat sought by those able to afford it.
 category: Kingdoms & Places
+image: /assets/uploads/siesta-ford.png
 entry: LOC.021
-era: "Age of Ascendancy"
-facts: "Character: Prosperous port city\nReputation: Pristine beaches and fine cuisine\nRoyal retreat: Private residence of the king\nKingdom: Avalor"
+era: Age of Ascendancy
+facts: |-
+  Character: Prosperous port city
+  Reputation: Pristine beaches and fine cuisine
+  Royal retreat: Private residence of the king
+  Kingdom: Avalor
 related: kingdom-of-avalor,cove-city,tinsel,stems-port
-source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided Siesta Ford history (November 2026)"
+source: Compendium II · Entry II.001, Sections XI and XIII; creator-provided
+  Siesta Ford history (November 2026)
 featured: false
 ---
-
 ## A different shore of Avalor
 
 **Siesta Ford** is remembered among Avalor's coastal settlements for its prosperity and the comforts sought by those with the means to withdraw from the demands of ordinary work.
