@@ -1,16 +1,21 @@
 ---
 title: Dead Marshes
 subtitle: The Living Wound of Avalor
-summary: A perilous wetland shaped by the founding wars and later magical upheaval, where life continues amid shifting paths and dangerous waters.
+summary: A perilous wetland shaped by the founding wars and later magical
+  upheaval, where life continues amid shifting paths and dangerous waters.
 category: Kingdoms & Places
+image: /assets/uploads/avalors-misty-dead-marshes.png
 entry: LOC.006
 era: Founding Wars to Age of Ascendancy
-facts: "Terrain: Wetlands and shifting waterways\nHistorical injuries: Founding wars; Black Tower\nNotable settlement: Wayword Sun\nHistoric order: Hunters Guild"
+facts: |-
+  Terrain: Wetlands and shifting waterways
+  Historical injuries: Founding wars; Black Tower
+  Notable settlement: Wayword Sun
+  Historic order: Hunters Guild
 related: wayword-sun,black-tower,forest-of-the-fey,great-desert
 source: Compendium II · Entry II.003, XII–XIV; The Living Chronicle, Chapters II–IV
 featured: false
 ---
-
 ## A country fiercely alive
 
 The name **Dead Marshes** has encouraged the belief that the region is a lifeless waste. Travelers who have crossed its waters know otherwise. The marshes teem with growth, decay, strange creatures, and places that resist dependable description. Its waterways and paths can change sufficiently that an old account of safe passage may offer little comfort to the next visitor.
