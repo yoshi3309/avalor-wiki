@@ -1,21 +1,33 @@
 ---
 title: Forest of the Fey
 subtitle: The Ancient Elven Woodlands
-summary: An inhabited ancestral forest whose peoples preserved their rights through conflict, negotiation, and the Elven Concord.
+summary: An inhabited ancestral forest whose peoples preserved their rights
+  through conflict, negotiation, and the Elven Concord.
 category: Kingdoms & Places
+image: /assets/uploads/forest-of-the-fey.png
 entry: LOC.004
 era: Founding Age to Age of Ascendancy
-facts: "Character: Ancient inhabited woodland\nCommunities: Elven clans and settlements\nHistorical accord: The Elven Concord\nRoyal house: Frozenroar"
+facts: |-
+  Character: Ancient inhabited woodland
+  Communities: Elven clans and settlements
+  Historical accord: The Elven Concord
+  Royal house: Frozenroar
 related: peoples-of-avalor,ringtree-clan,planes-of-existence,kingdom-of-avalor,house-frozenroar,dead-marshes,denzians-forest
-source: Compendium II · Entries II.003, XVII and II.001, XII; Compendium I · I.009, elven peoples; The Living Chronicle, Chapter V; creator-supplied Ringtree Clan history (November 2026)
+source: Compendium II · Entries II.003, XVII and II.001, XII; Compendium I ·
+  I.009, elven peoples; The Living Chronicle, Chapter V; creator-supplied
+  Ringtree Clan history (November 2026)
+featured: false
 callouts:
   - type: reflection
-    text: "The Concord did not make the woodland peoples subjects without memories of their own. It asked the crown to remember that some rights had existed before the crown arrived."
+    text: The Concord did not make the woodland peoples subjects without memories of
+      their own. It asked the crown to remember that some rights had existed
+      before the crown arrived.
     attribution: Editorial reflection on the woodland settlement
     after: the-elven-concord
     paragraph: 3
   - type: reflection
-    text: "What appears to a traveler as untouched forest may be a place of homes, stories, and obligations that have never needed stone walls to endure."
+    text: What appears to a traveler as untouched forest may be a place of homes,
+      stories, and obligations that have never needed stone walls to endure.
     attribution: Editorial reflection on the inhabited canopy
     after: the-ringtree-beneath-the-canopy
     paragraph: 2
@@ -26,9 +38,7 @@ highlight_sections:
     tone: remembrance
   - section: land-rights-and-an-inhabited-forest
     tone: legacy
-featured: false
 ---
-
 ## A forest older than the kingdom
 
 Long before the lion banner of Avalor was raised, elven communities lived within the **Forest of the Fey**. Its paths and settlements belong to histories that do not begin with Rynhold Frozenroar. The forest is neither empty wilderness awaiting settlement nor a single realm whose inhabitants all speak with one political voice.
