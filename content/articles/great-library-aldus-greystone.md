@@ -1,16 +1,23 @@
 ---
-title: "The Great Library of Aldus Greystone"
-subtitle: "Keeper of the Kingdom's Corrected History"
-summary: "The historic library at Heaven's Heart that preserves scholarship and the records through which Avalor has confronted its false founding legends."
+title: The Great Library of Aldus Greystone
+subtitle: Keeper of the Kingdom's Corrected History
+summary: The historic library at Heaven's Heart that preserves scholarship and
+  the records through which Avalor has confronted its false founding legends.
 category: Kingdoms & Places
+image: /assets/uploads/aldus-greystone-library.png
 entry: LOC.030
-era: "Age of Ascendancy"
-facts: "Location: Heaven's Heart\nAssociation: Aldus Greystone III\nPurpose: Historical and theological learning\nCollection: Original inscription from Rynhold Park\nName: Preserved despite the corrected history"
+era: Age of Ascendancy
+facts: |-
+  Location: Heaven's Heart
+  Association: Aldus Greystone III
+  Purpose: Historical and theological learning
+  Collection: Original inscription from Rynhold Park
+  Name: Preserved despite the corrected history
 related: heavens-heart,royal-commission-historical-inquiry,rynhold-park,jaznaar
-source: "Compendium II · II.002 and II.003, public Scholar's Accounts; The Living Chronicle, Chapters IV–V; Compendium I · I.004, public Scholar's Account"
+source: Compendium II · II.002 and II.003, public Scholar's Accounts; The Living
+  Chronicle, Chapters IV–V; Compendium I · I.004, public Scholar's Account
 featured: false
 ---
-
 ## The library beneath the mountains
 
 **The Great Library of Aldus Greystone** stands in [[Heaven's Heart]] near the [[Spine of the World]]. Its collections preserve historical and theological materials that have shaped Avalor's understanding of its founding, its faiths, and the deeds of those who came before.
