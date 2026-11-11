@@ -1,8 +1,10 @@
 ---
 title: Jogar Village
 subtitle: New Homes Above the Ruins of Illmire
-summary: A mixed halfling, human, and growing gnome settlement built over the remains of Illmire, a city remembered in the history of the First Men.
+summary: A mixed halfling, human, and growing gnome settlement built over the
+  remains of Illmire, a city remembered in the history of the First Men.
 category: Kingdoms & Places
+image: /assets/uploads/jogar-village.png
 entry: LOC.032
 era: Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Notable native: Myxi Twinefoot
   Scholarly visitor: Tel'Lora Ebbenflow
 related: myxi-twinefoot,tellora-ebbenflow,great-fork-tower,kingdom-of-avalor
-source: World Anvil, Jogar Village and Myxi Twinefoot (creator-supplied locations and biography; November 2026); Compendium II · First Men tradition
+source: World Anvil, Jogar Village and Myxi Twinefoot (creator-supplied
+  locations and biography; November 2026); Compendium II · First Men tradition
 featured: false
 ---
-
 ## A village built on an older city
 
 **Jogar Village** stands upon the ruins of **Illmire**, remembered as a city of the **First Men**. The stones beneath the modern settlement belong to an older chapter of Avalor's history, but life above them is unmistakably present: homes, work, and the changing friendships of a growing community.
