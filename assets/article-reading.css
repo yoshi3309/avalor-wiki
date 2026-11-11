@@ -48,3 +48,11 @@
 .archive-highlight{margin:26px -10px;padding:15px 12px 6px}
 }
 @media(prefers-reduced-motion:reduce){.article-reading-fill{transition:none}}
+
+
+/* Geographic manuscript plates span the full reading track; portrait photos remain in the rail. */
+.article-illustration--landscape{margin:0 0 29px;padding:10px;background:#172731;border:1px solid #9b8055;box-shadow:0 16px 36px #06131c50}
+.article-illustration--landscape picture{display:block;width:100%;line-height:0}
+.article-illustration--landscape img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#14242b}
+.article-illustration--landscape figcaption{padding:12px 9px 3px;text-align:center;color:#d6c5a3;font:italic 12px/1.65 var(--font-literary)}
+@media(max-width:710px){.article-illustration--landscape{margin:0 0 18px;padding:6px}.article-illustration--landscape figcaption{padding:9px 7px 3px;font-size:11px}}
