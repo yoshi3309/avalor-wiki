@@ -1,9 +1,10 @@
 ---
 title: The Great Fork Tower
 subtitle: From Ancient Defense to Royal Training
-summary: An old defensive work associated with the First Men, now serving as a major training base for Avalor’s
-  professional army.
+summary: An old defensive work associated with the First Men, now serving as a
+  major training base for Avalor’s professional army.
 category: Kingdoms & Places
+image: /assets/uploads/great-fork-tower.png
 entry: LOC.017
 era: Ancient Era to Age of Ascendancy
 facts: |-
@@ -14,7 +15,6 @@ related: kingdom-of-avalor,lavitz-shawe,the-aegis,lands-end
 source: Compendium II · Entry II.003, XXIII; Entry II.001, VIII
 featured: false
 ---
-
 ## The older watch
 
 The **Great Fork Tower** is associated with the protection of the **First Men**. Their earliest history is incompletely preserved, and the names of the tower's original builders are not securely recovered in the public record.
