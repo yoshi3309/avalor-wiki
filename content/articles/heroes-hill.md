@@ -1,8 +1,10 @@
 ---
 title: Heroes Hill
 subtitle: Where the Kingdom Was Won
-summary: The battlefield on which Lord Osmo fell and the cost of Avalor’s founding became part of its memory.
+summary: The battlefield on which Lord Osmo fell and the cost of Avalor’s
+  founding became part of its memory.
 category: Kingdoms & Places
+image: /assets/uploads/heroes-hill-at-golden-hour.png
 entry: LOC.003
 era: Founding Age
 facts: |-
@@ -13,7 +15,6 @@ related: founding-wars,bradgem-glav,unification-of-avalor,lord-osmos-tower
 source: The Living Chronicle, Chapter II; Compendium II · Entry II.001
 featured: false
 ---
-
 ## The last battle against Osmo
 
 **Heroes Hill** is remembered as the battlefield where the coalition of northern kingdoms won its decisive victory against the mortal conqueror **Lord Osmo**. Accounts disagree over the exact maneuvers of the armies, but preserve a central deed: [[Lord Bradgem Glav]] reached Osmo, killed him, and suffered mortal wounds in the act.
