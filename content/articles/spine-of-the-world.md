@@ -1,16 +1,21 @@
 ---
 title: Spine of the World
 subtitle: The Mountains of Sanctuary and Catastrophe
-summary: A northern mountain range whose steep approaches contain sacred schools, ancient libraries, and the infamous Black Tower.
+summary: A northern mountain range whose steep approaches contain sacred
+  schools, ancient libraries, and the infamous Black Tower.
 category: Kingdoms & Places
+image: /assets/uploads/spine-of-the-world.png
 entry: LOC.008
 era: Founding Age to Age of Ascendancy
-facts: "Terrain: Major mountain region\nSanctuary near its foot: Heaven's Heart\nHistoric site: Black Tower\nNotable approach: Black Stair"
+facts: |-
+  Terrain: Major mountain region
+  Sanctuary near its foot: Heaven's Heart
+  Historic site: Black Tower
+  Notable approach: Black Stair
 related: black-tower,black-stair,heavens-heart,great-desert
 source: Compendium II · Entry II.003, II–VI and XX; The Living Chronicle, Chapter IV
 featured: false
 ---
-
 ## The mountains of northern Avalor
 
 The **Spine of the World** rises across the northern kingdom, shaping the journeys of those who live near it and the routes by which travelers move between communities. Its heights and passes offer protection against some dangers while imposing others of their own: difficult approaches, isolation, and weather that does not readily submit to the plans of merchants or armies.
