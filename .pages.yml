@@ -4,6 +4,25 @@ media:
   input: assets/uploads
   output: /assets/uploads
 content:
+  - name: welcome-hero
+    label: Welcome page hero banner
+    type: file
+    path: data/welcome-hero.yml
+    format: yaml
+    fields:
+      - name: image
+        label: Hero illustration
+        type: image
+        description: "Upload an approved 16:9 or wider landscape JPEG/WebP (ideally 1920×1080, under 3 MB). The original skyline remains until you choose an image and Save."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: focus
+        label: Where to center the illustration
+        type: select
+        options:
+          values: ["right center", "center center", "left center"]
   - name: gazette
     label: Royal Gazette issues
     type: collection

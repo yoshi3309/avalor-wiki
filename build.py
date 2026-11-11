@@ -1003,6 +1003,23 @@ for n,issue in enumerate(sorted(GAZETTE_ISSUES,key=lambda x:(x['date'],x['id']))
     issue['issue_number']=n
 GAZETTE_ISSUES.sort(key=lambda x:(x['date'],x['id']),reverse=True)
 
+# The main entrance uses an editor-controlled illustration.
+# Empty image keeps the original source-controlled skyline as a safe fallback.
+WELCOME_HERO_CONFIG=yaml.safe_load((ROOT/'data/welcome-hero.yml').read_text(encoding='utf-8')) or {}
+if not isinstance(WELCOME_HERO_CONFIG,dict):
+    raise ValueError('Welcome hero settings must be a YAML object')
+WELCOME_HERO_IMAGE=str(WELCOME_HERO_CONFIG.get('image') or '').strip().lstrip('/')
+WELCOME_HERO_FOCUS=str(WELCOME_HERO_CONFIG.get('focus') or 'right center')
+if WELCOME_HERO_FOCUS not in ('right center','center center','left center'):
+    raise ValueError('Welcome hero crop must use one of the three reviewed focal positions')
+if WELCOME_HERO_IMAGE:
+    if (not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp)',WELCOME_HERO_IMAGE,re.I)
+            or '..' in Path(WELCOME_HERO_IMAGE).parts
+            or not (ROOT/WELCOME_HERO_IMAGE).is_file()):
+        raise ValueError('Welcome hero must be an existing approved PNG/JPG/WebP from assets/uploads')
+else:
+    WELCOME_HERO_IMAGE='assets/hero-scene.svg'
+
 ENV=Environment(loader=FileSystemLoader(ROOT/'templates'),autoescape=select_autoescape(['html','xml']))
 
 # The canonical base must match the published GitHub Pages project URL; an
@@ -1047,6 +1064,8 @@ def preview_subject(values):
         artwork = 'assets/uploads/avalor-official-map.webp'
     elif kind == 'welcome':
         label = 'The Archivist’s Welcome'
+        if WELCOME_HERO_IMAGE != 'assets/hero-scene.svg':
+            artwork = WELCOME_HERO_IMAGE
     elif kind == 'journeys':
         label = 'Guided Reading'
         journey = values.get('journey')
@@ -1152,7 +1171,7 @@ for article in ALL:
                 +img+'</picture>')
     article['html'] = re.sub(r'<img\b[^>]*>',responsive_article_img,article['html'])
 (PUBLIC/'.nojekyll').write_text('')
-render('welcome.html','index.html',page_type='welcome',title='Start Here',crumbs='Start Here',description='Choose your first path into Avalor: meet the kingdom, its heroes, its history, or the world itself.',welcome_routes=WELCOME_ROUTES)
+render('welcome.html','index.html',page_type='welcome',title='Start Here',crumbs='Start Here',description='Choose your first path into Avalor: meet the kingdom, its heroes, its history, or the world itself.',welcome_routes=WELCOME_ROUTES,welcome_hero_image=WELCOME_HERO_IMAGE,welcome_hero_focus=WELCOME_HERO_FOCUS)
 render('home.html','archive/index.html',depth=1,page_type='home',title='Archive Home',crumbs='Archive Home',featured=FEATURED,journeys=JOURNEYS,relationship_maps=RELATIONSHIP_MAPS)
 # Keep older shared /start/ links valid, including a selected doorway hash.
 legacy_start = PUBLIC / 'start' / 'index.html'
