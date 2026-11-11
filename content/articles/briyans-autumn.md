@@ -1,8 +1,10 @@
 ---
 title: Briyan's Autumn
 subtitle: The Fortified City of the Eastern Reach
-summary: A wealthy halfling's legacy, Briyan's Autumn stands near the Forest of the Westfold as one of Avalor's easternmost crown-governed cities.
+summary: A wealthy halfling's legacy, Briyan's Autumn stands near the Forest of
+  the Westfold as one of Avalor's easternmost crown-governed cities.
 category: Kingdoms & Places
+image: /assets/uploads/briyans-autumn.png
 entry: LOC.040
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Character: Heavily fortified city
   Royal authority: Sheriff Cassian Veyran
 related: cassian-veyran,four-sheriffdoms,karhold,east-port,geography-of-avalor,kingdom-of-avalor
-source: World Anvil, Briyans Autumn (creator-supplied location; November 2026); Compendium II · current Four Sheriffdoms
+source: World Anvil, Briyans Autumn (creator-supplied location; November 2026);
+  Compendium II · current Four Sheriffdoms
 featured: false
 ---
-
 ## Briyan's city
 
 **Briyan's Autumn** owes its name to **Briyan**, a wealthy halfling who supplied the fortune needed for the city's construction. What rose from that investment became more than a settlement bearing a benefactor's name: it grew into a heavily defended city near the **[[The Geography of Avalor#forest-of-the-westfold|Forest of the Westfold]]**.
