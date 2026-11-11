@@ -1,8 +1,10 @@
 ---
 title: Stanleyville
 subtitle: Steel, Memory, and the King's Road
-summary: A renowned metalworking town where the work of forge and trade continued even as the Stalker's terror drew the Misfits into a tragedy.
+summary: A renowned metalworking town where the work of forge and trade
+  continued even as the Stalker's terror drew the Misfits into a tragedy.
 category: Kingdoms & Places
+image: /assets/uploads/stanleyvilles-forgebound-market.png
 entry: LOC.002
 era: Age of the Misfits to Age of Ascendancy
 facts: |-
@@ -14,10 +16,10 @@ facts: |-
   Traveling companion from the town: Jack
   Royal loss: Death of the preceding Lord Marshal
 related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king,renada,cove-city,tinsel,kingdom-of-avalor
-source: Compendium II · Entry II.002; The Living Chronicle, Chapter VI, Section IV; World Anvil location details (November 2026)
+source: Compendium II · Entry II.002; The Living Chronicle, Chapter VI, Section
+  IV; World Anvil location details (November 2026)
 featured: false
 ---
-
 ## The town of forged steel
 
 **Stanleyville** stands along **the King's Road**, approximately halfway between [[Renada]] and the great neighboring ports of [[Cove City]] and [[Tinsel]]. Its identity rests upon generations of skilled metalworkers whose products have given the town a reputation well beyond its streets.
