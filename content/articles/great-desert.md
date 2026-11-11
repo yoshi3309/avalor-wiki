@@ -1,16 +1,22 @@
 ---
 title: Great Desert
 subtitle: A Landscape Made by History
-summary: A northern region transformed by the Black Tower catastrophe, now home to communities whose lives extend far beyond that ancient calamity.
+summary: A northern region transformed by the Black Tower catastrophe, now home
+  to communities whose lives extend far beyond that ancient calamity.
 category: Kingdoms & Places
+image: /assets/uploads/the-great-desert.png
 entry: LOC.005
 era: After the Black Tower to Age of Ascendancy
-facts: "Landscape: Arid northern region\nAncient turning point: Black Tower catastrophe\nCommunities: Northern Desert Tribes and others\nRoyal connection: Queen Melmiri"
+facts: |-
+  Landscape: Arid northern region
+  Ancient turning point: Black Tower catastrophe
+  Communities: Northern Desert Tribes and others
+  Royal connection: Queen Melmiri
 related: kingdom-of-avalor,spine-of-the-world,dead-marshes,house-frozenroar
-source: Compendium II · Entry II.003, XIX; Entry II.001, XII; The Living Chronicle, Chapter IV
+source: Compendium II · Entry II.003, XIX; Entry II.001, XII; The Living
+  Chronicle, Chapter IV
 featured: false
 ---
-
 ## The country before the sand
 
 To travelers of the present age, the **Great Desert** can appear as old and unchanging as the mountains beside it. Historical records preserve a more troubling account. The lands now known for heat, sand, and difficult crossings did **not** possess their modern form during the founding of Avalor.
@@ -36,7 +42,6 @@ The desert is no empty memorial to an ancient crime. Its inhabitants have develo
 The Great Desert continues to influence travel, political interests, and the practical responsibilities of the crown. Those crossing it must reckon with its present conditions, while those studying it must remember that it was not always as it is.
 
 The [[Dead Marshes]] also bear injuries associated with the Black Tower, but their history began earlier and followed a different course. The two landscapes should not be treated as products of an identical magical event simply because both preserve the consequences of Aldus's work.
-
 
 ## The place where the change began
 
