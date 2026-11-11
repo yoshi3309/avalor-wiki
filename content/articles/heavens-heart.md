@@ -1,8 +1,10 @@
 ---
 title: Heaven's Heart
 subtitle: Paladins and the Great Library
-summary: A religious and scholarly settlement beneath the Spine of the World, shaped by the legacy of Lowkee.
+summary: A religious and scholarly settlement beneath the Spine of the World,
+  shaped by the legacy of Lowkee.
 category: Kingdoms & Places
+image: /assets/uploads/heavens-heart-mountain-sanctuary.png
 entry: LOC.001
 era: Age of Ascendancy
 facts: |-
@@ -10,10 +12,10 @@ facts: |-
   Tradition: Cathedral Paladins
   Notable institution: Great Library of Aldus Greystone
 related: cathedral-paladins,great-library-aldus-greystone,astronoph,fo-gurn,lavitz-shawe
-source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V; author-approved World Anvil history (November 2026)
+source: Compendium II · Entry II.001; The Living Chronicle, Chapters III–V;
+  author-approved World Anvil history (November 2026)
 featured: false
 ---
-
 ## At the foot of the mountains
 
 [[Heaven's Heart]] is known for its traditions of paladin training and scholarship near the [[Spine of the World]]. Its influence reaches beyond the surrounding settlement through travelers, religious houses, and the preservation of the kingdom's historical records.
@@ -33,7 +35,6 @@ The nearby [[The Black Tower#the-black-stair|Black Stair]] is the difficult moun
 ## Sister institutions of the faith
 
 The paladin traditions here share the faiths of Tyr, Helm, and Torm with [[The Great Cathedral]] in [[Cathedral Ward]], Renada, though the two institutions serve distinct communities and duties.
-
 
 ## Companions who trained here
 
