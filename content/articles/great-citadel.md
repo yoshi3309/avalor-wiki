@@ -1,9 +1,10 @@
 ---
 title: The Great Citadel
 subtitle: The House Above Renada
-summary: The royal residence and center of government raised during Avalor’s founding and altered across generations
-  of Frozenroar rule.
+summary: The royal residence and center of government raised during Avalor’s
+  founding and altered across generations of Frozenroar rule.
 category: Kingdoms & Places
+image: /assets/uploads/the-great-citadel.png
 entry: LOC.011
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -15,7 +16,6 @@ related: renada,king-gradvum-frozenroar,queen-melmiri,the-aegis
 source: Compendium II · Entry II.002, II–III; Entry II.001, XVIII
 featured: false
 ---
-
 ## The lion above the river
 
 The **Great Citadel** rises on elevated ground beside the River Rhys and dominates the approaches to [[Renada]]. Its stonework has become inseparable from the image of the Avalorian crown, though the city beneath it existed before a united kingdom was proclaimed.
