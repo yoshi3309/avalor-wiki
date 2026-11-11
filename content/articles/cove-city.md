@@ -1,16 +1,23 @@
 ---
-title: "Cove City"
-subtitle: "A Port of the King's Road"
-summary: "An Avalorian port where the kingdom's inland roads meet the wider maritime trade network."
+title: Cove City
+subtitle: A Port of the King's Road
+summary: An Avalorian port where the kingdom's inland roads meet the wider
+  maritime trade network.
 category: Kingdoms & Places
+image: /assets/uploads/cove-city.png
 entry: LOC.019
-era: "Age of Ascendancy"
-facts: "Character: Port settlement\nFormer rival: Tinsel\nTrade: Kraken meat and oil\nRoute: King's Road\nAllegiance: Avalor"
+era: Age of Ascendancy
+facts: |-
+  Character: Port settlement
+  Former rival: Tinsel
+  Trade: Kraken meat and oil
+  Route: King's Road
+  Allegiance: Avalor
 related: kingdom-of-avalor,tinsel,stems-port,renada,tellora-ebbenflow,rynhold-frozenroar
-source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil Cove and Tinsel history (November 2026)"
+source: Compendium II · Entry II.001, Sections XI and XIII; creator-provided
+  World Anvil Cove and Tinsel history (November 2026)
 featured: false
 ---
-
 ## Where the road meets the sea
 
 **Cove City** is among the ports through which the [[Kingdom of Avalor|Kingdom of Avalor]] exchanges goods with its neighbors. Its significance lies in its connection to the inland commercial routes served by the **King's Road**. The ships of the coast and the wagons of the interior depend on one another, though the people who move their cargo may rarely meet again.
