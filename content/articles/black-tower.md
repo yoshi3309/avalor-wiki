@@ -1,9 +1,10 @@
 ---
 title: The Black Tower
 subtitle: Where the Fellowship Was Broken
-summary: The mountain site where Aldus Greystone III’s forbidden work caused catastrophe and sundered the founding
-  fellowship.
+summary: The mountain site where Aldus Greystone III’s forbidden work caused
+  catastrophe and sundered the founding fellowship.
 category: Kingdoms & Places
+image: /assets/uploads/the-black-tower-in-frozen-peaks.png
 entry: LOC.010
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -15,7 +16,6 @@ related: heavens-heart,spine-of-the-world,sundering-of-the-six,blood-sickness,be
 source: Compendium II · Entry II.003, II–IV; The Living Chronicle, Chapter IV
 featured: false
 ---
-
 ## The mountain that bears a warning
 
 The **Black Tower** stands in the [[Spine of the World]], where its name became a warning to travelers and students of magic. For generations, the crown restricted entry. Dangerous approaches and accounts of disappearances helped reinforce the prohibition without requiring a permanent army at its gates.
