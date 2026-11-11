@@ -36,7 +36,7 @@
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b"><link rel="stylesheet" href="{{root}}assets/atlas-time.css?v=20261110-time-1">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
-{% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261108-article-reading-1">{% endif %}
+{% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261111-location-plates-1">{% endif %}
 {% if page_type == "article" %}<script defer src="{{ root }}assets/article-reading.js?v=20261108-article-reading-1"></script>{% endif %}
 {% if page_type == "gallery" or page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/gallery.css?v=20261108-gallery-1">{% endif %}
 {% if page_type == "exhibits" or page_type == "article" %}<link rel="stylesheet" href="{{root}}assets/exhibits.css?v=20261109-exhibits-1">{% endif %}
