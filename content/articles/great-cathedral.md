@@ -1,9 +1,10 @@
 ---
 title: The Great Cathedral
 subtitle: The Three Lights of Renada
-summary: Renada’s chief institution honoring Tyr, Helm, and Torm, led by High Priest Astronoph and active in the
-  capital’s daily life.
+summary: Renada’s chief institution honoring Tyr, Helm, and Torm, led by High
+  Priest Astronoph and active in the capital’s daily life.
 category: Kingdoms & Places
+image: /assets/uploads/great-cathedral.png
 entry: LOC.018
 era: Age of Ascendancy
 facts: |-
@@ -15,7 +16,6 @@ related: astronoph,cathedral-ward,threefold-devotion,samuel-the-devoted
 source: Compendium II · Entry II.003, XXIV; Entry II.001, XIV; Entry II.002, XI
 featured: false
 ---
-
 ## A cathedral among the people
 
 The **Great Cathedral** rises near the heart of [[Renada]] in the district known as [[Cathedral Ward]]. Its steps and charitable houses belong to the everyday movement of the city. Petitioners and worshippers arrive alongside those who seek shelter, advice, or relief from a difficulty no private household can resolve alone.
