@@ -1,9 +1,10 @@
 ---
 title: Shamman’s Tower
 subtitle: The Academy Across the Water
-summary: An arcane institution off Avalor’s eastern coast, revived by High Wizard Tel’Lora Ebbenflow for disciplined
-  study and teaching.
+summary: An arcane institution off Avalor’s eastern coast, revived by High
+  Wizard Tel’Lora Ebbenflow for disciplined study and teaching.
 category: Kingdoms & Places
+image: /assets/uploads/shammans-tower.png
 entry: LOC.014
 era: Age of Ascendancy
 facts: |-
@@ -12,10 +13,10 @@ facts: |-
   Role: Arcane education and inquiry
   Recorded practices: Atlas of Returns; Second Witness
 related: tellora-ebbenflow,cove-city,professor-xiomara-thal,royal-commission-historical-inquiry,the-aegis
-source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII; creator-approved World Anvil history (November 2026)
+source: Compendium II · Entry II.003, XV–XVI; Entry II.001, XVIII;
+  creator-approved World Anvil history (November 2026)
 featured: false
 ---
-
 ## The tower across the water
 
 **Shamman’s Tower** stands off Avalor's eastern coast. Its isolation has long contributed to the reputation of its arcane studies, yet it is neither a forgotten ruin nor simply an outpost of the royal court.
