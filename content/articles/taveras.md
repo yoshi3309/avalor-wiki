@@ -1,8 +1,10 @@
 ---
 title: Taveras
 subtitle: A City of Song upon the Rhys
-summary: A growing cultural capital on a bend of the River Rhys, renowned for its Great Opera House, Bard Guild, and Heureux's academy.
+summary: A growing cultural capital on a bend of the River Rhys, renowned for
+  its Great Opera House, Bard Guild, and Heureux's academy.
 category: Kingdoms & Places
+image: /assets/uploads/taveras.png
 entry: LOC.038
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +15,10 @@ facts: |-
   School: Heureux's Bard Academy
   Reputation: Music, performance and the arts
 related: bard-guild,heureuxs-bard-academy,heureux,renada,stannisport,kingdom-of-avalor
-source: World Anvil, Taveras (creator-supplied location; November 2026); The Living Chronicle, Chapter VII
+source: World Anvil, Taveras (creator-supplied location; November 2026); The
+  Living Chronicle, Chapter VII
 featured: false
 ---
-
 ## The city that sings
 
 Along a bend of the **River Rhys**, beneath the foothills, **Taveras** has become Avalor's great gathering place for artists, performers, and storytellers.
