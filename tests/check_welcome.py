@@ -10,8 +10,13 @@ home=(SITE/'archive/index.html').read_text(encoding='utf-8')
 old_start=(SITE/'start/index.html').read_text(encoding='utf-8')
 assert 'assets/welcome.js' in page and 'assets/welcome.css' in page
 assert 'class="welcome-hero-art"' in page
-assert 'src="./assets/hero-scene.svg"' in page, 'Initial welcome fallback must remain usable'
-assert 'object-position:right center' in page
+# The banner is editor-controlled: a real upload replaces the optional fallback.
+hero = yaml.safe_load((ROOT/'data/welcome-hero.yml').read_text(encoding='utf-8')) or {}
+expected_image = str(hero.get('image') or '/assets/hero-scene.svg').lstrip('/')
+expected_focus = str(hero.get('focus') or 'right center')
+assert f'src="./{expected_image}"' in page, 'Configured Welcome hero image missing from published HTML'
+assert f'object-position:{expected_focus}' in page, 'Welcome hero crop setting not reflected'
+assert (SITE/expected_image).is_file(), 'Welcome hero image missing from built site'
 assert 'ARCHIVIST' in page
 assert 'What brings you to Avalor, traveler?' in page
 assert 'href="../"' in home and 'Back to Start Here' in home
