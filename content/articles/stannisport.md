@@ -1,8 +1,10 @@
 ---
 title: Stannisport
 subtitle: The Bridges and Quays of the River Juce
-summary: A busy port spanning the River Juce, joined by Heroes Bridge and home to the Clerics Guild.
+summary: A busy port spanning the River Juce, joined by Heroes Bridge and home
+  to the Clerics Guild.
 category: Kingdoms & Places
+image: /assets/uploads/stannisport.png
 entry: LOC.036
 era: Age of Ascendancy
 facts: |-
@@ -14,7 +16,6 @@ related: east-port,taveras,guilds-of-avalor,kingdom-of-avalor,heavens-heart
 source: World Anvil, Stannisport (creator-supplied location; November 2026)
 featured: false
 ---
-
 ## A city in two halves
 
 **Stannisport** occupies both banks of the **River Juce**. The **Heroes Bridge** joins its halves, carrying people and goods across a river that would otherwise divide an exceptionally busy port.
