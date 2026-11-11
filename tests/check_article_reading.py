@@ -120,3 +120,18 @@ for slug, required in (
 faith, _ = audit("faiths-and-gods-of-avalor")
 assert "The Keeper of the First Dawn in folklore" in faith
 print("Phase 3 public scholar histories and restrained Keeper folklore passed.")
+
+
+# Location images use a full-width plate; portrait images remain alongside biographies.
+for slug in ('renada','black-tower','heavens-heart','stanleyville'):
+    page, parsed = audit(slug)
+    assert 'article-illustration--landscape' in parsed.classes, f'{slug}: missing landscape plate'
+    assert page.count('class="article-illustration article-illustration--landscape"') == 1, slug
+    assert page.index('class="article-illustration article-illustration--landscape"') < page.index('class="article-split"')
+    assert page.count('class="article-illustration"') == 0, f'{slug}: unexpected sidebar image'
+lavitz_page, lavitz_tags = audit('lavitz-shawe')
+assert 'article-illustration--landscape' not in lavitz_tags.classes
+assert '<aside class="article-rail"><figure class="article-illustration">' in lavitz_page
+river_page, river_tags = audit('river-city')
+assert 'article-illustration--landscape' not in river_tags.classes
+print('Geographic illustration layout passed: panoramic places and unchanged portrait treatment.')
