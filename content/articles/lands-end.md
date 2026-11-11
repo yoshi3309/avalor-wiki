@@ -1,8 +1,10 @@
 ---
 title: Land's End
 subtitle: The Stronghold of the Northern March
-summary: A northern fortress and seat of frontier administration held by Sheriff Sebastian Rubelda.
+summary: A northern fortress and seat of frontier administration held by Sheriff
+  Sebastian Rubelda.
 category: Kingdoms & Places
+image: /assets/uploads/lands-end.png
 entry: LOC.012
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +15,10 @@ facts: |-
   Frontier: Region later transformed into the Great Desert
   Authority: Crown of Avalor
 related: sebastian-rubelda,four-sheriffdoms,avalorian-forces,kingdom-of-avalor,rynhold-frozenroar,great-desert
-source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI; creator-provided Land's End history (November 2026)
+source: Compendium II · Entry II.001, VII and XVIII; Entry II.003, XXI;
+  creator-provided Land's End history (November 2026)
 featured: false
 ---
-
 ## At the edge of easy government
 
 **Land's End** is a northern stronghold whose importance lies in both the defense and administration of Avalor's frontier. It is far easier to issue instructions in [[Renada]] than to ensure they can be carried out at a distant crossing when supplies are scarce or the roads are difficult.
