@@ -13,7 +13,7 @@ assert 'Copy exhibit link' in index, 'Accessible share label missing'
 
 expected = {
     'characters': 35,
-    'locations': 1,
+    'locations': 5,
     'historical-scenes': 2,
     'artifacts-symbols': 1,
     'maps-heraldry': 1,
@@ -36,7 +36,13 @@ for collection, minimum in expected.items():
         for rec in item['related']:
             assert (SITE / 'articles'/rec['slug']/'index.html').exists(), rec['slug']
 assert len(seen)>=40, 'Gallery is missing public character portraits'
-for article, exhibit in [('lavitz-shawe','lavitz-shawe'),('heureux','heureux'),('the-six','the-six-fellowship'),('kingdom-of-avalor','avalor-royal-map'),('jaznaar','portrait-jaznaar'),('samuel-the-devoted','portrait-samuel-the-devoted'),('katiri-tenderfoot','portrait-katiri-tenderfoot')]:
+for article, exhibit in [('lavitz-shawe','lavitz-shawe'),('heureux','heureux'),('the-six','the-six-fellowship'),('kingdom-of-avalor','avalor-royal-map'),('jaznaar','portrait-jaznaar'),('samuel-the-devoted','portrait-samuel-the-devoted'),('katiri-tenderfoot','portrait-katiri-tenderfoot'),('renada','renada'),('black-tower','the-black-tower'),('heavens-heart','heavens-heart'),('stanleyville','stanleyville')]:
     page=(SITE/'articles'/article/'index.html').read_text(encoding='utf-8')
     assert 'gallery-related' in page and ('image='+exhibit) in page, (article,exhibit)
 print('Illustration Gallery passed: five populated collections, vetted images, per-article exhibit links, and share control.')
+
+# Curated location exhibits are the primary reference for published landscapes.
+# The builder also admits later place-image assignments without duplicate entries.
+for exhibit in ('renada','the-black-tower','heavens-heart','stanleyville'):
+    location=(SITE/'gallery/locations/index.html').read_text(encoding='utf-8')
+    assert '"id": "'+exhibit+'"' in location or '"id":"'+exhibit+'"' in location, exhibit

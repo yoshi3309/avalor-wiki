@@ -969,6 +969,42 @@ for article in ALL:
     GALLERY_ITEMS.append(item)
     GALLERY_BY_ARTICLE.setdefault(slug,[]).append(item)
 
+# Location artwork is editorially linked through its published article image.
+# Curated exhibits above remain authoritative; automatically include other
+# approved public location paintings without requiring a second CMS entry.
+for article in ALL:
+    if article['category'] != 'Kingdoms & Places':
+        continue
+    slug = article['slug']
+    raw_image = str(article.get('image') or '').strip().lstrip('/')
+    if not re.fullmatch(r'assets/uploads/[A-Za-z0-9._/-]+\.(?:png|jpe?g|webp|gif)', raw_image, re.I):
+        continue
+    if '..' in Path(raw_image).parts or not (ROOT / raw_image).is_file():
+        continue
+    if any(item['collection'] == 'locations' and
+           (item['image'] == raw_image or (item['related'] and item['related'][0]['slug'] == slug))
+           for item in GALLERY_ITEMS):
+        continue
+    ident = 'landscape-' + slug
+    if ident in gallery_ids:
+        continue
+    gallery_ids.add(ident)
+    item = {
+        'id': ident,
+        'title': article['title'],
+        'collection': 'locations',
+        'collection_title': GALLERY_COLLECTION_BY_ID['locations']['title'],
+        'image': raw_image,
+        'alt': str(article.get('image_alt') or 'Illustration associated with ' + article['title'] + '.'),
+        'caption': str(article.get('image_caption') or article['summary']),
+        'era': str(article.get('era') or ''),
+        'credit': '',
+        'featured': False,
+        'related': [{'slug': slug, 'title': article['title']}],
+    }
+    GALLERY_ITEMS.append(item)
+    GALLERY_BY_ARTICLE.setdefault(slug, []).append(item)
+
 GALLERY_ITEMS.sort(key=lambda item: (not item['featured'], item['title'].casefold()))
 for wing in GALLERY_COLLECTIONS:
     members = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
