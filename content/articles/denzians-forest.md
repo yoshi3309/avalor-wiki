@@ -1,16 +1,21 @@
 ---
 title: Denzians Forest
 subtitle: The Wizard's Wood and Its Unanswered Tales
-summary: A forest named for the wizard Denzian, renowned for stories of hidden relics, vanished seekers, and mysterious red flowers.
+summary: A forest named for the wizard Denzian, renowned for stories of hidden
+  relics, vanished seekers, and mysterious red flowers.
 category: Kingdoms & Places
+image: /assets/uploads/denzians-forest.png
 entry: LOC.007
 era: Age of Ascendancy
-facts: "Namesake: Denzian, a wizard of earlier times\nLocal tradition: A hidden trove of relics\nReported danger: Missing treasure seekers\nUnexplained feature: Red flowers"
+facts: |-
+  Namesake: Denzian, a wizard of earlier times
+  Local tradition: A hidden trove of relics
+  Reported danger: Missing treasure seekers
+  Unexplained feature: Red flowers
 related: forest-of-the-fey,kingdom-of-avalor,spine-of-the-world
 source: Compendium II · Entry II.003, XVIII; Entry II.001, XVIII
 featured: false
 ---
-
 ## The forest that bears a wizard's name
 
 **Denzians Forest** lies apart from the [[Forest of the Fey]]. The resemblance between two great woodlands on a map conceals separate histories. The Forest of the Fey is known for ancient elven territories and treaties with the crown; Denzians Forest owes its familiar name to **Denzian**, a wizard remembered as having lived nearby long ago.
