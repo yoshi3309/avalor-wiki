@@ -1,9 +1,10 @@
 ---
 title: Karhold
 subtitle: The Disputed Eastern Freeport
-summary: An eastern peninsula port with a longstanding tradition of independence and an unsettled relationship to
-  Avalor’s territorial claims.
+summary: An eastern peninsula port with a longstanding tradition of independence
+  and an unsettled relationship to Avalor’s territorial claims.
 category: Kingdoms & Places
+image: /assets/uploads/karhold.png
 entry: LOC.013
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +14,10 @@ facts: |-
   Relations: Trade and diplomacy with Avalor
   Current ruler: Cruzeal Cicluen
 related: cassian-veyran,four-sheriffdoms,kingdom-of-avalor,renada
-source: Compendium II · Entry II.001, VII, XIII and XVIII; World Anvil Karhold history (November 2026)
+source: Compendium II · Entry II.001, VII, XIII and XVIII; World Anvil Karhold
+  history (November 2026)
 featured: false
 ---
-
 ## A name on two kinds of map
 
 **Karhold** occupies an eastern peninsula claimed on many Avalorian maps. Its appearance within the kingdom's painted borders should not be mistaken for proof of unquestioned royal control.
