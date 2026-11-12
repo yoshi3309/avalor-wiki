@@ -5,7 +5,7 @@ summary: "After the rescue of Queen Melmiri, Avalor mourned its dead, honored th
 category: History & Chronicles
 entry: HIS.034
 era: Age of Ascendancy
-related: shadowfell-confrontation,the-misfits,queen-melmiri,king-gradvum-frozenroar,jaznaars-vindication,age-of-ascendancy,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,anna-lowkees-keeper
+related: kel-maris,shadowfell-confrontation,the-misfits,queen-melmiri,king-gradvum-frozenroar,jaznaars-vindication,age-of-ascendancy,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,anna-lowkees-keeper
 source: "The Living Chronicle, Chapters VI–VII, public history after the Misfits' victory; Master Canon Bible, Section VI, publishable outcomes"
 featured: false
 ---
@@ -16,7 +16,7 @@ featured: false
 
 The company brought back a living queen, and with her the possibility of an ending the kingdom could celebrate. Yet the homecoming was not complete in the way a triumphant song might suggest. The road had cost too many lives, and some of the people who made the rescue possible would never join its procession.
 
-The kingdom mourned the preceding Lord Marshal, killed by the Stalker at Stanleyville; **Captain Funkin**, **Inspector Sihnion**, and the guards who died at the temple; and others whose names did not enter the most familiar accounts. It honored **[[fo-gurn|Fo'Gurn]]** in absentia.
+The kingdom mourned **[[kel-maris|Kel'Maris]]**, Gradvum's former sword instructor and the Lord Marshal killed by the Stalker at Stanleyville; **Captain Funkin**, **Inspector Sihnion**, and the guards who died at the temple; and others whose names did not enter the most familiar accounts. It honored **[[fo-gurn|Fo'Gurn]]** in absentia.
 
 Fo'Gurn's death at the Hydra had been real. Jaaris later raised and compelled him through necromancy; in the Shadowfell, he reclaimed his will by choosing to protect Lavitz. But Jaaris's death brought the end of the borrowed existence sustaining him. **Fo'Gurn remained in the Shadowfell for his final rest.** His body did not come home. Lavitz had been granted a farewell, not the restoration of the life they had once shared.
 
@@ -34,7 +34,7 @@ Avalor had won back its queen. It still had to decide how to tell its own story.
 
 Before Gradvum, Melmiri, the royal council, and the wounded **[[Samuel the Devoted|Samuel]]**, the surviving champions were offered ways to serve beyond the road.
 
-**[[Lavitz Shawe]]** accepted the office of **Lord Marshal**, vacant since the death of the man who had first commissioned the Misfits. The appointment asked him to protect a kingdom through decisions made long after the battle with any single enemy.
+**[[Lavitz Shawe]]** accepted the office of **Lord Marshal**, vacant since the death of Kel'Maris, who had first commissioned the Misfits. The appointment asked him to protect a kingdom through decisions made long after the battle with any single enemy.
 
 **[[Tel'Lora Ebbenflow]]** accepted the responsibility of **High Wizard**. He would help restore [[Shamman’s Tower]] as a place of arcane learning and later hold an independent eighth seat on [[The Aegis]]. The knowledge passed to him through his family and Jaznaar would now be put to work for others.
 
