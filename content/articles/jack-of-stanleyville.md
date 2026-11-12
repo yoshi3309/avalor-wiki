@@ -43,7 +43,7 @@ During the later illusions of [[Zauks and the False Lives|Zauks]], the companion
 
 ## More than Stanleyville's tragedy
 
-The town also suffered attacks by [[The Stalker of Stanleyville|the Stalker]], the creature controlled by Cid that killed the preceding Lord Marshal. Jack had died in a different way, but both tragedies became part of the road that led the Misfits toward their greater enemy.
+The town also suffered attacks by [[The Stalker of Stanleyville|the Stalker]], the creature controlled by Cid that killed **[[kel-maris|Kel'Maris]]**, the preceding Lord Marshal. Captain Funkin returned her remains to Renada before his own later death at the Hydra temple. Jack had died in a different way, but both tragedies became part of the road that led the Misfits toward their greater enemy.
 
 Jack remained with the companions beyond Stanleyville, carrying his question into a much larger story than the one that had ended his childhood.
 
