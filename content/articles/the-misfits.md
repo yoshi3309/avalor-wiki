@@ -12,7 +12,7 @@ facts: |-
   Joined later: Heureux
   Other traveling companions: Anna (Lowkee's Keeper); Jack of Stanleyville
   Publicly celebrated five: Lavitz, Tel'Lora, Sven, Heureux, Amara
-  First commission: Investigation by the preceding Lord Marshal
+  First commission: Investigation assigned by Kel'Maris
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
 related: kel-maris,shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
@@ -20,12 +20,12 @@ source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001
 callouts:
   - type: reflection
     text: "Fo'Gurn bought his companions time to escape. He could not spare them the grief they carried through the remainder of their journey and beyond. That grief, too, belongs to the history of his courage."
-    after: iii-the-hydra-and-the-missing-companion
+    after: iv-the-hydra-and-the-missing-companion
     paragraph: 2
     attribution: "Editorial reflection on the hydra encounter"
   - type: reflection
     text: "Jack's life had ended, but his place among the companions was only beginning. The road offered him a kind of belonging his murder had stolen."
-    after: iv-stanleyville-and-the-stalker
+    after: iii-stanleyville-and-the-stalker
     paragraph: 3
     attribution: "Editorial reflection on Jack of Stanleyville"
   - type: note
@@ -39,7 +39,7 @@ callouts:
     paragraph: 4
     attribution: "Editorial reflection on the years after victory"
 highlight_sections:
-  - section: iii-the-hydra-and-the-missing-companion
+  - section: iv-the-hydra-and-the-missing-companion
     tone: remembrance
   - section: v-jaznaar-s-testimony
     tone: turning-point
@@ -135,29 +135,27 @@ They met **[[Anna, Lowkee's Keeper|Anna]]** at a tavern. Sven's awkward stumble 
 
 The name **Lowkee's Keeper** attached itself to Anna and to the search. She bore the **[[Emerald of Armanti]]**, an object connected in testimony with the hope of calling upon Lowkee's help against the Blood King. That was a hope the companions carried; it is not proof of a permanent resurrection of the founding paladin, nor a complete account of the gem's capabilities.
 
-Protecting Anna was never merely an errand to deliver a magical object. When the company was captured near Stanleyville, **Anna was among those endangered at the ruined temple**, and she survived alongside the preceding Lord Marshal. Later, after the Games, she endured a second captivity on **[[Ros Furband|Ros Furband's]]** pirate galleon, working in the galley beside Tel'Lora while the queen they were trying to rescue remained in Cid's hands.
+Protecting Anna was never merely an errand to deliver a magical object. When the company was captured near Stanleyville, **Anna was among those endangered at the ruined temple**, and she survived after the Lord Marshal had already been killed by the Stalker. Later, after the Games, she endured a second captivity on **[[Ros Furband|Ros Furband's]]** pirate galleon, working in the galley beside Tel'Lora while the queen they were trying to rescue remained in Cid's hands.
 
 Anna continued with the fellowship to the end of its campaign. The emerald reappeared in the final confrontation, allowing Samuel to channel Lowkee briefly and later serving as Fo'Gurn's seal against Cid's return to the Material Plane. After the royal audience **Anna revealed herself as Erevan Ilesere**, who had maintained the guise as a divine test of Sven. The full mechanics and origins of the gem remain unsettled, but **Anna's identity and the relic's known uses are part of the completed history**. The friendship the Misfits showed Anna was real even before they understood whom they were protecting.
 
-## III. The hydra and the missing companion
-
-At a temple near [[Stanleyville]], the Misfits confronted a more direct manifestation of Cid's cruelty. Captives had been restrained against their use of magic, and the site was connected to a rite seeking to turn divine power toward the Blood King's purpose. The evidence does not give scholars license to reconstruct every detail of that rite.
-
-Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Anna, whose companionship had begun during the search for Lowkee's Keeper, was endangered at the altar**. Captain Funkin, Inspector Sihnion, and trapped guards died in the catastrophe. The preceding Lord Marshal and Anna survived this episode.
-
-A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the grief that followed, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
-
-Only in the Shadowfell did the Misfits discover that Jaaris had raised Fo'Gurn through necromancy and compelled him against them. That revelation did not undo his death at the temple or the grief his companions carried through the intervening journey.
-
-## IV. Stanleyville and the Stalker
+## III. Stanleyville and the Stalker
 
 In [[Stanleyville]], the Misfits investigated mysterious deaths. Among the victims was Jack, whose spirit remained in the mortal world seeking an explanation for his death.
 
 The town was stalked by a murderous creature later attributed to Cid's control. [[The Stalker of Stanleyville|The Stalker]] killed **Kel'Maris**, the high-elven Lord Marshal who had first commissioned the party and been Gradvum's longtime friend, leaving her office vacant for the remainder of the campaign.
 
-The Misfits departed with Jack in their company and a deepening awareness that the events they had witnessed could be part of something older and more dangerous than any one town.
+**Captain Funkin survived the Stalker affair** and safely returned Kel'Maris's body to Renada. She lay in state for three days before her private cremation; her ashes were scattered in the King's Forest. The Misfits departed with Jack in their company and a deepening awareness that events they had witnessed might be connected to a larger danger.
 
-Kel'Maris's death here must not be confused with the losses at the earlier temple: she had **survived the hydra affair** and continued to serve the crown until the Stalker killed her.
+## IV. The hydra and the missing companion
+
+At a ruined temple near [[Stanleyville]], the Misfits faced Cid's servants **after Kel'Maris's death**. Captives had been restrained against their use of magic, and the site was connected to a rite seeking to turn divine power toward the Blood King's purpose. The surviving account does not supply every detail of that rite.
+
+Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Anna, whose companionship had begun during the search for Lowkee's Keeper, was endangered at the altar**. Captain Funkin, who had earlier returned Kel'Maris's body to Renada, died here alongside Inspector Sihnion and trapped guards. **Anna escaped. Kel'Maris was not present as a living captive: the Stalker had already killed her.**
+
+A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the grief that followed, would remain among the fellowship's deepest losses. For Lavitz, it was the loss of a friend he had known since Heaven's Heart.
+
+Only in the Shadowfell did the Misfits discover that Jaaris had raised Fo'Gurn through necromancy and compelled him against them. That revelation did not undo his death at the temple or the grief his companions carried through the intervening journey.
 
 ## The Liberation of the Rotten Husk
 
