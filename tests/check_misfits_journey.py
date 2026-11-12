@@ -108,7 +108,7 @@ def source(slug):
 assert "Erevan Ilesere in disguise" in source("anna-lowkees-keeper")
 assert "Vandria Gilmadrith" in source("misfits-return-to-renada")
 assert "Sven did not answer" in source("misfits-return-to-renada")
-assert "temporarily" in source("emerald-of-armanti")
+assert "temporary spiritual connection" in source("emerald-of-armanti")
 assert "bar Cid" in source("emerald-of-armanti")
 assert "subsequently raised his body" in source("fo-gurn")
 assert "before Jaaris died" in source("fo-gurn")
