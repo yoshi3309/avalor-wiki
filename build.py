@@ -402,7 +402,11 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
                     or extra_slug in companion_slugs or not extra_note):
                 raise ValueError(f'Journey {ident}: chapter {number} has invalid supplemental reading {extra_slug}')
             companion_slugs.add(extra_slug)
-            companions.append({'article': BY_SLUG[extra_slug], 'note': extra_note})
+            raw_fragment = str(extra.get('fragment') or '').strip()
+            fragment = slugify(raw_fragment) if raw_fragment else ''
+            if raw_fragment and (not fragment or fragment not in {h['id'] for h in BY_SLUG[extra_slug]['headings']}):
+                raise ValueError(f'Journey {ident}: chapter {number} has unknown deeper-reading section {extra_slug}#{raw_fragment}')
+            companions.append({'article': BY_SLUG[extra_slug], 'fragment': fragment, 'note': extra_note})
         mapped_steps.append({
             'number': number, 'article': BY_SLUG[article_slug],
             'label': str(raw_step['label']), 'introduction': str(raw_step['introduction']),
