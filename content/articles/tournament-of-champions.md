@@ -6,7 +6,7 @@ category: History & Chronicles
 entry: HIS.006
 era: "Age of the Misfits"
 facts: "City: Renada\nOccasion: Tournament of Champions\nExpected royal guests: Gradvum and Melmiri\nCrisis: Abduction of Queen Melmiri\nIntervening ordeals: Ros Furband; Jinlin Vechon; Zauks\nConsequence: Pursuit of Cid"
-related: renada,queen-melmiri,the-misfits,cid-the-blood-king,fo-gurn,independent-factions-of-the-misfits-era,zauks-false-lives
+related: renada,queen-melmiri,the-misfits,anna-lowkees-keeper,ros-furband,emerald-of-armanti,cid-the-blood-king,fo-gurn,independent-factions-of-the-misfits-era,zauks-false-lives
 source: "The Living Chronicle, Chapter VI, VII–IX; Master Canon Bible Volume I, V"
 featured: false
 ---
@@ -33,7 +33,7 @@ Melmiri's position as queen made her a powerful hostage. Cid expected the Misfit
 
 ## A pursuit interrupted
 
-The Misfits did not proceed straight from the tournament into Cid's fortress. **Ros Furband**, a pirate captain, captured them and delivered them to **Jinlin Vechon**, leader of the Wrath of Innocent. They defeated Jinlin in a real confrontation, then fell into the illusions of **Zauks**, a mind flayer who made earlier dangers seem to recur.
+The Misfits did not proceed straight from the tournament into Cid's fortress. Their noncombatant companion **[[Anna, Lowkee's Keeper|Anna]]** also traveled with them, bearing a relic whose importance would become apparent much later. **[[Ros Furband]]**, a pirate captain, captured them and delivered them to **Jinlin Vechon**, leader of the Wrath of Innocent. They defeated Jinlin in a real confrontation, then fell into the illusions of **Zauks**, a mind flayer who made earlier dangers seem to recur.
 
 Throughout those ordeals, **Melmiri remained a captive**. **Amara was taken during the period following the Games**; the precise circumstances and manner of her return are not established in the public testimony. She was later free to intervene against Zauks while her companions remained trapped in his false experiences. The adventures on Ros's ship, the battle with Jinlin, and the false lives offered by Zauks were obstacles on the road to the queen, not episodes that preceded her abduction.
 

@@ -21,7 +21,7 @@ These were **not fresh occurrences of the original incidents**. The sequence of 
 
 Zauks ultimately offered the adventurers convincing visions of **ideal lives**, free of the losses and grief they had endured.
 
-**[[Amara]] intervened** to break the ordeal, and an owl remains a recurring image in the testimonies. The owl involved here should not be mistaken automatically for the owl of other stories concerning Amara's family. The intimate particulars of the visions survive only in fragments of authorized testimony.
+**[[Amara]]**, outside the captives' manufactured lives, entered the lair in the shape of an owl, returned to her own form, and **killed Zauks**. The familiar owl was a rescuer in the real world, not another figure imprisoned inside the illusions. The owl involved here should not be mistaken automatically for the owl of other stories concerning Amara's family. The intimate particulars of the visions survive only in fragments of authorized testimony.
 
 The trial was harder than a simple confrontation with a visible monster. The company had to relinquish lives in which painful absences seemed to have been repaired.
 
