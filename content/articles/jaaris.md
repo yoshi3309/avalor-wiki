@@ -35,7 +35,7 @@ Jaaris was part of the circle serving Cid when the Misfits were taken to the rui
 
 The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. **Fo'Gurn truly died at the hydra. Jaaris later raised him through necromancy**, compelling the paladin against his former companions. During their last confrontation Lavitz lowered his defenses and Fo'Gurn chose to protect him, overcoming Jaaris's control **before** the necromancer died. Jaaris's subsequent death started the failure of Fo'Gurn's borrowed life; it did not cause the paladin's redemption.
 
-Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in the mind flayer's false adventures.
+Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in [[Zauks and the False Lives|the mind flayer's false adventures]].
 
 ## A different enemy
 
