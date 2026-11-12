@@ -91,21 +91,21 @@ This was the cruelest continuity between Aldus and Cid: the man who once offered
 
 ## Prisoners at the ruined temple
 
-The ruined temple near Stanleyville made the Blood King's cruelty visible in another way. Cid and his servants confined the adventurers with others caught in his scheme, restraining their ability to use magic while preparing a rite involving the bodies and power of his captives. **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend of the Misfits, was endangered there upon an altar.
+**After the Stalker killed Kel'Maris at Stanleyville**, the ruined temple near the town made the Blood King's cruelty visible in another way. Cid and his servants confined the adventurers with others caught in his scheme, restraining their ability to use magic while preparing a rite involving the bodies and power of his captives. **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend of the Misfits, was endangered there upon an altar.
 
-Cid was attended by servants including [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. The venture ended in catastrophe: Captain Funkin, Inspector Sihnion, and guards died. The preceding Lord Marshal and Anna survived, but **Fo'Gurn remained to face a hydra** so that his friends could escape.
+Cid was attended by servants including [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. The venture ended in catastrophe: Captain Funkin, Inspector Sihnion, and guards died. **Anna survived**, but **Fo'Gurn remained to face a hydra** so that his friends could escape. **Kel'Maris was already dead**; Captain Funkin had returned her body to Renada before he died in the temple.
 
-The Lord Marshal's own death came later at Stanleyville. Cid's legacy cannot be understood by collapsing these separate losses into one act, or by treating the companions' courage as evidence that those whom they could not rescue mattered less.
+Kel'Maris's death came **earlier**, in the Stalker affair. Cid's legacy cannot be understood by collapsing the Stalker and Hydra losses into one event, or by treating the companions' courage as evidence that those whom they could not rescue mattered less.
 
 ## The suffering at Stanleyville
 
-During the travels of [[The Misfits]], the Blood King's actions reached a town whose people did not yet understand the founding-era struggle.
+**Before the Hydra temple disaster**, during the travels of [[The Misfits]], the Blood King's actions reached a town whose people did not yet understand the founding-era struggle.
 
 At [[Stanleyville]], an ordinary-looking merchant sold manuscripts to a local family. Later testimony identified the merchant as **Cid in disguise**. One manuscript concealed a **Fireball** spell; when a boy named [[Jack of Stanleyville|Jack]] innocently read the text, the magic killed him.
 
 Jack was not an apprentice seeking forbidden knowledge. His death was the result of a lethal trap placed in something a child could read. His conscious spirit later befriended the adventurers and traveled onward with them.
 
-The creature known as [[The Stalker of Stanleyville|the Stalker]] also hunted Stanleyville under Cid's direction. It killed the kingdom's incumbent Lord Marshal, who had commissioned the Misfits' early investigations. Accounts additionally describe an attempt to burn the town during a brief manifestation of the Blood King.
+The creature known as [[The Stalker of Stanleyville|the Stalker]] also hunted Stanleyville under Cid's direction. It killed **[[kel-maris|Kel'Maris]]**, the kingdom's Lord Marshal, who had commissioned the Misfits' early investigations. Captain Funkin returned her body to Renada before his own later death at the Hydra temple. Accounts additionally describe an attempt to burn the town during a brief manifestation of the Blood King.
 
 The Stalker did **not** kill Jack; these were different deaths within the same broad affair. The companions left Stanleyville without yet knowing that Cid and the celebrated founding healer were one being.
 
