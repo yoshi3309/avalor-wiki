@@ -36,15 +36,15 @@ The cult's known threat was defeated, but its wider teachings, named leadership,
 
 **The Wrath of Innocent** was founded by **Jinlin Vechon**, a dragonborn vampire whose hatred of **[[Cid the Blood King]]** was genuine.
 
-The Misfits encountered Jinlin after their meeting with [[Jaznaar]]. His hostility toward Cid might have seemed a reason to trust him, but the fellowship discovered that sharing an enemy did not guarantee the same understanding of justice.
+The Misfits encountered Jinlin **after Cid abducted Queen Melmiri at the Tournament of Champions**. The pirate **Ros Furband** had captured the fellowship and delivered them into Jinlin's power. His hostility toward Cid might have seemed a reason to trust him, but the fellowship discovered that sharing an enemy did not guarantee the same understanding of justice.
 
-The group was defeated during the companions' travels. What became of its remaining followers and whether the name survived as an active cause have not been established.
+The companions defeated **Jinlin in an actual battle**, before the mind flayer Zauks imprisoned them in his illusions. What became of the Wrath's remaining followers and whether the name survived as an active cause have not been established.
 
 ## Jinlin Vechon
 
 Jinlin remains the group's most recognizable figure. As its founder, he belongs within this history rather than needing a second article that repeats the same few events.
 
-The encounter with him is preserved in [[The Misfits#jinlin-vechon-and-the-wrath-of-innocent|the Misfits' chronicle]]. Later, [[Zauks and the False Lives|Zauks]] recreated **Jinlin's lair** from the companions' memories. That false return was part of the mind flayer's illusions, not evidence that Jinlin had resumed his work.
+The encounter with him is preserved in [[The Misfits#jinlin-vechon-and-the-wrath-of-innocent|the Misfits' chronicle]]. Later, [[Zauks and the False Lives|Zauks]] recreated earlier perils from the companions' memories. **The battle against Jinlin was real**, preceding those counterfeit experiences; the two events should not be collapsed into one dream.
 
 His hatred of Cid never made him a trustworthy ally, and his group's name was no guarantee of its justice.
 

@@ -5,8 +5,8 @@ summary: "The public tournament in Renada where Cid seized Queen Melmiri and for
 category: History & Chronicles
 entry: HIS.006
 era: "Age of the Misfits"
-facts: "City: Renada\nOccasion: Tournament of Champions\nExpected royal guests: Gradvum and Melmiri\nCrisis: Abduction of Queen Melmiri\nConsequence: Pursuit of Cid"
-related: renada,queen-melmiri,the-misfits,cid-the-blood-king,fo-gurn
+facts: "City: Renada\nOccasion: Tournament of Champions\nExpected royal guests: Gradvum and Melmiri\nCrisis: Abduction of Queen Melmiri\nIntervening ordeals: Ros Furband; Jinlin Vechon; Zauks\nConsequence: Pursuit of Cid"
+related: renada,queen-melmiri,the-misfits,cid-the-blood-king,fo-gurn,independent-factions-of-the-misfits-era,zauks-false-lives
 source: "The Living Chronicle, Chapter VI, VII–IX; Master Canon Bible Volume I, V"
 featured: false
 ---
@@ -29,11 +29,17 @@ Cid appeared and seized Melmiri. He escaped before the Misfits could retrieve he
 
 The abduction turned a public celebration into a royal emergency. For the companions, it made their confrontation with the Blood King unavoidable.
 
-Melmiri's place in the royal family made her an especially powerful hostage. Cid knew the Misfits would attempt her rescue, turning the princess's captivity into a direct challenge to the companions.
+Melmiri's position as queen made her a powerful hostage. Cid expected the Misfits to attempt her rescue, drawing them toward the Shadowfell while the kingdom waited for news of its ruler.
+
+## A pursuit interrupted
+
+The Misfits did not proceed straight from the tournament into Cid's fortress. **Ros Furband**, a pirate captain, captured them and delivered them to **Jinlin Vechon**, leader of the Wrath of Innocent. They defeated Jinlin in a real confrontation, then fell into the illusions of **Zauks**, a mind flayer who made earlier dangers seem to recur.
+
+Throughout those ordeals, **Melmiri remained a captive**. The adventures on Ros's ship, the battle with Jinlin, and the false lives offered by Zauks were obstacles on the road to the queen, not episodes that preceded her abduction.
 
 ## Into the Shadowfell
 
-The companions pursued Cid toward the Shadowfell, where the final confrontation took place. Melmiri was rescued, the Blood King's immediate threat ended, and Avalor began a difficult reassessment of its founding narrative.
+Only after these interruptions did the companions reach the final confrontation in the Shadowfell. Melmiri was rescued and **helped the Misfits escape**, the Blood King's immediate threat ended, and Avalor began its difficult reassessment of the founding narrative.
 
 People who attended the tournament did not witness every event that occurred afterward. Accounts of the Shadowfell encounter come chiefly from the royal rescue and the companions’ authorized testimony.
 

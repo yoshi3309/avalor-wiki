@@ -43,7 +43,9 @@ She and Gradvum have three children: **Theodric**, **Leontes**, and **Vivienne**
 
 ## The queen who returned
 
-At [[The Tournament of Champions]], [[Cid the Blood King]] abducted Melmiri and carried her into the Shadowfell. [[The Misfits]] pursued him, rescued the queen, and defeated the immediate threat he posed.
+At [[The Tournament of Champions]], [[Cid the Blood King]] abducted Melmiri. Her captivity lasted while [[The Misfits]] faced the pirate Ros Furband, defeated Jinlin Vechon, and endured the illusions of Zauks on their way toward the Shadowfell. The companions ultimately reached the Blood King's fortress, rescued the queen, and defeated the immediate threat he posed.
+
+The surviving witnesses also recall **Melmiri helping her rescuers escape** the final danger. Their accounts do not preserve a complete route through the fortress; they do establish that her part in the rescue went beyond waiting for others to act.
 
 The rescue was extraordinary, but it was not the end of her story. Melmiri returned to a kingdom now forced to reconsider its oldest history, and to responsibilities that had not ceased while she was gone.
 
