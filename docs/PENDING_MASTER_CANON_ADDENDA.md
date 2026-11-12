@@ -44,7 +44,7 @@
 
 ## Proposed expansions - NOT CANON
 
-### Zauks (new standalone public biography, pending creator input)
+### Zauks (standalone public biography now established; background expansion pending creator input)
 - Proposed thematic core: a curator of memories who treats real lives as material to reorganize, a disturbing counterpart to Avalor's historical scholars.
 - Explore why he serves Cid, how he selects emotional vulnerabilities, and whether the cocoons collect information or merely imprison prey.
 - Never imply that his eight counterfeit episodes were real repeats or that he controlled every earlier adventure.
