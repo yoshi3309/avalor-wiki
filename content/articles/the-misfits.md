@@ -15,7 +15,7 @@ facts: |-
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: kel-maris,shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 callouts:
   - type: reflection
@@ -49,7 +49,7 @@ featured: true
 ---
 ## The fellowship that no prophecy assembled
 
-The adventurers who became **the Misfits** did not meet because of a prophecy or a royal command to correct the kingdom's founding history. Their earliest known adventure carried them into Moonville Manor, a house that refused to behave like a house. Only afterward did Avalor's preceding Lord Marshal summon them to investigate a necromancer.
+The adventurers who became **the Misfits** did not meet because of a prophecy or a royal command to correct the kingdom's founding history. Their earliest known adventure carried them into Moonville Manor, a house that refused to behave like a house. Only afterward did **[[kel-maris|Kel'Maris]]**, the Lord Marshal known as the Lion's Shadow, summon them to investigate a necromancer.
 
 In later years their names would be celebrated beside those of ancient heroes. Their victory over [[Cid the Blood King]] exposed the truth of the Black Tower catastrophe, helped restore the name of [[Jaznaar]], and contributed to the period remembered as the [[The Age of Ascendancy|Age of Ascendancy]].
 
@@ -121,11 +121,11 @@ The Manor stands **before the first royal commission** in the reconciled history
 
 ## I. The Lord Marshal's first commission
 
-After Moonville Manor, the preceding Lord Marshal called upon the companions to investigate an **unnamed necromancer**. They defeated the practitioner and recovered pieces of arcane research later understood to have connections with the dangerous work of Aldus Greystone III.
+After Moonville Manor, **Kel'Maris** called upon the companions to investigate an **unnamed necromancer**. They defeated the practitioner and recovered pieces of arcane research later understood to have connections with the dangerous work of Aldus Greystone III.
 
 This first commission was not their first adventure, nor was the enemy the later necromancer [[Jaaris]]. The recovered writings do not establish that Cid had directed the practitioner or arranged the companions' meeting. The full inquiry is preserved in [[The Misfits’ First Commission|the record of the first commission]].
 
-The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]] was remembered for the mage's transformation into a sheep. He survived the affair and would later be known as **Noke**, although the Misfits believed his story had ended. His later disfigurement must not be projected onto the mage they fought. Not every strange event was an instrument of the Blood King.
+Kel'Maris called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]] was remembered for the mage's transformation into a sheep. He survived the affair and would later be known as **Noke**, although the Misfits believed his story had ended. His later disfigurement must not be projected onto the mage they fought. Not every strange event was an instrument of the Blood King.
 
 ## II. Anna and the search for Lowkee's Keeper
 
@@ -153,11 +153,11 @@ Only in the Shadowfell did the Misfits discover that Jaaris had raised Fo'Gurn t
 
 In [[Stanleyville]], the Misfits investigated mysterious deaths. Among the victims was Jack, whose spirit remained in the mortal world seeking an explanation for his death.
 
-The town was stalked by a murderous creature later attributed to Cid's control. [[The Stalker of Stanleyville|The Stalker]] killed the Lord Marshal who had first commissioned the party, leaving the office vacant for the remainder of the campaign.
+The town was stalked by a murderous creature later attributed to Cid's control. [[The Stalker of Stanleyville|The Stalker]] killed **Kel'Maris**, the high-elven Lord Marshal who had first commissioned the party and been Gradvum's longtime friend, leaving her office vacant for the remainder of the campaign.
 
 The Misfits departed with Jack in their company and a deepening awareness that the events they had witnessed could be part of something older and more dangerous than any one town.
 
-The Lord Marshal's death here must not be confused with the losses at the earlier temple: he had **survived the hydra affair** and continued to serve the crown until the Stalker killed him.
+Kel'Maris's death here must not be confused with the losses at the earlier temple: she had **survived the hydra affair** and continued to serve the crown until the Stalker killed her.
 
 ## The Liberation of the Rotten Husk
 
