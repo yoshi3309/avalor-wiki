@@ -27,7 +27,7 @@ These small details matter because they expose the distance between the image of
 
 ## The Wrath of Innocent
 
-Ros's arrangement delivered the companions toward **Jinlin Vechon**, a dragonborn vampire and founder of the **[[Independent Factions of the Misfits Era#the-wrath-of-innocent|Wrath of Innocent]]**.
+Ros's arrangement delivered the companions toward **[[jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire and founder of the **[[Independent Factions of the Misfits Era#the-wrath-of-innocent|Wrath of Innocent]]**.
 
 Jinlin hated the Blood King, but common enmity was not the same as common purpose. He had gathered followers around grievances and the pursuit of vengeance, and that cause could turn cruelly upon people who had not committed the crimes he sought to punish.
 
