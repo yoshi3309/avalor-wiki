@@ -60,7 +60,7 @@ When Kurt retired, Kel'Maris succeeded him as **Lord Marshal**. She was already 
 
 Before they were celebrated as Avalor's champions, the companions later called **[[The Misfits]]** had survived the strange living halls of Moonville Manor. Kel'Maris then called upon them on behalf of the crown for their **[[the-first-commission|first royal commission]]**, an investigation of an unnamed necromancer.
 
-She subsequently employed them again during the inquiry into the **[[Gol'Goroth and the Second Commission|cult of Gol'Goroth]]**, the adventure that brought Heureux into their company. The choice to entrust these missions to adventurers rather than rely only upon the royal guard became an important part of the fellowship's early history.
+She subsequently employed them again during the inquiry into the **[[golgoroth-second-commission|cult of Gol'Goroth]]**, the adventure that brought Heureux into their company. The choice to entrust these missions to adventurers rather than rely only upon the royal guard became an important part of the fellowship's early history.
 
 The company later encountered the Blood King's servants at a ruined temple near Stanleyville. Kel'Maris survived that disaster, in which Captain Funkin, Inspector Sihnion, and guards died and Fo'Gurn gave his life against a hydra.
 
