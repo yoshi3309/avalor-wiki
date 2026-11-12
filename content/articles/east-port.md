@@ -1,8 +1,10 @@
 ---
 title: East Port
 subtitle: The Harbor of the Eastern Navy
-summary: A fortified maritime settlement whose dockyards and garrisons serve as the eastern base of Avalor's royal navy.
+summary: A fortified maritime settlement whose dockyards and garrisons serve as
+  the eastern base of Avalor's royal navy.
 category: Kingdoms & Places
+image: /assets/uploads/east-port.png
 entry: LOC.031
 era: Age of Ascendancy
 facts: |-
@@ -14,7 +16,6 @@ related: briyans-autumn,cassian-veyran,four-sheriffdoms,stannisport,avalorian-fo
 source: World Anvil, East Port (creator-supplied location; November 2026)
 featured: false
 ---
-
 ## A harbor built for readiness
 
 Ships visit **East Port** to trade, but commerce is not the reason the settlement commands royal attention. Its harbor serves as a principal dock for **Avalor's eastern navy**, making the town part of the kingdom's maritime defenses as well as its economy.
