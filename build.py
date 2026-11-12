@@ -412,7 +412,8 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
     if not all(raw_journey.get(key) for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')):
         raise ValueError(f'Journey {ident} is missing required public presentation fields')
     journey = {key: raw_journey[key] for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')}
-    journey.update({'id': ident, 'steps': mapped_steps})
+    journey.update({'id': ident, 'steps': mapped_steps,
+                    'has_deeper_reading': any(step['deeper_reading'] for step in mapped_steps)})
     JOURNEYS.append(journey)
     for i, step in enumerate(mapped_steps):
         JOURNEY_ARTICLE_STEPS.setdefault(step['article']['slug'], []).append({

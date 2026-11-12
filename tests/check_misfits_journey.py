@@ -98,5 +98,7 @@ assert "Next: The Queen Returns" in final_html
 other = ROOT / "_site" / "journeys" / "frozenroar-dynasty" / "index.html"
 assert other.is_file()
 assert 'class="journey-deeper-reading"' not in other.read_text(encoding="utf-8")
+assert "Follow the main chapters in order" not in other.read_text(encoding="utf-8")
+assert "Read each chapter in sequence" in other.read_text(encoding="utf-8")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
