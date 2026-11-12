@@ -14,7 +14,7 @@ facts: |-
   Founded: Cathedral Paladins at Heaven's Heart
   Legacy: The First Teaching
   Historic sword: Cid's Bane, later given to Lavitz Shawe
-related: the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower,jaznaar,lavitz-shawe
+related: anna-lowkees-keeper,emerald-of-armanti,the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower,jaznaar,lavitz-shawe
 source: The Living Chronicle, Chapter III; Compendium I · I.004, public
   Scholar's Account; Compendium II · II.003; author-confirmed Cid's Bane history (November 2026)
 featured: false
@@ -46,6 +46,14 @@ To present the Six as a fellowship united in every judgment would erase the diff
 Lowkee once carried the sword later remembered as **Cid's Bane**. Long after the founding age, his fellow hero [[jaznaar|Jaznaar Mizzrorzza]] entrusted the blade to **[[Lavitz Shawe]]** as the Misfits prepared to confront Cid in the Shadowfell.
 
 The sword's passage from one paladin to another carried a meaning greater than its steel. Lowkee had taught that strength was owed first to those who needed protection. Nearly two thousand years later, the man chosen to wield his sword was a drow whose childhood had been shaped by the kingdom's failure to live up to that teaching.
+
+## The Keeper who followed his memory
+
+The Misfits' search for knowledge concerning **Lowkee's Keeper** brought them to **[[Anna, Lowkee's Keeper|Anna]]**, a tavern waitress who became their noncombatant traveling companion. She was associated with the **[[Emerald of Armanti]]**, a jewel remembered in the history of the final struggle with the Blood King.
+
+The title *Keeper* has invited speculation about an office, a bloodline, or a formal guardianship stretching back through the centuries. The reliable public accounts do not define such an institution. They record the search, the woman who accompanied the Misfits, and a jewel whose name was attached to the hope of drawing upon the old paladin's aid.
+
+Lowkee's legacy therefore reached the company in more than one form. His sword **Cid's Bane** came to Lavitz through Jaznaar. The emerald belonged to another history: it was borne by Anna and appeared during the last struggle. Neither relic proves that Lowkee returned permanently to mortal life.
 
 ## A promise tested after his lifetime
 

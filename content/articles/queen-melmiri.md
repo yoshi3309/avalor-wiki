@@ -16,7 +16,7 @@ facts: |-
   Commander of Dina Hyanda: Nadja Akayrn, female dragonborn
   Griffin: Dune Rakka
   Scimitar: Darkheart
-related: king-gradvum-frozenroar,sebastian-rubelda,avalorian-forces,the-aegis,tournament-of-champions,the-misfits
+related: anna-lowkees-keeper,ros-furband,king-gradvum-frozenroar,sebastian-rubelda,avalorian-forces,the-aegis,tournament-of-champions,the-misfits
 source: Compendium II · Entry II.001, IV–V and VIII; The Living Chronicle, Chapter VI; creator-approved Dina Hyanda founding and commander (November 2026)
 featured: false
 ---
@@ -43,7 +43,7 @@ She and Gradvum have three children: **Theodric**, **Leontes**, and **Vivienne**
 
 ## The queen who returned
 
-At [[The Tournament of Champions]], [[Cid the Blood King]] abducted Melmiri. Her captivity lasted while [[The Misfits]] faced the pirate Ros Furband, defeated Jinlin Vechon, and endured the illusions of Zauks on their way toward the Shadowfell. The companions ultimately reached the Blood King's fortress, rescued the queen, and defeated the immediate threat he posed.
+At [[The Tournament of Champions]], [[Cid the Blood King]] abducted Melmiri. Her captivity lasted while [[The Misfits]] faced the pirate **[[Ros Furband]]**, defeated Jinlin Vechon, and endured the illusions of Zauks on their way toward the Shadowfell. Among the travelers who followed that broken road was **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant whose presence was no less real for receiving less notice in the royal ballads. The companions ultimately reached the Blood King's fortress, rescued the queen, and defeated the immediate threat he posed.
 
 The surviving witnesses also recall **Melmiri helping her rescuers escape** the final danger. Their accounts do not preserve a complete route through the fortress; they do establish that her part in the rescue went beyond waiting for others to act.
 

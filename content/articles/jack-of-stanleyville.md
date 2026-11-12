@@ -12,8 +12,8 @@ facts: |-
   Nature: Conscious ghost
   Cause of death: Concealed Fireball spell
   Companions: The Misfits
-  Later whereabouts: Unresolved in public record
-related: stanleyville,the-stalker,the-misfits,cid-the-blood-king,zauks-false-lives
+  Later companionship: Remained with the Misfits; often traveled with Heureux
+related: anna-lowkees-keeper,heureux,stanleyville,the-stalker,the-misfits,cid-the-blood-king,zauks-false-lives
 source: The Living Chronicle, Chapter VI, IV and IX; Master Canon Bible Volume
   I, V (public testimony)
 featured: false
@@ -35,10 +35,18 @@ When the Misfits came to Stanleyville to investigate the mysterious deaths, they
 
 He could share their moments of laughter and wonder without ceasing to be a child who had lost his life. [[Heureux]] remembered him as a friend, not a clue or a prize for solving a mystery.
 
+## Fellow travelers, not just heroes
+
+Jack was not the only person who joined the Misfits without becoming one of their original adventurers. **[[Anna, Lowkee's Keeper|Anna]]** traveled with them as a noncombatant after a meeting connected to the search for Lowkee's Keeper. Jack's ghostly presence and Anna's place in their companionship showed how much broader the fellowship was than a roster of trained warriors.
+
+During the later illusions of [[Zauks and the False Lives|Zauks]], the companions were forced to revisit Jack's family home and the loss they could not undo. In that false account they tried to prevent his death. The scene belonged to the mind flayer's cruelty and **did not reverse the real killing at Stanleyville**. Jack's story remained his own, not an alternate life manufactured for someone else's comfort.
+
 ## More than Stanleyville's tragedy
 
 The town also suffered attacks by [[The Stalker of Stanleyville|the Stalker]], the creature controlled by Cid that killed the preceding Lord Marshal. Jack had died in a different way, but both tragedies became part of the road that led the Misfits toward their greater enemy.
 
 Jack remained with the companions beyond Stanleyville, carrying his question into a much larger story than the one that had ended his childhood.
 
-His later path is not fully told in the Chronicle. What survives is the part that matters most: the Misfits did not treat his death as the whole of who he was. They made room for him among the living, and he became one of their own.
+In the years after the victory, Jack most often kept company with [[Heureux]], whose travels and stories allowed the boy a place among new companions beyond the final battle. His every later appearance is not documented, but the friendship did not simply end when Cid was defeated.
+
+What survives is the part that matters most: the Misfits did not treat his death as the whole of who he was. They made room for him among the living, and he became one of their own.

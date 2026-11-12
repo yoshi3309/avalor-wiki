@@ -14,7 +14,7 @@ facts: |-
   Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
   Later public testimony: Disputed account of return in the Shadowfell
-related: lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
 featured: false
 ---
@@ -57,6 +57,14 @@ This was an act of courage, but its cost fell not only upon the man who made it.
 
 The episode is also remembered in [[The Misfits#iii-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
 
+## The altar and the people he protected
+
+The hydra threatened the company during a far larger disaster at a ruined temple near Stanleyville. Cid's servants had taken prisoners, restrained the company, and endangered **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend the Misfits had met during their search for Lowkee's Keeper.
+
+Fo'Gurn's stand was therefore not a feat performed in isolation. Behind him were people with names and lives, including the woman who had joined the fellowship without any intention of becoming a warrior. The preceding Lord Marshal and Anna escaped the temple. Captain Funkin, Inspector Sihnion and trapped guards perished.
+
+The paladin's choice left the companions time to flee, but it also left a living obligation. The others continued a mission that Anna would accompany to the Shadowfell, carrying the **[[Emerald of Armanti]]** into the last confrontation with Cid.
+
 ## The years of mourning
 
 For Lavitz, Fo'Gurn's apparent death was more than the loss of an adventuring companion. It was the loss of a friend whose place in his life preceded the Misfits.
@@ -81,7 +89,7 @@ What was uncertain concerned the fate of the man they had mourned, not the reaso
 
 The Misfits' struggle against Cid reached its crisis at [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]]. The intervening pursuit passed through Ros Furband's captivity, Jinlin Vechon's defeat, and Zauks's illusions before the companions entered the Shadowfell and rescued her.
 
-In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** before the friends who had believed him dead. Testimony recalls a painful confrontation with Lavitz in which the paladin refused to abandon his oldest friend and Fo'Gurn **chose to protect him**. The authorized account then describes Fo'Gurn carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
+In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** before the friends who had believed him dead. Testimony recalls a painful confrontation with Lavitz in which the paladin refused to abandon his oldest friend and Fo'Gurn **chose to protect him**. The authorized account then describes Fo'Gurn carrying the **[[Emerald of Armanti]]**, a relic associated with Anna and the hope of Lowkee's assistance, and driving it against Cid during the struggle. The jewel's full operation belongs beyond the certainty of the public account; Fo'Gurn's protective choice does not depend upon understanding that magic. An immense black hand then seized the Blood King and drew him into an unknown darkness.
 
 Those present witnessed Cid's disappearance into the darkness but could not identify the power that carried him away. Accounts of Fo'Gurn's return likewise left the kingdom divided over what had occurred.
 

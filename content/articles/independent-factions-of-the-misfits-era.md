@@ -11,7 +11,7 @@ facts: |-
   Wrath founder: Jinlin Vechon, dragonborn vampire
   Known outcome: Defeats during the Misfits' adventures
   Present activity: Unconfirmed
-related: the-misfits,the-first-commission,heureux,cid-the-blood-king,zauks-false-lives,jaznaar
+related: the-misfits,the-first-commission,heureux,cid-the-blood-king,ros-furband,zauks-false-lives,jaznaar
 source: The Living Chronicle, Chapter VI; Master Canon Bible Volume I, public Misfits events; creator-approved grouping
 featured: false
 ---
@@ -36,7 +36,7 @@ The cult's known threat was defeated, but its wider teachings, named leadership,
 
 **The Wrath of Innocent** was founded by **Jinlin Vechon**, a dragonborn vampire whose hatred of **[[Cid the Blood King]]** was genuine.
 
-The Misfits encountered Jinlin **after Cid abducted Queen Melmiri at the Tournament of Champions**. The pirate **Ros Furband** had captured the fellowship and delivered them into Jinlin's power. His hostility toward Cid might have seemed a reason to trust him, but the fellowship discovered that sharing an enemy did not guarantee the same understanding of justice.
+The Misfits encountered Jinlin **after Cid abducted Queen Melmiri at the Tournament of Champions**. The pirate **[[Ros Furband]]** had captured the fellowship and delivered them into Jinlin's power. His hostility toward Cid might have seemed a reason to trust him, but the fellowship discovered that sharing an enemy did not guarantee the same understanding of justice.
 
 The companions defeated **Jinlin in an actual battle**, before the mind flayer Zauks imprisoned them in his illusions. What became of the Wrath's remaining followers and whether the name survived as an active cause have not been established.
 

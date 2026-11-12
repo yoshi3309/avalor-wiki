@@ -23,7 +23,7 @@ facts: |-
   Family legacy: Mother's spellbook and ice-blue crystal; father's kraken-tooth knife
   Crystal: One of two stones linked to Jaznaar's hidden refuge
   Historic encounter: Jaznaar's hidden refuge
-related: the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,cove-city,jaznaar,the-first-commission,zauks-false-lives
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,the-misfits,lavitz-shawe,svendyal-shadowwhisper,the-aegis,shammans-tower,cove-city,jaznaar,the-first-commission,zauks-false-lives
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001 and II.003; author-confirmed World Anvil biography, tower and crystal history (November 2026)
 callouts:
   - type: reflection
@@ -129,13 +129,21 @@ Jaznaar was the last survivor of [[The Six]], remembered for centuries as the Be
 
 Jaznaar died after the companions departed. The truth he had offered survived him.
 
+## The Keeper and the broken road toward the queen
+
+As a scholar, Tel'Lora could often explain what the Misfits saw more readily than why it had happened. **[[Anna, Lowkee's Keeper|Anna]]** was a reminder that the most consequential parts of their journey did not all arrive with an explanation. The companions encountered the tavern waitress while searching for knowledge concerning Lowkee's Keeper; she became a noncombatant member of their traveling household and bore the enigmatic **[[Emerald of Armanti]]**.
+
+The connection to Lowkee mattered to the wizard as well as to Lavitz. Tel'Lora's own inherited ice-blue stone would help lead them to Jaznaar, and Lowkee's former sword would later pass to Lavitz. These objects belonged to distinct histories. A scholar's desire to connect them did not justify assigning the Emerald a power or purpose not demonstrated by the surviving evidence.
+
+After the tournament, the company's royal rescue became a captivity of its own. **[[Ros Furband]]** took the Misfits aboard his galleon. While Lavitz and Heureux strained at the oars, **Tel'Lora worked in the galley beside Anna**. The later High Wizard had learned to navigate uncertain spells and complex wards, but on that voyage he faced the immediate reality of being unable to secure his own freedom.
+
 ## Memory, deception, and the Shadowfell
 
 At the [[The Tournament of Champions|Tournament of Champions]], the companions tried to protect the royal couple from Cid. The Blood King abducted [[Queen Melmiri]], and the Misfits departed on a pursuit that proved far from direct.
 
 The pirate **Ros Furband** captured the company and delivered them into the power of **[[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire whose hatred of Cid did not make him trustworthy. **Jinlin was defeated in a real confrontation.** Only afterward did the mind flayer [[Zauks and the False Lives|Zauks]] fashion counterfeit versions of the companions' earlier dangers and the lives they most wished they had lived.
 
-The precise hopes each captive saw in Zauks's illusions have not been fully disclosed in the public record. The company escaped the deception through Amara's intervention and continued toward the Shadowfell, where Melmiri remained captive.
+The precise hopes each captive saw in Zauks's illusions have not been fully disclosed in the public record. The company escaped the deception through Amara's intervention and continued toward the Shadowfell, where Melmiri remained captive. **Amara had been taken after the Games**, not at the earlier hydra temple, and she was outside the false experiences when she appeared as an owl, returned to her own form and killed Zauks.
 
 They reached Cid's fortress, rescued the queen, and helped bring the foundational lie that had condemned Jaznaar into public view. Tel'Lora's part in the victory did not make him an eyewitness to every event of the founding era. It made him one of the people who helped bring surviving testimony into the light.
 

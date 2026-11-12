@@ -6,7 +6,7 @@ category: History & Chronicles
 entry: HIS.015
 era: "Age of the Misfits"
 facts: "Earlier adventure: Moonville Manor\nCommissioner: The preceding Lord Marshal\nThreat: An unnamed necromancer\nResult: The adventurers defeated the practitioner\nLater evidence: Fragments of magical research\nDistinct later enemy: Jaaris"
-related: the-misfits,cult-of-golgoroth,rotten-husk-clan,noki-the-sheep
+related: anna-lowkees-keeper,the-misfits,cult-of-golgoroth,rotten-husk-clan,noki-the-sheep
 source: "The Living Chronicle, Chapter VI, I–II; Master Canon Bible Volume I, V"
 featured: false
 ---
@@ -33,8 +33,10 @@ Their loyalty grew through decisions to stand together beyond the end of any one
 
 ## A road of unrelated wonders
 
-Their adventures included [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from an oppressive chieftain. Moonville belongs to the period *before* the first commission.
+Their later adventures included [[Noki]], whose confrontation with the Misfits ended in a sheep transformation and disfigurement—after which the surviving mage took the name **Noke**. They also liberated the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from an oppressive chieftain. Moonville belongs to the period *before* the first commission.
 
 Not every such story led to Cid. For those affected by each adventure, however, the outcome could matter more immediately than the mystery that would one day bring the Misfits renown.
+
+During a subsequent search for knowledge concerning Lowkee's Keeper, they met **[[Anna, Lowkee's Keeper|Anna]]**, a waitress who joined them as a noncombatant companion. Her place in the history of the Misfits is not part of their first commission; it shows how the company grew long after their first royal assignment had ended.
 
 The first commission therefore remains worth recording as a beginning: a service undertaken for a specific danger that became the foundation of an enduring friendship.

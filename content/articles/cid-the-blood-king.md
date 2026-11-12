@@ -16,7 +16,7 @@ facts: |-
   Weapon: Enchanted scythe
   Legacy: Blood Sickness and the Betrayer's Legend
   Known defeat: Confrontation with the Misfits
-related: aldus-greystone-iii,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,betrayers-legend,the-misfits,the-stalker,tournament-of-champions,jaznaars-vindication
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,aldus-greystone-iii,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,betrayers-legend,the-misfits,the-stalker,tournament-of-champions,jaznaars-vindication
 source: The Living Chronicle, Chapters III–IV and VI–VII; Master Canon Bible Volume I; creator's World Anvil physical and psychological description (November 2026)
 featured: false
 ---
@@ -88,6 +88,14 @@ He no longer asked how to ease one person's suffering. He demanded that the worl
 Even after centuries of corruption, the calm and persuasive habits of the old healer remained. Cid did not simply seek to destroy an opponent. He took particular pleasure in breaking the convictions that opponent had once cherished, treating another person's despair as proof that goodness would always fail.
 
 This was the cruelest continuity between Aldus and Cid: the man who once offered relief from pain had learned to make pain the argument for his own rule.
+
+## Prisoners at the ruined temple
+
+The ruined temple near Stanleyville made the Blood King's cruelty visible in another way. Cid and his servants confined the adventurers with others caught in his scheme, restraining their ability to use magic while preparing a rite involving the bodies and power of his captives. **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend of the Misfits, was endangered there upon an altar.
+
+Cid was attended by servants including [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. The venture ended in catastrophe: Captain Funkin, Inspector Sihnion, and guards died. The preceding Lord Marshal and Anna survived, but **Fo'Gurn remained to face a hydra** so that his friends could escape.
+
+The Lord Marshal's own death came later at Stanleyville. Cid's legacy cannot be understood by collapsing these separate losses into one act, or by treating the companions' courage as evidence that those whom they could not rescue mattered less.
 
 ## The suffering at Stanleyville
 

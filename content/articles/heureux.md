@@ -23,7 +23,7 @@ facts: |-
   Historical work: Published account of the Misfits
   Founded: Heureux's Bard Academy in Taveras
   Guiding belief: Our truth is our history, and our history is our truth
-related: ringtree-clan,peoples-of-avalor,primordial-powers,the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,ringtree-clan,peoples-of-avalor,primordial-powers,the-misfits,kelsalor,heureuxs-bard-academy,bard-guild,forest-of-the-fey,the-first-commission,rotten-husk-clan,fo-gurn,zauks-false-lives,amara,royal-commission-historical-inquiry
 source: Creator-supplied Heureux (H) expanded Ringtree Clan biography (November 2026); The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001, public Scholar's Account
 callouts:
   - type: reflection
@@ -142,6 +142,14 @@ The company's adventures began with the living halls of **[[The Misfits#moonvill
 
 To H, the people helped along the way were not merely supporting characters in a story about heroes. Their experiences mattered in their own right.
 
+## Anna, the Keeper, and the people behind the legend
+
+Heureux's history of the Misfits did not begin and end with the adventurers who could stand in the front line of a fight. Their travels also brought them **[[Anna, Lowkee's Keeper|Anna]]**, met while pursuing knowledge of Lowkee's Keeper, and later Jack, the boy whose spirit remained with them after Stanleyville.
+
+Anna was remembered first as a tavern waitress. When she joined the road, she carried an **[[Emerald of Armanti|emerald]]** associated with the hope of calling upon [[Lowkee]]'s help, but she had no place among the company's trained fighters. To H, that distinction made her place more significant, not less. If a fellowship's history counted only the people who killed its enemies, it would fail to describe the people for whom those enemies were fought.
+
+The rescue of Queen Melmiri put this principle to a hard test. **[[Ros Furband]]** captured the Misfits after the Games, and **Heureux labored at the oars beside Lavitz**, while Tel'Lora and Anna worked in the galley. The memory of that cramped, degrading voyage belonged in H's account as surely as their later victory. It reminded readers that the celebrated champions had themselves known helplessness.
+
 ## Fo'Gurn, Jack, and the memory of loss
 
 The Misfits' journeys gave H friendships and losses he would remember long afterward.
@@ -164,7 +172,7 @@ H had witnessed the destruction of a clan's archive and the manipulation of an e
 
 ## The rescue and the testimony
 
-At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The Misfits followed him into the Shadowfell, rescued her, and fought the Blood King.
+At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. Only after their captivity aboard Ros's galleon, their real victory over Jinlin Vechon, and the false lives of Zauks did the Misfits reach the Shadowfell. Anna remained part of their journey; the Emerald of Armanti reappeared in testimony of the final confrontation. They rescued Melmiri, who helped them escape, and fought the Blood King.
 
 After the victory, **[[The Vindication of Jaznaar|King Gradvum's proclamation]]** corrected the kingdom's false accusation against Jaznaar. But a royal proclamation could not preserve every friendship, every frightened moment, or every overlooked kindness that the companions had witnessed.
 

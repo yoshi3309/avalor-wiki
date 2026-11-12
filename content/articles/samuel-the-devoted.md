@@ -17,7 +17,7 @@ facts: |-
   Time on Aegis: Approximately thirty years
   Appearance: Tall, lean, muscular; openly displayed angelic wings
   Peculiarity: Inventive multilingual swearing
-related: the-aegis,heavens-heart,cathedral-paladins,threefold-devotion,cid-the-blood-king,lavitz-shawe,astronoph
+related: anna-lowkees-keeper,emerald-of-armanti,fo-gurn,lowkee,the-misfits,the-aegis,heavens-heart,cathedral-paladins,threefold-devotion,cid-the-blood-king,lavitz-shawe,astronoph
 source: World Anvil, Samuel and The Bloodless (creator-supplied biography and public organization page, November 2026); The Living Chronicle, Chapter VI; Compendium II · II.001
 featured: false
 ---
@@ -51,6 +51,14 @@ The Bloodless were not simply another name for the Cathedral Paladins. Samuel's 
 Samuel personally oversaw the Bloodless while also training young paladins devoted to Tyr and Helm. He regarded both forms of service as part of the greater effort to restore balance to Avalor and the lands around it.
 
 Those who knew Samuel as a patient teacher might not have understood how relentless he could become when pursuing the Blood King. Those who knew only the hunt might have been surprised to find him taking such pleasure in the ordinary company of mortals.
+
+## The last confrontation with Cid
+
+The long pursuit of the Blood King eventually intersected with the final campaign of [[The Misfits]]. At the ruined temple near Stanleyville, Samuel's arrival helped interrupt Cid's control of the captives. Anna, a noncombatant companion known to the group through the search for Lowkee's Keeper, survived the temple; Fo'Gurn stayed behind to protect the others when the hydra threatened their escape.
+
+The final confrontation in the Shadowfell is remembered for an extraordinary intervention in which witnesses associated Samuel's presence with the legacy of **[[Lowkee]]** and the **[[Emerald of Armanti]]**. The public record cannot explain the full means of that intervention or how it related to Lowkee's continuing existence. It can record the danger Samuel faced and the part he played alongside the companions when Cid's final escape failed.
+
+Samuel's service thus forms a bridge between the paladin tradition Lowkee founded and the younger heroes who ended a threat that had outlasted generations. That history does not make him a substitute for their choices: he had pursued Cid for years, but it was the company that would carry the cost of the victory.
 
 ## Thirty years at the Aegis
 

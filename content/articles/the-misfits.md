@@ -10,12 +10,12 @@ facts: |-
   Fellowship: The Misfits
   Early companions: Lavitz, Tel'Lora, Sven, Amara, Fo'Gurn
   Joined later: Heureux
-  Other traveling companion: Jack of Stanleyville
+  Other traveling companions: Anna (Lowkee's Keeper); Jack of Stanleyville
   Publicly celebrated five: Lavitz, Tel'Lora, Sven, Heureux, Amara
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 callouts:
   - type: reflection
@@ -59,7 +59,7 @@ The ancient [[The Six|Six]] had been united during Avalor's founding and ultimat
 
 ## Meet the companions
 
-The five most commonly celebrated Misfits are those who continued to shape Avalor's public life after the victory. The earliest company, however, included **Fo'Gurn**, and its travels also gave a place to **Jack**, a child whose conscious ghost befriended them.
+The five most commonly celebrated Misfits are those who continued to shape Avalor's public life after the victory. The earliest company, however, included **Fo'Gurn**, and its travels also gave a place to **Anna**, a noncombatant companion called Lowkee's Keeper, and **Jack**, a child whose conscious ghost befriended them. The five whose later careers became widely celebrated were not the whole fellowship.
 
 ### Lavitz Shawe — the paladin
 
@@ -103,6 +103,14 @@ The published history and authorized testimony contain later accounts of his une
 
 Jack did not remain behind in the town. He went with the company, a traveling companion whose life and death mattered for reasons beyond the evidence he helped uncover.
 
+### Anna — the Keeper who traveled with them
+
+The companions met **[[Anna, Lowkee's Keeper|Anna]]** during a search for knowledge concerning the ancient paladin [[Lowkee]]. A waitress when they first encountered her, Anna traveled with the Misfits as a **noncombatant**, carried the [[Emerald of Armanti]], and found a place among friends whose lives were increasingly dangerous. Her name belongs alongside those who fought, not below the story as an object to be escorted.
+
+### Jack and the companions who were not warriors
+
+[[Jack of Stanleyville]] was a murdered child whose spirit chose to remain with the company after his death. Neither Anna nor Jack was an original player-character warrior of the Misfits, yet both shaped what it meant for the others to be a fellowship. Their stories deserve attention beyond the dangers that brought them onto the road.
+
 ## Moonville Manor
 
 The earliest surviving account of the fellowship's adventures brings them to **Moonville Manor**, a **living house**. Its uncanny halls became one more danger the companions shared, and one more adventure that would return to haunt them when Zauks began turning their memories against them.
@@ -117,21 +125,25 @@ After Moonville Manor, the preceding Lord Marshal called upon the companions to 
 
 This first commission was not their first adventure, nor was the enemy the later necromancer [[Jaaris]]. The recovered writings do not establish that Cid had directed the practitioner or arranged the companions' meeting. The full inquiry is preserved in [[The Misfits’ First Commission|the record of the first commission]].
 
-The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]], a wizard transformed into a sheep, became one of the road's more improbable stories. Not every strange event was an instrument of the Blood King.
+The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]] was remembered for the mage's transformation into a sheep. He survived the affair and would later be known as **Noke**, although the Misfits believed his story had ended. His later disfigurement must not be projected onto the mage they fought. Not every strange event was an instrument of the Blood King.
 
-## II. The wider road and those who joined it
+## II. Anna and the search for Lowkee's Keeper
 
-The Misfits' adventures were not all arranged by the Blood King. A wizard inexplicably transformed into a sheep, the dangers of unfamiliar roads, and the people who asked the company for help mattered on their own terms. Their company grew not by prophecy but through those encounters.
+Not every road the Misfits traveled was part of a scheme laid by Cid. A living manor, a cult, and the affair of a mage transformed into a sheep belonged to their earlier adventures. Another search, undertaken in hope of understanding the ancient paladin **[[Lowkee]]**, brought someone into their company whose name was too long treated as a footnote.
 
-During a search connected with Lowkee's Keeper, the travelers met **Anna**, a tavern waitress who accompanied them on the road. Her place among the companions is remembered, though portions of her earlier life have not entered the public record.
+They met **[[Anna, Lowkee's Keeper|Anna]]** at a tavern. Sven's awkward stumble into the waitress made the first encounter memorable for embarrassment rather than prophecy. In the days that followed, she became more than the person they had met while following clues: **she traveled with them as a noncombatant friend**, needing their protection and offering her own form of steadfast companionship.
 
-The fellowship would also befriend a murdered child's ghost, and later help an orc community gain freedom from its own oppressive chieftain. Each life encountered along the way challenged the notion that the Misfits' importance could be measured only by their eventual victory over Cid.
+The name **Lowkee's Keeper** attached itself to Anna and to the search. She bore the **[[Emerald of Armanti]]**, an object connected in testimony with the hope of calling upon Lowkee's help against the Blood King. That was a hope the companions carried; it is not proof of a permanent resurrection of the founding paladin, nor a complete account of the gem's capabilities.
+
+Protecting Anna was never merely an errand to deliver a magical object. When the company was captured near Stanleyville, **Anna was among those endangered at the ruined temple**, and she survived alongside the preceding Lord Marshal. Later, after the Games, she endured a second captivity on **[[Ros Furband|Ros Furband's]]** pirate galleon, working in the galley beside Tel'Lora while the queen they were trying to rescue remained in Cid's hands.
+
+Anna continued with the fellowship to the end of its campaign. The emerald reappeared at the final confrontation, although its complete workings and portions of Anna's private history have not been disclosed. What the witnesses did preserve was the presence of a friend who had no need to take up a sword to belong among them.
 
 ## III. The hydra and the missing companion
 
 At a temple near [[Stanleyville]], the Misfits confronted a more direct manifestation of Cid's cruelty. Captives had been restrained against their use of magic, and the site was connected to a rite seeking to turn divine power toward the Blood King's purpose. The evidence does not give scholars license to reconstruct every detail of that rite.
 
-Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Captain Funkin, Inspector Sihnion, and guards died** in the catastrophe surrounding the temple. The preceding Lord Marshal and Anna survived this episode.
+Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Anna, whose companionship had begun during the search for Lowkee's Keeper, was endangered at the altar**. Captain Funkin, Inspector Sihnion, and trapped guards died in the catastrophe. The preceding Lord Marshal and Anna survived this episode.
 
 A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the years in which they mourned him, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
 
@@ -169,7 +181,7 @@ At [[The Tournament of Champions]] in [[Renada]], the Misfits entered under assu
 
 **Amara was taken after the Games**, during the dangers that followed the public celebration. The surviving account does not establish the exact circumstances of her capture or return; what is certain is that she later intervened when Zauks imprisoned the companions.
 
-The rescue did not follow an uninterrupted passage from the tournament grounds to Cid's throne. A pirate captain named **Ros Furband**, operating under his own arrangements, captured the companions and delivered them into the hands of another of the era's dangerous figures. The Commission has not established Ros's point of embarkation or every condition attached to his bargain.
+The rescue did not follow an uninterrupted passage from the tournament grounds to Cid's throne. A pirate captain named **[[Ros Furband]]**, operating under a paid arrangement, captured the companions and delivered them into the hands of another of the era's dangerous figures. The Commission has not established Ros's point of embarkation or every condition attached to his bargain.
 
 ## Jinlin Vechon and the Wrath of Innocent
 
@@ -177,7 +189,7 @@ Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and found
 
 The Misfits **fought Jinlin in the waking world and defeated him**. His defeat is an event of their actual campaign, not a scene invented by the mind flayer who later attacked them. Melmiri remained in Cid's custody while these events unfolded.
 
-Accounts of the voyage preserve the humble work assigned to the captives: Lavitz and Heureux labored at the oars, while Tel'Lora and Anna worked in the galley. Such details are useful counterweights to ballads that remember only crowns, monsters, and weapons.
+Accounts of the voyage preserve the humble work assigned to the captives: Lavitz and Heureux labored at the oars, while Tel'Lora and [[Anna, Lowkee's Keeper|Anna]] worked in the galley. **Sven and Admiral [[Beldir Willowrun]]** were also placed among the lookouts; Beldir's precise reason for being aboard remains uncertain. Such details are useful counterweights to ballads that remember only crowns, monsters, and weapons.
 
 The broader history of Jinlin's faction is preserved separately. Later imitations of older adventures should not be mistaken for a resurrection of Jinlin or a second assault upon his stronghold.
 
@@ -187,7 +199,7 @@ The broader history of Jinlin's faction is preserved separately. Later imitation
 
 The order in which Zauks presented these horrors was **the order of a torment**, not a second chronology of the fellowship's lives. At Jack's house, for instance, the companions were offered another chance to prevent a child's death; that painful imitation did not change what had happened in Stanleyville.
 
-The mind flayer's cruelest deception was to offer convincing **false lives** in which grief and separation had been repaired. **Amara was outside the captives' illusions** and intervened to bring the ordeal to its end. The accounts retain the image of an owl, but the bird of this episode should not be conflated with every other owl mentioned in stories about Amara's family.
+The mind flayer's cruelest deception was to offer convincing **false lives** in which grief and separation had been repaired. **Amara was outside the captives' illusions**. She came into the lair in the shape of an owl, returned to her own form, and **killed Zauks**, freeing her companions. Another owl is remembered in accounts of her family; the two episodes are not the same event.
 
 When the Misfits emerged, the queen was still captive. They had escaped an invented happiness, not completed the rescue that had sent them on the road.
 
@@ -197,7 +209,7 @@ The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's i
 
 Authorized accounts describe **Fo'Gurn's unexpected presence** and a confrontation with Lavitz. They preserve the moral outline of a friend who refused to answer danger with abandonment, and of Fo'Gurn **choosing again to protect Lavitz**. The precise circumstances of his appearance and the words exchanged between the paladins remain outside the securely established public narrative.
 
-As Cid sought to escape, testimony places the **Emerald of Armanti** in Fo'Gurn's hands. A vast black hand, or hands in some accounts, reached from an opening into darkness and took the Blood King away. No witness could name the force responsible; later scholars must not assign it a divine or other identity merely to supply an ending.
+As Cid sought to escape, testimony places the **[[Emerald of Armanti]]**, the jewel associated with **Anna and Lowkee's Keeper**, in Fo'Gurn's hands. The final testimony also places **[[Samuel the Devoted|Samuel]]** in the struggle, though the precise nature of the brief intervention associated with Lowkee is not fully established for public readers. A vast black hand, or hands in some accounts, reached from an opening into darkness and took the Blood King away. No witness could name the force responsible; later scholars must not assign it a divine or other identity merely to supply an ending.
 
 **Melmiri helped her rescuers escape** the failing fortress. Her part in the escape was an act of agency, not simply the passive recovery of a captive queen. The details of the passage remain incompletely recorded. All the returning companions survived the final battle, and the kingdom received its queen again.
 
@@ -215,6 +227,6 @@ That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained
 
 The most familiar account of the Misfits records the five companions whose later careers remained visible during Avalor's Age of Ascendancy. That account is not false, but it is incomplete if read as the entire history of the fellowship.
 
-Fo'Gurn was an original Misfit; Jack was a companion they chose to carry with them. Both belong in its story. Their presence reminds readers that belonging need not be measured by whether one's name remains on a royal roster.
+Fo'Gurn was an original Misfit; Anna and Jack were companions they chose to bring into their lives. **All three belong in the story**. Their presence reminds readers that belonging cannot be measured only by whether one's name remains on a royal roster.
 
 The history of the Misfits is ultimately the history of a friendship that endured loss, exposed a kingdom's oldest lie, and allowed its members the freedom to become more than the battles they had fought.

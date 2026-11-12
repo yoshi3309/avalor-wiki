@@ -11,7 +11,7 @@ facts: |-
   Region: Dead Marshes
   Historic founder: Faelynn, the Night Mistress
   Institution: Hunters Guild
-related: hunters-guild,malikeah,faelynn,dead-marshes
+related: hunters-guild,malikeah,mera-ashenfall,faelynn,dead-marshes
 source: Compendium II · Entry II.003, XIV; The Living Chronicle, Chapters
   II–III; author-approved World Anvil background (November 2026)
 featured: false
@@ -48,4 +48,6 @@ Wayward Sun preserves an important truth about Avalor: its protection has never 
 
 ## The present leadership
 
-The Hunters Guild continues today under [[Malikeah]]. The endurance of its work is part of Wayward Sun's present character, not merely a memory of Faelynn's founding.
+The Hunters Guild's experienced figurehead is **[[Malikeah Ashenfall]]**, who cares for the Wayward Sun alongside his wife **[[Mera Ashenfall]]** as an equal partner in its operations. Malikeah's wary resourcefulness and Mera's inventive, spirited approach give the refuge much of its character.
+
+Their household reflects the guild's oldest promise: the hunter's family must remain a home, even while its members face dangers beyond the marshes. The endurance of that work is part of Wayward Sun's present character, not merely a memory of Faelynn's founding.

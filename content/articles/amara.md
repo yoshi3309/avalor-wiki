@@ -14,7 +14,7 @@ facts: |-
   Notable memory: The owl in Zauks's false lives
   Later service: Journeys in care of the natural world
   Public record: Increasingly rare accounts and folklore
-related: the-misfits,petris,the-six,the-sacred-balance,zauks-false-lives,heureux,lavitz-shawe,rotten-husk-clan,the-first-commission
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,the-misfits,petris,the-six,the-sacred-balance,zauks-false-lives,heureux,lavitz-shawe,rotten-husk-clan,the-first-commission
 source: The Living Chronicle, Chapters III and VI–VII; Compendium II · Entry II.001, public Scholar's Account
 featured: false
 ---
@@ -55,6 +55,14 @@ These histories do not name Amara as the sole architect of each victory. They pl
 
 The life of a druid can be measured by relationships to living things and threatened places, but there is no reliable list of every grove, creature, or settlement Amara personally protected during these travels. An archivist should resist turning plausible deeds into undocumented feats.
 
+## Anna and the people carried through danger
+
+Along the road, the Misfits also made room for **[[Anna, Lowkee's Keeper|Anna]]**, a waitress they met during a search for knowledge associated with Lowkee's Keeper. She accompanied them as a **noncombatant**, carrying a jewel known as the **[[Emerald of Armanti]]**. Amara and the others guarded a person whose part in the story could not be measured by spells cast or enemies defeated.
+
+At the ruined temple near Stanleyville, Anna was among those endangered by Cid's rite. She escaped, though other prisoners and protectors did not. Amara's **own capture happened after the Renada Games**, not at this earlier temple. The precise circumstances of that later captivity and her return remain unclear from the public testimony.
+
+Such distinctions matter in a history of companionship. The group had two women whose separate experiences were sometimes flattened into one story of danger: Anna had to survive the temple and the pirate voyage, while Amara's later disappearance and return became essential to the defeat of Zauks.
+
 ## The loss of Fo'Gurn and the companionship of Jack
 
 The Misfits' early travels included a loss that reached the entire company. Fo'Gurn stayed behind before a hydra to allow the others to escape. They survived, believing he had died.
@@ -71,7 +79,7 @@ Among the most recognizable details in Amara's surviving history is an **owl** a
 
 The mind flayer used the companions' own memories to recreate earlier threats, then offered them convincing visions of lives in which their grief seemed undone and their desires fulfilled.
 
-While the others were held in Zauks's counterfeit experiences, **Amara was outside their illusions**. The owl remembered at the close of the ordeal was Amara herself, whose intervention enabled the captives' escape and ended the mind flayer's cruelty. The record should not turn her rescue into an imagined false life of her own.
+While the others were held in Zauks's counterfeit experiences, **Amara was outside their illusions**. She entered the lair in the shape of an owl, resumed her own form, and **killed the mind flayer**. The owl was Amara herself, not the figure of an ideal life offered to her within a cocoon. The record should not turn her rescue into an imagined false life of her own.
 
 That rescue matters as more than an answer to a riddle. The companions were offered lives in which their sorrows had been undone; Amara reached them from the imperfect world they still belonged to. The owl of this encounter is distinct from the separate story of her sister, whose fate remains uncertain.
 

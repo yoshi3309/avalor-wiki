@@ -49,6 +49,9 @@ journeys:
       - article: the-first-commission
         label: The First Call to Adventure
         introduction: After the companions' first adventure at Moonville Manor, an earlier Lord Marshal asks them to investigate an unnamed necromancer. There is no prophecy, only a job and new reasons to trust one another.
+      - article: anna-lowkees-keeper
+        label: A Keeper on the Road
+        introduction: A tavern meeting during the search for Lowkee's Keeper brings Anna into the company. Her noncombatant friendship and the Emerald of Armanti shape the road ahead.
       - article: fo-gurn
         label: The Friend Who Stayed Behind
         introduction: Fo'Gurn's stand against a hydra buys the others time to escape. His friendship with Lavitz, and the years of mourning that follow, deserve more than a footnote.
@@ -67,9 +70,15 @@ journeys:
       - article: tournament-of-champions
         label: Celebration and Catastrophe
         introduction: In Renada, a public tournament becomes the stage for a royal abduction. The queen remains captive through Ros Furband's ship, Jinlin's defeat, and Zauks's false worlds.
+      - article: ros-furband
+        label: The Pirate's Delay
+        introduction: Ros Furband captures the companions during their interrupted rescue of Melmiri, and the voyage takes them to Jinlin's Wrath of Innocent.
       - article: zauks-false-lives
         label: The Lives That Might Have Been
         introduction: A mind flayer uses the companions' memories and grief against them. After the tournament and the real battle against Jinlin, the trials reveal how much of their strength comes from the lives they choose together.
+      - article: emerald-of-armanti
+        label: A Jewel in the Final Struggle
+        introduction: Anna's emerald links the hope of Lowkee's aid to the last struggle, while the exact means of its magic remain outside public testimony.
       - article: cid-the-blood-king
         label: The Blood King's Last Confrontation
         introduction: Trace the enemy's hidden identity and the long path to his defeat. The man who began as Aldus Greystone III has shaped much more than the companions realized.
