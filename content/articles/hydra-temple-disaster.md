@@ -16,7 +16,7 @@ Near [[Stanleyville]], the Misfits came into the power of Cid's servants and wer
 
 The temple was no ordinary prison. It contained preparations for a blood rite, an altar, and a pit of flesh and bone. Anna was placed upon the altar; [[fo-gurn|Fo'Gurn]] was wounded and held apart from his companions. The arrangements made clear what the prisoners were to their captors: not guests to be persuaded, but lives to be consumed in a design greater than any one hostage.
 
-The adversaries present or implicated in the operation included **[[Jaaris]]**, a necromancer; Karina, a vampiric centaur; Black Agnes Mudwallow, a night hag; and the mind flayer Zauks. These individuals are sometimes called the “Dark Misfits” in later accounts, but that was not an established title by which they organized themselves. They served Cid's interests, not a rival fellowship bound by the same kind of loyalty as the adventurers they opposed.
+The adversaries present or implicated in the operation included **[[Jaaris]]**, a necromancer; Karina, a vampiric centaur; Black Agnes Mudwallow, a night hag; and the mind flayer **[[zauks|Zauks]]**. These individuals are sometimes called the “Dark Misfits” in later accounts, but that was not an established title by which they organized themselves. They served Cid's interests, not a rival fellowship bound by the same kind of loyalty as the adventurers they opposed.
 
 ## The Blood King's claim
 
