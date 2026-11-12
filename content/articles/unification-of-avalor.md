@@ -4,7 +4,7 @@ subtitle: When Allied Crowns Became a Kingdom
 summary: Rynhold Frozenroar's negotiated union of the northern kingdoms after
   the defeat of Lord Osmo.
 category: History & Chronicles
-image: /assets/uploads/unifcation-of-avalor.png
+image: /assets/uploads/unifciation-of-avalor.png
 entry: HIS.017
 era: 1 AF
 facts: |-
