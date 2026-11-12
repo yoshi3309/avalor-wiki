@@ -1,10 +1,12 @@
 ---
-title: "The Reforms of Queen Reina"
-subtitle: "Undoing the Edicts Before the Truth Was Known"
-summary: "Reina's curtailment of anti-drow laws after Arnaud, long before the public truth about Jaznaar emerged."
+title: The Reforms of Queen Reina
+subtitle: Undoing the Edicts Before the Truth Was Known
+summary: Reina's curtailment of anti-drow laws after Arnaud, long before the
+  public truth about Jaznaar emerged.
 category: History & Chronicles
+image: /assets/uploads/the-reforms-of-queen-reina.png
 entry: HIS.023
-era: "1316–1402 AF"
+era: 1316–1402 AF
 facts: |-
   Monarch: Reina Frozenroar
   Reign: 1316–1402 AF
@@ -12,10 +14,10 @@ facts: |-
   Policy: Curtail discriminatory restrictions
   Later event: Jaznaar's public vindication under Gradvum
 related: arnauds-edicts,sanctuary-at-heavens-heart,jaznaars-vindication,house-frozenroar,kingdom-of-avalor
-source: "The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry II.001, public historical account"
+source: The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry
+  II.001, public historical account
 featured: false
 ---
-
 ## The crown changes course
 
 **Reina Frozenroar** succeeded Arnaud and reigned from **1316 to 1402 AF**. The kingdom she inherited still carried the damage caused by royal decrees that had singled out drow families for suspicion, searches, and displacement.
