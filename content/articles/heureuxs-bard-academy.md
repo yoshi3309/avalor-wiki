@@ -1,8 +1,11 @@
 ---
 title: Heureux’s Bard Academy
 subtitle: A Place to Find One's Voice
-summary: Founded in Taveras after the defeat of Cid, Heureux's academy offers new generations a place to study the bardic arts and discover what stories they wish to carry into the world.
+summary: Founded in Taveras after the defeat of Cid, Heureux's academy offers
+  new generations a place to study the bardic arts and discover what stories
+  they wish to carry into the world.
 category: Organizations & Factions
+image: /assets/uploads/heureuxs-bard-academy.png
 entry: ORG.011
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +16,11 @@ facts: |-
   Known student: Myxi Twinefoot, Golden Hand of the Aegis
   Related institution: Society of Silk & Story, independently established
 related: heureux,myxi-twinefoot,bard-guild,taveras,the-misfits,kelsalor,royal-commission-historical-inquiry
-source: The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible Volume I, VI–VII; author-approved student detail and Society of Silk & Story distinction (November 2026)
+source: The Living Chronicle, Chapter VII, VI and VIII; Master Canon Bible
+  Volume I, VI–VII; author-approved student detail and Society of Silk & Story
+  distinction (November 2026)
 featured: false
 ---
-
 ## A school born after the adventure
 
 The battles of [[The Misfits]] altered the course of Avalor, but the lives their companions built afterward may prove just as enduring. In **[[Taveras]]**, the firbolg bard **[[Heureux]]** founded an academy where others could learn the art to which he had devoted his life.
