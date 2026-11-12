@@ -33,9 +33,10 @@ callouts:
     after: a-library-without-walls
     paragraph: 3
   - type: reflection
-    text: "Heureux fled carrying no certainty that the books could be saved. He
+    text: >-
+      Heureux fled carrying no certainty that the books could be saved. He
       carried something the flames could not consume: the verses he had learned
-      before dawn."
+      before dawn.
     attribution: Editorial reflection on the lost archive
     after: the-burning-of-the-library
     paragraph: 3
