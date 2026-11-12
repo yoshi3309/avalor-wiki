@@ -52,18 +52,15 @@ Samuel personally oversaw the Bloodless while also training young paladins devot
 
 Those who knew Samuel as a patient teacher might not have understood how relentless he could become when pursuing the Blood King. Those who knew only the hunt might have been surprised to find him taking such pleasure in the ordinary company of mortals.
 
-## The last confrontation with Cid
+## Two interventions in the Misfits' campaign
 
-In the Shadowfell **Anna, later revealed to be Erevan Ilesere**, arrived with Samuel, who **genuinely but temporarily channeled [[Lowkee]]'s spirit through the [[Emerald of Armanti]]**. He confronted Cid as Aldus, but the Blood King wounded Samuel severely, ending the manifestation. Lowkee did not return permanently to mortal life.
+Samuel's long pursuit of Cid intersected with the travels of [[The Misfits]] on more than one occasion. **At the ruined temple near Stanleyville**, after the Stalker had already killed Kel'Maris, Samuel helped interrupt Cid's hold over the prisoners. Anna escaped that disaster. Fo'Gurn stayed to confront the hydra so his friends could flee, and truly died there.
 
-Later, Lavitz and Fo'Gurn intercepted Cid's attack on the wounded Samuel. **Fo'Gurn pressed the Emerald into Cid's chest**, fulfilling its purpose as a barrier to the Blood King's return to the Material Plane. The immense black hands that seized Cid and dragged him into the Beyond were a separate event of unknown agency.
+**Later, during the final struggle in the Shadowfell**, Samuel appeared with Anna, who was revealed after the royal audience in Renada to have been **Erevan Ilesere in disguise**. Through the **[[Emerald of Armanti]]**, Samuel genuinely but **temporarily channeled [[Lowkee]]'s spirit**. Lowkee confronted Cid as Aldus, the man he had once known, but the Blood King severely wounded Samuel and the manifestation ended. Lowkee was not permanently resurrected.
 
+Lavitz and the necromantically restored Fo'Gurn subsequently intervened to protect the wounded Samuel. **Fo'Gurn pressed the Emerald into Cid's chest**, fulfilling its intended role in barring the Blood King from returning to the Material Plane. Enormous black hands drew Cid into the Beyond; no witness established who or what directed them, or that the Emerald summoned them.
 
-The long pursuit of the Blood King eventually intersected with the final campaign of [[The Misfits]]. At the ruined temple near Stanleyville, Samuel's arrival helped interrupt Cid's control of the captives. Anna, a noncombatant companion known to the group through the search for Lowkee's Keeper, survived the temple; Fo'Gurn stayed behind to protect the others when the hydra threatened their escape.
-
-Samuel's intervention is now understood: through the **[[Emerald of Armanti]]**, he genuinely but **temporarily channeled [[Lowkee]]'s spirit** and confronted Cid as Aldus. Cid severely wounded Samuel, ending the manifestation. Lowkee was not permanently resurrected. The emerald's separate purpose was to bar Cid from returning to the Material Plane; Fo'Gurn used it during the Blood King's final attempted escape.
-
-Samuel's service thus forms a bridge between the paladin tradition Lowkee founded and the younger heroes who ended a threat that had outlasted generations. That history does not make him a substitute for their choices: he had pursued Cid for years, but it was the company that would carry the cost of the victory.
+Samuel's service joins two generations of paladins without erasing their different choices. His intervention at the temple did not save Fo'Gurn from his sacrifice; his channeling of Lowkee at the end did not remove the cost the fellowship still bore.
 
 ## Thirty years at the Aegis
 
