@@ -54,7 +54,7 @@ The historical record offers no reliable census of the town's victims or exact i
 
 ## The unexplained deaths
 
-When mysterious deaths began, **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal and Gradvum's former sword instructor, asked the Misfits to investigate. The commission followed other work the companions had performed for him, and he had reason to trust their ability to face strange threats.
+When mysterious deaths began, **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal and Gradvum's former sword instructor, asked the Misfits to investigate. The commission followed other work the companions had performed for her, and he had reason to trust their ability to face strange threats.
 
 Among those killed was **[[Jack of Stanleyville|Jack]]**, a child whose death would later reveal an especially cruel method. A merchant had sold manuscripts to Jack's family; one volume concealed a deadly **Fireball** spell. Jack innocently read the words and was killed by the released magic.
 
