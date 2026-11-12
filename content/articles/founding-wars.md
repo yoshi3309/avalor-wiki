@@ -1,10 +1,12 @@
 ---
-title: "The Founding Wars"
-subtitle: "The War Against Lord Osmo"
-summary: "The campaigns and coalition that defeated the mortal conqueror Lord Osmo and made the founding of Avalor possible."
+title: The Founding Wars
+subtitle: The War Against Lord Osmo
+summary: The campaigns and coalition that defeated the mortal conqueror Lord
+  Osmo and made the founding of Avalor possible.
 category: History & Chronicles
+image: /assets/uploads/avalors-founding-wars.png
 entry: HIS.016
-era: "Before 1 AF"
+era: Before 1 AF
 facts: |-
   Adversary: Lord Osmo, a mortal conqueror
   Coalition: Rival northern kingdoms
@@ -12,10 +14,10 @@ facts: |-
   Decisive battle: Heroes Hill
   Exact campaign dates: Unresolved
 related: lord-osmo,rynhold-frozenroar,heroes-hill,lord-osmos-tower,unification-of-avalor,bradgem-glav,house-frozenroar
-source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
+source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
+  public historical record
 featured: false
 ---
-
 ## Before the lion banner
 
 Before Avalor there were many kingdoms. Their borders shifted through conflict, inheritance, and agreements, while travelers and merchants crossed them more readily than armies. **Kroubia**, ruled by [[Rynhold Frozenroar]], was one of these realms; it was smaller than the kingdom Avalor would become.
