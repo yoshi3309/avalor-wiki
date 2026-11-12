@@ -1,8 +1,10 @@
 ---
 title: The Sacred Balance
 subtitle: Druids and the Living World
-summary: A public account of Avalorian druidic spirituality, the cycles of nature, and the stewardship exemplified by Kelsalor of the Six.
+summary: A public account of Avalorian druidic spirituality, the cycles of
+  nature, and the stewardship exemplified by Kelsalor of the Six.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-sacred-balance.png
 entry: REL.003
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Later inheritance: Amara of the Misfits
   Universal deity or hierarchy: None established
 related: faiths-and-gods-of-avalor,kelsalor,amara,forest-of-the-fey,dead-marshes
-source: Compendium I · Entry I.004, Section VI, public Scholar's Account; The Living Chronicle, Chapters III–IV
+source: Compendium I · Entry I.004, Section VI, public Scholar's Account; The
+  Living Chronicle, Chapters III–IV
 featured: false
 ---
-
 ## Life beyond a temple
 
 Not all spiritual traditions in Avalor begin with the worship of a named deity. Among druids, the natural world may be understood as a sacred relationship in which mortals have obligations but no absolute claim of ownership.
