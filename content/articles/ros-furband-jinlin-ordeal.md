@@ -31,7 +31,7 @@ Ros's arrangement delivered the companions toward **Jinlin Vechon**, a dragonbor
 
 Jinlin hated the Blood King, but common enmity was not the same as common purpose. He had gathered followers around grievances and the pursuit of vengeance, and that cause could turn cruelly upon people who had not committed the crimes he sought to punish.
 
-The circumstances of Jinlin's earliest life and the origins of his condition are not established in the Commission's public account. His hatred does not justify inventing those details. What can be judged is the treatment of others by the Wrath and the actual confrontation in which the Misfits opposed him.
+Jinlin's history began nearly two thousand years earlier, when **Aldus Greystone III experimented upon him during the Blood Sickness research**. The experiments cursed Jinlin with unwanted vampirism, denying him the death he desired. His hatred of the Blood King was rooted in genuine suffering, but the Wrath of Innocent had come to punish people who had not committed Aldus's crimes. The Misfits ultimately defeated Jinlin in the waking world.
 
 ## A real battle before a false ordeal
 

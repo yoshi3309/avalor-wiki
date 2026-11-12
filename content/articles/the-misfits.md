@@ -185,7 +185,7 @@ The rescue did not follow an uninterrupted passage from the tournament grounds t
 
 ## Jinlin Vechon and the Wrath of Innocent
 
-Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and founder of [[Independent Factions of the Misfits Era#the-wrath-of-innocent|the Wrath of Innocent]]. Jinlin hated Cid, yet the fellowship found that shared hatred was no guarantee of shared justice. His own grievance did not authorize the harm he inflicted on others.
+Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and founder of [[Independent Factions of the Misfits Era#the-wrath-of-innocent|the Wrath of Innocent]]. Jinlin hated Cid, yet the fellowship found that shared hatred was no guarantee of shared justice. **Aldus had experimented on Jinlin during the Blood Sickness era**, cursing the dragonborn with unwanted vampirism and a seemingly unattainable death. Jinlin had a genuine grievance, but it did not authorize the harm he inflicted on others.
 
 The Misfits **fought Jinlin in the waking world and defeated him**. His defeat is an event of their actual campaign, not a scene invented by the mind flayer who later attacked them. Melmiri remained in Cid's custody while these events unfolded.
 

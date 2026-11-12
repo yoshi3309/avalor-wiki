@@ -33,7 +33,7 @@ Jaaris's eventual death belongs to **[[The Shadowfell Confrontation]]**, the pub
 
 Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, the Lord Marshal and others caught in the Blood King's design.
 
-The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. The public record connects Jaaris with later revelations about the paladin, but it does not provide a complete explanation of Fo'Gurn's extraordinary appearance during the last confrontation.
+The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. **Fo'Gurn truly died at the hydra. Jaaris later raised him through necromancy**, compelling the paladin against his former companions. During their last confrontation Lavitz lowered his defenses and Fo'Gurn chose to protect him, overcoming Jaaris's control **before** the necromancer died. Jaaris's subsequent death started the failure of Fo'Gurn's borrowed life; it did not cause the paladin's redemption.
 
 Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in the mind flayer's false adventures.
 

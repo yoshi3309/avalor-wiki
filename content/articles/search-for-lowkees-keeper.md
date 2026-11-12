@@ -31,7 +31,7 @@ The companions would later extend the same fellowship to the ghost of a boy murd
 
 Anna was associated with the **[[Emerald of Armanti]]**, a jewel whose name became attached to the hope of calling upon Lowkee's aid when the company eventually confronted the Blood King.
 
-The object did not become an ordinary key to every problem encountered on the road. Neither the precise nature of its magic nor Anna's private history is established as common public knowledge. A useful account records the jewel's presence, the people who carried it, and its witnessed place in the final struggle, without pretending to a complete explanation.
+The object did not become an ordinary key to every problem encountered on the road. The jewel was intended to bar Cid permanently from the Material Plane and enabled Samuel to channel Lowkee's spirit temporarily. Anna's true identity as **Erevan Ilesere** was revealed after the final royal audience. A useful account records the jewel's presence, the people who carried it, and its witnessed place in the final struggle, without pretending to a complete explanation.
 
 A second relic, the sword **Cid's Bane**, would later pass from Jaznaar to Lavitz. The two objects had different histories. Their shared association with Lowkee must not collapse them into a single magical device.
 
