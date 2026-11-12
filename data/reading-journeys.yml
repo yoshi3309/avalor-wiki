@@ -101,7 +101,8 @@ journeys:
             note: "The ghost boy who joins the travelers."
           - article: kel-maris
             note: "The Lion's Shadow: Gradvum's swordmaster and fallen protector."
-          - article: captain-funkin
+          - article: minor-heroes-and-allies
+            fragment: captain-funkin
             note: "The captain who brought the Lord Marshal home."
       - article: hydra-temple-disaster
         label: "The Temple and the Friend Who Stayed"
@@ -113,9 +114,11 @@ journeys:
             note: "The necromancer serving the Blood King."
           - article: samuel-the-devoted
             note: "The celestial ally whose pursuit intersects the Misfits' campaign."
-          - article: inspector-sihnion
+          - article: minor-heroes-and-allies
+            fragment: inspector-sihnion
             note: "An officer killed in the temple disaster."
-          - article: karina
+          - article: minor-villains-and-adversaries
+            fragment: karina
             note: "A vampiric enforcer whose crimes reached Tel'Lora's family."
       - article: rotten-husk-liberation
         label: "Freedom for the Rotten Husk"
@@ -150,7 +153,8 @@ journeys:
         label: "The Pirate, the Wrath and the Vampire"
         introduction: "Ros Furband makes the rescuers captives aboard his galleon. They later confront and defeat Jinlin Vechon in reality, with the queen still missing."
         deeper_reading:
-          - article: ros-furband
+          - article: minor-villains-and-adversaries
+            fragment: ros-furband
             note: "The hired pirate and what remains unknown about his bargain."
           - article: independent-factions-of-the-misfits-era
             note: "The Wrath of Innocent and its pursuit of vengeance."
