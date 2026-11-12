@@ -1,8 +1,10 @@
 ---
 title: House Frozenroar
 subtitle: The Royal House
-summary: The dynasty whose lion banner has presided over Avalor since the founding in 1 AF.
+summary: The dynasty whose lion banner has presided over Avalor since the
+  founding in 1 AF.
 category: Organizations & Factions
+image: /assets/uploads/house-frozenroar.png
 entry: HIS.002
 era: Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Current sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
 related: rynhold-frozenroar,founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
-source: The Living Chronicle · Chapter V, Royal Register, and Partial Pedigree; Compendium II · Entry II.001
+source: The Living Chronicle · Chapter V, Royal Register, and Partial Pedigree;
+  Compendium II · Entry II.001
 featured: false
 ---
-
 ## The first crown
 
 Before he became Avalor's first king, [[Rynhold Frozenroar]] ruled the northern kingdom of Kroubia. His coalition against Lord Osmo survived its own victory and became a new political union in **1 AF**. He chose [[Renada]] as the capital and founded institutions that could outlive their creator.
@@ -30,8 +32,9 @@ The line has endured not because every ruler governed wisely, but because the ki
 
 The **Royal Register** preserves **34 successive sovereigns**, beginning with Rynhold in 1 AF. A reign recorded immediately after another identifies a change of sovereign—not necessarily a parent and child. The dates below follow the public *Living Chronicle*, Appendix, and its accompanying partial pedigree.
 
+
 | # | Sovereign | Reign (AF) |
-|---:|---|---|
+| --- | ---------------------- | ------------ |
 | 1 | Rynhold Frozenroar | 1–37 |
 | 2 | Benedikt Frozenroar | 38–71 |
 | 3 | Aldara Frozenroar | 72–106 |
@@ -66,6 +69,7 @@ The **Royal Register** preserves **34 successive sovereigns**, beginning with Ry
 | 32 | Alenya Frozenroar | 1882–1945 |
 | 33 | Gerran Frozenroar | 1946–1982 |
 | 34 | Gradvum Frozenroar | 1983–present |
+
 
 ## What the royal pedigree establishes
 
