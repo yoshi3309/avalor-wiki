@@ -18,36 +18,49 @@ related: renada,queen-melmiri,the-misfits,anna-lowkees-keeper,ros-furband,emeral
 source: The Living Chronicle, Chapter VI, VII–IX; Master Canon Bible Volume I, V
 featured: false
 ---
-## A day of celebration
 
-The **Tournament of Champions** drew competitors and spectators into [[Renada]] for contests of skill, strength, and public spectacle. [[King Gradvum Frozenroar]] and [[Queen Melmiri]] were expected to attend.
+## A celebration in Renada
 
-The event was a celebration of Avalor. The companions who would soon face Cid understood that the royal family's presence might also create an opportunity for a dangerous enemy.
+For a day, **[[Renada]]** gathered around a different measure of courage. The **Tournament of Champions**, also remembered as the *Renada Games*, brought competitors and spectators to the capital for contests of skill and strength. **[[King Gradvum Frozenroar]]** and **[[Queen Melmiri]]** were expected to attend, as sovereigns attending a celebration of the realm.
 
-## Competitors with borrowed names
+The occasion mattered because it was public. The tournament belonged not only to its competitors but to the people who filled its stands and returned home with stories of victory, disappointment, and spectacle. Avalor's troubles had not suspended ordinary life. People still wanted to witness champions test themselves without a kingdom's future hanging upon every contest.
 
-The [[The Misfits|Misfits]] entered the tournament under assumed identities in the hope of remaining unnoticed should Cid appear.
+For the **[[The Misfits|Misfits]]**, however, the prospect of Cid's appearance lay behind the festivities. They had learned at Jaznaar's refuge that the Blood King was none other than Aldus Greystone III, whom Avalor had long celebrated as a founding hero. Knowing the enemy's identity offered little certainty about what he would attempt in a crowded capital.
 
-They had **not induced the king and queen to attend as bait**. Disguise was a precaution at an event the royal couple already planned to visit. It was reasonable, but it could not guarantee safety.
+## Champions under borrowed names
+
+The adventurers entered the tournament **under assumed identities**, hoping not to announce their presence if Cid came. Their disguises were a precaution, not a scheme to draw the royal family into danger.
+
+Gradvum and Melmiri had already intended to attend. The Misfits had **not arranged the king and queen as bait**. That distinction matters when later retellings seek to blame the rescuers for a trap laid by the Blood King.
+
+The company was no longer the five who had first entered Moonville Manor. Heureux had joined them, Fo'Gurn had died at the ruined temple, and Anna and Jack had become companions of a different kind. The strangers beneath the tournament names were carrying more grief and knowledge than the spectators around them could have understood.
+
+Their secrecy was reasonable. It was also insufficient.
 
 ## The queen taken
 
-Cid appeared and seized Melmiri. He escaped before the Misfits could retrieve her.
+**Cid appeared and abducted Queen Melmiri.** The Misfits could not prevent him from escaping with her.
 
-The abduction turned a public celebration into a royal emergency. For the companions, it made their confrontation with the Blood King unavoidable.
+A celebration meant to honor courage became the scene of a ruler's disappearance. The immediate damage was plain: the queen was gone, the Blood King had struck openly, and the crown could not promise its people a quick or safe resolution.
 
-Melmiri's position as queen made her a powerful hostage. Cid expected the Misfits to attempt her rescue, drawing them toward the Shadowfell while the kingdom waited for news of its ruler.
+Melmiri was not a mere token to be moved toward a final battle. She was a living sovereign whose absence affected the kingdom and whose rescue mattered independently of what the companions hoped to learn or accomplish against Cid. The Blood King could count upon their unwillingness to abandon her.
 
-## A pursuit interrupted
+The royal capital had reason to fear an enemy it did not yet fully understand. The Misfits had reason to fear that every delay placed Melmiri beyond reach.
 
-The Misfits did not proceed straight from the tournament into Cid's fortress. Their noncombatant companion **[[Anna, Lowkee's Keeper|Anna]]** also traveled with them, bearing a relic whose importance would become apparent much later. **[[Ros Furband]]**, a pirate captain, captured them and delivered them to **Jinlin Vechon**, leader of the Wrath of Innocent. They defeated Jinlin in a real confrontation, then fell into the illusions of **Zauks**, a mind flayer who made earlier dangers seem to recur.
+## A rescue that could not run straight
 
-Throughout those ordeals, **Melmiri remained a captive**. **Amara was taken during the period following the Games**; the precise circumstances and manner of her return are not established in the public testimony. She was later free to intervene against Zauks while her companions remained trapped in his false experiences. The adventures on Ros's ship, the battle with Jinlin, and the false lives offered by Zauks were obstacles on the road to the queen, not episodes that preceded her abduction.
+The abduction set the companions upon a pursuit, but it did not carry them immediately into Cid's fortress. The road became its own sequence of captivity and resistance.
 
-## Into the Shadowfell
+The pirate captain **[[Ros Furband]]** seized the rescuers aboard his galleon. Their confinement led toward **Jinlin Vechon** and the Wrath of Innocent, whom the Misfits confronted in a **real battle**. Only afterward did the mind flayer **Zauks** imprison companions in counterfeit adventures and false lives.
 
-Only after these interruptions did the companions reach the final confrontation in the Shadowfell. Melmiri was rescued and **helped the Misfits escape**, the Blood King's immediate threat ended, and Avalor began its difficult reassessment of the founding narrative.
+**Melmiri remained Cid's prisoner throughout these ordeals.** The voyage, Jinlin's defeat, and the illusions did not occur before the tournament, nor after the queen was rescued. Each delay belonged to the same unfinished mission.
 
-People who attended the tournament did not witness every event that occurred afterward. Accounts of the Shadowfell encounter come chiefly from the royal rescue and the companions’ authorized testimony.
+**Amara's capture also belongs to the period after the Games**, not to the earlier Hydra disaster. The manner of her captivity and her return have not been established in full. She would later intervene from outside the illusions that held her companions in Zauks's lair.
 
-The tournament is therefore remembered both as a day on which the kingdom's safety was publicly shattered and as the opening of the last chapter of the Misfits' struggle with Cid.
+## The day the kingdom waited
+
+Only after the pirate voyage, Jinlin, and Zauks did the surviving fellowship reach the Shadowfell, where **[[The Shadowfell Confrontation|their final struggle]]** ended Cid's immediate threat. Melmiri escaped with them and played an active part in their return.
+
+A spectator at the Tournament of Champions could not have known that ending. Those who watched Melmiri taken experienced the event as an emergency without a promised resolution, while the capital carried on in her absence.
+
+That is why the tournament occupies a different place in Avalor's memory from the adventures that preceded it. At Moonville Manor, a handful of companions learned to trust one another. At Renada's Games, the kingdom learned how urgently it needed that trust to endure.

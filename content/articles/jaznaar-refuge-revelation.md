@@ -9,42 +9,45 @@ related: the-misfits,jaznaar,aldus-greystone-iii,bradgem-glav,tellora-ebbenflow,
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
-## Following the traces of the founding age
 
-The Misfits' inquiry into the Blood King eventually reached beyond the threats of their own generation. To understand Cid, the companions had to confront the history Avalor believed it already knew.
+## A path through an older history
 
-Their search was connected with the traditions surrounding **[[Bradgem Glav]]**, whose death at Heroes Hill had helped make the kingdom's founding possible, and with objects or knowledge preserved within **[[Tel'Lora Ebbenflow|Tel'Lora's]]** family. The precise passage into the hidden refuge has not been completely documented by its witnesses.
+The Misfits had faced Cid's agents and buried friends before their pursuit finally brought them to a truth older than the kingdom's familiar stories. Their search led toward the hidden refuge of **[[Jaznaar]]**, the founder Avalor had named its Betrayer.
 
-A full retelling cannot be constructed merely because the places and names sound familiar. The testimony establishes the route's connections and the outcome of the meeting, not every step through every guarded chamber.
+The route was tied to **[[Bradgem Glav]]'s tomb at Heroes Hill**, a memorial to the fallen companion whose sacrifice belonged to the kingdom's beginning. It was also tied to an inheritance in **[[Tel'Lora Ebbenflow|Tel'Lora's]]** family: an **ice-blue crystal** once possessed by his mother. The crystal helped the company gain access to Jaznaar's hidden demiplane. The precise operation of that passage, including any other objects required, has not been established in the published account.
 
-## The supposed Betrayer
+For Tel'Lora, the object was not merely a convenient key to a lost place. His mother had been murdered by **Karina**, who sought her spellbook and the crystal. The trail to Jaznaar therefore ran through a personal loss as well as an ancient mystery. The company arrived at the threshold carrying histories that Cid and his servants had already marked with violence.
 
-In the refuge, the adventurers met **[[Jaznaar]]**, the drow spellcaster whom Avalor had condemned for centuries as the Betrayer. He was the last surviving member of the founding Six.
+## The last of the founding Six
 
-Jaznaar had lived under a burden that the kingdom did not recognize. For generations he had restrained Cid in the Shadowfell and guarded against a renewed spread of the Blood Sickness. Avalor had built monuments to the healer Aldus Greystone III and blamed Jaznaar for the catastrophe that had followed the founders.
+Within the refuge they encountered a living witness to Avalor's founding: **Jaznaar Mizzrorzza**, a drow spellcaster and the last surviving member of the Six.
 
-The man before the Misfits challenged the whole distinction: **Aldus Greystone III and Cid the Blood King were the same being**.
+Generations had been taught to speak his name with suspicion. They had praised **[[Aldus Greystone III]]** as a healer who served the young kingdom and condemned Jaznaar for betraying him. In the refuge, the adventurers learned that the celebrated healer and **[[Cid the Blood King]]** were the same being.
 
-The public history of Avalor had not merely misremembered the details of an ancient battle. It had honored the person responsible for a terrible wrong while accusing one of those who fought to prevent it.
+This was more than the exposure of a villain's former name. It overturned the moral arrangement upon which centuries of official memory had rested. The person Avalor honored had inflicted the catastrophe; the person it reviled had struggled to contain the harm.
 
-## Knowledge and a sword passed onward
+Jaznaar had maintained Cid's confinement within the Shadowfell and worked to hold back the Blood Sickness. His long seclusion had not been mere retreat from public disgrace. It was also part of the labor that kept a danger from returning openly to the world that had forgotten him.
 
-Jaznaar's testimony had practical consequences. Tel'Lora received instruction and knowledge associated with the founder. **Lavitz was entrusted with Cid's Bane**, a sword linked to the ancient paladin Lowkee.
+## What Jaznaar entrusted to the living
 
-The sword was not the Emerald of Armanti, which Anna carried through a separate thread of the company's journey. Both artifacts became important to the history, but the public evidence does not warrant combining their powers or origins into one account.
+The meeting was not simply an account of past wrongdoing. Jaznaar instructed Tel'Lora, giving the younger wizard knowledge associated with a history that his own family had paid dearly to approach.
 
-The meeting gave the Misfits a new understanding of their enemy and of the kingdom they served. It did not establish that the founders had secretly assembled their fellowship or directed every earlier adventure.
+He also placed ****Cid's Bane**** in the care of **[[Lavitz Shawe]]**. The sword had belonged to **[[Lowkee]]**, the paladin of the founding Six. It was distinct from the **[[Emerald of Armanti]]** that Anna carried. The two relics would follow different paths into the final struggle.
 
-## The burden of a last witness
+For Lavitz, himself a drow paladin, the false accusation against Jaznaar had a weight beyond its military usefulness. He was not Jaznaar's descendant, and no inherited destiny compelled him to vindicate the founder. He was a man confronted with evidence that his kingdom had taught generations to mistrust one of its protectors. What he did with that truth would be his own choice.
 
-Jaznaar died after the companions left his refuge. He had lived long enough to tell the truth to the people who might carry it into the world, but not long enough to hear King Gradvum publicly clear his name.
+The companions left knowing more about their enemy, but also bearing a responsibility no weapon could discharge. If they survived Cid, they would have to ask Avalor to revise its memory of itself.
 
-The Misfits' later victory and the evidence they brought home enabled the Royal Commission to corroborate the central correction. The kingdom's older records, accounts of Cid's agents, and the consequences of the Shadowfell struggle mattered alongside the witnesses' words.
+## The witness who would not hear the verdict
 
-The lost years could not be restored to Jaznaar, nor the injuries undone for generations harmed by the false legend. His testimony remained an obligation that the companions carried toward their final confrontation.
+**Jaznaar died after the Misfits departed his refuge.** His death weakened the active defense he had sustained, though it did not cause the Shadowfell binding to collapse immediately. He would not live to hear [[King Gradvum Frozenroar]] declare him innocent.
 
-## A kingdom's future in uncertain hands
+The royal inquiry later corroborated his testimony using other records, the actions of Cid's servants, and evidence carried home by the companions. The kingdom's correction was not founded on the word of a single witness, however extraordinary that witness had been.
 
-The adventurers departed with knowledge dangerous to the Blood King and unsettling to the nation that had trusted his old name.
+What could never be corroborated back into existence were the centuries Jaznaar had spent carrying the burden in silence. Nor could an eventual proclamation undo the harm suffered by drow communities under the story of the Betrayer.
 
-Their next public crisis would come in Renada, at the Tournament of Champions. The meeting with Jaznaar was therefore a turning point in two histories at once: the private journey of a fellowship discovering its enemy, and the public history of a country forced to confront how deeply it had been deceived.
+## A truth they could not put down
+
+The Misfits had entered the refuge seeking a way to confront the Blood King. They emerged with a sword, instruction, and the knowledge that their enemy had once been celebrated as one of Avalor's greatest friends.
+
+Their next public crisis would unfold in Renada at the [[The Tournament of Champions|Tournament of Champions]]. There, knowledge of Cid's past would offer no guarantee that they could protect the people before them. The refuge had given them the truth. The road ahead would demand that they act upon it.

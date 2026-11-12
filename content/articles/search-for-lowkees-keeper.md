@@ -9,36 +9,37 @@ related: the-misfits,anna-lowkees-keeper,lowkee,emerald-of-armanti,svendyal-shad
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
-## A different sort of inquiry
 
-Not every road the Misfits took began with a commission. After their early adventures the company searched for knowledge connected with **[[Lowkee]]**, paladin of the founding Six, and the person remembered as **Lowkee's Keeper**.
+## Following a founder's name
 
-The surviving testimony does not preserve an authenticated charter defining the Keeper's office. The companions were following evidence and traditions associated with Lowkee, not carrying a royal warrant to inspect some known institution.
+The Misfits had already answered royal commissions and survived stranger adventures when their search turned toward **[[Lowkee]]**, the paladin of the founding Six. They sought information concerning the person or tradition called **Lowkee's Keeper**. What that title meant in full was not yet clear to them; it was a question on the road, not an office whose holder the crown had appointed them to inspect.
 
-The search became important for a reason few chroniclers would have predicted from its beginning: the woman they met while pursuing it would accompany them through the most dangerous remaining months of their campaign.
+Avalor's old histories had made saints and villains of its founders. The companions had not yet heard the truth that [[Jaznaar]] would eventually tell them, and their search did not begin with certain knowledge of what Lowkee might offer in the struggle ahead. It began with a name, surviving traditions, and the need to learn more.
 
-## A tavern waitress named Anna
+What they found first was not a guardian in ceremonial armor, but a waitress in a tavern.
 
-At a tavern the travelers encountered **[[Anna, Lowkee's Keeper|Anna]]**, a waitress whose first meeting with the company is remembered more for **Sven's awkward stumble into her** than for any solemn declaration.
+## The waitress named Anna
 
-Such details have survived because they are difficult to replace with the formal language of heroic legend. The company did not know what the history of its final battle would require. It knew a woman who, over time, became one of its own.
+The encounter with **[[Anna, Lowkee's Keeper|Anna]]** is remembered for [[svendyal-shadowwhisper|Sven]]'s awkward stumble into her rather than any solemn declaration of purpose. The embarrassment endured in the company's recollections because it was human, ordinary, and badly suited to a heroic ballad.
 
-Anna traveled as a **noncombatant companion**. She was not one of the original five adventurers, nor another person whose place in the fellowship depended upon combat training. She was a friend whom the others protected and who chose to remain with them.
+Anna became part of their travels. She was **not a warrior** and had not stood with the original five at Moonville Manor. She joined a fellowship already accustomed to facing dangerous people and places, and the companions treated her as a friend whose safety mattered.
 
-The companions would later extend the same fellowship to the ghost of a boy murdered at Stanleyville. Neither Anna nor Jack can be excised from their history merely because neither belonged to the original adventuring roster.
+Her presence changed the stakes of later encounters. The Misfits could not calculate every decision solely in terms of how much danger its armed members might survive. Someone who did not fight beside them nevertheless had a place among them. That distinction would matter at the ruined temple near Stanleyville and again when the company was held aboard [[Ros Furband]]'s galleon.
 
-## The emerald's place in the search
+It would also matter to Sven, though the full significance of their friendship only became clear **after the royal audience in Renada**.
 
-Anna was associated with the **[[Emerald of Armanti]]**, a jewel whose name became attached to the hope of calling upon Lowkee's aid when the company eventually confronted the Blood King.
+## The emerald she carried
 
-The object did not become an ordinary key to every problem encountered on the road. The jewel was intended to bar Cid permanently from the Material Plane and enabled Samuel to channel Lowkee's spirit temporarily. Anna's true identity as **Erevan Ilesere** was revealed after the final royal audience. A useful account records the jewel's presence, the people who carried it, and its witnessed place in the final struggle, without pretending to a complete explanation.
+Anna traveled with the **[[Emerald of Armanti]]**, a jewel associated with the hope of receiving Lowkee's aid. The company had good reason to preserve it, even without a complete account of its powers or the part it would ultimately play.
 
-A second relic, the sword **Cid's Bane**, would later pass from Jaznaar to Lavitz. The two objects had different histories. Their shared association with Lowkee must not collapse them into a single magical device.
+The Emerald should not be confused with **Cid's Bane**, the separate sword of Lowkee that Jaznaar would later entrust to Lavitz. Nor should the search itself be rewritten as proof that the companions knew the precise outcome of their final encounter with Cid.
 
-## Friendship carried into danger
+What the Emerald did in the Shadowfell is recorded with the [[The Shadowfell Confrontation|last battle]]. The truth about Anna belongs to the [[The Misfits Return to Renada|homecoming that followed]]. Those later discoveries change how the historian understands this first meeting, but they do not change what the adventurers believed when a seemingly ordinary woman joined them.
 
-At the ruined temple near Stanleyville, Anna was among the people endangered by the Blood King's servants. She survived the catastrophe that took Fo'Gurn from the company.
+## A companion, not a burden
 
-After the Renada Games, when the Misfits were themselves held aboard [[Ros Furband|Ros Furband's]] galleon, Anna worked in the ship's galley alongside Tel'Lora. She remained part of the pursuit of Queen Melmiri despite these humiliations and losses.
+At the temple, Anna would survive a ritual that killed others and cost Fo'Gurn his life. Later she endured the indignities of Ros Furband's captivity, working beside Tel'Lora in the galley while the rest of the company was assigned its own forced labor. She remained with the fellowship as their pursuit of Queen Melmiri carried them toward the Shadowfell.
 
-The search for Lowkee's Keeper thus gave the Misfits more than a question about ancient magic. It brought a companion into the fellowship, and her presence would matter to the living people who faced Cid together.
+The search for Lowkee's Keeper therefore deserves a place in the chronology for more than the artifact it introduced. It records the arrival of someone the Misfits chose to include, protect, and trust.
+
+An adventuring company can be measured by the enemies it overcomes. It can also be measured by the people for whom it makes room. Anna's first appearance looked modest beside the events that followed. Its consequences were not.

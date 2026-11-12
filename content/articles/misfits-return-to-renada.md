@@ -12,54 +12,64 @@ featured: false
 
 ## The queen came home
 
-The Misfits returned to **Renada** with **[[Queen Melmiri]]**, whose abduction at the Tournament of Champions had left the kingdom unable to know when or whether she would be recovered. The return ended that uncertainty.
+**[[Queen Melmiri]]** returned to **[[Renada]]** with the Misfits. Her abduction at the Tournament of Champions had unfolded before the capital's spectators; her absence had remained a national crisis through the pirate voyage, the confrontation with Jinlin, the illusions of Zauks, and the last struggle in the Shadowfell.
 
-It did not erase the cost. The capital's celebrations took place beside mourning for those who had died during the campaign: the preceding Lord Marshal, Captain Funkin, Inspector Sihnion, guards lost at the ruined temple, **[[fo-gurn|Fo'Gurn]]**, and other people whose names never achieved the same public renown as those of the champions.
+The company brought back a living queen, and with her the possibility of an ending the kingdom could celebrate. Yet the homecoming was not complete in the way a triumphant song might suggest. The road had cost too many lives, and some of the people who made the rescue possible would never join its procession.
 
-Fo'Gurn had **truly died** facing the hydra. Jaaris later raised him through necromancy and attempted to use him against his old companions. Fo'Gurn reclaimed his freedom in the Shadowfell, then could not return to Renada: with Jaaris dead, his borrowed life was failing and he remained to rest again. The kingdom honored him in absentia; his body did not come home.
+The kingdom mourned the preceding Lord Marshal, killed by the Stalker at Stanleyville; **Captain Funkin**, **Inspector Sihnion**, and the guards who died at the temple; and others whose names did not enter the most familiar accounts. It honored **[[fo-gurn|Fo'Gurn]]** in absentia.
 
-## A reckoning with the past
+Fo'Gurn's death at the Hydra had been real. Jaaris later raised and compelled him through necromancy; in the Shadowfell, he reclaimed his will by choosing to protect Lavitz. But Jaaris's death brought the end of the borrowed existence sustaining him. **Fo'Gurn remained in the Shadowfell for his final rest.** His body did not come home. Lavitz had been granted a farewell, not the restoration of the life they had once shared.
 
-The returned adventurers bore evidence not only of their victory over [[Cid the Blood King]], but of the truth told to them by **[[Jaznaar]]**, the drow founder long condemned as Avalor's Betrayer. The old story had exchanged the names of protector and criminal.
+## What victory revealed
 
-[[King Gradvum Frozenroar]] would publicly [[The Vindication of Jaznaar|restore Jaznaar's honor]], turning the fellowship's hard-won discovery into a correction the whole kingdom was asked to confront. A proclamation could not make centuries of harm disappear, but it could cease to enlist the crown's authority in the falsehood.
+The Misfits also returned bearing a truth capable of disturbing almost two thousand years of royal history. The celebrated healer **[[Aldus Greystone III]]** had become **[[Cid the Blood King]]**. **[[Jaznaar]]**, condemned as the Betrayer, had been the one who labored to restrain him.
 
-The Misfits had begun without a royal prophecy or a certainty about Avalor's foundations. They returned having compelled the kingdom to rethink both.
+The companions had heard the truth in Jaznaar's refuge and carried the consequences through their final battle. He had died before they returned. Whatever justice the kingdom might now offer would arrive too late for him to hear it.
 
-## The royal audience
+**[[King Gradvum Frozenroar]]** would formally [[The Vindication of Jaznaar|restore Jaznaar's name]] and require the kingdom to revise its histories and memorials. That reckoning was not simply a reward granted to adventurers. It concerned what laws, prejudices, and monuments had grown from the old falsehood.
 
-At court, the king and queen offered the companions roles through which they might continue serving Avalor. These were not identical rewards for identical futures.
+Avalor had won back its queen. It still had to decide how to tell its own story.
 
-**[[Lavitz Shawe]]** accepted the office of **Lord Marshal**, filling the vacancy left by the Stalker's killing of his predecessor at Stanleyville. His leadership would ultimately express the protective commitments he had carried through the campaign.
+## An audience before the crown
 
-**[[Tel'Lora Ebbenflow]]** accepted the responsibility of **High Wizard**, later holding an independent eighth seat upon the Aegis and restoring Shamman's Tower as a center of arcane learning.
+Before Gradvum, Melmiri, the royal council, and the wounded **[[Samuel the Devoted|Samuel]]**, the surviving champions were offered ways to serve beyond the road.
 
-**[[Heureux]]** accepted a period of court service and teaching. He later founded his academy in **Taveras**, traveling, performing, and preserving the company's history through his writings.
+**[[Lavitz Shawe]]** accepted the office of **Lord Marshal**, vacant since the death of the man who had first commissioned the Misfits. The appointment asked him to protect a kingdom through decisions made long after the battle with any single enemy.
 
-**[[Amara]]** initially agreed to stewardship of the royal library before following the call of the natural world, increasingly traveling rather than remaining in a permanent palace office.
+**[[Tel'Lora Ebbenflow]]** accepted the responsibility of **High Wizard**. He would help restore [[Shamman’s Tower]] as a place of arcane learning and later hold an independent eighth seat on [[The Aegis]]. The knowledge passed to him through his family and Jaznaar would now be put to work for others.
 
-**[[svendyal-shadowwhisper|Sven]]** accepted a promise of royal assistance rather than a fixed court position. The later figure known as the **Iron Shadow** would remain far less visible than his celebrated companions. The crown's promise is not evidence that it created or controlled his independent pursuits.
+**[[Heureux]]** accepted a period of service as court minstrel and teacher. In later years he founded his academy in **Taveras**, and continued traveling, performing, and recording the history of a fellowship that had never belonged solely to a court.
 
-## The fellowship that remained
+**[[Amara]]** accepted stewardship of the royal library, at least for a time. Her calling increasingly drew her beyond permanent palace duties and back toward the work of the natural world.
 
-The five celebrated survivors did not stay together as a constantly traveling adventuring party for the next twenty years. The company briefly helped the kingdom recover, then its members took different paths.
+**[[svendyal-shadowwhisper|Sven]]** took something less easily described as an office: the king and queen's promise of royal assistance when he might need it. His later reputation as the **Iron Shadow** would grow through pursuits outside ordinary public view. The royal promise was not a charter making the crown his master.
 
-That change was **not a quarrel**. Lavitz, Tel'Lora, and Sven continued to cooperate closely; Heureux and Amara carried their friendships into lives that increasingly took them elsewhere. The complete company did not reunite as a full traveling fellowship during those intervening years.
+These were not identical honors, because the companions were not identical people. Victory had brought them before the same throne. It did not require that they live the same kind of life afterward.
 
-The history would also be incomplete without **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant friend later revealed as **Erevan Ilesere in disguise**, and **[[Jack of Stanleyville|Jack]]**, the murdered boy whose ghost found companionship rather than abandonment. The published names of the five did not exhaust the people who had belonged to them.
+## The friend who had not been a waitress
 
-## The revelation outside the royal chamber
+Only **after the royal audience**, as the companions departed, did another revelation change the meaning of the journey they had survived.
 
-After the royal audience, **Samuel clarified that the appearance of Lowkee during the Shadowfell battle had been a temporary channeling**, not the founder's permanent return. Then Anna revealed the truth of her long companionship: **she was Erevan Ilesere in disguise**, testing Sven's resolve to choose protection and justice over vengeance.
+Samuel clarified that the figure who seemed to be Lowkee in the Shadowfell had been a **temporary channeling of the paladin's spirit**, not Lowkee returned permanently from death. Then **[[Anna, Lowkee's Keeper|Anna]]**, the apparently vulnerable waitress the Misfits had welcomed as a traveling companion, revealed that she was **Erevan Ilesere in disguise**.
 
-**Vandria Gilmadrith** appeared alongside Erevan and offered Sven a choice. The two would restore **Tristan and Kristofer**, his lost husband and child, but the cost would be the memory of the life he had lived since their deaths. **Sven did not answer.** Neither acceptance nor refusal is part of the concluded historical record.
+Erevan's apparent need for protection had been part of a test directed especially at Sven, who had been called to seek justice rather than surrender himself to vengeance. **Vandria Gilmadrith** appeared beside Erevan. Together they offered Sven the restoration of **Tristan and Kristofer**, the husband and child he had lost. The cost would be the memories and experiences of the life he had lived since their deaths.
 
-The revelation cast Anna's apparent vulnerability in a different light. Erevan was not an ordinary mortal at risk of annihilation; the dangers faced by his friends were nevertheless real. The account need not make the divine test comfortable merely because it was conducted by a god.
+**Sven gave no answer.** The histories may describe the offer; they may not grant the gods an acceptance, refusal, or bargain on his behalf.
+
+The revelation also left the company with a difficult question about Anna. Erevan himself had not been a mortal waitress liable to die as the others believed. The companions who fought to protect the supposed Anna, however, had faced genuine danger. Fo'Gurn's sacrifice, the temple's dead, and the company's friendship were not made imaginary by the god's disguise. Knowing the test's purpose did not make it easy to judge.
+
+## Friends upon different roads
+
+The Misfits remained together briefly to help Avalor recover, but they did not resume life as one continually traveling company for the following twenty years. Lavitz, Tel'Lora, and Sven continued working closely together; Heureux and Amara took callings that carried them farther afield. **Their separation was not a quarrel.**
+
+Nor could the company be reduced to the five names most often celebrated after Cid's defeat. **Fo'Gurn** had belonged to the original adventurers; **[[Jack of Stanleyville|Jack]]**, the ghost of a murdered boy, had traveled with them as a friend; and Anna had occupied a genuine place in their affections, whatever the later revelation showed about her identity.
+
+The fellowship had begun in a house where the companions learned to rely upon one another. It ended its campaign in a kingdom that now relied upon them in different ways. They could remain friends without remaining an adventuring party.
 
 ## An age made by choices after war
 
-The queen's return closed the immediate crisis, but no royal audience could restore those who had died or answer every question the struggle had raised. Fo'Gurn did not walk back through Renada's gates; the preceding Lord Marshal's seat had stood vacant since Stanleyville; and the truth of Jaznaar's innocence still demanded public acknowledgment.
+Fo'Gurn did not come home. Jaznaar did not live to hear his vindication. Sven's divine offer remained unanswered. A royal audience could honor the living, but it could neither restore every loss nor settle every future choice.
 
-For the Misfits, accepting responsibility did not mean resuming the lives they had led as adventurers. Their friendship endured through different callings, while the duty they had learned on the road took forms less easily celebrated in a single song. Even Sven's unanswered divine offer remained a choice to be faced, not a conclusion a historian could supply on his behalf.
+The Misfits had defeated a foe whose greatest deception was the claim that other people's lives and histories belonged to him. What followed their victory mattered because it offered a different answer: a queen who helped secure her own escape, friends free to follow separate duties, and a kingdom obliged to acknowledge a truth it had long suppressed.
 
-The next chapter of Avalor's history would be written not at Cid's fortress but in the kingdom's records and streets, as [[King Gradvum Frozenroar]] moved to [[The Vindication of Jaznaar|restore Jaznaar's name]]. Victory had made the truth known; what the kingdom did with it would show what victory meant.
+From Renada, that obligation would spread through the archives, monuments, and communities of Avalor. The next chapter belongs to **[[The Vindication of Jaznaar]]**—not a battle against Cid, but the difficult work of ensuring that his lie no longer governed the living.

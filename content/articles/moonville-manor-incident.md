@@ -9,24 +9,31 @@ related: the-misfits,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,amara
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
-## An adventure without a royal summons
 
-The first surviving adventure of the company later called [[The Misfits]] took them into **Moonville Manor**, a house remembered less for its walls than for its refusal to behave like an ordinary house. Its strange passages and living interior confronted the companions with dangers that could not always be met by force or by the conventional rules of an exploration.
+## An adventure before the crown called
 
-Five adventurers belonged to the early fellowship: [[Lavitz Shawe]], [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], [[Amara]] and [[fo-gurn|Fo'Gurn]]. They were not yet the celebrated champions whose testimony would shake Avalor's founding legend. They were people learning whether they could trust one another when the ground beneath them seemed uncertain.
+Long before their names were spoken in royal halls, five travelers entered [[Moonville Manor]]. The house was alive, or near enough to living that the distinction brought little comfort to those inside it. Its passages and interiors defied the dependable arrangement of an ordinary building. The company that would become [[The Misfits]] began its recorded history in a place where even the setting could not be taken for granted.
 
-It is tempting to make every great friendship begin with a prophecy, a royal summons, or a sworn company. **The Manor came before the first commission from the Lord Marshal**. The crown did not assemble these companions to explore it, and the surviving account does not establish that Cid had arranged their meeting.
+The early fellowship consisted of [[Lavitz Shawe]] and [[fo-gurn|Fo'Gurn]], paladins whose friendship had begun at Heaven's Heart; [[Tel'Lora Ebbenflow]], a half-elven wizard; [[svendyal-shadowwhisper|Sven]], an eladrin rogue; and [[Amara]], a druid. They brought different talents into the Manor, but no title yet bound them into the heroes of royal memory. [[Heureux]] had not joined them. Nor had the Lord Marshal issued the commission that later chroniclers so often mistake for the beginning of their friendship.
 
-## The house and its uncertain history
+The Manor came first. No prophecy summoned the five, and there is no established evidence that Cid brought them together there. At the time, the danger before them was the house itself.
 
-The Manor has become a favorite setting of exaggerated retellings. Some describe its halls as if every room had been independently charted, while others supply motives to the house itself. The witnesses preserved the building's strange behavior and the fact of the encounter, not a complete architectural survey or a reliable explanation of each enchantment.
+## The house that would not behave
 
-That distinction does not diminish the adventure. A place that could not be trusted taught the travelers to rely upon something they could know more readily: the presence, abilities, and judgment of the people beside them.
+A familiar building offers its occupants a silent bargain: doors lead somewhere, rooms remain where they were, and a path retraced has some hope of returning a traveler to safety. Moonville refused the reassurance of that bargain. The living halls made the companions question what they could trust about their surroundings.
 
-No official record of the Manor supplies a complete roster of every room entered or an authenticated account of its earliest enchantments. It would be improper to convert those gaps into a precise itinerary.
+It is easy to imagine such an adventure as a contest between spell and enchantment, or sword and lurking creature. Yet the more enduring difficulty was one of judgment. The talents that served a traveler in the open road could not, by themselves, make an unreliable place intelligible. A companion's warning, attention, or decision could matter as much as strength.
 
-## The beginning of a longer road
+Later tales have supplied the Manor with elaborate room-by-room maps and confident explanations of its intentions. Those embellishments are not the same as testimony. The original account supports **a living house, strange passages, and a shared ordeal**, but not a complete itinerary through every chamber or a named intelligence directing each danger. In particular, the altered mimic encounter that appears in [[Zauks and the False Lives|Zauks's later false reconstruction]] should not be quietly imported into the original visit.
 
-The company left Moonville with a history of shared danger. Its formal employment in royal service still lay ahead. The preceding Lord Marshal would later summon them to investigate an unnamed necromancer, a dangerous but recognizable task that became their **[[The Misfits’ First Commission|first commission]]**.
+The Misfits left Moonville having faced danger together. The record does not establish that they left with a formal oath, an appointed leader, or any foreknowledge of the Blood King. Their friendship did not need those things to become consequential.
 
-The Manor matters not because it revealed the Blood King, but because it preceded the events that would eventually reveal him. Great deeds depend upon friendships built in less famous places. When the kingdom finally needed these adventurers, they had already begun learning how to stand together.
+## What the Manor taught
+
+A fellowship is often described backward, as though a great victory proves its members must always have been destined to stand together. Moonville suggests a simpler beginning. The five had reasons to rely upon one another before anyone in power asked them to do so.
+
+In later adventures, that reliance would be tested by imprisonment, bereavement, the loss of a ruler, and finally an enemy who knew how to turn a person's own memories against them. The Manor was the first of those dangers recorded, not a miniature prophecy of all the others.
+
+When the preceding Lord Marshal finally summoned the companions to investigate an unnamed necromancer, he called upon adventurers who already shared a history. That assignment became **[[The Misfits’ First Commission|their first royal commission]]**. It was not their first act of companionship.
+
+Avalor would eventually owe these travelers more than it could repay. At Moonville, there was no kingdom waiting to applaud them. There were five companions, a house that could not be trusted, and the growing knowledge that the people beside them might be trusted instead.

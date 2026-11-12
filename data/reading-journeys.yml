@@ -40,7 +40,7 @@ journeys:
     subtitle: An unlikely fellowship. One long journey. A kingdom's forgotten truth.
     overline: THE AGE OF THE MISFITS · A CHRONICLE IN FOUR ACTS
     summary: "The campaign told as fifteen connected events, from the living halls of Moonville Manor to the return of Avalor's queen and the restoration of Jaznaar's name. Character histories and artifacts are available separately as deeper reading."
-    editorial_note: "Read the events in order. Each chapter offers optional biographies and source records that deepen its meaning without interrupting the narrative. Where witnesses left gaps, this account leaves them unfilled."
+    editorial_note: "Read the events in order. Optional biographies and source records add context but may reveal later campaign events, including identities and outcomes not yet known to the companions at that chapter. The main route follows what happened as the story unfolded."
     era: The Age of the Misfits to the Age of Ascendancy
     steps:
       - article: moonville-manor-incident
@@ -83,7 +83,7 @@ journeys:
         introduction: "A search involving Lowkee's Keeper introduces Anna, a tavern waitress who joins the company as a noncombatant friend and carries an unusual emerald."
         deeper_reading:
           - article: anna-lowkees-keeper
-            note: "Anna's personal account within the public record."
+            note: "Retrospective biography: reveals Anna's identity after the final battle."
           - article: lowkee
             note: "The ancient paladin whose name drew them onward."
           - article: emerald-of-armanti

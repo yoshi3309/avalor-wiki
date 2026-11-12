@@ -114,7 +114,7 @@ def source(slug):
     return (ROOT / "content" / "articles" / (slug + ".md")).read_text(encoding="utf-8")
 assert "Erevan Ilesere in disguise" in source("anna-lowkees-keeper")
 assert "Vandria Gilmadrith" in source("misfits-return-to-renada")
-assert "Sven did not answer" in source("misfits-return-to-renada")
+assert "Sven gave no answer" in source("misfits-return-to-renada")
 assert "temporary spiritual connection" in source("emerald-of-armanti")
 assert "bar Cid" in source("emerald-of-armanti")
 assert "subsequently raised his body" in source("fo-gurn")
@@ -136,6 +136,32 @@ for slug in ("shadowfell-confrontation", "emerald-of-armanti"):
     article = source(slug)
     assert "Auren's later retrieval" not in article
     assert "later Godkiller" not in article
+# Stage B narrative pass: preserve chronology, public revelations, and limits of testimony.
+assert "ice-blue crystal" in source("jaznaar-refuge-revelation")
+assert "Karina" in source("jaznaar-refuge-revelation")
+assert "temple of Bane" in source("hydra-temple-disaster")
+assert "mortal vessel for divine power" in source("hydra-temple-disaster")
+assert "after the Tournament of Champions" in source("hydra-temple-disaster")
+assert "assumed identities" in source("tournament-of-champions")
+assert "cocoons" in source("zauks-false-lives")
+assert "Amara killed the mind flayer" in source("zauks-false-lives")
+assert "Erevan Ilesere" not in source("search-for-lowkees-keeper"), (
+    "Anna's identity should be revealed in the Renada homecoming, not at the first meeting."
+)
+assert "Erevan Ilesere" in source("misfits-return-to-renada")
+assert "Sven gave no answer" in source("misfits-return-to-renada")
+for slug in (
+    "moonville-manor-incident",
+    "search-for-lowkees-keeper",
+    "hydra-temple-disaster",
+    "jaznaar-refuge-revelation",
+    "tournament-of-champions",
+    "zauks-false-lives",
+    "misfits-return-to-renada",
+):
+    body = source(slug).split("---", 2)[2]
+    assert len(body.split()) >= 500, f"Stage B main account unexpectedly abbreviated: {slug}"
+
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
