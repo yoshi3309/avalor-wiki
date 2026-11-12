@@ -50,7 +50,7 @@ When the opportunity arose, she readily joined **[[The Avalorian Forces|Lion's B
 
 ## The Lion's Shadow
 
-Kel'Maris rose quickly through Lion's Bane. She became **second in command beneath Lord Marshal **[[kurt-reyginald|Kurt Reyginald]]**** and was assigned as the king's personal guard, staying close enough to respond to a threat at a moment's notice.
+Kel'Maris rose quickly through Lion's Bane. She became **second in command beneath Lord Marshal **[[kurt-reyginald|Kurt Reyginald]]** and was assigned as the king's personal guard, staying close enough to respond to a threat at a moment's notice.
 
 Her almost constant presence earned her the name **the Lion's Shadow**. It was an epithet rooted not in secrecy but in constancy: the crown rarely stood without her nearby.
 
@@ -62,9 +62,7 @@ Before they were celebrated as Avalor's champions, the companions later called *
 
 She subsequently employed them again during the inquiry into the **[[golgoroth-second-commission|cult of Gol'Goroth]]**, the adventure that brought Heureux into their company. The choice to entrust these missions to adventurers rather than rely only upon the royal guard became an important part of the fellowship's early history.
 
-The company's investigation in Stanleyville came **before** the ruined-temple disaster. After the Stalker killed Kel'Maris, **[[captain-funkin|Captain Funkin]]** brought her body safely back to Renada. Only later, at the Hydra temple, did Funkin, Inspector Sihnion, and guards die while Fo'Gurn sacrificed himself to save the other companions.
-
-Her next investigation would not allow her to return.
+Her final investigation took place in Stanleyville, before the later ruined-temple disaster. **[[captain-funkin|Captain Funkin]]** would return her body to Renada, then die at the Hydra temple along with Inspector Sihnion and guards, while Fo'Gurn sacrificed himself to save the others.
 
 ## Death at Stanleyville
 
