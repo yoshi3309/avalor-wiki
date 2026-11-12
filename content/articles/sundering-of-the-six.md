@@ -1,10 +1,12 @@
 ---
-title: "The Sundering of the Six"
-subtitle: "The Last Journey to the Black Tower"
-summary: "The break within the Six over Aldus's forbidden experiments and their attempt to stop the ritual at the Black Tower."
+title: The Sundering of the Six
+subtitle: The Last Journey to the Black Tower
+summary: The break within the Six over Aldus's forbidden experiments and their
+  attempt to stop the ritual at the Black Tower.
 category: History & Chronicles
+image: /assets/uploads/sundering-of-the-six.png
 entry: HIS.019
-era: "Approximately 10 AF"
+era: Approximately 10 AF
 facts: |-
   Confrontation: Five companions against Aldus
   Site: Black Tower, Spine of the World
@@ -12,10 +14,10 @@ facts: |-
   Outcome: Ritual interrupted, mortal Aldus slain
   Final killing blow: Not reliably established
 related: the-six,black-tower,blood-sickness,jaznaar,cid-the-blood-king
-source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
+source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
+  public historical record
 featured: false
 ---
-
 ## When a companion became the danger
 
 The Six—Aldus Greystone III, [[Lowkee]], [[Faelynn]], [[Petris]], [[Kelsalor]], and [[Jaznaar]]—had helped give the young kingdom an image of cooperation across different peoples and beliefs.
