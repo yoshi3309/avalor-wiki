@@ -19,7 +19,7 @@ The surviving record identifies the community and the danger posed by its leader
 
 ## The choice to intervene
 
-The Misfits had already encountered threats of a very different scale. They had faced a ruined temple used in Cid's designs, lost Fo'Gurn to a hydra, and mourned the Lord Marshal killed in Stanleyville.
+The Misfits had already encountered threats of a very different scale. They had mourned Kel'Maris, the Lord Marshal killed in Stanleyville, **before** facing the ruined temple used in Cid's designs and losing Fo'Gurn to a hydra.
 
 Yet the Rotten Husk's suffering was not a distraction that only became meaningful when tied to the Blood King. The people needed help. The companions chose to give it.
 
