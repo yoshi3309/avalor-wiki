@@ -19,8 +19,8 @@ expected = [
     "golgoroth-second-commission",
     "noki-sheep-incident",
     "search-for-lowkees-keeper",
-    "hydra-temple-disaster",
     "the-stalker",
+    "hydra-temple-disaster",
     "rotten-husk-liberation",
     "jaznaar-refuge-revelation",
     "tournament-of-champions",
@@ -167,9 +167,13 @@ assert "Kel'Maris" in source("kel-maris")
 assert "Kurt Reyginald" in source("kel-maris")
 assert "Kel Scythe" in source("kel-maris")
 assert "Stanleyville" in source("kel-maris")
-assert "Captain Funkin was able to safely bring back" not in source("kel-maris"), (
-    "The conflicting claim about who recovered her body must remain in the pending addendum."
+assert "Captain Funkin returned her body safely to Renada" in source("kel-maris"), (
+    "Funkin returned Kel'Maris's body before his later death at the Hydra temple."
 )
+assert "Captain Funkin returned her body" in source("kel-maris")
+assert "Captain Funkin" in source("the-stalker")
+assert "Kel'Maris could not be among the survivors" in source("hydra-temple-disaster")
+assert "Anna escaped" in source("hydra-temple-disaster")
 assert "Kel'Maris" in source("the-stalker")
 assert "Kel'Maris" in source("the-first-commission")
 assert "Kel'Maris" in source("golgoroth-second-commission")
@@ -180,7 +184,7 @@ assert "Amara" in source("zauks")
 assert "cocoons" in source("zauks")
 assert "Kel'Maris" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 assert "KEL-001" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
-assert "Status: OPEN" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+assert "Status: RESOLVED" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
