@@ -1,16 +1,22 @@
 ---
-title: "The Four Sheriffdoms"
-subtitle: "Regional Authority Beneath the Crown"
-summary: "The four appointed regional governments of Avalor: Northern March, Royal Heartlands, Western Verge, and Eastern Reach."
+title: The Four Sheriffdoms
+subtitle: Regional Authority Beneath the Crown
+summary: "The four appointed regional governments of Avalor: Northern March,
+  Royal Heartlands, Western Verge, and Eastern Reach."
 category: Organizations & Factions
+image: /assets/uploads/the-four-sheriffdoms.png
 entry: ORG.008
-era: "Age of Ascendancy"
-facts: "Northern March: Sebastian Rubelda\nRoyal Heartlands: Edran Halwick\nWestern Verge: Seren Thornwyck\nEastern Reach: Cassian Veyran\nAuthority: Crown appointment, not hereditary rule"
+era: Age of Ascendancy
+facts: |-
+  Northern March: Sebastian Rubelda
+  Royal Heartlands: Edran Halwick
+  Western Verge: Seren Thornwyck
+  Eastern Reach: Cassian Veyran
+  Authority: Crown appointment, not hereditary rule
 related: sebastian-rubelda,edran-halwick,tarnapolus,seren-thornwyck,cassian-veyran,kingdom-of-avalor
-source: "Compendium II · Entry II.001, VII; political canon ledger VIII"
+source: Compendium II · Entry II.001, VII; political canon ledger VIII
 featured: false
 ---
-
 ## Four regions under one sovereign
 
 Avalor's monarchy appoints **four sheriffs** to govern major regional divisions. Each exercises delegated authority on behalf of the crown, but none is a hereditary prince or the independent ruler of a separate kingdom.
