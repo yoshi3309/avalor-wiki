@@ -45,7 +45,8 @@
 ## Proposed expansions - NOT CANON
 
 ### Zauks (standalone public biography now established; background expansion pending creator input)
-- Confirmed public historical baseline: Zauks is a mind flayer among Cid's circle at the temple; after Jinlin's defeat he imprisoned the Misfits in cocoons and imposed false adventures and ideal lives; Amara killed him from outside the visions. A standalone wiki biography now records these established facts.\n- Proposed thematic core: a curator of memories who treats real lives as material to reorganize, a disturbing counterpart to Avalor's historical scholars.
+- Confirmed public historical baseline: Zauks is a mind flayer among Cid's circle at the temple; after Jinlin's defeat he imprisoned the Misfits in cocoons and imposed false adventures and ideal lives; Amara killed him from outside the visions. A standalone wiki biography now records these established facts.
+- Proposed thematic core: a curator of memories who treats real lives as material to reorganize, a disturbing counterpart to Avalor's historical scholars.
 - Explore why he serves Cid, how he selects emotional vulnerabilities, and whether the cocoons collect information or merely imprison prey.
 - Never imply that his eight counterfeit episodes were real repeats or that he controlled every earlier adventure.
 
