@@ -1,16 +1,23 @@
 ---
-title: "The Stalker of Stanleyville"
-subtitle: "The Hunter That Killed the Lord Marshal"
-summary: "The Stalker hunted Stanleyville and killed the incumbent Lord Marshal; later royal inquiry connected its direction to Cid."
+title: The Stalker of Stanleyville
+subtitle: The Hunter That Killed the Lord Marshal
+summary: The Stalker hunted Stanleyville and killed the incumbent Lord Marshal;
+  later royal inquiry connected its direction to Cid.
 category: History & Chronicles
+image: /assets/uploads/stanleyville-under-the-stalkers-fog.png
 entry: HIS.010
-era: "Age of the Misfits"
-facts: "Location: Stanleyville\nKnown as: The Stalker\nNotable victim: Incumbent Lord Marshal\nDirection: Attributed to Cid\nPolitical aftermath: Lord Marshal's office vacant"
+era: Age of the Misfits
+facts: |-
+  Location: Stanleyville
+  Known as: The Stalker
+  Notable victim: Incumbent Lord Marshal
+  Direction: Attributed to Cid
+  Political aftermath: Lord Marshal's office vacant
 related: stanleyville,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king
-source: "The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I, Section V (public events)"
+source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
+  Section V (public events)
 featured: false
 ---
-
 ## Terror in the steel town
 
 The **Stalker** preyed upon [[Stanleyville]] during a period of unexplained deaths. The Lord Marshal who had previously employed [[The Misfits]] requested their assistance in investigating the town's affliction.
