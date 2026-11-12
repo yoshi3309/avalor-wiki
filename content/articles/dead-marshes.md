@@ -11,8 +11,9 @@ facts: |-
   Terrain: Wetlands and shifting waterways
   Historical injuries: Founding wars; Black Tower
   Notable settlement: Wayword Sun
+  Historic stronghold: Lord Osmo’s Tower
   Historic order: Hunters Guild
-related: wayword-sun,black-tower,forest-of-the-fey,great-desert
+related: lord-osmos-tower,wayword-sun,black-tower,forest-of-the-fey,great-desert
 source: Compendium II · Entry II.003, XII–XIV; The Living Chronicle, Chapters II–IV
 featured: false
 ---
@@ -24,7 +25,7 @@ The marshes occupy country between the [[Forest of the Fey]] and Avalor's settle
 
 ## The first wound: the founding wars
 
-The land was treacherous even before Avalor existed. The wars against **Lord Osmo** inflicted further damage upon it, and accounts of the decisive struggle at [[Heroes Hill]] have long been associated with the marshes' troubled condition.
+The land was treacherous even before Avalor existed. The wars against **Lord Osmo** inflicted further damage upon it, and accounts of the decisive struggle at [[Heroes Hill]] have long been associated with the marshes' troubled condition. The surviving [[Lord Osmo’s Tower]] stands within these wetlands, a reminder of the conqueror's military reach before the founding.
 
 Popular retellings sometimes describe the entire region as the scar of one final battle. Such a story captures the scale of the remembered devastation without explaining all that preceded or followed it. The earliest records do not identify a single spell or weapon responsible for everything the marshes later became.
 
