@@ -32,7 +32,7 @@ Jaznaar had maintained Cid's confinement within the Shadowfell and worked to hol
 
 The meeting was not simply an account of past wrongdoing. Jaznaar instructed Tel'Lora, giving the younger wizard knowledge associated with a history that his own family had paid dearly to approach.
 
-He also placed **[[Cid's Bane]]** in the care of **[[Lavitz Shawe]]**. The sword had belonged to **[[Lowkee]]**, the paladin of the founding Six. It was distinct from the **[[Emerald of Armanti]]** that Anna carried. The two relics would follow different paths into the final struggle.
+He also placed ****Cid's Bane**** in the care of **[[Lavitz Shawe]]**. The sword had belonged to **[[Lowkee]]**, the paladin of the founding Six. It was distinct from the **[[Emerald of Armanti]]** that Anna carried. The two relics would follow different paths into the final struggle.
 
 For Lavitz, himself a drow paladin, the false accusation against Jaznaar had a weight beyond its military usefulness. He was not Jaznaar's descendant, and no inherited destiny compelled him to vindicate the founder. He was a man confronted with evidence that his kingdom had taught generations to mistrust one of its protectors. What he did with that truth would be his own choice.
 
