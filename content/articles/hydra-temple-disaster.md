@@ -12,7 +12,7 @@ featured: false
 
 ## Captives beneath Bane's ruin
 
-Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were **[[kel-maris|Kel'Maris]]**, the Lord Marshal, Captain Funkin, Inspector Sihnion, and Renadan guards. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
+Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were **Captain Funkin, Inspector Sihnion, and Renadan guards**. The Lord Marshal, **[[kel-maris|Kel'Maris]]**, had already been killed by the Stalker in Stanleyville; Captain Funkin had brought her body back to Renada before this later catastrophe. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
 
 The temple was no ordinary prison. It contained preparations for a blood rite, an altar, and a pit of flesh and bone. Anna was placed upon the altar; [[fo-gurn|Fo'Gurn]] was wounded and held apart from his companions. The arrangements made clear what the prisoners were to their captors: not guests to be persuaded, but lives to be consumed in a design greater than any one hostage.
 
@@ -30,7 +30,7 @@ The prisoners were not helpless forever. Tel'Lora's octopus companion **Kali'mar
 
 Jaaris transformed the sacrificial mass into a **hydra**. In the violence that followed, the damaged temple became a place of collapse and desperate flight. What began as an attempt to wield divine power ended with the companions trying simply to get living people out.
 
-**Captain Funkin, Inspector Sihnion, and guards caught in the destruction died.** Anna and Kel'Maris escaped. Kel'Maris's survival matters: her own death occurred later, when the Stalker killed her in Stanleyville. These were two distinct tragedies.
+**Captain Funkin, Inspector Sihnion, and guards caught in the destruction died.** Anna escaped. Kel'Maris could not be among the survivors: **the Stalker had killed her before the Hydra encounter**. Funkin survived Stanleyville long enough to return her body, but he did not survive this temple. These were two distinct tragedies.
 
 The escape also confronted the Misfits with a choice no spell or weapon could make painless. The hydra threatened to overtake those fleeing the ruin, and someone had to give them time.
 
@@ -48,7 +48,7 @@ The company would see his face again under terrible circumstances in the [[The S
 
 ## What survived the ruins
 
-Those who escaped carried Anna and the Lord Marshal back into the world, but not Captain Funkin, Inspector Sihnion, the dead guards, or Fo'Gurn. The Misfits continued their journey with an absence at its center.
+Those who escaped carried Anna back into the world, but not Captain Funkin, Inspector Sihnion, the dead guards, or Fo'Gurn. Their Lord Marshal, Kel'Maris, had been mourned and laid to rest after the earlier Stalker affair. The Misfits continued their journey with an absence at its center.
 
 **Amara's later captivity must not be placed here.** She was taken during the period after the Tournament of Champions; the details of that separate capture remain unsettled. The temple has enough losses of its own without borrowing another chapter's tragedy.
 

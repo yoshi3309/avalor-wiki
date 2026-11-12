@@ -150,7 +150,7 @@ It was an early expression of the devotion he would embrace more fully after the
 
 ## The companion before the legend
 
-The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were brought together by a commission from **[[kel-maris|Kel'Maris]]**, the Lord Marshal who sought help investigating a necromancer.
+The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were already traveling together when they received a commission from **[[kel-maris|Kel'Maris]]**, the Lord Marshal who sought help investigating a necromancer.
 
 Alongside Lavitz stood [[Tel'Lora Ebbenflow]], the half-elven wizard; [[svendyal-shadowwhisper|Sven]], the eladrin; [[Amara]], a druid whose family line reached back to the founding age; and Fo’Gurn. They overcame their first enemy and recovered fragments of magical research whose significance became clear only much later. The affair is preserved as [[The Misfits’ First Commission]].
 
@@ -172,7 +172,7 @@ For Lavitz, the road offered something the office of Lord Marshal would eventual
 
 Among the losses that shaped Lavitz, few were more personal than the stand remembered in [[Fo’Gurn and the Hydra]].
 
-When the company faced a hydra, Fo’Gurn remained behind to buy his friends enough time to escape. They survived, believing the dragonborn had died. For Lavitz, this was not simply the loss of another adventurer. He had known Fo’Gurn before there were Misfits to speak of, and the memory of his friend's choice followed him long after the encounter itself.
+When the company faced a hydra, Fo’Gurn remained behind to buy his friends enough time to escape. They survived, believing the dragonborn had died. For Lavitz, this was not simply the loss of another adventurer. He had known Fo’Gurn before there were Misfits to speak of, and the memory of his friend's choice followed him long after the encounter itself. **This sacrifice occurred after the earlier Stalker affair in Stanleyville**, when Kel'Maris had already been killed.
 
 Later discoveries involving the necromancer [[Jaaris]] complicated the company's understanding of Fo’Gurn's fate. They did not undo the years in which the surviving companions mourned him. Testimony of the final Shadowfell struggle also remembers Lavitz refusing to abandon his oldest friend when they met again, and a choice by Fo’Gurn to stand beside him. The reasons for his reappearance remain beyond the public account.
 
@@ -182,7 +182,7 @@ Lavitz's willingness to place himself between danger and others is among his def
 
 The Misfits' investigation of mysterious deaths at [[Stanleyville]] brought them face to face with another kind of cruelty. They encountered [[Jack of Stanleyville]], a murdered child whose conscious spirit sought the truth of his own death. Rather than remain in the town, Jack traveled onward with the companions.
 
-The affair also claimed the life of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal who had first summoned the adventurers. She was killed during the attack of [[The Stalker of Stanleyville|the Stalker]], a creature later connected to Cid.
+The affair also claimed the life of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal who had first summoned the adventurers. She was killed during the attack of [[The Stalker of Stanleyville|the Stalker]], a creature later connected to Cid. **Captain Funkin returned her body to Renada**; he later died during the Hydra temple disaster.
 
 The office was left vacant. At the time, Lavitz had no reason to know that he would one day be asked to fill it.
 

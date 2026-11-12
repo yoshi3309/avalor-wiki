@@ -59,13 +59,13 @@ The stories of that day differ in their flourishes, as stories of brave last sta
 
 This was an act of courage, but its cost fell not only upon the man who made it. The companions who escaped had to continue without him, carrying the belief that they would never see their friend again.
 
-The episode is also remembered in [[The Misfits#iii-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
+The episode is also remembered in [[The Misfits#iv-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
 
 ## The altar and the people he protected
 
 The hydra threatened the company during a far larger disaster at a ruined temple near Stanleyville. Cid's servants had taken prisoners, restrained the company, and endangered **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend the Misfits had met during their search for Lowkee's Keeper.
 
-Fo'Gurn's stand was therefore not a feat performed in isolation. Behind him were people with names and lives, including the woman who had joined the fellowship without any intention of becoming a warrior. The preceding Lord Marshal and Anna escaped the temple. Captain Funkin, Inspector Sihnion and trapped guards perished.
+Fo'Gurn's stand was therefore not a feat performed in isolation. Behind him were people with names and lives, including the woman who had joined the fellowship without any intention of becoming a warrior. Anna escaped the temple. **Kel'Maris, the preceding Lord Marshal, had died earlier at Stanleyville**; Captain Funkin had returned her body safely to Renada and **later died at this temple** alongside Inspector Sihnion and trapped guards.
 
 The paladin's choice left the companions time to flee, but it also left a living obligation. The others continued a mission that Anna would accompany to the Shadowfell, carrying the **[[Emerald of Armanti]]** into the last confrontation with Cid.
 

@@ -30,7 +30,7 @@ The Stalker **pierced Kel'Maris through the chest and killed her**. Her death de
 
 No interim Lord Marshal was appointed during the remainder of their campaign. The office remained vacant until [[Lavitz Shawe]] took the post after Cid's defeat.
 
-Kel'Maris's body was returned to Renada, where she received a state funeral and lay in state for three days at the Great Cathedral. According to her wishes, she was privately cremated and her ashes scattered in the King's Forest. The attack changed the history of the kingdom as well as the lives of the people in Stanleyville.
+**Captain Funkin returned Kel'Maris's body safely to Renada.** She received a state funeral and lay in state for three days at the Great Cathedral. According to her wishes, she was privately cremated and her ashes scattered in the King's Forest. The attack changed the history of the kingdom as well as the lives of the people in Stanleyville. **The Stalker affair preceded the Hydra temple**, where Captain Funkin would later be killed.
 
 ## The hand behind the creature
 
