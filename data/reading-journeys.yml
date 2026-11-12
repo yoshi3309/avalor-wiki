@@ -56,12 +56,14 @@ journeys:
             note: "The wizard who will one day become High Wizard."
       - article: the-first-commission
         label: "The Crown Calls"
-        introduction: "The preceding Lord Marshal sends an already-traveling company against an unnamed necromancer. They succeed, recovering fragments of dangerous study."
+        introduction: "Kel'Maris, the Lion's Shadow, sends an already-traveling company against an unnamed necromancer. They succeed, recovering fragments of dangerous study."
         deeper_reading:
           - article: fo-gurn
             note: "A dragonborn paladin of the original five."
           - article: svendyal-shadowwhisper
             note: "Sven's life before and beyond this commission."
+          - article: kel-maris
+            note: "The Lord Marshal who first entrusted the companions with royal service."
       - article: golgoroth-second-commission
         label: "A Cult and a New Companion"
         introduction: "The second commission brings the company against Gol'Goroth and into the friendship of Heureux, a bard whose private history is already marked by loss."
@@ -101,12 +103,14 @@ journeys:
             note: "The celestial ally whose pursuit intersects the Misfits' campaign."
       - article: the-stalker
         label: "The Stalker of Stanleyville"
-        introduction: "The Lord Marshal who survived the temple is killed while pursuing deaths in Stanleyville. A boy named Jack dies through another of Cid's deceptions."
+        introduction: "Kel'Maris, the Lord Marshal who survived the temple, is killed by the Stalker at Stanleyville. A boy named Jack dies through another of Cid's deceptions."
         deeper_reading:
           - article: stanleyville
             note: "The people and city enduring the losses."
           - article: jack-of-stanleyville
             note: "The ghost boy who joins the travelers."
+          - article: kel-maris
+            note: "The Lion's Shadow: Gradvum's swordmaster and fallen protector."
       - article: rotten-husk-liberation
         label: "Freedom for the Rotten Husk"
         introduction: "The adventurers free an orc community from an oppressive chief. The people they help matter independently of the greater conflict with Cid."
@@ -154,6 +158,8 @@ journeys:
             note: "The druid's intervention and life beyond the party."
           - article: jack-of-stanleyville
             note: "One death the false adventures cannot undo."
+          - article: zauks
+            note: "The mind flayer behind the cocoons and false lives."
       - article: shadowfell-confrontation
         label: "The Last Battle in the Shadowfell"
         introduction: "Jaaris falls and the companions confront Cid. Fo'Gurn chooses to protect Lavitz, Samuel joins the struggle, and Melmiri helps her rescuers escape."
