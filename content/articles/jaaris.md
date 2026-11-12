@@ -41,7 +41,7 @@ Jaaris was present again among Cid's defenders in the **Shadowfell** and was **k
 
 The Misfits had encountered a necromancer during [[The Misfits’ First Commission|their first commission]] for the preceding Lord Marshal. That practitioner was **not Jaaris**.
 
-The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound rather than simply explaining the beginning of the fellowship.
+The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound: Jaaris had forced Fo'Gurn into a borrowed existence, then lost control when the paladin chose to protect Lavitz. His death ensured the borrowed life would fail.
 
 Much of Jaaris's sorcery remains obscured. His role is remembered through the harm he caused, not through a neatly reconstructed account of every ritual.
 

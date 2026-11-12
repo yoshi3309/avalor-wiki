@@ -61,7 +61,7 @@ Later, Lavitz and Fo'Gurn intercepted Cid's attack on the wounded Samuel. **Fo'G
 
 The long pursuit of the Blood King eventually intersected with the final campaign of [[The Misfits]]. At the ruined temple near Stanleyville, Samuel's arrival helped interrupt Cid's control of the captives. Anna, a noncombatant companion known to the group through the search for Lowkee's Keeper, survived the temple; Fo'Gurn stayed behind to protect the others when the hydra threatened their escape.
 
-The final confrontation in the Shadowfell is remembered for an extraordinary intervention in which witnesses associated Samuel's presence with the legacy of **[[Lowkee]]** and the **[[Emerald of Armanti]]**. The public record cannot explain the full means of that intervention or how it related to Lowkee's continuing existence. It can record the danger Samuel faced and the part he played alongside the companions when Cid's final escape failed.
+Samuel's intervention is now understood: through the **[[Emerald of Armanti]]**, he genuinely but **temporarily channeled [[Lowkee]]'s spirit** and confronted Cid as Aldus. Cid severely wounded Samuel, ending the manifestation. Lowkee was not permanently resurrected. The emerald's separate purpose was to bar Cid from returning to the Material Plane; Fo'Gurn used it during the Blood King's final attempted escape.
 
 Samuel's service thus forms a bridge between the paladin tradition Lowkee founded and the younger heroes who ended a threat that had outlasted generations. That history does not make him a substitute for their choices: he had pursued Cid for years, but it was the company that would carry the cost of the victory.
 

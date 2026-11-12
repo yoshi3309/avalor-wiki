@@ -107,7 +107,7 @@ The five names most commonly celebrated in Avalor's public histories belong to L
 
 Fo'Gurn's place is different, but no less real. He was a member of the early company and the dearest friend of one of its most visible heroes. He shared their first commissions and their dangers before their fellowship became a legend.
 
-His later uncertain history must not be used to erase that earlier membership. Nor should his dramatic role in the final testimony be used to replace his ordinary identity as a friend, fellow paladin, and companion.
+His later necromantic restoration and final rest must not be used to erase that earlier membership. The unexplained question is how he could appear again beside Samuel two decades later, not whether he died defending his friends. Nor should his dramatic role in the final testimony be used to replace his ordinary identity as a friend, fellow paladin, and companion.
 
 Avalor's best account of the Misfits should have room for those whose deeds cannot be neatly reduced to the famous five.
 
