@@ -39,16 +39,16 @@ journeys:
     title: The Rise of the Misfits
     subtitle: Unlikely companions. Difficult choices. A kingdom forever changed.
     overline: THE AGE OF THE MISFITS · AN ARCHIVAL JOURNEY
-    summary: Begin with a Lord Marshal's modest commission, follow an unlikely fellowship through losses and revelations, and witness the victory that changed how Avalor remembered its past.
+    summary: Begin with Moonville Manor and a Lord Marshal's first commission, follow an unlikely fellowship through losses and revelations, and witness the victory that changed how Avalor remembered its past.
     editorial_note: The companions did not set out knowing they would confront the Blood King. This route follows the broad sequence preserved in their public history; some individual encounters remain imperfectly dated, and the surviving accounts do not establish every detail of the road.
     era: The Age of the Misfits to the Age of Ascendancy
     steps:
       - article: the-misfits
         label: An Unlikely Fellowship
-        introduction: Meet the original companions and the friends who joined them. Their shared history begins long before anyone calls them the champions of Avalor.
+        introduction: Meet the original companions and the friends who joined them. Their shared history opens at Moonville Manor, before the Lord Marshal's first commission.
       - article: the-first-commission
         label: The First Call to Adventure
-        introduction: An earlier Lord Marshal asks a small group to investigate an unnamed necromancer. There is no prophecy, only a job and the first reasons to trust one another.
+        introduction: After the companions' first adventure at Moonville Manor, an earlier Lord Marshal asks them to investigate an unnamed necromancer. There is no prophecy, only a job and new reasons to trust one another.
       - article: rotten-husk-clan
         label: A People Worth Defending
         introduction: The companions help liberate an orc community from its dangerous chieftain. Their journey is not only about defeating enemies; it is also about choosing whom to protect.
@@ -64,12 +64,12 @@ journeys:
       - article: jaznaar
         label: The Witness Behind the Legend
         introduction: The supposed Betrayer is not the villain the kingdom's stories describe. His testimony offers the fellowship a new understanding of Avalor's oldest wound.
-      - article: zauks-false-lives
-        label: The Lives That Might Have Been
-        introduction: A mind flayer uses the companions' memories and grief against them. The trials reveal how much of their strength comes from the lives they choose together.
       - article: tournament-of-champions
         label: Celebration and Catastrophe
-        introduction: In Renada, a public tournament becomes the stage for a royal abduction. The Misfits must follow the threat beyond the kingdom they know.
+        introduction: In Renada, a public tournament becomes the stage for a royal abduction. The queen remains captive through Ros Furband's ship, Jinlin's defeat, and Zauks's false worlds.
+      - article: zauks-false-lives
+        label: The Lives That Might Have Been
+        introduction: A mind flayer uses the companions' memories and grief against them. After the tournament and the real battle against Jinlin, the trials reveal how much of their strength comes from the lives they choose together.
       - article: cid-the-blood-king
         label: The Blood King's Last Confrontation
         introduction: Trace the enemy's hidden identity and the long path to his defeat. The man who began as Aldus Greystone III has shaped much more than the companions realized.

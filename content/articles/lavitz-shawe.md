@@ -160,11 +160,11 @@ The fellowship endured because its members repeatedly chose to remain together. 
 
 ## Adventures on roads without a single destiny
 
-The histories of the Misfits include the living halls of [[Moonville Manor]], the peculiar affair of [[The Ripped Beard]], and the transformation of a wizard named [[Noki]] into a sheep. The company also helped free the [[The Liberation of the Rotten Husk|Rotten Husk]] orc tribe from a dangerous chieftain.
+The histories of the Misfits begin with the living halls of [[The Misfits#moonville-manor|Moonville Manor]], **before their first royal commission**. Later came [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from a dangerous chieftain. **The Ripped Beard** was another name for that same liberation, not a second expedition.
 
 These encounters are easily overshadowed by the later defeat of Cid. They should not be. People who received help during those journeys did not need an explanation of the Black Tower to know whether the adventurers had made a difference.
 
-Other dangers followed, including [[Zauks and the False Lives|the illusions of Zauks]], the crisis at [[The Tournament of Champions]], and confrontations that tested the companions' trust as much as their strength. The public accounts preserve separate histories of these events precisely because not every enemy was secretly an instrument of the Blood King.
+Later came the crisis at [[The Tournament of Champions]], where Cid took Queen Melmiri. The pursuit was interrupted by Ros Furband's pirate ship, a real confrontation with Jinlin Vechon and the Wrath of Innocent, and finally [[Zauks and the False Lives|Zauks's illusions]]. These dangers tested the companions' trust as much as their strength. The public accounts preserve separate histories of these events precisely because not every enemy was secretly an instrument of the Blood King.
 
 For Lavitz, the road offered something the office of Lord Marshal would eventually take from him: the freedom to respond immediately to a person in danger, to choose a course with his companions, and to shoulder the risk himself.
 
@@ -174,7 +174,7 @@ Among the losses that shaped Lavitz, few were more personal than the stand remem
 
 When the company faced a hydra, Fo’Gurn remained behind to buy his friends enough time to escape. They survived, believing the dragonborn had died. For Lavitz, this was not simply the loss of another adventurer. He had known Fo’Gurn before there were Misfits to speak of, and the memory of his friend's choice followed him long after the encounter itself.
 
-Later discoveries involving the necromancer [[Jaaris]] complicated the company's understanding of Fo’Gurn's fate. They did not undo the years in which the surviving companions mourned him.
+Later discoveries involving the necromancer [[Jaaris]] complicated the company's understanding of Fo’Gurn's fate. They did not undo the years in which the surviving companions mourned him. Testimony of the final Shadowfell struggle also remembers Lavitz refusing to abandon his oldest friend when they met again, and a choice by Fo’Gurn to stand beside him. The reasons for his reappearance remain beyond the public account.
 
 Lavitz's willingness to place himself between danger and others is among his defining virtues. It can also be a difficult habit for a leader: he would rather bear the risk himself than ask another to bear it. A Lord Marshal must learn that protecting a kingdom cannot depend upon a single person standing in every breach.
 
