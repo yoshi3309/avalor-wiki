@@ -1,16 +1,23 @@
 ---
-title: "The Cathedral Paladins"
-subtitle: "The Oath Above Authority"
-summary: "A martial and religious order founded by Lowkee at Heaven's Heart, guided by the protection of the helpless above blind obedience."
+title: The Cathedral Paladins
+subtitle: The Oath Above Authority
+summary: A martial and religious order founded by Lowkee at Heaven's Heart,
+  guided by the protection of the helpless above blind obedience.
 category: Organizations & Factions
+image: /assets/uploads/cathedral-paladins.png
 entry: ORG.003
-era: "Founding Age to Age of Ascendancy"
-facts: "Founder: Lowkee\nPrincipal sanctuary: Heaven's Heart\nFaiths: Tyr, Helm, and Torm\nGuiding principle: The First Teaching\nHistoric action: Sanctuary for drow families"
+era: Founding Age to Age of Ascendancy
+facts: |-
+  Founder: Lowkee
+  Principal sanctuary: Heaven's Heart
+  Faiths: Tyr, Helm, and Torm
+  Guiding principle: The First Teaching
+  Historic action: Sanctuary for drow families
 related: lowkee,heavens-heart,sanctuary-at-heavens-heart,threefold-devotion,samuel-the-devoted
-source: "The Living Chronicle, Chapters III and V; Compendium I · I.004, public Scholar's Account; Compendium II · II.003, public Scholar's Account"
+source: The Living Chronicle, Chapters III and V; Compendium I · I.004, public
+  Scholar's Account; Compendium II · II.003, public Scholar's Account
 featured: false
 ---
-
 ## Founded to defend the vulnerable
 
 **The Cathedral Paladins** trace their beginning to [[Lowkee]], a human paladin of [[The Six]], who founded the order at [[Heaven's Heart]] near the [[Spine of the World]].
