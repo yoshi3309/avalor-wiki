@@ -1,0 +1,78 @@
+name: Validate Avalor Draft (No Deployment)
+on:
+  push:
+    branches:
+      - editorial/nov-2026-four-volume-wiki-sync
+    paths:
+      - "content/**"
+      - "data/**"
+      - "docs/**"
+      - "build.py"
+      - "tests/**"
+      - ".github/workflows/validate-draft.yml"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: Validate public archive without publishing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install build packages
+        run: pip install 'Jinja2>=3.1,<4' 'PyYAML>=6,<7' 'mistune>=3,<4' 'Pillow>=10,<13'
+      - name: Check browser JavaScript syntax
+        run: |
+          node --check assets/map.js
+          node --check assets/atlas-time.js
+          node --check assets/app.js
+          node --check assets/search.js
+          node --check assets/chronicle.js
+          node --check assets/connections.js
+          node --check assets/connections-web.js
+          node --check assets/article-reading.js
+          node --check assets/gallery.js
+          node --check assets/exhibits.js
+          node --check assets/reading-desk.js
+          node --check assets/reading-comfort.js
+          node --check assets/welcome.js
+          node --check assets/comparisons.js
+      - name: Test smart archive search
+        run: node --test tests/test_search.js
+      - name: Check public canon and article links
+        run: python tests/check_public_canon.py
+      - name: Build public website
+        run: python build.py
+      - name: Check Public Sitemap, Links & Accessibility
+        run: python tests/check_site_quality.py
+      - name: Check enhanced article output
+        run: python tests/check_article_reading.py
+      - name: Check Illustration Gallery
+        run: python tests/check_gallery.py
+      - name: Check Responsive Media
+        run: python tests/check_media_performance.py
+      - name: Check Discord & Social Previews
+        run: python tests/check_social_previews.py
+      - name: Check Archivist Welcome
+        run: python tests/check_welcome.py
+      - name: Check Character Comparison Dossiers
+        run: python tests/check_comparisons.py
+      - name: Check Atlas exploration controls
+        run: python tests/check_atlas_explore.py
+      - name: Check Atlas Through Time
+        run: python tests/check_atlas_time.py
+      - name: Check Cross-Archive Connections
+        run: python tests/check_connections_web.py
+      - name: Check Reading Comfort & Accessibility
+        run: python tests/check_reading_comfort.py
+      - name: Check Historical Exhibits
+        run: python tests/check_exhibits.py
+      - name: Check Personal Reading Desk
+        run: python tests/check_reading_desk.py
+      - name: Check Royal Gazette
+        run: python tests/check_gazette.py

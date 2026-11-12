@@ -1,7 +1,7 @@
 ---
 title: Fo’Gurn
 subtitle: The Paladin Who Stayed Behind
-summary: The dragonborn paladin and Lavitz's longtime friend who saved the Misfits from a hydra, was mourned for years, and appeared again in accounts of Cid's defeat.
+summary: The dragonborn paladin and Lavitz's longtime friend who saved the Misfits from a hydra, was mourned for years, and whose unexpected choice to protect Lavitz is recalled in testimony of Cid's defeat.
 category: People & Legends
 image: /assets/uploads/gold-dragonborn-storm-warrior.png
 entry: BIO.028
@@ -37,7 +37,7 @@ The moment of Fo'Gurn's apparent death would later show how much Lavitz had come
 
 ## A member of the first company
 
-Fo'Gurn belonged to the adventurers first assembled by Avalor's preceding Lord Marshal to investigate an unnamed necromancer. The early company also included Lavitz, [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], and [[Amara]].
+Fo'Gurn belonged to the early adventurers who traveled together **before** their first royal commission. Their earliest recorded adventure was [[The Misfits#moonville-manor|Moonville Manor]]. Only afterward did Avalor's preceding Lord Marshal summon them to investigate an unnamed necromancer. The company included Lavitz, [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], and [[Amara]].
 
 They defeated their enemy, recovered fragments of magical study, and accepted further work. Their second commission concerned [[The Cult of Gol’Goroth|the cult of Gol'Goroth]] and brought [[Heureux]] into their circle.
 
@@ -79,15 +79,15 @@ What was uncertain concerned the fate of the man they had mourned, not the reaso
 
 ## The companion at the final confrontation
 
-The Misfits' struggle against Cid reached its crisis after [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]] and carried her into the Shadowfell. The companions pursued him and succeeded in rescuing her.
+The Misfits' struggle against Cid reached its crisis at [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]]. The intervening pursuit passed through Ros Furband's captivity, Jinlin Vechon's defeat, and Zauks's illusions before the companions entered the Shadowfell and rescued her.
 
-In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** alongside the friends who had believed him dead. The authorized testimony describes him carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
+In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** before the friends who had believed him dead. Testimony recalls a painful confrontation with Lavitz in which the paladin refused to abandon his oldest friend and Fo'Gurn **chose to protect him**. The authorized account then describes Fo'Gurn carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
 
 Those present witnessed Cid's disappearance into the darkness but could not identify the power that carried him away. Accounts of Fo'Gurn's return likewise left the kingdom divided over what had occurred.
 
 The earliest popular celebrations did not uniformly repeat every part of this testimony. The Archives therefore distinguish between what participants later described, what the wider kingdom commonly believed, and what scholars can conclusively explain.
 
-This is not a record of conventional resurrection with a known method and predictable consequences.
+The public evidence does not explain the circumstances of his appearance or what ultimately became of him. Those gaps do not make his first sacrifice a fiction, nor do they erase the freedom of the choice attributed to him in the final struggle.
 
 ## An original Misfit, not an afterthought
 

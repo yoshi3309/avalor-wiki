@@ -93,7 +93,7 @@ That search drew him outward into Avalor, carrying the spellbook, his father's t
 
 ## The first commission
 
-Tel'Lora joined the adventurers summoned by the preceding Lord Marshal to investigate an **unnamed necromancer**. The early company also included [[Lavitz Shawe]], [[svendyal-shadowwhisper|Sven]], [[Amara]], and [[fo-gurn|Fo'Gurn]].
+Tel'Lora was among the early companions who faced [[The Misfits#moonville-manor|Moonville Manor]] before the crown first called upon them. The preceding Lord Marshal then summoned the adventurers to investigate an **unnamed necromancer**. The company included [[Lavitz Shawe]], [[svendyal-shadowwhisper|Sven]], [[Amara]], and [[fo-gurn|Fo'Gurn]].
 
 The investigation ended with the necromancer's defeat. Among the recovered materials were fragments of research later linked to the experiments of Aldus Greystone III. They were troubling clues, though the companions had not yet met the Blood King or learned what those fragments meant.
 
@@ -131,13 +131,13 @@ Jaznaar died after the companions departed. The truth he had offered survived hi
 
 ## Memory, deception, and the Shadowfell
 
-The Misfits' road continued through encounters in which appearances could not be taken at face value. The vampire [[The Wrath of Innocent#jinlin-vechon|Jinlin Vechon]] hated Cid, but that shared hatred did not make him trustworthy. Later, the mind flayer [[Zauks and the False Lives|Zauks]] used the companions' own memories to fashion convincing imitations of past dangers and desired lives.
+At the [[The Tournament of Champions|Tournament of Champions]], the companions tried to protect the royal couple from Cid. The Blood King abducted [[Queen Melmiri]], and the Misfits departed on a pursuit that proved far from direct.
 
-The precise hopes each companion saw in Zauks's illusions have not been publicly disclosed. It is enough to know that the fellowship rejected a comforting deception and returned to the real responsibilities of their lives.
+The pirate **Ros Furband** captured the company and delivered them into the power of **[[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire whose hatred of Cid did not make him trustworthy. **Jinlin was defeated in a real confrontation.** Only afterward did the mind flayer [[Zauks and the False Lives|Zauks]] fashion counterfeit versions of the companions' earlier dangers and the lives they most wished they had lived.
 
-At the [[The Tournament of Champions|Tournament of Champions]], the companions tried to protect the royal couple from Cid. The Blood King abducted [[Queen Melmiri]], and the Misfits followed him into the Shadowfell to recover her.
+The precise hopes each captive saw in Zauks's illusions have not been fully disclosed in the public record. The company escaped the deception through Amara's intervention and continued toward the Shadowfell, where Melmiri remained captive.
 
-They succeeded, defeating Cid and helping reveal the foundational lie that had condemned Jaznaar. Tel'Lora's part in the victory did not make him an eyewitness to every event of the founding era. It made him one of the people who helped bring surviving testimony into the light.
+They reached Cid's fortress, rescued the queen, and helped bring the foundational lie that had condemned Jaznaar into public view. Tel'Lora's part in the victory did not make him an eyewitness to every event of the founding era. It made him one of the people who helped bring surviving testimony into the light.
 
 ## The eighth seat of the Aegis
 

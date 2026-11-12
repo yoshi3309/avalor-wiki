@@ -24,6 +24,17 @@ The name entered the language of historians and chroniclers. No surviving royal 
 
 King Gradvum's court expanded diplomatic relationships while trade and commerce grew. These successes were real, but their rewards were not equally distributed. Ports and established routes often benefited sooner than distant communities.
 
-The celebrated companions themselves assumed different duties. [[Lavitz Shawe]] became Lord Marshal, [[Tel'Lora Ebbenflow]] became High Wizard, Heureux aided the preservation and teaching of revised history, Sven remained surrounded by rumor, and Amara continued her travels.
+The celebrated companions themselves assumed different duties. [[Lavitz Shawe]] became **Lord Marshal**, inheriting the vacancy left by the death of his predecessor at Stanleyville. [[Tel'Lora Ebbenflow]] became **High Wizard**, holding a new eighth seat on [[The Aegis]] rather than merely inheriting one of the council's earlier seven. [[Heureux]] taught and preserved history, ultimately establishing his academy in [[Taveras]], while Sven's activities grew less visible and [[Amara]] followed the call of the natural world.
 
 The period's significance lies not simply in rising influence, but in the questions prosperity has brought: how to honor the truths newly recovered, how to protect the people who built the realm, and how to ensure that the promise of unity reaches beyond the citadel.
+## A peace shaped by remembrance
+
+The return of Queen Melmiri was a victory for the living, but it came with a duty to the dead. The companions' story could not be told without Fo'Gurn, who had belonged to the original company, or [[Jack of Stanleyville]], the child whose spirit had traveled beside them. Memorials for the slain Lord Marshal and the others lost along the way belonged to the same difficult public reckoning as the restoration of Jaznaar's name.
+
+The misdeeds of Aldus Greystone III had endured partly because a kingdom learned to repeat a false accusation against a drow defender. Correcting that record required more than removing the word *Betrayer*. It required the institutions entrusted with history to ask how an error so useful to the powerful had survived for generations.
+
+## A fellowship beyond the royal court
+
+The five celebrated companions did not remain an adventuring company at court for the next twenty years. Their paths divided as duties, loves, scholarship, and distant roads drew them outward. That separation should not be mistaken for a quarrel or an ending to their loyalty.
+
+The Age of Ascendancy is remembered for renewed prestige and expanding possibility. It must also be judged by whether the kingdom turned those opportunities into protection, fair governance, and a more truthful understanding of its own past.

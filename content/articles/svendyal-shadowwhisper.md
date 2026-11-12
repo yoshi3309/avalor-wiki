@@ -157,7 +157,7 @@ The ring's eventual power has not been revealed. Nor is the fey necromancer esta
 
 ## Among the first Misfits
 
-Sven became one of the adventurers summoned by Avalor's preceding Lord Marshal to investigate an unnamed necromancer. His companions included **[[Lavitz Shawe]]**, **[[Tel'Lora Ebbenflow]]**, **[[Amara]]**, and **[[fo-gurn|Fo'Gurn]]**.
+Sven had already begun traveling with **[[Lavitz Shawe]]**, **[[Tel'Lora Ebbenflow]]**, **[[Amara]]**, and **[[fo-gurn|Fo'Gurn]]** when they faced the living halls of [[The Misfits#moonville-manor|Moonville Manor]]. Their first formal commission followed, when Avalor's preceding Lord Marshal summoned the companions to investigate an unnamed necromancer.
 
 The company defeated its first enemy and recovered fragments of magical study whose significance emerged only later. A subsequent commission against **[[The Cult of Gol’Goroth|Gol'Goroth's cult]]** brought **[[Heureux]]** into their circle.
 
@@ -165,7 +165,7 @@ The Misfits could not restore the family Sven had lost. But they became people h
 
 ## Roads traveled in company
 
-The fellowship survived **[[Moonville Manor]]**, the strange affair of **[[Noki]]**, **[[The Ripped Beard]]**, the liberation of the **[[The Rotten Husk Clan|Rotten Husk]]**, and the horrors of **[[Stanleyville]]**.
+The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the Hydra's destruction, and the horrors of **[[Stanleyville]]**. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**. Some tellings named this single affair **the Ripped Beard**; the two names should not divide one deed into two imagined adventures.
 
 They also endured the loss of Fo'Gurn, who stood before a hydra so the others could escape. Later, the spirit of **[[Jack of Stanleyville]]**, a murdered boy, chose to travel with them rather than remain in the town where he had died.
 
@@ -177,7 +177,7 @@ The mind flayer **[[Zauks and the False Lives|Zauks]]** later fashioned convinci
 
 The Misfits eventually met **[[Jaznaar]]**, the last survivor of the founding Six, and learned that the celebrated healer Aldus Greystone III had become **[[Cid the Blood King]]**.
 
-After **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The companions pursued him into the Shadowfell, rescued her, and defeated the Blood King. Sven stood with the fellowship, though the exact deeds of every participant in that struggle are not fully preserved.
+At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The companions' pursuit was interrupted by the pirate Ros Furband, Jinlin Vechon and his Wrath of Innocent, and the false lives conjured by Zauks. They reached the Shadowfell only afterward, rescued the queen, and defeated the Blood King. Sven stood with the fellowship, though the exact deeds of every participant in that struggle are not fully preserved.
 
 Their victory forced Avalor to confront the false history that had condemned Jaznaar for nearly two thousand years. Sven's place in that change is secure even without a catalogue of individual triumphs.
 

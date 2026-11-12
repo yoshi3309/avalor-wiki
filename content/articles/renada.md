@@ -178,7 +178,7 @@ The **[[The Misfits|Misfits]]** did not set out to correct the capital's oldest 
 
 During the **[[The Tournament of Champions|Tournament of Champions]]**, Renada filled with contestants and spectators. **Cid abducted [[Queen Melmiri]]** amid the public celebration, transforming a gathering intended to honor extraordinary competitors into a crisis for the kingdom.
 
-The Misfits followed him into the Shadowfell, rescued the queen, and defeated the Blood King. The public learned that the long-honored Aldus and the murderous Cid were one person, and that Jaznaar had suffered centuries of false condemnation.
+Their journey was interrupted by Ros Furband, a struggle with Jinlin Vechon, and the false lives of Zauks before they reached the Shadowfell, rescued the queen, and defeated the Blood King. The public learned that the long-honored Aldus and the murderous Cid were one person, and that Jaznaar had suffered centuries of false condemnation.
 
 The news was both victory and accusation. Renada had not simply been deceived by a distant enemy; its schools, monuments, and inherited histories had repeated the enemy's preferred version of events. **[[Heureux]]** gave ordinary readers a fuller account of the fellowship's actions, but no single chronicle could decide how each resident would respond to the truth.
 

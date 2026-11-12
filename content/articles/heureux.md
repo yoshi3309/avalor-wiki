@@ -138,7 +138,7 @@ H joined the adventurers who became **[[The Misfits]]** during their second comm
 
 The bard brought more than a performance to the company. He knew how stories could be distorted, how witnesses might be silenced, and how a seemingly unimportant detail could preserve the meaning of what had happened. His humor brought warmth to dangerous journeys, while his attention to the people they met helped keep the fellowship grounded.
 
-Their adventures included the living halls of **[[Moonville Manor]]**, the odd fate of **[[Noki]]**, the affair of **[[The Ripped Beard]]**, and the liberation of **[[The Rotten Husk Clan|the Rotten Husk]]** from a dangerous chieftain.
+The company's adventures began with the living halls of **[[The Misfits#moonville-manor|Moonville Manor]]**, before the first commission. Later they encountered **[[Noki]]**, and helped liberate **[[The Rotten Husk Clan|the Rotten Husk]]** from a dangerous chieftain. Some accounts call that single affair **the Ripped Beard**, rather than recording an additional expedition.
 
 To H, the people helped along the way were not merely supporting characters in a story about heroes. Their experiences mattered in their own right.
 
@@ -158,7 +158,7 @@ The Misfits eventually met **[[Jaznaar]]**, the last survivor of [[The Six]]. Th
 
 The revelation recalled, on a vast scale, the fear that had shaped H's exile. A kingdom could build monuments, schools, and generations of tradition upon a story that had been manipulated. A falsehood did not become true because it was repeated for centuries.
 
-Later, the mind flayer **[[Zauks and the False Lives|Zauks]]** fashioned convincing false lives from the companions' memories. He offered the semblance of happiness without the grief they had endured. The fellowship escaped. H remembered an owl associated with Amara among the clues that helped them see the deception.
+After **[[The Tournament of Champions]]** and the queen's abduction, the Misfits fell into Ros Furband's hands and confronted Jinlin Vechon. Later, the mind flayer **[[Zauks and the False Lives|Zauks]]** fashioned convincing false lives from the companions' memories. He offered the semblance of happiness without the grief they had endured. The fellowship escaped. H remembered an owl associated with Amara among the clues that helped them see the deception.
 
 H had witnessed the destruction of a clan's archive and the manipulation of an entire kingdom's past. Both taught him that a pleasing story must never become a substitute for examining what happened.
 

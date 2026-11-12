@@ -39,7 +39,7 @@ The two lives can be read together without treating ancestry as destiny. Both wo
 
 ## Among unlikely companions
 
-Amara belonged to the adventurers summoned by the preceding Lord Marshal to investigate an unnamed necromancer. The group included Lavitz, Tel'Lora, [[svendyal-shadowwhisper|Sven]], and [[fo-gurn|Fo'Gurn]]. Their first commission ended with the enemy's defeat, though strange fragments of magical research recovered afterward would gain importance later.
+Amara belonged to the early fellowship with Lavitz, Tel'Lora, [[svendyal-shadowwhisper|Sven]], and [[fo-gurn|Fo'Gurn]]. Their earliest recorded adventure brought them to the living halls of [[The Misfits#moonville-manor|Moonville Manor]]. **Only afterward** did the preceding Lord Marshal call upon them to investigate an unnamed necromancer. That first *royal commission* ended with the enemy's defeat, although fragments of magical research recovered afterward would acquire significance much later.
 
 A second investigation, concerning [[The Cult of Gol’Goroth|Gol'Goroth's cult]], brought the bard [[Heureux]] into their company.
 
@@ -49,9 +49,7 @@ What drew Amara to the Lord Marshal's commission is a quieter part of her story.
 
 ## Adventures worth remembering separately
 
-The company traveled through encounters that did not all originate in Cid's schemes. They entered [[Moonville Manor]], encountered the strange condition of the wizard [[Noki]], and faced the threat called [[The Ripped Beard]].
-
-They also helped the [[The Rotten Husk Clan|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
+The company traveled through encounters that did not all originate in Cid's schemes. After Moonville Manor and the royal commissions came the strange condition of the wizard [[Noki]]. In the aftermath of the Hydra and the losses at Stanleyville, the companions helped the [[The Rotten Husk Clan|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. The affair was also called **the Ripped Beard** in some earlier accounts; it was **not a second expedition**. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
 
 These histories do not name Amara as the sole architect of each victory. They place her among the friends whose decisions made those outcomes possible.
 
@@ -87,7 +85,7 @@ The discovery changed the meaning of the history Amara had inherited through Pet
 
 The companions' later victory in the Shadowfell helped restore Jaznaar's name. Yet restoring a public history was not the same as restoring the ordinary lives damaged by its falsehood. The kingdom's past had become a responsibility for the living.
 
-During [[The Tournament of Champions]], Cid abducted [[Queen Melmiri]], and the Misfits followed him to rescue her. They succeeded in bringing the queen home and ending the immediate threat of the Blood King.
+During [[The Tournament of Champions]], Cid abducted [[Queen Melmiri]]. The pursuit was interrupted by Ros Furband's pirate ship, a real battle with Jinlin Vechon, and [[Zauks and the False Lives|Zauks's false worlds]] before the Misfits reached the Shadowfell. They succeeded in bringing the queen home and ending the immediate threat of the Blood King.
 
 ## A life away from the citadel
 
