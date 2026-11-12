@@ -101,4 +101,26 @@ assert 'class="journey-deeper-reading"' not in other.read_text(encoding="utf-8")
 assert "Follow the main chapters in order" not in other.read_text(encoding="utf-8")
 assert "Read each chapter in sequence" in other.read_text(encoding="utf-8")
 
+
+# Twenty-year retrospective truths are intentionally public; absence is a regression.
+def source(slug):
+    return (ROOT / "content" / "articles" / (slug + ".md")).read_text(encoding="utf-8")
+assert "Erevan Ilesere in disguise" in source("anna-lowkees-keeper")
+assert "Vandria Gilmadrith" in source("misfits-return-to-renada")
+assert "Sven did not answer" in source("misfits-return-to-renada")
+assert "temporarily" in source("emerald-of-armanti")
+assert "bar Cid" in source("emerald-of-armanti")
+assert "Jaaris later raised" in source("fo-gurn")
+assert "before Jaaris died" in source("fo-gurn")
+assert "rest one final time" in source("fo-gurn")
+assert "Blood Sickness" in source("independent-factions-of-the-misfits-era")
+assert "unwanted vampirism" in source("independent-factions-of-the-misfits-era")
+assert "hands" in source("shadowfell-confrontation")
+assert "unknown" in source("shadowfell-confrontation")
+for slug in ("shadowfell-confrontation", "emerald-of-armanti"):
+    article = source(slug)
+    assert "Auren's later retrieval" not in article
+    assert "later Godkiller" not in article
+print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
+
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
