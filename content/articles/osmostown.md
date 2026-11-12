@@ -1,8 +1,10 @@
 ---
 title: Osmostown
 subtitle: The Western Naval City and Smugglers Isle
-summary: A powerful western city associated with Smugglers Isle, crown justice, and the western naval fleet.
+summary: A powerful western city associated with Smugglers Isle, crown justice,
+  and the western naval fleet.
 category: Kingdoms & Places
+image: /assets/uploads/omostown.png
 entry: LOC.033
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -14,7 +16,6 @@ related: seren-thornwyck,four-sheriffdoms,avalorian-forces,kingdom-of-avalor,ste
 source: World Anvil, Osmostown (creator-supplied location; November 2026)
 featured: false
 ---
-
 ## The city and the isle
 
 **Osmostown** is a major western city whose influence extends over **Smugglers Isle**, a name suggestive of the illicit trade that has long complicated the kingdom's maritime affairs.
