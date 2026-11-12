@@ -1,8 +1,10 @@
 ---
 title: Lord Osmo’s Tower
 subtitle: The Stronghold of a Mortal Conqueror
-summary: A surviving military stronghold in the Dead Marshes, built during Lord Osmo's campaigns and later surrounded by unverified legends.
+summary: A surviving military stronghold in the Dead Marshes, built during Lord
+  Osmo's campaigns and later surrounded by unverified legends.
 category: Kingdoms & Places
+image: /assets/uploads/lord-osmos-tower-in-the-mist.png
 entry: LOC.016
 era: Before the Founding to Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Period: Founding wars
   Osmo’s death: Heroes Hill
 related: dead-marshes,lord-osmo,founding-wars,heroes-hill,bradgem-glav,unification-of-avalor
-source: Compendium II · Entry II.003, XXII; The Living Chronicle, Chapters I–II; author-confirmed location in the Dead Marshes (November 2026)
+source: Compendium II · Entry II.003, XXII; The Living Chronicle, Chapters I–II;
+  author-confirmed location in the Dead Marshes (November 2026)
 featured: false
 ---
-
 ## A tower from the age before Avalor
 
 **Lord Osmo’s Tower** stands within the [[Dead Marshes]], a surviving landmark of the wars that preceded the founding of [[The Kingdom of Avalor|Avalor]]. The stronghold rises from wetland country of dark waters, difficult approaches, and shifting ground. It recalls the reach of the conqueror whose ambitions helped persuade rival northern rulers to make common cause.
