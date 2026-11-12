@@ -205,6 +205,9 @@ When the Misfits emerged, the queen was still captive. They had escaped an inven
 
 ## VII. The Shadowfell confrontation
 
+What eventually became known of the final confrontation changed its historical meaning. **Anna was Erevan Ilesere**, who had maintained the guise during the travels as a test of Sven's compassion and commitment to justice. The **Emerald of Armanti** was intended to keep Cid from returning to the Material Plane and enabled Samuel briefly to channel Lowkee's spirit. **Jaaris had resurrected Fo'Gurn through necromancy** after his true death at the Hydra. Fo'Gurn broke that imposed control to protect Lavitz before Jaaris was killed, and afterward remained in the Shadowfell to rest once more. The black hands that removed Cid into the Beyond still have no established identity.
+
+
 The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The complete public account of this conclusion is preserved as **[[The Shadowfell Confrontation]]**, a historical episode in its own right rather than merely a chapter in the Blood King's biography. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
 
 Authorized accounts describe **Fo'Gurn's unexpected presence** and a confrontation with Lavitz. They preserve the moral outline of a friend who refused to answer danger with abandonment, and of Fo'Gurn **choosing again to protect Lavitz**. The precise circumstances of his appearance and the words exchanged between the paladins remain outside the securely established public narrative.

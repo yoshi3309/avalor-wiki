@@ -139,6 +139,11 @@ The surviving evidence does not support a claim that the queen possessed unique 
 
 ## The final confrontation
 
+The completed account is preserved in **[[The Shadowfell Confrontation]]**. Jaaris had raised the dead Fo'Gurn through necromancy, forcing the paladin against his friends. Fo'Gurn resisted this control by protecting Lavitz before Jaaris died.
+
+The warrior beside Anna was **Samuel temporarily channeling Lowkee through the Emerald of Armanti**. Anna was later revealed to be **Erevan Ilesere in disguise**. Fo'Gurn pressed the Emerald into Cid's chest to bar his return to the Material Plane. The black hands that dragged Cid into the Beyond had no established controller, and their action was distinct from the Emerald's seal.
+
+
 The companions rescued Melmiri in the Shadowfell and confronted the Blood King. The event is now recorded separately in **[[The Shadowfell Confrontation]]**, where the rescue and the choices of the Misfits receive their own historical treatment. In accounts of the final struggle, **[[fo-gurn|Fo'Gurn]]**, the dragonborn paladin long believed dead, appeared with the **Emerald of Armanti** and drove it against Cid.
 
 Then an immense **black hand** emerged from an unidentified darkness and seized the Blood King, drawing him away. The companions witnessed his removal, but did **not** establish who or what had claimed him, its origin, or the place to which Cid was taken.

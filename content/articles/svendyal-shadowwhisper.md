@@ -183,6 +183,11 @@ The mind flayer **[[Zauks and the False Lives|Zauks]]** later fashioned convinci
 
 ## The revelation and the final campaign
 
+**Anna was Erevan Ilesere in disguise**, as the company learned after the royal audience in Renada. The divine trickster had accompanied them to test Sven's care for others and his commitment to justice over vengeance. The danger had been real for the companions even though the god in disguise was not truly vulnerable as an ordinary mortal.
+
+**Vandria Gilmadrith** then appeared beside Erevan. They offered Sven the restoration of Tristan and Kristofer at the price of the memories and life formed after their deaths. **Sven gave no answer.** His silence is not a refusal or an acceptance.
+
+
 The Misfits eventually met **[[Jaznaar]]**, the last survivor of the founding Six, and learned that the celebrated healer Aldus Greystone III had become **[[Cid the Blood King]]**.
 
 At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The companions' pursuit was interrupted by **[[Ros Furband]]**, Jinlin Vechon and his Wrath of Innocent, and the false lives conjured by Zauks. On Ros's vessel, Sven was among those assigned to watch duties while his friends—including Anna—endured forced labor elsewhere aboard ship. They reached the Shadowfell only afterward, rescued the queen, and defeated the Blood King. Sven stood with the fellowship, though the exact deeds of every participant in that struggle are not fully preserved.

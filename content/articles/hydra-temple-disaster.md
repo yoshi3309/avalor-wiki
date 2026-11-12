@@ -27,6 +27,9 @@ The surviving companions believed their oldest friend lost. It was not merely an
 
 ## Fo'Gurn's choice
 
+**Fo'Gurn truly died** holding back the hydra. Jaaris later raised him through necromancy, and Fo'Gurn broke the necromancer's conditioning when he chose to protect Lavitz in the Shadowfell. Jaaris's death meant his borrowed life could not continue. He remained in the Shadowfell to rest one final time, rather than returning to Renada.
+
+
 A later royal history may call a sacrifice inevitable, as though a paladin's training could make the decision automatic. The witnesses knew otherwise. Fo'Gurn could have attempted to flee. He **stayed**.
 
 Their testimony establishes the choice and the grief it caused, even though later events in the Shadowfell complicated the public account of his fate. The fact that companions saw him again does not make the earlier sacrifice fraudulent or the years of mourning foolish.
