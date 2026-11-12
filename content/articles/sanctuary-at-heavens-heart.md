@@ -1,10 +1,12 @@
 ---
-title: "The Sanctuary at Heaven’s Heart"
-subtitle: "The Oath That Resisted the Crown"
-summary: "Jeyse and Cal'el protected drow families from discriminatory royal demands during Arnaud's reign."
+title: The Sanctuary at Heaven’s Heart
+subtitle: The Oath That Resisted the Crown
+summary: Jeyse and Cal'el protected drow families from discriminatory royal
+  demands during Arnaud's reign.
 category: History & Chronicles
+image: /assets/uploads/sanctuary-welcome-at-heavens-gate.png
 entry: HIS.022
-era: "Reign of Arnaud, 1259–1315 AF"
+era: Reign of Arnaud, 1259–1315 AF
 facts: |-
   Place: Heaven's Heart
   Families sheltered: Drow refugees
@@ -12,10 +14,10 @@ facts: |-
   Moral defender: Cal’el, an aasimar
   Resolution: Negotiation, not general war
 related: arnauds-edicts,cathedral-paladins,lowkee,heavens-heart,reinas-reforms
-source: "The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry II.001, public historical account"
+source: The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry
+  II.001, public historical account
 featured: false
 ---
-
 ## The families behind the gates
 
 When **Arnaud's discriminatory decrees** threatened drow households, some families sought sanctuary at [[Heaven's Heart]], the settlement associated with [[The Cathedral Paladins]].
