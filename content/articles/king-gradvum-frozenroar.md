@@ -37,7 +37,7 @@ Gradvum did not create the old lie, nor could his proclamation repair every inju
 
 ## The swordmaster who guarded him
 
-While Gradvum was still a prince, his father **King Gerran** summoned **[[kel-maris|Kel'Maris]]**, a young high-elven swordmaster from Ilyanamel, to instruct him in swordsmanship. Over the years she became his friend as well as his teacher. She joined Lion's Bane, rose to second in command, and earned the epithet **the Lion's Shadow** for her unfailing presence at the king's side. Kel'Maris succeeded Kurt Reyginald as Lord Marshal and held the office when Gradvum inherited the crown.
+While Gradvum was still a prince, his father **[[king-gerran-frozenroar|King Gerran]]** summoned **[[kel-maris|Kel'Maris]]**, a young high-elven swordmaster from Ilyanamel, to instruct him in swordsmanship. Over the years she became his friend as well as his teacher. She joined Lion's Bane, rose to second in command, and earned the epithet **the Lion's Shadow** for her unfailing presence at the king's side. Kel'Maris succeeded **[[kurt-reyginald|Kurt Reyginald]]** as Lord Marshal and held the office when Gradvum inherited the crown.
 
 Her death at [[Stanleyville]], pierced through the chest by the Stalker, therefore took more from Gradvum than a senior officer. It took a friend whose service reached back to his childhood. The Lord Marshal's seat remained vacant until Gradvum appointed [[Lavitz Shawe]] after Cid's defeat.
 
