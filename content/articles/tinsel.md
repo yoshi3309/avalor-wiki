@@ -1,16 +1,22 @@
 ---
-title: "Tinsel"
-subtitle: "A Coastal Link in the Royal Trade"
-summary: "An Avalorian port settlement connected to the King's Road and the commercial traffic of the northern kingdom."
+title: Tinsel
+subtitle: A Coastal Link in the Royal Trade
+summary: An Avalorian port settlement connected to the King's Road and the
+  commercial traffic of the northern kingdom.
 category: Kingdoms & Places
+image: /assets/uploads/tinsel-harbor-a-prosperous-coastal-trade-scene.png
 entry: LOC.020
-era: "Age of Ascendancy"
-facts: "Character: Coastal port\nFormer rival: Cove City\nTrade: Kraken meat and oil\nRoute: King's Road"
+era: Age of Ascendancy
+facts: |-
+  Character: Coastal port
+  Former rival: Cove City
+  Trade: Kraken meat and oil
+  Route: King's Road
 related: cove-city,kingdom-of-avalor,stems-port,renada
-source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil account (November 2026)"
+source: Compendium II · Entry II.001, Sections XI and XIII; creator-provided
+  World Anvil account (November 2026)
 featured: false
 ---
-
 ## A harbor within a kingdom of roads
 
 **Tinsel** is an established port of Avalor, named among the coastal settlements tied to the **King's Road** and to the movement of goods between the interior and the sea.
