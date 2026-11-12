@@ -1,8 +1,11 @@
 ---
 title: The Aegis
 subtitle: Eight Voices Before the Lion Throne
-summary: Founded with seven royal offices by Rynhold Frozenroar, the Aegis now brings eight distinct responsibilities into the king's council, including the High Wizard's independent seat.
+summary: Founded with seven royal offices by Rynhold Frozenroar, the Aegis now
+  brings eight distinct responsibilities into the king's council, including the
+  High Wizard's independent seat.
 category: Organizations & Factions
+image: /assets/uploads/aegis-of-avalor.png
 entry: ORG.001
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -15,10 +18,11 @@ facts: |-
   Usual meeting cadence: Weekly
   Seat of government: Renada, Great Citadel
 related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,belgram-mountain-hall,myxi-twinefoot,katiri-tenderfoot,rastrin-diltir,beldir-willowrun,samuel-the-devoted,lavitz-shawe,tellora-ebbenflow,four-sheriffdoms,avalorian-forces,renada,great-citadel
-source: Compendium II · Entry II.001, Section VI, public royal offices; The Living Chronicle, public constitutional history; author-approved councilor details (November 2026)
+source: Compendium II · Entry II.001, Section VI, public royal offices; The
+  Living Chronicle, public constitutional history; author-approved councilor
+  details (November 2026)
 featured: true
 ---
-
 ## A council meant to outlast a king
 
 **The Aegis of Avalor** is the principal council through which the sovereign receives specialized advice and coordinates the work of government. Its origins lie in the reign of [[Rynhold Frozenroar]], whose achievement in uniting former kingdoms demanded more than the personal authority of a victorious ruler.
@@ -39,16 +43,18 @@ Only fragments of the earliest council's procedures and charter survive. The nam
 
 ## The modern eight seats
 
+
 | Office | Present holder | Principal concern |
-| --- | --- | --- |
+| ------------------------ | --------------------------------- | ---------------------------------------------------- |
 | **Third Hand** | [[Belgram of Mountain Hall Clan]] | Coordination across the council's responsibilities |
 | **Golden Hand** | [[Myxi Twinefoot]] | Finance and the crown's resources |
 | **Silver Hand** | [[Katiri Tenderfoot]] | Official intelligence and assessment of threats |
 | **Warden of Order** | [[Rastrin Diltir]] | Internal order and lawful administration |
 | **Sentinel of the Seas** | [[Beldir Willowrun]] | Maritime affairs, ports, and coastal interests |
-| **The Devoted** | [[Samuel the Devoted|Samuel]] | Religious and moral counsel in service to the crown |
+| **The Devoted** | [[Samuel the Devoted | Samuel]] |
 | **Lord Marshal** | [[Lavitz Shawe]] | Senior military advice and command of Lion's Bane |
 | **High Wizard** | [[Tel'Lora Ebbenflow]] | Arcane affairs and their implications for government |
+
 
 These offices are distinct even when their responsibilities overlap. The kingdom's safety depends in part upon a councilor recognizing when an apparently simple proposal carries consequences outside the councilor's own field.
 
