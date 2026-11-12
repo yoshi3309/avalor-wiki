@@ -1,16 +1,22 @@
 ---
-title: "Stems Port"
-subtitle: "A Freeport of the Avalorian Coast"
-summary: "A coastal freeport whose commercial privileges and local authority reflect the varied trading arrangements of Avalor."
+title: Stems Port
+subtitle: A Freeport of the Avalorian Coast
+summary: A coastal freeport whose commercial privileges and local authority
+  reflect the varied trading arrangements of Avalor.
 category: Kingdoms & Places
+image: /assets/uploads/stems-port.png
 entry: LOC.022
-era: "Age of Ascendancy"
-facts: "Character: Freeport\nReputation: Piracy, illicit commerce and black markets\nPolitical distinction: Local commercial arrangements\nComparison: Karhold, a disputed freeport"
+era: Age of Ascendancy
+facts: |-
+  Character: Freeport
+  Reputation: Piracy, illicit commerce and black markets
+  Political distinction: Local commercial arrangements
+  Comparison: Karhold, a disputed freeport
 related: karhold,cove-city,tinsel,kingdom-of-avalor
-source: "Compendium II · Entry II.001, Sections XI and XIII; creator-provided World Anvil Stems Port history (November 2026)"
+source: Compendium II · Entry II.001, Sections XI and XIII; creator-provided
+  World Anvil Stems Port history (November 2026)
 featured: false
 ---
-
 ## Commerce under a different arrangement
 
 **Stems Port** is recognized as a **freeport** within the coastal trade network of [[The Kingdom of Avalor|Avalor]]. This distinction concerns its commercial privileges and arrangements of local authority; it does not mean that the settlement is a place without law.
