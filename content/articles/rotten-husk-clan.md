@@ -1,8 +1,10 @@
 ---
 title: The Rotten Husk Clan
 subtitle: The Orc People Who Outlived Their Chieftain
-summary: An established orc community whose people were liberated by the Misfits from a chieftain who endangered them.
+summary: An established orc community whose people were liberated by the Misfits
+  from a chieftain who endangered them.
 category: Organizations & Factions
+image: /assets/uploads/rotten-husk.png
 entry: ORG.013
 era: Age of the Misfits to Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Recorded outcome: Liberation and goodwill
   Homeland: Unrecorded
 related: the-misfits,heureux,amara,the-first-commission
-source: The Living Chronicle, Chapter VI, Section II; Master Canon Bible Volume I, public Misfits accounts
+source: The Living Chronicle, Chapter VI, Section II; Master Canon Bible Volume
+  I, public Misfits accounts
 featured: false
 ---
-
 ## A people, not merely an encounter
 
 **The Rotten Husk**, an established **orc tribe** also described in some accounts as a clan, has a history of its own. Its name appears in the travels of [[The Misfits]], but the people themselves should not be reduced to an opponent in a famous adventuring story.
