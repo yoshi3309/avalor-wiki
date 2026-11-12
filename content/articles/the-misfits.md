@@ -137,7 +137,7 @@ The name **Lowkee's Keeper** attached itself to Anna and to the search. She bore
 
 Protecting Anna was never merely an errand to deliver a magical object. When the company was captured near Stanleyville, **Anna was among those endangered at the ruined temple**, and she survived alongside the preceding Lord Marshal. Later, after the Games, she endured a second captivity on **[[Ros Furband|Ros Furband's]]** pirate galleon, working in the galley beside Tel'Lora while the queen they were trying to rescue remained in Cid's hands.
 
-Anna continued with the fellowship to the end of its campaign. The emerald reappeared at the final confrontation, although its complete workings and portions of Anna's private history have not been disclosed. What the witnesses did preserve was the presence of a friend who had no need to take up a sword to belong among them.
+Anna continued with the fellowship to the end of its campaign. The emerald reappeared in the final confrontation, allowing Samuel to channel Lowkee briefly and later serving as Fo'Gurn's seal against Cid's return to the Material Plane. After the royal audience **Anna revealed herself as Erevan Ilesere**, who had maintained the guise as a divine test of Sven. The full mechanics and origins of the gem remain unsettled, but **Anna's identity and the relic's known uses are part of the completed history**. The friendship the Misfits showed Anna was real even before they understood whom they were protecting.
 
 ## III. The hydra and the missing companion
 
