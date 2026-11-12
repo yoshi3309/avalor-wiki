@@ -163,7 +163,7 @@ locations:
     published: true
     provisional: false
   - id: wayword-sun
-    name: Wayword Sun
+    name: Wayward Sun
     type: settlement
     x: 52.49
     y: 46.24

@@ -143,8 +143,8 @@ profiles:
       text: "A fiend's deception destroyed her home and shaped her pursuit of justice."
       chapter: "the-boar-and-the-gate"
     legacy:
-      text: "Founded the Hunters Guild at Wayword Sun."
-      chapter: "the-wayword-sun"
+      text: "Founded the Hunters Guild at Wayward Sun."
+      chapter: "the-wayward-sun"
   - article: "petris"
     role:
       text: "Elven cleric of Lathander and member of the Six."

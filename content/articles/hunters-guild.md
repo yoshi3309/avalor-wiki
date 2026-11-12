@@ -1,6 +1,6 @@
 ---
 title: The Hunters Guild
-subtitle: The Long Watch of Wayword Sun
+subtitle: The Long Watch of Wayward Sun
 summary: Founded by Faelynn Naïlo in the Dead Marshes, one of Avalor's oldest
   guilds grew from a lone hunter's refuge into an enduring fellowship protecting
   people beyond the reach of ordinary patrols.
@@ -11,7 +11,7 @@ era: Founding Age to Age of Ascendancy
 facts: >-
   Founder: Faelynn Naïlo, the Night Mistress
 
-  Founding home: Wayword Sun, Dead Marshes
+  Founding home: Wayward Sun, Dead Marshes
 
   Era founded: Early Kingdom of Avalor
 
@@ -28,7 +28,11 @@ featured: false
 ---
 ## A watch older than most institutions
 
-The **Hunters Guild** is among the oldest enduring fellowships of Avalor, reaching back to the kingdom's founding generations. Its home is **[[Wayword Sun]]**, deep in the **[[Dead Marshes]]**, where the roads are unreliable, the ground shifts beneath familiar paths, and help from a royal garrison may be many days away.
+The **Hunters Guild is a family born of tragedy**, not a regiment assembled for the crown. Its members quarrel with one another, sometimes as fiercely as they fight on one another's behalf. Many came to the work after losing someone to darkness; the family business, as hunters call it, has rarely been entered without cost.
+
+To strangers they may appear to be eccentric trappers, hunters of game, or travelers on some private errand. Their secrecy is deliberate. For generations they have followed whispers of supernatural danger through settlements where the presence of an openly declared monster hunter might warn the very creature they sought.
+
+The **Hunters Guild** is among the oldest enduring fellowships of Avalor, reaching back to the kingdom's founding generations. Its home is **[[Wayward Sun]]**, deep in the **[[Dead Marshes]]**, where the roads are unreliable, the ground shifts beneath familiar paths, and help from a royal garrison may be many days away.
 
 The guild does not exist to rival the king's soldiers. It serves where roads, walls, and ordinary patrols offer too little protection. A village threatened by creatures from the wilds, a traveler lost beyond the marked crossings, or a community facing dangers its own people cannot confront has reason to seek the hunters.
 
@@ -42,17 +46,23 @@ A fiend disguised as a great boar lured Faelynn into danger and ensnared her wil
 
 She vowed to hunt the creature responsible. For years she crossed dangerous country, accepted work hunting monsters, and followed signs that eventually carried her beyond the mortal world. At last she confronted the fiend and killed it, ending the pursuit that had consumed her life.
 
-**Her vengeance was complete before she joined [[The Six]].** Her later guild was not founded to continue hunting one personal enemy. Its purpose came from what her long pursuit had taught her: that people left exposed to danger need protectors who know how to find a threat, face it, and return.
+**Her vengeance was complete before she joined [[The Six]]. It ended with her return through a portal to the crooked wrought-iron gate she had seen beyond the boar's cave. There she resisted the fiend's attempt to take her will a second time and killed it with an arrow at close range.** Her later guild was not founded to continue hunting one personal enemy. Its purpose came from what her long pursuit had taught her: that people left exposed to danger need protectors who know how to find a threat, face it, and return.
 
-## The shelter that became Wayword Sun
+## The shelter that became Wayward Sun
 
 After her years among the founding companions, Faelynn wandered through the swamp country later feared as the Dead Marshes. There she found an **abandoned shelter** and made it a refuge from which she could help travelers and communities endangered by the creatures of the wild.
 
-She named it **Wayword Sun**, recalling the east-facing homes of her lost village and the dawn that restored her freedom. In that name, sorrow and hope endured together. It remembered what had been taken from her without declaring that every life thereafter must be lived in the shadow of the loss.
+She named it **Wayward Sun**, recalling the east-facing homes of her lost village and the dawn that restored her freedom. In that name, sorrow and hope endured together. It remembered what had been taken from her without declaring that every life thereafter must be lived in the shadow of the loss.
 
-Other hunters gradually joined her. They brought their own reasons for taking up the work and their own knowledge of dangerous country. What began as the shelter and labor of one ranger became a fellowship with a shared purpose: **protect those who cannot readily protect themselves**.
+Other hunters gradually joined her. Some had watched their own homes fall, and some had learned the particular loneliness of surviving a danger that had left no one else alive. They brought their own reasons for taking up the work and their own knowledge of dangerous country. What began as the shelter and labor of one ranger became a fellowship with a shared purpose: **protect those who cannot readily protect themselves**.
 
-Faelynn came to be known as the **Night Mistress**. The name outlasted the years in which she herself guided the hunters, becoming part of the guild's founding memory rather than proof of any fixed rank structure imposed upon later generations.
+Faelynn came to be known as the **Night Mistress**, a title she took as the family's practices of concealment and unnatural hunting grew more sophisticated. The name outlasted the years in which she herself guided the hunters, becoming part of the guild's founding memory rather than proof of any fixed rank structure imposed upon later generations.
+
+## The family business in secret
+
+A hunter commonly enters a town under an ordinary pretext—tracking game, passing through as a trapper, or seeking paid work. They listen to rumors, recognize coded warnings in conversation, and exchange information in corners where an enemy is unlikely to overhear. Hunters have long relied upon whispered messages and quiet signals rather than proclamations from a guildhall.
+
+Their opponents include threats ordinary town guards may not understand: fiends, spectres, disguised creatures, and others whose apparent shapes conceal their danger. Over the centuries the guild expanded its practices beyond bow and blade, incorporating **hedge magicks, curses, protective signs, and specialized rituals** learned through hard experience. These arts are not identical among every hunter, and the use of one precaution cannot replace sound judgment.
 
 ## What makes a hunter
 
@@ -64,11 +74,25 @@ A hunter may have to guide the lost, warn people away from a threatened road, es
 
 Not every hunter need resemble Faelynn in skill or temperament. The fellowship she founded could endure only because its members were willing to contribute different strengths to the same task.
 
+## Silver, recognition, and the hunter's promise
+
+Hunters traditionally demand **payment in silver alone**. It is an old custom as well as a practical precaution: guild teaching holds that certain shapeshifters burn upon contact with the metal. A hunter meeting a suspected colleague may toss a silver coin to see whether the other can catch or handle it. Not all supernatural disguises are the same, and wise hunters know that a single test is no guarantee of safety.
+
+**Holy water** is another customary precaution. Some hunters discreetly place a little in a drink, or contrive an accidental spill when fearing possession or a fiend in disguise. The practice belongs to the guild's guarded tradition, not to a claim that every danger reacts alike; it calls for caution as well as suspicion.
+
+Other exchanges sound like idle conversation to the uninitiated. One hunter asks, **“Which way are you running?”** Another knows the answer: **“East. Toward the sunrise.”** The words carry the memory of Faelynn's east-facing village, the flight that brought her home too late, and the sunrise that freed her from the fiend's control. They have become both a sign of kinship and a reminder of the work the family took upon itself.
+
+## The crest and the Devil's Trap
+
+The guild's emblem changed as the hunters learned new techniques before taking the form still recognized today: a **pentagram encircled by an Ouroboros**. The pentagram recalls fiendish threats and the sign known to hunters as a **Devil's Trap**, a supernatural cage sometimes painted in blood. The Ouroboros represents the cycle of life and death and the certainty that every hunter, however accomplished, is part of it.
+
+A circle enclosing the pentagram may be left as a discreet mark by hunters moving through hostile territory. As with their questions and coins, the meaning depends upon those who recognize it. The symbol is not proof that every similar design encountered in the world belongs to the guild.
+
 ## The long centuries of the guild
 
 Avalor changed greatly after the founding. The confrontation at the **[[Black Tower]]** deepened the magical injuries of the land, while the Dead Marshes—already treacherous during the founding wars—grew more dangerous. Kings and queens succeeded one another; roads, settlements, and borders changed. The need for people who could travel beyond dependable protection remained.
 
-That continuity helps explain how a fellowship founded in the kingdom's earliest years endured for nearly two thousand years. Its work did not depend upon the survival of any single ruler or a threat that could be defeated once and forgotten.
+That continuity helps explain how a fellowship founded in the kingdom's earliest years endured for nearly two thousand years. Its work did not depend upon the survival of any single ruler or a threat that could be defeated once and forgotten. As the hunters grew in number, smaller companies moved across the continent, while the Wayward Sun remained their waypoint, refuge, and meeting place. A hunter might travel far from the marshes yet still regard the old shelter as home.
 
 The guild's complete succession of leaders, major expeditions, and changing customs across those centuries has not yet been reconstructed. Its survival should not be mistaken for proof that every generation organized itself in precisely the same way. The enduring tradition is one of **service through knowledge of dangerous country**, not an unchanging list of offices.
 
@@ -84,6 +108,8 @@ There is room for cooperation among these protectors without making the guild a 
 
 The Hunters Guild remains active under **[[Malikeah]]**, who now leads the institution Faelynn began. Malikeah inherits its duty, not simply a legendary name.
 
-The exact arrangements through which the present leader directs hunters, trains newcomers, or coordinates distant work have not been established. What is clear is that **Wayword Sun remains the guild's historic home**, and that its purpose has survived the centuries.
+The exact arrangements through which the present leader directs hunters, trains newcomers, or coordinates distant work have not been established. What is clear is that **Wayward Sun remains the guild's historic home**, and that its purpose has survived the centuries.
+
+Hunters continue to journey into the Dead Marshes to pay their respects and ask Faelynn to watch over them. Their founder's memory lives in more than an emblem; it survives in the decision to protect the next stranger found alone on the road.
 
 Faelynn could not save the village of her childhood. She could, however, help create a fellowship devoted to preventing others from suffering the same abandonment. The Hunters Guild endures because its work belongs not to one hero's grief, but to the living people who still need a way home.

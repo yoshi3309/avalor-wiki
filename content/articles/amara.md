@@ -49,7 +49,7 @@ What drew Amara to the Lord Marshal's commission is a quieter part of her story.
 
 ## Adventures worth remembering separately
 
-The company traveled through encounters that did not all originate in Cid's schemes. After Moonville Manor and the royal commissions came the strange condition of the wizard [[Noki]]. In the aftermath of the Hydra and the losses at Stanleyville, the companions helped the [[The Rotten Husk Clan|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. The affair was also called **the Ripped Beard** in some earlier accounts; it was **not a second expedition**. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
+The company traveled through encounters that did not all originate in Cid's schemes. After Moonville Manor and the royal commissions came the strange condition of the wizard [[Noki]]. In the aftermath of the Hydra and the losses at Stanleyville, the companions helped the [[The Rotten Husk Clan|Rotten Husk]] people escape a chieftain who had become dangerous to his own tribe. This episode is especially revealing of the fellowship's wider character: the companions judged the wrongdoing of a leader without treating an entire people as enemies.
 
 These histories do not name Amara as the sole architect of each victory. They place her among the friends whose decisions made those outcomes possible.
 
@@ -71,11 +71,9 @@ Among the most recognizable details in Amara's surviving history is an **owl** a
 
 The mind flayer used the companions' own memories to recreate earlier threats, then offered them convincing visions of lives in which their grief seemed undone and their desires fulfilled.
 
-Heureux remembered an owl associated with Amara as one of the signs that the visions were not what they appeared to be. Familiar details, it seemed, could betray even the most carefully fashioned dream.
+While the others were held in Zauks's counterfeit experiences, **Amara was outside their illusions**. The owl remembered at the close of the ordeal was Amara herself, whose intervention enabled the captives' escape and ended the mind flayer's cruelty. The record should not turn her rescue into an imagined false life of her own.
 
-The common trial was clear enough: the Misfits had to relinquish an invented happiness and return to a world where the consequences of their choices still existed.
-
-Whatever peace Amara was offered in the false world, she chose to leave it and return to the imperfect life she shared with her friends.
+That rescue matters as more than an answer to a riddle. The companions were offered lives in which their sorrows had been undone; Amara reached them from the imperfect world they still belonged to. The owl of this encounter is distinct from the separate story of her sister, whose fate remains uncertain.
 
 ## The truth of the Black Tower
 
@@ -85,7 +83,7 @@ The discovery changed the meaning of the history Amara had inherited through Pet
 
 The companions' later victory in the Shadowfell helped restore Jaznaar's name. Yet restoring a public history was not the same as restoring the ordinary lives damaged by its falsehood. The kingdom's past had become a responsibility for the living.
 
-During [[The Tournament of Champions]], Cid abducted [[Queen Melmiri]]. The pursuit was interrupted by Ros Furband's pirate ship, a real battle with Jinlin Vechon, and [[Zauks and the False Lives|Zauks's false worlds]] before the Misfits reached the Shadowfell. They succeeded in bringing the queen home and ending the immediate threat of the Blood King.
+During [[The Tournament of Champions]], Cid abducted [[Queen Melmiri]]. **Amara was herself taken after the Games**, although the exact circumstances of her capture and return have not been established in the public record. The larger pursuit was interrupted by Ros Furband's pirate ship, a real battle with Jinlin Vechon, and [[Zauks and the False Lives|Zauks's false worlds]] before the Misfits reached the Shadowfell. By Zauks's final snare Amara was free to act against him from outside her companions' illusions. They succeeded in bringing the queen home and ending the immediate threat of the Blood King.
 
 ## A life away from the citadel
 

@@ -9,21 +9,21 @@ era: Age of Ascendancy
 facts: |-
   Position: Leader of the Hunters Guild
   Institution: Hunters Guild
-  Guild origin: Faelynn at Wayword Sun
+  Guild origin: Faelynn at Wayward Sun
   Operating region: Dead Marshes and dangerous country
 related: hunters-guild,faelynn,wayword-sun,dead-marshes,the-six
-source: Avalor Master Canon Bible Volume I, VII; Compendium II, Wayword Sun and
+source: Avalor Master Canon Bible Volume I, VII; Compendium II, Wayward Sun and
   Hunters Guild canon ledger
 featured: false
 ---
 
 ## The hunter who holds the guild together
 
-**Malikeah** is the present leader of [[The Hunters Guild]], the order founded by [[Faelynn]] at [[Wayword Sun]] in the dangerous [[Dead Marshes]].
+**Malikeah** is the present leader of [[The Hunters Guild]], the order founded by [[Faelynn]] at [[Wayward Sun]] in the dangerous [[Dead Marshes]].
 
 To inherit such an institution is to inherit more than its name. The hunters work in places where roads give way to difficult terrain and where isolated communities cannot always rely on the swift arrival of royal soldiers. Their leader must keep that work alive in a kingdom whose dangers have changed many times since Faelynn walked its paths.
 
-Malikeah carries that responsibility in the present age. The guild's founder is a figure of legend; its current leader must attend to the people who still need its help.
+Malikeah carries that responsibility in the present age. The order's scattered hunters share customs older than most of the kingdom's institutions: silver coins, guarded recognition, a crest recalling the Devil's Trap and the cycle of life and death, and a vow remembered in the words *East. Toward the sunrise.* The guild's founder is a figure of legend; its current leader must attend to the people who still need its help.
 
 ## In Faelynn's footsteps, but not her shadow
 

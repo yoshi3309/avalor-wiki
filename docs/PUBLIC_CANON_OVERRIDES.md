@@ -120,3 +120,10 @@ The creator explicitly selected the organizational options listed here, supersed
 - Public accounts may identify **Jinlin Vechon** as a dragonborn vampire, founder of the Wrath of Innocent, opponent of Cid, and adversary whom the Misfits defeated **after the Tournament**. Do **not** claim the cause of Jinlin's vampirism or present a detailed ancient origin as an established finding of the Royal Commission.
 - Maintain the sequence **Moonville Manor → first royal commission → Gol'Goroth → Noki → Hydra → Stanleyville → Rotten Husk → Jaznaar → Tournament → Ros Furband → Jinlin → Zauks → Shadowfell**. The alternative title **Ripped Beard** refers to Rotten Husk, not a second encounter.
 - Retain the existing article architecture and literary Royal Commission voice. No mystical or divine mechanism becomes public knowledge simply because it is known to the author of the setting.
+
+## Keeper-approved public corrections — November 2026, subsequent review
+
+- **Amara's capture belongs after the Renada Games/Tournament**, not at the earlier hydra temple. Its exact means and the specifics of her return remain unestablished by the public record. At Zauks's lair, she was outside her companions' false experiences and intervened to free them.
+- Public history calls the orc episode **the liberation of the Rotten Husk**. Do not feature the obsolete alternative title in prose or duplicate the expedition; a legacy link redirect may remain for old bookmarks.
+- The Misfits article should tell the story itself rather than append a redundant chronological link guide; navigation exists elsewhere in the wiki.
+- The creator's expanded history establishes **Faelynn Naïlo's personal tragedy and long pursuit**, and the **Hunters Guild's covert family culture, silver-payment and identity precautions, sunrise countersign, and Ouroboros-and-pentagram crest**. The guild's founding refuge is the **Wayward Sun** in the Dead Marshes (older article slug `wayword-sun` retained for links).

@@ -138,7 +138,7 @@ H joined the adventurers who became **[[The Misfits]]** during their second comm
 
 The bard brought more than a performance to the company. He knew how stories could be distorted, how witnesses might be silenced, and how a seemingly unimportant detail could preserve the meaning of what had happened. His humor brought warmth to dangerous journeys, while his attention to the people they met helped keep the fellowship grounded.
 
-The company's adventures began with the living halls of **[[The Misfits#moonville-manor|Moonville Manor]]**, before the first commission. Later they encountered **[[Noki]]**, and helped liberate **[[The Rotten Husk Clan|the Rotten Husk]]** from a dangerous chieftain. Some accounts call that single affair **the Ripped Beard**, rather than recording an additional expedition.
+The company's adventures began with the living halls of **[[The Misfits#moonville-manor|Moonville Manor]]**, before the first commission. Later they encountered **[[Noki]]**, and helped liberate **[[The Rotten Husk Clan|the Rotten Husk]]** from a dangerous chieftain.
 
 To H, the people helped along the way were not merely supporting characters in a story about heroes. Their experiences mattered in their own right.
 

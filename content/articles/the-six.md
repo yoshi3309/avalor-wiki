@@ -96,7 +96,7 @@ That conviction would eventually make the question of Aldus's actions especially
 
 [[Faelynn]], a wood elf ranger known as the **Night Mistress**, knew those dangers from bitter experience. Before joining the Six, she had survived a fiend's compulsion, lost her tree village in the Forest of the Fey, and spent years tracking down and destroying the creature responsible.
 
-She later founded [[The Hunters Guild]] at [[Wayword Sun]], within the perilous [[Dead Marshes]]. Its work extended protection to travelers and communities threatened by dangers that city walls and royal decrees could not reach.
+She later founded [[The Hunters Guild]] at [[Wayward Sun]], within the perilous [[Dead Marshes]]. Its work extended protection to travelers and communities threatened by dangers that city walls and royal decrees could not reach.
 
 The records do not establish whether redemption, duty, or both guided every decision she made. They establish that the suffering she had seen did not cause her to abandon others in need.
 
@@ -190,6 +190,6 @@ When [[The Misfits]] uncovered the truth of the Black Tower and defeated Cid, th
 
 The Six are now remembered differently. Their names continue to appear upon monuments and in institutions, but the Archives distinguish genuine service from later invention. At [[Rynhold Park]], the statue of Aldus remains with a corrected inscription; the former plaque is preserved at [[The Great Library of Aldus Greystone]] as evidence of the history once taught.
 
-In [[Heaven's Heart]], Lowkee's teaching continues. At Wayword Sun, Faelynn's guild still speaks to the needs of travelers. Petris's compassion and Kelsalor's stewardship survive in descendants and traditions. Jaznaar's restored name stands beside theirs.
+In [[Heaven's Heart]], Lowkee's teaching continues. At Wayward Sun, Faelynn's guild still speaks to the needs of travelers. Petris's compassion and Kelsalor's stewardship survive in descendants and traditions. Jaznaar's restored name stands beside theirs.
 
 Their legacy is neither a flawless fellowship nor a story that ends with betrayal. It is the knowledge that six friends helped give a kingdom its beginning, and that the kingdom's obligation to truth outlived the friendship it once celebrated.

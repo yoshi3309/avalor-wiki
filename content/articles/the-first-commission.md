@@ -33,7 +33,7 @@ Their loyalty grew through decisions to stand together beyond the end of any one
 
 ## A road of unrelated wonders
 
-Their adventures included [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from an oppressive chieftain. **The Ripped Beard** is another name for that Rotten Husk affair, not a separate event. Moonville belongs to the period *before* the first commission.
+Their adventures included [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from an oppressive chieftain. Moonville belongs to the period *before* the first commission.
 
 Not every such story led to Cid. For those affected by each adventure, however, the outcome could matter more immediately than the mystery that would one day bring the Misfits renown.
 

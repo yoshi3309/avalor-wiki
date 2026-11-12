@@ -35,7 +35,7 @@ A subject earns its own article if it independently matters to the setting, has 
 - **Cid the Blood King** deserves his own entry despite being the same person as Aldus: the persona and historical era differ significantly. Add clear mutual references, rather than duplicate the same entire backstory.
 
 ### Places
-- Independent cities, settlements, ports and trade centers such as Stanleyville, Cove City, Tinsel, Stems Port, Siesta Ford, Karhold, Land's End, and Wayword Sun retain independent geographic significance even if current information is limited.
+- Independent cities, settlements, ports and trade centers such as Stanleyville, Cove City, Tinsel, Stems Port, Siesta Ford, Karhold, Land's End, and Wayward Sun retain independent geographic significance even if current information is limited.
 - Great Citadel, Great Cathedral, Great Library, Shamman’s Tower, Black Tower, Great Fork Tower, Lord Osmo's Tower, Heroes Hill and Heaven's Heart are distinct geographic/institutional subjects.
 - The Forest of the Fey, Denzians Forest, Dead Marshes, Great Desert, Spine of the World remain regional articles.
 - Renada neighborhoods, Black Stair, Moonville Manor and Ripped Beard already consolidated in the approved first pass.

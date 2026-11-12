@@ -160,7 +160,7 @@ The fellowship endured because its members repeatedly chose to remain together. 
 
 ## Adventures on roads without a single destiny
 
-The histories of the Misfits begin with the living halls of [[The Misfits#moonville-manor|Moonville Manor]], **before their first royal commission**. Later came [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from a dangerous chieftain. **The Ripped Beard** was another name for that same liberation, not a second expedition.
+The histories of the Misfits begin with the living halls of [[The Misfits#moonville-manor|Moonville Manor]], **before their first royal commission**. Later came [[Noki]], a wizard transformed into a sheep, and the liberation of the [[The Rotten Husk Clan|Rotten Husk]] orc tribe from a dangerous chieftain.
 
 These encounters are easily overshadowed by the later defeat of Cid. They should not be. People who received help during those journeys did not need an explanation of the Black Tower to know whether the adventurers had made a difference.
 

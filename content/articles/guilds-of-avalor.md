@@ -80,7 +80,7 @@ The Silver Forge is distinct from [[The Cathedral Paladins|the Cathedral Paladin
 
 ## The guilds with fuller stories
 
-Two other guilds already have histories substantial enough to tell separately. [[The Hunters Guild]] was founded by [[Faelynn]] at [[Wayword Sun]] to protect travelers and vulnerable settlements. [[The Bard Guild|The Society of Silk & Story]] (the Bard Guild) is based in [[Taveras]], whose great performance culture also nurtured [[Heureux’s Bard Academy]].
+Two other guilds already have histories substantial enough to tell separately. [[The Hunters Guild]] was founded by [[Faelynn]] at [[Wayward Sun]] to protect travelers and vulnerable settlements. [[The Bard Guild|The Society of Silk & Story]] (the Bard Guild) is based in [[Taveras]], whose great performance culture also nurtured [[Heureux’s Bard Academy]].
 
 The academy is a school, distinct from the Bard Guild. And neither the hunters nor the bards are branches of the smaller guilds described here.
 
