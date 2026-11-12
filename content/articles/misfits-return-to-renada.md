@@ -16,7 +16,7 @@ featured: false
 
 The company brought back a living queen, and with her the possibility of an ending the kingdom could celebrate. Yet the homecoming was not complete in the way a triumphant song might suggest. The road had cost too many lives, and some of the people who made the rescue possible would never join its procession.
 
-The kingdom mourned **[[kel-maris|Kel'Maris]]**, Gradvum's former sword instructor and the Lord Marshal killed by the Stalker at Stanleyville; **Captain Funkin**, **Inspector Sihnion**, and the guards who died at the temple; and others whose names did not enter the most familiar accounts. It honored **[[fo-gurn|Fo'Gurn]]** in absentia.
+The kingdom mourned **[[kel-maris|Kel'Maris]]**, Gradvum's former sword instructor and the Lord Marshal killed by the Stalker at Stanleyville; **Captain Funkin**, who had brought her body home and later died at the temple; **Inspector Sihnion**, and the other guards killed there; and others whose names did not enter the most familiar accounts. It honored **[[fo-gurn|Fo'Gurn]]** in absentia.
 
 Fo'Gurn's death at the Hydra had been real. Jaaris later raised and compelled him through necromancy; in the Shadowfell, he reclaimed his will by choosing to protect Lavitz. But Jaaris's death brought the end of the borrowed existence sustaining him. **Fo'Gurn remained in the Shadowfell for his final rest.** His body did not come home. Lavitz had been granted a farewell, not the restoration of the life they had once shared.
 
