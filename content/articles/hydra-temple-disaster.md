@@ -3,7 +3,7 @@ title: "The Ruined Temple and the Hydra"
 subtitle: "The captives, the sacrifice, and those who escaped"
 summary: "At a ruined temple near Stanleyville, Cid's captives faced disaster and Fo'Gurn stayed behind to face a hydra."
 category: History & Chronicles
-entry: HIS.030
+entry: HIS.035
 era: Age of the Misfits
 related: the-misfits,fo-gurn,anna-lowkees-keeper,jaaris,samuel-the-devoted,stanleyville,the-stalker
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
