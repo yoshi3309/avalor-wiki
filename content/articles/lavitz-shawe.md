@@ -150,7 +150,7 @@ It was an early expression of the devotion he would embrace more fully after the
 
 ## The companion before the legend
 
-The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were brought together by a commission from **[[kel-maris|Kel'Maris]]**, the Lord Marshal who sought help investigating a necromancer.
+The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were already traveling together when they received a commission from **[[kel-maris|Kel'Maris]]**, the Lord Marshal who sought help investigating a necromancer.
 
 Alongside Lavitz stood [[Tel'Lora Ebbenflow]], the half-elven wizard; [[svendyal-shadowwhisper|Sven]], the eladrin; [[Amara]], a druid whose family line reached back to the founding age; and Fo’Gurn. They overcame their first enemy and recovered fragments of magical research whose significance became clear only much later. The affair is preserved as [[The Misfits’ First Commission]].
 
