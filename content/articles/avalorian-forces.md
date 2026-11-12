@@ -73,7 +73,7 @@ The [[Lavitz Shawe|Lord Marshal]] advises the crown on military affairs and comm
 
 ## Lion's Bane
 
-Before Lavitz held command, the order was led by **Kurt Reyginald** and then **[[kel-maris|Kel'Maris]]**, the high-elven swordswoman whom King Gerran had invited to teach Prince Gradvum. She rose through Lion's Bane and was remembered as **the Lion's Shadow** for her constant protection of the crown. Her death during the Misfits' investigation at Stanleyville left the Lord Marshal's office vacant until Lavitz's appointment.
+Before Lavitz held command, the order was led by **[[kurt-reyginald|Kurt Reyginald]]** and then **[[kel-maris|Kel'Maris]]**, the high-elven swordswoman whom **[[king-gerran-frozenroar|King Gerran]]** had invited to teach Prince Gradvum. She rose through Lion's Bane and was remembered as **the Lion's Shadow** for her constant protection of the crown. Her death during the Misfits' investigation at Stanleyville left the Lord Marshal's office vacant until Lavitz's appointment.
 
 **Lion's Bane** is an **elite royal order commanded by [[Lavitz Shawe]]**, the Lord Marshal. Its members are chosen for exceptional ability and entrusted with work demanding the best Avalor can field. The guard is substantial enough to meet more than one danger at once, yet its reputation comes from selection, discipline, and the quality of its service rather than sheer numbers.
 
