@@ -69,7 +69,7 @@ Fo'Gurn's stand was therefore not a feat performed in isolation. Behind him were
 
 The paladin's choice left the companions time to flee, but it also left a living obligation. The others continued a mission that Anna would accompany to the Shadowfell, carrying the **[[Emerald of Armanti]]** into the last confrontation with Cid.
 
-## The years of mourning
+## Grief on the road
 
 For Lavitz, Fo'Gurn's death was more than the loss of an adventuring companion. It was the loss of a friend whose place in his life preceded the Misfits.
 
@@ -77,7 +77,7 @@ For Lavitz, Fo'Gurn's death was more than the loss of an adventuring companion. 
 
 His absence also shaped the fellowship's history. The five publicly celebrated Misfits went on to face threats in which Fo'Gurn could no longer stand beside them. Their growing renown did not restore his place among them.
 
-To speak of the paladin only as a symbol of sacrifice would omit the years in which his friends remembered him as a person.
+To speak of the paladin only as a symbol of sacrifice would omit the grief his friends carried through the remainder of their campaign, and again after his final rest.
 
 ## Jaaris and the stolen return
 
