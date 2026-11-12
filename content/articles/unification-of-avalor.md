@@ -1,10 +1,12 @@
 ---
-title: "The Unification of Avalor"
-subtitle: "When Allied Crowns Became a Kingdom"
-summary: "Rynhold Frozenroar's negotiated union of the northern kingdoms after the defeat of Lord Osmo."
+title: The Unification of Avalor
+subtitle: When Allied Crowns Became a Kingdom
+summary: Rynhold Frozenroar's negotiated union of the northern kingdoms after
+  the defeat of Lord Osmo.
 category: History & Chronicles
+image: /assets/uploads/unifcation-of-avalor.png
 entry: HIS.017
-era: "1 AF"
+era: 1 AF
 facts: |-
   Year: 1 After Founding
   First king: Rynhold Frozenroar
@@ -12,10 +14,10 @@ facts: |-
   Capital: Renada, an existing settlement
   Institution founded: The Aegis
 related: lord-osmo,rynhold-frozenroar,founding-wars,kingdom-of-avalor,house-frozenroar,renada,the-aegis
-source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
+source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
+  public historical record
 featured: false
 ---
-
 ## An alliance was not yet a kingdom
 
 The northern kingdoms had joined forces to resist Lord Osmo, but victory at Heroes Hill did not automatically place them under one crown. They retained their laws, interests, rulers, and distinct histories. Shared danger had created cooperation; lasting unity would require political agreement.
