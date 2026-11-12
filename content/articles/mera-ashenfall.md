@@ -1,8 +1,11 @@
 ---
 title: Mera Ashenfall
 subtitle: The Bright Spirit of the Wayward Sun
-summary: Eccentric spirit bard, inventive problem-solver and equal caretaker of the Hunters Guild refuge, Mera Ashenfall tempers frightening experience with warmth and resilient curiosity.
+summary: Eccentric spirit bard, inventive problem-solver and equal caretaker of
+  the Hunters Guild refuge, Mera Ashenfall tempers frightening experience with
+  warmth and resilient curiosity.
 category: People & Legends
+image: /assets/uploads/mera-ashenfall-1.png
 entry: BIO.036
 era: Age of Ascendancy
 facts: |-
@@ -14,10 +17,10 @@ facts: |-
   Known for: Curiosity, magical ingenuity, hopeful disposition
   Close bond: Maternal affection for Hope (Amber)
 related: malikeah,hunters-guild,wayword-sun,faelynn,dead-marshes
-source: The Living Chronicle, Chapter V; Compendium II · Entry II.003, public Scholar's Account; creator-supplied Ashenfall household history
+source: The Living Chronicle, Chapter V; Compendium II · Entry II.003, public
+  Scholar's Account; creator-supplied Ashenfall household history
 featured: false
 ---
-
 ## A different kind of hunter
 
 The **[[The Hunters Guild|Hunters Guild]]** has a reputation for stern faces, quiet warnings and work undertaken after dark. **Mera Ashenfall** is a reminder that its members need not resemble the creatures they pursue.
