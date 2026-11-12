@@ -26,7 +26,7 @@ featured: false
 
 ## A swordswoman from Ilyanamel
 
-**Kel'Maris** came from **Ilyanamel**, an elven village whose name would become familiar to the courts of Avalor through one of its daughters. She was the first daughter of a prominent elven family, raised in a tradition that valued mastery of arms. She trained from an early age with several kinds of weaponry, although two blades together became her particular distinction.
+**Kel'Maris** came from **[[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]]**, an elven village whose name would become familiar to the courts of Avalor through one of its daughters. She was the first daughter of a prominent elven family, raised in a tradition that valued mastery of arms. She trained from an early age with several kinds of weaponry, although two blades together became her particular distinction.
 
 The young high elf was only **eighty-five** in the account of her service, an age still considered youthful among her people. She nevertheless came to occupy one of the kingdom's highest military offices. **Kel'Maris became the first elf to serve as Lord Marshal**, a distinction that placed her at the center of royal responsibility long before the Misfits became known.
 
@@ -70,7 +70,7 @@ When mysterious deaths troubled **[[Stanleyville]]**, Kel'Maris accompanied the 
 
 **The creature pierced Kel'Maris through the chest and killed her.** The Stalker affair preceded the ruined Hydra temple: she was already dead when the Misfits faced that later catastrophe. It was the final loss of the woman who had entrusted the adventurers with their first commissions.
 
-**Captain Funkin returned her body safely to Renada** for a state funeral. For **three days** she lay in state at the **[[The Great Cathedral|Great Cathedral]]**, where the kingdom could honor the officer who had defended the crown through two reigns. In accordance with her wishes, she was **cremated in a private ceremony**, and her ashes were scattered across the **King's Forest**.
+**Captain Funkin returned her body safely to Renada** for a state funeral. For **three days** she lay in state at the **[[The Great Cathedral|Great Cathedral]]**, where the kingdom could honor the officer who had defended the crown through two reigns. In accordance with her wishes, she was **cremated in a private ceremony**, and her ashes were scattered across the **[[The Geography of Avalor#king-s-forest|King's Forest]]**.
 
 With the Lion's Shadow gone, the office of Lord Marshal remained vacant for the rest of the Misfits' campaign. Only after Cid's defeat did King Gradvum appoint **[[Lavitz Shawe]]** as her successor.
 
