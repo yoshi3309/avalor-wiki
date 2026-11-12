@@ -19,7 +19,7 @@ related: shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadow
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 callouts:
   - type: reflection
-    text: "Fo'Gurn bought his companions time to escape. He could not spare them the years they would spend mourning him. That grief, too, belongs to the history of his courage."
+    text: "Fo'Gurn bought his companions time to escape. He could not spare them the grief they carried through the remainder of their journey and beyond. That grief, too, belongs to the history of his courage."
     after: iii-the-hydra-and-the-missing-companion
     paragraph: 2
     attribution: "Editorial reflection on the hydra encounter"
@@ -93,9 +93,9 @@ She is remembered in particular for an owl associated with the ordeals of [[Zauk
 
 ### Fo’Gurn — the friend who stayed
 
-[[fo-gurn|Fo'Gurn]], a dragonborn paladin and lifelong friend of Lavitz, was an **original member** of the company. He remained behind before a hydra so his friends could escape and was believed dead for years.
+[[fo-gurn|Fo'Gurn]], a dragonborn paladin and lifelong friend of Lavitz, was an **original member** of the company. He died holding back a hydra so his friends could escape, and the survivors mourned him until they encountered him again in the Shadowfell.
 
-The published history and authorized testimony contain later accounts of his unexpected participation in the final struggle with Cid. The circumstances of that return remain contested in the public record.
+Jaaris later raised Fo'Gurn through necromancy and forced him against his old companions. In the final struggle, Fo'Gurn reclaimed his will by choosing to protect Lavitz; after Jaaris's death, he remained in the Shadowfell for his final rest.
 
 ### Jack — the boy who traveled onward
 
@@ -145,9 +145,9 @@ At a temple near [[Stanleyville]], the Misfits confronted a more direct manifest
 
 Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Anna, whose companionship had begun during the search for Lowkee's Keeper, was endangered at the altar**. Captain Funkin, Inspector Sihnion, and trapped guards died in the catastrophe. The preceding Lord Marshal and Anna survived this episode.
 
-A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the years in which they mourned him, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
+A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the grief that followed, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
 
-Later accounts connected Fo'Gurn's fate with the necromancer Jaaris, but that knowledge did not undo the choice at the temple or the grief carried afterward. The public history distinguishes what the companions witnessed from explanations of events they could not yet understand.
+Only in the Shadowfell did the Misfits discover that Jaaris had raised Fo'Gurn through necromancy and compelled him against them. That revelation did not undo his death at the temple or the grief his companions carried through the intervening journey.
 
 ## IV. Stanleyville and the Stalker
 
@@ -210,9 +210,9 @@ What eventually became known of the final confrontation changed its historical m
 
 The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The complete public account of this conclusion is preserved as **[[The Shadowfell Confrontation]]**, a historical episode in its own right rather than merely a chapter in the Blood King's biography. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
 
-Authorized accounts describe **Fo'Gurn's unexpected presence** and a confrontation with Lavitz. They preserve the moral outline of a friend who refused to answer danger with abandonment, and of Fo'Gurn **choosing again to protect Lavitz**. The precise circumstances of his appearance and the words exchanged between the paladins remain outside the securely established public narrative.
+Fo'Gurn had genuinely died against the hydra, but Jaaris raised and compelled him. In a separate chamber, Lavitz lowered his defenses rather than deliver a killing blow. Fo'Gurn chose to protect him, breaking Jaaris's hold **before the necromancer was killed**. The precise words exchanged between the paladins remain unrecorded.
 
-As Cid sought to escape, testimony places the **[[Emerald of Armanti]]**, the jewel associated with **Anna and Lowkee's Keeper**, in Fo'Gurn's hands. The final testimony also places **[[Samuel the Devoted|Samuel]]** in the struggle, though the precise nature of the brief intervention associated with Lowkee is not fully established for public readers. A vast black hand, or hands in some accounts, reached from an opening into darkness and took the Blood King away. No witness could name the force responsible; later scholars must not assign it a divine or other identity merely to supply an ending.
+As Cid sought to escape, [[fo-gurn|Fo'Gurn]] pressed the **[[Emerald of Armanti]]** into his chest, fulfilling the jewel's intended purpose of barring the Blood King from returning to the Material Plane. Earlier, **[[Samuel the Devoted|Samuel]]** had briefly channeled Lowkee's spirit through the Emerald; that manifestation ended after Cid wounded him. A vast black hand, or hands in some accounts, reached from an opening into darkness and took the Blood King into the Beyond. No witness could name the force responsible, and the jewel's seal does not establish who directed those hands.
 
 **Melmiri helped her rescuers escape** the failing fortress. Her part in the escape was an act of agency, not simply the passive recovery of a captive queen. The details of the passage remain incompletely recorded. All the returning companions survived the final battle, and the kingdom received its queen again.
 
