@@ -76,4 +76,4 @@ In the Shadowfell, Fo'Gurn was made to confront **[[Lavitz Shawe]]**, the friend
 
 Jaaris died during the final struggle against Cid. His death caused the unnatural life sustaining Fo'Gurn to fail, leaving the dragonborn unable to return from the Shadowfell with his friends. The two paladins gained a farewell, not an ordinary second life.
 
-Jaaris spent his life trying to make obedience indistinguishable from loyalty. His last and greatest experiment ended with a paladin making a choice the necromancer could neither command nor prevent. His later appearance in **[[Zauks and the False Lives|Zauks's false adventures]]** was only an illusion, not another life or a second death.
+Jaaris spent his life trying to make obedience indistinguishable from loyalty. His last and greatest experiment ended with a paladin making a choice the necromancer could neither command nor prevent. His appearance in **[[Zauks and the False Lives|Zauks's false adventures]]**, an illusion experienced before the final Shadowfell battle, was not another life or a second death.
