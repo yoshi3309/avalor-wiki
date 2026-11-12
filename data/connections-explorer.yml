@@ -55,8 +55,8 @@ edges:
   - {from: "jack-of-stanleyville", to: "the-misfits", label: "Ghost boy who travelled with the companions", evidence: "jack-of-stanleyville", type: "fellowship"}
   - {from: "anna-lowkees-keeper", to: "the-misfits", label: "Noncombatant companion who traveled with the fellowship", evidence: "anna-lowkees-keeper", type: "fellowship"}
   - {from: "anna-lowkees-keeper", to: "lowkee", label: "Associated with the search for Lowkee's Keeper", evidence: "anna-lowkees-keeper", type: "record"}
-  - {from: "ros-furband", to: "the-misfits", label: "Captured the company following the Tournament", evidence: "ros-furband", type: "conflict"}
-  - {from: "malikeah", to: "mera-ashenfall", label: "Married partners overseeing Wayward Sun", evidence: "mera-ashenfall", type: "family"}
+  - {from: "ros-furband", to: "the-misfits", label: "Captured the company following the Tournament", evidence: "ros-furband", type: "opposition"}
+  - {from: "malikeah", to: "mera-ashenfall", label: "Married partners overseeing Wayward Sun", evidence: "mera-ashenfall", type: "kinship"}
   - {from: "mera-ashenfall", to: "hunters-guild", label: "Spirit bard and co-steward of Wayward Sun", evidence: "mera-ashenfall", type: "office"}
   - {from: "lavitz-shawe", to: "fo-gurn", label: "Close friends before the Misfits formed", evidence: "fo-gurn", type: "friendship"}
   - {from: "lavitz-shawe", to: "heavens-heart", label: "Trained as a paladin at Heaven's Heart", evidence: "lavitz-shawe", type: "training"}
