@@ -9,18 +9,18 @@ entry: HIS.015
 era: Age of the Misfits
 facts: |-
   Earlier adventure: Moonville Manor
-  Commissioner: The preceding Lord Marshal
+  Commissioner: Kel'Maris, Lord Marshal
   Threat: An unnamed necromancer
   Result: The adventurers defeated the practitioner
   Later evidence: Fragments of magical research
   Distinct later enemy: Jaaris
-related: anna-lowkees-keeper,the-misfits,cult-of-golgoroth,rotten-husk-clan,noki-the-sheep
+related: kel-maris,anna-lowkees-keeper,the-misfits,cult-of-golgoroth,rotten-husk-clan,noki-the-sheep
 source: The Living Chronicle, Chapter VI, I–II; Master Canon Bible Volume I, V
 featured: false
 ---
 ## Before a fellowship had a name
 
-The companions later called [[The Misfits]] had **already faced Moonville Manor** before the preceding Lord Marshal of Avalor summoned them to investigate an **unnamed necromancer**. This was their first *royal commission*, not the first adventure shared by the company.
+The companions later called [[The Misfits]] had **already faced Moonville Manor** before **[[kel-maris|Kel'Maris]]**, the Lord Marshal of Avalor and former sword instructor to King Gradvum, summoned them to investigate an **unnamed necromancer**. This was their first *royal commission*, not the first adventure shared by the company.
 
 Among the early companions were [[Lavitz Shawe]], [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], [[Amara]], and [[fo-gurn|Fo’Gurn]]. They had no reason at the outset to expect that their work would lead them to the ancient history of the kingdom.
 
@@ -34,7 +34,7 @@ A person may use dangerous knowledge while misunderstanding its origin. Later hi
 
 ## The second commission
 
-The Lord Marshal called upon the adventurers again to investigate a cult devoted to **Gol’Goroth**. During that subsequent work, they gained the companionship of [[Heureux]], the firbolg bard who helped complete the group as it would become publicly known.
+Kel'Maris called upon the adventurers again to investigate a cult devoted to **Gol’Goroth**. During that subsequent work, they gained the companionship of [[Heureux]], the firbolg bard who helped complete the group as it would become publicly known.
 
 Their loyalty grew through decisions to stand together beyond the end of any one task.
 
