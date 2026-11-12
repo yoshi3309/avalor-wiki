@@ -1,5 +1,5 @@
 ---
-title: "The Liberation of the Rotten Husk"
+title: "Freedom for the Rotten Husk"
 subtitle: "The clan and its freedom from an oppressive chief"
 summary: "The Misfits helped liberate an orc clan from its oppressive chieftain, respecting its people beyond their famous encounter."
 category: History & Chronicles
