@@ -24,7 +24,7 @@ facts: |-
   Close companions: Lavitz Shawe and Tel'Lora Ebbenflow
   Intelligence: Independent network, separate from the Silver Hand
   Professional rival: Katiri Tenderfoot
-related: the-misfits,lavitz-shawe,tellora-ebbenflow,katiri-tenderfoot,heureux,amara,fo-gurn,forest-of-the-fey,the-first-commission,zauks-false-lives
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,the-misfits,lavitz-shawe,tellora-ebbenflow,katiri-tenderfoot,heureux,amara,fo-gurn,forest-of-the-fey,the-first-commission,zauks-false-lives
 source: Creator-supplied S'vendyal backstory and Drawing Color narrative (November 2026); The Living Chronicle, Chapters VI–VII; Compendium II · Entry II.001; author-approved network and relationship details
 callouts:
   - type: reflection
@@ -163,6 +163,14 @@ The company defeated its first enemy and recovered fragments of magical study wh
 
 The Misfits could not restore the family Sven had lost. But they became people he trusted, argued with, and risked his life beside. His vow had set him on a solitary road; friendship made it less solitary than he had feared.
 
+## Anna and an awkward beginning
+
+The history of the Misfits contains at least one meeting more memorable for laughter than for heroism. While the companions were looking for information about **Lowkee's Keeper**, Sven stumbled into **[[Anna, Lowkee's Keeper|Anna]]**, a waitress at the tavern where their search had led them. His embarrassment proved a gentler way to begin a friendship than the battles that had brought most of the travelers together.
+
+Anna subsequently joined the road as a **noncombatant companion**, carrying the **[[Emerald of Armanti]]**. Sven's willingness to make a place for her belongs beside his affection for the murdered child Jack. He had already lost Tristan and Kristofer; the family he found among the Misfits was one in which the vulnerable did not have to earn protection by proving themselves capable of fighting.
+
+It would be a mistake to turn every act of Sven's kindness into an attempt to recover the family he had lost. Anna's own place in the group mattered. She had wishes, fears and friendships distinct from the sorrow of those who helped her. The company guarded her not merely because of a jewel but because she had become one of them.
+
 ## Roads traveled in company
 
 The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the Hydra's destruction, and the horrors of **[[Stanleyville]]**. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**.
@@ -177,7 +185,7 @@ The mind flayer **[[Zauks and the False Lives|Zauks]]** later fashioned convinci
 
 The Misfits eventually met **[[Jaznaar]]**, the last survivor of the founding Six, and learned that the celebrated healer Aldus Greystone III had become **[[Cid the Blood King]]**.
 
-At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The companions' pursuit was interrupted by the pirate Ros Furband, Jinlin Vechon and his Wrath of Innocent, and the false lives conjured by Zauks. They reached the Shadowfell only afterward, rescued the queen, and defeated the Blood King. Sven stood with the fellowship, though the exact deeds of every participant in that struggle are not fully preserved.
+At **[[The Tournament of Champions]]**, Cid abducted **[[Queen Melmiri]]**. The companions' pursuit was interrupted by **[[Ros Furband]]**, Jinlin Vechon and his Wrath of Innocent, and the false lives conjured by Zauks. On Ros's vessel, Sven was among those assigned to watch duties while his friends—including Anna—endured forced labor elsewhere aboard ship. They reached the Shadowfell only afterward, rescued the queen, and defeated the Blood King. Sven stood with the fellowship, though the exact deeds of every participant in that struggle are not fully preserved.
 
 Their victory forced Avalor to confront the false history that had condemned Jaznaar for nearly two thousand years. Sven's place in that change is secure even without a catalogue of individual triumphs.
 

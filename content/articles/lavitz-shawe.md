@@ -24,7 +24,7 @@ facts: |-
   Office: Lord Marshal of Avalor
   Council: The Aegis
   Command: Lion's Bane royal guard
-related: the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,rastrin-diltir,tellora-ebbenflow,king-gradvum-frozenroar
+related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,the-misfits,fo-gurn,heavens-heart,astronoph,renada,the-aegis,avalorian-forces,rastrin-diltir,tellora-ebbenflow,king-gradvum-frozenroar
 source: Compendium II · Entries II.001–II.002; The Living Chronicle, Chapters VI–VII; author-approved World Anvil biography and vigil / sword details (November 2026)
 illustrations:
   - image: /assets/uploads/enchanted-tavern-adventurers-gathering.png
@@ -188,13 +188,21 @@ The office was left vacant. At the time, Lavitz had no reason to know that he wo
 
 The tragedy belonged not only to the kingdom's military history, but to the lives of those who survived the town's ordeal. Jack was a traveling companion, not merely a clue; the preceding marshal had been a man who placed trust in people not yet recognized as heroes.
 
+## Anna and the promises carried on the road
+
+The fellowship that eventually challenged the Blood King had learned to protect people who could not repay them in battle. One such friend was **[[Anna, Lowkee's Keeper|Anna]]**, a waitress they met during a search for knowledge associated with [[Lowkee]] and the person known as his Keeper. She traveled with them as a noncombatant, carrying the **[[Emerald of Armanti]]**.
+
+Lavitz had trained within the tradition Lowkee established at [[Heaven's Heart]]. To him, protecting a companion who did not bear weapons was not a distraction from his oath; it was one of the clearest occasions for practicing it. Anna survived the ruined temple near Stanleyville, where the company lost Fo'Gurn and others who had been caught in Cid's cruelty.
+
+After the [[The Tournament of Champions|Games]], the Misfits were captured aboard **[[Ros Furband|Ros Furband's]]** galleon while Queen Melmiri remained a prisoner elsewhere. **Lavitz and Heureux were made to row**, as Tel'Lora and Anna were put to work in the galley. The humiliation mattered because it exposed how little even a seasoned paladin could command when another person held his friends' freedom. Yet captivity did not make their obligation to the queen—or to one another—disappear.
+
 ## Against the Blood King
 
 The Misfits' journeys eventually led to the discovery of **[[jaznaar|Jaznaar Mizzrorzza]]**, the founding hero long falsely condemned as the Betrayer. They learned that the celebrated healer **Aldus Greystone III** had endured after the [[The Sundering of the Six|Black Tower catastrophe]] as **Cid the Blood King**.
 
 Before they faced Cid, Jaznaar entrusted Lavitz with **Cid's Bane**, a sword that had once belonged to **[[Lowkee]]** himself. It was a gift heavy with history: a founding paladin's weapon placed in the hands of a drow paladin who had grown up in the shadow of the kingdom's prejudice.
 
-In the Shadowfell, the companions confronted and defeated Cid. The victory brought more than the end of a formidable enemy. It exposed the old lie that had stained Avalor's history for nearly two thousand years and made possible [[The Vindication of Jaznaar|Jaznaar's public vindication]].
+In the Shadowfell, the companions confronted and defeated Cid. **Anna's emerald** was remembered among the relics brought to that final struggle, and testimony placed it in **Fo'Gurn's hands** as the Blood King tried to escape. Another memory is more personal: Lavitz chose to reach the friend he had mourned, and Fo'Gurn answered by protecting him. How the paladin had appeared again remains outside the complete public record. The victory brought more than the end of a formidable enemy. It exposed the old lie that had stained Avalor's history for nearly two thousand years and made possible [[The Vindication of Jaznaar|Jaznaar's public vindication]].
 
 Lavitz's part in that victory carried a particular weight. He was a drow helping restore the honor of a drow founding hero while serving a kingdom whose history included grievous injustice toward drow communities. The connection did not erase those injustices, but it made their continued defense increasingly difficult.
 
