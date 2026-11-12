@@ -162,6 +162,25 @@ for slug in (
     body = source(slug).split("---", 2)[2]
     assert len(body.split()) >= 500, f"Stage B main account unexpectedly abbreviated: {slug}"
 
+# New lore approved 12 November 2026: Kel'Maris and the standalone Zauks account.
+assert "Kel'Maris" in source("kel-maris")
+assert "Kurt Reyginald" in source("kel-maris")
+assert "Kel Scythe" in source("kel-maris")
+assert "Stanleyville" in source("kel-maris")
+assert "Funkin" not in source("kel-maris"), (
+    "The conflicting claim about who recovered her body must remain in the pending addendum."
+)
+assert "Kel'Maris" in source("the-stalker")
+assert "Kel'Maris" in source("the-first-commission")
+assert "Kel'Maris" in source("golgoroth-second-commission")
+assert "Kel'Maris" in source("lavitz-shawe")
+assert "The Lion's Shadow" in source("king-gradvum-frozenroar")
+assert "Zauks" in source("zauks")
+assert "Amara" in source("zauks")
+assert "cocoons" in source("zauks")
+assert "Kel'Maris" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+assert "OPEN KEL-001" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
