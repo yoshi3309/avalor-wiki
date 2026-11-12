@@ -1,8 +1,9 @@
 ---
 title: The Four Sheriffdoms
 subtitle: Regional Authority Beneath the Crown
-summary: "The four appointed regional governments of Avalor: Northern March,
-  Royal Heartlands, Western Verge, and Eastern Reach."
+summary: >-
+  The four appointed regional governments of Avalor: Northern March,
+  Royal Heartlands, Western Verge, and Eastern Reach.
 category: Organizations & Factions
 image: /assets/uploads/the-four-sheriffdoms.png
 entry: ORG.008
