@@ -59,7 +59,7 @@ The stories of that day differ in their flourishes, as stories of brave last sta
 
 This was an act of courage, but its cost fell not only upon the man who made it. The companions who escaped had to continue without him, carrying the belief that they would never see their friend again.
 
-The episode is also remembered in [[The Misfits#iii-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
+The episode is also remembered in [[The Misfits#iv-the-hydra-and-the-missing-companion|the fellowship's account of the hydra]].
 
 ## The altar and the people he protected
 
