@@ -31,7 +31,7 @@ Only later did they learn that the necromancer **Jaaris** had become entangled i
 
 Jaaris's eventual death belongs to **[[The Shadowfell Confrontation]]**, the public record of the Misfits' final campaign against Cid.
 
-Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, the Lord Marshal and others caught in the Blood King's design.
+Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, and others caught in the Blood King's design. The Lord Marshal **Kel'Maris had already been killed** in the preceding Stalker affair.
 
 The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. **Fo'Gurn truly died at the hydra. Jaaris later raised him through necromancy**, compelling the paladin against his former companions. During their last confrontation Lavitz lowered his defenses and Fo'Gurn chose to protect him, overcoming Jaaris's control **before** the necromancer died. Jaaris's subsequent death started the failure of Fo'Gurn's borrowed life; it did not cause the paladin's redemption.
 
