@@ -1,8 +1,10 @@
 ---
 title: Port Orange
 subtitle: From a War Fort to a City of Many Peoples
-summary: Founded as Fort Orange during the war against Lord Osmo, Port Orange became a thriving peacetime harbor shaped by trade and migration.
+summary: Founded as Fort Orange during the war against Lord Osmo, Port Orange
+  became a thriving peacetime harbor shaped by trade and migration.
 category: Kingdoms & Places
+image: /assets/uploads/port-orange.png
 entry: LOC.034
 era: Founding Wars to Age of Ascendancy
 facts: |-
@@ -11,10 +13,10 @@ facts: |-
   Present character: International trade port
   Community: Diverse peoples and seafarers
 related: founding-wars,unification-of-avalor,kingdom-of-avalor,cove-city
-source: World Anvil, Port Orange (creator-supplied location; November 2026); The Living Chronicle · founding wars
+source: World Anvil, Port Orange (creator-supplied location; November 2026); The
+  Living Chronicle · founding wars
 featured: false
 ---
-
 ## When Fort Orange guarded the coast
 
 Before it was a trading city, **Port Orange** was **Fort Orange**, a defensive position raised during the war against **Lord Osmo**, the mortal conqueror whose campaigns helped unite the northern kingdoms.
