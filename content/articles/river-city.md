@@ -1,8 +1,10 @@
 ---
 title: River City
 subtitle: The Fishing Port of the Heartlands
-summary: A smaller but growing fishing port whose catch helps supply Renada and the communities of Avalor's agricultural heartland.
+summary: A smaller but growing fishing port whose catch helps supply Renada and
+  the communities of Avalor's agricultural heartland.
 category: Kingdoms & Places
+image: /assets/uploads/river-city.png
 entry: LOC.035
 era: Age of Ascendancy
 facts: |-
@@ -13,7 +15,6 @@ related: renada,edran-halwick,four-sheriffdoms,kingdom-of-avalor
 source: World Anvil, River City (creator-supplied location; November 2026)
 featured: false
 ---
-
 ## A port whose boats feed a kingdom
 
 **River City** is smaller than Avalor's celebrated great ports, but its harbor has been growing. Its fishing crews spend their days bringing in the catch that helps feed the capital and the settlements of the **Royal Heartlands**.
