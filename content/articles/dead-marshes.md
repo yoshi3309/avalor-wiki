@@ -10,7 +10,7 @@ era: Founding Wars to Age of Ascendancy
 facts: |-
   Terrain: Wetlands and shifting waterways
   Historical injuries: Founding wars; Black Tower
-  Notable settlement: Wayword Sun
+  Notable settlement: Wayward Sun
   Historic stronghold: Lord Osmo’s Tower
   Historic order: Hunters Guild
 related: lord-osmos-tower,wayword-sun,black-tower,forest-of-the-fey,great-desert
@@ -37,9 +37,9 @@ This distinction matters. The Black Tower did not create the marshes, nor did it
 
 The Great Desert also bears the consequences of the Black Tower, but it is a different region whose transformation cannot simply be equated with that of the marshes.
 
-## Wayword Sun and the Hunters Guild
+## Wayward Sun and the Hunters Guild
 
-It was within these dangerous reaches that **Faelynn**, the wood elf ranger remembered among [[The Six]], founded the **Hunters Guild** at [[Wayword Sun]]. After suffering a fiend's deception and the destruction of a village, she devoted her gifts to protecting those whom ordinary defenses could not easily reach.
+It was within these dangerous reaches that **Faelynn**, the wood elf ranger remembered among [[The Six]], founded the **Hunters Guild** at [[Wayward Sun]]. After suffering a fiend's deception and the destruction of a village, she devoted her gifts to protecting those whom ordinary defenses could not easily reach.
 
 The guild's work is more than the pursuit of monsters. It calls for the judgment to guide travelers, safeguard settlements, understand changing terrain, and recognize danger before it reaches the vulnerable.
 
