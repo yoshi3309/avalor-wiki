@@ -102,7 +102,7 @@ Lowkee's teaching that protection of the helpless outranks obedience to an unjus
 
 ## The Lord Marshal and the kingdom's defenses
 
-The **Lord Marshal** provides the sovereign with senior military counsel. After the defeat of Cid, [[King Gradvum Frozenroar]] appointed [[Lavitz Shawe]] to the office, which had stood vacant since the preceding Lord Marshal was killed by the Stalker at [[Stanleyville]].
+The **Lord Marshal** provides the sovereign with senior military counsel. After the defeat of Cid, [[King Gradvum Frozenroar]] appointed [[Lavitz Shawe]] to the office, which had stood vacant since **[[kel-maris|Kel'Maris]]**, Gradvum's former sword instructor and the Lion's Shadow, was killed by the Stalker at [[Stanleyville]]. Captain Funkin returned her body to Renada and subsequently died at the later Hydra temple.
 
 Lavitz also commands [[Lion's Bane]], the royal guard. This should not be confused with direct command of every unit of [[The Avalorian Standing Army|Avalor's standing army]], its regional garrisons, or the separate protective order [[Dina Hyanda]], founded by [[Queen Melmiri]].
 
