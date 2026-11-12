@@ -34,7 +34,7 @@ The cult's known threat was defeated, but its wider teachings, named leadership,
 
 ## The Wrath of Innocent
 
-**The Wrath of Innocent** was founded by **Jinlin Vechon**, a dragonborn vampire whose hatred of **[[Cid the Blood King]]** was genuine.
+**The Wrath of Innocent** was founded by **[[jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire whose hatred of **[[Cid the Blood King]]** was genuine.
 
 The Misfits encountered Jinlin **after Cid abducted Queen Melmiri at the Tournament of Champions**. The pirate **[[Ros Furband]]** had captured the fellowship and delivered them into Jinlin's power. His hostility toward Cid might have seemed a reason to trust him, but the fellowship discovered that sharing an enemy did not guarantee the same understanding of justice.
 
@@ -42,7 +42,7 @@ The companions defeated **Jinlin in an actual battle**, before the mind flayer Z
 
 ## Jinlin Vechon
 
-Jinlin was among the victims of **Aldus Greystone III's experiments with the Blood Sickness** in the founding age. Aldus's experiments left the dragonborn with unwanted vampirism and a longing for the death he could not attain. Jinlin founded the Wrath of Innocent to pursue Cid in vengeance, but his group's crusade eventually harmed people who had not caused his suffering. The injustice done to Jinlin explains his hatred without excusing that cruelty.
+[[jinlin-vechon|Jinlin]] was among the victims of **Aldus Greystone III's experiments with the Blood Sickness** in the founding age. Aldus's experiments left the dragonborn with unwanted vampirism and a longing for the death he could not attain. Jinlin founded the Wrath of Innocent to pursue Cid in vengeance, but his group's crusade eventually harmed people who had not caused his suffering. The injustice done to Jinlin explains his hatred without excusing that cruelty.
 
 The encounter with him is preserved in [[The Misfits#jinlin-vechon-and-the-wrath-of-innocent|the Misfits' chronicle]]. Later, [[Zauks and the False Lives|Zauks]] recreated earlier perils from the companions' memories. **The battle against Jinlin was real**, preceding those counterfeit experiences; the two events should not be collapsed into one dream.
 
