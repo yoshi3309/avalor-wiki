@@ -37,57 +37,160 @@ journeys:
 
   - id: rise-of-the-misfits
     title: The Rise of the Misfits
-    subtitle: Unlikely companions. Difficult choices. A kingdom forever changed.
-    overline: THE AGE OF THE MISFITS · AN ARCHIVAL JOURNEY
-    summary: Begin with Moonville Manor and a Lord Marshal's first commission, follow an unlikely fellowship through losses and revelations, and witness the victory that changed how Avalor remembered its past.
-    editorial_note: The companions did not set out knowing they would confront the Blood King. This route follows the broad sequence preserved in their public history; some individual encounters remain imperfectly dated, and the surviving accounts do not establish every detail of the road.
+    subtitle: An unlikely fellowship. One long journey. A kingdom's forgotten truth.
+    overline: THE AGE OF THE MISFITS · A CHRONICLE IN FOUR ACTS
+    summary: "The campaign told as fifteen connected events, from the living halls of Moonville Manor to the return of Avalor's queen and the restoration of Jaznaar's name. Character histories and artifacts are available separately as deeper reading."
+    editorial_note: "Read the events in order. Each chapter offers optional biographies and source records that deepen its meaning without interrupting the narrative. Where witnesses left gaps, this account leaves them unfilled."
     era: The Age of the Misfits to the Age of Ascendancy
     steps:
-      - article: the-misfits
-        label: An Unlikely Fellowship
-        introduction: Meet the original companions and the friends who joined them. Their shared history opens at Moonville Manor, before the Lord Marshal's first commission.
+      - article: moonville-manor-incident
+        label: "The House That Refused to Be a House"
+        introduction: "Before any royal commission, the first five companions learn to trust one another inside Moonville Manor. No prophecy has yet named them."
+        act: "ACT I · THE FELLOWSHIP FORMS"
+        deeper_reading:
+          - article: the-misfits
+            note: "The original companions and later members of the fellowship."
+          - article: lavitz-shawe
+            note: "A paladin whose choices will shape the company."
+          - article: tellora-ebbenflow
+            note: "The wizard who will one day become High Wizard."
       - article: the-first-commission
-        label: The First Call to Adventure
-        introduction: After the companions' first adventure at Moonville Manor, an earlier Lord Marshal asks them to investigate an unnamed necromancer. There is no prophecy, only a job and new reasons to trust one another.
-      - article: anna-lowkees-keeper
-        label: A Keeper on the Road
-        introduction: A tavern meeting during the search for Lowkee's Keeper brings Anna into the company. Her noncombatant friendship and the Emerald of Armanti shape the road ahead.
-      - article: fo-gurn
-        label: The Friend Who Stayed Behind
-        introduction: Fo'Gurn's stand against a hydra buys the others time to escape. His friendship with Lavitz, and the years of mourning that follow, deserve more than a footnote.
+        label: "The Crown Calls"
+        introduction: "The preceding Lord Marshal sends an already-traveling company against an unnamed necromancer. They succeed, recovering fragments of dangerous study."
+        deeper_reading:
+          - article: fo-gurn
+            note: "A dragonborn paladin of the original five."
+          - article: svendyal-shadowwhisper
+            note: "Sven's life before and beyond this commission."
+      - article: golgoroth-second-commission
+        label: "A Cult and a New Companion"
+        introduction: "The second commission brings the company against Gol'Goroth and into the friendship of Heureux, a bard whose private history is already marked by loss."
+        deeper_reading:
+          - article: heureux
+            note: "The bard's Ringtree heritage, loss and later calling."
+          - article: ringtree-clan
+            note: "The people whose history Heureux carries."
+          - article: independent-factions-of-the-misfits-era
+            note: "The cult and other factions of this dangerous age."
+      - article: noki-sheep-incident
+        label: "The Mage and the Sheep"
+        introduction: "Noki is changed into a sheep during the encounter and disfigured at its end. The Misfits believe he has died; only afterward will he be known as Noke."
+        deeper_reading:
+          - article: noki-the-sheep
+            note: "The mage's survival, later transformation and service to the Den Mother."
+      - article: search-for-lowkees-keeper
+        label: "A Keeper on the Road"
+        introduction: "A search involving Lowkee's Keeper introduces Anna, a tavern waitress who joins the company as a noncombatant friend and carries an unusual emerald."
+        deeper_reading:
+          - article: anna-lowkees-keeper
+            note: "Anna's personal account within the public record."
+          - article: lowkee
+            note: "The ancient paladin whose name drew them onward."
+          - article: emerald-of-armanti
+            note: "What witnesses know about the jewel, without private magical claims."
+      - article: hydra-temple-disaster
+        label: "The Temple and the Friend Who Stayed"
+        introduction: "Cid's servants hold prisoners near Stanleyville. The ruin costs many lives, and Fo'Gurn stays to face a hydra so his companions can escape."
+        act: "ACT II · THE PRICE OF FRIENDSHIP"
+        deeper_reading:
+          - article: fo-gurn
+            note: "A life given for the companions he loved."
+          - article: jaaris
+            note: "The later necromancer serving the Blood King."
+          - article: samuel-the-devoted
+            note: "The celestial ally whose pursuit intersects the Misfits' campaign."
       - article: the-stalker
-        label: The Terror of Stanleyville
-        introduction: A familiar royal patron summons the company to a town shadowed by unexplained deaths. The Stalker brings loss close to both the town and the crown.
-      - article: jack-of-stanleyville
-        label: A Boy Who Would Not Be Forgotten
-        introduction: Jack's death is bound to Cid's deception, but his story continues when he chooses to travel with the Misfits as a ghostly companion.
-      - article: rotten-husk-clan
-        label: A People Worth Defending
-        introduction: The companions help liberate an orc community from its dangerous chieftain. Their journey is not only about defeating enemies; it is also about choosing whom to protect.
-      - article: jaznaar
-        label: The Witness Behind the Legend
-        introduction: The supposed Betrayer is not the villain the kingdom's stories describe. His testimony offers the fellowship a new understanding of Avalor's oldest wound.
+        label: "The Stalker of Stanleyville"
+        introduction: "The Lord Marshal who survived the temple is killed while pursuing deaths in Stanleyville. A boy named Jack dies through another of Cid's deceptions."
+        deeper_reading:
+          - article: stanleyville
+            note: "The people and city enduring the losses."
+          - article: jack-of-stanleyville
+            note: "The ghost boy who joins the travelers."
+      - article: rotten-husk-liberation
+        label: "Freedom for the Rotten Husk"
+        introduction: "The adventurers free an orc community from an oppressive chief. The people they help matter independently of the greater conflict with Cid."
+        deeper_reading:
+          - article: rotten-husk-clan
+            note: "The community's own history beyond the rescue."
+          - article: amara
+            note: "The druid's care for lives beyond the crown's notice."
+      - article: jaznaar-refuge-revelation
+        label: "The Witness Called Betrayer"
+        introduction: "At Jaznaar's hidden refuge, the companions learn that Aldus and Cid are one. Tel'Lora receives instruction and Lavitz receives Lowkee's sword."
+        deeper_reading:
+          - article: jaznaar
+            note: "The founding hero long condemned for another's crimes."
+          - article: aldus-greystone-iii
+            note: "The healer whose choices gave rise to the Blood King."
+          - article: bradgem-glav
+            note: "The legacy involved in the route to the refuge."
+          - article: tellora-ebbenflow
+            note: "A wizard's encounter with history and his family's relics."
       - article: tournament-of-champions
-        label: Celebration and Catastrophe
-        introduction: In Renada, a public tournament becomes the stage for a royal abduction. The queen remains captive through Ros Furband's ship, Jinlin's defeat, and Zauks's false worlds.
-      - article: ros-furband
-        label: The Pirate's Delay
-        introduction: Ros Furband captures the companions during their interrupted rescue of Melmiri, and the voyage takes them to Jinlin's Wrath of Innocent.
+        label: "The Queen Taken at the Games"
+        introduction: "Cid abducts Queen Melmiri at Renada's Tournament. The companions begin a rescue that will be delayed at every turn. Amara's capture occurs afterward."
+        act: "ACT III · THE BROKEN PURSUIT"
+        deeper_reading:
+          - article: queen-melmiri
+            note: "The ruler whose captivity changes the kingdom's course."
+          - article: renada
+            note: "The capital and the day celebration gave way to danger."
+      - article: ros-furband-jinlin-ordeal
+        label: "The Pirate, the Wrath and the Vampire"
+        introduction: "Ros Furband makes the rescuers captives aboard his galleon. They later confront and defeat Jinlin Vechon in reality, with the queen still missing."
+        deeper_reading:
+          - article: ros-furband
+            note: "The hired pirate and what remains unknown about his bargain."
+          - article: independent-factions-of-the-misfits-era
+            note: "The Wrath of Innocent and its pursuit of vengeance."
+          - article: beldir-willowrun
+            note: "The naval officer whose presence on the vessel remains unexplained."
       - article: zauks-false-lives
-        label: The Lives That Might Have Been
-        introduction: A mind flayer uses the companions' memories and grief against them. After the tournament and the real battle against Jinlin, the trials reveal how much of their strength comes from the lives they choose together.
-      - article: emerald-of-armanti
-        label: A Jewel in the Final Struggle
-        introduction: Anna's emerald links the hope of Lowkee's aid to the last struggle, while the exact means of its magic remain outside public testimony.
-      - article: cid-the-blood-king
-        label: The Blood King's Last Confrontation
-        introduction: Trace the enemy's hidden identity and the long path to his defeat. The man who began as Aldus Greystone III has shaped much more than the companions realized.
+        label: "The Lives That Never Were"
+        introduction: "Zauks uses counterfeit adventures and perfect lives to entrap the companions. Amara comes from outside the illusions, returns from owl form and kills him."
+        deeper_reading:
+          - article: amara
+            note: "The druid's intervention and life beyond the party."
+          - article: jack-of-stanleyville
+            note: "One death the false adventures cannot undo."
+      - article: shadowfell-confrontation
+        label: "The Last Battle in the Shadowfell"
+        introduction: "Jaaris falls and the companions confront Cid. Fo'Gurn chooses to protect Lavitz, Samuel joins the struggle, and Melmiri helps her rescuers escape."
+        deeper_reading:
+          - article: cid-the-blood-king
+            note: "The enemy's long, hidden history."
+          - article: fo-gurn
+            note: "The paladin's sacrifice and the mystery of his presence."
+          - article: samuel-the-devoted
+            note: "Samuel's long pursuit and the last battle."
+          - article: emerald-of-armanti
+            note: "The jewel witnessed in the confrontation."
+      - article: misfits-return-to-renada
+        label: "The Queen Returns, the Kingdom Mourns"
+        introduction: "After the rescue the company returns with Melmiri, honors the fallen and faces the court. The companions accept different responsibilities without losing their bond."
+        act: "ACT IV · WHAT VICTORY CHANGED"
+        deeper_reading:
+          - article: age-of-ascendancy
+            note: "The kingdom's widening horizons after Cid."
+          - article: lavitz-shawe
+            note: "The new Lord Marshal."
+          - article: tellora-ebbenflow
+            note: "The new High Wizard."
+          - article: heureux
+            note: "The bard who preserves the company's story."
+          - article: svendyal-shadowwhisper
+            note: "The Iron Shadow's less public path."
       - article: jaznaars-vindication
-        label: The Truth Comes Home
-        introduction: Victory becomes a public reckoning as Gradvum restores Jaznaar's name. The companions have changed the kingdom's understanding of its founders.
-      - article: age-of-ascendancy
-        label: What Followed the Victory
-        introduction: The Misfits' deeds become part of an enduring new age. The kingdom's influence grows, but the burdens of power and memory do not simply disappear.
+        label: "The Truth at Last Restored"
+        introduction: "Gradvum's public proclamation restores Jaznaar's honor. The Misfits' victory becomes the kingdom's obligation to correct centuries of accepted falsehood."
+        deeper_reading:
+          - article: betrayers-legend
+            note: "How the false legend endured for generations."
+          - article: king-gradvum-frozenroar
+            note: "The king who authorized the correction."
+          - article: the-six
+            note: "The founding fellowship behind the centuries of misunderstanding."
 
   - id: frozenroar-dynasty
     title: The Frozenroar Dynasty

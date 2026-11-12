@@ -42,7 +42,7 @@ The companions defeated **Jinlin in an actual battle**, before the mind flayer Z
 
 ## Jinlin Vechon
 
-Jinlin remains the group's most recognizable figure. As its founder, he belongs within this history rather than needing a second article that repeats the same few events.
+Jinlin was among the victims of **Aldus Greystone III's experiments with the Blood Sickness** in the founding age. Aldus's experiments left the dragonborn with unwanted vampirism and a longing for the death he could not attain. Jinlin founded the Wrath of Innocent to pursue Cid in vengeance, but his group's crusade eventually harmed people who had not caused his suffering. The injustice done to Jinlin explains his hatred without excusing that cruelty.
 
 The encounter with him is preserved in [[The Misfits#jinlin-vechon-and-the-wrath-of-innocent|the Misfits' chronicle]]. Later, [[Zauks and the False Lives|Zauks]] recreated earlier perils from the companions' memories. **The battle against Jinlin was real**, preceding those counterfeit experiences; the two events should not be collapsed into one dream.
 

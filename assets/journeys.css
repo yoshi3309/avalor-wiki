@@ -58,3 +58,17 @@
 .journey-article-done{font-size:11px;color:#d3bb91}
 @media(max-width:760px){.journeys-grid{grid-template-columns:1fr}.journey-hero{padding:43px 23px 38px}.journey-reading-guide{padding:23px}.journey-route-heading{display:block}.journey-route-heading>span{display:block;margin-top:12px}.journey-chapter{grid-template-columns:55px minmax(0,1fr);gap:11px}.journey-chapter-number{width:55px;height:55px;font-size:18px}.journey-chapter:not(:last-child):before{left:27px;top:55px}.journey-chapter-copy{padding:17px}.journey-chapter-copy h3{font-size:19px}.journey-article-actions .journey-article-next{margin-left:0}}
 @media(prefers-reduced-motion:reduce){.journeys-card{transition:none}.journeys-card:hover{transform:none}}
+
+/* A primary narrative route with clearly secondary companion dossiers. */
+.journey-act-kicker{display:block;margin:0 0 11px;color:#e3cda0;font-size:11px;letter-spacing:.1em;font-weight:700;text-transform:uppercase;border-bottom:1px solid #554d3e;padding-bottom:10px}
+.journey-deeper-reading{margin-top:19px;padding-top:15px;border-top:1px solid #415055}
+.journey-deeper-reading summary{cursor:pointer;font-size:11px;font-weight:700;letter-spacing:.05em;color:#dfc59b}
+.journey-deeper-reading summary:hover,.journey-deeper-reading summary:focus-visible{color:#f1d5a4}
+.journey-deeper-reading ul,.journey-article-deeper ul{list-style:none;margin:11px 0 0;padding:0;display:grid;gap:11px}
+.journey-deeper-reading li,.journey-article-deeper li{display:grid;gap:3px;font:12px/1.6 var(--font-body)}
+.journey-deeper-reading li a,.journey-article-deeper li a{color:#ead19e;font-weight:600;width:fit-content}
+.journey-deeper-reading li a:hover,.journey-article-deeper li a:hover{text-decoration:underline;text-underline-offset:3px}
+.journey-deeper-reading li span,.journey-article-deeper li span{color:#bbc6c3;font-size:11px;line-height:1.55}
+.journey-article-deeper{margin-top:18px;border-top:1px solid #485650;padding-top:15px}
+.journey-article-deeper ul{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:13px 18px}
+@media(max-width:640px){.journey-deeper-reading ul{gap:13px}.journey-article-deeper ul{grid-template-columns:1fr}}

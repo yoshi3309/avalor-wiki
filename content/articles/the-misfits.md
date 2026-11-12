@@ -15,7 +15,7 @@ facts: |-
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 callouts:
   - type: reflection
@@ -137,7 +137,7 @@ The name **Lowkee's Keeper** attached itself to Anna and to the search. She bore
 
 Protecting Anna was never merely an errand to deliver a magical object. When the company was captured near Stanleyville, **Anna was among those endangered at the ruined temple**, and she survived alongside the preceding Lord Marshal. Later, after the Games, she endured a second captivity on **[[Ros Furband|Ros Furband's]]** pirate galleon, working in the galley beside Tel'Lora while the queen they were trying to rescue remained in Cid's hands.
 
-Anna continued with the fellowship to the end of its campaign. The emerald reappeared at the final confrontation, although its complete workings and portions of Anna's private history have not been disclosed. What the witnesses did preserve was the presence of a friend who had no need to take up a sword to belong among them.
+Anna continued with the fellowship to the end of its campaign. The emerald reappeared in the final confrontation, allowing Samuel to channel Lowkee briefly and later serving as Fo'Gurn's seal against Cid's return to the Material Plane. After the royal audience **Anna revealed herself as Erevan Ilesere**, who had maintained the guise as a divine test of Sven. The full mechanics and origins of the gem remain unsettled, but **Anna's identity and the relic's known uses are part of the completed history**. The friendship the Misfits showed Anna was real even before they understood whom they were protecting.
 
 ## III. The hydra and the missing companion
 
@@ -185,7 +185,7 @@ The rescue did not follow an uninterrupted passage from the tournament grounds t
 
 ## Jinlin Vechon and the Wrath of Innocent
 
-Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and founder of [[Independent Factions of the Misfits Era#the-wrath-of-innocent|the Wrath of Innocent]]. Jinlin hated Cid, yet the fellowship found that shared hatred was no guarantee of shared justice. His own grievance did not authorize the harm he inflicted on others.
+Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and founder of [[Independent Factions of the Misfits Era#the-wrath-of-innocent|the Wrath of Innocent]]. Jinlin hated Cid, yet the fellowship found that shared hatred was no guarantee of shared justice. **Aldus had experimented on Jinlin during the Blood Sickness era**, cursing the dragonborn with unwanted vampirism and a seemingly unattainable death. Jinlin had a genuine grievance, but it did not authorize the harm he inflicted on others.
 
 The Misfits **fought Jinlin in the waking world and defeated him**. His defeat is an event of their actual campaign, not a scene invented by the mind flayer who later attacked them. Melmiri remained in Cid's custody while these events unfolded.
 
@@ -205,7 +205,10 @@ When the Misfits emerged, the queen was still captive. They had escaped an inven
 
 ## VII. The Shadowfell confrontation
 
-The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
+What eventually became known of the final confrontation changed its historical meaning. **Anna was Erevan Ilesere**, who had maintained the guise during the travels as a test of Sven's compassion and commitment to justice. The **Emerald of Armanti** was intended to keep Cid from returning to the Material Plane and enabled Samuel briefly to channel Lowkee's spirit. **Jaaris had resurrected Fo'Gurn through necromancy** after his true death at the Hydra. Fo'Gurn broke that imposed control to protect Lavitz before Jaaris was killed, and afterward remained in the Shadowfell to rest once more. The black hands that removed Cid into the Beyond still have no established identity.
+
+
+The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The complete public account of this conclusion is preserved as **[[The Shadowfell Confrontation]]**, a historical episode in its own right rather than merely a chapter in the Blood King's biography. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
 
 Authorized accounts describe **Fo'Gurn's unexpected presence** and a confrontation with Lavitz. They preserve the moral outline of a friend who refused to answer danger with abandonment, and of Fo'Gurn **choosing again to protect Lavitz**. The precise circumstances of his appearance and the words exchanged between the paladins remain outside the securely established public narrative.
 

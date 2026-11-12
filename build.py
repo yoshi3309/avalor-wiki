@@ -386,21 +386,42 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
         if not raw_step.get('label') or not raw_step.get('introduction'):
             raise ValueError(f'Journey {ident}: step {number} is missing descriptive text')
         seen.add(article_slug)
+        # Optional companion reading is linked alongside the chapter, never inserted
+        # into the chronological route as a substitute for the event itself.
+        optional_reading = raw_step.get('deeper_reading') or []
+        if not isinstance(optional_reading, list) or len(optional_reading) > 5:
+            raise ValueError(f'Journey {ident}: chapter {number} has invalid deeper reading')
+        companions = []
+        companion_slugs = set()
+        for extra in optional_reading:
+            if not isinstance(extra, dict):
+                raise ValueError(f'Journey {ident}: chapter {number} has malformed supplemental entry')
+            extra_slug = str(extra.get('article') or '')
+            extra_note = str(extra.get('note') or '').strip()
+            if (extra_slug not in BY_SLUG or extra_slug == article_slug
+                    or extra_slug in companion_slugs or not extra_note):
+                raise ValueError(f'Journey {ident}: chapter {number} has invalid supplemental reading {extra_slug}')
+            companion_slugs.add(extra_slug)
+            companions.append({'article': BY_SLUG[extra_slug], 'note': extra_note})
         mapped_steps.append({
             'number': number, 'article': BY_SLUG[article_slug],
-            'label': str(raw_step['label']), 'introduction': str(raw_step['introduction'])
+            'label': str(raw_step['label']), 'introduction': str(raw_step['introduction']),
+            'act': str(raw_step.get('act') or '').strip(),
+            'deeper_reading': companions
         })
     if not all(raw_journey.get(key) for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')):
         raise ValueError(f'Journey {ident} is missing required public presentation fields')
     journey = {key: raw_journey[key] for key in ('title', 'subtitle', 'overline', 'summary', 'editorial_note', 'era')}
-    journey.update({'id': ident, 'steps': mapped_steps})
+    journey.update({'id': ident, 'steps': mapped_steps,
+                    'has_deeper_reading': any(step['deeper_reading'] for step in mapped_steps)})
     JOURNEYS.append(journey)
     for i, step in enumerate(mapped_steps):
         JOURNEY_ARTICLE_STEPS.setdefault(step['article']['slug'], []).append({
             'journey_id': ident, 'journey_title': journey['title'], 'number': i+1,
             'total': len(mapped_steps),
             'previous': mapped_steps[i-1] if i else None,
-            'next': mapped_steps[i+1] if i+1 < len(mapped_steps) else None
+            'next': mapped_steps[i+1] if i+1 < len(mapped_steps) else None,
+            'deeper_reading': step['deeper_reading']
         })
 
 # The Archivist's Welcome routes are curated player-facing navigation, never

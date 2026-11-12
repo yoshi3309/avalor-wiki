@@ -76,3 +76,5 @@ jobs:
         run: python tests/check_reading_desk.py
       - name: Check Royal Gazette
         run: python tests/check_gazette.py
+      - name: Check event-led Misfits journey and deeper reading
+        run: python tests/check_misfits_journey.py

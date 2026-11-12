@@ -15,7 +15,7 @@ facts: |-
   Linked to: Fo’Gurn
   Distinct from: Necromancer of the first commission
   Later imitation: Zauks's remembered trials
-related: anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
+related: shadowfell-confrontation,anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
@@ -29,9 +29,11 @@ Only later did they learn that the necromancer **Jaaris** had become entangled i
 
 ## The temple and the last confrontation
 
+Jaaris's eventual death belongs to **[[The Shadowfell Confrontation]]**, the public record of the Misfits' final campaign against Cid.
+
 Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, the Lord Marshal and others caught in the Blood King's design.
 
-The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. The public record connects Jaaris with later revelations about the paladin, but it does not provide a complete explanation of Fo'Gurn's extraordinary appearance during the last confrontation.
+The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. **Fo'Gurn truly died at the hydra. Jaaris later raised him through necromancy**, compelling the paladin against his former companions. During their last confrontation Lavitz lowered his defenses and Fo'Gurn chose to protect him, overcoming Jaaris's control **before** the necromancer died. Jaaris's subsequent death started the failure of Fo'Gurn's borrowed life; it did not cause the paladin's redemption.
 
 Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in the mind flayer's false adventures.
 
@@ -39,7 +41,7 @@ Jaaris was present again among Cid's defenders in the **Shadowfell** and was **k
 
 The Misfits had encountered a necromancer during [[The Misfits’ First Commission|their first commission]] for the preceding Lord Marshal. That practitioner was **not Jaaris**.
 
-The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound rather than simply explaining the beginning of the fellowship.
+The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound: Jaaris had forced Fo'Gurn into a borrowed existence, then lost control when the paladin chose to protect Lavitz. His death ensured the borrowed life would fail.
 
 Much of Jaaris's sorcery remains obscured. His role is remembered through the harm he caused, not through a neatly reconstructed account of every ritual.
 

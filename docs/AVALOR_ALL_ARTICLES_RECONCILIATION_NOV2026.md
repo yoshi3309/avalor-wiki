@@ -151,3 +151,7 @@
 - Do not independently publish restricted contents from the four Keeper reference volumes. New creator-supplied decisions in this round should be reflected in a **future source-book addendum or revised edition** if the books are reissued.
 - Do not merge the draft until the Keeper has reviewed the new Anna, Ros Furband, Emerald and Mera articles and the revised Misfits and Noke biographies.
 - Source books and the public wiki have different disclosure boundaries; agreement on the public historical sequence does not require publication of every cause and mechanism known privately.
+
+## Subsequent publication decision — November 2026 (supersedes old disclosure gate)
+
+The Keeper subsequently authorized publication of all completed original-campaign facts earlier withheld under the previous public/restricted rule. The 20-year retrospective wiki **may and should describe Anna as Erevan Ilesere, the Emerald's established role, Fo'Gurn's resurrection by Jaaris and final rest, and Jinlin's origin in Aldus's Blood Sickness experiments**. Existing secrecy statements above describe the **earlier audit state** and are no longer instructions for current releases. Genuinely OPEN facts and unplayed future-campaign plans remain outside the public record.
