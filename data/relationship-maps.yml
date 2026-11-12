@@ -27,10 +27,10 @@ maps:
 
   - id: the-misfits
     title: The Misfits
-    subtitle: Five adventurers, and the companions they called their own
+    subtitle: The original five and their later fellow travelers
     icon: "⚔"
-    summary: The enduring adventuring party of Lavitz, Tel'Lora, Sven, Amara, and Heureux was joined in its history by two cherished companions — Fo'Gurn, who died saving them, and Jack, the ghost boy the party took under its wing.
-    note: Solid connections identify the central adventuring party; Heureux joined shortly after the others. The softer dashed lines honor Fo'Gurn and Jack as genuine companions without suggesting they shared the same role in the adventuring party. The blue dashed link records Lavitz and Fo'Gurn's friendship from before the Misfits formed.
+    summary: The first company included Lavitz, Tel'Lora, Sven, Amara, and Fo'Gurn; Heureux joined during the Gol'Goroth commission, and Anna and Jack became beloved traveling companions without being combatant members.
+    note: Solid connections identify original adventurers including Fo'Gurn, with Heureux joining during the second royal commission. Companion links honor Anna and Jack, who traveled with the company but were not original adventurers. The friendship line links Lavitz and Fo'Gurn before the company existed.
     related_article: the-misfits
     nodes:
       - {id: fellowship, label: The Misfits, x: 50, y: 48, kind: group, article: the-misfits, detail: The adventuring company whose bonds outlasted the fall of the Blood King.}
@@ -39,7 +39,8 @@ maps:
       - {id: sven, label: Sven, x: 79, y: 19, kind: person, article: svendyal-shadowwhisper, detail: Original adventurer whose vow to protect families preceded his loyal service beside Lavitz.}
       - {id: amara, label: Amara, x: 84, y: 64, kind: person, article: amara, detail: Original adventurer and one of the five surviving companions celebrated after Cid's defeat.}
       - {id: heureux, label: Heureux, x: 64, y: 88, kind: person, article: heureux, detail: Bard who joined the adventuring party shortly after its beginning and later recorded its story.}
-      - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "✧", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as one of their own, and who traveled with them.}
+      - {id: jack, label: Jack, x: 38, y: 88, kind: person, symbol: "✧", article: jack-of-stanleyville, detail: Ghost boy from Stanleyville whom the Misfits took in as a traveling companion.}
+      - {id: anna, label: Anna, x: 92, y: 88, kind: person, symbol: "✧", article: anna-lowkees-keeper, detail: Noncombatant traveling friend known as Lowkee's Keeper; carried the Emerald of Armanti.}
       - {id: fo, label: Fo'Gurn, x: 15, y: 64, kind: person, symbol: "☠", article: fo-gurn, detail: Dragonborn paladin and Lavitz's friend from before the fellowship; traveled with the original company and died protecting them during the hydra battle.}
     edges:
       - {from: fellowship, to: lavitz, type: fellowship, label: Adventuring party member}
@@ -47,8 +48,9 @@ maps:
       - {from: fellowship, to: sven, type: fellowship, label: Adventuring party member}
       - {from: fellowship, to: amara, type: fellowship, label: Adventuring party member}
       - {from: fellowship, to: heureux, type: fellowship, label: Joined the adventuring party shortly after its founding}
-      - {from: fellowship, to: fo, type: companion, label: Original companion; died during the campaign}
-      - {from: fellowship, to: jack, type: companion, label: Cherished traveling companion and adopted ward}
+      - {from: fellowship, to: fo, type: fellowship, label: Original adventuring member; stayed behind at the hydra}
+      - {from: fellowship, to: jack, type: companion, label: Cherished ghostly traveling companion}
+      - {from: fellowship, to: anna, type: companion, label: Noncombatant traveling companion}
       - {from: lavitz, to: fo, type: prior-friendship, label: Close friends before the Misfits formed}
 
   - id: house-frozenroar

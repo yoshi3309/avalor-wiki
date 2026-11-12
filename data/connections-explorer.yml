@@ -8,6 +8,10 @@ nodes:
   - {article: "amara", kind: "people"}
   - {article: "heureux", kind: "people"}
   - {article: "jack-of-stanleyville", kind: "people"}
+  - {article: "anna-lowkees-keeper", kind: "people"}
+  - {article: "ros-furband", kind: "people"}
+  - {article: "malikeah", kind: "people"}
+  - {article: "mera-ashenfall", kind: "people"}
   - {article: "samuel-the-devoted", kind: "people"}
   - {article: "king-gradvum-frozenroar", kind: "people"}
   - {article: "queen-melmiri", kind: "people"}
@@ -49,6 +53,11 @@ edges:
   - {from: "amara", to: "the-misfits", label: "Original member of the adventuring party", evidence: "the-misfits", type: "fellowship"}
   - {from: "heureux", to: "the-misfits", label: "Joined the fellowship shortly after it began", evidence: "heureux", type: "fellowship"}
   - {from: "jack-of-stanleyville", to: "the-misfits", label: "Ghost boy who travelled with the companions", evidence: "jack-of-stanleyville", type: "fellowship"}
+  - {from: "anna-lowkees-keeper", to: "the-misfits", label: "Noncombatant companion who traveled with the fellowship", evidence: "anna-lowkees-keeper", type: "fellowship"}
+  - {from: "anna-lowkees-keeper", to: "lowkee", label: "Associated with the search for Lowkee's Keeper", evidence: "anna-lowkees-keeper", type: "record"}
+  - {from: "ros-furband", to: "the-misfits", label: "Captured the company following the Tournament", evidence: "ros-furband", type: "conflict"}
+  - {from: "malikeah", to: "mera-ashenfall", label: "Married partners overseeing Wayward Sun", evidence: "mera-ashenfall", type: "family"}
+  - {from: "mera-ashenfall", to: "hunters-guild", label: "Spirit bard and co-steward of Wayward Sun", evidence: "mera-ashenfall", type: "office"}
   - {from: "lavitz-shawe", to: "fo-gurn", label: "Close friends before the Misfits formed", evidence: "fo-gurn", type: "friendship"}
   - {from: "lavitz-shawe", to: "heavens-heart", label: "Trained as a paladin at Heaven's Heart", evidence: "lavitz-shawe", type: "training"}
   - {from: "fo-gurn", to: "heavens-heart", label: "Trained as a paladin while Lavitz studied there", evidence: "fo-gurn", type: "training"}
