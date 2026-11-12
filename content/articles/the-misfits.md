@@ -119,21 +119,19 @@ This first commission was not their first adventure, nor was the enemy the later
 
 The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]], a wizard transformed into a sheep, became one of the road's more improbable stories. Not every strange event was an instrument of the Blood King.
 
-## II. Adventures beyond the Blood King's shadow
+## II. The wider road and those who joined it
 
-Not every danger the Misfits faced belonged to Cid. They encountered [[Noki]], a wizard who had been transformed into a sheep, and accepted dangers that mattered deeply to the people caught within them.
+The Misfits' adventures were not all arranged by the Blood King. A wizard inexplicably transformed into a sheep, the dangers of unfamiliar roads, and the people who asked the company for help mattered on their own terms. Their company grew not by prophecy but through those encounters.
 
-After the losses at the hydra temple and Stanleyville, they would also help the [[The Rotten Husk Clan|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
+During a search connected with Lowkee's Keeper, the travelers met **Anna**, a tavern waitress who accompanied them on the road. Her place among the companions is remembered, though portions of her earlier life have not entered the public record.
 
-These adventures matter independently of the later confrontation with Cid. The people whose lives the fellowship touched did not need to know about the Black Tower to be grateful for the help they received.
-
-On a search connected with Lowkee's Keeper, the travelers also met **Anna**, a tavern waitress who accompanied them on the road. Her place in the companionship is remembered, although portions of her personal history have not entered the public record.
+The fellowship would also befriend a murdered child's ghost, and later help an orc community gain freedom from its own oppressive chieftain. Each life encountered along the way challenged the notion that the Misfits' importance could be measured only by their eventual victory over Cid.
 
 ## III. The hydra and the missing companion
 
 At a temple near [[Stanleyville]], the Misfits confronted a more direct manifestation of Cid's cruelty. Captives had been restrained against their use of magic, and the site was connected to a rite seeking to turn divine power toward the Blood King's purpose. The evidence does not give scholars license to reconstruct every detail of that rite.
 
-Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Captain Funkin, Inspector Sihnion, and guards died** in the catastrophe surrounding the temple. The preceding Lord Marshal and Anna survived this episode. **Amara's later capture belongs after the Renada Games**, not to the temple's casualties or disappearances.
+Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Captain Funkin, Inspector Sihnion, and guards died** in the catastrophe surrounding the temple. The preceding Lord Marshal and Anna survived this episode.
 
 A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the years in which they mourned him, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
 

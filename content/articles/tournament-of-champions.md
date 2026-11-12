@@ -35,7 +35,7 @@ Melmiri's position as queen made her a powerful hostage. Cid expected the Misfit
 
 The Misfits did not proceed straight from the tournament into Cid's fortress. **Ros Furband**, a pirate captain, captured them and delivered them to **Jinlin Vechon**, leader of the Wrath of Innocent. They defeated Jinlin in a real confrontation, then fell into the illusions of **Zauks**, a mind flayer who made earlier dangers seem to recur.
 
-Throughout those ordeals, **Melmiri remained a captive**. The adventures on Ros's ship, the battle with Jinlin, and the false lives offered by Zauks were obstacles on the road to the queen, not episodes that preceded her abduction.
+Throughout those ordeals, **Melmiri remained a captive**. **Amara was taken during the period following the Games**; the precise circumstances and manner of her return are not established in the public testimony. She was later free to intervene against Zauks while her companions remained trapped in his false experiences. The adventures on Ros's ship, the battle with Jinlin, and the false lives offered by Zauks were obstacles on the road to the queen, not episodes that preceded her abduction.
 
 ## Into the Shadowfell
 
