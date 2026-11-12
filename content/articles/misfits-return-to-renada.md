@@ -57,3 +57,9 @@ After the royal audience, **Samuel clarified that the appearance of Lowkee durin
 The revelation cast Anna's apparent vulnerability in a different light. Erevan was not an ordinary mortal at risk of annihilation; the dangers faced by his friends were nevertheless real. The account need not make the divine test comfortable merely because it was conducted by a god.
 
 ## An age made by choices after war
+
+The queen's return closed the immediate crisis, but no royal audience could restore those who had died or answer every question the struggle had raised. Fo'Gurn did not walk back through Renada's gates; the preceding Lord Marshal's seat had stood vacant since Stanleyville; and the truth of Jaznaar's innocence still demanded public acknowledgment.
+
+For the Misfits, accepting responsibility did not mean resuming the lives they had led as adventurers. Their friendship endured through different callings, while the duty they had learned on the road took forms less easily celebrated in a single song. Even Sven's unanswered divine offer remained a choice to be faced, not a conclusion a historian could supply on his behalf.
+
+The next chapter of Avalor's history would be written not at Cid's fortress but in the kingdom's records and streets, as [[King Gradvum Frozenroar]] moved to [[The Vindication of Jaznaar|restore Jaznaar's name]]. Victory had made the truth known; what the kingdom did with it would show what victory meant.
