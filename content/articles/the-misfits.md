@@ -123,25 +123,11 @@ The Lord Marshal called upon them again to investigate the [[Independent Faction
 
 Not every danger the Misfits faced belonged to Cid. They encountered [[Noki]], a wizard who had been transformed into a sheep, and accepted dangers that mattered deeply to the people caught within them.
 
-They also helped the [[The Rotten Husk Clan|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
+After the losses at the hydra temple and Stanleyville, they would also help the [[The Rotten Husk Clan|Rotten Husk]] tribe escape the rule of a dangerous chieftain. That affair is remembered for the companions' refusal to treat the tribe's people as guilty merely because of their leader.
 
 These adventures matter independently of the later confrontation with Cid. The people whose lives the fellowship touched did not need to know about the Black Tower to be grateful for the help they received.
 
 On a search connected with Lowkee's Keeper, the travelers also met **Anna**, a tavern waitress who accompanied them on the road. Her place in the companionship is remembered, although portions of her personal history have not entered the public record.
-
-## The Liberation of the Rotten Husk
-
-During their earlier travels, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
-
-The Misfits helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. For a clan who had suffered under a dangerous leader, what mattered was not the precise order of blows or speeches, but that their future was theirs again.
-
-The event mattered independently of the later war against Cid. For the Rotten Husk, it was not a footnote in another group's legend but a turning point in their own lives. Their continuing identity is recorded separately in [[The Rotten Husk Clan]], while the encounter belongs here among the fellowship's journeys.
-
-## The Ripped Beard
-
-Some early retellings use **the Ripped Beard** as a name for the affair involving the Rotten Husk's chieftain. These are **two names attached to one episode**, not evidence that the Misfits liberated the tribe on one journey and defeated a second, separate adversary on another.
-
-The surviving history belongs above all to the orc community that was freed. [[The Rotten Husk Clan]] preserves their story beyond the abbreviated names given to it by traveling adventurers.
 
 ## III. The hydra and the missing companion
 
@@ -162,6 +148,20 @@ The town was stalked by a murderous creature later attributed to Cid's control. 
 The Misfits departed with Jack in their company and a deepening awareness that the events they had witnessed could be part of something older and more dangerous than any one town.
 
 The Lord Marshal's death here must not be confused with the losses at the earlier temple: he had **survived the hydra affair** and continued to serve the crown until the Stalker killed him.
+
+## The Liberation of the Rotten Husk
+
+During their earlier travels, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
+
+The Misfits helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. For a clan who had suffered under a dangerous leader, what mattered was not the precise order of blows or speeches, but that their future was theirs again.
+
+The event mattered independently of the later war against Cid. For the Rotten Husk, it was not a footnote in another group's legend but a turning point in their own lives. Their continuing identity is recorded separately in [[The Rotten Husk Clan]], while the encounter belongs here among the fellowship's journeys.
+
+## The Ripped Beard
+
+Some early retellings use **the Ripped Beard** as a name for the affair involving the Rotten Husk's chieftain. These are **two names attached to one episode**, not evidence that the Misfits liberated the tribe on one journey and defeated a second, separate adversary on another.
+
+The surviving history belongs above all to the orc community that was freed. [[The Rotten Husk Clan]] preserves their story beyond the abbreviated names given to it by traveling adventurers.
 
 ## V. Jaznaar's testimony
 
@@ -219,7 +219,7 @@ That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained
 
 ## A guide to their stories
 
-The surviving sequence begins with [[The Misfits#moonville-manor|Moonville Manor]], continues through [[The Misfits’ First Commission|the first commission]], the cult of Gol'Goroth, [[Noki]], and [[The Misfits#the-liberation-of-the-rotten-husk|the liberation of the Rotten Husk]]. The path then leads to [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand]] and [[The Stalker of Stanleyville|the tragedy at Stanleyville]].
+The surviving sequence begins with [[The Misfits#moonville-manor|Moonville Manor]], continues through [[The Misfits’ First Commission|the first commission]], the cult of Gol'Goroth, and [[Noki]]. The path then leads to [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand]] and [[The Stalker of Stanleyville|the tragedy at Stanleyville]], followed by [[The Misfits#the-liberation-of-the-rotten-husk|the liberation of the Rotten Husk]].
 
 The search for the buried truth reaches [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar's refuge]] before [[The Tournament of Champions|the tournament and the queen's abduction]]. **Ros Furband, Jinlin Vechon, and Zauks follow the tournament**; the final Shadowfell confrontation follows them all.
 
