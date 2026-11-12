@@ -1,52 +1,79 @@
 ---
 title: Jaaris
-subtitle: The Necromancer Entangled with Fo’Gurn
-summary: The necromancer linked to Fo'Gurn's altered fate, whose crimes cast a shadow over the sacrifices of the Misfits.
+subtitle: The Master of Broken Wills
+summary: A self-made tiefling necromancer who commanded hostile fey, destroyed Sven's family, and later served Cid by resurrecting and enslaving Fo'Gurn.
 category: People & Legends
 image: /assets/uploads/jaaris.png
 entry: BIO.031
 era: Age of the Misfits
 facts: |-
   Ancestry: Tiefling
-  Appearance: Dark hair; signs of necrotic decay
-  Calling: Necromancer
-  Known service: Among Cid's servants at the ruined temple
+  Appearance: Dark hair; gray skin marked by necrotic decay
+  Calling: Necromancer; practitioner of binding and compulsion
+  Origins: Mortal settlements near the Feywild
+  Earlier leadership: A faction of hostile fey elves
+  Crimes against Sven: Ritual killing of Tristan and Kristofer
+  Later allegiance: Cid the Blood King
+  Crime against Fo'Gurn: Necromantic resurrection and compelled service
   Final campaign: Killed during the Shadowfell confrontation
-  Linked to: Fo’Gurn
-  Distinct from: Necromancer of the first commission
-  Later imitation: Zauks's remembered trials
-related: zauks,shadowfell-confrontation,anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
-source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
-  Section V (public events)
+  Distinct from: Necromancer of the first royal commission
+related: svendyal-shadowwhisper,fo-gurn,lavitz-shawe,cid-the-blood-king,shadowfell-confrontation,hydra-temple-disaster,the-first-commission,the-misfits,zauks-false-lives
+source: "Avalor Master Canon Bible, Misfits-era biography and Sven's history; creator-approved expansion, November 12, 2026"
 featured: false
 ---
 
-## The necromancer who shadowed a sacrifice
+## The scholar who wanted an obedient world
 
-When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] escaped believing their dragonborn friend had died. The memory of that sacrifice followed them through the rest of the campaign and into the years afterward.
+**Jaaris** was a dark-haired tiefling whose gray, necrotically marked skin eventually made his study of death visible to everyone who encountered him. Yet his ambition did not begin with corpses. He wanted **control**: not the influence a ruler might negotiate or the loyalty a friend might freely offer, but obedience that could not be withdrawn.
 
-Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief had been real.
+Born among mortal settlements near the influence of the Feywild, he showed an early aptitude for magic and a corresponding contempt for uncertainty. He studied charms, oaths, bargains and the boundaries of a soul's consent. To him, every promise broken and every order refused exposed the same intolerable flaw in living beings: **they could choose for themselves**.
 
-## The temple and the last confrontation
+He became a self-made scholar of enchantment and necromancy, seeking a more absolute answer. The dead could be made to move without questioning a command; the living required fear, persuasion or spells that reached deeper. His experiments with necrotic power left traces upon his flesh, while his conviction hardened into an obsession: to make resistance impossible without destroying the usefulness of the person being controlled.
 
-Jaaris's eventual death belongs to **[[The Shadowfell Confrontation]]**, the public record of the Misfits' final campaign against Cid.
+## The tiefling among the hostile fey
 
-Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, and others caught in the Blood King's design. The Lord Marshal **Kel'Maris had already been killed** in the preceding Stalker affair.
+Jaaris was **not** a golden-haired fey elf, despite the image attached to him in some older accounts. He was an outsider who gained command of **one hostile faction of fey elves**, not a ruler over the Feywild as a whole.
 
-The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. **Fo'Gurn truly died at the hydra. Jaaris later raised him through necromancy**, compelling the paladin against his former companions. During their last confrontation Lavitz lowered his defenses and Fo'Gurn chose to protect him, overcoming Jaaris's control **before** the necromancer died. Jaaris's subsequent death started the failure of Fo'Gurn's borrowed life; it did not cause the paladin's redemption.
+He began by offering knowledge his followers valued: magical bindings, curses and means of weakening their enemies. Gradually, carefully constructed bargains and compulsions made his authority harder to challenge. Intimidation secured what enchantment alone could not. Some members of the faction shared his cruelty; others followed because defiance carried consequences they feared.
 
-Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in [[Zauks and the False Lives|the mind flayer's false adventures]].
+The arrangement suited Jaaris. He could direct beings proud of their own ancient customs without having been born among them. He mistook their service for proof of the superiority of his will, never asking whether obedience extracted through fear was loyalty at all.
 
-## A different enemy
+## A home destroyed before Sven's eyes
 
-The Misfits had encountered a necromancer during [[The Misfits’ First Commission|their first commission]] for the preceding Lord Marshal. That practitioner was **not Jaaris**.
+Among the people Jaaris's followers watched was **[[svendyal-shadowwhisper|Sven]]**, an eladrin who had chosen a life with **Tristan** and their son **Kristofer**. For five years Sven's family found happiness near the fey woods, although hostile watchers sometimes appeared beyond the trees.
 
-The distinction matters because Jaaris entered their story through Fo'Gurn's fate, not as the enemy who first brought the adventurers together. The later discoveries deepened an old wound: Jaaris had forced Fo'Gurn into a borrowed existence, then lost control when the paladin chose to protect Lavitz. His death ensured the borrowed life would fail.
+Toward the end of the fourth year, the watchers disappeared. **Jaaris had ordered their withdrawal**, recognizing that constant threats kept Sven vigilant. When the family began to feel safe, the necromancer waited for an opportunity. Sven eventually left the house to seek a gift for Kristofer's approaching tenth birthday.
 
-Much of Jaaris's sorcery remains obscured. His role is remembered through the harm he caused, not through a neatly reconstructed account of every ritual.
+Jaaris's followers seized Tristan and Kristofer and burned the home. When Sven returned, they bound him and forced him to witness their deaths. **Jaaris himself consumed their life energy in a necromantic rite**, attempting also to take Sven's soul. Something prevented that final theft; its nature remains unknown.
 
-## A memory turned against the Misfits
+To Jaaris, a family founded upon freely chosen love was a defiance of the control he considered natural. Its destruction gave him power, but it was also meant to teach Sven that no bond could protect what the necromancer chose to take. The cruelty was Jaaris's own. **Cid had not sent him to destroy Sven's family.**
 
-Jaaris appeared again when [[Zauks and the False Lives|Zauks]] used the companions' memories to recreate old dangers. This was an illusion drawn from what they had endured, not a new encounter proving that Jaaris had returned.
+Sven survived, and his grief eventually led him to the gods Vandria Gilmadrith and Erevan Ilesere. They charged him to seek justice rather than surrender to vengeance. Jaaris had broken Sven's home, but he had not obtained the lasting submission he expected.
 
-For the Misfits, his name came to mean more than one necromancer among many. It belonged to the troubling history of a friend they had lost and the unsettling realization that they had never understood the whole of his fate.
+## An alliance with the Blood King
+
+Only **after** the murders did Jaaris enter the service of **[[Cid the Blood King]]**. Their partnership was grounded in compatible ambitions rather than friendship.
+
+Cid believed mortality was a defect to be overcome. Jaaris regarded free will as another defect: the living could be ordered, threatened or persuaded, yet might still refuse. Cid found a useful servant in a necromancer who knew how to bind others; Jaaris found access to greater power and to people whose resistance he could study and break.
+
+For a time he chose to obey Cid, convinced that submission to a stronger mind was reasonable when it advanced his own designs. It was a contradiction he never willingly examined.
+
+The earlier necromancer defeated during **[[The Misfits' First Commission|the Misfits' first royal commission]]** was **not Jaaris**. The two men shared a discipline, not an identity.
+
+## The Hydra and the paladin he could not own
+
+By the time Cid's servants captured **[[The Misfits]]** at a ruined temple near Stanleyville, the Stalker had already killed Lord Marshal Kel'Maris. Jaaris worked among the captors preparing a bloody rite that Cid hoped would produce a controllable vessel of divine power.
+
+The rite failed. Jaaris transformed the sacrificial mass into a **hydra**, and in the ensuing escape **[[fo-gurn|Fo'Gurn]]** stayed behind so the others might live. The dragonborn paladin truly died. Captain Funkin, Inspector Sihnion and several guards perished in that same disaster.
+
+Jaaris later **raised Fo'Gurn through necromancy and compelled him against his companions**. The paladin's existence depended upon the necromantic force that restored him, and his actions were bound by Jaaris's control. To Jaaris this was more than the acquisition of a formidable soldier. It was a demonstration he longed to complete: a man who had willingly died out of love could be made to threaten the very friend he had saved.
+
+## The last refusal
+
+In the Shadowfell, Fo'Gurn was made to confront **[[Lavitz Shawe]]**, the friend who had trained beside him at Heaven's Heart. Lavitz lowered his defenses rather than destroy him.
+
+**Fo'Gurn chose to protect Lavitz.** That choice broke Jaaris's hold **while the necromancer was still alive**. It was not the result of Jaaris being killed or of his binding simply expiring. The restored paladin found the freedom to refuse, despite everything Jaaris had done to him.
+
+Jaaris died during the final struggle against Cid. His death caused the unnatural life sustaining Fo'Gurn to fail, leaving the dragonborn unable to return from the Shadowfell with his friends. The two paladins gained a farewell, not an ordinary second life.
+
+Jaaris spent his life trying to make obedience indistinguishable from loyalty. His last and greatest experiment ended with a paladin making a choice the necromancer could neither command nor prevent. His appearance in **[[Zauks and the False Lives|Zauks's false adventures]]**, an illusion experienced before the final Shadowfell battle, was not another life or a second death.

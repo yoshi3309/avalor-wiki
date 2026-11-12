@@ -103,7 +103,7 @@ Sven's eladrin coloration remained green as the mortal seasons passed. Summer he
 
 Their home stood close enough to the fey woods for danger to find it. Sven kept watch for the cruel elves he had encountered and fended off their advances. Sometimes he glimpsed eyes beyond the trees, studying the little house.
 
-**Toward the end of their fourth year together**, the watchers ceased appearing. Their silence gradually persuaded Sven that the family was safe. He relaxed the vigilance that had guarded them.
+**Toward the end of their fourth year together**, the watchers ceased appearing. **[[jaaris|Jaaris]]**, a tiefling necromancer who had assumed control of this hostile fey faction, had ordered their withdrawal. His aim was to make the household lower its guard. Sven did not know that; the silence gradually persuaded him that the family was safe. He relaxed the vigilance that had guarded them.
 
 As Kristofer's **tenth birthday** approached, Sven decided to find him the perfect gift in the enchanted woods. He set out alone, hoping to surprise the child he had come to call his son.
 
@@ -113,9 +113,9 @@ While Sven was away, the wild fey elves captured **Tristan and Kristofer** and s
 
 When he returned, they seized him and bound him by magic. He could see what was about to happen. He could not intervene.
 
-The fey elves sacrificed the two people he loved to **the necromancer who led them**. The creature devoured their life energy before Sven's eyes. *“This is our way,”* it spoke into his mind, promising that Sven would return to them in time. It seemed to try to consume his soul as well, but something prevented it.
+The fey elves sacrificed the two people he loved to **[[jaaris|Jaaris]], the necromancer who led them**. Jaaris himself consumed their life energy through a necromantic rite before Sven's eyes. *“This is our way,”* it spoke into his mind, promising that Sven would return to them in time. It seemed to try to consume his soul as well, but something prevented it.
 
-Then the fey departed, leaving him bound amid the destruction.
+Then the fey departed, leaving him bound amid the destruction. The necromancer was acting on his own designs, **before entering Cid's service**. This crime was not an order from the Blood King.
 
 Sven had spent years protecting the house from the woods around it. Now he faced the ruin of everything that had made the world worth protecting.
 

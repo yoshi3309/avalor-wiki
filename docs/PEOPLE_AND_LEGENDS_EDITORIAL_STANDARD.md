@@ -49,3 +49,7 @@ Reviewed **all 37 People & Legends entries**. **26** were substantively revised 
 Key improvements included fully refocusing **Malikeah, Jaaris, Noki, Jack, Astronoph, Faelynn and Bradgem Glav**; then polishing founding-era figures and the Misfits, and removing disjointed disclaimer-like sentences throughout major biographies.
 
 **No articles were consolidated or deleted in this pass**, and no campaign mysteries were resolved without approval. Species, pronouns, former titles, and relationships remain subject to source checking. Build/link validation is necessary but not a substitute for narrative canon review.
+
+## Character scope and proportionality - Creator-approved 12 November 2026
+
+Only major protagonists and antagonists whose choices drove consequential, connected arcs warrant substantial biographies. For short-lived villains, supporting officers and incidental figures, prefer **two meaningful paragraphs** establishing identity, motivation and one relevant action or relationship; add more only if distinctive confirmed history justifies it. A named character's mere existence does not require invented childhoods, family trees, exact dates or exhaustive fictional completeness. A brief entry can be the final entry. Newly proposed motivations remain outside public canon until approved.
