@@ -13,7 +13,7 @@ featured: false
 
 ## Familiar danger turned against its survivors
 
-**Zauks**, a **mind flayer**, ambushed [[The Misfits]] **after their real victory over Jinlin Vechon**. He drew them into a series of manufactured ordeals: [[The Misfits#moonville-manor|Moonville Manor]], the necromancer of the [[The Misfits’ First Commission|first commission]], [[The Stalker of Stanleyville|the Stalker]], [[Independent Factions of the Misfits Era#the-cult-of-golgoroth|the cult of Gol'Goroth]], [[Noki]], the [[Fo’Gurn#the-hydra-and-the-decision-to-remain|hydra]], Jack's house in Stanleyville, and a scene involving [[Jaaris]] and flesh golems.
+**Zauks**, a **mind flayer**, ambushed [[The Misfits]] **after their real victory over Jinlin Vechon**. He drew them into a series of manufactured ordeals: [[The Misfits#moonville-manor|Moonville Manor]], the necromancer of the [[The Misfits’ First Commission|first commission]], [[The Stalker of Stanleyville|the Stalker]], [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|the cult of Gol'Goroth]], [[Noki]], the [[Fo’Gurn#the-hydra-and-the-decision-to-remain|hydra]], Jack's house in Stanleyville, and a scene involving [[Jaaris]] and flesh golems.
 
 These were **not fresh occurrences of the original incidents**. The sequence of Zauks's illusions should not be confused with the order in which the companions had lived the real adventures. At Jack's house, a counterfeit attempt to prevent the boy's death did not undo the true tragedy.
 
