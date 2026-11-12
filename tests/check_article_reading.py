@@ -132,6 +132,15 @@ for slug in ('renada','black-tower','heavens-heart','stanleyville'):
 lavitz_page, lavitz_tags = audit('lavitz-shawe')
 assert 'article-illustration--landscape' not in lavitz_tags.classes
 assert '<aside class="article-rail"><figure class="article-illustration">' in lavitz_page
-river_page, river_tags = audit('river-city')
-assert 'article-illustration--landscape' not in river_tags.classes
+# Article artwork is assigned through Pages CMS and may change between builds.
+# A location with an assigned article image must have a landscape plate.
+for slug in ('river-city', 'tinsel'):
+    page, parsed = audit(slug)
+    frontmatter = (ROOT / 'content' / 'articles' / f'{slug}.md').read_text(encoding='utf-8').split('---', 2)[1]
+    import re
+    assigned = bool(re.search(r'^image:\s*\S+', frontmatter, re.M))
+    if assigned:
+        assert 'article-illustration--landscape' in parsed.classes, f'{slug}: assigned location image lacks wide plate'
+    else:
+        assert 'article-illustration--landscape' not in parsed.classes, f'{slug}: unexpected image placeholder'
 print('Geographic illustration layout passed: panoramic places and unchanged portrait treatment.')
