@@ -42,7 +42,7 @@ The jewel remained with Anna when Samuel appeared. During the struggle it passed
 
 Its established purpose was to **bar Cid permanently from the Material Plane**. It served the decisive sealing role for the original campaign's ending, but the exact effect upon Cid's soul and all possible future exceptions is not fully mapped.
 
-Then **a tremendous black hand, or hands in other accounts, seized Cid and pulled him into the Beyond**. The barrier made by the emerald and the force that physically removed him must be distinguished. **There is no established evidence that the emerald summoned the hands or that Auren controlled them during the original campaign.** Auren's later retrieval and resurrection of Cid belongs to a different, subsequent period.
+Then **a tremendous black hand, or hands in other accounts, seized Cid and pulled him into the Beyond**. The barrier made by the emerald and the force that physically removed him must be distinguished. **There is no established evidence that the emerald summoned or controlled the hands. Their origin and intention remain unresolved.**
 
 ## What a relic cannot tell us
 

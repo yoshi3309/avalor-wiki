@@ -64,7 +64,7 @@ The Misfits confronted Cid after Jaaris had fallen. With Samuel badly injured, L
 
 Cid sought escape through a dimensional doorway. **Fo'Gurn pressed the Emerald of Armanti into Cid's chest**, using the gem in accordance with its purpose of preventing the Blood King's return to the Material Plane.
 
-Then immense **black hands** reached from the darkness and took Cid into the **Beyond**. The accounts differ on whether witnesses saw a single vast hand or several; they describe the same event. **No one has established who or what directed those hands**. The Emerald's sealing action and the hands' removal of Cid were distinct. The later Godkiller's retrieval of Cid does not retroactively identify the hands that took him.
+Then immense **black hands** reached from the darkness and took Cid into the **Beyond**. The accounts differ on whether witnesses saw a single vast hand or several; they describe the same event. **No one has established who or what directed those hands**. The Emerald's sealing action and the hands' removal of Cid were distinct. Nothing in the original confrontation establishes who commanded those hands.
 
 The victory left one final pain. Because Jaaris's death had begun the failure of the dark existence sustaining him, **Fo'Gurn could not accompany his friends home**. He remained in the Shadowfell to **rest one last time**, able at least to say goodbye to Lavitz before the survivors escaped. The words of that farewell are not preserved.
 
