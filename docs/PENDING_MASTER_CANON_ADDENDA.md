@@ -2,7 +2,7 @@
 
 **Edition:** 2026-11-12 / Addendum 001  
 **Status:** Living source for later integration into the four master PDFs.  
-**Public wiki synchronization:** Kel'Maris biography and identified references prepared in PR linked to this document.  
+**Public wiki synchronization:** Kel'Maris biography, Zauks profile, and chronology references published; correction prepared after the creator's 12 November clarification.  
 **Editorial rule:** Direct creator additions override older source candidates. Never silently decide a conflict. Proposed lore is not canon until approved.
 
 ## Confirmed addition: Kel'Maris, the Lion's Shadow
@@ -15,7 +15,7 @@
 - **Avalor Games:** Placed among the top five swordsmen many times; won the championship twice.
 - **Relationship to the crown:** Sent to Renada at King Gerran's order to teach the young Prince Gradvum swordsmanship. Became his friend, joined Lion's Bane, quickly reached second in command beneath Lord Marshal **Kurt Reyginald**, and served as close personal guard to the king. Her constant presence earned the epithet **Lion's Shadow**.
 - **Office:** Succeeded Kurt Reyginald upon his retirement; was already Lord Marshal at Gradvum's accession. Commissioned the Misfits against the first unnamed necromancer and later the cult of Gol'Goroth.
-- **Stanleyville:** Survived the earlier Hydra temple disaster. Later the Stalker pierced her chest and killed her while she accompanied the Misfits in Stanleyville.
+- **Stanleyville:** The Stalker pierced Kel'Maris through the chest and killed her **before the Hydra temple disaster**. Captain Funkin survived the Stalker encounter and carried her body back to Renada. He subsequently died at the Hydra temple alongside Inspector Sihnion and the guards.
 - **Funeral:** Body returned to Renada, state funeral, three-day lying in state at the cathedral, private cremation according to her wishes, ashes scattered in the King's Forest.
 - **Succession:** Office left vacant until Gradvum appointed Lavitz after the defeat of Cid.
 
@@ -33,14 +33,15 @@
 - The established public institution is **Lion's Bane**; original says Lions Bane.
 - The cathedral in the existing wiki is **Great Cathedral**. Original passage says **Grand Cathedral**; treated as naming variation for now, not an independently established second building.
 - Public articles use **the Lion's Shadow**; original uses "Lions Shadow".
-- The original names **Captain Funkin** as the person who returned her body. That detail is **PRESERVED BELOW AS AN OPEN CONFLICT**, not removed or resolved.
+- The original names **Captain Funkin** as the person who returned her body. The creator confirmed that this is consistent: **the Stalker came first**, and Funkin was killed later at the Hydra temple. This is now confirmed canon.
 
-## Open continuity issue KEL-001: Captain Funkin and the return of the body
+## Resolved continuity issue KEL-001: Captain Funkin and the event order
 
-**Account A (previous canon, published wiki and four reference PDFs):** Captain Funkin died at the Hydra temple, before the later events in Stanleyville. Kel'Maris and Anna survived the temple.  
-**Account B (new creator-supplied story):** Captain Funkin safely recovered Kel'Maris's body after the Stalker killed her at Stanleyville and returned it to Renada.  
-**Conflict:** The same individual cannot have died earlier and personally performed that recovery afterward without a new explanatory event. No such event has been established.  
-**Current public editorial treatment:** State that Kel'Maris's body was returned to Renada without naming the bearer. Keep both original facts in this pending addendum. **Status: OPEN - needs creator resolution.**
+**Original conflict:** The earlier compiled chronology erroneously put the Hydra temple before the Stalker. That made the source account that Captain Funkin returned Kel'Maris's body appear impossible, because Funkin was recorded as dying at the temple.
+
+**Creator correction, November 12, 2026:** **The Stalker occurred before the Hydra.** Kel'Maris was pierced and killed in Stanleyville. **Captain Funkin returned her body safely to Renada**, where she received her funeral. **Only afterward** did Funkin die at the ruined temple during the Hydra catastrophe, alongside Inspector Sihnion and guards. Fo'Gurn also died there buying the Misfits time to escape. Anna survived the temple; Kel'Maris was already dead and therefore was not a captive or survivor of the Hydra episode.
+
+**Status: RESOLVED - creator-approved canon.** The original submitted history above is preserved verbatim. Prior contradictory public chronology has been superseded, not deleted from the audit trail.
 
 ## Proposed expansions - NOT CANON
 
@@ -62,7 +63,7 @@
 
 ## Master-document integration map
 
-1. **Master Canon Bible:** Misfits chronology, succession of Lord Marshals, named Stalker victim, KEL-001 contradiction.
+1. **Master Canon Bible:** Correct Misfits chronology to place Stalker before Hydra; succession of Lord Marshals, named Stalker victim, and resolved KEL-001 clarification.
 2. **Living Chronicle:** Late Gerran and early Gradvum era; public biography of the Lion's Shadow; investigations and state funeral.
 3. **Compendium Volume I:** Person entry Kel'Maris; combat style, family and service, political office.
 4. **Compendium Volume II:** Ilyanamel and King's Forest as named locations (no new coordinates, status, or geographic detail), Cathedral naming normalization, relationship to Renada and Lion's Bane.
