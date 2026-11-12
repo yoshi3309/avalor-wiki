@@ -6,7 +6,7 @@ category: History & Chronicles
 entry: HIS.007
 era: "Age of the Misfits"
 facts: "Adversary: Zauks, mind flayer\nMethod: Illusions drawn from remembered trials\nFinal snare: Convincing ideal lives\nRecorded clue: Owl associated with Amara\nResult: The Misfits escaped"
-related: the-misfits,jaaris,the-stalker,noki-the-sheep,fo-gurn,independent-factions-of-the-misfits-era
+related: zauks,the-misfits,jaaris,the-stalker,noki-the-sheep,fo-gurn,independent-factions-of-the-misfits-era
 source: "The Living Chronicle, Chapter VI, IX; Master Canon Bible Volume I, V"
 featured: false
 ---
