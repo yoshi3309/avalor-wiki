@@ -24,42 +24,20 @@ source: The Living Chronicle, Chapter VI; public Misfits testimony; creator-supp
 featured: false
 ---
 
-## The wizard and the sheep
+## The mage who became a sheep
 
-Among the stranger episodes in the travels of [[The Misfits]] was their encounter with **Noki**, a mage whose extraordinary humiliation would become one of the fellowship's most often repeated stories.
+The Misfits first encountered **Noki** as a mage, **before** the scarred, monstrous appearance later associated with him. Their confrontation became famous when the companions transformed him into a **sheep**. The absurdity made an enduring story, but it also concealed a lasting consequence: **Noki was disfigured at the end of that encounter**. The adventurers believed he had died.
 
-Noki was **not yet disfigured when he fought the Misfits**. The confrontation became notorious for his transformation into a sheep; whatever other follies marked the affair, the hulking monstrous figure of later years was not the opponent they first encountered.
+He had not. For Noki, the gap between his former identity and what he became began with a defeat other people remembered as a joke. His actual escape and recovery remain uncertain, but the surviving mage eventually took another name: **Noke**. His change was more than an altered face. Those who saw the later figure could easily confuse an intimidating body with an emptied mind; Noke remained an intelligent and formidable spellcaster.
 
-**His disfigurement happened at the end of that encounter.** The companions believed Noki had died. Their conclusion was mistaken: he survived, though the surviving account does not establish every circumstance of his escape or recovery.
+## Noke and the Den Mother
 
-The distinction between before and after is fundamental to his history. The Misfits confronted Noki the mage; the being who would eventually emerge from that ordeal looked very different.
+In the present age, Noke is one of the **Den Mother's** dangerous and unpredictable servants. His massive, scarred figure carries a **huge wooden club** and can unleash potent magic as readily as physical violence. The weapon appears to incorporate something associated with a dragon, although no confirmed account establishes exactly what that material is or how he obtained it.
 
-## A memory turned against the Misfits
+No one has yet established whether loyalty, obligation, ambition or some other reason led him into the Den Mother's service. What is known is his effectiveness and the danger of treating him as a simple brute. The mage who endured an absurd humiliation became a foe whom it would be foolish to underestimate.
 
-The mind flayer [[Zauks and the False Lives|Zauks]] later made Noki's sheep-form one of the remembered encounters used to torment the companions. The scenes presented within Zauks's deceptions were counterfeit adventures constructed from memories, not an independent account of what Noki was doing elsewhere at the time.
+## The story the Misfits did not know
 
-This distinction matters because the Misfits' understanding of Noki was limited. They could remember a strange confrontation and a sheep they believed dead without knowing that their former adversary's life continued.
+The companions **did not know Noki had survived** when they continued their journey. Later, Zauks reproduced the sheep encounter as one of his false adventures, adding a functioning wand and dragons absent from the real affair. The mind flayer's counterfeit did not explain Noke's survival or supply a missing chapter of his life.
 
-## The figure later called Noke
-
-**Only after the disfigurement** did the mage adopt the name **Noke**. The new name was a fitting counterpart to a more monstrous appearance and personality. The title and disfigured shape must not be projected backward onto his original fight with the Misfits.
-
-Noke's body is **scarred, twisted and unnaturally transformed**. He is a hulking, intimidating figure whose size and bearing might suggest an unthinking brute. That impression is dangerously mistaken. Beneath the altered flesh remains a sharp, capable mind with a strong affinity for powerful magic.
-
-The **timing** of the disfigurement is established, at the encounter's end. Its **exact mechanism** and the intervening events remain insufficiently described. The new name should not become an excuse to invent a ritual, culprit, or missing journey.
-
-## The Den Mother's unpredictable servant
-
-Noke now serves the figure known as **the Den Mother** and is counted among her most dangerous and unpredictable minions. His allegiance establishes a role in her service, but does not by itself explain his motives, the circumstances of their association, or the full nature of the Den Mother's designs.
-
-He is not confined to the behavior his appearance suggests. In one moment he may bring **strange and powerful spells** to bear upon an opponent; in another he may charge directly into danger, swinging a massive club with terrifying force.
-
-Those who mistake the physical power for the whole of Noke's threat are likely to underestimate him. The former mage has not lost his intelligence merely because his body has become monstrous.
-
-## The club and the unanswered questions
-
-Noke carries a **massive wooden club** unlike an ordinary hunter's weapon. The object appears to have been part of a dragon, or to incorporate something associated with one, but its exact origin remains uncertain. The appearance invites speculation; it does not establish which dragon, how the weapon was made, or what power it possesses.
-
-Much else about Noke resists easy interpretation. His actions are difficult to read, and his motives are seldom obvious. That uncertainty should not be mistaken for an absence of thought. There is frequently more happening behind his movements than observers can perceive.
-
-For those who remember the sheep incident, Noke is a warning against declaring another person's story ended merely because the witnesses believe they have seen its conclusion. The Misfits knew a disgraced mage whom they thought dead. A later age must contend with what he became.
+Noki and Noke are the same person at different points in his history. The exact mechanism of his disfigurement remains unresolved, and the later figure must not be placed back into the original confrontation as though the Misfits had fought him in that form.
