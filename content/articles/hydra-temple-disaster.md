@@ -32,7 +32,7 @@ The surviving companions believed their oldest friend lost. It was not merely an
 
 A later royal history may call a sacrifice inevitable, as though a paladin's training could make the decision automatic. The witnesses knew otherwise. Fo'Gurn could have attempted to flee. He **stayed**.
 
-Their testimony establishes the choice and the grief it caused, even though later events in the Shadowfell complicated the public account of his fate. The fact that companions saw him again does not make the earlier sacrifice fraudulent or the years of mourning foolish.
+Their testimony establishes the choice and the grief it caused, even though later events in the Shadowfell complicated the public account of his fate. Seeing him again in the Shadowfell did not make the earlier sacrifice fraudulent or their grief misplaced.
 
 Avarice, cruelty and fear shaped the plans of the Blood King at the temple. Friendship shaped the action for which the surviving company would remember it.
 
