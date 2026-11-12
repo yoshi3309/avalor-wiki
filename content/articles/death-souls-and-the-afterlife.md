@@ -116,13 +116,13 @@ The moral distinction depends upon what is actually done. An animated corpse may
 
 **[[Aldus Greystone III]]**, who later became Cid, demonstrated how a desire to conquer mortality could be made into justification for cruelty. The stated purpose of a working cannot excuse its methods.
 
-## Fo'Gurn and the uncertainty of return
+## Fo'Gurn and the limits of necromantic return
 
-**[[fo-gurn|Fo'Gurn]]** stayed behind before a hydra so the Misfits could escape. They believed he had died.
+**[[fo-gurn|Fo'Gurn]]** truly died facing the hydra so that the Misfits could escape. During the remaining months of their campaign, his companions mourned him. His later appearance in the Shadowfell was not evidence that he had survived the temple.
 
-Later investigations connected his fate to the necromancer **[[Jaaris]]**, while accounts of the final confrontation with Cid describe Fo'Gurn's unexpected return to his friends. The history is **not a securely documented example of conventional resurrection**.
+**[[Jaaris]]** had restored Fo'Gurn by necromancy and compelled him against the people he loved. In the final struggle, Lavitz refused to destroy his friend. **Fo'Gurn chose to protect Lavitz and broke Jaaris's control while Jaaris still lived.** When the necromancer subsequently died, the force sustaining Fo'Gurn's unnatural existence failed. Fo'Gurn could not return to the Material Plane and remained in the Shadowfell for his final rest.
 
-The years spent mourning him remained real even after his reappearance.
+This history differs from the willing, reachable-soul resurrection described above. Jaaris's work was an act of domination, not a consensual restoration, and the precise magic that sustained it has not been established. The mystery that remains is **how Fo'Gurn appears alongside Samuel roughly twenty years afterward**, not whether Jaaris raised him or whether he freely resisted. No public record currently explains that later appearance.
 
 ## Can a soul be destroyed?
 
