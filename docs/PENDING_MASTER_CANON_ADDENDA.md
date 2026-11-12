@@ -1,6 +1,6 @@
 # Avalor - Pending Master Canon Addenda
 
-**Edition:** 2026-11-12 / Addendum 001  
+**Edition:** 2026-11-12 / Cumulative Addenda 001-002  
 **Status:** Living source for later integration into the four master PDFs.  
 **Public wiki synchronization:** Kel'Maris biography, Zauks profile, and chronology references published; correction prepared after the creator's 12 November clarification.  
 **Editorial rule:** Direct creator additions override older source candidates. Never silently decide a conflict. Proposed lore is not canon until approved.
@@ -51,10 +51,9 @@
 - Explore why he serves Cid, how he selects emotional vulnerabilities, and whether the cocoons collect information or merely imprison prey.
 - Never imply that his eight counterfeit episodes were real repeats or that he controlled every earlier adventure.
 
-### Jaaris (existing biography to expand, pending creator input)
-- Proposed thematic core: obsession with controlling death and personal agency; his necromancy fails precisely when Fo'Gurn exercises his own will.
-- Develop his pre-Cid history, source of necromantic training, and relationship to Karina or the temple only if approved. Preserve that he is a dark-haired tiefling, distinct from the first commission necromancer.
-- Fo'Gurn's death at the Hydra and reclaimed freedom *before* Jaaris died remain fixed.
+### Jaaris (expanded and approved; see Addendum 002)
+- The creator has approved a control-and-domination origin, magical-bargain leadership of a hostile fey faction, and Jaaris's own consumption of Tristan and Kristofer's life energy. These are now recorded in the approved section below, **not pending proposals**.
+- Fo'Gurn's death at the Hydra and his recovered freedom *before* Jaaris died remain fixed.
 
 ### Noki / Noke (existing biography to expand, pending creator input)
 - Proposed thematic core: the humiliation and bodily change that divided his old and new identities.
@@ -69,3 +68,34 @@
 4. **Compendium Volume II:** Ilyanamel and King's Forest as named locations (no new coordinates, status, or geographic detail), Cathedral naming normalization, relationship to Renada and Lion's Bane.
 
 **Process for subsequent additions:** append an approved entry, note affected wiki pages, record unresolved conflicts, mark proposals as pending, regenerate the cumulative PDF, and only later revise the original four master PDFs.
+
+
+## Confirmed addition - JAARIS-002: The Master of Broken Wills (November 12, 2026)
+
+**Status: APPROVED CANON - publication permitted.**
+
+**Creator direction:** Jaaris's fundamental motivation is **control and domination**. The three recommended elaborations were expressly approved: (1) gifted self-made scholar, (2) gaining leadership of the hostile fey through magical bargains, compulsions and intimidation, and (3) consuming Tristan and Kristofer's life energy himself through a necromantic ritual. Unlike important recurring figures, short-lived villains and side characters should normally receive only **a couple of meaningful paragraphs**, not encyclopedic biographies of every year.
+
+### Origin and philosophy
+Jaaris is a dark-haired tiefling with gray skin marked by necrotic corruption. Born among mortal settlements near the Feywild, he was a magically gifted, self-taught scholar whose primary ambition was absolute obedience. He explored charms, oaths and compulsions before deepening his necromancy, drawn by the possibility that the dead need never disobey. His repeated necrotic experiments marked his body. He believed freedom to refuse was a fundamental defect in the living.
+
+### The hostile fey
+As an outsider rather than a fey elf, Jaaris obtained power over one hostile faction of fey elves by offering binding magic, then consolidating authority with coercive bargains, compulsions and fear. This is a particular faction, not all fey or the Feywild. Some followed from shared cruelty, others because they feared defying him.
+
+### Sven, Tristan and Kristofer
+Sven had made a family with Tristan and Kristofer. Under Jaaris's orders, the hostile watchers deliberately withdrew near the end of their fourth year together so Sven would lower his guard. When Sven left to seek a birthday gift for Kristofer, the fey burned their home and captured the family. Jaaris personally consumed Tristan and Kristofer's life energy in the ritual while Sven, magically bound, was forced to witness it. He also attempted to take Sven's soul, but some **unidentified force or circumstance stopped him**; do not invent the intervention's identity. Jaaris acted from contempt for freely chosen love. **He carried out this crime independently of Cid**, before entering the Blood King's service.
+
+### Cid, Hydra and Fo'Gurn
+After the tragedy, Jaaris became Cid's servant because their ambitions aligned: Cid sought to overcome mortality; Jaaris wanted to overcome free will. He was not the unnamed necromancer defeated during the first royal commission. After the Stalker killed Kel'Maris, Jaaris was among Cid's servants at the later ruined temple, where he formed a Hydra from the failed ritual's sacrificial mass. Fo'Gurn truly died buying the company's escape. Jaaris subsequently restored him by necromancy and compelled him as a weapon against Lavitz and the Misfits, using the paladin's bonds as a test of absolute control.
+
+### Defeat and remaining limits
+At the Shadowfell fortress, Lavitz lowered his defenses rather than destroy Fo'Gurn. **Fo'Gurn chose to protect Lavitz and broke Jaaris's hold before Jaaris died.** Jaaris's subsequent death caused the unnatural existence supporting Fo'Gurn to fail; it did not create his moral freedom. How Jaaris acquired each particular spell, any personal association with Karina beyond service to Cid, and the precise force that prevented Sven's soul from being consumed remain **UNESTABLISHED**.
+
+### Preservation and publication
+- **Wiki:** expanded `content/articles/jaaris.md` and related Sven/Cid accounts.
+- **Master Canon Bible:** add independent fey crime, character philosophy, post-tragedy Cid allegiance, Hydra/Fo'Gurn events.
+- **Living Chronicle:** integrate into Sven's family tragedy and later Shadowfell conflict; preserve temporal boundaries.
+- **Compendium Volume I:** new character-biography expansion and necromancy/agency implications where appropriate.
+- **Compendium Volume II:** do not invent a named settlement or mapped territory near the Feywild; geographic identification remains general.
+- **Short supporting NPC rule:** most deceased villains, brief-role NPCs and side characters need two meaningful paragraphs rather than full encyclopedic histories; lengthy treatments are reserved for major story-shaping characters.
+
