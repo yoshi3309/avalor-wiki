@@ -37,7 +37,7 @@ The moment of Fo'Gurn's apparent death would later show how much Lavitz had come
 
 ## A member of the first company
 
-Fo'Gurn belonged to the adventurers first assembled by Avalor's preceding Lord Marshal to investigate an unnamed necromancer. The early company also included Lavitz, [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], and [[Amara]].
+Fo'Gurn belonged to the early adventurers who traveled together **before** their first royal commission. Their earliest recorded adventure was [[The Misfits#moonville-manor|Moonville Manor]]. Only afterward did Avalor's preceding Lord Marshal summon them to investigate an unnamed necromancer. The company included Lavitz, [[Tel'Lora Ebbenflow]], [[svendyal-shadowwhisper|Sven]], and [[Amara]].
 
 They defeated their enemy, recovered fragments of magical study, and accepted further work. Their second commission concerned [[The Cult of Gol’Goroth|the cult of Gol'Goroth]] and brought [[Heureux]] into their circle.
 
@@ -79,7 +79,7 @@ What was uncertain concerned the fate of the man they had mourned, not the reaso
 
 ## The companion at the final confrontation
 
-The Misfits' struggle against Cid reached its crisis after [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]] and carried her into the Shadowfell. The companions pursued him and succeeded in rescuing her.
+The Misfits' struggle against Cid reached its crisis at [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]]. The intervening pursuit passed through Ros Furband's captivity, Jinlin Vechon's defeat, and Zauks's illusions before the companions entered the Shadowfell and rescued her.
 
 In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** before the friends who had believed him dead. Testimony recalls a painful confrontation with Lavitz in which the paladin refused to abandon his oldest friend and Fo'Gurn **chose to protect him**. The authorized account then describes Fo'Gurn carrying the **Emerald of Armanti** and driving it against Cid during the struggle. An immense black hand then seized the Blood King and drew him into an unknown darkness.
 

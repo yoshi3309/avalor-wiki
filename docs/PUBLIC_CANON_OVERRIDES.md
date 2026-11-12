@@ -113,3 +113,10 @@ The creator explicitly selected the organizational options listed here, supersed
 - He maintains contact with common people through travel despite his fame and his founding of Heureux's Bard Academy. He is a founding Six descendant through **Kelsalor**, joined the Misfits during their second commission, and later wrote and taught without ceasing his travels.
 - His guiding words: **"Our truth is our history, and our history is our truth."**
 - Source: creator-supplied Heureux expanded backstory in conversation, November 2026. Preserve in public biography; older compiled PDFs did not develop this origin.
+
+## Approved public historical boundaries — November 2026
+
+- The Royal Commission's public accounts may describe **Fo'Gurn choosing to protect Lavitz** in the final struggle, as reported by companions. Preserve the distinction between what witnesses say happened and the still-unexplained circumstances of Fo'Gurn's reappearance; avoid presenting speculative mechanics as public fact.
+- Public accounts may identify **Jinlin Vechon** as a dragonborn vampire, founder of the Wrath of Innocent, opponent of Cid, and adversary whom the Misfits defeated **after the Tournament**. Do **not** claim the cause of Jinlin's vampirism or present a detailed ancient origin as an established finding of the Royal Commission.
+- Maintain the sequence **Moonville Manor → first royal commission → Gol'Goroth → Noki → Hydra → Stanleyville → Rotten Husk → Jaznaar → Tournament → Ros Furband → Jinlin → Zauks → Shadowfell**. The alternative title **Ripped Beard** refers to Rotten Husk, not a second encounter.
+- Retain the existing article architecture and literary Royal Commission voice. No mystical or divine mechanism becomes public knowledge simply because it is known to the author of the setting.

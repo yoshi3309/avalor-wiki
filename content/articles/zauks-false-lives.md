@@ -27,7 +27,7 @@ The trial was harder than a simple confrontation with a visible monster. The com
 
 ## The choice to return
 
-The Misfits escaped by returning to a world in which grief remained real, the people they loved were still vulnerable, and **Queen Melmiri remained a captive**. Only then could the company continue toward the Shadowfell.
+**The companions held within the illusions awoke**, aided by Amara's intervention from outside the false experiences. They returned to a world in which grief remained real, the people they loved were still vulnerable, and **Queen Melmiri remained a captive**. Only then could the company continue toward the Shadowfell.
 
 That decision was not a rejection of happiness. It was a refusal to abandon reality for a comforting deception that removed the duties and relationships that gave their lives meaning.
 
