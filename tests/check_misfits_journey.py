@@ -4,6 +4,7 @@ Runs after python build.py. Does not load private Keeper materials.
 """
 from pathlib import Path
 from html.parser import HTMLParser
+import re
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,7 +40,13 @@ extra_count = 0
 for s in steps:
     article_path = ROOT / "content" / "articles" / (s["article"] + ".md")
     assert article_path.is_file(), f"Missing historical account {article_path}"
-    front = article_path.read_text(encoding="utf-8").split("---", 2)[1]
+    article_text = article_path.read_text(encoding="utf-8")
+    front = article_text.split("---", 2)[1]
+    narrative = article_text.split("---", 2)[2].rstrip()
+    last_line = narrative.splitlines()[-1].strip()
+    assert not re.match(r"^#{1,6}\s+\S", last_line), (
+        f"Unfinished trailing section heading in {s['article']}: {last_line}"
+    )
     assert "category: History & Chronicles" in front, (
         f"Main chapter must be a historical event, not a biography: {s['article']}"
     )
@@ -117,6 +124,14 @@ assert "Blood Sickness" in source("independent-factions-of-the-misfits-era")
 assert "unwanted vampirism" in source("independent-factions-of-the-misfits-era")
 assert "hands" in source("shadowfell-confrontation")
 assert "unknown" in source("shadowfell-confrontation")
+# Completed-campaign truths stay public and Fo'Gurn's short original-campaign absence
+# must not be mistaken for the separate twenty-year interval after his final rest.
+assert "contested in the public record" not in source("the-misfits")
+assert "not fully established for public readers" not in source("the-misfits")
+assert "believed dead for years" not in source("the-misfits")
+assert "## The years of mourning" not in source("fo-gurn")
+assert "what the five faced together" not in source("zauks-false-lives")
+assert "Jaaris later raised" in source("the-misfits")
 for slug in ("shadowfell-confrontation", "emerald-of-armanti"):
     article = source(slug)
     assert "Auren's later retrieval" not in article
