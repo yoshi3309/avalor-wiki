@@ -1,8 +1,11 @@
 ---
 title: The Bard Guild
 subtitle: The Society of Silk & Story
-summary: Avalor's professional fellowship of musicians, performers, playwrights and storytellers, preserving living traditions as well as earning their livelihood through art.
+summary: Avalor's professional fellowship of musicians, performers, playwrights
+  and storytellers, preserving living traditions as well as earning their
+  livelihood through art.
 category: Organizations & Factions
+image: /assets/uploads/bard-guild.png
 entry: ORG.010
 era: Age of Ascendancy
 facts: |-
@@ -14,10 +17,10 @@ facts: |-
   Related institution: Heureux's Bard Academy, separately founded
   Founding date: Not established
 related: heureux,heureuxs-bard-academy,taveras,the-misfits,royal-commission-historical-inquiry
-source: Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI; creator-approved Society of Silk & Story identity (November 2026)
+source: Master Canon Bible Volume I, VII; The Living Chronicle, Chapter VII, VI;
+  creator-approved Society of Silk & Story identity (November 2026)
 featured: false
 ---
-
 ## Those who make a living by their art
 
 In Avalor, a story may be told beneath a tavern's smoke-darkened beams, performed before a crowded theater, or carried by a solitary traveler from one village to the next. The people who give those stories voice are as varied as the audiences who hear them. Some are musicians, others actors, playwrights, poets, or tellers of histories that have never been written down.
