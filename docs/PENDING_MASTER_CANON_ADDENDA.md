@@ -150,3 +150,41 @@ At the Shadowfell fortress, Lavitz lowered his defenses rather than destroy Fo'G
 - Existing Addendum 003 source references to former standalone `.md` files are historical creation notes, not current URL instructions; the corresponding histories survive within the indexed sections. No changes are required to the four master PDFs now because no new biographical fact has been approved.
 
 **Index link convention:** `/articles/minor-heroes-and-allies/#captain-funkin` and `/articles/minor-villains-and-adversaries/#karina` are representative canonical section destinations. The original URL for either character continues to resolve via redirect.
+
+
+## Addendum 005 — Misfits' legacy, place ties, and character death-date review (November 12, 2026)
+
+**Status: AUTHORISED EDITORIAL CORRECTIONS; NO NEW DEATH YEARS APPROVED.**
+
+### Continuity corrections now applied
+
+- **Death, Souls, and the Afterlife:** Fo'Gurn truly died at the Hydra; Jaaris restored and controlled him; Fo'Gurn refused Jaaris's command **while Jaaris still lived**. After Jaaris died, the unnatural life sustaining Fo'Gurn ended in the Shadowfell. His appearance alongside Samuel roughly twenty years later remains **unexplained**; no new mechanism or resurrection is claimed.
+- **Samuel the Devoted:** His help at the ruined Hydra temple and his **later Shadowfell** channeling of Lowkee through the Emerald are now narrated as **separate episodes**. Samuel's Lowkee manifestation was temporary; the Emerald's barrier and the unknown black hands remain distinct.
+- **The Aegis:** Names **Kel'Maris**, the Lion's Shadow, as the preceding Lord Marshal who was killed by the Stalker; Captain Funkin later died at the Hydra. This identification belongs in the council's account as well as in the Misfits history.
+- **Kel'Maris:** Minor editorial ordering and typography cleanup; no additional biography, death year, or posthumous event invented.
+
+### The Age of Ascendancy — restrained expansion
+
+The article now explicitly ties the public correction of Jaznaar's history to royal and scholarly work, the founding of the Royal Commission's retrospective record, the independent eighth seat for Tel'Lora, the revival of Shamman’s Tower, Heureux's academy at Taveras, and the various callings of the companions. Prosperity and diplomacy are described only at the level already established. **The intervening twenty years are not filled with invented wars, political episodes, or new organizations.** Rise of the Black Diamond and Blackwater Bay are held for future creator-led development and not published as new historical assertions in this batch.
+
+### Kel'Maris in the geography and civic memory
+
+- **The Great Cathedral:** Three days of lying in state following Captain Funkin's return of her body, state funeral, private cremation afterward according to her wishes, then scattering of ashes in the King's Forest.
+- **The Geography of Avalor — King's Forest:** Existing woodland near Alexiverde now also records the spreading of Kel'Maris's ashes, without assuming that it is her place of origin.
+- **The Smaller Settlements of Avalor — Ilyanamel:** An anchored short entry records the elven village from which Kel'Maris came and King Gerran's summons to Renada. **No mapped location, government, or other invented geography is approved.**
+- Avalor's great institutions already have substantial entries; these are the small connective facts required, not grounds for another large article.
+
+### Review of character deaths — year assignments deferred
+
+The **`docs/CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md`** worksheet distinguishes **confirmed death**, **defeat**, **mortal death with later supernatural continuation**, **unknown fate**, and **retirement or end of a reign**. It lists known relative event order for the Misfits' deaths and identifies calendar year fields still awaiting the creator's approval. Existing calendar anchor: the final struggle against Cid is placed **around 2000 AF**, not an exact anniversary; the following twenty-year frame is approximate.
+
+**Do not assume** that King Gerran died when his reign ended in 1982 AF; that Jinlin died because he was defeated; that Cid permanently died when taken into the Beyond; that Noke died in the sheep encounter; or that Fo'Gurn's later appearance is explained by conventional resurrection. **Do not assign new death years to living or unspecified present-age figures** simply to complete an article.
+
+### Integration map
+
+1. **Master Canon Bible:** Update the two Samuel episodes and Fo'Gurn's established final-battle arc; retain the unresolved later appearance. Queue death-date decisions as pending creator approvals.
+2. **Living Chronicle:** Reinforce the corrected Stalker→Hydra ordering and modest post-Cid public consequences, without filling future campaign periods; add definitive death dates only when selected.
+3. **Compendium Volume I:** Clarify Fo'Gurn's non-consensual necromancy as distinct from the Known Wish; do not present it as an ordinary willing-soul resurrection.
+4. **Compendium Volume II:** Record the Great Cathedral funeral, King's Forest ashes, and Ilyanamel as a named unlocated elven settlement. Preserve the map's uncertainty.
+
+**Addendum 005 contains no newly approved death year, no newly established post-Cid character deaths, and no new Black Diamond/Blackwater Bay lore.**

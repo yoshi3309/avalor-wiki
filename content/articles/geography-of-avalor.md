@@ -10,7 +10,7 @@ facts: |-
   Forest of the Westfold: Woodland near Briyan's Autumn
   The Drought: Region crossed by the Ferrymen
   Scope: Named geographic areas within Avalor
-related: lesser-settlements-of-avalor,briyans-autumn,dead-marshes,great-desert,forest-of-the-fey,kingdom-of-avalor
+related: lesser-settlements-of-avalor,briyans-autumn,dead-marshes,great-desert,forest-of-the-fey,kingdom-of-avalor,kel-maris,great-cathedral
 source: World Anvil, Alexiverde, Briyan's Autumn, and Ferrymen Village (creator-supplied descriptions); confirmed editorial consolidation (November 2026)
 featured: false
 ---
@@ -28,6 +28,8 @@ The **King's Forest** is a woodland near **[[The Smaller Settlements of Avalor#a
 For the people of Alexiverde, the forest is part of the country surrounding their fields and workshops, rather than a distant curiosity. Its name belongs beside the town's proud association with [[Bradgem Glav]], the knight who died at Heroes Hill.
 
 The King's Forest should not be confused simply by assumption with the Forest of the Fey or Denzians Forest. Its own name remains part of the local geography.
+
+It also holds a place in royal remembrance. After the death of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal known as the Lion's Shadow, her body lay in state at Renada's [[The Great Cathedral|Great Cathedral]]. She was then cremated privately, according to her wishes, and **her ashes were scattered across the King's Forest**. This is an established funeral connection, not evidence that her family came from this woodland; her native village was Ilyanamel.
 
 ## Forest of the Westfold
 

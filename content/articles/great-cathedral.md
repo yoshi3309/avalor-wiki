@@ -12,7 +12,7 @@ facts: |-
   District: Cathedral Ward
   Traditions: Tyr, Helm, and Torm
   High Priest: Astronoph, female deva
-related: astronoph,cathedral-ward,threefold-devotion,samuel-the-devoted
+related: astronoph,cathedral-ward,threefold-devotion,samuel-the-devoted,kel-maris,stanleyville
 source: Compendium II · Entry II.003, XXIV; Entry II.001, XIV; Entry II.002, XI
 featured: false
 ---
@@ -35,6 +35,12 @@ Avalor's faiths are broader than one institution. Communities also honor Lathand
 A religious institution serving a capital has obligations extending beyond ceremonies. People seek counsel, justice, shelter, and practical help. The cathedral's history also carries difficult questions about times when sacred teachings were invoked to justify unequal treatment or political wrongdoing.
 
 The new examination of Avalor's past requires its religious leaders, no less than its royal historians, to distinguish inherited authority from evidence and moral responsibility.
+
+## The farewell to the Lion's Shadow
+
+When [[kel-maris|Kel'Maris]], the Lord Marshal known as the Lion's Shadow, was killed by the Stalker in [[Stanleyville]], **Captain Funkin brought her body back to Renada**. The kingdom honored her with a **state funeral**, and her body lay in state at the **Great Cathedral for three days**. Her long service to the royal household, first as Prince Gradvum's sword instructor and later as his protector, made the farewell both a public ceremony and the loss of a close friend to the king.
+
+In accordance with Kel'Maris's wishes, she was **cremated privately afterward** and her ashes scattered across the [[The Geography of Avalor#king-s-forest|King's Forest]]. Her funeral preceded Captain Funkin's death in the later Hydra temple disaster.
 
 ## A sister tradition, not the same institution
 

@@ -1,16 +1,16 @@
 ---
 title: The Smaller Settlements of Avalor
-subtitle: Three Communities beyond the Great Cities
-summary: Alexiverde, Ferrymen Village, and Olivruch each have a distinct place in Avalor's history despite their modest size.
+subtitle: Communities beyond the Great Cities
+summary: Short accounts of Alexiverde, Ferrymen Village, Olivruch, and the elven village of Ilyanamel.
 category: Kingdoms & Places
 entry: LOC.039
 era: Founding Age to Age of Ascendancy
 facts: |-
-  Places: Alexiverde; Ferrymen Village; Olivruch
+  Places: Alexiverde; Ferrymen Village; Olivruch; Ilyanamel
   Character: Small communities
   Known associations: Bradgem Glav; desert passage; Thieves Guild
-related: bradgem-glav,dead-marshes,great-desert,geography-of-avalor,guilds-of-avalor,kingdom-of-avalor
-source: World Anvil, Alexiverde, Ferrymen Village and Olivruch (creator-supplied locations; November 2026)
+related: bradgem-glav,dead-marshes,great-desert,geography-of-avalor,guilds-of-avalor,kingdom-of-avalor,kel-maris,king-gradvum-frozenroar
+source: World Anvil, Alexiverde, Ferrymen Village and Olivruch (creator-supplied locations; November 2026); creator-approved Kel'Maris biography (Ilyanamel, November 12, 2026)
 featured: false
 ---
 
@@ -37,3 +37,9 @@ At first glance, **Olivruch** is a town unlikely to command the attention of roy
 That association gives an otherwise modest settlement a place in the stories of people whose work depends upon remaining unseen. Its presence does not mean every resident is a thief, or that Olivruch's everyday life can be reduced to the guild.
 
 The town and the guild are distinct. Though the guild has branches beyond Avalor, Olivruch remains the home of this one, with rumors of a mysterious **Ragged Man** spoken in its underworld.
+
+## Ilyanamel
+
+**Ilyanamel** is an **elven village** remembered as the birthplace of **[[kel-maris|Kel'Maris]]**, the first elf to hold the office of Lord Marshal of Lion's Bane. She was the first daughter of a prominent local family and trained from childhood in several forms of swordsmanship. King Gerran Frozenroar later called her to Renada to instruct his son Gradvum, beginning the long royal service that earned her the name the Lion's Shadow.
+
+The village's exact location within Avalor has **not** been confirmed. Its inhabitants, politics, and relationship to other elven settlements have not been described in the approved record. Ilyanamel belongs in the kingdom's gazetteer because a person central to its later history came from there; its name alone does not establish a place on the map.
