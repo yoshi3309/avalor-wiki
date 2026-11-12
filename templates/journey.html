@@ -9,29 +9,40 @@
     <p class="journey-subtitle">{{journey.subtitle}}</p>
     <div class="journey-rule" aria-hidden="true"><span></span><b>◇</b><span></span></div>
     <p class="journey-deck">{{journey.summary}}</p>
-    <div class="journey-hero-meta"><span>{{journey.steps|length}} connected records</span><span>{{journey.era}}</span></div>
+    <div class="journey-hero-meta"><span>{{journey.steps|length}} main chapters</span><span>{{journey.era}}</span></div>
     <a class="journey-primary-link" href="{{root}}articles/{{journey.steps[0].article.slug}}/">Begin the journey <span aria-hidden="true">↗</span></a>
   </header>
 
   <section class="journey-reading-guide" aria-labelledby="journey-guide-heading">
     <div class="kicker">A NOTE FROM THE CURATOR</div>
     <h2 id="journey-guide-heading">How to follow this history</h2>
-    <p>Read each chapter in sequence, or enter at the point that interests you. Every chapter opens an established Scholar's Account; its footnote links will guide you back here and onward to the next record.</p>
+    <p>Follow the main chapters in order for the continuous history. Optional <strong>Deeper reading</strong> links explore the people, artifacts, and places behind each event without interrupting the story. You can return to the journey from any chapter.</p>
     <p>{{journey.editorial_note}}</p>
   </section>
 
   <section class="journey-route" aria-labelledby="journey-route-heading">
-    <div class="journey-route-heading"><div><div class="kicker">THE READING ROUTE</div><h2 id="journey-route-heading">The road through the record</h2></div><span>{{journey.steps|length}} archival records</span></div>
+    <div class="journey-route-heading"><div><div class="kicker">THE READING ROUTE</div><h2 id="journey-route-heading">The road through the record</h2></div><span>{{journey.steps|length}} main chapters</span></div>
     <ol class="journey-chapters">
       {% for step in journey.steps %}
       <li class="journey-chapter">
         <div class="journey-chapter-number" aria-hidden="true">{{ '%02d'|format(loop.index) }}</div>
         <div class="journey-chapter-copy">
+          {% if step.act %}<div class="journey-act-kicker">{{step.act}}</div>{% endif %}
           <div class="journey-chapter-eyebrow">CHAPTER {{loop.index}} · {{step.article.category|upper}}</div>
           <h3><a href="{{root}}articles/{{step.article.slug}}/">{{step.label}}</a></h3>
           <div class="journey-chapter-source">{{step.article.title}}</div>
           <p>{{step.introduction}}</p>
-          <a class="journey-chapter-link" href="{{root}}articles/{{step.article.slug}}/">Read this record <span aria-hidden="true">↗</span></a>
+          <a class="journey-chapter-link" href="{{root}}articles/{{step.article.slug}}/">Read the chapter <span aria-hidden="true">↗</span></a>
+          {% if step.deeper_reading %}
+          <details class="journey-deeper-reading">
+            <summary>Deeper reading · {{step.deeper_reading|length}} related {% if step.deeper_reading|length == 1 %}account{% else %}accounts{% endif %}</summary>
+            <ul>
+              {% for extra in step.deeper_reading %}
+              <li><a href="{{root}}articles/{{extra.article.slug}}/">{{extra.article.title}} ↗</a><span>{{extra.note}}</span></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
         </div>
       </li>
       {% endfor %}
@@ -40,7 +51,7 @@
 
   <aside class="journey-outro">
     <div class="kicker">BEYOND THIS PATH</div>
-    <p>These records form one path through Avalor's past, not the whole of its history. Follow the cross-references within each account for the lives, places, and events beyond the main route.</p>
+    <p>This route tells the events in order. The deeper-reading links alongside each chapter open a second view: the lives of the companions, the relics they carried, and the places that remember them. Neither layer requires the other to make sense.</p>
     <a href="{{root}}journeys/">All reading journeys ↗</a>
   </aside>
 </div>
