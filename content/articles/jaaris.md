@@ -23,9 +23,9 @@ featured: false
 
 ## The necromancer who shadowed a sacrifice
 
-When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] escaped believing their dragonborn friend had died. The memory of that sacrifice followed them for years.
+When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] escaped believing their dragonborn friend had died. The memory of that sacrifice followed them through the rest of the campaign and into the years afterward.
 
-Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief of those years had been real.
+Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief had been real.
 
 ## The temple and the last confrontation
 
