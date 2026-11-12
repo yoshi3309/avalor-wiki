@@ -1,40 +1,67 @@
 ---
-title: Malikeah
-subtitle: Present Leader of the Hunters Guild
-summary: Malikeah now leads the Hunters Guild, carrying Faelynn's protective tradition into Avalor's present age.
+title: Malikeah Ashenfall
+subtitle: The Hunter Who Holds the Family Together
+summary: Veteran hunter, figurehead of the Hunters Guild and caretaker of the Wayward Sun, Malikeah Ashenfall shares its work with his wife Mera while fearing for the guild's future.
 category: People & Legends
 image: /assets/uploads/malikeah.png
 entry: BIO.024
 era: Age of Ascendancy
 facts: |-
-  Position: Leader of the Hunters Guild
-  Institution: Hunters Guild
-  Guild origin: Faelynn at Wayward Sun
-  Operating region: Dead Marshes and dangerous country
-related: hunters-guild,faelynn,wayword-sun,dead-marshes,the-six
-source: Avalor Master Canon Bible Volume I, VII; Compendium II, Wayward Sun and
-  Hunters Guild canon ledger
+  Full name: Malikeah Ashenfall
+  Calling: Veteran monster hunter
+  Position: Figurehead and de facto leader of the Hunters Guild
+  Home: Wayward Sun, Dead Marshes
+  Spouse: Mera Ashenfall
+  Stewardship: Shared with Mera
+  Reputation: Gruff, resourceful, fiercely protective
+  Present concern: The guild's uncertain future
+related: mera-ashenfall,hunters-guild,wayword-sun,faelynn,dead-marshes
+source: The Living Chronicle, Chapter V; Compendium II · Entry II.003, public Scholar's Account; creator-supplied Ashenfall household history
 featured: false
 ---
 
-## The hunter who holds the guild together
+## The hunter at the heart of the guild
 
-**Malikeah** is the present leader of [[The Hunters Guild]], the order founded by [[Faelynn]] at [[Wayward Sun]] in the dangerous [[Dead Marshes]].
+**Malikeah Ashenfall** is the present figurehead and **de facto leader** of [[The Hunters Guild]], an order whose members have spent generations pursuing dangers that rarely appear on a royal battlefield. He is among its most experienced and respected hunters, a man whose instincts, hard-earned knowledge and ability to find an answer in a desperate moment have saved others more than once.
 
-To inherit such an institution is to inherit more than its name. The hunters work in places where roads give way to difficult terrain and where isolated communities cannot always rely on the swift arrival of royal soldiers. Their leader must keep that work alive in a kingdom whose dangers have changed many times since Faelynn walked its paths.
+The title *leader* can be misleading here. The guild is not a royal regiment, and Malikeah is no distant official issuing decrees to strangers. He is part of the family the hunters believe themselves to be. He earns their loyalty not only through his reputation in the field, but through the steadiness with which he stands beside them when things go wrong.
 
-Malikeah carries that responsibility in the present age. The order's scattered hunters share customs older than most of the kingdom's institutions: silver coins, guarded recognition, a crest recalling the Devil's Trap and the cycle of life and death, and a vow remembered in the words *East. Toward the sunrise.* The guild's founder is a figure of legend; its current leader must attend to the people who still need its help.
+He is gruff in manner, sometimes difficult to please, and not inclined to soften a warning merely to make it welcome. Those who live and work under his care nevertheless know another side of him: a man who is **fiercely protective of the hunters he considers his own**. For many he has become something close to a father.
 
-## In Faelynn's footsteps, but not her shadow
+## The experience behind his caution
 
-Faelynn understood what could happen when a threat went unrecognized until it was too late. The destruction of a village after she was deceived by a fiend became part of the painful history behind her commitment to protecting travelers.
+Years spent tracking monsters have taught Malikeah to read a situation before its danger announces itself. He is cunning, observant and resourceful, and those who have traveled with him know that he frequently has some unexpected precaution ready when a plan begins to fail.
 
-Malikeah leads the order that grew from that commitment. The duty is enduring, even when the individual dangers and decisions belong to a different time.
+There is a distinction between being prepared and being fearless. Malikeah understands the cost of the work precisely because he has practiced it so long. The guild's signs, coded messages, silver-payment custom and precautions against unnatural threats are not picturesque traditions to him. They are tools by which a hunter may return home.
 
-The history of the Hunters Guild, its work in the marshes, and its founding belong in [[The Hunters Guild|the guild's own account]]. Malikeah's story begins where that institutional history meets the judgment of a living leader.
+The specifics of his greatest hunts have not yet been gathered into an authoritative public account. His reputation, however, is inseparable from the practical judgment earned through years of confronting the unknown.
 
-## A leader whose story is still unfolding
+## An equal partnership at the Wayward Sun
 
-Malikeah's position is established, but the defining adventures and personal relationships of this leader have yet to take their place in the Chronicle. Those stories may come as the hunters' work continues.
+Malikeah calls **[[Wayward Sun]]** home. The old refuge in the [[Dead Marshes]] is both a working headquarters and the center of a household far less stern than his outward manner might suggest.
 
-For now, one thing matters: the guild Faelynn founded has not faded into an old legend. It has someone to lead it, and people still look to its hunters when the safer roads are far away.
+Its operation is maintained **in equal partnership with his wife, [[Mera Ashenfall]]**. Malikeah may be the guild's familiar public figure, but Mera is neither an assistant nor an ornament of his authority. She has her own gifts, judgments and ways of solving the problems that reach their door. Where Malikeah sees danger in a seemingly harmless detail, Mera may see an unexpected possibility worth investigating. Their different instincts serve the same people.
+
+Those who mistake Malikeah's gruffness for coldness misunderstand the household. His concern is not abstract. He knows the hunters who come and go, recognizes how much they carry, and wishes to see them return safely. Mera's warmth and inventiveness give the refuge a different kind of protection, one that complements rather than weakens his watchfulness.
+
+## The child called Hope
+
+Among the familiar presences at the Wayward Sun is a young girl almost everyone calls **Hope**, although her real name is **Amber**. She seems strangely at ease in a place where hardened hunters gather to discuss monsters and dangerous work.
+
+No one at the refuge can give a dependable account of when Hope first arrived or precisely how she became part of its daily life. Her presence has simply grown so familiar that the household is difficult to imagine without her. She spends her days painting, drawing and keeping company with her pet crow, **Pecker**, who is seldom far away.
+
+Hope belongs in Malikeah's story not as a case to be solved but as one of the people for whom he tries to preserve a home. Mera is especially maternal toward the girl, and Malikeah's wider care for the family extends to the life that has grown around the refuge as surely as to the hunters who venture beyond it. No surviving account establishes a formal adoption or explains Hope's origins.
+
+## The burden of keeping the family alive
+
+Malikeah's deepest present concern is not an enemy he can simply follow into the trees. He has grown **weary**, troubled by the possibility that he may be witnessing the **final days of the guild** to which he has given so much of his life.
+
+That fear is not a confirmed prophecy of collapse. It is the apprehension of a veteran who has seen enough loss to know that a proud history cannot guarantee another generation. Hunters leave, suffer, change or fail to return. A family may endure by finding new reasons to continue; it may also grow exhausted by the cost of its work.
+
+His doubts give new weight to his protection of those around him. The family business began when [[Faelynn]] chose to give other wounded people a home and a purpose. Malikeah's task is to decide how to preserve that inheritance without consuming the people who carry it.
+
+## Not merely the last hunter standing
+
+Malikeah is respected for his skill, but skill alone does not explain why others follow him. He watches over people who might otherwise have nowhere to go. He shares his burdens with a woman whose eccentricity is a strength in its own right. He understands that the hunters can quarrel and still remain family.
+
+Whether the guild will survive the troubles he foresees is not yet written. For now, the lamps of the Wayward Sun remain lit, and Malikeah Ashenfall stands watch beside the people he loves.

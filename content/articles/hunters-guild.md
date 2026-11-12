@@ -15,13 +15,15 @@ facts: >-
 
   Era founded: Early Kingdom of Avalor
 
-  Present leader: Malikeah
+  Figurehead and de facto leader: Malikeah Ashenfall
+
+  Refuge operations: Malikeah and Mera Ashenfall, equal partners
 
   Calling: Protect travelers and vulnerable communities; hunt dangerous
   creatures
 
   Character: Long-lived fellowship of wilderness specialists
-related: malikeah,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
+related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
 source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
   creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 featured: false
@@ -106,9 +108,11 @@ There is room for cooperation among these protectors without making the guild a 
 
 ## The guild in the present age
 
-The Hunters Guild remains active under **[[Malikeah]]**, who now leads the institution Faelynn began. Malikeah inherits its duty, not simply a legendary name.
+The Hunters Guild remains active with **[[Malikeah Ashenfall]]** as its experienced figurehead and de facto leader. He carries the work of the family business with a watchful, protective concern for its members, although years of hunting have left him weary and afraid that the guild's future may be in peril.
 
-The exact arrangements through which the present leader directs hunters, trains newcomers, or coordinates distant work have not been established. What is clear is that **Wayward Sun remains the guild's historic home**, and that its purpose has survived the centuries.
+At the [[Wayward Sun]], Malikeah maintains the refuge in **equal partnership with his wife, [[Mera Ashenfall]]**, an eccentric and ingenious spirit bard whose curiosity often supplies solutions to problems that have defeated more conventional methods. Their different temperaments are part of the home they have made for their fellow hunters.
+
+The old refuge is therefore more than a base from which dangerous work begins. It remains a place of belonging for those who return to it, and a reminder that the family Faelynn founded must be protected as carefully as the people its hunters serve.
 
 Hunters continue to journey into the Dead Marshes to pay their respects and ask Faelynn to watch over them. Their founder's memory lives in more than an emblem; it survives in the decision to protect the next stranger found alone on the road.
 
