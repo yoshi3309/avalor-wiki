@@ -1,8 +1,10 @@
 ---
 title: Tarnapolus
 subtitle: The Lake Port and Edran Halwick's Seat
-summary: A busy commercial gateway on Lake Noch and the residence of Edran Halwick, sheriff of the Royal Heartlands.
+summary: A busy commercial gateway on Lake Noch and the residence of Edran
+  Halwick, sheriff of the Royal Heartlands.
 category: Kingdoms & Places
+image: /assets/uploads/tarnapolus-harbor-market-at-dawn.png
 entry: LOC.037
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +15,10 @@ facts: |-
   Resident sheriff: Edran Halwick
   Sheriffdom administered: Royal Heartlands
 related: kingdom-of-avalor,four-sheriffdoms,edran-halwick,stannisport,renada
-source: World Anvil, Tarnapolus (creator-supplied location); Compendium II · Four Sheriffdoms; creator-confirmed Edran residence (November 2026)
+source: World Anvil, Tarnapolus (creator-supplied location); Compendium II ·
+  Four Sheriffdoms; creator-confirmed Edran residence (November 2026)
 featured: false
 ---
-
 ## The port on Lake Noch
 
 **Tarnapolus** stands upon **Lake Noch**, where its extensive harbor receives goods traveling toward Avalor from the south.
