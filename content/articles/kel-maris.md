@@ -62,7 +62,7 @@ Before they were celebrated as Avalor's champions, the companions later called *
 
 She subsequently employed them again during the inquiry into the **[[golgoroth-second-commission|cult of Gol'Goroth]]**, the adventure that brought Heureux into their company. The choice to entrust these missions to adventurers rather than rely only upon the royal guard became an important part of the fellowship's early history.
 
-The company later encountered the Blood King's servants at a ruined temple near Stanleyville. Kel'Maris survived that disaster, in which Captain Funkin, Inspector Sihnion, and guards died and Fo'Gurn gave his life against a hydra.
+The company's investigation in Stanleyville came **before** the ruined-temple disaster. After the Stalker killed Kel'Maris, Captain Funkin brought her body safely back to Renada. Only later, at the Hydra temple, did Funkin, Inspector Sihnion, and guards die while Fo'Gurn sacrificed himself to save the other companions.
 
 Her next investigation would not allow her to return.
 
@@ -70,9 +70,9 @@ Her next investigation would not allow her to return.
 
 When mysterious deaths troubled **[[Stanleyville]]**, Kel'Maris accompanied the Misfits into the town's danger. They were hunted by a creature called **[[The Stalker of Stanleyville|the Stalker]]**, later connected to the direction of [[Cid the Blood King]].
 
-**The creature pierced Kel'Maris through the chest and killed her.** This was not a death at the earlier Hydra temple, which she had escaped. It was a separate loss suffered during the investigation she had asked the adventurers to undertake.
+**The creature pierced Kel'Maris through the chest and killed her.** The Stalker affair preceded the ruined Hydra temple: she was already dead when the Misfits faced that later catastrophe. It was the final loss of the woman who had entrusted the adventurers with their first commissions.
 
-Her body was brought back to Renada for a state funeral. For **three days** she lay in state at the **[[The Great Cathedral|Great Cathedral]]**, where the kingdom could honor the officer who had defended the crown through two reigns. In accordance with her wishes, she was **cremated in a private ceremony**, and her ashes were scattered across the **King's Forest**.
+**Captain Funkin returned her body safely to Renada** for a state funeral. For **three days** she lay in state at the **[[The Great Cathedral|Great Cathedral]]**, where the kingdom could honor the officer who had defended the crown through two reigns. In accordance with her wishes, she was **cremated in a private ceremony**, and her ashes were scattered across the **King's Forest**.
 
 With the Lion's Shadow gone, the office of Lord Marshal remained vacant for the rest of the Misfits' campaign. Only after Cid's defeat did King Gradvum appoint **[[Lavitz Shawe]]** as her successor.
 
