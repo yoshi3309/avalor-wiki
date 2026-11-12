@@ -1,6 +1,6 @@
 # Artwork Production — Next Ten Confirmed Wiki Subjects (Wave 4)
 
-**Reviewed:** November 11, 2026. The preceding ten location illustrations (Great Citadel, Taveras, Briyan's Autumn, Cove City, Land's End, Great Fork Tower, Jogar Village, Stannisport, Siesta Ford and Karhold) are assigned to their respective published article front matter, with uploaded source files. This batch deliberately mixes six as-yet-unillustrated geographical records with four important organizational records.
+**Reviewed:** November 11, 2026. **Corrected:** Lord Osmo’s Tower is located in the Dead Marshes, as confirmed by the creator. The preceding ten location illustrations (Great Citadel, Taveras, Briyan's Autumn, Cove City, Land's End, Great Fork Tower, Jogar Village, Stannisport, Siesta Ford and Karhold) are assigned to their respective published article front matter, with uploaded source files. This batch deliberately mixes six as-yet-unillustrated geographical records with four important organizational records.
 
 **Style:** Realistic painterly fantasy, believable material culture, no modern artifacts, no text baked into images, and no future-story revelations. For **Kingdoms & Places**, use 16:9 landscape (~1920×1080). For **Organizations & Factions**, use a vertical 2:3 (~1200×1800) because their existing wiki article layout uses sidebar portraits. Images represent artistic interpretations, not precise newly discovered historical evidence. The author should approve final depictions before uploading.
 
@@ -64,11 +64,11 @@ Create a wide 16:9 realistic painterly fantasy illustration of East Port, an imp
 - **Published article:** https://yoshi3309.github.io/avalor-wiki/articles/lord-osmos-tower/
 - **Image status when selected:** No assigned image
 - **Composition:** 16:9 landscape
-- **Primary visual concept:** Mortal conqueror's surviving military landmark, not a magical tower
+- **Primary visual concept:** Mortal conqueror's surviving military tower in the Dead Marshes; not the Black Tower
 
 **Generation prompt**
 
-Create a 16:9 realistic painterly fantasy illustration of Lord Osmo's Tower, a surviving military landmark associated with Lord Osmo's campaigns before the founding of Avalor. Present a formidable but believable stone military tower on a strategic rise amid rugged roads and open country, its severe masonry recalling the logistical and administrative reach of a mortal conqueror. The tower may show weathering from the passing centuries, but it should still be recognizable as a constructed defensive and command site rather than a collapsed ruin or magical spire. Sparse human-scale details such as a roadway, old gate and rough outer walls provide context; keep activity minimal because the tower's present occupation is not established. Cold overcast light, restrained charcoal and sandstone palette, historical gravitas. No necromantic glow, undead soldiers, dragon imagery, magical runes, invented coats of arms, legible inscriptions or scenes depicting Osmo himself. A credible architectural history illustration.
+Create a cinematic 16:9 realistic painterly fantasy illustration of Lord Osmo's Tower, a surviving medieval military stronghold standing within Avalor's Dead Marshes. From a three-quarter view across dark marsh water, depict an imposing, weathered stone tower surrounded by shallow black-green channels, saturated ground, reeds, twisted trees, mossy stones and drifting mist. Its architecture is practical and military, associated with the mortal conqueror Lord Osmo during the founding wars, now bearing centuries of weathering but still recognizable. Pale overcast light reflects from the still water. The atmosphere is historical and ominous rather than supernatural horror. This is NOT the Black Tower. Avoid dry hills, broad roads through grassland, mountain terrain, ruins collapsing into rubble, necromantic glow, undead soldiers, magical runes, unapproved heraldry or readable inscriptions. An interpretive archival illustration, not an exact survey of the building.
 
 ## 7. The Aegis of Avalor
 
