@@ -53,3 +53,12 @@ Key improvements included fully refocusing **Malikeah, Jaaris, Noki, Jack, Astro
 ## Character scope and proportionality - Creator-approved 12 November 2026
 
 Only major protagonists and antagonists whose choices drove consequential, connected arcs warrant substantial biographies. For short-lived villains, supporting officers and incidental figures, prefer **two meaningful paragraphs** establishing identity, motivation and one relevant action or relationship; add more only if distinctive confirmed history justifies it. A named character's mere existence does not require invented childhoods, family trees, exact dates or exhaustive fictional completeness. A brief entry can be the final entry. Newly proposed motivations remain outside public canon until approved.
+
+
+## Minor-character collections and inline illustrations
+
+Two Wikipedia-style indexes now hold the short biographies of minor heroes/allies and minor villains/adversaries. Each biography is a `## Character Name` section with a **stable generated heading anchor**. The existing site redirects retired standalone slugs and article links to those anchors; old links must not break when records are consolidated. Keep a short, useful story under each heading rather than creating another full page.
+
+Group appropriate figures by their narrative function, **not just morality**: officers, companions and protectors together; captors and hostile enforcers together. Do not place major villains, central protagonists, former monarchs or characters whose stories warrant independent reading into an index merely to reduce article counts.
+
+Small in-body portraits are welcome when artwork is actually of the named person and approved for the public wiki. Use validated uploaded images with alt text and captions; **do not label a group illustration or an unrelated image as someone's portrait**. The Royal Forces group art in the heroes index is explicitly contextual, not a portrait.
