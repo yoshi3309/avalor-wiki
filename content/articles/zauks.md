@@ -20,50 +20,20 @@ source: "The Living Chronicle, Chapter VI, IX; Master Canon Bible, Volume I; the
 featured: false
 ---
 
-## A predator in the Blood King's company
+## The collector of other people's lives
 
-The mind flayer **Zauks** belonged to the dangerous circle serving **[[Cid the Blood King]]** during the Misfits' campaign. His presence was recorded alongside other adversaries at the ruined temple near Stanleyville, where Cid's captives faced a ritual intended to place divine power within a vessel.
+**Zauks**, a mind flayer in the service of [[Cid the Blood King]], was less interested in overpowering the Misfits in open combat than in making their own experiences unreliable. He had appeared among Cid's servants during the ruined-temple affair near Stanleyville. Later, after the companions **truly defeated Jinlin Vechon**, Zauks ambushed them and imprisoned them **physically in cocoons** while their minds experienced adventures that were not taking place.
 
-Zauks was not the necromancer who later forced Fo'Gurn into an unnatural existence. That crime belonged to **[[Jaaris]]**. Nor was Zauks shown to be the author of every earlier adventure that troubled [[The Misfits]]. His own greatest documented cruelty came later, when the fellowship had already lost companions and faced a desperate pursuit of the kidnapped queen.
+He turned familiar memories into instruments of captivity. Moonville Manor, the first necromancer, the Stalker, Gol'Goroth, Noki's sheep transformation, the Hydra, Jack's family home and an encounter with Jaaris returned in distorted form. Within these false episodes, enemies multiplied and details changed. None of those revisions altered the real past. Most cruelly, the counterfeit visit to Jack's home invited the companions to believe they might avert the boy's murder, although the actual Jack had already died.
 
-Where Cid threatened the world with forbidden magic and an ancient lie, Zauks struck at something the adventurers carried inside themselves: memory.
+## The offer that did not look like a prison
 
-## Prisoners in waking flesh
+After the false dangers came a subtler temptation: **ideal lives** in which the companions' deepest losses seemed repaired. Zauks's method exploited the difference between surviving an enemy and wanting to leave a place that feels safe. A person who rejects an obvious nightmare might cling to a convincing version of happiness. That was the distinctive cruelty of his attack, and the reason his place in the story outlasts the battle itself.
 
-After the Misfits defeated **Jinlin Vechon** in a real confrontation, Zauks attacked them and held the companions **physically captive in cocoons**. The experiences he imposed were illusions, but the prison around their bodies was not.
+The precise origins of Zauks's psychic craft and his private reasons for serving Cid are not known. His actions, however, reveal what he found useful: people carrying grief, obligations, and memories that could be turned against them. His manufactured episodes are described more fully in [[Zauks and the False Lives]].
 
-The company had been trying to recover **[[Queen Melmiri]]** from Cid. Zauks's ambush delayed that rescue and subjected the companions to a trial in which the difference between remembered truth and present experience became increasingly difficult to keep intact.
+## Amara beyond his reach
 
-Rather than give his victims an unfamiliar nightmare, he made their own history the material of their confinement.
+**[[Amara]]** was outside the false lives. An owl appeared at the lair, transformed into the druid herself, and **killed Zauks**, breaking the hold upon his cocooned prisoners. This was Amara in owl form, not the separate owl associated with her sister's earlier fate.
 
-## Eight histories that never happened
-
-The false experiences returned the companions to distorted versions of adventures they had already lived: **Moonville Manor**, the first royal commission against an unnamed necromancer, the **Stalker**, the cult of **Gol'Goroth**, the sheep incident involving **[[Noki]]**, the **Hydra**, Jack's family home in Stanleyville, and a confrontation involving Jaaris and flesh golems.
-
-The details of these visions did not establish new events in the real world. The false Stalker could be multiplied; the remembered sheep incident could acquire dragons that had never belonged to it; and a counterfeit visit to Jack's home could offer the party another chance to prevent a murder that had already occurred.
-
-Such distortions had a particular cruelty. The Misfits were forced to confront things they knew, things they regretted, and things they wished might have happened differently, while the mind flayer controlled the terms of the encounter.
-
-Their full ordeal is preserved separately in **[[Zauks and the False Lives]]**.
-
-## The temptation of an ordinary life
-
-When the reenacted dangers had run their course, Zauks presented a different captivity: **ideal lives** in which the sorrow and absence of the companions' real histories had been repaired. The prison no longer required every moment to resemble a monster's attack. It could resemble the peace that the victims wanted most.
-
-These experiences were not alternate histories accepted into Avalor's chronology. They were false lives offered by an adversary who could exploit the strength of longing.
-
-The exact motives behind Zauks's treatment of the company are not settled. His illusions demonstrate what he did; they do not by themselves establish whether he sought food, information, obedience, cruelty, or some combination of purposes.
-
-## The owl and the end of the dream
-
-**[[Amara]]** was outside the companions' false lives. An owl appeared at the lair, returned to Amara's own form, and **killed Zauks**. The mind flayer's hold ended, and his captives awoke within their cocoons.
-
-The owl in this episode was Amara herself, not the separate owl connected to her earlier family tragedy. Her rescue was an act in the real world, not another deceptive scene authored by Zauks.
-
-The Misfits emerged with their lives and memories restored to the actual course of events. Their losses had not been undone, and Queen Melmiri remained captive. The company continued toward the Shadowfell.
-
-## What remains of Zauks
-
-Zauks died without leaving a complete public account of his earlier existence, his precise relationship with Cid, or the techniques by which he crafted his victims' ideal lives. His actions nevertheless endure in the history of the Misfits because they exposed a vulnerability no armor could prevent.
-
-He did not need to defeat every member of the fellowship with a weapon. For a time, he made their past and their hopes into the walls of a prison. The party's escape depended on someone the illusions had not contained.
+The survivors woke to an unfinished world. Fo'Gurn's sacrifice remained real; Jack had not been restored to life; and Queen Melmiri was still held by Cid. Zauks had made their past uncertain and offered them a false future. His defeat returned to them the ability to choose what they would do next.

@@ -67,7 +67,7 @@ His parents met through the **kraken oil trade**. Tel'Lora's human father hunted
 
 His elven mother had served as an **arcane adviser to the royal court**, studying the kingdom's mysteries before returning to a life in which her son could watch her work. Her spellcasting seemed almost like a dance. Water followed the movements of her hands, forming little streams and droplets as she spoke her incantations.
 
-Tel'Lora inherited her affinity for water magic, along with a fair measure of her social awkwardness. When she died, Tel'Lora inherited her spellbook and an **ice-blue crystal** that had served as her arcane focus and could purify water. He treasured both: the book held the lessons she had written, while the crystal recalled the water that once moved so gracefully around her hands.
+Tel'Lora inherited her affinity for water magic, along with a fair measure of her social awkwardness. After she was murdered by **[[karina|Karina]]**, a vampiric centaur seeking her spellbook and **ice-blue crystal**, Tel'Lora inherited both that had served as her arcane focus and could purify water. He treasured both: the book held the lessons she had written, while the crystal recalled the water that once moved so gracefully around her hands.
 
 ## Kali'mari and the sound of wet boots
 
@@ -141,7 +141,7 @@ After the tournament, the company's royal rescue became a captivity of its own. 
 
 At the [[The Tournament of Champions|Tournament of Champions]], the companions tried to protect the royal couple from Cid. The Blood King abducted [[Queen Melmiri]], and the Misfits departed on a pursuit that proved far from direct.
 
-The pirate **Ros Furband** captured the company and delivered them into the power of **[[Independent Factions of the Misfits Era#jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire whose hatred of Cid did not make him trustworthy. **Jinlin was defeated in a real confrontation.** Only afterward did the mind flayer [[Zauks and the False Lives|Zauks]] fashion counterfeit versions of the companions' earlier dangers and the lives they most wished they had lived.
+The pirate **Ros Furband** captured the company and delivered them into the power of **[[jinlin-vechon|Jinlin Vechon]]**, a dragonborn vampire whose hatred of Cid did not make him trustworthy. **Jinlin was defeated in a real confrontation.** Only afterward did the mind flayer [[Zauks and the False Lives|Zauks]] fashion counterfeit versions of the companions' earlier dangers and the lives they most wished they had lived.
 
 The precise hopes each captive saw in Zauks's illusions have not been fully disclosed in the public record. The company escaped the deception through Amara's intervention and continued toward the Shadowfell, where Melmiri remained captive. **Amara had been taken after the Games**, not at the earlier hydra temple, and she was outside the false experiences when she appeared as an owl, returned to her own form and killed Zauks.
 

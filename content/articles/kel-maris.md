@@ -42,7 +42,7 @@ The Games were not her only proving ground. The ability to train others would be
 
 ## Sword instructor to a prince
 
-By order of **King Gerran Frozenroar**, Kel'Maris traveled to [[Renada]] to instruct his son **[[King Gradvum Frozenroar|Gradvum]]**, then a young prince expected to inherit the throne. She taught the future king swordsmanship and became his friend over the years that followed.
+By order of **[[king-gerran-frozenroar|King Gerran Frozenroar]]**, Kel'Maris traveled to [[Renada]] to instruct his son **[[King Gradvum Frozenroar|Gradvum]]**, then a young prince expected to inherit the throne. She taught the future king swordsmanship and became his friend over the years that followed.
 
 That friendship crossed the ordinary boundary between a royal pupil and a hired instructor. Kel'Maris knew Gradvum before he wore the crown; he knew her before the office of Lord Marshal made her one of Avalor's most visible guardians.
 
@@ -50,7 +50,7 @@ When the opportunity arose, she readily joined **[[The Avalorian Forces|Lion's B
 
 ## The Lion's Shadow
 
-Kel'Maris rose quickly through Lion's Bane. She became **second in command beneath Lord Marshal Kurt Reyginald** and was assigned as the king's personal guard, staying close enough to respond to a threat at a moment's notice.
+Kel'Maris rose quickly through Lion's Bane. She became **second in command beneath Lord Marshal **[[kurt-reyginald|Kurt Reyginald]]**** and was assigned as the king's personal guard, staying close enough to respond to a threat at a moment's notice.
 
 Her almost constant presence earned her the name **the Lion's Shadow**. It was an epithet rooted not in secrecy but in constancy: the crown rarely stood without her nearby.
 
@@ -62,7 +62,7 @@ Before they were celebrated as Avalor's champions, the companions later called *
 
 She subsequently employed them again during the inquiry into the **[[golgoroth-second-commission|cult of Gol'Goroth]]**, the adventure that brought Heureux into their company. The choice to entrust these missions to adventurers rather than rely only upon the royal guard became an important part of the fellowship's early history.
 
-The company's investigation in Stanleyville came **before** the ruined-temple disaster. After the Stalker killed Kel'Maris, Captain Funkin brought her body safely back to Renada. Only later, at the Hydra temple, did Funkin, Inspector Sihnion, and guards die while Fo'Gurn sacrificed himself to save the other companions.
+The company's investigation in Stanleyville came **before** the ruined-temple disaster. After the Stalker killed Kel'Maris, **[[captain-funkin|Captain Funkin]]** brought her body safely back to Renada. Only later, at the Hydra temple, did Funkin, Inspector Sihnion, and guards die while Fo'Gurn sacrificed himself to save the other companions.
 
 Her next investigation would not allow her to return.
 

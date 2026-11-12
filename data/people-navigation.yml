@@ -39,9 +39,13 @@ groups:
     description: The royal household, Aegis councilors, and appointed officers.
     articles:
       - rynhold-frozenroar
+      - king-gerran-frozenroar
       - king-gradvum-frozenroar
       - queen-melmiri
       - kel-maris
+      - kurt-reyginald
+      - captain-funkin
+      - inspector-sihnion
       - belgram-mountain-hall
       - myxi-twinefoot
       - katiri-tenderfoot
@@ -78,6 +82,9 @@ groups:
       - malikeah
       - mera-ashenfall
       - ros-furband
+      - jinlin-vechon
+      - karina
+      - black-agnes-mudwallow
       - zauks
       - jaaris
       - noki-the-sheep
