@@ -90,27 +90,27 @@ journeys:
             note: "The ancient paladin whose name drew them onward."
           - article: emerald-of-armanti
             note: "What witnesses know about the jewel, without private magical claims."
-      - article: hydra-temple-disaster
-        label: "The Temple and the Friend Who Stayed"
-        introduction: "Cid's servants hold prisoners near Stanleyville. The ruin costs many lives, and Fo'Gurn stays to face a hydra so his companions can escape."
-        act: "ACT II · THE PRICE OF FRIENDSHIP"
-        deeper_reading:
-          - article: fo-gurn
-            note: "A life given for the companions he loved."
-          - article: jaaris
-            note: "The later necromancer serving the Blood King."
-          - article: samuel-the-devoted
-            note: "The celestial ally whose pursuit intersects the Misfits' campaign."
       - article: the-stalker
         label: "The Stalker of Stanleyville"
-        introduction: "Kel'Maris, the Lord Marshal who survived the temple, is killed by the Stalker at Stanleyville. A boy named Jack dies through another of Cid's deceptions."
+        introduction: "The Stalker kills Kel'Maris, the Lord Marshal who first trusted the Misfits. Captain Funkin brings her body to Renada; Jack's ghost joins the travelers."
+        act: "ACT II · THE PRICE OF FRIENDSHIP"
         deeper_reading:
           - article: stanleyville
-            note: "The people and city enduring the losses."
+            note: "The people and town enduring the losses."
           - article: jack-of-stanleyville
             note: "The ghost boy who joins the travelers."
           - article: kel-maris
             note: "The Lion's Shadow: Gradvum's swordmaster and fallen protector."
+      - article: hydra-temple-disaster
+        label: "The Temple and the Friend Who Stayed"
+        introduction: "After Kel'Maris's death at Stanleyville, Cid's servants hold prisoners near the town. Captain Funkin dies at the temple, and Fo'Gurn stays to face the hydra so his friends can escape."
+        deeper_reading:
+          - article: fo-gurn
+            note: "A life given for the companions he loved."
+          - article: jaaris
+            note: "The necromancer serving the Blood King."
+          - article: samuel-the-devoted
+            note: "The celestial ally whose pursuit intersects the Misfits' campaign."
       - article: rotten-husk-liberation
         label: "Freedom for the Rotten Husk"
         introduction: "The adventurers free an orc community from an oppressive chief. The people they help matter independently of the greater conflict with Cid."
