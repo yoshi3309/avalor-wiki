@@ -13,7 +13,7 @@ featured: false
 
 ## A victory followed by another captivity
 
-The Misfits had defeated **Jinlin Vechon** in the waking world. Queen Melmiri was still in Cid's hands, and the company had already endured captivity aboard Ros Furband's galleon. The next attack came not from a pirate or a vampire, but from the mind flayer **Zauks**, whose power worked upon memory and perception.
+The Misfits had defeated **Jinlin Vechon** in the waking world. Queen Melmiri was still in Cid's hands, and the company had already endured captivity aboard Ros Furband's galleon. The next attack came not from a pirate or a vampire, but from the mind flayer **[[zauks|Zauks]]**, whose power worked upon memory and perception.
 
 Zauks ambushed the companions and held them **physically imprisoned in cocoons** within his lair. The adventures that followed took place inside a manufactured experience. The false environments were dangerous to their understanding of the world, but they did not reset the true chronology of the campaign or undo Jinlin's defeat.
 
