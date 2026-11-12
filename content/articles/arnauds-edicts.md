@@ -1,10 +1,12 @@
 ---
-title: "Arnaud’s Edicts"
-subtitle: "The Betrayer Legend Made Law"
-summary: "The discriminatory royal measures Arnaud imposed against drow communities and the resistance they provoked."
+title: Arnaud’s Edicts
+subtitle: The Betrayer Legend Made Law
+summary: The discriminatory royal measures Arnaud imposed against drow
+  communities and the resistance they provoked.
 category: History & Chronicles
+image: /assets/uploads/arnauds-edicts.png
 entry: HIS.021
-era: "1259–1315 AF"
+era: 1259–1315 AF
 facts: |-
   Monarch: Arnaud Frozenroar
   Reign: 1259–1315 AF
@@ -12,10 +14,10 @@ facts: |-
   Restrictions: Searches, travel, records and displacement
   Resistance: Sanctuary at Heaven's Heart
 related: betrayers-legend,sanctuary-at-heavens-heart,reinas-reforms,house-frozenroar,jaznaar
-source: "The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry II.001, public historical account"
+source: The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry
+  II.001, public historical account
 featured: false
 ---
-
 ## A centuries-old accusation given authority
 
 Under **Arnaud Frozenroar**, king from **1259 to 1315 AF**, the false accusation against [[Jaznaar]] became more than a story repeated in histories and sermons. The king's advisers invoked the danger of forbidden magic to justify restrictions on drow communities.
