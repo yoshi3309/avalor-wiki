@@ -1,22 +1,31 @@
 ---
 title: The Hunters Guild
 subtitle: The Long Watch of Wayword Sun
-summary: Founded by Faelynn Naïlo in the Dead Marshes, one of Avalor's oldest guilds grew from a lone hunter's refuge into an enduring fellowship protecting people beyond the reach of ordinary patrols.
+summary: Founded by Faelynn Naïlo in the Dead Marshes, one of Avalor's oldest
+  guilds grew from a lone hunter's refuge into an enduring fellowship protecting
+  people beyond the reach of ordinary patrols.
 category: Organizations & Factions
+image: /assets/uploads/hunters-guild.png
 entry: ORG.002
 era: Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Founder: Faelynn Naïlo, the Night Mistress
+
   Founding home: Wayword Sun, Dead Marshes
+
   Era founded: Early Kingdom of Avalor
+
   Present leader: Malikeah
-  Calling: Protect travelers and vulnerable communities; hunt dangerous creatures
+
+  Calling: Protect travelers and vulnerable communities; hunt dangerous
+  creatures
+
   Character: Long-lived fellowship of wilderness specialists
 related: malikeah,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
-source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003; creator-approved Faelynn World Anvil backstory and expansion (November 2026)
+source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
+  creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 featured: false
 ---
-
 ## A watch older than most institutions
 
 The **Hunters Guild** is among the oldest enduring fellowships of Avalor, reaching back to the kingdom's founding generations. Its home is **[[Wayword Sun]]**, deep in the **[[Dead Marshes]]**, where the roads are unreliable, the ground shifts beneath familiar paths, and help from a royal garrison may be many days away.
