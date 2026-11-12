@@ -21,3 +21,9 @@ retired:
   dina-hyanda: {title: "Dina Hyanda", parent: avalorian-forces, section: dina-hyanda}
   cult-of-golgoroth: {title: "The Cult of Gol’Goroth", parent: independent-factions-of-the-misfits-era, section: the-cult-of-gol-goroth}
   wrath-of-innocent: {title: "The Wrath of Innocent", parent: independent-factions-of-the-misfits-era, section: the-wrath-of-innocent}
+  kurt-reyginald: {title: "Kurt Reyginald", parent: minor-heroes-and-allies, section: kurt-reyginald}
+  captain-funkin: {title: "Captain Funkin", parent: minor-heroes-and-allies, section: captain-funkin}
+  inspector-sihnion: {title: "Inspector Sihnion", parent: minor-heroes-and-allies, section: inspector-sihnion}
+  ros-furband: {title: "Ros Furband", parent: minor-villains-and-adversaries, section: ros-furband}
+  karina: {title: "Karina", parent: minor-villains-and-adversaries, section: karina}
+  black-agnes-mudwallow: {title: "Black Agnes Mudwallow", parent: minor-villains-and-adversaries, section: black-agnes-mudwallow}
