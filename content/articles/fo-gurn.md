@@ -1,7 +1,7 @@
 ---
 title: Fo’Gurn
-subtitle: The Paladin Who Stayed Behind
-summary: The dragonborn paladin and Lavitz's longtime friend who saved the Misfits from a hydra, was mourned for years, and whose unexpected choice to protect Lavitz is recalled in testimony of Cid's defeat.
+subtitle: The Paladin Who Died, Returned, and Chose His Own Oath
+summary: Fo'Gurn died defending the Misfits from a hydra, was raised and controlled through Jaaris's necromancy, reclaimed his will to protect Lavitz, and took his final rest in the Shadowfell.
 category: People & Legends
 image: /assets/uploads/gold-dragonborn-storm-warrior.png
 entry: BIO.028
@@ -13,7 +13,11 @@ facts: |-
   Close friend: Lavitz Shawe
   Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
-  Later public testimony: Disputed account of return in the Shadowfell
+  Death: Truly died confronting the hydra
+  Restoration: Raised and controlled through Jaaris's necromancy
+  Redemption: Broke conditioning by protecting Lavitz, before Jaaris's death
+  Final fate: Remained in Shadowfell to rest again
+  Appearance twenty years later: Means unresolved
 related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
 featured: false
@@ -33,7 +37,7 @@ Fo'Gurn trained within that tradition during Lavitz's years at Heaven's Heart. H
 
 Their bond mattered because it survived into a very different life. A friendship forged before an adventuring company existed became one of the human — and dragonborn — ties by which that company held together.
 
-The moment of Fo'Gurn's apparent death would later show how much Lavitz had come to depend upon the friend beside him.
+The moment of Fo'Gurn's death would later show how much Lavitz had come to depend upon the friend beside him.
 
 ## A member of the first company
 
@@ -49,7 +53,7 @@ Fo'Gurn's place among the Misfits was established through these travels. Althoug
 
 During the company's early travels, a **hydra** threatened the Misfits. Fo'Gurn chose to remain behind, buying the others time to escape.
 
-His companions survived. They believed him dead.
+His companions survived. **He died.** Their mourning was warranted.
 
 The stories of that day differ in their flourishes, as stories of brave last stands often do. What matters is the choice Fo'Gurn made: to remain before the hydra so his friends could live.
 
@@ -67,37 +71,35 @@ The paladin's choice left the companions time to flee, but it also left a living
 
 ## The years of mourning
 
-For Lavitz, Fo'Gurn's apparent death was more than the loss of an adventuring companion. It was the loss of a friend whose place in his life preceded the Misfits.
+For Lavitz, Fo'Gurn's death was more than the loss of an adventuring companion. It was the loss of a friend whose place in his life preceded the Misfits.
 
-[[Heureux]], who had witnessed enough losses to understand the difference between song and grief, later reflected that heroic sacrifice is more comfortable to celebrate than it is to survive. The people spared by Fo'Gurn's decision had to live with it long after the danger had passed.
+[[Heureux]], who had witnessed enough losses to understand the difference between song and grief, later reflected that heroic sacrifice is more comfortable to celebrate than it is to survive. The people spared by Fo'Gurn's decision had to live with it long after the danger had passed. Jaaris's later necromancy did not make Fo'Gurn's sacrifice less real.
 
 His absence also shaped the fellowship's history. The five publicly celebrated Misfits went on to face threats in which Fo'Gurn could no longer stand beside them. Their growing renown did not restore his place among them.
 
 To speak of the paladin only as a symbol of sacrifice would omit the years in which his friends remembered him as a person.
 
-## Jaaris and an unsettled fate
+## Jaaris and the stolen return
 
-Later investigations brought the Misfits into contact with evidence concerning the necromancer [[Jaaris]]. His crimes were connected to Fo'Gurn's disappearance and revealed that the fate the companions believed they had witnessed was more complicated than they knew.
+Fo'Gurn **truly died at the Hydra**. The necromancer **[[Jaaris]]** subsequently raised his body through dark necromancy and **compelled him against his former companions**. The changed paladin who appeared at Cid's fortress was neither an impostor nor a man who had merely survived unnoticed: he was Fo'Gurn, forced into a borrowed existence governed by another's will.
 
-Whatever Jaaris had done to Fo'Gurn, it had left his friends mourning a man whose fate was more complicated than they could have imagined.
+When the Misfits reached the Shadowfell, Lavitz followed his oldest friend into a separate room and fought him. Lavitz came to understand that defeating Fo'Gurn in combat would not be the same as saving him. Rather than deliver a final blow, **Lavitz deliberately lowered his defenses** and appealed to the friend he had known since Heaven's Heart.
 
-The Misfits' later encounter with [[Zauks and the False Lives|Zauks]] brought the hydra back in another form: as one of the dangers recreated from their memories. That illusion was not a second historical encounter with the same beast, and it did not make Fo'Gurn's sacrifice unreal.
+Fo'Gurn had an opening to strike. **He chose to defend Lavitz instead**, resisting Jaaris's conditioning through his own decision. **His freedom was reclaimed before Jaaris died.** Jaaris's later death brought the borrowed life sustaining Fo'Gurn toward its end; it did not create the paladin's redemption.
 
-What was uncertain concerned the fate of the man they had mourned, not the reason they had escaped.
+The exact words spoken in that duel are not preserved as a verbatim transcript. The sequence and moral choice are settled.
 
 ## The companion at the final confrontation
 
-The final campaign is preserved in **[[The Shadowfell Confrontation]]**, an account of the rescue of Melmiri and the company's choices, not simply of Cid's fate.
+The final campaign is narrated in **[[The Shadowfell Confrontation]]**. While the other companions battled Jaaris, undead dragons and Cid's defenders, Lavitz reached Fo'Gurn in a separate duel. After breaking free from Jaaris's conditioning, **the two paladins returned to the throne room together**.
 
-The Misfits' struggle against Cid reached its crisis at [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]]. The intervening pursuit passed through Ros Furband's captivity, Jinlin Vechon's defeat, and Zauks's illusions before the companions entered the Shadowfell and rescued her.
+Cid was preparing to strike down the badly wounded **[[Samuel the Devoted|Samuel]]**. Lavitz and Fo'Gurn intercepted the blow and fought alongside the company. The **[[Emerald of Armanti]]**, carried earlier by Anna, had enabled Samuel to channel Lowkee's spirit temporarily. Its purpose was to prevent Cid from returning to the Material Plane.
 
-In accounts of the final confrontation that circulated after the victory, Fo'Gurn **appeared again** before the friends who had believed him dead. Testimony recalls a painful confrontation with Lavitz in which the paladin refused to abandon his oldest friend and Fo'Gurn **chose to protect him**. The authorized account then describes Fo'Gurn carrying the **[[Emerald of Armanti]]**, a relic associated with Anna and the hope of Lowkee's assistance, and driving it against Cid during the struggle. The jewel's full operation belongs beyond the certainty of the public account; Fo'Gurn's protective choice does not depend upon understanding that magic. An immense black hand then seized the Blood King and drew him into an unknown darkness.
+As the Blood King tried to escape, **Fo'Gurn pressed the emerald into Cid's chest**. Black hands reached from the darkness and dragged Cid into the Beyond. The hands' identity remains unknown, and their arrival is not proof that they were controlled by the gem.
 
-Those present witnessed Cid's disappearance into the darkness but could not identify the power that carried him away. Accounts of Fo'Gurn's return likewise left the kingdom divided over what had occurred.
+Fo'Gurn's choice had brought him back to his friends for the end of the struggle, but **it could not preserve his borrowed existence**. Jaaris had been killed, and the necromantic bond sustaining Fo'Gurn was failing. He could not return to the Material Plane with the companions and **remained in the Shadowfell to rest one final time**. He and Lavitz were granted the goodbye that the Hydra's collapse had denied them. The words of that farewell have not been established.
 
-The earliest popular celebrations did not uniformly repeat every part of this testimony. The Archives therefore distinguish between what participants later described, what the wider kingdom commonly believed, and what scholars can conclusively explain.
-
-The public evidence does not explain the circumstances of his appearance or what ultimately became of him. Those gaps do not make his first sacrifice a fiction, nor do they erase the freedom of the choice attributed to him in the final struggle.
+Nearly twenty years later, Fo'Gurn's appearance alongside Samuel at the next summons remains a distinct mystery. **How he was able to return then is not yet known.** It must not be mistaken for proof that he had quietly lived among the Misfits after the Shadowfell.
 
 ## An original Misfit, not an afterthought
 

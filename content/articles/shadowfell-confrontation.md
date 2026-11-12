@@ -1,7 +1,7 @@
 ---
 title: The Shadowfell Confrontation
 subtitle: The Rescue of Melmiri and the Fall of the Blood King
-summary: The Misfits' final campaign carried them into the Shadowfell, where they rescued Queen Melmiri, faced Jaaris and Cid, and witnessed the Blood King's mysterious removal into darkness.
+summary: In the Shadowfell the Misfits faced Cid, Samuel briefly channeled Lowkee through the Emerald, Fo'Gurn overcame Jaaris's necromancy, and Melmiri helped the survivors escape.
 category: History & Chronicles
 entry: HIS.025
 era: Age of the Misfits
@@ -12,7 +12,8 @@ facts: |-
   Threats: Cid the Blood King; Jaaris and other defenders
   Notable companions: The Misfits; Anna; Samuel; Fo'Gurn
   Witnessed relic: Emerald of Armanti
-  Outcome: Melmiri rescued; Jaaris killed; Cid taken by an unknown force
+  Outcome: Melmiri rescued; Jaaris killed; Cid taken by unknown hands into the Beyond
+  Fo'Gurn: Necromantically raised; reclaimed his will; remained to rest again
   Historical consequence: The vindication of Jaznaar
 related: the-misfits,cid-the-blood-king,queen-melmiri,fo-gurn,jaaris,samuel-the-devoted,anna-lowkees-keeper,emerald-of-armanti,jaznaars-vindication,age-of-ascendancy
 source: The Living Chronicle, Chapters VI–VII, public historical account; the Royal Commission's testimony on the final Misfits campaign
@@ -39,31 +40,33 @@ The testimony is certain of the defenders' defeat but incomplete on every moveme
 
 ## The friend who appeared again
 
-Among the final confrontation's most difficult memories was the presence of **Fo'Gurn**, the brass dragonborn paladin whom the companions had mourned since he stayed behind to face a hydra so they could escape.
+The brass dragonborn **Fo'Gurn** had **died** defending the company against a hydra at the ruined temple near Stanleyville. Afterward **Jaaris resurrected him through necromancy and compelled him to fight the friends who mourned him**.
 
-The public accounts record a confrontation between Fo'Gurn and **[[Lavitz Shawe]]**, his closest friend from before the fellowship began. Lavitz refused to surrender the man he remembered to the danger confronting him. Fo'Gurn, in turn, **chose to protect Lavitz**.
+Within the Shadowfell fortress, **Lavitz followed Fo'Gurn into a separate chamber**. The paladins fought, but Lavitz understood that killing his friend would not release him from Jaaris's will. He **lowered his defenses** rather than deliver the fatal blow.
 
-The decision belongs in the history of the final battle because it was a moment of courage independent of the weapons raised elsewhere in the fortress. The witnesses did not leave behind a complete public explanation of Fo'Gurn's unexpected presence, and the Commission will not pretend that they did.
+Fo'Gurn could have struck. **He chose to protect Lavitz**, breaking the conditioning through an act of his own. This happened **before** Jaaris was killed: the death of the necromancer did not manufacture Fo'Gurn's recovery of free will.
 
-To readers who remember the hydra, the parallel is unmistakable. Twice Fo'Gurn's story was bound to the protection of his friends. That resemblance neither makes the two events identical nor erases the grief between them.
+The two returned to the central battle in time to intercept Cid's attack on a wounded Samuel. For a moment the companions fought beside the man whom they had thought lost forever.
 
 ## Samuel and the emerald
 
-The celestial **[[Samuel the Devoted|Samuel]]**, who had spent years pursuing Cid, also stood within the struggle. Accounts associate his intervention with the remembered legacy of the founding paladin **[[Lowkee]]** and with the **[[Emerald of Armanti]]**, a jewel that had traveled with **[[Anna, Lowkee's Keeper|Anna]]**, the Misfits' noncombatant companion.
+At the height of Cid's threat, unnatural fire turned into harmless butterflies and the exhausted company found a brief reprieve. **Anna**, the noncombatant friend who had traveled with the Misfits, arrived beside a radiant warrior who appeared to be the ancient paladin **[[Lowkee]]**.
 
-The ancient sword **Cid's Bane**, which Jaznaar had entrusted to Lavitz, and the emerald were **different relics**. Both were linked by memory to Lowkee, but their histories should not be compressed into a single object or a single act.
+The figure was **[[Samuel the Devoted|Samuel]]**, a Monadic Deva who **genuinely but temporarily channeled Lowkee's spirit through the [[Emerald of Armanti]]**. He addressed Cid as **Aldus** and fought him away from the throne room while the others confronted Jaaris and the defenders. Cid wounded Samuel severely, ending the manifestation. **Lowkee was not permanently raised from the dead.** The precise cause of the transformed flames remains unknown.
 
-The emerald's presence in this encounter is attested more clearly than the nature of its workings. Some accounts speak of a brief intervention associated with the old paladin. None of the surviving public testimony supports an unqualified claim that Lowkee was permanently restored to mortal life.
+The Emerald's intended purpose was **to bar Cid permanently from the Material Plane**. It was carried by Anna, later revealed to be **Erevan Ilesere in disguise**; its transfer to Fo'Gurn took place amid the battle without a recorded handoff.
+
+**Cid's Bane**, the sword Jaznaar had entrusted to Lavitz, was a separate heirloom of Lowkee's. Neither relic should be mistaken for the other.
 
 ## Cid's attempted escape
 
-The companions confronted the Blood King, but his end did not resemble the death of an ordinary enemy.
+The Misfits confronted Cid after Jaaris had fallen. With Samuel badly injured, Lavitz and Fo'Gurn reunited in the throne room and joined the fight that ended the Blood King's immediate power.
 
-As Cid attempted to escape through an opening into darkness, witnesses placed the **Emerald of Armanti in Fo'Gurn's hands**. The gem was driven against Cid. Then a **vast black hand**, or hands in some accounts, reached out and seized the Blood King, dragging him away.
+Cid sought escape through a dimensional doorway. **Fo'Gurn pressed the Emerald of Armanti into Cid's chest**, using the gem in accordance with its purpose of preventing the Blood King's return to the Material Plane.
 
-Those present witnessed his removal. They did **not** identify what had reached through the opening, who controlled it, or the realm into which Cid was taken. His departure was the end of the immediate confrontation, not documented proof that the being who had survived so much was annihilated forever.
+Then immense **black hands** reached from the darkness and took Cid into the **Beyond**. The accounts differ on whether witnesses saw a single vast hand or several; they describe the same event. **No one has established who or what directed those hands**. The Emerald's sealing action and the hands' removal of Cid were distinct. The later Godkiller's retrieval of Cid does not retroactively identify the hands that took him.
 
-The uncertainty is part of the history rather than a defect to be repaired. Cid's fate beyond the witnesses' sight remains unknown in the public account.
+The victory left one final pain. Because Jaaris's death had begun the failure of the dark existence sustaining him, **Fo'Gurn could not accompany his friends home**. He remained in the Shadowfell to **rest one last time**, able at least to say goodbye to Lavitz before the survivors escaped. The words of that farewell are not preserved.
 
 ## The queen who helped her rescuers
 

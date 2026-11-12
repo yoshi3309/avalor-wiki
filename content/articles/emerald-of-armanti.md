@@ -1,7 +1,7 @@
 ---
 title: Emerald of Armanti
 subtitle: A Jewel Between Two Generations of Heroes
-summary: A storied emerald associated with Anna, the search for Lowkee's Keeper, and the last confrontation between the Misfits and Cid; its full powers remain outside the public record.
+summary: The Emerald of Armanti was intended to bar Cid from the Material Plane and let Samuel channel Lowkee briefly; Fo'Gurn used it during the Blood King's final attempted escape.
 category: Faith, Magic & Cosmology
 entry: MAG.021
 era: Age of the Misfits
@@ -11,7 +11,10 @@ facts: |-
   Ancient name invoked: Lowkee Nicklebane
   Recorded role: Present in the final struggle with Cid
   Last known bearer in the confrontation: Fo'Gurn
-  Precise operation: Not established in public testimony
+  Established purpose: Bar Cid from returning to the Material Plane
+  Channeling: Samuel briefly channeled Lowkee's spirit
+  At Cid's defeat: Pressed into his chest by Fo'Gurn
+  Wider limits: Unresolved; not a general god-killing device
 related: anna-lowkees-keeper,lowkee,the-misfits,fo-gurn,cid-the-blood-king,samuel-the-devoted,planes-of-existence
 source: The Living Chronicle, Chapter VI, public account of the last confrontation; authorized testimony of the Misfits
 featured: false
@@ -19,28 +22,32 @@ featured: false
 
 ## The jewel and the hope it carried
 
-Among the unusual objects remembered from the last travels of [[The Misfits]], few have acquired more speculation than the **Emerald of Armanti**. Its name has survived because the jewel was associated with the search for **Lowkee's Keeper**, and because it appeared at a decisive moment in the confrontation with [[Cid the Blood King]].
+The **Emerald of Armanti** was not a nameless treasure whose function was forgotten by the end of the Misfits' campaign. **It was intended to prevent [[Cid the Blood King]] from returning to the Material Plane**. The relic was carried for much of the journey by **[[Anna, Lowkee's Keeper|Anna]]**, who was later revealed to be **Erevan Ilesere in disguise**.
 
-The stone was borne during the journey by **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant companion who traveled with the Misfits. Her association with the artifact should not be mistaken for a complete public explanation of its origin or enchantment.
+Its history has sometimes been simplified into a promise that Lowkee, the founding paladin, could be brought back. That expectation contained a truth, but not the permanent resurrection the phrase might suggest.
+
+Twenty years after the campaign, the relic's witnessed functions can be recorded. Its complete origins, every limitation of its effect, and the wider mechanics of planar sealing remain unknown; those mysteries should not be confused with a prohibition on explaining what it did.
 
 ## Lowkee's distant promise
 
-The name of **[[Lowkee]]** had endured since the founding age. Centuries after his death, the Misfits followed knowledge connected to a Keeper and a jewel that was said to offer hope of drawing upon the ancient paladin's strength against the Blood King.
+The emerald enabled **[[Samuel the Devoted|Samuel]]**, a Monadic Deva representing Tyr and Helm, to establish a **genuine, temporary spiritual connection with [[Lowkee]]**. Samuel appeared in the Shadowfell with the presence and voice of the ancient paladin, confronting Cid as **Aldus**, the name he had borne before the Black Tower.
 
-Later songs often shorten that hope into the claim that Lowkee would be brought back to save the company. The phrase is too simple to serve as an account of what the relic actually did. The Commission has not established a permanent return of Lowkee to mortal life, nor the full manner in which the emerald related to the final confrontation.
+Lowkee was **not permanently resurrected**. The divine channeling ended when Cid wounded Samuel. In that precise sense, the old hope that Lowkee might return to stand against the Blood King was partially fulfilled.
 
-The object belongs to the same family of remembered questions as **Cid's Bane**, Lowkee's former sword later given to Lavitz by Jaznaar. They are, however, **distinct relics**. The passage of a sword from one paladin to another should not be confused with the jewel's separate history.
+The sword **Cid's Bane** was a separate relic, once associated with Lowkee and later entrusted to Lavitz by Jaznaar. The emerald did not become a second sword, and no unconfirmed expedition to Lowkee's tomb is required to explain its presence.
 
 ## At the Blood King's last escape
 
-During the Shadowfell struggle, testimony places the emerald in the hands of **[[fo-gurn|Fo'Gurn]]** as Cid attempted to escape through a dark opening. The stone was driven against the Blood King, and a vast black hand—or hands, according to the witness—reached from the darkness and dragged him away.
+The jewel remained with Anna when Samuel appeared. During the struggle it passed into the hands of **[[fo-gurn|Fo'Gurn]]**; the transfer itself occurred outside the surviving witnesses' view. As Cid attempted to escape through a dimensional opening, **Fo'Gurn forced the Emerald into the Blood King's chest**.
 
-The sequence of visible events is better attested than the explanation. It would exceed the public evidence to identify the owner of the hand or to set out the emerald's complete design and limits as though the Commission had inspected them.
+Its established purpose was to **bar Cid permanently from the Material Plane**. It served the decisive sealing role for the original campaign's ending, but the exact effect upon Cid's soul and all possible future exceptions is not fully mapped.
+
+Then **a tremendous black hand, or hands in other accounts, seized Cid and pulled him into the Beyond**. The barrier made by the emerald and the force that physically removed him must be distinguished. **There is no established evidence that the emerald summoned the hands or that Auren controlled them during the original campaign.** Auren's later retrieval and resurrection of Cid belongs to a different, subsequent period.
 
 ## What a relic cannot tell us
 
-The Emerald of Armanti is often treated as the object that ended a war. Objects can be remembered more easily than the people whose choices placed them where they mattered.
+The Emerald's effects were consequential, but they were not the entire victory. It gave Samuel a moment of connection with Lowkee and became the seal Fo'Gurn wielded at Cid's attempted escape. Those are historical events, not secrets withheld from today's readers.
 
-Anna carried the stone without being one of the company’s celebrated warriors. Fo'Gurn's history was shaped by an earlier sacrifice and by his later choice to stand beside Lavitz. The surviving champions had reached Cid through years of mistakes, grief, friendship, and stubborn refusal to abandon others.
+What remains uncertain is the jewel's **origin, complete planar mechanism and wider limits**. It is not established as a general instrument capable of destroying gods or commanding the Beyond. The identity of the force that carried Cid away is similarly unresolved.
 
-The emerald belongs to that history. Its precise magic remains a question for which the public archive has no complete answer.
+The Misfits still had to rescue Melmiri, endure Jaaris and Cid, and stand beside Fo'Gurn as he resisted the will imposed upon him. No magical object replaces those choices.

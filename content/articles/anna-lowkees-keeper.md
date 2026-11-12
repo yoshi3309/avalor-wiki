@@ -1,7 +1,7 @@
 ---
 title: Anna, Lowkee's Keeper
-subtitle: The Companion Who Carried the Emerald
-summary: A tavern waitress known to the Misfits as Anna, associated with the search for Lowkee's Keeper and the Emerald of Armanti, who joined the fellowship as a beloved noncombatant companion.
+subtitle: Erevan Ilesere's Disguise and the Friend They Protected
+summary: Anna was the guise of Erevan Ilesere, who traveled with the Misfits as a seemingly vulnerable companion, carried the Emerald of Armanti, and revealed his identity after their victory.
 category: People & Legends
 entry: BIO.037
 era: Age of the Misfits
@@ -15,43 +15,45 @@ facts: |-
   Escaped: Ruined temple near Stanleyville
   Later voyage: Captivity aboard Ros Furband's galleon
   Final campaign: Present during the Shadowfell confrontation
-  Private history: Withheld at her request and by surviving witnesses
-related: the-misfits,lowkee,emerald-of-armanti,svendyal-shadowwhisper,lavitz-shawe,tellora-ebbenflow,fo-gurn,ros-furband,samuel-the-devoted
+  Revealed identity: Erevan Ilesere in the guise of Anna
+  Purpose of disguise: To test Sven's compassion and commitment to justice
+  Revelation: After the royal audience in Renada
+related: the-misfits,lowkee,emerald-of-armanti,svendyal-shadowwhisper,lavitz-shawe,tellora-ebbenflow,fo-gurn,ros-furband,samuel-the-devoted,threefold-devotion,misfits-return-to-renada
 source: The Living Chronicle, Chapter VI, public historical account; public testimony of the Misfits
 featured: false
 ---
 
 ## The woman the ballads almost missed
 
-In the great songs about [[The Misfits]], Anna seldom receives the prominence given to the companions who carried swords or cast spells. She was not one of the original five adventurers, nor the bard who later joined them. **She was a noncombatant traveling companion**, and her place in the fellowship was won through the ordinary, persistent work of friendship.
+For much of their campaign, [[The Misfits]] knew **Anna** as a tavern waitress who had joined their travels during the search for Lowkee's Keeper. She seemed to be an ordinary woman, a noncombatant who needed their protection. She traveled with them through danger, shared captivity and became one of the people they counted as family.
 
-The Royal Commission has preserved her known name, **Anna**, and the designation by which the travelers came to associate her with their search: **Lowkee's Keeper**. The exact origin and formal authority of that title are not securely established in the public record. It should not be mistaken for an invented rank in the Cathedral Paladins.
+**Anna was Erevan Ilesere in disguise.** After the campaign's victory and the royal audience in Renada, Erevan revealed that he had accompanied the fellowship in this form. The revelation belongs to the completed history of the Misfits, not to a secret that must remain hidden from readers twenty years later.
 
-The importance of Anna's presence becomes clearer when the adventure is read as the history of people rather than merely of battles. The company made room for a woman who needed their protection, and in time she became someone whose fate mattered to them as much as that of a fellow warrior.
+The distinction between appearance and truth matters. Erevan was not a mortal waitress in danger of annihilation. The companions who believed they were protecting Anna, however, faced **real dangers**. Their friendship, sacrifices and decisions did not become meaningless because the person they guarded was a god.
 
 ## A meeting during the search
 
-The Misfits were following clues associated with **[[Lowkee]]**, the paladin of [[The Six]], when they met Anna working as a **tavern waitress**. There was nothing solemn about the first encounter. Surviving recollections remember [[svendyal-shadowwhisper|Sven]] stumbling awkwardly into her, an embarrassment that gave the others much more reason to laugh than to wonder whether destiny had entered the room.
+The travelers were seeking information concerning **[[Lowkee]]** and his Keeper when they encountered Anna working in a tavern. The first meeting was remembered for a decidedly unheroic reason: [[svendyal-shadowwhisper|Sven]] stumbled into her, embarrassing himself before the company.
 
-In another version of the story such a meeting might have been reduced to a comic interruption. Instead, Anna joined the road with them. The question of Lowkee's Keeper was real enough to keep the company searching; Anna's own circumstances gave them another reason to watch over someone vulnerable to the enemies they were making.
+The apparently ordinary woman soon joined their travels. She was not a member of the original adventuring party and did not fight beside them as another trained warrior. Yet her place among them became real because their concern for her was real.
 
-The companions spoke of her as a person, not a relic or an assignment. She remained with them through dangers in which her lack of combat training made the protection of her friends especially important.
+The disguise had a purpose beyond accompanying an expedition. **Erevan, together with Vandria Gilmadrith, had called Sven toward a life of justice rather than vengeance.** By presenting Anna as vulnerable, Erevan tested whether Sven could choose care and protection over his own wounds and anger. That test was morally complicated: divine protection for the disguised god did not spare the mortals who took risks to protect 'Anna'.
 
 ## The Emerald of Armanti
 
-Anna's journey became connected with an unusual jewel, the **[[Emerald of Armanti]]**. Its name survives in accounts of an effort to call upon the legacy of Lowkee during the final struggle with the Blood King. Some tales speak loosely of bringing the ancient paladin back to help the new generation. The Royal Commission cannot certify the complete meaning or mechanism of that expectation.
+Anna carried the **[[Emerald of Armanti]]**, a relic intended to **bar Cid permanently from returning to the Material Plane**. This purpose was not merely a vague legend about calling an ancient hero home.
 
-Anna was remembered as the emerald's keeper and bearer during the company's travels. The jewel did not make her a frontline warrior; nor was its importance a reason to treat her as something less than a member of the company she accompanied.
+The emerald also enabled **[[Samuel the Devoted|Samuel]]** to make a genuine but **temporary spiritual connection with Lowkee**, the paladin of Avalor's founding Six. It did **not** restore Lowkee permanently to mortal life. The hope that the stone might 'bring Lowkee back' was therefore partly true, but the outcome was more limited and more precise.
 
-A later account places the emerald in the last confrontation with Cid. The public evidence establishes the relic's presence and importance without claiming to reveal the whole of its working.
+The stone traveled with Anna through much of the campaign. During the final battle it passed into Fo'Gurn's hands while fighting was underway; the exact handoff was not witnessed. **Fo'Gurn pressed the Emerald into Cid's chest** as the Blood King attempted to escape. The gem's intended barrier and the dark hands that seized Cid were **separate events**, not proof that the jewel summoned or controlled the hands.
 
 ## The temple near Stanleyville
 
-At the ruined temple near [[Stanleyville]], the Misfits were brought under the control of Cid and his servants. **Anna was among those seized and threatened there**, at an altar prepared for a dangerous rite. The company faced restraints, fear, and an enemy who sought to turn their losses and loyalties against them.
+At the ruined temple near [[Stanleyville]], the Misfits were captured by servants of Cid. Anna was placed on an altar prepared for a dangerous rite, and the company struggled against restraints and foes who treated living prisoners as instruments of their plans.
 
-The escape came at a terrible price. [[fo-gurn|Fo'Gurn]] stayed to face the hydra while his friends fled; Captain Funkin, Inspector Sihnion and trapped guards died. **Anna escaped**, as did the preceding Lord Marshal, who would meet his death later in Stanleyville.
+It was a genuine crisis for the companions. **Erevan himself was not an ordinary mortal at risk of being destroyed as Anna**, but the others did not know this, and the danger to them was neither illusion nor theatre. Their responses were precisely the kind of choices the divine disguise sought to reveal.
 
-The temple did not take Anna out of the company. She continued to travel with people who had endured the knowledge that one friend's sacrifice made their survival possible.
+[[fo-gurn|Fo'Gurn]] remained behind when a hydra threatened the escape. He **truly died** buying time for his friends. Captain Funkin, Inspector Sihnion and trapped guards also perished. Anna and the preceding Lord Marshal escaped; the Marshal was killed later, by the Stalker in Stanleyville.
 
 ## A galley far from home
 
@@ -63,12 +65,18 @@ The voyage led toward Jinlin Vechon and the Wrath of Innocent, not directly to t
 
 ## In the last struggle
 
-The final confrontation carried the company into the **Shadowfell**. Surviving witnesses place Anna among the companions who faced the Blood King and sought to recover Melmiri. The **Emerald of Armanti** appeared again in that struggle, and testimony later placed it in Fo'Gurn's hands when Cid attempted to escape.
+The Misfits finally reached Cid's fortress in the **Shadowfell**. As Cid threatened the company, Anna appeared with a radiant warrior who seemed to be the long-dead **Lowkee**. The warrior was **Samuel**, temporarily channeling Lowkee's spirit through the **Emerald of Armanti**. Cid wounded Samuel and broke that manifestation, but the intervention allowed the Misfits to press the fight against Jaaris and the Blood King's defenders.
 
-The accounts differ in how much of the relic's work they can explain. They do not justify making Anna's whole life a technical account of a magical object. She had been a friend on the road, a frightened captive, a fellow traveler and a witness to the end of a kingdom's oldest deception.
+Later, the emerald passed from Anna to Fo'Gurn while the battle was underway. **Fo'Gurn drove it against Cid's chest**, carrying out the jewel's intended barrier against the Blood King's return to the Material Plane. The black hands that then took Cid into the Beyond have no established owner and cannot automatically be attributed to Erevan, the Emerald or the later Godkiller.
 
-## What the record chooses not to say
+Erevan's disguise had survived an entire journey of companionship and difficult choices. Its meaning would be made plain only after the queen was safely returned.
 
-Some circumstances of Anna's earlier life and her later wishes remain deliberately absent from the public history. Those gaps should not be filled by guessing at her parentage, inventing a hidden office, or assigning motives the witnesses did not disclose.
+## The revelation after the royal audience
 
-The account of the Misfits is incomplete without her. Its most important lesson may be that a fellowship is not measured only by the names of those who fought in its last battle. Anna belonged because the companions made a place for her—and because she chose to remain.
+After Queen Melmiri returned to Renada and the five celebrated Misfits accepted their royal offers, **Samuel explained that Lowkee's appearance had been a temporary channeling**. Then Anna revealed that the person beneath the guise was **Erevan Ilesere**.
+
+**Vandria Gilmadrith** appeared alongside Erevan. The two offered Sven the return of **Tristan and Kristofer**, the loved ones he had lost, at the price of surrendering his memories and the life shaped by those losses. **Sven gave no answer.** The offer must not be recast as an acceptance, rejection, or bargain already completed.
+
+The unveiling did not erase the woman the party thought it knew or the care invested in her. It forced a more difficult question: what does it mean when a god tests mortals through risks that only the mortals truly bear?
+
+The Royal Archives can now identify Erevan's role without pretending to resolve its morality. The events happened; their interpretation belongs, in part, to those whose choices were tested.

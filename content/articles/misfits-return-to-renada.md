@@ -16,7 +16,7 @@ The Misfits returned to **Renada** with **[[Queen Melmiri]]**, whose abduction a
 
 It did not erase the cost. The capital's celebrations took place beside mourning for those who had died during the campaign: the preceding Lord Marshal, Captain Funkin, Inspector Sihnion, guards lost at the ruined temple, **[[fo-gurn|Fo'Gurn]]**, and other people whose names never achieved the same public renown as those of the champions.
 
-Fo'Gurn had stayed behind to face a hydra so the company could escape. His unexpected presence in the last battle did not cancel the real loss the companions carried from the temple. The kingdom's ceremonies could honor his sacrifice without claiming full public knowledge of the mystery surrounding his final appearance.
+Fo'Gurn had **truly died** facing the hydra. Jaaris later raised him through necromancy and attempted to use him against his old companions. Fo'Gurn reclaimed his freedom in the Shadowfell, then could not return to Renada: with Jaaris dead, his borrowed life was failing and he remained to rest again. The kingdom honored him in absentia; his body did not come home.
 
 ## A reckoning with the past
 
@@ -46,12 +46,14 @@ The five celebrated survivors did not stay together as a constantly traveling ad
 
 That change was **not a quarrel**. Lavitz, Tel'Lora, and Sven continued to cooperate closely; Heureux and Amara carried their friendships into lives that increasingly took them elsewhere. The complete company did not reunite as a full traveling fellowship during those intervening years.
 
-The history would also be incomplete without **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant friend who had shared their dangers, and **[[Jack of Stanleyville|Jack]]**, the murdered boy whose ghost found companionship rather than abandonment. The published names of the five did not exhaust the people who had belonged to them.
+The history would also be incomplete without **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant friend later revealed as **Erevan Ilesere in disguise**, and **[[Jack of Stanleyville|Jack]]**, the murdered boy whose ghost found companionship rather than abandonment. The published names of the five did not exhaust the people who had belonged to them.
+
+## The revelation outside the royal chamber
+
+After the royal audience, **Samuel clarified that the appearance of Lowkee during the Shadowfell battle had been a temporary channeling**, not the founder's permanent return. Then Anna revealed the truth of her long companionship: **she was Erevan Ilesere in disguise**, testing Sven's resolve to choose protection and justice over vengeance.
+
+**Vandria Gilmadrith** appeared alongside Erevan and offered Sven a choice. The two would restore **Tristan and Kristofer**, his lost husband and child, but the cost would be the memory of the life he had lived since their deaths. **Sven did not answer.** Neither acceptance nor refusal is part of the concluded historical record.
+
+The revelation cast Anna's apparent vulnerability in a different light. Erevan was not an ordinary mortal at risk of annihilation; the dangers faced by his friends were nevertheless real. The account need not make the divine test comfortable merely because it was conducted by a god.
 
 ## An age made by choices after war
-
-Avalor's growing standing in the world would come to be called the **[[The Age of Ascendancy|Age of Ascendancy]]**. Yet a kingdom's reputation could not rest permanently on a single rescued queen or defeated enemy.
-
-The renewed work fell to those who governed, taught, defended travelers, preserved memory, and asked the crown to live up to the truths its heroes had returned to reveal. The Misfits were no longer always walking the same road. Their choices continued to shape the kingdom through different lives.
-
-Their journey had begun inside an impossible house, far from the ceremonies that now honored them. It ended as a fellowship that did not need to remain in one place to endure.
