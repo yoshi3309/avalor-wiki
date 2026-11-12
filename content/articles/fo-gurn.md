@@ -14,7 +14,7 @@ facts: |-
   Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
   Later public testimony: Disputed account of return in the Shadowfell
-related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
+related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
 featured: false
 ---
@@ -86,6 +86,8 @@ The Misfits' later encounter with [[Zauks and the False Lives|Zauks]] brought th
 What was uncertain concerned the fate of the man they had mourned, not the reason they had escaped.
 
 ## The companion at the final confrontation
+
+The final campaign is preserved in **[[The Shadowfell Confrontation]]**, an account of the rescue of Melmiri and the company's choices, not simply of Cid's fate.
 
 The Misfits' struggle against Cid reached its crisis at [[The Tournament of Champions]], when the Blood King abducted [[Queen Melmiri]]. The intervening pursuit passed through Ros Furband's captivity, Jinlin Vechon's defeat, and Zauks's illusions before the companions entered the Shadowfell and rescued her.
 

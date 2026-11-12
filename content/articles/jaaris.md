@@ -15,7 +15,7 @@ facts: |-
   Linked to: Fo’Gurn
   Distinct from: Necromancer of the first commission
   Later imitation: Zauks's remembered trials
-related: anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
+related: shadowfell-confrontation,anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
@@ -28,6 +28,8 @@ When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] esca
 Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief of those years had been real.
 
 ## The temple and the last confrontation
+
+Jaaris's eventual death belongs to **[[The Shadowfell Confrontation]]**, the public record of the Misfits' final campaign against Cid.
 
 Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, the Lord Marshal and others caught in the Blood King's design.
 

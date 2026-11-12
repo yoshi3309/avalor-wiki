@@ -15,7 +15,7 @@ facts: |-
   First commission: Investigation by the preceding Lord Marshal
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
-related: lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
+related: shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
 source: The Living Chronicle, Chapters VI–VII; Compendium II · Entries II.001–II.002, public Scholar's Accounts
 callouts:
   - type: reflection
@@ -205,7 +205,7 @@ When the Misfits emerged, the queen was still captive. They had escaped an inven
 
 ## VII. The Shadowfell confrontation
 
-The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
+The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The complete public account of this conclusion is preserved as **[[The Shadowfell Confrontation]]**, a historical episode in its own right rather than merely a chapter in the Blood King's biography. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
 
 Authorized accounts describe **Fo'Gurn's unexpected presence** and a confrontation with Lavitz. They preserve the moral outline of a friend who refused to answer danger with abandonment, and of Fo'Gurn **choosing again to protect Lavitz**. The precise circumstances of his appearance and the words exchanged between the paladins remain outside the securely established public narrative.
 
