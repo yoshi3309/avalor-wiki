@@ -117,7 +117,7 @@ After Moonville Manor, the preceding Lord Marshal called upon the companions to 
 
 This first commission was not their first adventure, nor was the enemy the later necromancer [[Jaaris]]. The recovered writings do not establish that Cid had directed the practitioner or arranged the companions' meeting. The full inquiry is preserved in [[The Misfits’ First Commission|the record of the first commission]].
 
-The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-golgoroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]], a wizard transformed into a sheep, became one of the road's more improbable stories. Not every strange event was an instrument of the Blood King.
+The Lord Marshal called upon them again to investigate the [[Independent Factions of the Misfits Era#the-cult-of-gol-goroth|cult of Gol'Goroth]]. During that second commission, Heureux joined the company. Their subsequent encounter with [[Noki]], a wizard transformed into a sheep, became one of the road's more improbable stories. Not every strange event was an instrument of the Blood King.
 
 ## II. Adventures beyond the Blood King's shadow
 
