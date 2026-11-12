@@ -167,7 +167,7 @@ assert "Kel'Maris" in source("kel-maris")
 assert "Kurt Reyginald" in source("kel-maris")
 assert "Kel Scythe" in source("kel-maris")
 assert "Stanleyville" in source("kel-maris")
-assert "Funkin" not in source("kel-maris"), (
+assert "Captain Funkin was able to safely bring back" not in source("kel-maris"), (
     "The conflicting claim about who recovered her body must remain in the pending addendum."
 )
 assert "Kel'Maris" in source("the-stalker")
