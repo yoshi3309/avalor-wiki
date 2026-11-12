@@ -1,7 +1,7 @@
 ---
 title: Noki
 subtitle: From the Sheep Incident to Noke
-summary: Once a disgraced mage transformed into a sheep by the Misfits, Noki survived and later emerged as Noke, a scarred and powerful servant of the Den Mother whose mind remains as formidable as his transformed body.
+summary: The Misfits fought Noki before his disfigurement. He survived the encounter, was disfigured at its end, and afterward took the name Noke before emerging as a powerful servant of the Den Mother.
 category: People & Legends
 image: /assets/uploads/noki.png
 entry: BIO.030
@@ -10,7 +10,9 @@ facts: |-
   Earlier name: Noki
   Later name: Noke
   Original calling: Mage
-  Earlier fate: Transformed into a sheep by the Misfits
+  Early encounter: Fought the Misfits while still undisfigured
+  Sheep incident: Transformed into a sheep during the encounter
+  Disfigurement: At the end of that encounter
   Misfits' belief: Noki had died
   Actual outcome: Survived
   Later allegiance: The Den Mother
@@ -26,11 +28,11 @@ featured: false
 
 Among the stranger episodes in the travels of [[The Misfits]] was their encounter with **Noki**, a mage whose extraordinary humiliation would become one of the fellowship's most often repeated stories.
 
-The important distinction is that **the Misfits turned Noki into a sheep**. They did not simply happen upon an unknown wizard already transformed. In the aftermath they believed that the sheep—and with it Noki himself—had died. For the companions, the affair was over.
+Noki was **not yet disfigured when he fought the Misfits**. The confrontation became notorious for his transformation into a sheep; whatever other follies marked the affair, the hulking monstrous figure of later years was not the opponent they first encountered.
 
-Their judgment was mistaken.
+**His disfigurement happened at the end of that encounter.** The companions believed Noki had died. Their conclusion was mistaken: he survived, though the surviving account does not establish every circumstance of his escape or recovery.
 
-The circumstances of his survival and the means by which he escaped that condition have not been reliably established in the public account. What is certain is that Noki lived beyond the encounter that seemed to have ended his story.
+The distinction between before and after is fundamental to his history. The Misfits confronted Noki the mage; the being who would eventually emerge from that ordeal looked very different.
 
 ## A memory turned against the Misfits
 
@@ -40,11 +42,11 @@ This distinction matters because the Misfits' understanding of Noki was limited.
 
 ## The figure later called Noke
 
-In later accounts the mage is known as **Noke**. The name belongs to the same individual, but the outward appearance is almost unrecognizable.
+**Only after the disfigurement** did the mage adopt the name **Noke**. The new name was a fitting counterpart to a more monstrous appearance and personality. The title and disfigured shape must not be projected backward onto his original fight with the Misfits.
 
 Noke's body is **scarred, twisted and unnaturally transformed**. He is a hulking, intimidating figure whose size and bearing might suggest an unthinking brute. That impression is dangerously mistaken. Beneath the altered flesh remains a sharp, capable mind with a strong affinity for powerful magic.
 
-The record does not establish precisely who caused the alteration, what ritual or accident produced it, or how it relates to his earlier transformation into a sheep. Neither the newer name nor the changed body is sufficient evidence for an invented chain of events.
+The **timing** of the disfigurement is established, at the encounter's end. Its **exact mechanism** and the intervening events remain insufficiently described. The new name should not become an excuse to invent a ritual, culprit, or missing journey.
 
 ## The Den Mother's unpredictable servant
 
