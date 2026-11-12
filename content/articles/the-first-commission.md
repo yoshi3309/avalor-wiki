@@ -1,16 +1,23 @@
 ---
-title: "The Misfits’ First Commission"
-subtitle: "An Investigation Before the Legend"
-summary: "The first royal assignment of an already-traveling fellowship, undertaken after Moonville Manor."
+title: The Misfits’ First Commission
+subtitle: An Investigation Before the Legend
+summary: The first royal assignment of an already-traveling fellowship,
+  undertaken after Moonville Manor.
 category: History & Chronicles
+image: /assets/uploads/the-misfits-first-commission.png
 entry: HIS.015
-era: "Age of the Misfits"
-facts: "Earlier adventure: Moonville Manor\nCommissioner: The preceding Lord Marshal\nThreat: An unnamed necromancer\nResult: The adventurers defeated the practitioner\nLater evidence: Fragments of magical research\nDistinct later enemy: Jaaris"
+era: Age of the Misfits
+facts: |-
+  Earlier adventure: Moonville Manor
+  Commissioner: The preceding Lord Marshal
+  Threat: An unnamed necromancer
+  Result: The adventurers defeated the practitioner
+  Later evidence: Fragments of magical research
+  Distinct later enemy: Jaaris
 related: anna-lowkees-keeper,the-misfits,cult-of-golgoroth,rotten-husk-clan,noki-the-sheep
-source: "The Living Chronicle, Chapter VI, I–II; Master Canon Bible Volume I, V"
+source: The Living Chronicle, Chapter VI, I–II; Master Canon Bible Volume I, V
 featured: false
 ---
-
 ## Before a fellowship had a name
 
 The companions later called [[The Misfits]] had **already faced Moonville Manor** before the preceding Lord Marshal of Avalor summoned them to investigate an **unnamed necromancer**. This was their first *royal commission*, not the first adventure shared by the company.
