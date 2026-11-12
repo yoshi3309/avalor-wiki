@@ -135,3 +135,18 @@ At the Shadowfell fortress, Lavitz lowered his defenses rather than destroy Fo'G
 4. **Compendium Volume II**: No invented locations; King Gerran's reign, Ilyanamel and Renada references are grounded in existing place and royal history.
 
 **Status:** Addendum 003 records established facts and editorial choices, not speculative origin stories.
+
+
+## Addendum 004 - Minor-character indexes and stable section links (November 12, 2026)
+
+**Status: EDITORIAL ORGANIZATION ONLY - no new lore added.** The creator asked for Wikipedia-style collective pages for minor heroes and minor villains, where each character has a short, stable, individually linkable section and a separate full biography is not required.
+
+- New **Minor Heroes & Allies** record (`content/articles/minor-heroes-and-allies.md`; BIO.059) contains **Kurt Reyginald, Captain Funkin, Inspector Sihnion, Quill, Mira, Nimbus, and Nadja Akayrn**. The first three previous standalone records were consolidated; the remaining four draw only on existing public descriptions of royal military commands.
+- New **Minor Villains & Adversaries** record (`content/articles/minor-villains-and-adversaries.md`; BIO.060) contains **Karina, Black Agnes Mudwallow, and Ros Furband**, whose original short standalone pages have been consolidated. **Jaaris, Zauks, Noki/Noke, Jinlin Vechon, and Cid retain their own longer articles**.
+- Previously published links and bookmarks to `kurt-reyginald`, `captain-funkin`, `inspector-sihnion`, `karina`, `black-agnes-mudwallow`, and `ros-furband` now redirect automatically to the exact named `#heading` in the corresponding parent index. Search preserves discoverability under the original character name; internal wiki links and related cards resolve to the section.
+- The 15-chapter Misfits reading journey may link optional deeper reading **directly to a section fragment** instead of the parent page's beginning. Anchors must be validated against actual headings and preserved when an entry is edited.
+- A contextual illustration of the **Avalorian Forces** appears inline beside the Quill record. It is explicitly **not** asserted to be a confirmed portrait of Quill or the other commanders. Additional verified or creator-approved portraits can be placed inline beside individual entries later.
+- **King Gerran Frozenroar stays standalone** as a former sovereign, while full-history figures retain separate articles. Characters may be promoted to individual pages only if their approved story becomes substantial; redirect the old section link or preserve its anchor when doing so.
+- Existing Addendum 003 source references to former standalone `.md` files are historical creation notes, not current URL instructions; the corresponding histories survive within the indexed sections. No changes are required to the four master PDFs now because no new biographical fact has been approved.
+
+**Index link convention:** `/articles/minor-heroes-and-allies/#captain-funkin` and `/articles/minor-villains-and-adversaries/#karina` are representative canonical section destinations. The original URL for either character continues to resolve via redirect.

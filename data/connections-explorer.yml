@@ -9,7 +9,7 @@ nodes:
   - {article: "heureux", kind: "people"}
   - {article: "jack-of-stanleyville", kind: "people"}
   - {article: "anna-lowkees-keeper", kind: "people"}
-  - {article: "ros-furband", kind: "people"}
+  - {article: "ros-furband", kind: "people", summary: "A hired pirate captain who held the Misfits aboard his galleon and delivered them toward Jinlin Vechon while Queen Melmiri remained missing."}
   - {article: "malikeah", kind: "people"}
   - {article: "mera-ashenfall", kind: "people"}
   - {article: "samuel-the-devoted", kind: "people"}

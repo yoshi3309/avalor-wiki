@@ -192,26 +192,46 @@ assert "Jaaris" in source("svendyal-shadowwhisper")
 assert "Fo'Gurn chose to protect Lavitz" in source("jaaris")
 assert "The earlier necromancer" in source("jaaris")
 
-# Compact character archive, Addendum 003 - established events, not new hidden lore.
-for slug in (
-    "karina",
-    "black-agnes-mudwallow",
-    "jinlin-vechon",
-    "captain-funkin",
-    "inspector-sihnion",
-    "kurt-reyginald",
-    "king-gerran-frozenroar",
+# Addendum 003 identities retained within two compact character indexes.
+minor_heroes = source("minor-heroes-and-allies")
+minor_villains = source("minor-villains-and-adversaries")
+for slug, hub in (
+    ("kurt-reyginald", "minor-heroes-and-allies"),
+    ("captain-funkin", "minor-heroes-and-allies"),
+    ("inspector-sihnion", "minor-heroes-and-allies"),
+    ("ros-furband", "minor-villains-and-adversaries"),
+    ("karina", "minor-villains-and-adversaries"),
+    ("black-agnes-mudwallow", "minor-villains-and-adversaries"),
 ):
-    assert (ROOT / "content" / "articles" / f"{slug}.md").is_file(), slug
-assert "ice-blue crystal" in source("karina")
-assert "Tel'Lora" in source("karina")
-assert "Misfits defeated and killed" in source("black-agnes-mudwallow")
+    assert not (ROOT / "content" / "articles" / f"{slug}.md").exists(), slug
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[slug]["parent"] == hub
+    assert merges[slug]["section"] == slug
+    redirect = ROOT / "_site" / "articles" / slug / "index.html"
+    assert redirect.is_file()
+    assert f"articles/{hub}/#{slug}" in redirect.read_text(encoding="utf-8")
+    destination = ROOT / "_site" / "articles" / hub / "index.html"
+    assert f'id="{slug}"' in destination.read_text(encoding="utf-8")
+for heading in ("Kurt Reyginald", "Captain Funkin", "Inspector Sihnion",
+                "Quill", "Mira", "Nimbus", "Nadja Akayrn"):
+    assert f"## {heading}" in minor_heroes
+for heading in ("Karina", "Black Agnes Mudwallow", "Ros Furband"):
+    assert f"## {heading}" in minor_villains
+assert "ice-blue crystal" in minor_villains
+assert "Tel'Lora" in minor_villains
+assert "Misfits defeated and killed Black Agnes" in minor_villains
 assert "defeated Jinlin in an actual confrontation" in source("jinlin-vechon")
-assert "Captain Funkin" in source("captain-funkin")
-assert "Stalker" in source("captain-funkin")
-assert "Hydra temple" in source("captain-funkin")
-assert "Kel'Maris" in source("kurt-reyginald")
+assert "Captain Funkin" in minor_heroes
+assert "Stalker" in minor_heroes
+assert "Hydra temple" in minor_heroes
+assert "Kel'Maris" in minor_heroes
 assert "1946 to 1982" in source("king-gerran-frozenroar")
+# Deeper-reading links retain direct anchors to individuals inside the indexes.
+journey_html = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
+assert "articles/minor-heroes-and-allies/#captain-funkin" in journey_html
+assert "articles/minor-heroes-and-allies/#inspector-sihnion" in journey_html
+assert "articles/minor-villains-and-adversaries/#karina" in journey_html
+assert "articles/minor-villains-and-adversaries/#ros-furband" in journey_html
 assert "Noke" in source("noki-the-sheep")
 assert "Den Mother" in source("noki-the-sheep")
 assert "Amara" in source("zauks")

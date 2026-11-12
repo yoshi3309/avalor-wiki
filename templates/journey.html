@@ -38,7 +38,7 @@
             <summary>Deeper reading · {{step.deeper_reading|length}} related {% if step.deeper_reading|length == 1 %}account{% else %}accounts{% endif %}</summary>
             <ul>
               {% for extra in step.deeper_reading %}
-              <li><a href="{{root}}articles/{{extra.article.slug}}/">{{extra.article.title}} ↗</a><span>{{extra.note}}</span></li>
+              <li><a href="{{root}}articles/{{extra.article.slug}}/{% if extra.fragment %}#{{extra.fragment}}{% endif %}">{% if extra.fragment %}{{extra.fragment|replace('-', ' ')|title}}{% else %}{{extra.article.title}}{% endif %} ↗</a><span>{{extra.note}}</span></li>
               {% endfor %}
             </ul>
           </details>

@@ -402,7 +402,11 @@ for raw_journey in JOURNEYS_SOURCE.get('journeys', []):
                     or extra_slug in companion_slugs or not extra_note):
                 raise ValueError(f'Journey {ident}: chapter {number} has invalid supplemental reading {extra_slug}')
             companion_slugs.add(extra_slug)
-            companions.append({'article': BY_SLUG[extra_slug], 'note': extra_note})
+            raw_fragment = str(extra.get('fragment') or '').strip()
+            fragment = slugify(raw_fragment) if raw_fragment else ''
+            if raw_fragment and (not fragment or fragment not in {h['id'] for h in BY_SLUG[extra_slug]['headings']}):
+                raise ValueError(f'Journey {ident}: chapter {number} has unknown deeper-reading section {extra_slug}#{raw_fragment}')
+            companions.append({'article': BY_SLUG[extra_slug], 'fragment': fragment, 'note': extra_note})
         mapped_steps.append({
             'number': number, 'article': BY_SLUG[article_slug],
             'label': str(raw_step['label']), 'introduction': str(raw_step['introduction']),
@@ -548,11 +552,16 @@ CONNECTION_WEB_BY_ARTICLE = {}
 for raw_node in CONNECTION_WEB_SOURCE.get('nodes', []):
     slug = str(raw_node.get('article') or '')
     kind = raw_node.get('kind')
-    if slug not in BY_SLUG or kind not in WEB_KINDS or slug in CONNECTION_WEB_BY_ARTICLE:
+    if (slug not in BY_SLUG and slug not in MERGES) or kind not in WEB_KINDS or slug in CONNECTION_WEB_BY_ARTICLE:
         raise ValueError('Connection Explorer has unknown, duplicated or mistyped public node: ' + slug)
-    source_article = BY_SLUG[slug]
-    item = {'id': slug, 'article': slug, 'label': source_article['title'],
-            'kind': kind, 'summary': source_article['summary']}
+    # A consolidated character keeps its historical node ID. The legacy article
+    # URL redirects to a stable heading inside the Minor Characters index.
+    retired = MERGES.get(slug)
+    source_article = BY_SLUG[retired['parent']] if retired else BY_SLUG[slug]
+    node_label = retired['title'] if retired else source_article['title']
+    node_summary = str(raw_node.get('summary') or source_article['summary'])
+    item = {'id': slug, 'article': slug, 'label': node_label,
+            'kind': kind, 'summary': node_summary}
     CONNECTION_WEB_NODES.append(item)
     CONNECTION_WEB_BY_ARTICLE[slug] = item
 if len(CONNECTION_WEB_NODES) < 15:
@@ -566,13 +575,13 @@ for raw_edge in CONNECTION_WEB_SOURCE.get('edges', []):
     label = str(raw_edge.get('label') or '').strip()
     pair = tuple(sorted((left, right)))
     if (left not in CONNECTION_WEB_BY_ARTICLE or right not in CONNECTION_WEB_BY_ARTICLE or
-            left == right or pair in connection_pairs or evidence not in BY_SLUG or
+            left == right or pair in connection_pairs or (evidence not in BY_SLUG and evidence not in MERGES) or
             typ not in WEB_EDGE_TYPES or not label):
         raise ValueError('Connection Explorer has an unsupported/duplicate relationship: ' + left + '/' + right)
     connection_pairs.add(pair)
     CONNECTION_WEB_EDGES.append({'from': left, 'to': right, 'label': label,
                                  'type': typ, 'evidence': evidence,
-                                 'source_title': BY_SLUG[evidence]['title']})
+                                 'source_title': MERGES[evidence]['title'] if evidence in MERGES else BY_SLUG[evidence]['title']})
 if len(CONNECTION_WEB_EDGES) < 25:
     raise ValueError('Connection Explorer has too few curated relationships')
 if any(not any(e['from']==n['id'] or e['to']==n['id'] for e in CONNECTION_WEB_EDGES) for n in CONNECTION_WEB_NODES):
