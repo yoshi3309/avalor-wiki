@@ -43,9 +43,6 @@ groups:
       - king-gradvum-frozenroar
       - queen-melmiri
       - kel-maris
-      - kurt-reyginald
-      - captain-funkin
-      - inspector-sihnion
       - belgram-mountain-hall
       - myxi-twinefoot
       - katiri-tenderfoot
@@ -71,6 +68,20 @@ groups:
       - lady-miren-dast
       - samuel-the-devoted
       - tellora-ebbenflow
+  - id: minor-heroes
+    title: Minor Heroes & Allies
+    eyebrow: THOSE WHO SERVED
+    icon: "✧"
+    description: Supporting officers and allies, each with a short anchored biography.
+    articles:
+      - minor-heroes-and-allies
+  - id: minor-villains
+    title: Minor Villains & Adversaries
+    eyebrow: SMALLER SHADOWS
+    icon: "⚔"
+    description: Brief accounts of lesser-known opponents and Cid's enforcers.
+    articles:
+      - minor-villains-and-adversaries
   - id: other-figures
     title: Other Figures
     eyebrow: FURTHER LIVES
@@ -81,10 +92,7 @@ groups:
       - lord-osmo
       - malikeah
       - mera-ashenfall
-      - ros-furband
       - jinlin-vechon
-      - karina
-      - black-agnes-mudwallow
       - zauks
       - jaaris
       - noki-the-sheep
