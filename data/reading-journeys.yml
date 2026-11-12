@@ -101,6 +101,8 @@ journeys:
             note: "The ghost boy who joins the travelers."
           - article: kel-maris
             note: "The Lion's Shadow: Gradvum's swordmaster and fallen protector."
+          - article: captain-funkin
+            note: "The captain who brought the Lord Marshal home."
       - article: hydra-temple-disaster
         label: "The Temple and the Friend Who Stayed"
         introduction: "After Kel'Maris's death at Stanleyville, Cid's servants hold prisoners near the town. Captain Funkin dies at the temple, and Fo'Gurn stays to face the hydra so his friends can escape."
@@ -111,6 +113,10 @@ journeys:
             note: "The necromancer serving the Blood King."
           - article: samuel-the-devoted
             note: "The celestial ally whose pursuit intersects the Misfits' campaign."
+          - article: inspector-sihnion
+            note: "An officer killed in the temple disaster."
+          - article: karina
+            note: "A vampiric enforcer whose crimes reached Tel'Lora's family."
       - article: rotten-husk-liberation
         label: "Freedom for the Rotten Husk"
         introduction: "The adventurers free an orc community from an oppressive chief. The people they help matter independently of the greater conflict with Cid."
@@ -150,6 +156,8 @@ journeys:
             note: "The Wrath of Innocent and its pursuit of vengeance."
           - article: beldir-willowrun
             note: "The naval officer whose presence on the vessel remains unexplained."
+          - article: jinlin-vechon
+            note: "The vampire whose ancient grievance became a destructive crusade."
       - article: zauks-false-lives
         label: "The Lives That Never Were"
         introduction: "Zauks uses counterfeit adventures and perfect lives to entrap the companions. Amara comes from outside the illusions, returns from owl form and kills him."
