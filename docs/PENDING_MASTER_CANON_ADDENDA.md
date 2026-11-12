@@ -1,6 +1,6 @@
 # Avalor - Pending Master Canon Addenda
 
-**Edition:** 2026-11-12 / Cumulative Addenda 001-002  
+**Edition:** 2026-11-12 / Cumulative Addenda 001-003  
 **Status:** Living source for later integration into the four master PDFs.  
 **Public wiki synchronization:** Kel'Maris biography, Zauks profile, and chronology references published; correction prepared after the creator's 12 November clarification.  
 **Editorial rule:** Direct creator additions override older source candidates. Never silently decide a conflict. Proposed lore is not canon until approved.
@@ -99,3 +99,39 @@ At the Shadowfell fortress, Lavitz lowered his defenses rather than destroy Fo'G
 - **Compendium Volume II:** do not invent a named settlement or mapped territory near the Feywild; geographic identification remains general.
 - **Short supporting NPC rule:** most deceased villains, brief-role NPCs and side characters need two meaningful paragraphs rather than full encyclopedic histories; lengthy treatments are reserved for major story-shaping characters.
 
+
+## Addendum 003 - Compact supporting-character archive (November 12, 2026)
+
+**Status: PUBLICATION APPROVED FOR ESTABLISHED EVENTS.** This batch is an editorial consolidation and short-biography expansion, not approval to invent hidden histories, motivations, dates or encounters. Seven standalone biographies were added and three existing biographies revised for proportionate depth.
+
+### The three existing accounts refined
+
+- **Zauks** (`content/articles/zauks.md`): A mind flayer among Cid's servants at the ruined temple, later the captor who imprisoned the Misfits physically in cocoons after their real defeat of Jinlin. He constructed eight distorted memory episodes and seductive ideal lives. Amara killed him after arriving as an owl, outside the illusions. **Unresolved:** private motivation, origins, full psychic mechanisms, independent link to the Ringtree mind flayer. A thematic emphasis on manipulating grief is an interpretation of his recorded actions, not a newly established secret origin.
+- **Noki / Noke** (`content/articles/noki-the-sheep.md`): The original undisfigured mage became a sheep during his confrontation with the Misfits; disfigurement occurred only at that encounter's end. He survived despite their belief he had died and afterward became Noke, an intelligent, scarred, physically powerful servant of the Den Mother who can use spells and a massive possibly dragon-associated wooden club. **Unresolved:** cause of disfigurement, means of survival, relationship to Den Mother, club's precise origin. His wounded pride is an editorial interpretation, not an established private confession.
+- **Ros Furband** (`content/articles/ros-furband.md`): A hired pirate captain with a large galleon and more than forty pirates in some accounts. Seized the Misfits after the tournament, forced them to labor under antimagic restraints, and delivered them toward Jinlin while Melmiri remained captive. His commercial role is established; the identity of the person paying him, fee, later fate, and Beldir's unusual presence remain unresolved. **Do not identify Ros as secretly loyal to Cid or the Wrath without approval.**
+
+### Seven concise new biographies
+
+- **Karina** (`content/articles/karina.md`; BIO.052): Vampiric centaur in Cid's retinue, murderer of Tel'Lora's mother while seeking her spellbook and ice-blue crystal. Killed by the Misfits. Her defeat is possibly associated with the Rotten Husk episode, **not securely scene-documented**. Do not invent how she died.
+- **Black Agnes Mudwallow** (`content/articles/black-agnes-mudwallow.md`; BIO.053): Night hag among Cid's servants at the ruined temple. Defeated and killed by the Misfits during the original campaign. Final encounter, timing and opponent remain **unestablished**.
+- **Jinlin Vechon** (`content/articles/jinlin-vechon.md`; BIO.054): Dragonborn cursed with unwanted vampirism by Aldus's Blood Sickness experiments nearly two thousand years earlier, founder of the Wrath of Innocent, driven by revenge against Cid. His followers harmed innocents; the Misfits **defeated him in a real battle** after Ros's captivity and before Zauks. **Do not claim Jinlin was killed unless confirmed.**
+- **Captain Funkin** (`content/articles/captain-funkin.md`; BIO.055): Renadan captain who returned Kel'Maris's body after her Stalker death, then died in the **later** ruined temple disaster. Stalker-before-Hydra is the controlling chronology.
+- **Inspector Sihnion** (`content/articles/inspector-sihnion.md`; BIO.056): Inspector present at the later temple disaster, died with Captain Funkin and trapped guards. Specific investigative assignment and earlier life remain unestablished.
+- **Kurt Reyginald** (`content/articles/kurt-reyginald.md`; BIO.057): Former Lord Marshal of Lion's Bane under King Gerran. Kel'Maris served as his second in command and succeeded him on retirement, before Gradvum's accession. His personal history requires no invented account.
+- **King Gerran Frozenroar** (`content/articles/king-gerran-frozenroar.md`; BIO.058): Sovereign 1946-1982 AF, father and predecessor to Gradvum. Called Kel'Maris from Ilyanamel to teach his son swordsmanship; appointed Admiral Beldir Willowrun Sentinel of the Seas on the Aegis. Further diplomatic or military stories remain unestablished.
+
+### Cross-references and archival limits
+
+- Link new biographies into the relevant Misfits adventures, royal household, forces, search aliases, reading journey and People navigation. Tel'Lora's biography now correctly names his mother's murderer **Karina**, without changing his inherited spellbook/crystal history.
+- **No standalone new entries for Quill, Mira, Nimbus, or Nadja Akayrn in this batch.** Their established facts are already covered by the Lion's Bane and queen's guard articles. This follows the creator's directive not to inflate minor characters' lives into lengthy encyclopedic histories.
+- Do not treat any older source's **Hydra before Stalker** order or **Amara taken at Hydra** as controlling: superseding creator approval places the Stalker first and Amara's separate capture after the Tournament.
+- Each new entry is concise; the priority is **why the person matters**, not an imagined life history. Expanded villain motivation must be creator-approved before entering public canon.
+
+### Four-master-volume integration guidance
+
+1. **Master Canon Bible**: Add the seven named supporting figures and status of each villain's final encounter; connect the already-approved Zauks, Noki and Ros records; retain explicit uncertainty.
+2. **Living Chronicle**: Add direct biography links and consequences of their actions, preserving Stalker before Hydra, Jinlin before Zauks, and the absence of confirmed final death details where applicable.
+3. **Compendium Volume I**: Fold the compact entries into the People & Legends register; do not expand them into full chapters without evidence or a new directive.
+4. **Compendium Volume II**: No invented locations; King Gerran's reign, Ilyanamel and Renada references are grounded in existing place and royal history.
+
+**Status:** Addendum 003 records established facts and editorial choices, not speculative origin stories.
