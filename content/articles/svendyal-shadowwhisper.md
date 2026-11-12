@@ -173,9 +173,9 @@ It would be a mistake to turn every act of Sven's kindness into an attempt to re
 
 ## Roads traveled in company
 
-The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the Hydra's destruction, and the horrors of **[[Stanleyville]]**. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**.
+The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the horrors of **[[Stanleyville]]**, and the Hydra's destruction. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**.
 
-They also endured the loss of Fo'Gurn, who stood before a hydra so the others could escape. Later, the spirit of **[[Jack of Stanleyville]]**, a murdered boy, chose to travel with them rather than remain in the town where he had died.
+They also endured the loss of Fo'Gurn, who stood before a hydra so the others could escape. Earlier, the spirit of **[[Jack of Stanleyville]]**, a murdered boy, had chosen to travel with them rather than remain in the town where he had died.
 
 A child whose life had been taken had found a place among Sven's companions. The resemblance to his own loss is difficult to ignore, though no surviving account records how Sven spoke of it.
 
