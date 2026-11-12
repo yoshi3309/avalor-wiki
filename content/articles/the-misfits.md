@@ -133,7 +133,7 @@ On a search connected with Lowkee's Keeper, the travelers also met **Anna**, a t
 
 At a temple near [[Stanleyville]], the Misfits confronted a more direct manifestation of Cid's cruelty. Captives had been restrained against their use of magic, and the site was connected to a rite seeking to turn divine power toward the Blood King's purpose. The evidence does not give scholars license to reconstruct every detail of that rite.
 
-Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Captain Funkin, Inspector Sihnion, and guards died** in the catastrophe surrounding the temple. The preceding Lord Marshal and Anna survived this episode. **Amara was taken**, although her subsequent return to the company is not in doubt.
+Cid's servants there included [[Jaaris]], Karina, Black Agnes Mudwallow, and the mind flayer Zauks. **Captain Funkin, Inspector Sihnion, and guards died** in the catastrophe surrounding the temple. The preceding Lord Marshal and Anna survived this episode. **Amara's later capture belongs after the Renada Games**, not to the temple's casualties or disappearances.
 
 A hydra threatened the companions' escape. [[fo-gurn|Fo'Gurn]] remained behind so the others could live. Their memories of his choice, and the years in which they mourned him, would remain among the fellowship's deepest losses. For Lavitz, it was the apparent end of a friendship that predated the Misfits themselves.
 
@@ -151,17 +151,11 @@ The Lord Marshal's death here must not be confused with the losses at the earlie
 
 ## The Liberation of the Rotten Husk
 
-During their earlier travels, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
+Following the tragedy at Stanleyville, the Misfits encountered **the Rotten Husk**, a [[The Rotten Husk Clan|clan of orcs]] whose own chieftain had become a danger to his people. The adventurers recognized that the leader's wrongdoing did not make the entire tribe culpable.
 
 The Misfits helped **free the Rotten Husk from his rule** and departed with the people's **goodwill**. For a clan who had suffered under a dangerous leader, what mattered was not the precise order of blows or speeches, but that their future was theirs again.
 
 The event mattered independently of the later war against Cid. For the Rotten Husk, it was not a footnote in another group's legend but a turning point in their own lives. Their continuing identity is recorded separately in [[The Rotten Husk Clan]], while the encounter belongs here among the fellowship's journeys.
-
-## The Ripped Beard
-
-Some early retellings use **the Ripped Beard** as a name for the affair involving the Rotten Husk's chieftain. These are **two names attached to one episode**, not evidence that the Misfits liberated the tribe on one journey and defeated a second, separate adversary on another.
-
-The surviving history belongs above all to the orc community that was freed. [[The Rotten Husk Clan]] preserves their story beyond the abbreviated names given to it by traveling adventurers.
 
 ## V. Jaznaar's testimony
 
@@ -174,6 +168,8 @@ He instructed Tel'Lora and entrusted knowledge to the company. As they prepared 
 ## VI. The Tournament and the broken pursuit
 
 At [[The Tournament of Champions]] in [[Renada]], the Misfits entered under assumed names while [[King Gradvum Frozenroar]] and [[Queen Melmiri]] attended the public celebration. [[Cid the Blood King]] seized Melmiri and fled. The queen's captivity began **before** the later encounters with Ros Furband, Jinlin Vechon, and Zauks, and continued throughout them.
+
+**Amara was taken after the Games**, during the dangers that followed the public celebration. The surviving account does not establish the exact circumstances of her capture or return; what is certain is that she later intervened when Zauks imprisoned the companions.
 
 The rescue did not follow an uninterrupted passage from the tournament grounds to Cid's throne. A pirate captain named **Ros Furband**, operating under his own arrangements, captured the companions and delivered them into the hands of another of the era's dangerous figures. The Commission has not established Ros's point of embarkation or every condition attached to his bargain.
 
@@ -193,11 +189,11 @@ The broader history of Jinlin's faction is preserved separately. Later imitation
 
 The order in which Zauks presented these horrors was **the order of a torment**, not a second chronology of the fellowship's lives. At Jack's house, for instance, the companions were offered another chance to prevent a child's death; that painful imitation did not change what had happened in Stanleyville.
 
-The mind flayer's cruelest deception was to offer convincing **false lives** in which grief and separation had been repaired. Amara's intervention brought the ordeal to its end. The accounts retain the image of an owl, but the bird of this episode should not be conflated with every other owl mentioned in stories about Amara's family.
+The mind flayer's cruelest deception was to offer convincing **false lives** in which grief and separation had been repaired. **Amara was outside the captives' illusions** and intervened to bring the ordeal to its end. The accounts retain the image of an owl, but the bird of this episode should not be conflated with every other owl mentioned in stories about Amara's family.
 
 When the Misfits emerged, the queen was still captive. They had escaped an invented happiness, not completed the rescue that had sent them on the road.
 
-## VII. The Tournament and the Shadowfell
+## VII. The Shadowfell confrontation
 
 The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
 
@@ -216,14 +212,6 @@ The kingdom gained extraordinary renown, but fame did not resolve its daily obli
 The group remained together briefly to help Avalor recover. Over the following twenty years the five celebrated companions did **not** reassemble as one complete party.
 
 That separation did not mean estrangement. Lavitz, Tel'Lora, and Sven maintained especially close ties, while Heureux and Amara followed other callings. They had survived their shared adventure without requiring their friendship to remain frozen in its original form.
-
-## A guide to their stories
-
-The surviving sequence begins with [[The Misfits#moonville-manor|Moonville Manor]], continues through [[The Misfits’ First Commission|the first commission]], the cult of Gol'Goroth, and [[Noki]]. The path then leads to [[Fo’Gurn#the-hydra-and-the-decision-to-remain|Fo'Gurn's stand]] and [[The Stalker of Stanleyville|the tragedy at Stanleyville]], followed by [[The Misfits#the-liberation-of-the-rotten-husk|the liberation of the Rotten Husk]].
-
-The search for the buried truth reaches [[Jaznaar#the-refuge-beyond-ordinary-knowledge|Jaznaar's refuge]] before [[The Tournament of Champions|the tournament and the queen's abduction]]. **Ros Furband, Jinlin Vechon, and Zauks follow the tournament**; the final Shadowfell confrontation follows them all.
-
-The consequences belong to [[The Vindication of Jaznaar]] and [[The Age of Ascendancy]]. The individual biographies preserve the lives the companions led after the road divided.
 
 ## More than five names in a song
 

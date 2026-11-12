@@ -165,7 +165,7 @@ The Misfits could not restore the family Sven had lost. But they became people h
 
 ## Roads traveled in company
 
-The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the Hydra's destruction, and the horrors of **[[Stanleyville]]**. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**. Some tellings named this single affair **the Ripped Beard**; the two names should not divide one deed into two imagined adventures.
+The fellowship survived **[[The Misfits#moonville-manor|Moonville Manor]]**, the strange affair of **[[Noki]]**, the Hydra's destruction, and the horrors of **[[Stanleyville]]**. After those losses, they helped liberate the **[[The Rotten Husk Clan|Rotten Husk]]**.
 
 They also endured the loss of Fo'Gurn, who stood before a hydra so the others could escape. Later, the spirit of **[[Jack of Stanleyville]]**, a murdered boy, chose to travel with them rather than remain in the town where he had died.
 

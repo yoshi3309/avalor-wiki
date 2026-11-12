@@ -11,7 +11,7 @@ retired:
   cathedral-ward: {title: "Cathedral Ward", parent: renada, section: cathedral-ward}
   black-stair: {title: "The Black Stair", parent: black-tower, section: the-black-stair}
   moonville-manor: {title: "Moonville Manor", parent: the-misfits, section: moonville-manor}
-  the-ripped-beard: {title: "The Ripped Beard", parent: the-misfits, section: the-ripped-beard}
+  the-ripped-beard: {title: "The Ripped Beard", parent: the-misfits, section: the-liberation-of-the-rotten-husk}
   fo-gurn-and-the-hydra: {title: "Fo’Gurn and the Hydra", parent: fo-gurn, section: the-hydra-and-the-decision-to-remain}
   jaznaars-refuge: {title: "Jaznaar’s Hidden Refuge", parent: jaznaar, section: the-refuge-beyond-ordinary-knowledge}
   rotten-husk: {title: "The Liberation of the Rotten Husk", parent: the-misfits, section: the-liberation-of-the-rotten-husk}
