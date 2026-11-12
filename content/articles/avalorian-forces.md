@@ -1,29 +1,44 @@
 ---
 title: The Avalorian Forces
 subtitle: The Standing Army, Lion's Bane, and Dina Hyanda
-summary: The kingdom's professional army, Lavitz's elite Lion's Bane and its gryffion riders, and the Twelve of Queen Melmiri's Dina Hyanda.
+summary: The kingdom's professional army, Lavitz's elite Lion's Bane and its
+  gryffion riders, and the Twelve of Queen Melmiri's Dina Hyanda.
 category: Organizations & Factions
+image: /assets/uploads/the-avalorian-forces.png
 entry: ORG.015
 era: Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Sovereign authority: The crown
+
   Military adviser: Lord Marshal Lavitz Shawe
-  Army structure: Professional troops; noble retinues; regional musters; local militias
+
+  Army structure: Professional troops; noble retinues; regional musters; local
+  militias
+
   Royal guard: Lion's Bane — Royal Guard; Lion's Claws; Skyward Guard
+
   Royal Guard commander: Quill, tortle; nephew of Rastrin Diltir
+
   Lion's Claws commander: Mira, female tabaxi
+
   Skyward Guard commander: Nimbus, aarakocra; flies on his own wings
+
   Queen's order: Dina Hyanda, twelve women
+
   Dina Hyanda structure: Three circles of four
+
   Commander of the Twelve: Nadja Akayrn, female dragonborn
+
   Founded: After Queen Melmiri's captivity under Cid
+
   Dina Hyanda training: The kingdom's finest teachers; some former adventurers
+
   Major training ground: Great Fork Tower
 related: kel-maris,the-aegis,lavitz-shawe,queen-melmiri,rastrin-diltir,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
-source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-confirmed commanders and Dina Hyanda founding (November 2026)
+source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII;
+  creator-confirmed commanders and Dina Hyanda founding (November 2026)
 featured: false
 ---
-
 ## Many kinds of service
 
 Under the lion banner of Avalor, soldiers defend distant roads and frontiers while other protectors serve closer to the throne. Their duties overlap, but their histories and commands are not interchangeable.
