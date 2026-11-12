@@ -1,8 +1,10 @@
 ---
 title: The Ringtree Clan
 subtitle: A People Who Carried Their History in Song
-summary: The hidden firbolg community of the Forest of the Fey whose devotion to Her and sacred stewardship of memory endured the burning of its library.
+summary: The hidden firbolg community of the Forest of the Fey whose devotion to
+  Her and sacred stewardship of memory endured the burning of its library.
 category: Organizations & Factions
+image: /assets/uploads/ringtree-clan.png
 entry: ORG.019
 era: Before the Age of the Misfits to Age of Ascendancy
 facts: |-
@@ -18,21 +20,30 @@ facts: |-
   Historical rupture: Destruction of the clan library and persecution of Heureux
   Threat behind the chief: Forces connected to Cid and mind flayers
 related: heureux,forest-of-the-fey,primordial-powers,peoples-of-avalor,the-faiths-of-families-and-peoples,kelsalor,planes-of-existence,bard-guild,heureuxs-bard-academy
-source: Creator-supplied Heureux Ringtree Clan biography (November 2026); Avalor Sven & Heureux Expanded Backstories addendum (November 2026); Compendium I · I.009, public Scholar’s Account, firbolg traditions
+source: Creator-supplied Heureux Ringtree Clan biography (November 2026); Avalor
+  Sven & Heureux Expanded Backstories addendum (November 2026); Compendium I ·
+  I.009, public Scholar’s Account, firbolg traditions
+featured: false
 callouts:
   - type: reflection
-    text: "A people can lose a library and yet retain the habit of remembering. The Ringtree understood that stories must be written, spoken, learned, and carried if they are to survive those who first preserved them."
+    text: A people can lose a library and yet retain the habit of remembering. The
+      Ringtree understood that stories must be written, spoken, learned, and
+      carried if they are to survive those who first preserved them.
     attribution: Editorial reflection on Ringtree memory
     after: a-library-without-walls
     paragraph: 3
   - type: reflection
-    text: "Heureux fled carrying no certainty that the books could be saved. He carried something the flames could not consume: the verses he had learned before dawn."
+    text: "Heureux fled carrying no certainty that the books could be saved. He
+      carried something the flames could not consume: the verses he had learned
+      before dawn."
     attribution: Editorial reflection on the lost archive
     after: the-burning-of-the-library
     paragraph: 3
   - type: note
+    text: A story preserved in song deserves careful listening and careful
+      comparison with other testimony. Its living form does not make it less
+      worthy of historical study.
     scholar: professor-xiomara-thal
-    text: "A story preserved in song deserves careful listening and careful comparison with other testimony. Its living form does not make it less worthy of historical study."
     after: the-memory-that-survived
     paragraph: 2
 highlight_sections:
@@ -42,9 +53,7 @@ highlight_sections:
     tone: remembrance
   - section: the-memory-that-survived
     tone: legacy
-featured: false
 ---
-
 ## An unseen people in an inhabited forest
 
 Among the communities of the **[[Forest of the Fey]]** is the **Ringtree Clan**, a firbolg people whose history cannot be reconstructed simply by following the roads of kings.
