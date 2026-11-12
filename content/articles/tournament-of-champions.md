@@ -1,16 +1,23 @@
 ---
-title: "The Tournament of Champions"
-subtitle: "The Celebration That Became a Crisis"
-summary: "The public tournament in Renada where Cid seized Queen Melmiri and forced the Misfits to pursue the Blood King toward the Shadowfell."
+title: The Tournament of Champions
+subtitle: The Celebration That Became a Crisis
+summary: The public tournament in Renada where Cid seized Queen Melmiri and
+  forced the Misfits to pursue the Blood King toward the Shadowfell.
 category: History & Chronicles
+image: /assets/uploads/the-tournament-of-champions.png
 entry: HIS.006
-era: "Age of the Misfits"
-facts: "City: Renada\nOccasion: Tournament of Champions\nExpected royal guests: Gradvum and Melmiri\nCrisis: Abduction of Queen Melmiri\nIntervening ordeals: Ros Furband; Jinlin Vechon; Zauks\nConsequence: Pursuit of Cid"
+era: Age of the Misfits
+facts: |-
+  City: Renada
+  Occasion: Tournament of Champions
+  Expected royal guests: Gradvum and Melmiri
+  Crisis: Abduction of Queen Melmiri
+  Intervening ordeals: Ros Furband; Jinlin Vechon; Zauks
+  Consequence: Pursuit of Cid
 related: renada,queen-melmiri,the-misfits,anna-lowkees-keeper,ros-furband,emerald-of-armanti,cid-the-blood-king,fo-gurn,independent-factions-of-the-misfits-era,zauks-false-lives
-source: "The Living Chronicle, Chapter VI, VII–IX; Master Canon Bible Volume I, V"
+source: The Living Chronicle, Chapter VI, VII–IX; Master Canon Bible Volume I, V
 featured: false
 ---
-
 ## A day of celebration
 
 The **Tournament of Champions** drew competitors and spectators into [[Renada]] for contests of skill, strength, and public spectacle. [[King Gradvum Frozenroar]] and [[Queen Melmiri]] were expected to attend.
