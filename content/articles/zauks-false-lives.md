@@ -35,4 +35,4 @@ That decision was not a rejection of happiness. It was a refusal to abandon real
 
 The Royal Archives preserve the shared character of the ordeal, the known examples of remembered dangers, and the fact of the companions' escape.
 
-No witness has authorized historians to invent every private hope or loss represented in the visions. The value of the episode lies in what the five faced together, even where individual experiences remain undisclosed.
+No witness has authorized historians to invent every private hope or loss represented in the visions. The value of the episode lies in what the trapped companions endured and in Amara's rescue, even where individual experiences remain undisclosed.
