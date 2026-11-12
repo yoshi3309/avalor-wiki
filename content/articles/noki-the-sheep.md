@@ -19,7 +19,7 @@ facts: |-
   Later appearance: Large, scarred, magically altered figure
   Methods: Potent spellcasting and a massive wooden club
   Weapon's origin: Apparently connected to a dragon; unconfirmed
-related: the-misfits,zauks-false-lives,the-first-commission
+related: zauks,the-misfits,zauks-false-lives,the-first-commission
 source: The Living Chronicle, Chapter VI; public Misfits testimony; creator-supplied later history of Noke
 featured: false
 ---
