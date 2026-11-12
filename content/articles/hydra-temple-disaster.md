@@ -9,43 +9,47 @@ related: the-misfits,fo-gurn,anna-lowkees-keeper,jaaris,samuel-the-devoted,stanl
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
-## Prisoners at the ruined temple
 
-Near Stanleyville stood a ruined temple whose dangers were more elaborate than those of a monster's lair. **Cid's servants** held captives under conditions meant to prevent the use of magic, and the site contained preparations for a rite concerned with divine power.
+## Captives beneath Bane's ruin
 
-The surviving testimony names **[[Jaaris]]**, a necromancer distinct from the practitioner of the Misfits' first commission; Karina; Black Agnes Mudwallow; and the mind flayer Zauks among those serving the Blood King's interests.
+Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were the preceding Lord Marshal, Captain Funkin, Inspector Sihnion, and Renadan guards. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
 
-The full operation of the rite remains poorly understood by the Royal Commission. It is enough to recognize a design that treated living prisoners as instruments. **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant companion who had joined the company during its search for Lowkee's Keeper, was among those endangered there.
+The temple was no ordinary prison. It contained preparations for a blood rite, an altar, and a pit of flesh and bone. Anna was placed upon the altar; [[fo-gurn|Fo'Gurn]] was wounded and held apart from his companions. The arrangements made clear what the prisoners were to their captors: not guests to be persuaded, but lives to be consumed in a design greater than any one hostage.
 
-## The cost of escape
+The adversaries present or implicated in the operation included **[[Jaaris]]**, a necromancer; Karina, a vampiric centaur; Black Agnes Mudwallow, a night hag; and the mind flayer Zauks. These individuals are sometimes called the “Dark Misfits” in later accounts, but that was not an established title by which they organized themselves. They served Cid's interests, not a rival fellowship bound by the same kind of loyalty as the adventurers they opposed.
 
-The encounter ended in disaster. **Captain Funkin, Inspector Sihnion, and guards trapped in the destruction died**. The preceding Lord Marshal and Anna survived. The Lord Marshal's later death, caused by the Stalker in Stanleyville, should not be mistaken for another fatality of the temple.
+## The Blood King's claim
 
-When a **hydra** threatened the companions' flight, **[[fo-gurn|Fo'Gurn]]**, a brass dragonborn paladin and one of the original Misfits, chose to stay behind. He bought the others time to escape at the cost of his own life.
+Cid intended the rite to produce a **mortal vessel for divine power**, something he believed he could control. His invocation of Bane and claims about bringing the god into physical form reveal his ambition. They do not establish that Bane had consented, or that the ritual could have accomplished everything Cid promised.
 
-The surviving companions believed their oldest friend lost. It was not merely an inconvenient separation that another adventure would soon repair. For Lavitz, Fo'Gurn had been a friend since their training at Heaven's Heart. The deed had the cost of a life lived and a bond that the company expected never to recover.
+The Blood King also turned the captives' own histories against them, claiming a measure of authorship over their suffering and the roads that had brought them before him. Some of his servants had genuinely inflicted terrible losses. His broader assertion that he had arranged the fellowship and all its tragedies was another weapon: it made coincidence and private grief sound like property belonging to him.
+
+The prisoners were not helpless forever. Tel'Lora's octopus companion **Kali'mari** helped with restraints; Lavitz broke free amid radiant power; and [[Samuel the Devoted|Samuel]] intervened. The rite failed to give Cid the triumph he sought. Yet failure did not leave the captives safe.
+
+## The monster born of the rite
+
+Jaaris transformed the sacrificial mass into a **hydra**. In the violence that followed, the damaged temple became a place of collapse and desperate flight. What began as an attempt to wield divine power ended with the companions trying simply to get living people out.
+
+**Captain Funkin, Inspector Sihnion, and guards caught in the destruction died.** Anna and the preceding Lord Marshal escaped. The Lord Marshal's survival matters: his own death occurred later, when the Stalker attacked him in Stanleyville. These were two distinct tragedies.
+
+The escape also confronted the Misfits with a choice no spell or weapon could make painless. The hydra threatened to overtake those fleeing the ruin, and someone had to give them time.
 
 ## Fo'Gurn's choice
 
-**Fo'Gurn truly died** holding back the hydra. Jaaris later raised him through necromancy, and Fo'Gurn broke the necromancer's conditioning when he chose to protect Lavitz in the Shadowfell. Jaaris's death meant his borrowed life could not continue. He remained in the Shadowfell to rest one final time, rather than returning to Renada.
+Fo'Gurn remained behind.
 
+He had been one of the original five companions, a brass dragonborn paladin whose friendship with [[Lavitz Shawe]] began at **[[Heaven's Heart]]**. To Lavitz, this was not merely the loss of another defender. It was the loss of someone who had helped shape his understanding of courage long before the Misfits had a name.
 
-A later royal history may call a sacrifice inevitable, as though a paladin's training could make the decision automatic. The witnesses knew otherwise. Fo'Gurn could have attempted to flee. He **stayed**.
+Fo'Gurn did not stay because he was certain to survive. **He died confronting the hydra**, buying the others the chance to escape. The rest of the company went on without him.
 
-Their testimony establishes the choice and the grief it caused, even though later events in the Shadowfell complicated the public account of his fate. Seeing him again in the Shadowfell did not make the earlier sacrifice fraudulent or their grief misplaced.
+Later stories sometimes present a paladin's sacrifice as if vows made such choices automatic. His teaching at Heaven's Heart helps explain why he recognized the duty before him; it cannot make the decision easy or make his death less real. Fo'Gurn might have sought the safety of the others. Instead he gave it to them.
 
-Avarice, cruelty and fear shaped the plans of the Blood King at the temple. Friendship shaped the action for which the surviving company would remember it.
+The company would see his face again under terrible circumstances in the [[The Shadowfell Confrontation|Shadowfell]]. That later meeting does not transform the temple into a false death or render their grief misplaced. The account of how Jaaris returned and controlled him belongs to that final confrontation.
 
-## Not the end of the Lord Marshal
+## What survived the ruins
 
-The Lord Marshal who had employed the adventurers **survived this episode**. He later summoned them to investigate mysterious deaths in Stanleyville, where a creature called the Stalker killed him.
+Those who escaped carried Anna and the Lord Marshal back into the world, but not Captain Funkin, Inspector Sihnion, the dead guards, or Fo'Gurn. The Misfits continued their journey with an absence at its center.
 
-The distinction marks an important division between two tragedies. The ruined temple cost the company a friend and killed others. Stanleyville later cost the kingdom its incumbent Lord Marshal and introduced the murdered child Jack as a ghostly companion.
+**Amara's later captivity must not be placed here.** She was taken during the period after the Tournament of Champions; the details of that separate capture remain unsettled. The temple has enough losses of its own without borrowing another chapter's tragedy.
 
-**Amara was not taken at the hydra temple.** Her separate capture belongs to the period **after the Renada Games**. The public history of this disaster must not move her later ordeal backward to make its list of casualties more dramatic.
-
-## Those who escaped
-
-The Misfits continued on the road carrying both the loss of Fo'Gurn and the duty to protect the people who had come away with them. Anna's survival ensured that her journey and the Emerald of Armanti continued toward the final battle.
-
-The temple was a turning point, but it was not the end of the fellowship. The companions had to keep moving with the knowledge that a friend had stayed behind so they could live.
+Cid had sought to demonstrate that the captives' lives belonged to him. Fo'Gurn's decision revealed the opposite. His last action at the temple was made for his companions, not at the Blood King's command. That choice, and the people it allowed to live, became the ruin's most enduring testimony.
