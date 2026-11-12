@@ -14,7 +14,7 @@ facts: |-
   Heir: Prince Theodric
   Griffin: Fis Uskeche
   Sword: Lionsbane
-related: house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,rynhold-frozenroar,lavitz-shawe,tellora-ebbenflow,jaznaars-vindication
+related: kel-maris,house-frozenroar,queen-melmiri,the-aegis,kingdom-of-avalor,rynhold-frozenroar,lavitz-shawe,tellora-ebbenflow,jaznaars-vindication
 source: Compendium II · Entry II.001, IV–VII; Avalor Master Canon Bible, VII
 featured: false
 ---
@@ -34,6 +34,12 @@ One of Gradvum's defining decisions followed the defeat of [[Cid the Blood King]
 The king also commissioned [[The Royal Commission of Historical Inquiry]] to reexamine the stories Avalor had long treated as settled history. The resulting *Living Chronicle* did not exist to flatter the royal household. Its contributors openly disagreed, and its findings challenged institutions closely tied to the crown.
 
 Gradvum did not create the old lie, nor could his proclamation repair every injury it had caused. His decision nevertheless placed royal authority behind the obligation to correct it.
+
+## The swordmaster who guarded him
+
+While Gradvum was still a prince, his father **King Gerran** summoned **[[kel-maris|Kel'Maris]]**, a young high-elven swordmaster from Ilyanamel, to instruct him in swordsmanship. Over the years she became his friend as well as his teacher. She joined Lion's Bane, rose to second in command, and earned the epithet **the Lion's Shadow** for her unfailing presence at the king's side. Kel'Maris succeeded Kurt Reyginald as Lord Marshal and held the office when Gradvum inherited the crown.
+
+Her death at [[Stanleyville]], pierced through the chest by the Stalker, therefore took more from Gradvum than a senior officer. It took a friend whose service reached back to his childhood. The Lord Marshal's seat remained vacant until Gradvum appointed [[Lavitz Shawe]] after Cid's defeat.
 
 ## The people beside him
 

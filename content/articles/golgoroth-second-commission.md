@@ -5,13 +5,13 @@ summary: "The Lord Marshal's second commission against the cult of Gol'Goroth, d
 category: History & Chronicles
 entry: HIS.027
 era: Age of the Misfits
-related: the-first-commission,the-misfits,heureux,ringtree-clan,independent-factions-of-the-misfits-era
+related: kel-maris,the-first-commission,the-misfits,heureux,ringtree-clan,independent-factions-of-the-misfits-era
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
 ## A second summons
 
-After the defeat of the unnamed necromancer, the previous Lord Marshal again called upon the companions. The second formal commission concerned a cult devoted to **Gol'Goroth**, a threat whose nature was dangerous enough to draw the crown's attention but whose precise rites have not been preserved in a complete public register.
+After the defeat of the unnamed necromancer, **[[kel-maris|Kel'Maris]]**, the Lion's Shadow, again called upon the companions. The second formal commission concerned a cult devoted to **Gol'Goroth**, a threat whose nature was dangerous enough to draw the crown's attention but whose precise rites have not been preserved in a complete public register.
 
 The company entered this inquiry with a little more shared experience than it had carried into the first commission. It was still far from the royal legend that later historians would make of it. To those endangered by the cult, this mission was not a prelude to the Blood King's story; it was the crisis immediately before them.
 

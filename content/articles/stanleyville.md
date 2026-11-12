@@ -14,8 +14,8 @@ facts: |-
   Founding tradition: Hjoldan and a pony named Stanley
   Historical crisis: The Stalker and unexplained deaths
   Traveling companion from the town: Jack
-  Royal loss: Death of the preceding Lord Marshal
-related: the-stalker,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king,renada,cove-city,tinsel,kingdom-of-avalor
+  Royal loss: Kel'Maris, the Lion's Shadow
+related: the-stalker,jack-of-stanleyville,the-misfits,kel-maris,lavitz-shawe,cid-the-blood-king,renada,cove-city,tinsel,kingdom-of-avalor
 source: Compendium II · Entry II.002; The Living Chronicle, Chapter VI, Section
   IV; World Anvil location details (November 2026)
 featured: false
@@ -54,7 +54,7 @@ The historical record offers no reliable census of the town's victims or exact i
 
 ## The unexplained deaths
 
-When mysterious deaths began, the **preceding Lord Marshal** asked the Misfits to investigate. The commission followed other work the companions had performed for him, and he had reason to trust their ability to face strange threats.
+When mysterious deaths began, **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal and Gradvum's former sword instructor, asked the Misfits to investigate. The commission followed other work the companions had performed for her, and he had reason to trust their ability to face strange threats.
 
 Among those killed was **[[Jack of Stanleyville|Jack]]**, a child whose death would later reveal an especially cruel method. A merchant had sold manuscripts to Jack's family; one volume concealed a deadly **Fireball** spell. Jack innocently read the words and was killed by the released magic.
 
@@ -66,7 +66,7 @@ Jack's spirit remained conscious after death, searching for the person responsib
 
 The deaths also brought the companions into conflict with a creature called **[[The Stalker of Stanleyville|the Stalker]]**. Its presence spread fear, and the subsequent royal inquiry attributed its direction to Cid.
 
-The Stalker **killed the Lord Marshal** who had summoned the adventurers. His death was a loss for the kingdom as well as for the companions: Avalor's senior military office fell vacant during an already dangerous period and remained without a successor for the rest of the campaign.
+The Stalker **pierced Kel'Maris through the chest and killed her**. Her death was a loss for the kingdom and for the companions who had earned her trust: Avalor's senior military office fell vacant during an already dangerous period and remained without a successor for the rest of the campaign.
 
 Accounts also describe a brief manifestation of Cid and an **attempt to burn the town**. The Misfits witnessed consequences of his interference without learning his true identity as the ancient healer Aldus Greystone III.
 
@@ -74,7 +74,7 @@ Two distinctions are essential. **The Stalker did not kill Jack**; Jack died bec
 
 ## What the town endured
 
-The most visible consequences of the Stanleyville affair appear in royal chronicles: a dead Lord Marshal, a clue leading toward Cid, and the later appointment of [[Lavitz Shawe]] after the Blood King's defeat.
+The most visible consequences of the Stanleyville affair appear in royal chronicles: the death of Kel'Maris, the Lion's Shadow, a clue leading toward Cid, and the later appointment of [[Lavitz Shawe]] after the Blood King's defeat.
 
 For Stanleyville itself, the story was also one of people living with danger and uncertainty. Ordinary citizens could not put aside their work or obligations while waiting for the larger mystery to be resolved. The town's reputation for good steel had to coexist with memories of those it lost.
 

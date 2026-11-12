@@ -150,7 +150,7 @@ It was an early expression of the devotion he would embrace more fully after the
 
 ## The companion before the legend
 
-The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were brought together by a commission from the **preceding Lord Marshal**, who sought help investigating a necromancer.
+The group later known as [[The Misfits]] did not gather to defeat an ancient evil or rewrite the kingdom's history. Its members were brought together by a commission from **[[kel-maris|Kel'Maris]]**, the Lord Marshal who sought help investigating a necromancer.
 
 Alongside Lavitz stood [[Tel'Lora Ebbenflow]], the half-elven wizard; [[svendyal-shadowwhisper|Sven]], the eladrin; [[Amara]], a druid whose family line reached back to the founding age; and Fo’Gurn. They overcame their first enemy and recovered fragments of magical research whose significance became clear only much later. The affair is preserved as [[The Misfits’ First Commission]].
 
@@ -182,11 +182,11 @@ Lavitz's willingness to place himself between danger and others is among his def
 
 The Misfits' investigation of mysterious deaths at [[Stanleyville]] brought them face to face with another kind of cruelty. They encountered [[Jack of Stanleyville]], a murdered child whose conscious spirit sought the truth of his own death. Rather than remain in the town, Jack traveled onward with the companions.
 
-The affair also claimed the life of the Lord Marshal who had first summoned the adventurers. He was killed during the attack of [[The Stalker of Stanleyville|the Stalker]], a creature later connected to Cid.
+The affair also claimed the life of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal who had first summoned the adventurers. She was killed during the attack of [[The Stalker of Stanleyville|the Stalker]], a creature later connected to Cid.
 
 The office was left vacant. At the time, Lavitz had no reason to know that he would one day be asked to fill it.
 
-The tragedy belonged not only to the kingdom's military history, but to the lives of those who survived the town's ordeal. Jack was a traveling companion, not merely a clue; the preceding marshal had been a man who placed trust in people not yet recognized as heroes.
+The tragedy belonged not only to the kingdom's military history, but to the lives of those who survived the town's ordeal. Jack was a traveling companion, not merely a clue; Kel'Maris had been a woman who placed trust in people not yet recognized as heroes.
 
 ## Anna and the promises carried on the road
 
@@ -216,7 +216,7 @@ The tradition at [[Heaven's Heart]] had always placed the vulnerable at the cent
 
 ## Lord Marshal of Avalor
 
-Within weeks of Cid's defeat, [[King Gradvum Frozenroar]] appointed Lavitz **Lord Marshal**. The office had stood vacant since its previous holder—the man who had first put his trust in the Misfits—was killed at Stanleyville. Accepting the appointment meant carrying forward a duty that had already cost someone Lavitz respected his life.
+Within weeks of Cid's defeat, [[King Gradvum Frozenroar]] appointed Lavitz **Lord Marshal**. The office had stood vacant since its previous holder—Kel'Maris, the Lion's Shadow—was killed at Stanleyville. Accepting the appointment meant carrying forward a duty that had already cost someone Lavitz respected his life.
 
 As commander of [[The Avalorian Forces#lion-s-bane|Lion's Bane]] and a member of [[The Aegis]], Lavitz could no longer answer every danger by drawing his sword. He now had to make decisions that would send other people into harm's way, weigh the king's needs against the lives of those who served, and trust his officers to act when he could not be beside them.
 

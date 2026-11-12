@@ -5,18 +5,18 @@ summary: "At a ruined temple near Stanleyville, Cid's captives faced disaster an
 category: History & Chronicles
 entry: HIS.035
 era: Age of the Misfits
-related: the-misfits,fo-gurn,anna-lowkees-keeper,jaaris,samuel-the-devoted,stanleyville,the-stalker
+related: kel-maris,the-misfits,fo-gurn,anna-lowkees-keeper,jaaris,samuel-the-devoted,stanleyville,the-stalker
 source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
 featured: false
 ---
 
 ## Captives beneath Bane's ruin
 
-Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were the preceding Lord Marshal, Captain Funkin, Inspector Sihnion, and Renadan guards. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
+Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were **[[kel-maris|Kel'Maris]]**, the Lord Marshal, Captain Funkin, Inspector Sihnion, and Renadan guards. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
 
 The temple was no ordinary prison. It contained preparations for a blood rite, an altar, and a pit of flesh and bone. Anna was placed upon the altar; [[fo-gurn|Fo'Gurn]] was wounded and held apart from his companions. The arrangements made clear what the prisoners were to their captors: not guests to be persuaded, but lives to be consumed in a design greater than any one hostage.
 
-The adversaries present or implicated in the operation included **[[Jaaris]]**, a necromancer; Karina, a vampiric centaur; Black Agnes Mudwallow, a night hag; and the mind flayer Zauks. These individuals are sometimes called the “Dark Misfits” in later accounts, but that was not an established title by which they organized themselves. They served Cid's interests, not a rival fellowship bound by the same kind of loyalty as the adventurers they opposed.
+The adversaries present or implicated in the operation included **[[Jaaris]]**, a necromancer; Karina, a vampiric centaur; Black Agnes Mudwallow, a night hag; and the mind flayer **[[zauks|Zauks]]**. These individuals are sometimes called the “Dark Misfits” in later accounts, but that was not an established title by which they organized themselves. They served Cid's interests, not a rival fellowship bound by the same kind of loyalty as the adventurers they opposed.
 
 ## The Blood King's claim
 
@@ -30,7 +30,7 @@ The prisoners were not helpless forever. Tel'Lora's octopus companion **Kali'mar
 
 Jaaris transformed the sacrificial mass into a **hydra**. In the violence that followed, the damaged temple became a place of collapse and desperate flight. What began as an attempt to wield divine power ended with the companions trying simply to get living people out.
 
-**Captain Funkin, Inspector Sihnion, and guards caught in the destruction died.** Anna and the preceding Lord Marshal escaped. The Lord Marshal's survival matters: his own death occurred later, when the Stalker attacked him in Stanleyville. These were two distinct tragedies.
+**Captain Funkin, Inspector Sihnion, and guards caught in the destruction died.** Anna and Kel'Maris escaped. Kel'Maris's survival matters: her own death occurred later, when the Stalker killed her in Stanleyville. These were two distinct tragedies.
 
 The escape also confronted the Misfits with a choice no spell or weapon could make painless. The hydra threatened to overtake those fleeing the ruin, and someone had to give them time.
 

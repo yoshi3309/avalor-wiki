@@ -10,27 +10,27 @@ era: Age of the Misfits
 facts: |-
   Location: Stanleyville
   Known as: The Stalker
-  Notable victim: Incumbent Lord Marshal
+  Notable victim: Kel'Maris, Lord Marshal
   Direction: Attributed to Cid
   Political aftermath: Lord Marshal's office vacant
-related: stanleyville,jack-of-stanleyville,the-misfits,lavitz-shawe,cid-the-blood-king
+related: stanleyville,jack-of-stanleyville,the-misfits,kel-maris,lavitz-shawe,cid-the-blood-king
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
 ---
 ## Terror in the steel town
 
-The **Stalker** preyed upon [[Stanleyville]] during a period of unexplained deaths. The Lord Marshal who had previously employed [[The Misfits]] requested their assistance in investigating the town's affliction.
+The **Stalker** preyed upon [[Stanleyville]] during a period of unexplained deaths. **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal known as the Lion's Shadow, requested the help of [[The Misfits]] in investigating the town's affliction. She had previously sent the companions on their first two royal commissions.
 
 Stanleyville was an inhabited trading and metalworking community, not merely the scene of an encounter. Its people endured loss and fear while the adventurers searched for an explanation.
 
 ## A fatal attack upon the crown
 
-The Stalker **killed the incumbent Lord Marshal**. His death deprived Avalor of a senior military adviser at a dangerous moment and left the companions mourning the man who had trusted them.
+The Stalker **pierced Kel'Maris through the chest and killed her**. Her death deprived Avalor of a senior military adviser and King Gradvum of the friend who had taught him swordsmanship and guarded him since his youth. The companions lost the woman who had first trusted them with royal service.
 
 No interim Lord Marshal was appointed during the remainder of their campaign. The office remained vacant until [[Lavitz Shawe]] took the post after Cid's defeat.
 
-The attack thus changed the history of the kingdom as well as the lives of the people in Stanleyville.
+Kel'Maris's body was returned to Renada, where she received a state funeral and lay in state for three days at the Great Cathedral. According to her wishes, she was privately cremated and her ashes scattered in the King's Forest. The attack changed the history of the kingdom as well as the lives of the people in Stanleyville.
 
 ## The hand behind the creature
 
@@ -44,6 +44,6 @@ The Stalker's origin and the full extent of its powers remain obscure. The royal
 
 Among the town's dead was [[Jack of Stanleyville]], a boy killed by a spell concealed in a manuscript sold by Cid in disguise. Jack's spirit later traveled with the Misfits.
 
-Jack died through the concealed spell in Cid's manuscript, while the Stalker claimed the Lord Marshal's life. Their deaths became part of the same inquiry, though they occurred by different means.
+Jack died through the concealed spell in Cid's manuscript, while the Stalker claimed Kel'Maris's life. Their deaths became part of the same inquiry, though they occurred by different means.
 
 Stanleyville's story includes the Stalker; it is not defined solely by the creature.

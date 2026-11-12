@@ -19,7 +19,7 @@ facts: |-
   Founded: After Queen Melmiri's captivity under Cid
   Dina Hyanda training: The kingdom's finest teachers; some former adventurers
   Major training ground: Great Fork Tower
-related: the-aegis,lavitz-shawe,queen-melmiri,rastrin-diltir,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
+related: kel-maris,the-aegis,lavitz-shawe,queen-melmiri,rastrin-diltir,king-gradvum-frozenroar,four-sheriffdoms,great-fork-tower,great-citadel,kingdom-of-avalor
 source: Compendium II · Entry II.001, VIII; The Living Chronicle, Chapter VII; creator-confirmed commanders and Dina Hyanda founding (November 2026)
 featured: false
 ---
@@ -57,6 +57,8 @@ The **crown holds ultimate authority** over Avalor's defenses. Professional offi
 The [[Lavitz Shawe|Lord Marshal]] advises the crown on military affairs and commands Lion's Bane, but the army's wider formations remain distinct from his royal guard. This distinction helps a kingdom of many forces function as a kingdom rather than a single warrior's retinue.
 
 ## Lion's Bane
+
+Before Lavitz held command, the order was led by **Kurt Reyginald** and then **[[kel-maris|Kel'Maris]]**, the high-elven swordswoman whom King Gerran had invited to teach Prince Gradvum. She rose through Lion's Bane and was remembered as **the Lion's Shadow** for her constant protection of the crown. Her death during the Misfits' investigation at Stanleyville left the Lord Marshal's office vacant until Lavitz's appointment.
 
 **Lion's Bane** is an **elite royal order commanded by [[Lavitz Shawe]]**, the Lord Marshal. Its members are chosen for exceptional ability and entrusted with work demanding the best Avalor can field. The guard is substantial enough to meet more than one danger at once, yet its reputation comes from selection, discipline, and the quality of its service rather than sheer numbers.
 
