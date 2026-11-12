@@ -53,7 +53,7 @@ At the ruined temple near [[Stanleyville]], the Misfits were captured by servant
 
 It was a genuine crisis for the companions. **Erevan himself was not an ordinary mortal at risk of being destroyed as Anna**, but the others did not know this, and the danger to them was neither illusion nor theatre. Their responses were precisely the kind of choices the divine disguise sought to reveal.
 
-[[fo-gurn|Fo'Gurn]] remained behind when a hydra threatened the escape. He **truly died** buying time for his friends. Captain Funkin, Inspector Sihnion and trapped guards also perished. Anna and the preceding Lord Marshal escaped; the Marshal was killed later, by the Stalker in Stanleyville.
+[[fo-gurn|Fo'Gurn]] remained behind when a hydra threatened the escape. He **truly died** buying time for his friends. Captain Funkin, Inspector Sihnion and trapped guards also perished. Anna escaped; **Kel'Maris, the preceding Lord Marshal, had already been killed by the Stalker**. Captain Funkin had returned Kel'Maris's body to Renada before he died at the temple.
 
 ## A galley far from home
 
