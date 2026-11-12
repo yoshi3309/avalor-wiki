@@ -17,7 +17,7 @@ facts: |-
   Appointed by: King Gerran Frozenroar
   Injury: Right leg lost to a kraken
   Prosthesis: Gnome-made, resistant to corrosion
-related: the-aegis,cove-city,tinsel,stems-port,karhold,cassian-veyran,house-frozenroar
+related: the-misfits,ros-furband,anna-lowkees-keeper,the-aegis,cove-city,tinsel,stems-port,karhold,cassian-veyran,house-frozenroar
 source: World Anvil, Beldir Willowrun (creator-supplied biography, November 2026); Compendium II · Entry II.001, VI–VII
 featured: false
 ---
@@ -57,6 +57,14 @@ His great frustration is Avalor's relationship with the **freeports**. He would 
 [[Stems Port]] operates under freeport arrangements, while [[Karhold]] maintains a disputed claim to independence. Beldir knows they do not present identical problems. His maritime experience makes him formidable in these arguments; it also prevents him from pretending there is an easy answer.
 
 The institutional duties of the Sentinel are described in [[The Aegis#the-sea-and-the-regions|the Aegis]].
+
+## The pirate galleon and the Misfits
+
+The surviving public accounts of the [[The Misfits|Misfits']] pursuit of Queen Melmiri place **Beldir Willowrun** aboard the galleon of **[[Ros Furband]]**, the pirate captain who captured the companions after the [[The Tournament of Champions|Renada Games]]. The admiral appears among those assigned to lookout duties with Sven, while other travelers labored at the oars or in the galley.
+
+The episode is unusually difficult to explain from Beldir's official career. He was already an established naval officer and royal adviser, not an unknown sailor trying to earn his first command. **The reason he shared that captivity remains unestablished**. No safe conclusion can be drawn that he worked for Ros, was aboard on a royal mission, or joined the pirates of his own free will.
+
+For the record of the Misfits, his presence is another reminder that the broken pursuit crossed lives beyond the original adventuring fellowship. For Beldir's biography it is an important unresolved episode in a life otherwise documented through naval ranks, service, and battles.
 
 ## A sailor still
 

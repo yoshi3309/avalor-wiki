@@ -7,11 +7,15 @@ image: /assets/uploads/jaaris.png
 entry: BIO.031
 era: Age of the Misfits
 facts: |-
+  Ancestry: Tiefling
+  Appearance: Dark hair; signs of necrotic decay
   Calling: Necromancer
+  Known service: Among Cid's servants at the ruined temple
+  Final campaign: Killed during the Shadowfell confrontation
   Linked to: Fo’Gurn
   Distinct from: Necromancer of the first commission
   Later imitation: Zauks's remembered trials
-related: fo-gurn,the-first-commission,the-misfits,zauks-false-lives
+related: anna-lowkees-keeper,cid-the-blood-king,emerald-of-armanti,fo-gurn,the-first-commission,the-misfits,zauks-false-lives
 source: The Living Chronicle, Chapter VI; Avalor Master Canon Bible Volume I,
   Section V (public events)
 featured: false
@@ -22,6 +26,14 @@ featured: false
 When **[[fo-gurn|Fo'Gurn]]** stayed behind to face a hydra, [[The Misfits]] escaped believing their dragonborn friend had died. The memory of that sacrifice followed them for years.
 
 Only later did they learn that the necromancer **Jaaris** had become entangled in Fo'Gurn's fate. His crimes involved a manipulation the companions had not understood when they first mourned their friend. Whatever Jaaris had done, the fear and grief of those years had been real.
+
+## The temple and the last confrontation
+
+Jaaris was part of the circle serving Cid when the Misfits were taken to the ruined temple near Stanleyville. Witnesses remembered a **dark-haired tiefling** marked by decay and necromantic work, not an elven figure from a different tradition. His presence at the temple placed him among enemies who threatened Anna, Fo'Gurn, the Lord Marshal and others caught in the Blood King's design.
+
+The company survived the catastrophe only at great cost. Fo'Gurn remained behind when the hydra threatened their escape. The public record connects Jaaris with later revelations about the paladin, but it does not provide a complete explanation of Fo'Gurn's extraordinary appearance during the last confrontation.
+
+Jaaris was present again among Cid's defenders in the **Shadowfell** and was **killed in the final struggle**. His defeat belonged to the same campaign that ended the Blood King's immediate power. It should not be confused with his later imitation in the mind flayer's false adventures.
 
 ## A different enemy
 
