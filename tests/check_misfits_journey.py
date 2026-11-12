@@ -114,7 +114,7 @@ def source(slug):
     return (ROOT / "content" / "articles" / (slug + ".md")).read_text(encoding="utf-8")
 assert "Erevan Ilesere in disguise" in source("anna-lowkees-keeper")
 assert "Vandria Gilmadrith" in source("misfits-return-to-renada")
-assert "Sven did not answer" in source("misfits-return-to-renada")
+assert "Sven gave no answer" in source("misfits-return-to-renada")
 assert "temporary spiritual connection" in source("emerald-of-armanti")
 assert "bar Cid" in source("emerald-of-armanti")
 assert "subsequently raised his body" in source("fo-gurn")
