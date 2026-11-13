@@ -1,15 +1,17 @@
 ---
-title: "The Ruined Temple and the Hydra"
-subtitle: "The captives, the sacrifice, and those who escaped"
-summary: "At a ruined temple near Stanleyville, Cid's captives faced disaster and Fo'Gurn stayed behind to face a hydra."
+title: The Ruined Temple and the Hydra
+subtitle: The captives, the sacrifice, and those who escaped
+summary: At a ruined temple near Stanleyville, Cid's captives faced disaster and
+  Fo'Gurn stayed behind to face a hydra.
 category: History & Chronicles
+image: /assets/uploads/the-ruined-temple-and-the-hydra.png
 entry: HIS.035
 era: Age of the Misfits
 related: kel-maris,the-misfits,fo-gurn,anna-lowkees-keeper,jaaris,samuel-the-devoted,stanleyville,the-stalker
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
-
 ## Captives beneath Bane's ruin
 
 Near [[Stanleyville]], the Misfits came into the power of Cid's servants and were taken as prisoners to a ruined **temple of Bane**. Their captors restrained them, including with collars intended to suppress magic. Among those caught in the affair were **[[captain-funkin|Captain Funkin]], [[inspector-sihnion|Inspector Sihnion]], and Renadan guards**. The Lord Marshal, **[[kel-maris|Kel'Maris]]**, had already been killed by the Stalker in Stanleyville; Captain Funkin had brought her body back to Renada before this later catastrophe. **[[Anna, Lowkee's Keeper|Anna]]**, who had joined the fellowship as a noncombatant friend, was also a captive.
