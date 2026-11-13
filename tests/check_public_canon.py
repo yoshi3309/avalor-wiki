@@ -182,7 +182,7 @@ for relationship in atlas.get("maps", []):
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", node_id) or node_id in node_ids:
             problems.append(f"{ident}: invalid or duplicate node id {node_id}")
         node_ids.add(node_id)
-        if node.get("article") and node["article"] not in entries:
+        if node.get("article") and node["article"] not in entries and node["article"] not in MERGES:
             problems.append(f"{ident}: node {node_id} links to nonpublic article")
         if node.get("kind") not in allowed_kinds or not node.get("label") or not node.get("detail"):
             problems.append(f"{ident}: missing data for {node_id}")

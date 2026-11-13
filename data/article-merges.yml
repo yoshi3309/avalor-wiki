@@ -27,3 +27,5 @@ retired:
   ros-furband: {title: "Ros Furband", parent: minor-villains-and-adversaries, section: ros-furband}
   karina: {title: "Karina", parent: minor-villains-and-adversaries, section: karina}
   black-agnes-mudwallow: {title: "Black Agnes Mudwallow", parent: minor-villains-and-adversaries, section: black-agnes-mudwallow}
+  jinlin-vechon: {title: "Jinlin Vechon", parent: minor-villains-and-adversaries, section: jinlin-vechon}
+  king-gerran-frozenroar: {title: "King Gerran Frozenroar", parent: minor-characters, section: king-gerran-frozenroar}

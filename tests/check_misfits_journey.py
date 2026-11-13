@@ -220,23 +220,53 @@ for heading in ("Karina", "Black Agnes Mudwallow", "Ros Furband"):
 assert "ice-blue crystal" in minor_villains
 assert "Tel'Lora" in minor_villains
 assert "Misfits defeated and killed Black Agnes" in minor_villains
-assert "defeated Jinlin in an actual confrontation" in source("jinlin-vechon")
+assert "Jinlin was defeated in a real confrontation" in source("minor-villains-and-adversaries")
 assert "Captain Funkin" in minor_heroes
 assert "Stalker" in minor_heroes
 assert "Hydra temple" in minor_heroes
 assert "Kel'Maris" in minor_heroes
-assert "1946 to 1982" in source("king-gerran-frozenroar")
+assert "1946 to 1982 AF" in source("minor-characters")
 # Deeper-reading links retain direct anchors to individuals inside the indexes.
 journey_html = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
 assert "articles/minor-heroes-and-allies/#captain-funkin" in journey_html
 assert "articles/minor-heroes-and-allies/#inspector-sihnion" in journey_html
 assert "articles/minor-villains-and-adversaries/#karina" in journey_html
-assert "articles/minor-villains-and-adversaries/#ros-furband" in journey_html
+assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_html
 assert "Noke" in source("noki-the-sheep")
 assert "Den Mother" in source("noki-the-sheep")
 assert "Amara" in source("zauks")
 assert "cocoons" in source("zauks")
 assert "Addendum 003" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+
+# Addendum 008: short neutral/villain collections and the first new hunter.
+for slug, parent in (
+    ("jinlin-vechon", "minor-villains-and-adversaries"),
+    ("king-gerran-frozenroar", "minor-characters"),
+):
+    assert not (ROOT / "content" / "articles" / (slug + ".md")).exists(), slug
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[slug]["parent"] == parent
+    assert merges[slug]["section"] == slug
+    redirect = ROOT / "_site" / "articles" / slug / "index.html"
+    assert redirect.is_file()
+    assert f"articles/{parent}/#{slug}" in redirect.read_text(encoding="utf-8")
+    target = ROOT / "_site" / "articles" / parent / "index.html"
+    assert f'id="{slug}"' in target.read_text(encoding="utf-8")
+assert "## Jinlin Vechon" in source("minor-villains-and-adversaries")
+assert "## King Gerran Frozenroar" in source("minor-characters")
+assert "## Gomo" in source("minor-characters")
+assert "## Silver of Moonlight" in source("minor-characters")
+assert "title: Lowkee Nicklebane" in source("lowkee")
+assert "title: Faelynn Naïlo" in source("faelynn")
+heyden=source("heyden-of-the-goldenfoot")
+assert "title: Heyden of the Goldenfoot" in heyden
+for detail in ("Allosaurus", "Great Elk", "Gomo", "Silver of Moonlight",
+               "Shadow", "Jeothor", "Verbos", "Seals", "Revenant Double-Bladed Scimitar",
+               "Hunters Guild coin"):
+    assert detail in heyden, detail
+journey_08 = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
+assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_08
+assert "Addendum 008" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
 # Addendum 005: keep retrospective truths aligned across reference articles.
 assert "Fo'Gurn chose to protect Lavitz" in source("death-souls-and-the-afterlife")
@@ -284,7 +314,7 @@ for slug in (
     assert "2000 AF" in source(slug), slug
 assert "2000 AF" in source("minor-heroes-and-allies")
 assert "2000 AF" in source("minor-villains-and-adversaries")
-assert "Death year:" not in source("jinlin-vechon"), "Defeat is not a death date."
+assert "His ultimate death has not been confirmed" in source("minor-villains-and-adversaries"), "Defeat is not a death date."
 register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
 assert "no established named cast member died during the twenty-year interval" in register.lower()
 assert "Tristan and Kristofer" in register
@@ -305,7 +335,7 @@ assert "Sered" in royal and "frontier skirmish" in royal
 assert "Brannic" in royal and "wilderness expedition" in royal
 assert "298 AF; died peacefully, 312 AF" in royal
 assert "1511 AF; died, 1528 AF" in royal
-assert "1982 AF" in source("king-gerran-frozenroar")
+assert "1982 AF" in source("minor-characters")
 assert "father of Benedikt" in source("rynhold-frozenroar") or "Son Benedikt" in source("rynhold-frozenroar")
 fate_register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
 assert "**2000 AF** is now the **confirmed calendar year**" in fate_register

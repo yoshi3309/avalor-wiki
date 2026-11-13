@@ -153,14 +153,12 @@ journeys:
         label: "The Pirate, the Wrath and the Vampire"
         introduction: "Ros Furband makes the rescuers captives aboard his galleon. They later confront and defeat Jinlin Vechon in reality, with the queen still missing."
         deeper_reading:
-          - article: minor-villains-and-adversaries
-            fragment: ros-furband
-            note: "The hired pirate and what remains unknown about his bargain."
           - article: independent-factions-of-the-misfits-era
             note: "The Wrath of Innocent and its pursuit of vengeance."
           - article: beldir-willowrun
             note: "The naval officer whose presence on the vessel remains unexplained."
-          - article: jinlin-vechon
+          - article: minor-villains-and-adversaries
+            fragment: jinlin-vechon
             note: "The vampire whose ancient grievance became a destructive crusade."
       - article: zauks-false-lives
         label: "The Lives That Never Were"

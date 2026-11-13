@@ -1,5 +1,5 @@
 ---
-title: Faelynn
+title: Faelynn Naïlo
 subtitle: The Night Mistress of the Wilds
 summary: Once a free-spirited ranger of the Forest of the Fey, Faelynn Naïlo survived a fiend's terrible deception, hunted it across realms, and later founded the Hunters Guild.
 category: People & Legends

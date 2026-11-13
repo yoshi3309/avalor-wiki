@@ -23,7 +23,7 @@ facts: >-
   creatures
 
   Character: Long-lived fellowship of wilderness specialists
-related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
+related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot
 source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
   creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 featured: false
@@ -111,6 +111,8 @@ There is room for cooperation among these protectors without making the guild a 
 The Hunters Guild remains active with **[[Malikeah Ashenfall]]** as its experienced figurehead and de facto leader. He carries the work of the family business with a watchful, protective concern for its members, although years of hunting have left him weary and afraid that the guild's future may be in peril.
 
 At the [[Wayward Sun]], Malikeah maintains the refuge in **equal partnership with his wife, [[Mera Ashenfall]]**, an eccentric and ingenious spirit bard whose curiosity often supplies solutions to problems that have defeated more conventional methods. Their different temperaments are part of the home they have made for their fellow hunters.
+
+Among the hunters who have found a place in the guild is **[[heyden-of-the-goldenfoot|Heyden of the Goldenfoot]]**, a Leonin prince of Labos who came to the Dead Marshes with a coin given to him by the halfling hunter Gomo. Known in the guild as **Shadow**, Heyden learned that belonging to a family of hunters meant mourning those who did not return, not merely celebrating the chase. His arrival is one chapter in the guild's continuing history, not an account of its final fate.
 
 The old refuge is therefore more than a base from which dangerous work begins. It remains a place of belonging for those who return to it, and a reminder that the family Faelynn founded must be protected as carefully as the people its hunters serve.
 
