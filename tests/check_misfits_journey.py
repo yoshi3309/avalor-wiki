@@ -262,7 +262,7 @@ heyden=source("heyden-of-the-goldenfoot")
 assert "title: Heyden of the Goldenfoot" in heyden
 for detail in ("Allosaurus", "Great Elk", "Gomo", "Silver of Moonlight",
                "Shadow", "Jeothor", "Verbos", "Seals", "Revenant Double-Bladed Scimitar",
-               "Hunter's Guild coin"):
+               "Hunters Guild coin"):
     assert detail in heyden, detail
 journey_08 = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
 assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_08
