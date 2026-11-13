@@ -1,16 +1,23 @@
 ---
-title: "Zauks and the False Lives"
-subtitle: "The Ordeal of Perfect Happiness"
-summary: "After Jinlin's defeat, the mind flayer Zauks subjected the Misfits to counterfeit adventures and enticing false lives while Queen Melmiri remained Cid's captive."
+title: Zauks and the False Lives
+subtitle: The Ordeal of Perfect Happiness
+summary: After Jinlin's defeat, the mind flayer Zauks subjected the Misfits to
+  counterfeit adventures and enticing false lives while Queen Melmiri remained
+  Cid's captive.
 category: History & Chronicles
+image: /assets/uploads/zauks-and-the-false-lives.png
 entry: HIS.007
-era: "Age of the Misfits"
-facts: "Adversary: Zauks, mind flayer\nMethod: Illusions drawn from remembered trials\nFinal snare: Convincing ideal lives\nRecorded clue: Owl associated with Amara\nResult: The Misfits escaped"
+era: Age of the Misfits
+facts: |-
+  Adversary: Zauks, mind flayer
+  Method: Illusions drawn from remembered trials
+  Final snare: Convincing ideal lives
+  Recorded clue: Owl associated with Amara
+  Result: The Misfits escaped
 related: zauks,the-misfits,jaaris,the-stalker,noki-the-sheep,fo-gurn,independent-factions-of-the-misfits-era
-source: "The Living Chronicle, Chapter VI, IX; Master Canon Bible Volume I, V"
+source: The Living Chronicle, Chapter VI, IX; Master Canon Bible Volume I, V
 featured: false
 ---
-
 ## A victory followed by another captivity
 
 The Misfits had defeated **Jinlin Vechon** in the waking world. Queen Melmiri was still in Cid's hands, and the company had already endured captivity aboard Ros Furband's galleon. The next attack came not from a pirate or a vampire, but from the mind flayer **[[zauks|Zauks]]**, whose power worked upon memory and perception.
