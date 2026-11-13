@@ -8,7 +8,6 @@ era: "Founding Age"
 facts: |-
   Origin: Aldus Greystone III's forbidden experiments
   Nature: Arcane corruption
-  Ordinary contagion: Not established
   Symptoms and mechanism: Unresolved
   Historic containment: Jaznaar
 related: black-tower,sundering-of-the-six,jaznaar,great-desert,dead-marshes

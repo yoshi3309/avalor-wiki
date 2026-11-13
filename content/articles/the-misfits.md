@@ -118,7 +118,7 @@ The earliest surviving account of the fellowship's adventures brings them to **M
 
 The mind flayer [[Zauks and the False Lives|Zauks]] later recreated Moonville Manor as one of several memory-based trials. That imitation was **not a second visit to the original house**; it was an old adventure turned against those who had survived it.
 
-The Manor stands **before the first royal commission** in the reconciled history. Its rooms belong to the beginnings of the companions' trust, not to a later assignment from the crown. The exact order of every episode within the living house has not survived, and the Archives decline to supply one.
+Moonville Manor preceded the first royal commission. Within its living halls, the companions faced danger together before any formal duty to the crown united them. What they learned of one another there would matter long after the house was behind them.
 
 ## I. The Lord Marshal's first commission
 
@@ -178,9 +178,9 @@ He instructed Tel'Lora and entrusted knowledge to the company. As they prepared 
 
 At [[The Tournament of Champions]] in [[Renada]], the Misfits entered under assumed names while [[King Gradvum Frozenroar]] and [[Queen Melmiri]] attended the public celebration. [[Cid the Blood King]] seized Melmiri and fled. The queen's captivity began **before** the later encounters with Ros Furband, Jinlin Vechon, and Zauks, and continued throughout them.
 
-**Amara was taken after the Games**, during the dangers that followed the public celebration. The surviving account does not establish the exact circumstances of her capture or return; what is certain is that she later intervened when Zauks imprisoned the companions.
+**Amara was taken after the Games**, during the dangers that followed the queen's abduction. She would later return to the heart of the struggle when Zauks trapped her companions within false lives, reaching them from outside the illusion.
 
-The rescue did not follow an uninterrupted passage from the tournament grounds to Cid's throne. A pirate captain named **[[Ros Furband]]**, operating under a paid arrangement, captured the companions and delivered them into the hands of another of the era's dangerous figures. The Commission has not established Ros's point of embarkation or every condition attached to his bargain.
+The rescue led first into captivity. The pirate **[[Ros Furband]]**, operating under a paid arrangement, seized the companions aboard his galleon while Melmiri remained in Cid's custody. The Misfits had come to save a queen; for a time, they could not even secure their own freedom.
 
 ## Jinlin Vechon and the Wrath of Innocent
 
@@ -188,7 +188,7 @@ Ros's captives came before **Jinlin Vechon**, a **dragonborn vampire** and found
 
 The Misfits **fought Jinlin in the waking world and defeated him**. His defeat is an event of their actual campaign, not a scene invented by the mind flayer who later attacked them. Melmiri remained in Cid's custody while these events unfolded.
 
-Accounts of the voyage preserve the humble work assigned to the captives: Lavitz and Heureux labored at the oars, while Tel'Lora and [[Anna, Lowkee's Keeper|Anna]] worked in the galley. **Sven and Admiral [[Beldir Willowrun]]** were also placed among the lookouts; Beldir's precise reason for being aboard remains uncertain. Such details are useful counterweights to ballads that remember only crowns, monsters, and weapons.
+Accounts of the voyage preserve the humble work assigned to the captives: Lavitz and Heureux labored at the oars, while Tel'Lora and [[Anna, Lowkee's Keeper|Anna]] worked in the galley. **Sven and Admiral [[Beldir Willowrun]]** were among those assigned to the lookouts. Such details are useful counterweights to ballads that remember only crowns, monsters, and weapons.
 
 The broader history of Jinlin's faction is preserved separately. Later imitations of older adventures should not be mistaken for a resurrection of Jinlin or a second assault upon his stronghold.
 

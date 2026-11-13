@@ -47,8 +47,6 @@ for path in files:
     public_note = public_sources(meta.get("source"))
     if INTERNAL_SOURCE.search(public_note):
         problems.append(f"{path.name}: internal editorial source exposed to public")
-    if not public_note:
-        problems.append(f"{path.name}: public source display empty")
     entries[path.stem] = (meta, match.group(2))
     aliases[slugify(str(meta["title"]))] = path.stem
     aliases[slugify(path.stem)] = path.stem

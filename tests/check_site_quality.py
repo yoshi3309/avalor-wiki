@@ -43,6 +43,13 @@ assert 'id="main-content" class="site-main" tabindex="-1"' in home
 assert 'href="#main-content"' in home
 assert 'assets/maintenance.css' in home
 
+# Editorial display should never expose development-only placeholder language.
+for page in (SITE/'articles').glob('*/index.html'):
+    html=page.read_text(encoding='utf-8')
+    assert 'Public historical attribution under review.' not in html, page
+    assert 'Interpretations reflect the testimony and records available to the scholars of this age.' not in html, page
+    assert 'The archive records what may be known, while acknowledging the limits of surviving evidence.' not in html, page
+
 print('Site quality passed:',len(urls),'canonical sitemap pages;',
       report['pages_checked'],'HTML pages;',
       report['local_references_checked'],'checked local references; zero broken links or missing alt.')

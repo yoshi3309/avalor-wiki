@@ -35,19 +35,17 @@ Kurt **retired**, and Kel'Maris succeeded him before Prince Gradvum inherited th
 
 **Captain Funkin** served among Renada's officers during the Misfits' struggle against the Blood King. When the Stalker murdered **[[kel-maris|Kel'Maris]]** in [[Stanleyville]], Funkin **returned her body safely to Renada** so the kingdom could honor its Lord Marshal and carry out her final wishes.
 
-He survived that investigation but died in the **later** [[hydra-temple-disaster|Hydra temple disaster]], alongside Inspector Sihnion and trapped guards. He died in **2000 AF**, during the third month of the Misfits' campaign; the exact day is unrecorded. The sequence is important: Funkin brought a fallen protector home before becoming one of the people Avalor itself had to mourn.
+He survived that investigation but died in the **later** [[hydra-temple-disaster|Hydra temple disaster]], alongside Inspector Sihnion and trapped guards. He died in **2000 AF**, during the third month of the Misfits' campaign. The sequence is important: Funkin brought a fallen protector home before becoming one of the people Avalor itself had to mourn.
 
 ## Inspector Sihnion
 
 **Inspector Sihnion** was caught with Captain Funkin and Renadan guards in the disaster at the ruined temple of Bane near Stanleyville. The prisoners there faced magical restraints, a bloody rite, and servants working toward [[cid-the-blood-king|Cid's]] ambitions.
 
-When the failed rite gave way to a hydra and the temple's destruction, **Sihnion died** along with Funkin and other guards, during the third campaign month of **2000 AF**. His earlier assignments are not recorded, but his name belongs beside theirs, not hidden in a general count of casualties.
+When the failed rite gave way to a hydra and the temple's destruction, **Sihnion died** along with Funkin and other guards, during the third campaign month of **2000 AF**. His name belongs beside theirs, not hidden in a general count of casualties.
 
 ## Quill
 
 **Quill** is a **tortle** and commander of the **Royal Guard**, one of the divisions of [[The Avalorian Forces|Lion's Bane]] under Lord Marshal [[Lavitz Shawe]]. His uncle is **[[Rastrin Diltir]]**, the Aegis's Warden of Order. Both hold responsibilities for protecting Avalor, though they serve in different capacities: Rastrin through law and deliberation, Quill through the work of the royal guard.
-
-Quill's place in the army's command structure is established; a personal military career beyond that office has not yet been supplied.
 
 ## Mira
 

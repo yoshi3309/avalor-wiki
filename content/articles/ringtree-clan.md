@@ -99,7 +99,7 @@ This was not a claim that a song and a written record are interchangeable. It wa
 
 That same night, the **Ringtree library burned**. H's father disappeared within the flames, and the young historian was pursued through the forest by agents loyal to the clan chief.
 
-The chief, according to H's later account, had been manipulated by forces connected to **[[Cid the Blood King]]** and **mind flayers**. That connection is established by the creator's account. The identities of particular agents, the exact means of manipulation, and the ultimate fate of H's father have not been specified.
+Later testimony connected the clan chief's manipulation to forces associated with **[[Cid the Blood King]]** and mind flayers.
 
 H escaped. He believed he had failed to save his father and the knowledge entrusted to their family. That guilt would continue to shape him long after he became a widely loved performer.
 
@@ -119,7 +119,7 @@ His school is not described as a formal branch of the Ringtree Clan. Its foundin
 
 The Ringtree should not be reduced to the destruction of its library, nor should H's life be mistaken for a complete account of every member's experience.
 
-Their exact present population, leadership after the fire, wider family relationships, and custody of surviving texts have not been established. A careful history preserves those uncertainties rather than inventing a restored chief or a new ceremonial council.
+The fire scattered people and memories that had once been preserved together. In Heureux's songs and later historical work, the Ringtree's inheritance found a voice beyond the canopy where it began.
 
 What is known is enough to distinguish them: a firbolg people who lived hidden beneath the forest canopy, revered Her through the changes of the world, and guarded generations of written and spoken memory.
 

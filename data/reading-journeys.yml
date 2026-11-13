@@ -7,7 +7,7 @@ journeys:
     subtitle: Six companions. One impossible choice. A truth buried for centuries.
     overline: THE FOUNDING AGE · AN ARCHIVAL JOURNEY
     summary: Follow the fellowship that helped shape young Avalor, the catastrophe that broke it, the false story that endured, and the long-delayed restoration of Jaznaar's name.
-    editorial_note: This journey follows the Royal Commission's corrected public account. It distinguishes the original witnesses from the false legend circulated in later centuries. Exact words and dates are not invented where the sources do not preserve them.
+    editorial_note: Follow the fellowship from the founding of Avalor through the Black Tower and the centuries-long lie that concealed its history. The Royal Commission's account is informed by the discoveries made after Cid's defeat.
     era: From 1 AF to the Age of Ascendancy
     steps:
       - article: unification-of-avalor
@@ -21,7 +21,7 @@ journeys:
         introduction: Follow Aldus from genuine gifts of healing toward the dangerous conviction that mortality itself could be abolished.
       - article: sundering-of-the-six
         label: The Black Tower
-        introduction: The other five face a choice no friendship should require. Read what can be established about the confrontation and what remains uncertain.
+        introduction: The other five confront Aldus at the Black Tower, forced to oppose the healer whose ambitions endangered the world they had helped defend.
       - article: betrayers-legend
         label: The Lie That Outlived Them
         introduction: Discover how later generations learned a reversed history, condemning Jaznaar and celebrating the man he had opposed.
@@ -213,7 +213,7 @@ journeys:
     subtitle: Thirty-four sovereigns. One enduring crown. Centuries of choices.
     overline: THE LION THRONE · AN ARCHIVAL JOURNEY
     summary: Follow the crown from Rynhold's alliance of northern kingdoms through the triumphs, injuries, reforms, and responsibilities that define the House of Frozenroar in the present age.
-    editorial_note: The royal register names thirty-four sovereigns, but the family relationships between every successive ruler are not fully established. This reading path highlights pivotal episodes rather than inventing a continuous genealogy or claiming that every reign was alike.
+    editorial_note: Thirty-four sovereigns of one royal bloodline carried Avalor from its founding to Gradvum's reign. Follow the choices that preserved the kingdom, tested its institutions, and sometimes forced the crown to correct its own wrongs.
     era: Before 1 AF to the Age of Ascendancy
     steps:
       - article: founding-wars
@@ -224,7 +224,7 @@ journeys:
         introduction: In 1 AF, victorious allies negotiate the founding of a united kingdom. Avalor is built through political settlement, not the erasure of every older realm.
       - article: house-frozenroar
         label: Thirty-four Reigns
-        introduction: Enter the royal register, from Rynhold to Gradvum. The long succession includes abdications, conflicts, reforms, and relationships that remain uncertain in the surviving pedigree.
+        introduction: Enter the royal register, from Rynhold to Gradvum. Its succession records abdications, loss, reform, dynastic conflict, and generations of service beneath the lion banner.
       - article: the-aegis
         label: Institutions Beyond the Monarch
         introduction: The first king understood that a realm cannot rely forever on one ruler's judgment. Meet the council whose offices help carry government between reigns.
