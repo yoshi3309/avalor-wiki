@@ -108,7 +108,7 @@ Yet the existence of divine beings does not prove that every question can be ans
 
 Halden warns against turning human uncertainty into claims about divine ignorance. Thal observes that the reverse assumption—that any possible mystery must be comprehensible to the gods—has not been established either.
 
-No authenticated public testimony confirms that a divine being has identified or explained the subject of the ancient references. Nor does the silence establish that they cannot.
+No authenticated testimony confirms that a divine being has identified or explained the subject of the ancient references. Nor does the silence establish that they cannot.
 
 The question belongs to theology and philosophy, not an accomplished work of cosmic cartography.
 
@@ -128,7 +128,7 @@ It does not establish that the Beyond hides a comparable injustice or concealmen
 
 The titles **[[The Primordial Powers|Formless One]]** and **One Below** have invited comparisons to the Beyond, largely because all three sound obscure and difficult to locate within ordinary belief.
 
-Resemblance of names is not proof of shared identity. No public testimony establishes that either primordial is the Beyond or its ruler.
+Resemblance of names is not proof of shared identity. No surviving testimony establishes that either primordial is the Beyond or its ruler.
 
 The lost traditions of **[[Aethrion]]** speak of extraordinary learning and an abrupt disappearance. Some accounts use images of an opening or wound. These cannot be taken as authenticated descriptions of a crossing into the Beyond.
 
