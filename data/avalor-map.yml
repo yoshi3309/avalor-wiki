@@ -137,8 +137,8 @@ locations:
     type: settlement
     x: 38.65
     y: 40.89
-    description: Renowned metalworking town along the King's Road, remembered for
-      the Misfits' investigation.
+    description: Metalworking town on the King's Road where the Stalker killed
+      Lord Marshal Kel'Maris before the later Hydra temple disaster.
     article: stanleyville
     published: true
     provisional: false
@@ -167,7 +167,8 @@ locations:
     type: settlement
     x: 52.49
     y: 46.24
-    description: Hunters Guild settlement within the Dead Marshes.
+    description: Hunters Guild refuge within the Dead Marshes, founded by
+      Faelynn and later home to Malikeah, Mera and the hunter called Shadow.
     article: wayword-sun
     related_places: hunters-guild
     published: true
@@ -273,8 +274,8 @@ locations:
     type: region
     x: 49.41
     y: 56.45
-    description: Woodland near Alexiverde, on the other side of the town from the
-      Dead Marshes.
+    description: Woodland near Alexiverde, remembered as the place where the
+      ashes of Lord Marshal Kel'Maris were scattered after her state funeral.
     article: geography-of-avalor#king-s-forest
     published: true
     provisional: false
