@@ -1,12 +1,15 @@
 ---
-title: "Freedom for the Rotten Husk"
-subtitle: "The clan and its freedom from an oppressive chief"
-summary: "The Misfits helped liberate an orc clan from its oppressive chieftain, respecting its people beyond their famous encounter."
+title: Freedom for the Rotten Husk
+subtitle: The clan and its freedom from an oppressive chief
+summary: The Misfits helped liberate an orc clan from its oppressive chieftain,
+  respecting its people beyond their famous encounter.
 category: History & Chronicles
+image: /assets/uploads/freedom-for-the-rotten-husk.png
 entry: HIS.031
 era: Age of the Misfits
 related: the-misfits,rotten-husk-clan,amara,heureux,the-stalker
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
 ## A people behind an adventurer's tale
