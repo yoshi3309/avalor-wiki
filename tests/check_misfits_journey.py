@@ -427,3 +427,35 @@ for name,body in (("guilds",guilds),("forces",forces),("rynhold",rynhold)):
     assert "unnecessary volumes" not in body, name
     assert "later chapters of its history" not in body, name
 print("Source reconciliation: named offices, founder relationships, Fo'Gurn's choices and institutional distinctions preserved.")
+
+
+# Continuing Phase 6: geography, dynastic genealogy, and four-sheriff jurisdictions.
+forest=source("forest-of-the-fey")
+geo=source("geography-of-avalor")
+desert=source("great-desert")
+marsh=source("dead-marshes")
+karhold=source("karhold")
+sheriffs=source("four-sheriffdoms")
+settlements=source("lesser-settlements-of-avalor")
+unification=source("unification-of-avalor")
+assert "Dietmar's **son and heir, Halton Frozenroar**" in forest
+assert "Their son **Sylavor**" in forest
+assert "Dathyra Blueshadow" in forest and "Concord Walk" in forest
+assert "Forest of the Westfold lies near" in geo and "Eastern Reach" in geo
+assert "King's Forest" in geo and "Kel'Maris" in geo
+assert "The Drought and the Great Desert retain distinct names" in geo
+assert "Black Tower" in desert and "over time rather than in a single instant" in desert
+assert "predate Osmo's final defeat" in marsh and "Black Tower" in marsh
+assert "territory claimed" in karhold.lower() and "authority exercised" in karhold.lower()
+assert "Royal Heartlands" in sheriffs and "Tarnapolus" in sheriffs
+assert "Northern March" in sheriffs and "Eastern Reach" in sheriffs and "Western Verge" in sheriffs
+assert "Ilyanamel remains known chiefly through the life of Kel'Maris" in settlements
+assert "1 After Founding (AF)" in unification and "Heroes Hill" in unification
+map_data=yaml.safe_load((ROOT/"data"/"avalor-map.yml").read_text(encoding="utf-8"))
+mapped={item["id"]: item for item in map_data["locations"]}
+for locid in ("kings-forest","forest-of-the-westfold","the-drought","tarnapolus","briyans-autumn"):
+    assert mapped[locid]["published"] is True and mapped[locid]["provisional"] is False,locid
+assert mapped["kings-forest"]["article"]=="geography-of-avalor#king-s-forest"
+assert mapped["forest-of-the-westfold"]["article"]=="geography-of-avalor#forest-of-the-westfold"
+assert mapped["the-drought"]["article"]=="geography-of-avalor#the-drought"
+print("Phase 6 geography: genealogy, regional boundaries, public atlas entries and historical institutions verified.")
