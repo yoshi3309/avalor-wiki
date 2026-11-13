@@ -1,20 +1,22 @@
 ---
-title: "The Blood Sickness"
-subtitle: "A Corruption Born of Forbidden Magic"
-summary: "The magical corruption unleashed by Aldus's experiments, later restrained across centuries by Jaznaar."
+title: The Blood Sickness
+subtitle: A Corruption Born of Forbidden Magic
+summary: The magical corruption unleashed by Aldus's experiments, later
+  restrained across centuries by Jaznaar.
 category: History & Chronicles
+image: /assets/uploads/the-blood-sickness.png
 entry: HIS.018
-era: "Founding Age"
+era: Founding Age
 facts: |-
   Origin: Aldus Greystone III's forbidden experiments
   Nature: Arcane corruption
   Symptoms and mechanism: Unresolved
   Historic containment: Jaznaar
 related: black-tower,sundering-of-the-six,jaznaar,great-desert,dead-marshes
-source: "The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001, public historical record"
+source: The Living Chronicle, Chapters II–IV; Compendium II · Entry II.001,
+  public historical record
 featured: false
 ---
-
 ## More than the name of a plague
 
 The **Blood Sickness** is one of the most feared legacies of Aldus Greystone III, the healer whose search for an end to mortality became forbidden experimentation. Popular accounts sometimes call the Sickness a plague. That comparison should not obscure the essential fact: **it arose from deliberate arcane work**, not an ordinary natural contagion.
