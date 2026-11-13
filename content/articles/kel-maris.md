@@ -26,7 +26,7 @@ callouts:
   - type: reflection
     text: "For decades the king scarcely stood without the Lion's Shadow nearby. Her absence would be felt not only in the defenses of the throne, but in the trust she had placed in an unknown fellowship."
     attribution: Editorial reflection on the Lion's Shadow
-    after: the-lions-shadow
+    after: the-lion-s-shadow
     paragraph: 2
   - type: reflection
     text: "Kel'Maris did not live to see the adventurers she first entrusted with royal service become Avalor's celebrated champions. The judgment that sent them onto the road became part of the legacy she left behind."
@@ -34,7 +34,7 @@ callouts:
     after: death-at-stanleyville
     paragraph: 2
 highlight_sections:
-  - section: the-lions-shadow
+  - section: the-lion-s-shadow
     tone: legacy
   - section: death-at-stanleyville
     tone: remembrance
