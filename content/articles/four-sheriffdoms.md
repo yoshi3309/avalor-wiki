@@ -52,6 +52,4 @@ The disputed freeport of [[Karhold]] is a crucial exception: Avalor's territoria
 
 Sheriffs possess genuine regional discretion. Nevertheless, their authority is delegated by the monarch, and existing municipalities, guilds, military officers, and local traditions remain important in how government operates.
 
-The names and present holders of the four sheriffdoms are recorded. Their complete boundary surveys, subordinate offices, and administrative divisions are less clearly preserved in the Commission's holdings.
-
-The four sheriffdoms are therefore a way of making the crown's responsibilities local, not a claim that every community's history began with royal administration.
+The four sheriffdoms make the crown's responsibilities local without replacing the towns, traditions, or institutions that existed before those offices. Each sheriff must govern among people whose loyalties and livelihoods extend beyond the reach of royal administration.

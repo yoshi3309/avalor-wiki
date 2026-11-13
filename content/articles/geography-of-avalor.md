@@ -19,7 +19,7 @@ featured: false
 
 The great [[Spine of the World]], the [[Dead Marshes]], and the [[Forest of the Fey]] have histories large enough to fill their own volumes. Other names are woven more quietly through the lives of farmers, travelers, merchants, and the people who know the local roads.
 
-Three such places belong to the geography of Avalor: the **King's Forest**, the **Forest of the Westfold**, and **the Drought**. Each has a name and a place in the lives of nearby settlements, even though no great chronicle has yet been devoted to it.
+Three such places are the **King's Forest**, the **Forest of the Westfold**, and **the Drought**. The people who work, travel, or mourn beside them have long known those names, whether or not their stories reached the capital.
 
 ## King's Forest
 
@@ -27,9 +27,9 @@ The **King's Forest** is a woodland near **[[The Smaller Settlements of Avalor#a
 
 For the people of Alexiverde, the forest is part of the country surrounding their fields and workshops, rather than a distant curiosity. Its name belongs beside the town's proud association with [[Bradgem Glav]], the knight who died at Heroes Hill.
 
-The King's Forest should not be confused simply by assumption with the Forest of the Fey or Denzians Forest. Its own name remains part of the local geography.
+The King's Forest is a woodland in its own right, distinct in name and local history from the Forest of the Fey and Denzians Forest.
 
-It also holds a place in royal remembrance. After the death of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal known as the Lion's Shadow, her body lay in state at Renada's [[The Great Cathedral|Great Cathedral]]. She was then cremated privately, according to her wishes, and **her ashes were scattered across the King's Forest**. This is an established funeral connection, not evidence that her family came from this woodland; her native village was Ilyanamel.
+It also holds a place in royal remembrance. After the death of **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal known as the Lion's Shadow, her body lay in state at Renada's [[The Great Cathedral|Great Cathedral]]. She was then cremated privately, according to her wishes, and **her ashes were scattered across the King's Forest**. Her home had been **Ilyanamel**, an elven village, but this woodland became the place of her final remembrance.
 
 ## Forest of the Westfold
 
@@ -37,7 +37,7 @@ The **Forest of the Westfold** lies near **[[Briyan's Autumn]]**, the heavily fo
 
 The city stands in the Eastern Reach and is governed under Sheriff [[Cassian Veyran]]. Its woodland neighbor gives this part of the kingdom another natural landmark beyond roads, walls, and port routes.
 
-Despite the name *Westfold*, the forest is not thereby placed in Avalor's Western Verge. Its established association is with Briyan's Autumn in the east.
+Despite its name, the Forest of the Westfold lies near **Briyan's Autumn in the Eastern Reach**, not the Western Verge.
 
 ## The Drought
 
@@ -49,6 +49,6 @@ The Drought has its own name in the stories of those who cross it. Whether it fo
 
 ## Finding them on the atlas
 
-These names are part of Avalor's geography without requiring three more full-length articles. Each can be linked directly to its section here, while the [[The Smaller Settlements of Avalor|settlements gazetteer]] describes the communities that know these places best.
+The [[The Smaller Settlements of Avalor|settlements gazetteer]] preserves the communities nearest these regions. The **Cartographer's Table** places their names upon the kingdom's atlas, while their stories remain linked to the people who know the surrounding country best.
 
-The **Cartographer's Table** now marks the King's Forest, Forest of the Westfold, and Drought with their own selectable locations. These are the archive's mapped representations; their geographical associations with nearby settlements remain the more important evidence, and the map does not settle whether the Drought is part of the Great Desert.
+The Drought and the Great Desert retain distinct names. The Ferrymen's crossings belong to the Drought's history; no shared boundary has been established between the two.

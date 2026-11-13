@@ -27,7 +27,7 @@ The marshes occupy country between the [[Forest of the Fey]] and Avalor's settle
 
 The land was treacherous even before Avalor existed. The wars against **Lord Osmo** inflicted further damage upon it, and accounts of the decisive struggle at [[Heroes Hill]] have long been associated with the marshes' troubled condition. The surviving [[Lord Osmo’s Tower]] stands within these wetlands, a reminder of the conqueror's military reach before the founding.
 
-Popular retellings sometimes describe the entire region as the scar of one final battle. Such a story captures the scale of the remembered devastation without explaining all that preceded or followed it. The earliest records do not identify a single spell or weapon responsible for everything the marshes later became.
+Popular retellings often describe the marshes as the scar of a single battle. Yet the dangerous waters predate Osmo's final defeat, and the fighting added to injuries already borne by the land. The region's history is older and more complicated than any one field of war.
 
 ## The second wound: the Black Tower
 
