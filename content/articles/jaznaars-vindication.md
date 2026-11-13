@@ -1,10 +1,12 @@
 ---
-title: "The Vindication of Jaznaar"
-subtitle: "The Truth the Crown Finally Acknowledged"
-summary: "Gradvum's proclamation declaring Jaznaar innocent after the Misfits uncovered Cid's identity."
+title: The Vindication of Jaznaar
+subtitle: The Truth the Crown Finally Acknowledged
+summary: Gradvum's proclamation declaring Jaznaar innocent after the Misfits
+  uncovered Cid's identity.
 category: History & Chronicles
+image: /assets/uploads/the-vindication-of-jaznaar.png
 entry: HIS.024
-era: "Age of Ascendancy"
+era: Age of Ascendancy
 facts: |-
   Vindicated: Jaznaar Mizzrorzza of the Six
   Proclamation: King Gradvum Frozenroar
@@ -12,10 +14,10 @@ facts: |-
   Earlier law reforms: Reina's reign
   Memorial: Corrected plaque at Rynhold Park
 related: jaznaar,betrayers-legend,royal-commission-historical-inquiry,rynhold-park,reinas-reforms
-source: "The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry II.001, public historical account"
+source: The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry
+  II.001, public historical account
 featured: false
 ---
-
 ## The accusation overturned
 
 The Misfits' confrontation with **Cid the Blood King** brought to light a truth that transformed the understanding of Avalor’s founding. Aldus Greystone III, long celebrated as a healer and defender, had been responsible for the Black Tower experiments; [[Jaznaar]], condemned as the Betrayer, had spent centuries trying to contain their consequences.
