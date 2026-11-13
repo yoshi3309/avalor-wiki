@@ -1,12 +1,15 @@
 ---
-title: "Captives of Ros Furband and the Wrath"
-subtitle: "The pirate galleon, Jinlin Vechon, and the delayed royal rescue"
-summary: "After the Renada Games, Ros Furband held the Misfits aboard a galleon and delivered them to Jinlin Vechon and the Wrath of Innocent."
+title: Captives of Ros Furband and the Wrath
+subtitle: The pirate galleon, Jinlin Vechon, and the delayed royal rescue
+summary: After the Renada Games, Ros Furband held the Misfits aboard a galleon
+  and delivered them to Jinlin Vechon and the Wrath of Innocent.
 category: History & Chronicles
+image: /assets/uploads/captives-of-ros-furband-and-the-wrath.png
 entry: HIS.033
 era: Age of the Misfits
 related: the-misfits,ros-furband,independent-factions-of-the-misfits-era,tournament-of-champions,beldir-willowrun,anna-lowkees-keeper,zauks-false-lives
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
 ## The rescue interrupted
