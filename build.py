@@ -494,7 +494,7 @@ for raw_graph in RELATIONSHIPS_SOURCE.get('maps', []):
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', node_id) or node_id in node_index:
             raise ValueError(f'{ident}: invalid or duplicate node {node_id}')
         article = str(raw_node.get('article') or '')
-        if article and article not in BY_SLUG:
+        if article and article not in BY_SLUG and article not in MERGES:
             raise ValueError(f'{ident}: missing public article for {node_id}: {article}')
         x, y = float(raw_node.get('x', -1)), float(raw_node.get('y', -1))
         if not (6 <= x <= 94 and 6 <= y <= 94):
