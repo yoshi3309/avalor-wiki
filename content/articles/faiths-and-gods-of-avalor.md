@@ -59,7 +59,7 @@ Some old traveler tales and religious warnings speak of a figure called **the Ke
 
 The Great Cathedral does not include the Keeper among its recognized gods and generally approaches the stories with suspicion rather than reverence. Some scholars consider the tales transformed fragments of an older tradition; others see a moral figure that became more sinister with each retelling.
 
-No reliable **public** testimony identifies a single supernatural being behind every version of the legend. The name should not be treated as another title for the Creator, the Formless One, or **[[The Beyond]]** merely because each belongs to obscure traditions.
+No reliable testimony identifies a single supernatural being behind every version of the legend. The name should not be treated as another title for the Creator, the Formless One, or **[[The Beyond]]** merely because each belongs to obscure traditions.
 
 ## Faith and the life of the realm
 
