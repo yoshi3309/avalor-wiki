@@ -17,6 +17,7 @@ facts: |-
   Exile: Sent to the Material Plane at age one hundred
   Beloved: Tristan
   Son in his heart: Kristofer, Tristan's adopted nephew
+  Family tragedy: 1997 AF (Tristan and Kristofer killed in Jaaris's rite)
   Divine vow: Justice for wrongs against children and families, never vengeance
   Patron deities: Vandria Gilmadrith and Erevan Ilesere
   Keepsake: Silver ring set with stones of family memory and grief
@@ -95,7 +96,7 @@ Sven expected to return the boy and continue his wanderings. Instead, he met a y
 
 The green-skinned trickster who had never expected to settle down found himself at the heart of a small family. He grew to think of Kristofer as **his own son**. Days once filled solely with practical jokes became filled with protecting a home, sharing ordinary joys, and looking forward to coming back.
 
-For **five years**, he lived with Tristan and Kristofer. Without realizing it, he had answered the challenge his parents had set: he had discovered responsibility through love.
+For **five years**, ending in **1997 AF**, he lived with Tristan and Kristofer. Without realizing it, he had answered the challenge his parents had set: he had discovered responsibility through love.
 
 ## Five years of spring
 
@@ -109,7 +110,7 @@ As Kristofer's **tenth birthday** approached, Sven decided to find him the perfe
 
 ## The house beneath the watching eyes
 
-While Sven was away, the wild fey elves captured **Tristan and Kristofer** and set their home ablaze. They waited for Sven in the ruins, believing that his attachment to mortal things had weakened him.
+In **1997 AF**, while Sven was away, the wild fey elves captured **Tristan and Kristofer** and set their home ablaze. They waited for Sven in the ruins, believing that his attachment to mortal things had weakened him.
 
 When he returned, they seized him and bound him by magic. He could see what was about to happen. He could not intervene.
 
