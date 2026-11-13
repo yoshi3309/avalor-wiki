@@ -15,7 +15,7 @@ facts: |-
   Great burden: Containment of Cid and the Blood Sickness
   False historical title: The Betrayer
   Final testimony: The Misfits' visit to his refuge
-  Estimated death date: c. 2000 AF (provisional; after refuge visit, before Cid's defeat)
+  Death year: 2000 AF (fourth month; after refuge visit, before Cid's defeat)
   Historic status: Publicly vindicated by King Gradvum
 related: the-six,aldus-greystone-iii,sundering-of-the-six,black-tower,betrayers-legend,jaznaars-vindication,tellora-ebbenflow,rynhold-park
 source: The Living Chronicle, Chapters III–IV, VI–VII; Compendium II · Entry II.001; author-confirmed World Anvil surname, Cid's Bane and crystal history (November 2026)
