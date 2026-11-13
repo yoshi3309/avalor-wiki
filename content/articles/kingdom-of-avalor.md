@@ -193,7 +193,7 @@ To the south, the **Kingdom of Birid** is ruled by **King Zurik**, an aarakocra 
 
 Birid and Krahan have approached war while Avalor has remained **neutral**, preserving diplomatic and commercial relations with both. Neutrality is a policy with consequences: merchants, travelers, and officials must still confront the tensions of neighboring states.
 
-The **Kingdom of Labos**, ruled by **King Geoff and Queen Viviliv**, also maintains diplomatic relations with Avalor. Their children are **Jeothor**, **Verbos**, **Seals**, and **[[heyden-of-the-goldenfoot|Heyden Goldenfoot]]**. Avalor's wider world cannot be reduced to the rivalry immediately south of its border.
+The **[[distant-lands-of-the-hunter#the-kingdom-of-labos|Kingdom of Labos]]**, ruled by **King Geoff and Queen Viviliv**, also maintains diplomatic relations with Avalor. Their children are **Jeothor**, **Verbos**, **Seals**, and **[[heyden-of-the-goldenfoot|Heyden Goldenfoot]]**. A delegation visited Renada to consider closer relations; no concluded alliance is implied by the visit. Avalor's wider world cannot be reduced to the rivalry immediately south of its border.
 
 ## The burden of prosperity
 
