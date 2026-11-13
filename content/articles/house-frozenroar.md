@@ -57,7 +57,7 @@ The line has endured not because every ruler governed wisely, but because the ki
 
 ## The royal register
 
-The **Royal Register** records **34 sovereigns of one unbroken Frozenroar bloodline**, beginning with Rynhold in 1 AF. Every monarch belongs to the dynasty by descent, though a successor was not always the previous ruler's child. Siblings, grandchildren, and collateral branches also inherited the crown. The register distinguishes the end of a reign from a sovereign's later death, recording the different circumstances in which the crown passed onward.
+The **Royal Register** names **34 sovereigns**, from Rynhold's founding reign to Gradvum's. All belong to the Frozenroar bloodline, although the crown sometimes passed to siblings, grandchildren, or collateral heirs rather than directly from parent to child.
 
 | # | Sovereign | Reign (AF) | How the reign ended / later fate |
 | --- | --- | --- | --- |

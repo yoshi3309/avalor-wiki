@@ -79,3 +79,16 @@ After GitHub Pages deploys, visually verify the Lavitz biography on both mobile 
 - **Lowkee and Kel'Maris:** restrained two-reflection treatment that follows the First Teaching, inherited duty, the Lion's Shadow, and the distinct Stalker-to-Hydra chronology.
 
 All reflective callouts are newly written **editorial synthesis**, not purported historical dialogue. Main article portraits and previously approved site colors are retained. Short entries are not expanded to satisfy a visual quota.
+
+
+## Phase 3: continue exploring, not stacked invitations (13 November 2026)
+
+All public article pages share one `Continue exploring` section beneath the parchment article. Within it, links are arranged by their purpose: guided reading, connections and comparisons, illustrations and exhibits, then related records. This is a presentation change, not a reduction of features.
+
+- Preserve all curated journey previous/next links and the full journey route. Optional deeper-reading chapters open in an accessible disclosure.
+- Preserve general connection-web links, dedicated relationship maps, and comparative biographies, but present them together instead of as separate hero-sized banners.
+- Show the first two curated gallery/exhibit records and first four related records as entry points. Remaining curated links stay present in the HTML and are reachable through native `details` disclosures.
+- Use semantic headings, keyboard-accessible links and disclosures, responsive layout, and visible focus rings. Do not require JavaScript to continue reading.
+- Never display editing provenance, creator timestamps, game rule discussions, or author-facing canon notes in the public historical article body. Metadata and internal editorial documents may retain those process details.
+
+The Royal Register prose in `house-frozenroar.md` was also shortened: its author-facing November 2026 creation statement has no place in an in-world dynasty account.

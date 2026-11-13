@@ -26,5 +26,5 @@ six=(SITE/'connections/the-six/index.html').read_text(encoding='utf-8')
 assert 'id="connection-web-return"' in six
 lavitz=(SITE/'articles/lavitz-shawe/index.html').read_text(encoding='utf-8')
 assert 'connections/?focus=lavitz-shawe' in lavitz
-assert 'connection-web-article-prompt' in lavitz
+assert 'article-explore-action--connections' in lavitz
 print('Curated Connections Explorer validated: records, sources, interactive controls and diagram bridges.')
