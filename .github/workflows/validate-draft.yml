@@ -42,8 +42,8 @@ jobs:
           node --check assets/reading-comfort.js
           node --check assets/welcome.js
           node --check assets/comparisons.js
-      - name: Test smart archive search
-        run: node --test tests/test_search.js
+      - name: Test smart archive search and chapter sharing
+        run: node --test tests/test_search.js tests/test_chapter_sharing.js
       - name: Check public canon and article links
         run: python tests/check_public_canon.py
       - name: Build public website

@@ -56,3 +56,15 @@
 .article-illustration--landscape img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#14242b}
 .article-illustration--landscape figcaption{padding:12px 9px 3px;text-align:center;color:#d6c5a3;font:italic 12px/1.65 var(--font-literary)}
 @media(max-width:710px){.article-illustration--landscape{margin:0 0 18px;padding:6px}.article-illustration--landscape figcaption{padding:9px 7px 3px;font-size:11px}}
+
+/* Phase 4: restrained share actions beside each existing chapter heading. */
+.article-body h2 .chapter-share-controls{display:inline-flex;vertical-align:middle;align-items:center;gap:4px;margin-left:10px;white-space:nowrap}
+.article-body h2 .chapter-share-controls a,.article-body h2 .chapter-share-controls button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;min-height:30px;min-width:30px;border:1px solid #c8b496;border-radius:3px;padding:5px 7px;background:#efe5d2;color:#74542b;font:600 10px/1.4 var(--font-body);letter-spacing:0;text-decoration:none;cursor:pointer}
+.article-body h2 .chapter-share-controls .chapter-share-action{display:none}
+.chapter-sharing-ready .article-body h2 .chapter-share-controls .chapter-share-action{display:inline-flex}
+.article-body h2 .chapter-share-controls a:hover,.article-body h2 .chapter-share-controls button:hover{border-color:#927449;background:#e2d3b6;color:#3a4c56}
+.article-body h2 .chapter-share-controls a:focus-visible,.article-body h2 .chapter-share-controls button:focus-visible{outline:3px solid #8c612e;outline-offset:3px}
+.article-body h2 .chapter-share-feedback{display:inline-block;vertical-align:middle;margin-left:8px;color:#456454;font:600 10px/1.5 var(--font-body);letter-spacing:0}
+.article-body h2 .chapter-share-feedback:empty{display:none}
+@media(max-width:710px){.article-body h2 .chapter-share-controls{margin-left:5px}.article-body h2 .chapter-share-controls a,.article-body h2 .chapter-share-controls button{min-width:36px;min-height:36px}.article-body h2 .chapter-share-feedback{display:block;margin:6px 0 0}}
+@media(hover:none) and (pointer:coarse){.article-body h2 .chapter-share-controls a,.article-body h2 .chapter-share-controls button{min-width:42px;min-height:42px}}

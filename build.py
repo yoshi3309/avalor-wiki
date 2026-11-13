@@ -335,7 +335,17 @@ def make_html(article):
         tag=slugify(raw) or 'heading'; anchor=tag; n=2
         while anchor in used: anchor=f'{tag}-{n}';n+=1
         used.add(anchor);headings.append({'id':anchor,'text':raw})
-        return f'<h2 id="{anchor}">{m.group(1)}</h2>'
+        # The only source for share text is this published heading and article title.
+        label=html.escape(raw,quote=True)
+        safe=html.escape(anchor,quote=True)
+        controls=(
+            '<span class="chapter-share-controls">'
+            f'<a class="chapter-permalink" href="#{safe}" title="Chapter permalink" aria-label="Link to chapter: {label}">#</a>'
+            f'<button type="button" class="chapter-share-action" data-chapter-share="link" data-chapter-id="{safe}" data-chapter-title="{label}" aria-label="Copy link to chapter: {label}">Link</button>'
+            f'<button type="button" class="chapter-share-action" data-chapter-share="citation" data-chapter-id="{safe}" data-chapter-title="{label}" aria-label="Copy citation for chapter: {label}">Cite</button>'
+            '</span><span class="chapter-share-feedback" role="status" aria-live="polite" aria-atomic="true"></span>'
+        )
+        return f'<h2 id="{safe}">{m.group(1)}{controls}</h2>'
     rendered=re.sub(r'<h2>(.*?)</h2>',heading_id,rendered,flags=re.S)
     rendered=insert_article_modules(rendered, article, headings)
     # Convert Pages CMS media paths into relative paths that work on

@@ -49,5 +49,36 @@
     const details = link.closest('.article-mobile-toc');
     if (details) details.open = false;
   });
+  // Copy chapter URLs or publication citations without fabricating quotations.
+  // The # links remain functional without this script.
+  const canonical = document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0];
+  const articleTitle = article.dataset.readingTitle || document.title.split(' · ')[0];
+  const shareButtons = [...body.querySelectorAll('button[data-chapter-share]')];
+  if (shareButtons.length) article.classList.add('chapter-sharing-ready');
+  async function copyChapter(button) {
+    const heading = button.closest('h2[id]');
+    if (!heading || !body.contains(heading)) return;
+    const kind = button.dataset.chapterShare;
+    if (kind !== 'link' && kind !== 'citation') return;
+    const url = new URL(canonical, window.location.href);
+    url.hash = button.dataset.chapterId || heading.id;
+    const payload = kind === 'citation'
+      ? articleTitle + ' — ' + (button.dataset.chapterTitle || '') + ' | The Archives of Avalor | ' + url.href
+      : url.href;
+    for (const node of body.querySelectorAll('.chapter-share-feedback')) node.textContent = '';
+    const feedback = heading.querySelector('.chapter-share-feedback');
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(payload);
+      if (feedback) feedback.textContent = kind === 'citation' ? 'Chapter citation copied.' : 'Chapter link copied.';
+    } catch (_) {
+      window.prompt('Select and copy this ' + (kind === 'citation' ? 'chapter citation' : 'chapter link') + ':', payload);
+      if (feedback) feedback.textContent = 'Copy from the open dialog.';
+    }
+  }
+  body.addEventListener('click', event => {
+    const button = event.target.closest('button[data-chapter-share]');
+    if (button && body.contains(button)) void copyChapter(button);
+  });
   update();
 })();

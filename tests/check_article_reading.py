@@ -193,3 +193,20 @@ assert 'creator approval' not in royal.lower()
 assert 'The **Royal Register**' not in royal # Markdown should have rendered to HTML
 assert '34 sovereigns' in royal
 print('Phase 3 article discovery verified: one region, preserved routes, compact disclosure and in-world royal history.')
+
+# Phase 4: all chapter tools bind to stable in-world headings.
+import re as _share_re
+for slug in ('lavitz-shawe','house-frozenroar','the-misfits','the-beyond','renada'):
+    page, parsed = audit(slug)
+    source = (ROOT / 'content' / 'articles' / (slug + '.md')).read_text(encoding='utf-8')
+    chapter_count = len(_share_re.findall(r'^## +', source, flags=_share_re.M))
+    ids = _share_re.findall(r'data-chapter-share="link" data-chapter-id="([a-z0-9-]+)"', page)
+    assert ids and len(ids) == chapter_count, f'{slug}: chapter/link count mismatch'
+    assert page.count('class="chapter-share-controls"') == chapter_count, slug
+    assert page.count('data-chapter-share="link"') == len(ids), slug
+    assert page.count('data-chapter-share="citation"') == len(ids), slug
+    assert page.count('class="chapter-share-feedback"') == len(ids), slug
+    for anchor in ids:
+        assert f'class="chapter-permalink" href="#{anchor}"' in page, (slug, anchor)
+        assert f'data-chapter-id="{anchor}"' in page, (slug, anchor)
+print('Chapter sharing output verified: static permalinks, in-world labels, and copy actions.')
