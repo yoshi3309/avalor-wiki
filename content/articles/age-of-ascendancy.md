@@ -6,7 +6,8 @@ category: History & Chronicles
 entry: HIS.005
 era: Age of Ascendancy
 facts: |-
-  Begins: Following Cid’s defeat
+  Begins: Following Cid’s defeat in 2000 AF
+  Current year: 2020 AF
   Monarch: Gradvum Frozenroar
   Distinguishing legacy: The vindication of Jaznaar
 related: anna-lowkees-keeper,emerald-of-armanti,jack-of-stanleyville,heureux,amara,svendyal-shadowwhisper,kingdom-of-avalor,the-misfits,lavitz-shawe,the-aegis,jaznaars-vindication,royal-commission-historical-inquiry,shammans-tower,heureuxs-bard-academy,queen-melmiri,kel-maris
@@ -16,7 +17,7 @@ featured: false
 
 ## An age named after the victory
 
-The **Age of Ascendancy** is the name later historians gave the period following [[The Misfits]]' defeat of [[Cid the Blood King]]. The kingdom recovered [[Queen Melmiri]], learned that its celebrated founder Aldus Greystone III had been the Blood King, and began correcting the centuries-old accusation against [[Jaznaar]]. Avalor's growing reputation abroad belonged to that same period, but it should not be confused with one unbroken triumph.
+The **Age of Ascendancy** is the name later historians gave the period following [[The Misfits]]' defeat of [[Cid the Blood King]] in **2000 AF**. The present royal chronology places Avalor approximately twenty years later, in **2020 AF**. The kingdom recovered [[Queen Melmiri]], learned that its celebrated founder Aldus Greystone III had been the Blood King, and began correcting the centuries-old accusation against [[Jaznaar]]. Avalor's growing reputation abroad belonged to that same period, but it should not be confused with one unbroken triumph.
 
 No independent record establishes the age's formal creation by royal decree. Its name is a historical description of change across roughly twenty years, **not a claim that every year is fully documented**.
 
