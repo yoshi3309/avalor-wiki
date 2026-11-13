@@ -36,7 +36,7 @@ callouts:
   - type: contested
     text: "Royal histories describe the Elven Concord as concessions made by the crown. Woodland traditions remember the same agreement as recognition of rights that preceded Avalor. Both remember a settlement under Dietmar; they differ over what authority it acknowledged."
     attribution: The royal and woodland traditions of the Elven Concord
-    after: the-kingdoms-turning-points
+    after: the-kingdom-s-turning-points
     paragraph: 2
 highlight_sections:
   - section: the-first-crown
