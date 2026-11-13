@@ -343,6 +343,34 @@ assert "1997 AF" in fate_register
 assert "2020 AF" in fate_register
 assert "Addendum 007" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
+# Editorial cross-feature review (November 13, 2026).
+for person in ("gomo", "silver-of-moonlight"):
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[person]["parent"] == "minor-characters", person
+    redirect = (ROOT / "_site" / "articles" / person / "index.html").read_text(encoding="utf-8")
+    assert "articles/minor-characters/#" + person in redirect
+traveler_places = source("distant-lands-of-the-hunter")
+for heading in ("## The Kingdom of Labos","## Chult","## Weyland Forest",
+                "## Valiant and the Woodland Elves","## The Wood of the Fey"):
+    assert heading in traveler_places, heading
+heyden_dossier = source("heyden-of-the-goldenfoot")
+assert "## The prince who learned to stay" in heyden_dossier
+assert "highlight_sections:" in heyden_dossier
+assert "callouts:" in heyden_dossier
+assert "not a confirmed portrait of Heyden" in heyden_dossier
+assert "The Hunters Guild" in source("hunters-guild")
+assert "changes of dynasty" not in source("kingdom-of-avalor")
+assert "unbroken Frozenroar royal bloodline" in source("kingdom-of-avalor")
+assert "The **Cartographer's Table** now marks" in source("geography-of-avalor")
+assert "creator-approved lore" not in source("age-of-ascendancy")
+for illustrated in ("faelynn","jaaris","cid-the-blood-king","amara","fo-gurn","jaznaar","rynhold-frozenroar"):
+    assert "callouts:" in source(illustrated), illustrated
+    assert "highlight_sections:" in source(illustrated), illustrated
+atlas_data = (ROOT / "data" / "avalor-map.yml").read_text(encoding="utf-8").lower()
+for unknown_position in ("weyland forest", "chult", "valiant"):
+    assert unknown_position not in atlas_data, unknown_position
+assert "Addendum 009" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
