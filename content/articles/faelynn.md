@@ -49,7 +49,7 @@ That closeness made the betrayal to come especially cruel. An enemy could use Fa
 
 ## The boar and the gate
 
-One evening Faelynn followed an enormous boar through miles of forest. She tracked it for hours, waiting until it approached a cave she took for its den. Within, the temperature climbed, the air became oppressive, and an urge she did not understand drew her deeper. She expected to corner it in a cave. Instead she found the air turning oppressively hot and, deeper inside, a swirling portal. Beyond it stood the crooked wrought-iron gate of a city whose twisted shapes seemed wrong to the eye. She had never seen a passage between worlds, and she was so transfixed that the boar nearly vanished from her thoughts.
+One evening Faelynn followed an enormous boar through miles of forest. She tracked it for hours, waiting until it approached a cave she took for its den. Within, the air grew feverishly hot, and an urge she did not understand drew her deeper. She expected to corner the boar in its den. Instead she found a swirling portal. Beyond it stood the crooked wrought-iron gate of a city whose twisted shapes seemed wrong to the eye. She had never seen a passage between worlds, and she was so transfixed that the boar nearly vanished from her thoughts.
 
 The boar passed toward the gate and changed. Its body twisted into something monstrous. When the thing turned back toward Faelynn, she fled, running through the night until she reached the familiar treetops of home.
 
@@ -67,7 +67,7 @@ Faelynn could see the destruction. She could grieve. She could not stop it.
 
 At dawn the spell finally broke. Faelynn collapsed, then crawled outside and called for anyone who might have survived. No voice answered.
 
-When she rose again, grief gave way to a vow: she would find the creature responsible and make it answer for what it had done. She completed the funeral pyres and rites herself, because the clerics who might have guided her were among the dead. Only after the last villager had been laid to rest could she leave. She buried and burned what remained of her people, performing the rites as best she could without the village's slain clerics.
+When she rose again, grief gave way to a vow: she would find the creature responsible and make it answer for what it had done. She completed the funeral pyres and rites herself. The clerics who might have guided her were among the dead, so she buried and burned what remained of her people as best she could. Only when every neighbor had been laid to rest did she leave.
 
 Then she left the home she had once defended.
 
