@@ -26,7 +26,7 @@ Although great buildings have made the mountains famous, the region is not simpl
 
 Near the mountains' foot stands [[Heaven's Heart]], a settlement and sanctuary associated with [[Lowkee]] and the traditions of [[The Cathedral Paladins]]. Its students are taught that strength is a duty owed to those who need protection, rather than a privilege granted for the benefit of the powerful.
 
-The [[The Black Stair]] is remembered among the approaches to the mountains and the sanctuary. Its demanding ascent belongs to the ordinary experience of travelers, scholars, and pilgrims who have had reason to make the journey.
+The [[The Black Stair]] climbs toward the **[[The Black Tower]]**, not toward Heaven's Heart. The sanctuary stands nearby at the foot of the mountains, while the stair belongs to the tower's steep and dangerous approach. Their histories meet in the Spine of the World without sharing the same road.
 
 The nearby [[The Great Library of Aldus Greystone]] preserves manuscripts and contested histories, including evidence through which Avalor has reconsidered its account of the founding heroes.
 

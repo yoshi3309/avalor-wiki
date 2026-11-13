@@ -29,7 +29,7 @@ He had crossed dangerous roads, stood beside friends who faced death, and helped
 
 The academy grew from that second calling. The world did not need another generation to endure the Misfits' dangers in order to learn how to sing, perform, write, or remember. It needed somewhere those gifts could be practiced before they were offered to an audience.
 
-Known in the Archives as **Heureux's Bard Academy**, the school was established **after the defeat of [[Cid the Blood King]]**. Its descriptive name honors its founder; no different formal chartered title has yet been established.
+**Heureux's Bard Academy** was established **after the defeat of [[Cid the Blood King]]**. It bears the name of the traveler whose adventures helped transform the kingdom and whose love of performance continued long after those battles ended.
 
 ## The city around its doors
 
@@ -59,7 +59,7 @@ There is the pleasure of performance: the confidence to stand before listeners, 
 
 For some, that calling may lead to the stage. For others it may become a life of travel, gathering tales and giving them back to the communities from which they came. Still others may study simply because art enriches a life already devoted to another duty.
 
-These are the possibilities suggested by the school's purpose, rather than a fixed list of prescribed courses. The academy's exact curriculum, teaching appointments, and rules of admission have not been settled. Its identity rests on the opportunity it provides: **to develop a voice before deciding what to do with it**.
+Students may follow different paths through the performing arts without sharing the same ambitions. The academy's purpose is larger than preparation for a single stage or profession: **to develop a voice before deciding what to do with it**.
 
 ## A Golden Hand among the students
 

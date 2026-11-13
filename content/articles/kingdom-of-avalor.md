@@ -176,7 +176,9 @@ The ideals of the founding are ultimately tested not only by speeches from the C
 
 ## The roads between farm, guild, port, and court
 
-Agriculture in the Royal Heartlands, fisheries at River City, metalworking around Stanleyville, and trade moving through Renada are not separate stories. One household's livelihood may depend on goods, roads, and decisions originating far beyond its settlement.
+Agriculture in the Royal Heartlands, fisheries at [[River City]], metalworking around [[Stanleyville]], and trade moving through [[Renada]] are not separate stories. One household's livelihood may depend on goods, roads, and decisions originating far beyond its settlement.
+
+The **River Rhys** serves both the capital and the performing-arts city of **[[Taveras]]**. **[[Stannisport]]** occupies the banks of the **River Juce**, joined by Heroes Bridge, while **[[Tarnapolus]]** receives traders on **Lake Noch**. Each is a distinct commercial setting within the realm; their importance does not depend on treating their rivers or lakes as a single waterway.
 
 The kingdom's guilds are likewise varied. The **Silver Forge** in Stannisport preserves traditions of healing, guidance, and defense; the **Society of Silk & Story** supports bardic craft; the **Hunters Guild** protects travelers and communities amid dangerous country. The **Sea Serpents**, the Avalorian thieves' guild branch based in Olivruch, occupies a different and illicit place within the same world of networks and services.
 

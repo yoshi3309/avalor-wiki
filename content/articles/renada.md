@@ -87,6 +87,8 @@ Along the quays, boats, carts, inns, ropewalks, and warehouses turn river traffi
 
 The Rhys has helped make Renada wealthy, but prosperity has never followed the river equally into every household. Trade is shared work; profit is not always shared in the same way.
 
+The Rhys also runs through **[[Taveras]]**, where its banks sustain a different civic life centered on performance, study, and trade. Elsewhere, **[[Stannisport]]** stands upon the River Juce and **[[Tarnapolus]]** upon Lake Noch. These waterways serve different places within Avalor's commercial world; their distinct names do not make them branches of the Rhys.
+
 ## Five districts, many lives
 
 Renada's five major districts offer distinct views of one city: **Old Renada**, **Crownrise**, **Rhys Quays**, **Lantern Ward**, and **Cathedral Ward**. The **Mudsteps** is a neighborhood **within Rhys Quays**, not a sixth major district or an independent town. **Rynhold Park** is a civic space, not a separate settlement.

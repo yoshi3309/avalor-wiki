@@ -23,6 +23,8 @@ In a kingdom whose chronicles often follow kings and armies, a town like River C
 
 ## Growth on the waterfront
 
-As trade increases, the town's livelihood becomes more closely tied to demand from **[[Renada]]** and neighboring communities. Its growth has not made it a rival to every larger harbor, nor does it need to be one.
+As trade increases, the town's livelihood becomes more closely tied to demand from **[[Renada]]** and neighboring communities. The Royal Heartlands' farms and the crews of River City help sustain the same markets through different kinds of work. [[Edran Halwick]], sheriff of the Heartlands, carries responsibility for the wider agricultural region, not command of every fishing boat or port.
+
+River City's growth has not made it a rival to every larger harbor, nor does it need to be one.
 
 River City's importance is practical: its boats bring food, its workers sustain a trade, and its people remind the crown that the breadbasket depends upon more than bread alone.
