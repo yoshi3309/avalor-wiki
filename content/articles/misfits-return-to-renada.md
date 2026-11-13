@@ -1,15 +1,18 @@
 ---
-title: "The Misfits Return to Renada"
-subtitle: "Mourning, the Royal Audience, and Separate Paths"
-summary: "After the rescue of Queen Melmiri, Avalor mourned its dead, honored the Misfits, and saw the companions accept different responsibilities while retaining their fellowship."
+title: The Misfits Return to Renada
+subtitle: Mourning, the Royal Audience, and Separate Paths
+summary: After the rescue of Queen Melmiri, Avalor mourned its dead, honored the
+  Misfits, and saw the companions accept different responsibilities while
+  retaining their fellowship.
 category: History & Chronicles
+image: /assets/uploads/the-misfits-return-to-renada.png
 entry: HIS.034
 era: Age of Ascendancy
 related: kel-maris,shadowfell-confrontation,the-misfits,queen-melmiri,king-gradvum-frozenroar,jaznaars-vindication,age-of-ascendancy,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,jack-of-stanleyville,anna-lowkees-keeper
-source: "The Living Chronicle, Chapters VI–VII, public history after the Misfits' victory; Master Canon Bible, Section VI, publishable outcomes"
+source: The Living Chronicle, Chapters VI–VII, public history after the Misfits'
+  victory; Master Canon Bible, Section VI, publishable outcomes
 featured: false
 ---
-
 ## The queen came home
 
 **[[Queen Melmiri]]** returned to **[[Renada]]** with the Misfits. Her abduction at the Tournament of Champions had unfolded before the capital's spectators; her absence had remained a national crisis through the pirate voyage, the confrontation with Jinlin, the illusions of Zauks, and the last struggle in the Shadowfell.
