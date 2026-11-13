@@ -35,13 +35,13 @@ Kurt **retired**, and Kel'Maris succeeded him before Prince Gradvum inherited th
 
 **Captain Funkin** served among Renada's officers during the Misfits' struggle against the Blood King. When the Stalker murdered **[[kel-maris|Kel'Maris]]** in [[Stanleyville]], Funkin **returned her body safely to Renada** so the kingdom could honor its Lord Marshal and carry out her final wishes.
 
-He survived that investigation but died in the **later** [[hydra-temple-disaster|Hydra temple disaster]], alongside Inspector Sihnion and trapped guards. His death belongs to the campaign dated **c. 2000 AF**, a provisional estimate rather than a known calendar year. The sequence is important: Funkin brought a fallen protector home before becoming one of the people Avalor itself had to mourn.
+He survived that investigation but died in the **later** [[hydra-temple-disaster|Hydra temple disaster]], alongside Inspector Sihnion and trapped guards. He died in **2000 AF**, during the third month of the Misfits' campaign; the exact day is unrecorded. The sequence is important: Funkin brought a fallen protector home before becoming one of the people Avalor itself had to mourn.
 
 ## Inspector Sihnion
 
 **Inspector Sihnion** was caught with Captain Funkin and Renadan guards in the disaster at the ruined temple of Bane near Stanleyville. The prisoners there faced magical restraints, a bloody rite, and servants working toward [[cid-the-blood-king|Cid's]] ambitions.
 
-When the failed rite gave way to a hydra and the temple's destruction, **Sihnion died** along with Funkin and other guards, in the campaign provisionally dated **c. 2000 AF**. His earlier assignments are not recorded, but his name belongs beside theirs, not hidden in a general count of casualties.
+When the failed rite gave way to a hydra and the temple's destruction, **Sihnion died** along with Funkin and other guards, during the third campaign month of **2000 AF**. His earlier assignments are not recorded, but his name belongs beside theirs, not hidden in a general count of casualties.
 
 ## Quill
 
