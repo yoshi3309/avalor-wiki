@@ -160,7 +160,8 @@ journeys:
             note: "The Wrath of Innocent and its pursuit of vengeance."
           - article: beldir-willowrun
             note: "The naval officer whose presence on the vessel remains unexplained."
-          - article: jinlin-vechon
+          - article: minor-villains-and-adversaries
+            fragment: jinlin-vechon
             note: "The vampire whose ancient grievance became a destructive crusade."
       - article: zauks-false-lives
         label: "The Lives That Never Were"
