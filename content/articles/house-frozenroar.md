@@ -11,6 +11,9 @@ facts: |-
   Founder: Rynhold Frozenroar
   First reign: 1–37 AF
   Sovereigns: 34 in the Royal Register
+  Bloodline: Unbroken descent from Rynhold Frozenroar
+  Recorded abdications: Sylavor (298 AF); Wolfram (1511 AF)
+  Current calendar: 2020 AF
   Current sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
 related: rynhold-frozenroar,founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
@@ -24,63 +27,76 @@ Before he became Avalor's first king, [[Rynhold Frozenroar]] ruled the northern 
 
 ## Thirty-four sovereigns
 
-The royal register records **thirty-four successive rulers**, from Rynhold to the present king. Their reigns encompass the Elven Concord, the War of the Two Lions, conflicts over royal authority, the persecution and later restoration of drow rights, periods of maritime expansion, and the difficult political settlement following Wolfram's war overseas.
+The royal register records **thirty-four rulers of the same royal bloodline**, from Rynhold to the present king. Their reigns encompass the Elven Concord, the War of the Two Lions, conflicts over royal authority, the persecution and later restoration of drow rights, periods of maritime expansion, and the difficult political settlement following Wolfram's war overseas.
 
 The line has endured not because every ruler governed wisely, but because the kingdom has repeatedly been compelled to confront its failures and revise its understanding of its founding promise.
 
 ## The royal register
 
-The **Royal Register** preserves **34 successive sovereigns**, beginning with Rynhold in 1 AF. A reign recorded immediately after another identifies a change of sovereign—not necessarily a parent and child. The dates below follow the public *Living Chronicle*, Appendix, and its accompanying partial pedigree.
+The **Royal Register** records **34 sovereigns of one unbroken Frozenroar bloodline**, beginning with Rynhold in 1 AF. Every monarch belongs to the dynasty by descent, though a successor was not always the previous ruler's child. Siblings, grandchildren, and collateral branches also inherited the crown. The dates below follow the established reign sequence; the **causes and circumstances of many deaths were added by creator approval in November 2026**.
 
+| # | Sovereign | Reign (AF) | How the reign ended / later fate |
+| --- | --- | --- | --- |
+| 1 | Rynhold Frozenroar | 1–37 | Died of old age, 37 AF |
+| 2 | Benedikt Frozenroar | 38–71 | Died after a severe winter fever, 71 AF |
+| 3 | Aldara Frozenroar | 72–106 | Died of old age, 106 AF |
+| 4 | Dietmar Frozenroar | 107–155 | Died of old age, 155 AF |
+| 5 | Halton Frozenroar | 156–178 | Died after a sudden fever, 178 AF |
+| 6 | Sylavor Frozenroar | 179–298 | Voluntarily abdicated, 298 AF; died peacefully, 312 AF |
+| 7 | Arelis Frozenroar | 299–387 | Died of old age, 387 AF |
+| 8 | Merek Frozenroar | 388–430 | Killed fighting pirates in a limited coastal action, 430 AF |
+| 9 | Veyra Frozenroar | 431–517 | Died of old age, 517 AF |
+| 10 | Solenne Frozenroar | 518–579 | Died after a prolonged illness, 579 AF |
+| 11 | Brannic the Greencloak | 580–633 | Died in a fall during a wilderness expedition, 633 AF |
+| 12 | Aveline Frozenroar | 634–678 | Died of old age, 678 AF |
+| 13 | Orrec the Unchosen | 679–721 | Died of winter fever, 721 AF |
+| 14 | Caldris Frozenroar | 722–795 | Died of old age, 795 AF |
+| 15 | Rhaena Frozenroar | 796–856 | Died of old age, 856 AF |
+| 16 | Elyra Frozenroar | 857–893 | Died of illness, 893 AF (previously established) |
+| 17 | Torenna the Reconciler | 894–952 | Died of old age, 952 AF |
+| 18 | Ilyan Frozenroar | 953–1038 | Died after a severe fever, 1038 AF |
+| 19 | Oren the Young | 1039–1119 | Died after a sudden stroke, 1119 AF |
+| 20 | Celisa Frozenroar | 1120–1211 | Died of old age, 1211 AF |
+| 21 | Sered Frozenroar | 1212–1258 | Died of wounds from a limited frontier skirmish, 1258 AF |
+| 22 | Arnaud Frozenroar | 1259–1315 | Died of old age, 1315 AF |
+| 23 | Reina Frozenroar | 1316–1402 | Died of old age, 1402 AF |
+| 24 | Willem Frozenroar | 1403–1461 | Died in a storm at sea, 1461 AF |
+| 25 | Wolfram Frozenroar | 1462–1511 | Abdicated under political settlement, 1511 AF; died, 1528 AF |
+| 26 | Ysoria Frozenroar | 1512–1600 | Died of old age, 1600 AF |
+| 27 | Dain Frozenroar | 1601–1654 | Died after a sudden illness, 1654 AF |
+| 28 | Talira Frozenroar | 1655–1700 | Died of injuries sustained during a flood inspection, 1700 AF |
+| 29 | Maerith the Rebuilder | 1701–1734 | Died of illness, 1734 AF (previously established) |
+| 30 | Neria Frozenroar | 1735–1815 | Died of old age, 1815 AF |
+| 31 | Kastor Frozenroar | 1816–1881 | Died of lung illness, 1881 AF |
+| 32 | Alenya Frozenroar | 1882–1945 | Died of old age, 1945 AF |
+| 33 | Gerran Frozenroar | 1946–1982 | Died peacefully, 1982 AF |
+| 34 | Gradvum Frozenroar | 1983–present | Reigning; alive in 2020 AF |
 
-| # | Sovereign | Reign (AF) |
-| --- | ---------------------- | ------------ |
-| 1 | Rynhold Frozenroar | 1–37 |
-| 2 | Benedikt Frozenroar | 38–71 |
-| 3 | Aldara Frozenroar | 72–106 |
-| 4 | Dietmar Frozenroar | 107–155 |
-| 5 | Halton Frozenroar | 156–178 |
-| 6 | Sylavor Frozenroar | 179–298 |
-| 7 | Arelis Frozenroar | 299–387 |
-| 8 | Merek Frozenroar | 388–430 |
-| 9 | Veyra Frozenroar | 431–517 |
-| 10 | Solenne Frozenroar | 518–579 |
-| 11 | Brannic the Greencloak | 580–633 |
-| 12 | Aveline Frozenroar | 634–678 |
-| 13 | Orrec the Unchosen | 679–721 |
-| 14 | Caldris Frozenroar | 722–795 |
-| 15 | Rhaena Frozenroar | 796–856 |
-| 16 | Elyra Frozenroar | 857–893 |
-| 17 | Torenna the Reconciler | 894–952 |
-| 18 | Ilyan Frozenroar | 953–1038 |
-| 19 | Oren the Young | 1039–1119 |
-| 20 | Celisa Frozenroar | 1120–1211 |
-| 21 | Sered Frozenroar | 1212–1258 |
-| 22 | Arnaud Frozenroar | 1259–1315 |
-| 23 | Reina Frozenroar | 1316–1402 |
-| 24 | Willem Frozenroar | 1403–1461 |
-| 25 | Wolfram Frozenroar | 1462–1511 |
-| 26 | Ysoria Frozenroar | 1512–1600 |
-| 27 | Dain Frozenroar | 1601–1654 |
-| 28 | Talira Frozenroar | 1655–1700 |
-| 29 | Maerith the Rebuilder | 1701–1734 |
-| 30 | Neria Frozenroar | 1735–1815 |
-| 31 | Kastor Frozenroar | 1816–1881 |
-| 32 | Alenya Frozenroar | 1882–1945 |
-| 33 | Gerran Frozenroar | 1946–1982 |
-| 34 | Gradvum Frozenroar | 1983–present |
+The difference between a **reign ending** and a **life ending** matters. Sylavor's voluntary abdication in 298 AF was followed by his death in **312 AF**, while Arelis already wore the crown. Wolfram abdicated under a negotiated political settlement in 1511 AF and lived until **1528 AF**, while Ysoria governed.
 
+Most rulers lived into their later years, but not all. **Halton's sudden fever** cut short a comparatively brief reign. **Merek was killed defending coastal shipping against pirates in 430 AF**; this was a **limited action**, not a third major maritime war. **Brannic** died during a wilderness expedition, **Sered** from injuries in a small frontier skirmish, **Willem** in a storm at sea, and **Talira** from injuries sustained during flood-related royal inspection. These personal losses did not necessarily become national conflicts or break the line of succession.
 
-## What the royal pedigree establishes
+## One bloodline, many paths to the crown
 
-The Commission has authenticated **some family relationships, not an uninterrupted parent-to-child family tree**.
+Avalor's ruling family has remained **House Frozenroar by blood continuously since Rynhold**. The variation in surnames and honorifics—including *Brannic the Greencloak*, *Orrec the Unchosen*, and *Torenna the Reconciler*—records the way people remembered particular monarchs, not the arrival of unrelated ruling houses.
 
-- **Benedikt** was the father of **Aldara**; Aldara was the mother of **Dietmar**.
-- **Halton Frozenroar** and **Dathyra Blueshadow** were the parents of **Sylavor**. Halton was Dietmar's acknowledged heir, but the record **does not specify their kinship**.
-- **Elyra** and **Corven** were twins, with Elyra born first. **Torenna** was Elyra's daughter and successor.
-- Crown Prince **Alaric**, who died in the maritime conflict provisionally called the War of the Narrow Straits, was the **elder brother of Orrec**. Alaric never acceded to the throne.
+The following links are now part of the approved royal pedigree:
 
-**No verified parentage is supplied** here for Rynhold and Benedikt, Sylavor and Arelis, or Wolfram and Ysoria. Nor does a long sequence of names sharing the Frozenroar surname establish the exact link between every pair of rulers.
+- **Rynhold → Benedikt:** father and son.
+- **Benedikt → Aldara → Dietmar:** father, daughter, and grandson.
+- **Dietmar → Halton → Sylavor:** father, son, and grandson. Sylavor's mother was **Dathyra Blueshadow**, the elven noblewoman whose marriage to Halton strengthened the Elven Concord.
+- **Sylavor → Arelis:** father and daughter. Arelis governed in her own right while her father lived in retirement.
+- **Aveline → Orrec:** mother and younger son. Orrec's elder brother, Crown Prince **Alaric**, died in the War of the Narrow Straits and never became king.
+- **Rhaena → Elyra:** grandmother and granddaughter, through a royal parent who did not reign. Elyra and Corven were twins; **Elyra was born first**.
+- **Elyra → Torenna:** mother and daughter.
+- **Arnaud → Reina:** father and daughter; Reina later reversed discriminatory policies imposed by her father's reign.
+- **Wolfram → Ysoria:** uncle and niece, preserving the royal bloodline through a collateral branch after his abdication.
+- **Maerith → Neria:** mother and daughter.
+- **Gerran → Gradvum:** father and son.
+
+Those connections do **not** imply that every other accession was a direct parent-to-child succession. The remaining exact parent-child links can be documented when they matter, without treating their absence from the abbreviated public pedigree as a break in the family line.
+
+Elven ancestry entered the royal family through **Halton and Dathyra**. Later branches varied in their human and elven ancestry, which helps explain the unusually long reigns of some sovereigns without requiring every monarch to have the same lifespan or receive a supernatural blessing.
 
 ## The kingdom's turning points
 
@@ -88,7 +104,7 @@ The Commission has authenticated **some family relationships, not an uninterrupt
 
 **The Elven Concord, Dietmar's reign (107–155 AF).** Disputes about roads, settlement, taxation, and ancestral authority led to conflict with elven communities of the [[Forest of the Fey]]. The resulting agreement recognized the monarchy **and preserved pre-existing rights and clan authority**. The marriage of Halton and Dathyra Blueshadow later strengthened the settlement. Royal accounts often frame its terms as concessions; woodland traditions emphasize recognition of rights that preceded Avalor.
 
-**The first abdication, 298 AF.** Sylavor voluntarily relinquished the crown. **Arelis** then exercised sovereign authority despite her predecessor remaining alive. The transfer was a real accession, not a delegated regency.
+**The first abdication, 298 AF.** Sylavor voluntarily relinquished the crown and lived until 312 AF. **Arelis** then exercised sovereign authority despite her predecessor remaining alive. The transfer was a real accession, not a delegated regency.
 
 **The War of the Two Lions (890–893 AF).** Queen **Elyra**, lawful sovereign since 857 AF, faced a rebellion led by her **younger twin brother, Corven**. His supporters raised genuine regional grievances, but the struggle inflicted severe harm. Elyra **died of illness**, not assassination, in 893 AF. After the transition, her daughter **Torenna** reigned from **894 AF**, negotiated the Concord of the Two Lions, and spared Corven after he renounced his claim. This later **Concord of the Two Lions** is distinct from the earlier **Elven Concord**.
 
@@ -96,7 +112,7 @@ The Commission has authenticated **some family relationships, not an uninterrupt
 
 **The War Across the Sea and the second abdication.** During **Wolfram's reign (1462–1511 AF)** a costly overseas war divided the kingdom. Wolfram **abdicated in 1511 AF under a negotiated settlement**, unlike Sylavor's peaceful earlier departure. **Ysoria acceded in 1512 AF** and addressed the burdens and oversight of foreign war. The years of Wolfram's reign should not be mistaken for independently established exact dates of every campaign.
 
-**The present reign.** [[King Gradvum Frozenroar]] acceded in **1983 AF**, with [[Queen Melmiri]] playing an important part in government. In the closing years of the Chronicle, the defeat of Cid and the vindication of Jaznaar transformed Avalor's understanding of its own past.
+**The present reign.** After King Gerran died peacefully in 1982 AF, [[King Gradvum Frozenroar]] acceded in **1983 AF**, with [[Queen Melmiri]] playing an important part in government. In the closing years of the Chronicle, the defeat of Cid and the vindication of Jaznaar transformed Avalor's understanding of its own past.
 
 ## The present royal household
 
