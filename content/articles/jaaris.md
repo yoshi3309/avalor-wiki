@@ -16,6 +16,7 @@ facts: |-
   Later allegiance: Cid the Blood King
   Crime against Fo'Gurn: Necromantic resurrection and compelled service
   Final campaign: Killed during the Shadowfell confrontation
+  Estimated death date: c. 2000 AF (provisional campaign-era estimate)
   Distinct from: Necromancer of the first royal commission
 related: svendyal-shadowwhisper,fo-gurn,lavitz-shawe,cid-the-blood-king,shadowfell-confrontation,hydra-temple-disaster,the-first-commission,the-misfits,zauks-false-lives
 source: "Avalor Master Canon Bible, Misfits-era biography and Sven's history; creator-approved expansion, November 12, 2026"
