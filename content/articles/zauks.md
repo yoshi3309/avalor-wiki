@@ -1,8 +1,11 @@
 ---
-title: "Zauks"
-subtitle: "The Mind Flayer Who Turned Memory into a Prison"
-summary: "A mind flayer in Cid's circle who imprisoned the Misfits in cocoons, recreated their earlier adventures as false experiences, and offered them lives that were never real."
+title: Zauks
+subtitle: The Mind Flayer Who Turned Memory into a Prison
+summary: A mind flayer in Cid's circle who imprisoned the Misfits in cocoons,
+  recreated their earlier adventures as false experiences, and offered them
+  lives that were never real.
 category: People & Legends
+image: /assets/uploads/zauks-v2.png
 entry: BIO.051
 era: Age of the Misfits
 facts: |-
@@ -17,10 +20,10 @@ facts: |-
   Death year: 2000 AF (sixth month; after Jinlin's defeat)
   Unresolved: Earlier life, purpose, relationship to Cid
 related: zauks-false-lives,the-misfits,cid-the-blood-king,amara,noki-the-sheep,jaaris,hydra-temple-disaster,jack-of-stanleyville
-source: "The Living Chronicle, Chapter VI, IX; Master Canon Bible, Volume I; the reconciled Misfits historical account"
+source: The Living Chronicle, Chapter VI, IX; Master Canon Bible, Volume I; the
+  reconciled Misfits historical account
 featured: false
 ---
-
 ## The collector of other people's lives
 
 **Zauks**, a mind flayer in the service of [[Cid the Blood King]], was less interested in overpowering the Misfits in open combat than in making their own experiences unreliable. He had appeared among Cid's servants during the ruined-temple affair near Stanleyville. Later, after the companions **truly defeated Jinlin Vechon**, Zauks ambushed them and imprisoned them **physically in cocoons** while their minds experienced adventures that were not taking place.
