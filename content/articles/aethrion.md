@@ -1,39 +1,61 @@
 ---
 title: Aethrion
 subtitle: The Civilization That History Forgot
-summary: A civilization known through fragmentary accounts of extraordinary learning and sudden ruin, whose existence, location, and responsibility for its own catastrophe remain disputed.
+summary: A civilization known through fragmentary accounts of extraordinary
+  learning and sudden ruin, whose existence, location, and responsibility for
+  its own catastrophe remain disputed.
 category: History & Chronicles
+image: /assets/uploads/aethrion.png
 entry: HIS.030
 era: Before the Founding Age
-facts: |-
+facts: >-
   Name: Aethrion
+
   Historical status: Disputed in public scholarship
+
   Remembered character: Extraordinary learning and invention
+
   Reported ambition: Overcoming mortal limitations, especially death
+
   Reported ending: Sudden, unexplained disappearance
+
   Authenticated surviving inhabitants or ruins: None
-  Principal scholarly dispute: The guilt of a people versus the acts of its researchers
+
+  Principal scholarly dispute: The guilt of a people versus the acts of its
+  researchers
+
   Historical remembrance: The Scribe's Question; Professor Thal's Blank Folio
 related: primordial-powers,the-beyond,planes-of-existence,magic-and-the-arcane,death-souls-and-the-afterlife,aldus-greystone-iii,jaznaar,sundering-of-the-six,shammans-tower,brother-halden-korr,professor-xiomara-thal,lady-miren-dast
-source: Compendium I · Entry I.002, Aethrion, public Scholar's Account, pp. 19–26; public historical commentary
+source: Compendium I · Entry I.002, Aethrion, public Scholar's Account, pp.
+  19–26; public historical commentary
+featured: false
 callouts:
   - type: reflection
-    text: "A civilization cannot be judged solely by the ambition of its most powerful scholars. Even if the disaster was real, the people who grew food, raised children, or repaired homes had lives beyond the warning attached to their name."
+    text: A civilization cannot be judged solely by the ambition of its most
+      powerful scholars. Even if the disaster was real, the people who grew
+      food, raised children, or repaired homes had lives beyond the warning
+      attached to their name.
     attribution: Editorial reflection on Aethrion's people
     after: the-guilt-of-a-people
     paragraph: 3
   - type: note
+    text: If there were people in Aethrion who never knew of its experiments,
+      destruction would not have made them guilty. Their absence from the
+      surviving account is a failure of evidence, not proof of consent.
     scholar: professor-xiomara-thal
-    text: "If there were people in Aethrion who never knew of its experiments, destruction would not have made them guilty. Their absence from the surviving account is a failure of evidence, not proof of consent."
     after: the-scribe-s-question
     paragraph: 2
   - type: reflection
-    text: "An empty page is not the discovery of a lost name. It is a promise to remember that there ought to have been names."
+    text: An empty page is not the discovery of a lost name. It is a promise to
+      remember that there ought to have been names.
     attribution: Editorial reflection on the Blank Folio
     after: a-blank-folio-for-the-forgotten
     paragraph: 3
   - type: contested
-    text: "Brother Halden Korr interprets Aethrion's fall as a warning against power divorced from duty. Professor Xiomara Thal challenges the condemnation of its ordinary inhabitants, while Lady Miren Dast questions the strength of the surviving testimony. Their accounts remain in disagreement."
+    text: Brother Halden Korr interprets Aethrion's fall as a warning against power
+      divorced from duty. Professor Xiomara Thal challenges the condemnation of
+      its ordinary inhabitants, while Lady Miren Dast questions the strength of
+      the surviving testimony. Their accounts remain in disagreement.
     attribution: The Royal Commission's review of three scholarly interpretations
     after: judgment-intervention-or-explanation
     paragraph: 4
@@ -44,9 +66,7 @@ highlight_sections:
     tone: remembrance
   - section: a-blank-folio-for-the-forgotten
     tone: legacy
-featured: false
 ---
-
 ## A name without a country
 
 Avalor remembers ruined kingdoms through their walls, fallen banners, roads, and the names that survived upon rivers. Even when records vanish, a neighboring people may still preserve a story of migration, war, or trade.
