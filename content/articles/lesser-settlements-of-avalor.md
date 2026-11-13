@@ -42,4 +42,4 @@ The town and the guild are distinct. Though the guild has branches beyond Avalor
 
 **Ilyanamel** is an **elven village** remembered as the birthplace of **[[kel-maris|Kel'Maris]]**, the first elf to hold the office of Lord Marshal of Lion's Bane. She was the first daughter of a prominent local family and trained from childhood in several forms of swordsmanship. King Gerran Frozenroar later called her to Renada to instruct his son Gradvum, beginning the long royal service that earned her the name the Lion's Shadow.
 
-The village's exact location within Avalor has **not** been confirmed. Its inhabitants, politics, and relationship to other elven settlements have not been described in the approved record. Ilyanamel belongs in the kingdom's gazetteer because a person central to its later history came from there; its name alone does not establish a place on the map.
+Ilyanamel remains known chiefly through the life of Kel'Maris. Its name survived in the royal histories because of the swordswoman who left it to serve the Frozenroar court. The settlement has yet to be placed upon the kingdom's published maps.

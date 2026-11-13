@@ -46,6 +46,6 @@ Ships continue to sail while diplomats debate jurisdiction. Goods must be assess
 
 ## The kingdom's unfinished question
 
-The Royal Commission does not presume to settle a constitutional argument that the participating governments have not settled. Nor should Karhold's autonomy be presented as a temporary obstacle to a conclusion history has already decided.
+Karhold's merchants conduct their business while the crown and the peninsula's leaders dispute the authority each may claim. Its place on a royal map has not settled the matter, nor has its government yielded the independence it exercises.
 
-The town reveals a distinction often lost in simplified maps: **territory claimed**, **authority exercised**, and **allegiance accepted** are not always the same thing. Understanding Karhold requires remembering all three.
+In Karhold, **territory claimed**, **authority exercised**, and **allegiance accepted** remain three different questions.

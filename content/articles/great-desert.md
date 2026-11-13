@@ -23,13 +23,13 @@ To travelers of the present age, the **Great Desert** can appear as old and unch
 
 The transformation followed the catastrophe at the **Black Tower** in the [[Spine of the World]]. Aldus Greystone III's forbidden experiments brought ruin far beyond the tower itself. In the north, country previously accustomed to different seasons began an unnatural change into the Great Desert.
 
-The change unfolded over time, rather than in a single instant. Its consequences altered roads, patterns of settlement, and the needs of those who defended and supplied the frontier. The precise course of that transformation, including the full extent of displacement and the magical workings involved, remains imperfectly documented.
+The change unfolded over time rather than in a single instant. As the land grew harsher, roads shifted, settlements adapted, and the frontier's defenders faced new demands. The desert of the present age was shaped across generations living with the aftermath of the catastrophe.
 
 ## The shadow of the Black Tower
 
 The founding generation knew Aldus as a gifted healer. His attempt to overcome mortality led instead to a catastrophe whose effects can still be read upon the landscape. The Great Desert is among the clearest reminders that a choice made in one age can alter the lives of generations never consulted in its making.
 
-It would nevertheless be an error to assign every feature of the present desert to a single spell or to pretend that historians can reconstruct each stage of the disaster. The Royal Commission distinguishes the established connection to Aldus's experiments from details the surviving records cannot establish.
+The Black Tower's influence on the region is part of Avalor's history. So too is the long transformation that followed, as families, traders, and frontier communities learned to live in a country their ancestors would scarcely have recognized.
 
 ## The peoples of the desert
 

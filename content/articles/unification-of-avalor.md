@@ -26,7 +26,7 @@ The northern kingdoms had joined forces to resist Lord Osmo, but victory at Hero
 
 ## The settlement of 1 AF
 
-In **1 After Founding (AF)**, several northern realms were united as [[The Kingdom of Avalor|Avalor]] beneath Rynhold’s crown. The calendar begins with that settlement, **not necessarily with the exact year of Osmo’s death**.
+In **1 After Founding (AF)**, several northern realms were united as [[The Kingdom of Avalor|Avalor]] beneath Rynhold’s crown. The calendar begins with that settlement after the victory over Lord Osmo at Heroes Hill.
 
 The former kingdoms retained customs and local obligations. Founding did not mean that every disagreement disappeared, nor that all territories were simply conquered and annexed. Rynhold’s achievement was persuading former allies to accept institutions capable of preserving their mutual defense and addressing competing interests.
 

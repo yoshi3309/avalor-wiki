@@ -283,7 +283,7 @@ assert "## The farewell to the Lion's Shadow" in source("great-cathedral")
 assert "three days" in source("great-cathedral")
 assert "ashes were scattered" in source("geography-of-avalor")
 assert "## Ilyanamel" in source("lesser-settlements-of-avalor")
-assert "exact location" in source("lesser-settlements-of-avalor")
+assert "The settlement has yet to be placed upon the kingdom's published maps." in source("lesser-settlements-of-avalor")
 assert "Status:" in (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
 assert "Addendum 005" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
@@ -361,7 +361,7 @@ assert "not a confirmed portrait of Heyden" in " ".join(heyden_dossier.split()),
 assert "The Hunters Guild" in source("hunters-guild")
 assert "changes of dynasty" not in source("kingdom-of-avalor")
 assert "unbroken Frozenroar royal bloodline" in source("kingdom-of-avalor")
-assert "The **Cartographer's Table** now marks" in source("geography-of-avalor")
+assert "The **Cartographer's Table** places their names upon the kingdom's atlas" in source("geography-of-avalor")
 assert "creator-approved lore" not in source("age-of-ascendancy")
 for illustrated in ("faelynn","jaaris","cid-the-blood-king","amara","fo-gurn","jaznaar","rynhold-frozenroar"):
     assert "callouts:" in source(illustrated), illustrated
@@ -427,3 +427,35 @@ for name,body in (("guilds",guilds),("forces",forces),("rynhold",rynhold)):
     assert "unnecessary volumes" not in body, name
     assert "later chapters of its history" not in body, name
 print("Source reconciliation: named offices, founder relationships, Fo'Gurn's choices and institutional distinctions preserved.")
+
+
+# Continuing Phase 6: geography, dynastic genealogy, and four-sheriff jurisdictions.
+forest=source("forest-of-the-fey")
+geo=source("geography-of-avalor")
+desert=source("great-desert")
+marsh=source("dead-marshes")
+karhold=source("karhold")
+sheriffs=source("four-sheriffdoms")
+settlements=source("lesser-settlements-of-avalor")
+unification=source("unification-of-avalor")
+assert "Dietmar's **son and heir, Halton Frozenroar**" in forest
+assert "Their son **Sylavor**" in forest
+assert "Dathyra Blueshadow" in forest and "Concord Walk" in forest
+assert "Forest of the Westfold lies near" in geo and "Eastern Reach" in geo
+assert "King's Forest" in geo and "Kel'Maris" in geo
+assert "The Drought and the Great Desert retain distinct names" in geo
+assert "Black Tower" in desert and "over time rather than in a single instant" in desert
+assert "predate Osmo's final defeat" in marsh and "Black Tower" in marsh
+assert "territory claimed" in karhold.lower() and "authority exercised" in karhold.lower()
+assert "Royal Heartlands" in sheriffs and "Tarnapolus" in sheriffs
+assert "Northern March" in sheriffs and "Eastern Reach" in sheriffs and "Western Verge" in sheriffs
+assert "Ilyanamel remains known chiefly through the life of Kel'Maris" in settlements
+assert "1 After Founding (AF)" in unification and "Heroes Hill" in unification
+map_data=yaml.safe_load((ROOT/"data"/"avalor-map.yml").read_text(encoding="utf-8"))
+mapped={item["id"]: item for item in map_data["locations"]}
+for locid in ("kings-forest","forest-of-the-westfold","the-drought","tarnapolus","briyans-autumn"):
+    assert mapped[locid]["published"] is True and mapped[locid]["provisional"] is False,locid
+assert mapped["kings-forest"]["article"]=="geography-of-avalor#king-s-forest"
+assert mapped["forest-of-the-westfold"]["article"]=="geography-of-avalor#forest-of-the-westfold"
+assert mapped["the-drought"]["article"]=="geography-of-avalor#the-drought"
+print("Phase 6 geography: genealogy, regional boundaries, public atlas entries and historical institutions verified.")

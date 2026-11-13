@@ -24,7 +24,7 @@ The wizard's life remains elusive in the surviving histories. Local retellings h
 
 ## The rumored trove
 
-The most persistent legend holds that Denzian left behind a hidden store of powerful **weapons and relics**. Different tellers describe its contents in different ways. No authenticated inventory has been produced, nor has the Royal Commission established that the trove exists as described.
+The most persistent legend holds that Denzian left behind a hidden store of powerful **weapons and relics**. Its contents change with the teller: some describe arms fit for heroes, others strange objects whose makers have been forgotten. No treasure has emerged to settle the stories.
 
 The supposed treasure has nevertheless drawn adventurers and treasure seekers into the wood. Reports that some never returned have strengthened the forest's reputation, though a missing traveler does not, by itself, prove the existence of an enchanted hoard.
 
@@ -32,7 +32,7 @@ The supposed treasure has nevertheless drawn adventurers and treasure seekers in
 
 In many versions of the tale, a mysterious **guardian** protects the trove. Its form, purpose, and even its existence change with the speaker. Some stories emphasize the danger of the search; others the warning that certain things ought to remain undisturbed.
 
-It would be tempting to unite these accounts into a single creature with a name and a history. The evidence presently does not justify that certainty. The forest's reputation is well established; the explanation for it is not.
+Travelers searching for a single guardian have found instead a forest that yields conflicting tales and few answers. Whatever waits within, the fear of it has become as much a part of Denzians Forest as the search for Denzian's treasure.
 
 ## Red flowers and the missing
 
@@ -42,6 +42,4 @@ Naturalists may find questions here that storytellers cannot answer, just as sto
 
 ## Between legend and history
 
-Denzians Forest is a place where the historian must preserve two truths at once: its legends matter to those who live nearby, and their repetition does not establish every detail as fact.
-
-Those entering the forest may choose whether to believe in Denzian's treasure. The Royal Commission can make no such choice on their behalf. It can only record that people have sought it, that rumors endure, and that some mysteries have outlived every telling.
+Denzians Forest has never needed a recovered hoard to draw people beneath its trees. Some come in pursuit of Denzian's relics, others to understand the red flowers or to search for those who failed to return. Each generation adds its own accounts, and the wood keeps the secrets that brought the first seekers there.
