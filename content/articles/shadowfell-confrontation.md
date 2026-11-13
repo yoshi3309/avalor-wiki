@@ -1,26 +1,40 @@
 ---
 title: The Shadowfell Confrontation
 subtitle: The Rescue of Melmiri and the Fall of the Blood King
-summary: In the Shadowfell the Misfits faced Cid, Samuel briefly channeled Lowkee through the Emerald, Fo'Gurn overcame Jaaris's necromancy, and Melmiri helped the survivors escape.
+summary: In the Shadowfell the Misfits faced Cid, Samuel briefly channeled
+  Lowkee through the Emerald, Fo'Gurn overcame Jaaris's necromancy, and Melmiri
+  helped the survivors escape.
 category: History & Chronicles
+image: /assets/uploads/misfits-ascend-the-shadowfell-citadel.png
 entry: HIS.025
 era: Age of the Misfits
-facts: |-
+facts: >-
   Location: Shadowfell, the Blood King's fortress
-  Date: 2000 AF (sixth month of the original Misfits campaign; exact day unrecorded)
+
+  Date: 2000 AF (sixth month of the original Misfits campaign; exact day
+  unrecorded)
+
   Campaign: The Misfits' final confrontation with Cid
+
   Objective: Rescue Queen Melmiri
+
   Threats: Cid the Blood King; Jaaris and other defenders
+
   Notable companions: The Misfits; Anna; Samuel; Fo'Gurn
+
   Witnessed relic: Emerald of Armanti
-  Outcome: Melmiri rescued; Jaaris killed; Cid taken by unknown hands into the Beyond
+
+  Outcome: Melmiri rescued; Jaaris killed; Cid taken by unknown hands into the
+  Beyond
+
   Fo'Gurn: Necromantically raised; reclaimed his will; remained to rest again
+
   Historical consequence: The vindication of Jaznaar
 related: the-misfits,cid-the-blood-king,queen-melmiri,fo-gurn,jaaris,samuel-the-devoted,anna-lowkees-keeper,emerald-of-armanti,jaznaars-vindication,age-of-ascendancy
-source: The Living Chronicle, Chapters VI–VII, public historical account; the Royal Commission's testimony on the final Misfits campaign
+source: The Living Chronicle, Chapters VI–VII, public historical account; the
+  Royal Commission's testimony on the final Misfits campaign
 featured: false
 ---
-
 ## A rescue delayed but not abandoned
 
 The last confrontation of [[The Misfits]] did not begin at the gates of the Blood King's fortress. It began in [[Renada]], when [[Cid the Blood King]] abducted [[Queen Melmiri]] during the [[The Tournament of Champions|Tournament of Champions]].
