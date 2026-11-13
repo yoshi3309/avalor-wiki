@@ -183,6 +183,42 @@ events:
     title: Gradvum takes the throne
     text: Gradvum begins his reign; Queen Melmiri later oversees much of the kingdom's daily administration.
     article: king-gradvum-frozenroar
+  - id: stanleyville-deaths
+    date: c. 2000 AF
+    date_kind: approximate
+    period: present-age
+    topic: heroes
+    era: THE MISFITS' CAMPAIGN
+    title: The losses at Stanleyville
+    text: Jack is killed through Cid's concealed spell and remains a conscious ghost. The Stalker kills Lord Marshal Kel'Maris; Captain Funkin returns her remains to Renada. These deaths precede the Hydra temple. The calendar year is approximate.
+    article: the-stalker
+  - id: hydra-temple-deaths
+    date: c. 2000 AF
+    date_kind: approximate
+    period: present-age
+    topic: heroes
+    era: THE MISFITS' CAMPAIGN
+    title: The Hydra temple disaster
+    text: Captain Funkin, Inspector Sihnion and guards die at Cid's ruined temple. Fo'Gurn truly dies confronting the hydra to save the Misfits. This follows Stanleyville; no exact date or within-battle sequence is established.
+    article: hydra-temple-disaster
+  - id: jaznaar-final-rest
+    date: c. 2000 AF
+    date_kind: approximate
+    period: present-age
+    topic: heroes
+    era: THE MISFITS' CAMPAIGN
+    title: Jaznaar's last testimony
+    text: Jaznaar dies after the Misfits depart his refuge, before the final confrontation with Cid and before King Gradvum vindicates him. His exact death date is unrecorded.
+    article: jaznaar-refuge-revelation
+  - id: zauks-end
+    date: c. 2000 AF
+    date_kind: approximate
+    period: present-age
+    topic: heroes
+    era: THE MISFITS' CAMPAIGN
+    title: Amara ends Zauks's illusions
+    text: After the real defeat of Jinlin, Amara kills Zauks and frees her cocooned companions. Jinlin's earlier defeat is not a confirmed death. This precedes the Shadowfell finale.
+    article: zauks-false-lives
   - id: misfits-victory
     date: Around 2000 AF
     date_kind: approximate
@@ -190,7 +226,7 @@ events:
     topic: heroes
     era: THE BLOOD KING’S DEFEAT
     title: The Misfits uncover the truth
-    text: The Misfits defeat Cid in the Shadowfell. Jaznaar's innocence is publicly proclaimed. The year is approximate.
+    text: Jaaris dies after Fo'Gurn has broken free; Fo'Gurn's necromantically sustained existence then ends in the Shadowfell. Cid is defeated and taken into the Beyond, but his ultimate death is unconfirmed. Jaznaar is vindicated afterward. The dating is approximate.
     article: jaznaars-vindication
   - id: ascendancy
     date: About twenty years later
