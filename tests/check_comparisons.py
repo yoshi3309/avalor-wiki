@@ -37,7 +37,7 @@ assert 'assets/comparisons.js' in page and 'assets/comparisons.css' in page
 for needle in ('id="dossier-left"','id="dossier-right"','id="dossier-swap"',
                'id="dossier-copy"','id="dossier-rows"','id="dossier-portraits"'):
     assert needle in page,needle
-assert 'not a contest of strength' in page
+assert 'Explore two biographies side by side' in page
 assert 'data-initial-left=""' in page and 'data-initial-right=""' in page
 for preset in presets:
     assert preset['left'] in ids and preset['right'] in ids and preset['left']!=preset['right']
