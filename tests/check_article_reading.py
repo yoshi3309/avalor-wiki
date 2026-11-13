@@ -144,3 +144,27 @@ for slug in ('river-city', 'tinsel'):
     else:
         assert 'article-illustration--landscape' not in parsed.classes, f'{slug}: unexpected image placeholder'
 print('Geographic illustration layout passed: panoramic places and unchanged portrait treatment.')
+
+
+# Phase 2: flagship sites use existing article visual components without lore invention.
+for slug, expected in (
+    ("renada", ("archive-figure", "archive-callout--reflection", "archive-callout--note",
+                "archive-highlight--turning-point", "archive-highlight--remembrance", "archive-highlight--legacy")),
+    ("the-aegis", ("archive-callout--reflection", "archive-callout--note", "archive-highlight--legacy")),
+    ("house-frozenroar", ("archive-figure", "archive-callout--reflection", "archive-callout--contested",
+                          "archive-highlight--turning-point", "archive-highlight--legacy")),
+    ("lowkee", ("archive-callout--reflection", "archive-highlight--legacy")),
+    ("kel-maris", ("archive-callout--reflection", "archive-highlight--remembrance")),
+):
+    page, parsed = audit(slug)
+    for cls in expected:
+        assert cls in parsed.classes, f"{slug} missing restoration class {cls}"
+    assert "article-mobile-toc" in parsed.classes, f"{slug} missing mobile navigation"
+aegis, _ = audit("the-aegis")
+assert "Sacred counsel, justice, and protection of the vulnerable" in aegis
+royal, _ = audit("house-frozenroar")
+assert "Rynhold Frozenroar" in royal and "Gradvum Frozenroar" in royal
+assert "creator approval in November" not in royal
+renada, _ = audit("renada")
+assert 'the-city-made-by-the-river' not in renada
+print("Restoration of five major entries verified.")
