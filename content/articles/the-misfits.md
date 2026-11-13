@@ -110,7 +110,7 @@ The companions met **[[Anna, Lowkee's Keeper|Anna]]** during a search for knowle
 
 ### Jack and the companions who were not warriors
 
-[[Jack of Stanleyville]] was a murdered child whose spirit chose to remain with the company after his death. Neither Anna nor Jack was an original player-character warrior of the Misfits, yet both shaped what it meant for the others to be a fellowship. Their stories deserve attention beyond the dangers that brought them onto the road.
+[[Jack of Stanleyville]] was a murdered child whose spirit chose to remain with the company after his death. Neither Anna nor Jack belonged to the original band of adventurers, yet both became part of the fellowship. Their stories reach beyond the dangers that first brought them onto the road.
 
 ## Moonville Manor
 
@@ -204,16 +204,13 @@ When the Misfits emerged, the queen was still captive. They had escaped an inven
 
 ## VII. The Shadowfell confrontation
 
-What eventually became known of the final confrontation changed its historical meaning. **Anna was Erevan Ilesere**, who had maintained the guise during the travels as a test of Sven's compassion and commitment to justice. The **Emerald of Armanti** was intended to keep Cid from returning to the Material Plane and enabled Samuel briefly to channel Lowkee's spirit. **Jaaris had resurrected Fo'Gurn through necromancy** after his true death at the Hydra. Fo'Gurn broke that imposed control to protect Lavitz before Jaaris was killed, and afterward remained in the Shadowfell to rest once more. The black hands that removed Cid into the Beyond still have no established identity.
+The road from the Tournament, through Ros Furband's ship, Jinlin's defeat, and Zauks's illusions, eventually led the Misfits into the **Shadowfell**, where Cid held **Queen Melmiri** captive. They confronted the Blood King amid forces directed by **Jaaris**, whose necromancy had brought **Fo'Gurn** back from his true death at the hydra temple. The fuller account of the battle is preserved in **[[The Shadowfell Confrontation]]**.
 
+In a separate chamber, Lavitz lowered his defenses rather than strike down his friend. Fo'Gurn chose to protect him and **broke Jaaris's control while the necromancer was still alive**. Jaaris was later killed in the central struggle, bringing an end to the borrowed existence that sustained Fo'Gurn.
 
-The road from the tournament, through Ros's ship, Jinlin's defeat, and Zauks's illusions, ultimately led into the **Shadowfell**, where Cid held Queen Melmiri. The complete public account of this conclusion is preserved as **[[The Shadowfell Confrontation]]**, a historical episode in its own right rather than merely a chapter in the Blood King's biography. The Misfits found the Blood King amid deadly servants and creatures whose presence recalled the wrongs committed by Jaaris. The necromancer was defeated in the final struggle.
+**[[Samuel the Devoted|Samuel]]** briefly channeled **[[Lowkee]]** through the **[[Emerald of Armanti]]** before Cid wounded him. The jewel, carried by Anna—later revealed as **Erevan Ilesere in disguise**—passed to Fo'Gurn during the battle. When Cid attempted escape, Fo'Gurn drove it into the Blood King's chest to bar his return to the Material Plane. An immense black hand, or hands in some accounts, then drew Cid into the **Beyond**. The witnesses could not identify the force responsible; the sealing of the Emerald and the removal of Cid were distinct events.
 
-Fo'Gurn had genuinely died against the hydra, but Jaaris raised and compelled him. In a separate chamber, Lavitz lowered his defenses rather than deliver a killing blow. Fo'Gurn chose to protect him, breaking Jaaris's hold **before the necromancer was killed**. The precise words exchanged between the paladins remain unrecorded.
-
-As Cid sought to escape, [[fo-gurn|Fo'Gurn]] pressed the **[[Emerald of Armanti]]** into his chest, fulfilling the jewel's intended purpose of barring the Blood King from returning to the Material Plane. Earlier, **[[Samuel the Devoted|Samuel]]** had briefly channeled Lowkee's spirit through the Emerald; that manifestation ended after Cid wounded him. A vast black hand, or hands in some accounts, reached from an opening into darkness and took the Blood King into the Beyond. No witness could name the force responsible, and the jewel's seal does not establish who directed those hands.
-
-**Melmiri helped her rescuers escape** the failing fortress. Her part in the escape was an act of agency, not simply the passive recovery of a captive queen. The details of the passage remain incompletely recorded. All the returning companions survived the final battle, and the kingdom received its queen again.
+**Melmiri helped her rescuers escape** the failing fortress. All five surviving adventurers returned from the Shadowfell, but Fo'Gurn remained behind for his final rest. The queen came home to Renada, and the kingdom was left with evidence that would overturn almost two thousand years of accepted history.
 
 ## VIII. The kingdom after the victory
 

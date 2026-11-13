@@ -187,7 +187,7 @@ assert "KEL-001" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_tex
 assert "Status: RESOLVED" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
 assert "Master of Broken Wills" in source("jaaris")
-assert "the hostile fey who killed Tristan and Kristofer" in source("cid-the-blood-king")
+assert "Jaaris had previously led the hostile fey who murdered Tristan and Kristofer" in source("cid-the-blood-king")
 assert "Jaaris" in source("svendyal-shadowwhisper")
 assert "Fo'Gurn chose to protect Lavitz" in source("jaaris")
 assert "The earlier necromancer" in source("jaaris")
@@ -374,3 +374,23 @@ assert "Addendum 009" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").rea
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
+
+# Phase 6: source-led chronology and historical voice.
+cid = source("cid-the-blood-king")
+misfits = source("the-misfits")
+shadowfell = source("shadowfell-confrontation")
+assert cid.index("## The suffering at Stanleyville") < cid.index("## Prisoners at the ruined temple")
+assert "Captain Funkin brought her body home to Renada" in cid
+assert "Captain Funkin" in cid and "Inspector Sihnion" in cid
+assert "Cid was removed from the battle, not confirmed dead" in cid
+assert "Jinlin Vechon" in cid and "real defeat" in cid
+assert "broke Jaaris's hold before the necromancer died" in cid
+assert "Lowkee" in cid and "Erevan Ilesere" in cid
+assert "The Emerald's seal and Cid's removal were distinct events" in cid
+assert misfits.index("## III. Stanleyville and the Stalker") < misfits.index("## IV. The hydra and the missing companion")
+assert "player-character" not in misfits.lower()
+assert "the sealing of the Emerald and the removal of Cid were distinct events" in misfits
+assert "broke Jaaris's control while the necromancer was still alive" in misfits
+assert "The Misfits defeated Jinlin in a real battle" in shadowfell
+assert "He chose to protect Lavitz" in shadowfell and "before** Jaaris was killed" in shadowfell
+print("Phase 6 canon reconciliation passed.")
