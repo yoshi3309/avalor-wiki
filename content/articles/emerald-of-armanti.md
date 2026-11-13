@@ -1,8 +1,11 @@
 ---
 title: Emerald of Armanti
 subtitle: A Jewel Between Two Generations of Heroes
-summary: The Emerald of Armanti was intended to bar Cid from the Material Plane and let Samuel channel Lowkee briefly; Fo'Gurn used it during the Blood King's final attempted escape.
+summary: The Emerald of Armanti was intended to bar Cid from the Material Plane
+  and let Samuel channel Lowkee briefly; Fo'Gurn used it during the Blood King's
+  final attempted escape.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-emerald-of-armanti.png
 entry: MAG.021
 era: Age of the Misfits
 facts: |-
@@ -15,10 +18,10 @@ facts: |-
   Channeling: Samuel briefly channeled Lowkee's spirit
   At Cid's defeat: Pressed into his chest by Fo'Gurn
 related: anna-lowkees-keeper,lowkee,the-misfits,fo-gurn,cid-the-blood-king,samuel-the-devoted,planes-of-existence
-source: The Living Chronicle, Chapter VI, public account of the last confrontation; authorized testimony of the Misfits
+source: The Living Chronicle, Chapter VI, public account of the last
+  confrontation; authorized testimony of the Misfits
 featured: false
 ---
-
 ## The jewel and the hope it carried
 
 The **Emerald of Armanti** was not a nameless treasure whose function was forgotten by the end of the Misfits' campaign. **It was intended to prevent [[Cid the Blood King]] from returning to the Material Plane**. The relic was carried for much of the journey by **[[Anna, Lowkee's Keeper|Anna]]**, who was later revealed to be **Erevan Ilesere in disguise**.
