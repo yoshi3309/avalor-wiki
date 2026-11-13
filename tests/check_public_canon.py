@@ -219,8 +219,13 @@ for event in chronicle.get("events", []):
         problems.append(f"Living Chronicle: event {event_id} has unknown classification")
     if any(not event.get(k) for k in ("date", "era", "title", "text")):
         problems.append(f"Living Chronicle: incomplete public entry {event_id}")
-if len(event_ids) != 18:
-    problems.append(f"Living Chronicle: expected all 18 previously published events, found {len(event_ids)}")
+# Addendum 006 added four approximate Misfits death milestones to the original 18.
+# Preserve the complete public chronology, including the new events.
+if len(event_ids) != 22:
+    problems.append(f"Living Chronicle: expected 22 published events, found {len(event_ids)}")
+for expected_event in ("stanleyville-deaths", "hydra-temple-deaths", "jaznaar-final-rest", "zauks-end"):
+    if expected_event not in event_ids:
+        problems.append(f"Living Chronicle: missing confirmed approximate death milestone {expected_event}")
 
 
 
