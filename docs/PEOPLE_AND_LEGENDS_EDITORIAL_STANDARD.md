@@ -62,3 +62,13 @@ Two Wikipedia-style indexes now hold the short biographies of minor heroes/allie
 Group appropriate figures by their narrative function, **not just morality**: officers, companions and protectors together; captors and hostile enforcers together. Do not place major villains, central protagonists, former monarchs or characters whose stories warrant independent reading into an index merely to reduce article counts.
 
 Small in-body portraits are welcome when artwork is actually of the named person and approved for the public wiki. Use validated uploaded images with alt text and captions; **do not label a group illustration or an unrelated image as someone's portrait**. The Royal Forces group art in the heroes index is explicitly contextual, not a portrait.
+
+## Updated minor-character taxonomy - Keeper approval, November 2026
+
+Use **three** public collections where appropriate: **Minor Heroes & Allies**, **Minor Villains & Adversaries**, and neutral **Minor Characters**. The last is not a moral verdict; it provides short entries for rulers, contacts, travelers and others who are neither primary heroes nor principal opponents. A historical king need not keep an entire article merely by virtue of rank: **King Gerran is now in Minor Characters**, with his full reign and genealogy still recorded in House Frozenroar. **Jinlin Vechon is now in Minor Villains**, with his ancient grievance and defeat preserved but no fabricated confirmed death.
+
+Preserve all original person slugs as redirects to unique and permanent `#person-name` anchors. Merged figures remain usable as old-style `[[slug]]` references, including in family-diagram nodes and guided reading. Deleting a standalone source file without a redirect is not an acceptable consolidation.
+
+Create **standalone biographies for hunters whose substantial histories merit them**, starting with **Heyden of the Goldenfoot**. The Hunters Guild Members navigation group is for discovery, not a new formal rank, order or faction. Do not invent later guild deaths, other hunters, titles or hunts when they have not been supplied.
+
+Correct the biographies' public title fields to **Lowkee Nicklebane** and **Faelynn Naïlo**. Keep the well-established `lowkee` and `faelynn` slugs stable.
