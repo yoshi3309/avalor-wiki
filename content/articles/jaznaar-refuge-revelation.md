@@ -1,15 +1,17 @@
 ---
-title: "The Testimony at Jaznaar's Refuge"
-subtitle: "The buried truth of Aldus, Cid, and the Betrayer's legend"
-summary: "The meeting with Jaznaar revealed that Aldus Greystone III was Cid and entrusted Lowkee's sword to Lavitz."
+title: The Testimony at Jaznaar's Refuge
+subtitle: The buried truth of Aldus, Cid, and the Betrayer's legend
+summary: The meeting with Jaznaar revealed that Aldus Greystone III was Cid and
+  entrusted Lowkee's sword to Lavitz.
 category: History & Chronicles
+image: /assets/uploads/the-testimony-at-jaznaars-refuge.png
 entry: HIS.032
 era: Age of the Misfits
 related: the-misfits,jaznaar,aldus-greystone-iii,bradgem-glav,tellora-ebbenflow,lavitz-shawe,lowkee,tournament-of-champions
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
-
 ## A path through an older history
 
 The Misfits had faced Cid's agents and buried friends before their pursuit finally brought them to a truth older than the kingdom's familiar stories. Their search led toward the hidden refuge of **[[Jaznaar]]**, the founder Avalor had named its Betrayer.
@@ -32,7 +34,7 @@ Jaznaar had maintained Cid's confinement within the Shadowfell and worked to hol
 
 The meeting was not simply an account of past wrongdoing. Jaznaar instructed Tel'Lora, giving the younger wizard knowledge associated with a history that his own family had paid dearly to approach.
 
-He also placed ****Cid's Bane**** in the care of **[[Lavitz Shawe]]**. The sword had belonged to **[[Lowkee]]**, the paladin of the founding Six. It was distinct from the **[[Emerald of Armanti]]** that Anna carried. The two relics would follow different paths into the final struggle.
+He also placed **Cid's Bane** in the care of **[[Lavitz Shawe]]**. The sword had belonged to **[[Lowkee]]**, the paladin of the founding Six. It was distinct from the **[[Emerald of Armanti]]** that Anna carried. The two relics would follow different paths into the final struggle.
 
 For Lavitz, himself a drow paladin, the false accusation against Jaznaar had a weight beyond its military usefulness. He was not Jaznaar's descendant, and no inherited destiny compelled him to vindicate the founder. He was a man confronted with evidence that his kingdom had taught generations to mistrust one of its protectors. What he did with that truth would be his own choice.
 
