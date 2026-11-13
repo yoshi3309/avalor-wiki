@@ -107,8 +107,6 @@ When the Misfits reached the Shadowfell, Lavitz followed his oldest friend into 
 
 Fo'Gurn had an opening to strike. **He chose to defend Lavitz instead**, resisting Jaaris's conditioning through his own decision. **His freedom was reclaimed before Jaaris died.** Jaaris's later death brought the borrowed life sustaining Fo'Gurn toward its end; it did not create the paladin's redemption.
 
-The exact words spoken in that duel are not preserved as a verbatim transcript. The sequence and moral choice are settled.
-
 ## The companion at the final confrontation
 
 The final campaign is narrated in **[[The Shadowfell Confrontation]]**. While the other companions battled Jaaris, undead dragons and Cid's defenders, Lavitz reached Fo'Gurn in a separate duel. After breaking free from Jaaris's conditioning, **the two paladins returned to the throne room together**.
@@ -119,7 +117,7 @@ As the Blood King tried to escape, **Fo'Gurn pressed the emerald into Cid's ches
 
 Fo'Gurn's choice had brought him back to his friends for the end of the struggle, but **it could not preserve his borrowed existence**. Jaaris had been killed, and the necromantic bond sustaining Fo'Gurn was failing. He could not return to the Material Plane with the companions and **remained in the Shadowfell to rest one final time**. He and Lavitz were granted the goodbye that the Hydra's collapse had denied them. The words of that farewell have not been established.
 
-Nearly twenty years later, Fo'Gurn's appearance alongside Samuel at the next summons remains a distinct mystery. **How he was able to return then is not yet known.** It must not be mistaken for proof that he had quietly lived among the Misfits after the Shadowfell.
+Nearly twenty years later, **Fo'Gurn appeared again beside Samuel** at the next summons—a sight that would bring the old fellowship's history into a new age.
 
 ## An original Misfit, not an afterthought
 

@@ -19,7 +19,7 @@ featured: false
 
 The **Age of Ascendancy** is the name later historians gave the period following [[The Misfits]]' defeat of [[Cid the Blood King]] in **2000 AF**. The present royal chronology places Avalor approximately twenty years later, in **2020 AF**. The kingdom recovered [[Queen Melmiri]], learned that its celebrated founder Aldus Greystone III had been the Blood King, and began correcting the centuries-old accusation against [[Jaznaar]]. Avalor's growing reputation abroad belonged to that same period, but it should not be confused with one unbroken triumph.
 
-No independent record establishes the age's formal creation by royal decree. Its name is a historical description of change across roughly twenty years, **not a claim that every year is fully documented**.
+The name describes two decades of transformation in Avalor's public life, from a restored historical record to the renewed work of its royal institutions.
 
 ## The first obligations of peace
 
@@ -45,6 +45,6 @@ They remained bound by friendship even as their duties diverged. Their remembere
 
 ## The years not yet written
 
-The name **Age of Ascendancy** embraces twenty years of change without claiming that a single chronicle can recover every life within them. Trade, diplomacy, scholarship and royal service are remembered in public accounts. In other parts of the kingdom, households and communities lived through years for which the Commission possesses few firsthand records. Their histories may yet enlarge this account without altering the events already known.
+By **2020 AF**, the Age of Ascendancy had become more than a name given to one victory. Its legacy could be seen in repaired histories, new responsibilities at court, the reopening of institutions of learning, and the work of ordinary communities continuing far beyond the celebrations in Renada.
 
 The enduring question of the age is whether a kingdom capable of correcting its old history can also govern more wisely because of what it learned.

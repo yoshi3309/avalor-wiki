@@ -14,7 +14,6 @@ facts: |-
   Established purpose: Bar Cid from returning to the Material Plane
   Channeling: Samuel briefly channeled Lowkee's spirit
   At Cid's defeat: Pressed into his chest by Fo'Gurn
-  Wider limits: Unresolved; not a general god-killing device
 related: anna-lowkees-keeper,lowkee,the-misfits,fo-gurn,cid-the-blood-king,samuel-the-devoted,planes-of-existence
 source: The Living Chronicle, Chapter VI, public account of the last confrontation; authorized testimony of the Misfits
 featured: false
@@ -26,15 +25,13 @@ The **Emerald of Armanti** was not a nameless treasure whose function was forgot
 
 Its history has sometimes been simplified into a promise that Lowkee, the founding paladin, could be brought back. That expectation contained a truth, but not the permanent resurrection the phrase might suggest.
 
-Twenty years after the campaign, the relic's witnessed functions can be recorded. Its complete origins, every limitation of its effect, and the wider mechanics of planar sealing remain unknown; those mysteries should not be confused with a prohibition on explaining what it did.
-
 ## Lowkee's distant promise
 
 The emerald enabled **[[Samuel the Devoted|Samuel]]**, a Monadic Deva representing Tyr and Helm, to establish a **genuine, temporary spiritual connection with [[Lowkee]]**. Samuel appeared in the Shadowfell with the presence and voice of the ancient paladin, confronting Cid as **Aldus**, the name he had borne before the Black Tower.
 
 Lowkee was **not permanently resurrected**. The divine channeling ended when Cid wounded Samuel. In that precise sense, the old hope that Lowkee might return to stand against the Blood King was partially fulfilled.
 
-The sword **Cid's Bane** was a separate relic, once associated with Lowkee and later entrusted to Lavitz by Jaznaar. The emerald did not become a second sword, and no unconfirmed expedition to Lowkee's tomb is required to explain its presence.
+The sword **Cid's Bane** was a separate relic, once associated with Lowkee and later entrusted to Lavitz by Jaznaar. The sword and the jewel served different roles in the fellowship's struggle against Cid.
 
 ## At the Blood King's last escape
 
@@ -46,8 +43,6 @@ Then **a tremendous black hand, or hands in other accounts, seized Cid and pulle
 
 ## What a relic cannot tell us
 
-The Emerald's effects were consequential, but they were not the entire victory. It gave Samuel a moment of connection with Lowkee and became the seal Fo'Gurn wielded at Cid's attempted escape. Those are historical events, not secrets withheld from today's readers.
-
-What remains uncertain is the jewel's **origin, complete planar mechanism and wider limits**. No witness describes the Emerald as a general weapon against gods or as an instrument commanding the Beyond. The identity of the force that carried Cid away is similarly unresolved.
+The Emerald mattered because of how it was used: Samuel briefly channeled Lowkee's spirit through it, and Fo'Gurn wielded it against Cid's attempted return. Its work belonged alongside the courage of the companions who confronted the Blood King.
 
 The Misfits still had to rescue Melmiri, endure Jaaris and Cid, and stand beside Fo'Gurn as he resisted the will imposed upon him. No magical object replaces those choices.

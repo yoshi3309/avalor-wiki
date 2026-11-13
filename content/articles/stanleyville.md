@@ -50,7 +50,7 @@ Stanleyville was an inhabited and working community before the arrival of [[The 
 
 The deaths that later troubled the town should be understood against that ordinary life. People had businesses to maintain, friends to bury, and families to protect even when they could not explain what was happening around them.
 
-The historical record offers no reliable census of the town's victims or exact inventory of all the households harmed. Their absence from a register is not reason to turn them into unnamed background casualties in the story of better-known adventurers.
+The terror entered a town whose families still had businesses to sustain and loved ones to protect. Stanleyville's suffering belonged not only to the people whose names reached the royal chronicles, but to the community that lived through the danger.
 
 ## The unexplained deaths
 

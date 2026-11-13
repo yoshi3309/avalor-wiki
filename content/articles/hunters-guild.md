@@ -109,7 +109,7 @@ Avalor changed greatly after the founding. The confrontation at the **[[Black To
 
 That continuity helps explain how a fellowship founded in the kingdom's earliest years endured for nearly two thousand years. Its work did not depend upon the survival of any single ruler or a threat that could be defeated once and forgotten. As the hunters grew in number, smaller companies moved across the continent, while the Wayward Sun remained their waypoint, refuge, and meeting place. A hunter might travel far from the marshes yet still regard the old shelter as home.
 
-The guild's complete succession of leaders, major expeditions, and changing customs across those centuries has not yet been reconstructed. Its survival should not be mistaken for proof that every generation organized itself in precisely the same way. The enduring tradition is one of **service through knowledge of dangerous country**, not an unchanging list of offices.
+Across generations, the hunters adapted their methods to changing dangers while the Wayward Sun remained a refuge and meeting place. Their enduring tradition was **service through knowledge of dangerous country**, carried from one company of hunters to the next.
 
 ## Beyond the reach of royal power
 

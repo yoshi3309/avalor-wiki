@@ -34,7 +34,7 @@ Years spent tracking monsters have taught Malikeah to read a situation before it
 
 There is a distinction between being prepared and being fearless. Malikeah understands the cost of the work precisely because he has practiced it so long. The guild's signs, coded messages, silver-payment custom and precautions against unnatural threats are not picturesque traditions to him. They are tools by which a hunter may return home.
 
-The specifics of his greatest hunts have not yet been gathered into an authoritative public account. His reputation, however, is inseparable from the practical judgment earned through years of confronting the unknown.
+His reputation is inseparable from the practical judgment earned through years of confronting dangers beyond the reach of ordinary patrols.
 
 ## An equal partnership at the Wayward Sun
 
@@ -56,7 +56,7 @@ Hope belongs in Malikeah's story not as a case to be solved but as one of the pe
 
 Malikeah's deepest present concern is not an enemy he can simply follow into the trees. He has grown **weary**, troubled by the possibility that he may be witnessing the **final days of the guild** to which he has given so much of his life.
 
-That fear is not a confirmed prophecy of collapse. It is the apprehension of a veteran who has seen enough loss to know that a proud history cannot guarantee another generation. Hunters leave, suffer, change or fail to return. A family may endure by finding new reasons to continue; it may also grow exhausted by the cost of its work.
+Malikeah has seen hunters depart, suffer, and fail to return. He fears the guild may one day be too diminished to carry on the work Faelynn began, even as new members find a place within its family.
 
 His doubts give new weight to his protection of those around him. The family business began when [[Faelynn]] chose to give other wounded people a home and a purpose. Malikeah's task is to decide how to preserve that inheritance without consuming the people who carry it.
 
@@ -64,4 +64,4 @@ His doubts give new weight to his protection of those around him. The family bus
 
 Malikeah is respected for his skill, but skill alone does not explain why others follow him. He watches over people who might otherwise have nowhere to go. He shares his burdens with a woman whose eccentricity is a strength in its own right. He understands that the hunters can quarrel and still remain family.
 
-Whether the guild will survive the troubles he foresees is not yet written. For now, the lamps of the Wayward Sun remain lit, and Malikeah Ashenfall stands watch beside the people he loves.
+For now, the lamps of the Wayward Sun remain lit, and Malikeah Ashenfall stands watch beside the people he loves.

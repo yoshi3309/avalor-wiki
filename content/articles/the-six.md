@@ -132,7 +132,7 @@ The later catastrophe makes it easy to view every disagreement as a warning of t
 
 Kelsalor saw the needs of living systems beyond a kingdom's immediate ambitions. Jaznaar brought arcane knowledge that made unusual problems approachable, even if his independent habits did not always make his judgment easy for others to follow.
 
-The chronicles have no reliable transcripts of their private laughter or weary conversations. But their shared travel and service are not inventions. The reality of their friendship is essential to understanding why the choice that later divided them was so terrible.
+Their friendship grew through shared travels, long service, and the trust that comes from surviving danger together. That bond gave the confrontation at the Black Tower its terrible weight: the people who had loved Aldus were forced to oppose what he had become.
 
 ## Six answers to one terrible question
 
