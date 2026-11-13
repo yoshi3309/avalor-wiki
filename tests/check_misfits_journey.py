@@ -394,3 +394,36 @@ assert "broke Jaaris's control while the necromancer was still alive" in misfits
 assert "The Misfits defeated Jinlin in a real battle" in shadowfell
 assert "He chose to protect Lavitz" in shadowfell and "before** Jaaris was killed" in shadowfell
 print("Phase 6 canon reconciliation passed.")
+
+# Source-reconciliation pass: approved people, genealogy and institution roles.
+fo = source("fo-gurn")
+rynhold = source("rynhold-frozenroar")
+guilds = source("guilds-of-avalor")
+forces = source("avalorian-forces")
+samuel = source("samuel-the-devoted")
+astronoph = source("astronoph")
+tel = source("tellora-ebbenflow")
+assert "third month of the Misfits' 2000 AF campaign" in fo
+assert "after their investigation at [[Stanleyville]]" in fo
+assert "He died confronting the hydra" in fo
+assert "His freedom was reclaimed before Jaaris died" in fo
+assert "remained in the Shadowfell to rest one final time" in fo
+assert "Benedikt Frozenroar**, Rynhold's son" in rynhold
+assert "original **seven offices**" in rynhold
+assert "independent eighth seat" in rynhold
+assert "Rynhold did not condemn Jaznaar as the Betrayer" in rynhold
+assert "Sea Serpents" in guilds and "Salt" in guilds
+assert "Silver Forge" in guilds and "Healing Hand" in guilds
+assert "Guiding Light" in guilds and "Shield of Mercy" in guilds
+assert "Society of Silk & Story" in guilds
+for name in ("Quill","Mira","Nimbus","Nadja Akayrn"):
+    assert name in forces, f"Missing approved royal commander: {name}"
+assert "three circles of four women" in forces
+assert "one of the Twelve" in forces
+assert "Monadic Deva" in samuel and "Tyr and Helm" in samuel
+assert "female deva" in astronoph and "High Priest" in astronoph
+assert "independent eighth seat" in tel
+for name,body in (("guilds",guilds),("forces",forces),("rynhold",rynhold)):
+    assert "unnecessary volumes" not in body, name
+    assert "later chapters of its history" not in body, name
+print("Source reconciliation: named offices, founder relationships, Fo'Gurn's choices and institutional distinctions preserved.")
