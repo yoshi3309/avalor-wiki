@@ -280,3 +280,50 @@ The **Misfits' original campaign took place during 2000 AF**, with approximately
 4. **Compendium Volume II**: Replace "partial / uncertain dynasty" language with unbroken descent, add the 34 monarchs' fates and confirmed family links, and leave unresolved geography undisturbed.
 
 **No rise-of-the-Black-Diamond or Blackwater Bay material is added here.** This update provides stable historical background without consuming those future campaign stories.
+
+## Addendum 008 - Minor Characters, the first new Hunter, and restored founding names (November 2026)
+
+**Status: APPROVED CREATOR-SUPPLIED CHARACTER CONTENT AND WIKI EDITORIAL ORGANIZATION.** Supersedes prior assertion that every important former monarch needs a standalone biography.
+
+### Concise character collections
+
+- Add a third public People & Legends index, **Minor Characters** (`content/articles/minor-characters.md`, BIO.062), for historical or supporting people **not framed primarily as heroes or villains**. It presently contains **King Gerran Frozenroar**, halfling hunter **Gomo**, and the female guild hunter **Silver of Moonlight**; each has an individually linkable heading.
+- **Jinlin Vechon** moved to the existing **Minor Villains & Adversaries** (`content/articles/minor-villains-and-adversaries.md`, `#jinlin-vechon`). Preserve that Aldus's Blood Sickness experiments made him a dragonborn vampire against his will, that he founded the Wrath of Innocent from hatred of Cid, and that the Misfits **defeated** him before Zauks. **Never change defeated to confirmed killed.**
+- **King Gerran Frozenroar** moved to the new neutral collection (`#king-gerran-frozenroar`). Preserve **reign 1946-1982 AF**, peaceful death **1982 AF**, father of Gradvum, summons of Kel'Maris, and appointment of Admiral Beldir as Sentinel of the Seas. The comprehensive dynastic register remains in `content/articles/house-frozenroar.md`.
+- Retain the historical `jinlin-vechon` and `king-gerran-frozenroar` slugs as automatic redirects to exact sections. The original full articles were editorially consolidated, not erased from public history. Existing family-diagram and manuscript cross-links must still work.
+
+### Founding Six full-name repairs
+
+- `content/articles/lowkee.md` now displays **Lowkee Nicklebane**, already established in its original fact box and narrative; original URL retained.
+- `content/articles/faelynn.md` now displays **Faelynn Naïlo**, already established in its original fact box and narrative; original URL retained. Gallery caption/title updated as appropriate.
+
+### First new Hunters Guild biography: Heyden of the Goldenfoot
+
+The creator provided a long, detailed personal history. Its wiki adaptation is `content/articles/heyden-of-the-goldenfoot.md` (BIO.061), a standalone article because the adventures and character development justify the space. Do **not** classify him as a minor NPC.
+
+**Identity and family:** Heyden Goldenfoot, called Heyden of the Goldenfoot, is a **32-year-old male Leonin, chaotic good**, with amber-gold eyes, tawny-gold mane with darker undertones, and an unusually large, quiet-moving physique (265 pounds). He is the fourth prince of **Labos**, son of **King Geoff and Queen Viviliv**. His older brothers are **Jeothor** (crown heir), **Verbos** (destined for Lord General), and **Seals** (monastic tradition). He grew up with opportunity to travel because his brothers inherited the roles usually expected of royal sons. He dislikes ceremony, arrogance and the substitution of wealth for competence; he loves the thrill and skill of the hunt more than taking a life.
+
+**Chult:** Heyden tracked an **Allosaurus** with a hunting party in Chult. It cut a deep scar down the **right side of his face into the mane**; he killed the beast by closing with it and tearing at its throat. His scar is regarded as a trophy.
+
+**Weyland Forest / Valiant:** He pursued the **Great Elk** for almost **two years** under guidance from the **Woodland Elves of Valiant**. He killed the elk after a long apprenticeship in patience, concealment and reading the forest. The elves accepted him, tattooed their **sigil on his left thigh** and gave him a **Revenant Double-Bladed Scimitar**, a valued possession. The hunt's deeper importance was being accepted for his earned abilities, not his ancestry or title.
+
+**Gnomish village and Gomo:** After helping a village and its local gnomish hunters kill a **Giant Constrictor Snake**, Heyden met a **halfling hunter named Gomo** at a tavern. Gomo told him of dangerous magically twisted creatures in Avalor's **Dead Marshes**, gave him a **Hunters Guild coin**, and recommended **Silver of Moonlight** as a contact.
+
+**Avalor and the guild:** He joined his parents' diplomatic delegation to Avalor, went through official events in the capital, then traveled into the Dead Marshes. Gomo's **coin—not the Goldenfoot family name—gained him entry to the guild**. **Silver of Moonlight**, a female guild hunter, welcomed him, taught him customs and became his friend. He remained as extraordinary contracts accumulated.
+
+**Wood of the Fey / Shadow:** Fey-woods experience imparted uncanny movement, climbing and hiding techniques to this large Leonin. Other guild members dubbed him **Shadow** because he could disappear among branches and foliage even under observation. The names and precise nature of the fey teachers remain unrevealed in the creator's history.
+
+**Chosen family:** Only months after his arrival, **several unnamed hunters** died on the job. Their absence caused Heyden a new, deeper grief. The guild mourned them with the saying, **"No one misses a dead man's party."** He realized that finding a family worth staying with meant having someone to lose. These deaths concern unnamed hunters and **do not contradict the rule that no established named cast died in the twenty-year post-Cid interval**.
+
+**Appearance and tools:** Weathered leather hunting attire, sturdy boots, dark cloak, hidden Goldenfoot signet, Gomo's coin, gifted scimitar, longbow, specialty arrows, hunting knives, traps, ropes and survival gear. He is proud of both family and guild, despite avoiding courts. His personal rank within the guild is not formalized beyond being a member and a hunter called Shadow.
+
+**Unestablished and intentionally unfilled:** Heyden's exact date of birth, years of his major hunts, who the fey instructors were, outcomes after the supplied narrative, Silver's surname and Gomo's formal rank, and any direct connection to the Black Diamond or Blackwater Bay. The user-supplied story includes unrelated promotional fragments (e.g., camping gear and safari calls-to-action); these are artifacts of pasted text, **not Avalor canon**.
+
+### Relationships and discoverability
+
+- Added **Hunters Guild Members** browse group, with existing Faelynn, Malikeah, Mera and newly added Heyden.
+- The **Hunters Guild** and **Kingdom of Avalor** articles now link to Heyden; the latter already established Geoff, Viviliv and their four sons. New neutral entries for Gomo and Silver allow direct internal links without inventing full biographies for them.
+- Jinlin's optional reading from the Misfits' pirate-vampire chapter now points to `#jinlin-vechon` on Minor Villains. Updated article merges, search aliases, relationship-map link resolution and regression checks.
+- **Four master volumes:** Bible: add character identities and overview; Living Chronicle: preserve Avalor/Labos diplomatic contact and hunters narrative without dates not supplied; Compendium I: character and guild references; Compendium II: Labos, Chult, Weyland/Valiant, Dead Marshes locations as **named but not newly mapped**.
+
+**The first hunter's entry is not the end of this roster**: additional creator-supplied hunters may be given new pages or suitably brief entries according to their narrative importance. No unsolicited future lore is canonized.
