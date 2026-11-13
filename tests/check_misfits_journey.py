@@ -187,7 +187,7 @@ assert "KEL-001" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_tex
 assert "Status: RESOLVED" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
 assert "Master of Broken Wills" in source("jaaris")
-assert "the hostile fey who killed Tristan and Kristofer" in source("cid-the-blood-king")
+assert "Jaaris had previously led the hostile fey who murdered Tristan and Kristofer" in source("cid-the-blood-king")
 assert "Jaaris" in source("svendyal-shadowwhisper")
 assert "Fo'Gurn chose to protect Lavitz" in source("jaaris")
 assert "The earlier necromancer" in source("jaaris")
