@@ -286,7 +286,7 @@ assert "2000 AF" in source("minor-heroes-and-allies")
 assert "2000 AF" in source("minor-villains-and-adversaries")
 assert "Death year:" not in source("jinlin-vechon"), "Defeat is not a death date."
 register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
-assert "No established named cast member dies during that interval" in register or "No established named cast members died" in register
+assert "no established named cast member died during the twenty-year interval" in register.lower()
 assert "Tristan and Kristofer" in register
 assert "precise year" in register or "exact year" in register
 assert "Addendum 006" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
