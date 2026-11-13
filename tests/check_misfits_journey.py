@@ -374,3 +374,23 @@ assert "Addendum 009" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").rea
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
+
+# Phase 6: source-led chronology and historical voice.
+cid = source("cid-the-blood-king")
+misfits = source("the-misfits")
+shadowfell = source("shadowfell-confrontation")
+assert cid.index("## The suffering at Stanleyville") < cid.index("## Prisoners at the ruined temple")
+assert "Captain Funkin brought her body home to Renada" in cid
+assert "Captain Funkin" in cid and "Inspector Sihnion" in cid
+assert "Cid was removed from the battle, not confirmed dead" in cid
+assert "Jinlin Vechon" in cid and "real defeat" in cid
+assert "broke Jaaris's hold before the necromancer died" in cid
+assert "Lowkee" in cid and "Erevan Ilesere" in cid
+assert "The Emerald's seal and Cid's removal were distinct events" in cid
+assert misfits.index("## III. Stanleyville and the Stalker") < misfits.index("## IV. The hydra and the missing companion")
+assert "player-character" not in misfits.lower()
+assert "the sealing of the Emerald and the removal of Cid were distinct events" in misfits
+assert "broke Jaaris's control while the necromancer was still alive" in misfits
+assert "The Misfits defeated Jinlin in a real battle" in shadowfell
+assert "Fo'Gurn chose to protect Lavitz" in shadowfell
+print("Phase 6 canon reconciliation passed.")

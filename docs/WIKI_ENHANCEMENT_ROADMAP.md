@@ -81,3 +81,15 @@ The first-time welcome is an invitation, not a gate. Returning readers can keep 
 ## Phase 4 restoration: chapter sharing (November 13, 2026)
 
 Each heading has an ordinary `#chapter` permalink even with JavaScript off, plus copy-link and copy-citation controls when scripting is available. Citations contain only the article title, section title, archive name and the canonical article URL with its existing anchor. A clipboard-denied browser offers a manual-copy prompt instead of claiming success. Discord previews remain article-level, not fabricated per-chapter previews. This change neither alters lore nor opens future-campaign material.
+
+
+## Restoration Phase 6 — historical source reconciliation (November 13, 2026)
+
+This focused pass checks key original-Misfits-era accounts against the **latest creator-approved public historical decisions**. Earlier candidate manuscripts cannot override the confirmed fact that the **Stalker preceded the Hydra**, or turn the **defeat of Jinlin** into a proven death.
+
+- Reordered Cid's biography to describe Stanleyville before the Hydra temple, separating Jack's death, Kel'Maris's murder, Funkin's successful return with her remains, and his own later death.
+- Consolidated the duplicated Shadowfell finale, retaining Fo'Gurn's independent choice before Jaaris died, the distinct Emerald sealing action and black-hand removal, and Cid's unconfirmed ultimate fate.
+- Removed out-of-world player terminology and repeated finale paragraphs from the Misfits' principal historical account.
+- Extended site tests to protect settled chronology and in-world voice, without publishing future-story information.
+
+The four original candidate PDFs remain unchanged. This pass does not certify every sentence across all 132 articles or constitute a private-volume revision.

@@ -107,25 +107,23 @@ Even after centuries of corruption, the calm and persuasive habits of the old he
 
 This was the cruelest continuity between Aldus and Cid: the man who once offered relief from pain had learned to make pain the argument for his own rule.
 
-## Prisoners at the ruined temple
-
-**After the Stalker killed Kel'Maris at Stanleyville**, the ruined temple near the town made the Blood King's cruelty visible in another way. Cid and his servants confined the adventurers with others caught in his scheme, restraining their ability to use magic while preparing a rite involving the bodies and power of his captives. **[[Anna, Lowkee's Keeper|Anna]]**, a noncombatant friend of the Misfits, was endangered there upon an altar.
-
-Cid was attended by servants including [[Jaaris]], **[[karina|Karina]]**, **[[black-agnes-mudwallow|Black Agnes Mudwallow]]**, and the mind flayer **[[zauks|Zauks]]**. Jaaris had joined him **after independently leading the hostile fey who killed Tristan and Kristofer**; that earlier crime did not originate with Cid. The venture ended in catastrophe: Captain Funkin, Inspector Sihnion, and guards died. **Anna survived**, but **Fo'Gurn remained to face a hydra** so that his friends could escape. **Kel'Maris was already dead**; Captain Funkin had returned her body to Renada before he died in the temple.
-
-Kel'Maris's death came **earlier**, in the Stalker affair. Cid's legacy cannot be understood by collapsing the Stalker and Hydra losses into one event, or by treating the companions' courage as evidence that those whom they could not rescue mattered less.
-
 ## The suffering at Stanleyville
 
-**Before the Hydra temple disaster**, during the travels of [[The Misfits]], the Blood King's actions reached a town whose people did not yet understand the founding-era struggle.
+Before Cid's servants captured the Misfits at the ruined temple, the Blood King's designs had already touched **[[Stanleyville]]**. Disguised as a merchant, Cid sold manuscripts to a local family. One concealed a deadly **Fireball** spell. When [[Jack of Stanleyville|Jack]] innocently read the text, the child was killed. His conscious spirit later befriended the companions and traveled onward with them.
 
-At [[Stanleyville]], an ordinary-looking merchant sold manuscripts to a local family. Later testimony identified the merchant as **Cid in disguise**. One manuscript concealed a **Fireball** spell; when a boy named [[Jack of Stanleyville|Jack]] innocently read the text, the magic killed him.
+The creature called [[The Stalker of Stanleyville|the Stalker]] hunted the town under Cid's direction. It killed **[[kel-maris|Kel'Maris]]**, the high-elven Lord Marshal who had commissioned the Misfits' early investigations. **Captain Funkin brought her body home to Renada**, where she received a state funeral. Cid also manifested briefly during the affair, and accounts describe his attempt to burn the town.
 
-Jack was not an apprentice seeking forbidden knowledge. His death was the result of a lethal trap placed in something a child could read. His conscious spirit later befriended the adventurers and traveled onward with them.
+Jack died from the concealed spell; Kel'Maris died at the Stalker's hands. The companions had encountered Cid's cruelty, but had not yet learned that he and the celebrated Aldus Greystone III were the same man.
 
-The creature known as [[The Stalker of Stanleyville|the Stalker]] also hunted Stanleyville under Cid's direction. It killed **[[kel-maris|Kel'Maris]]**, the kingdom's Lord Marshal, who had commissioned the Misfits' early investigations. Captain Funkin returned her body to Renada before his own later death at the Hydra temple. Accounts additionally describe an attempt to burn the town during a brief manifestation of the Blood King.
+## Prisoners at the ruined temple
 
-The Stalker did **not** kill Jack; these were different deaths within the same broad affair. The companions left Stanleyville without yet knowing that Cid and the celebrated founding healer were one being.
+After the Stalker affair, Cid's servants took the Misfits and other prisoners to a ruined temple near Stanleyville. There the Blood King sought to turn his captives' lives into a **mortal vessel for divine power**, something he believed he could command. The prisoners were restrained against the use of magic, while **[[Anna, Lowkee's Keeper|Anna]]**, the noncombatant who traveled with the fellowship, was placed in danger upon an altar.
+
+Among Cid's servants were **[[Jaaris]]**, **[[karina|Karina]]**, **[[black-agnes-mudwallow|Black Agnes Mudwallow]]**, and **[[zauks|Zauks]]**. Jaaris had previously led the hostile fey who murdered Tristan and Kristofer; that crime was his own and occurred before he entered Cid's service.
+
+The rite failed, and Jaaris turned the sacrificial mass into a **hydra**. **Captain Funkin**, **Inspector Sihnion**, and guards died in the catastrophe. Anna escaped. **[[fo-gurn|Fo'Gurn]]** remained behind to hold the hydra at bay and gave his life so the others could flee.
+
+Kel'Maris had already been laid to rest after Stanleyville. Funkin survived that earlier horror long enough to bring her home, but did not survive the temple.
 
 ## A pattern, not a single hidden hand
 
@@ -157,18 +155,15 @@ The surviving evidence does not support a claim that the queen possessed unique 
 
 ## The final confrontation
 
-The completed account is preserved in **[[The Shadowfell Confrontation]]**. Jaaris had raised the dead Fo'Gurn through necromancy, forcing the paladin against his friends. Fo'Gurn resisted this control by protecting Lavitz before Jaaris died.
+After Cid abducted Melmiri at the Tournament, the Misfits' pursuit was interrupted by **[[Ros Furband]]**, the real defeat of **Jinlin Vechon**, and the false lives imposed by **[[zauks|Zauks]]**. The queen remained Cid's prisoner until the companions reached his fortress in the **Shadowfell**. The fuller history of her rescue is preserved in **[[The Shadowfell Confrontation]]**.
 
-The warrior beside Anna was **Samuel temporarily channeling Lowkee through the Emerald of Armanti**. Anna was later revealed to be **Erevan Ilesere in disguise**. Fo'Gurn pressed the Emerald into Cid's chest to bar his return to the Material Plane. The black hands that dragged Cid into the Beyond had no established controller, and their action was distinct from the Emerald's seal.
+Cid's servant Jaaris had **raised Fo'Gurn through necromancy** after the paladin's death at the hydra temple. In the fortress, Fo'Gurn was compelled to fight Lavitz, but chose to protect his friend and **broke Jaaris's hold before the necromancer died**. His freedom was his own achievement, not a consequence of Jaaris's death.
 
+The warrior seen beside Anna was **[[Samuel the Devoted|Samuel]]**, temporarily channeling **[[Lowkee]]** through the **[[Emerald of Armanti]]**. Anna was later revealed as **Erevan Ilesere in disguise**. During Cid's attempted escape, Fo'Gurn pressed the Emerald into the Blood King's chest, fulfilling its purpose of **barring his return to the Material Plane**.
 
-The companions rescued Melmiri in the Shadowfell and confronted the Blood King. The event is now recorded separately in **[[The Shadowfell Confrontation]]**, where the rescue and the choices of the Misfits receive their own historical treatment. In accounts of the final struggle, **[[fo-gurn|Fo'Gurn]]**, the dragonborn paladin long believed dead, appeared with the **Emerald of Armanti** and drove it against Cid.
+An immense black hand—or hands, in other accounts—then seized Cid and drew him into **the Beyond**. The Emerald's seal and Cid's removal were distinct events; no witness identified the force directing the hands. **Cid was removed from the battle, not confirmed dead.**
 
-Then an immense **black hand** emerged from an unidentified darkness and seized the Blood King, drawing him away. The companions witnessed his removal, but did **not** establish who or what had claimed him, its origin, or the place to which Cid was taken.
-
-The immediate danger was defeated. The Misfits survived in part through Melmiri's intervention, and the queen returned home.
-
-Cid was taken from the battle, not confirmed annihilated. The immense hand and the darkness from which it emerged remained mysteries to the people who witnessed his defeat.
+**Queen Melmiri survived and helped her rescuers escape** the failing fortress. The victory brought her home, but not every companion returned: Jaaris's death caused Fo'Gurn's necromantically sustained existence to fail, and the dragonborn remained in the Shadowfell for his final rest.
 
 ## The kingdom after the lie
 
