@@ -357,7 +357,7 @@ heyden_dossier = source("heyden-of-the-goldenfoot")
 assert "## The prince who learned to stay" in heyden_dossier
 assert "highlight_sections:" in heyden_dossier
 assert "callouts:" in heyden_dossier
-assert "not a confirmed portrait of Heyden" in heyden_dossier
+assert "not a confirmed portrait of Heyden" in " ".join(heyden_dossier.split()), "Contextual Hunters Guild plate must not be misidentified as Heyden"
 assert "The Hunters Guild" in source("hunters-guild")
 assert "changes of dynasty" not in source("kingdom-of-avalor")
 assert "unbroken Frozenroar royal bloodline" in source("kingdom-of-avalor")
