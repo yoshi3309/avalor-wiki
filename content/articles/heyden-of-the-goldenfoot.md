@@ -23,12 +23,44 @@ facts: |-
   Notable weapon: Revenant Double-Bladed Scimitar
   Tokens: Goldenfoot signet; Hunters Guild coin from Gomo
   Distinctive marks: Scar through right face and mane; Woodland Elf sigil tattoo on left thigh
-related: hunters-guild,wayword-sun,dead-marshes,kingdom-of-avalor,malikeah,mera-ashenfall,minor-characters
+related: hunters-guild,wayword-sun,dead-marshes,kingdom-of-avalor,malikeah,mera-ashenfall,minor-characters,distant-lands-of-the-hunter,faelynn
 source: "Creator-supplied Heyden of the Goldenfoot World Anvil character history and physical/personality profile, November 2026; existing Kingdom of Avalor and Hunters Guild lore"
+illustrations:
+  - image: /assets/uploads/hunters-guild.png
+    alt: Archival artwork associated with the Hunters Guild of Avalor
+    caption: The Hunters Guild of the Dead Marshes; archival artwork, not a confirmed portrait of Heyden.
+    after: a-hunter-s-family
+    paragraph: 2
+    layout: inset-right
+callouts:
+  - type: reflection
+    text: "No crown could follow a trail for him; no amount of wealth could steady his hand. In the wilderness, Heyden's skill belonged to Heyden alone."
+    attribution: Editorial reflection on the fourth prince's choice
+    after: the-prince-who-chose-the-trail
+    paragraph: 3
+  - type: reflection
+    text: "The elk was proof that he could endure a difficult pursuit. The Woodland Elves' honor was proof that someone had seen the man behind his title."
+    attribution: Editorial reflection on the Weyland hunt
+    after: the-great-elk-of-weyland
+    paragraph: 4
+  - type: reflection
+    text: "The Hunters Guild's grief reminds us that skill does not cancel loss. Belonging means that an empty place at the fire matters to someone."
+    attribution: Editorial reflection on the hunters' chosen family
+    after: a-hunter-s-family
+    paragraph: 4
+highlight_sections:
+  - section: the-great-elk-of-weyland
+    tone: turning-point
+  - section: the-hunter-called-shadow
+    tone: legacy
+  - section: a-hunter-s-family
+    tone: remembrance
 featured: false
 ---
 
 ## The prince who chose the trail
+
+There were four princes in the royal house of Labos, but only three grew up with a clear path toward public duty. The fourth would carry his family's name into jungles, marshes and forests where no one cared who his father was. In time, the greatest change in **Heyden Goldenfoot's** life would come not from what he hunted, but from the people who taught him how to stay.
 
 **Heyden Goldenfoot**, usually known as **Heyden of the Goldenfoot**, was born beneath a shooting star on a brisk autumn night in the **Kingdom of Labos**. Whether the star heralded a great destiny or simply provided a story for his family to retell, Heyden never cared much. He was the fourth son of **King Geoff** and **Queen Viviliv**, and his older brothers already seemed to have claimed the lives expected of royal children. **Jeothor**, the eldest, would inherit the throne. **Verbos** followed the martial tradition that led toward the office of Lord General. **Seals** chose a monastic path.
 
@@ -38,7 +70,7 @@ He first hunted for recreation, then became devoted to the pursuit itself. The b
 
 ## The Allosaurus of Chult
 
-One of Heyden's earliest great expeditions carried him across the sea to **Chult**. He joined hunters tracking an enormous **Allosaurus** through hot, ancient jungle. Their pursuit lasted days, marked by shattered foliage and immense footprints. When they finally cornered the predator, it turned on them. The formation scattered as arrows and spears struck its hide.
+One of Heyden's earliest great expeditions carried him across the sea to **[[distant-lands-of-the-hunter#chult|Chult]]**. He joined hunters tracking an enormous **Allosaurus** through hot, ancient jungle. Their pursuit lasted days, marked by shattered foliage and immense footprints. When they finally cornered the predator, it turned on them. The formation scattered as arrows and spears struck its hide.
 
 Heyden found himself far too close. The Allosaurus slashed the right side of his face, cutting through flesh and parting his mane. Before it could strike again, he lunged into the creature and tore into its throat with his claws. The beast fell. Heyden collapsed beside it and survived.
 
@@ -46,9 +78,9 @@ The long scar running down the **right side of his face and into his mane** beca
 
 ## The Great Elk of Weyland
 
-The hunt that most changed Heyden was not the one that almost killed him. In **Weyland Forest**, travelers spoke of a magnificent **Great Elk** that seemed to evade everyone who sought it. Some thought it only an exceptionally old animal; others suggested something ancient and uncanny. Heyden wanted to find it.
+The hunt that most changed Heyden was not the one that almost killed him. In **[[distant-lands-of-the-hunter#weyland-forest|Weyland Forest]]**, travelers spoke of a magnificent **Great Elk** that seemed to evade everyone who sought it. Some thought it only an exceptionally old animal; others suggested something ancient and uncanny. Heyden wanted to find it.
 
-His search lasted **nearly two years**. The **Woodland Elves of Valiant** understood the forest far better than he did, and under their guidance Heyden was forced to abandon impatient habits. They taught him to hear what belonged among the trees rather than merely looking for signs of disturbance, and to move without demanding the forest's attention. He lived beneath the canopy through storms and changing seasons, watching tracks disappear and waiting for them to return.
+His search lasted **nearly two years**. The **[[distant-lands-of-the-hunter#valiant-and-the-woodland-elves|Woodland Elves of Valiant]]** understood the forest far better than he did, and under their guidance Heyden was forced to abandon impatient habits. They taught him to hear what belonged among the trees rather than merely looking for signs of disturbance, and to move without demanding the forest's attention. He lived beneath the canopy through storms and changing seasons, watching tracks disappear and waiting for them to return.
 
 At last he saw the Great Elk standing among the trees. His arrow found its mark. Yet the moment he remembered was the silence after the shot—and the two years of patient work that had preceded it.
 
@@ -76,7 +108,7 @@ He began to feel something unusual for a man who had spent most of his adult lif
 
 ## The hunter called Shadow
 
-Eventually Heyden followed increasingly dangerous trails, including journeys into the **Wood of the Fey**. He seldom describes precisely what happened there. He mentions paths that defied expectations, strange teachers amused by a mortal hunter, and lessons about movement that changed his understanding of concealment. The precise identity of those fey and their connection, if any, to other known woodland communities has not been established.
+Eventually Heyden followed increasingly dangerous trails, including journeys into the **[[distant-lands-of-the-hunter#the-wood-of-the-fey|Wood of the Fey]]**. He seldom describes precisely what happened there. He mentions paths that defied expectations, strange teachers amused by a mortal hunter, and lessons about movement that changed his understanding of concealment. He never named all the beings who taught him. His account left the woods' paths as mysterious as they had been to those who searched for him there.
 
 Heyden learned to disappear into terrain that seemed incapable of hiding a Leonin of his size. He moved swiftly through the canopy, using branches, darkness and foliage in a way that unsettled other hunters. They would glance toward him and discover he was no longer there, only to hear something move overhead.
 
@@ -100,4 +132,12 @@ He dresses as a hunter, not a prince: weathered leather, durable boots, layered 
 
 He enjoys difficult tracks, unfamiliar beasts, skilled hunters, campfires, strong drinks, friendly rivalries and tales exaggerated just enough to entertain. He dislikes wasteful trophy hunting, boastful incompetence, cowardice disguised as caution, empty ceremony and people who treat others differently because of a title. He loves his family and is protective of Labos even while complaining about its royal rituals.
 
-Heyden is **chaotic good**: impatient with formal expectations, generous with his abilities, devoted to the chase but increasingly aware that the lives beside him matter more than the quarry ahead. He is **thirty-two years old** in this account. His current place among the guild, and the course of later hunts, remain stories to be told rather than outcomes to invent in advance.
+Heyden is **chaotic good**: impatient with formal expectations, generous with his abilities, devoted to the chase but increasingly aware that the lives beside him matter more than the quarry ahead. He is **thirty-two years old** in this account. He remains a hunter of the Dead Marshes, still carrying the coin that first opened the guild's doors.
+
+## The prince who learned to stay
+
+Heyden's story began with a kind of freedom most people never possess. He could travel because his parents had wealth, because his brothers carried the official burdens of the royal household, and because no court expected the fourth prince to shape the future of Labos. He did not pretend those advantages were unimportant. He simply refused to confuse their possession with the accomplishments he wanted to earn.
+
+The scar he brought back from Chult told him he could survive terror and pain. The scimitar given to him after the Great Elk told him that patience could earn respect. Gomo's coin had neither royal jewels nor ceremonial weight, yet it led him to a place where neither was required. In the Dead Marshes he learned that a hunter could be remembered by the tracks he followed—and mourned by the friends who remembered him when he did not return.
+
+The name **Shadow** began as an account of his skill at vanishing. Among the guild it came to mean something almost contrary: for once, Heyden was someone whose absence would be noticed.
