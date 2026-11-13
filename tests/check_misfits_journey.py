@@ -475,7 +475,7 @@ rivercity=source("river-city")
 assert "Black Stair]] climbs toward the **[[The Black Tower]]**" in spine
 assert "not toward Heaven's Heart" in spine
 assert "Black Stair]] is the difficult ascent **to the Black Tower**" in sanctuary
-assert "distinct" in sanctuary and "Silver Forge" in sanctuary and "Astronoph" in sanctuary
+assert "do not make the two institutions one order" in sanctuary and "Silver Forge" in sanctuary and "Astronoph" in sanctuary
 assert "**River Juce**" in stannisport and "**Heroes Bridge**" in stannisport
 assert "1 AF" in stannisport and "Healing Hand" in stannisport
 assert "Guiding Light" in stannisport and "Shield of Mercy" in stannisport
