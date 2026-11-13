@@ -6,8 +6,8 @@ SITE=ROOT/'_site'
 events=yaml.safe_load((ROOT/'data/living-chronicle.yml').read_text(encoding='utf-8'))['events']
 map_src=yaml.safe_load((ROOT/'data/avalor-map.yml').read_text(encoding='utf-8'))
 links=yaml.safe_load((ROOT/'data/atlas-history.yml').read_text(encoding='utf-8'))['links']
-# Addendum 006 preserves the earlier 18 events and adds four c. 2000 AF
-# Misfits death milestones. Atlas pins are not invented for these events.
+# Addendum 006 added four original-campaign death milestones to the earlier 18;
+# Addendum 007 established their year as 2000 AF. No unsupported map pins were added.
 assert len(events)==22, len(events)
 assert all(e['id'] in {x['id'] for x in events} for e in
            ({'id':'stanleyville-deaths'}, {'id':'hydra-temple-deaths'},

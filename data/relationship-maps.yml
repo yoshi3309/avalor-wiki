@@ -57,30 +57,37 @@ maps:
     title: House Frozenroar
     subtitle: Kinship is not the same as succession
     icon: "♛"
-    summary: Avalor's royal register spans thirty-four rulers. This map shows only the kinships directly preserved by the public pedigree, rather than turning every successor into the child of a previous monarch.
-    note: These are separate documented family clusters. Their positions on this page do not imply undocumented ancestry between clusters. For the full list of reigns, consult the House Frozenroar record.
+    summary: All thirty-four sovereigns share unbroken Frozenroar descent, though parentage between each successive monarch varies. This map shows selected documented relationships, not all generations.
+    note: The unbroken dynasty includes children, grandchildren, siblings, and collateral branches. Only selected kinship links are drawn here; see House Frozenroar for the full register and fates. Remaining uncharted links do not indicate breaks in descent.
     related_article: house-frozenroar
     nodes:
-      - {id: benedikt, label: Benedikt, x: 12, y: 13, kind: royal, detail: Second sovereign of Avalor; father of Aldara.}
-      - {id: aldara, label: Aldara, x: 12, y: 35, kind: royal, detail: Third sovereign; daughter of Benedikt and mother of Dietmar.}
-      - {id: dietmar, label: Dietmar, x: 12, y: 57, kind: royal, detail: Fourth sovereign; son of Aldara.}
-      - {id: halton, label: Halton, x: 38, y: 13, kind: royal, detail: Fifth sovereign and acknowledged heir of Dietmar; their precise kinship is not recorded.}
+      - {id: rynhold, label: Rynhold, x: 12, y: 7, kind: royal, article: rynhold-frozenroar, detail: First king and father of Benedikt; died in 37 AF.}
+      - {id: benedikt, label: Benedikt, x: 12, y: 25, kind: royal, detail: Second sovereign of Avalor; son of Rynhold, father of Aldara.}
+      - {id: aldara, label: Aldara, x: 12, y: 45, kind: royal, detail: Third sovereign; daughter of Benedikt and mother of Dietmar.}
+      - {id: dietmar, label: Dietmar, x: 12, y: 65, kind: royal, detail: Fourth sovereign; son of Aldara and father of Halton.}
+      - {id: halton, label: Halton, x: 38, y: 13, kind: royal, detail: Fifth sovereign and son of Dietmar; father of Sylavor with Dathyra Blueshadow.}
       - {id: dathyra, label: Dathyra, x: 55, y: 13, kind: person, detail: Dathyra Blueshadow, mother of Sylavor with Halton.}
-      - {id: sylavor, label: Sylavor, x: 46.5, y: 40, kind: royal, detail: Son of Halton and Dathyra; sixth sovereign, who later abdicated.}
+      - {id: sylavor, label: Sylavor, x: 46.5, y: 40, kind: royal, detail: Son of Halton and Dathyra; sixth sovereign, who abdicated in 298 AF and died in 312 AF.}
+      - {id: arelis, label: Arelis, x: 46.5, y: 57, kind: royal, detail: Sylavor's daughter, seventh sovereign; ruled while her father lived in retirement.}
       - {id: elyra, label: Elyra, x: 72, y: 12, kind: royal, detail: Sixteenth sovereign, elder twin of Corven and mother of Torenna.}
       - {id: corven, label: Corven, x: 88, y: 12, kind: person, detail: Elyra's younger twin brother, who contested her rule in the War of the Two Lions.}
       - {id: torenna, label: Torenna, x: 72, y: 40, kind: royal, detail: Elyra's daughter and successor, who reconciled the divided kingdom.}
-      - {id: gradvum, label: Gradvum, x: 37, y: 72, kind: royal, article: king-gradvum-frozenroar, detail: Thirty-fourth sovereign of Avalor, crowned in 1983 AF.}
+      - {id: gerran, label: Gerran, x: 25, y: 55, kind: royal, article: king-gerran-frozenroar, detail: Father of Gradvum; died peacefully in 1982 AF.}
+      - {id: gradvum, label: Gradvum, x: 37, y: 72, kind: royal, article: king-gradvum-frozenroar, detail: Son of Gerran; thirty-fourth sovereign, crowned in 1983 AF.}
       - {id: melmiri, label: Melmiri, x: 57, y: 72, kind: person, article: queen-melmiri, detail: Queen consort and an active leader of daily royal administration.}
       - {id: theodric, label: Theodric, x: 29, y: 94, kind: person, detail: Eldest son and heir of Gradvum and Melmiri.}
       - {id: leontes, label: Leontes, x: 47, y: 94, kind: person, detail: Younger son of Gradvum and Melmiri.}
       - {id: vivienne, label: Vivienne, x: 65, y: 94, kind: person, detail: Daughter of Gradvum and Melmiri.}
     edges:
+      - {from: rynhold, to: benedikt, type: parent, label: Father and son}
       - {from: benedikt, to: aldara, type: parent, label: Father and daughter}
+      - {from: dietmar, to: halton, type: parent, label: Father and son}
       - {from: aldara, to: dietmar, type: parent, label: Mother and son}
       - {from: halton, to: dathyra, type: consort, label: Parents of Sylavor}
       - {from: halton, to: sylavor, type: parent, label: Father and son}
       - {from: dathyra, to: sylavor, type: parent, label: Mother and son}
+      - {from: sylavor, to: arelis, type: parent, label: Father and daughter}
+      - {from: gerran, to: gradvum, type: parent, label: Father and son}
       - {from: elyra, to: corven, type: sibling, label: Twin siblings}
       - {from: elyra, to: torenna, type: parent, label: Mother and daughter}
       - {from: gradvum, to: melmiri, type: consort, label: Royal consorts}

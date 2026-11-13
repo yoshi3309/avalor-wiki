@@ -181,59 +181,59 @@ events:
     topic: crown
     era: THE PRESENT REIGN
     title: Gradvum takes the throne
-    text: Gradvum begins his reign; Queen Melmiri later oversees much of the kingdom's daily administration.
+    text: After his father King Gerran dies peacefully in 1982 AF, Gradvum inherits the Frozenroar crown in 1983 AF. Queen Melmiri later oversees much of the kingdom's daily administration.
     article: king-gradvum-frozenroar
   - id: stanleyville-deaths
-    date: c. 2000 AF
-    date_kind: approximate
+    date: 2000 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: The losses at Stanleyville
-    text: Jack is killed through Cid's concealed spell and remains a conscious ghost. The Stalker kills Lord Marshal Kel'Maris; Captain Funkin returns her remains to Renada. These deaths precede the Hydra temple. The calendar year is approximate.
+    text: In the third month of the Misfits' campaign in 2000 AF, Jack is killed by Cid's concealed spell and remains a conscious ghost. The Stalker kills Lord Marshal Kel'Maris, and Captain Funkin returns her body to Renada. These deaths precede the Hydra temple.
     article: the-stalker
   - id: hydra-temple-deaths
-    date: c. 2000 AF
-    date_kind: approximate
+    date: 2000 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: The Hydra temple disaster
-    text: Captain Funkin, Inspector Sihnion and guards die at Cid's ruined temple. Fo'Gurn truly dies confronting the hydra to save the Misfits. This follows Stanleyville; no exact date or within-battle sequence is established.
+    text: Later in the third month of the 2000 AF campaign, Captain Funkin, Inspector Sihnion and guards die at Cid's ruined temple. Fo'Gurn truly dies confronting the hydra to save the Misfits. The within-battle order and precise days are not established.
     article: hydra-temple-disaster
   - id: jaznaar-final-rest
-    date: c. 2000 AF
-    date_kind: approximate
+    date: 2000 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: Jaznaar's last testimony
-    text: Jaznaar dies after the Misfits depart his refuge, before the final confrontation with Cid and before King Gradvum vindicates him. His exact death date is unrecorded.
+    text: During the fourth month of the 2000 AF campaign, Jaznaar dies after the Misfits depart his refuge, before the final confrontation with Cid and before King Gradvum vindicates him. The exact day is unrecorded.
     article: jaznaar-refuge-revelation
   - id: zauks-end
-    date: c. 2000 AF
-    date_kind: approximate
+    date: 2000 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: Amara ends Zauks's illusions
-    text: After the real defeat of Jinlin, Amara kills Zauks and frees her cocooned companions. Jinlin's earlier defeat is not a confirmed death. This precedes the Shadowfell finale.
+    text: During the final month of the 2000 AF campaign, after the real defeat of Jinlin, Amara kills Zauks and frees her cocooned companions. Jinlin's earlier defeat is not a confirmed death. This precedes the Shadowfell finale.
     article: zauks-false-lives
   - id: misfits-victory
-    date: Around 2000 AF
-    date_kind: approximate
+    date: 2000 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE BLOOD KING’S DEFEAT
     title: The Misfits uncover the truth
-    text: Jaaris dies after Fo'Gurn has broken free; Fo'Gurn's necromantically sustained existence then ends in the Shadowfell. Cid is defeated and taken into the Beyond, but his ultimate death is unconfirmed. Jaznaar is vindicated afterward. The dating is approximate.
+    text: In the final month of 2000 AF, Jaaris dies after Fo'Gurn has broken free; Fo'Gurn's necromantically sustained existence then ends in the Shadowfell. Cid is defeated and taken into the Beyond, but his ultimate death is unconfirmed. Jaznaar is vindicated afterward.
     article: jaznaars-vindication
   - id: ascendancy
-    date: About twenty years later
-    date_kind: relative
+    date: 2020 AF
+    date_kind: exact
     period: present-age
     topic: heroes
     era: THE AGE OF ASCENDANCY
     title: A kingdom with a wider horizon
-    text: Avalor gains international prominence; Lavitz is Lord Marshal and Tel’Lora is High Wizard. The date remains approximate.
+    text: By 2020 AF, twenty years after Cid's defeat, Avalor has gained international prominence; Lavitz is Lord Marshal and Tel'Lora is High Wizard. No established named cast members have died in the intervening twenty years.
     article: age-of-ascendancy

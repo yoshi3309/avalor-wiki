@@ -1,72 +1,77 @@
-# Avalor — Character Fates and Approximate Death Chronology
+# Avalor — Approved Character Death Years and Royal Calendar
 
-**Revised:** November 12, 2026  
-**Status:** Creator-approved no-deaths-in-gap ruling; provisional campaign-era dating based on existing canon; **no new exact death years established**.  
-**Sources:** Public Living Chronicle (around 2000 AF); Master Canon Bible (the original campaign unfolded over months); approved canon addenda 001–005; the creator's clarification that no established cast members died in the intervening twenty years.
+**Updated:** November 12, 2026  
+**Status:** APPROVED CANON — official year of the original Misfits campaign **2000 AF**; its events unfolded over approximately **six months**; present-day setting **2020 AF**. Dates within those months are not assigned as exact days.  
+**Supersedes:** The provisional “c. 2000 AF” register of Addendum 006; the earlier suggestion that many individuals' death years could not be determined.  
+**Source:** Keeper's explicit approval of the proposed 2000 AF campaign, 1997 AF family tragedy, 2020 AF present year, continuous Frozenroar line, and royal fates as varied below.
 
-## What the dates mean
+## Calendar and precision
 
-The defeat of Cid is anchored to **around 2000 AF**. The Keeper-era Master Canon Bible explicitly calls that year **PROVISIONAL** and says the Misfits' original adventures unfolded over months; it does not establish a precisely six-month duration or prove that every event fell within one numbered calendar year.
+- **2000 AF** is now the **confirmed calendar year** of the Misfits' original campaign and Cid's defeat; its duration is approximately **six months**.
+- A **campaign month** is a relative sequence unit, not a newly named month in Avalor's calendar; no exact day of any death has been established.
+- **1997 AF:** Jaaris murdered **Tristan and Kristofer**, before Sven became a Misfit, approximately three years before his eventual confrontation with Jaaris.
+- **2020 AF:** The world is approximately twenty years beyond the original battle, and **no established named cast member died during the twenty-year interval**. Anonymous citizens' mortality is not suspended.
 
-Therefore the label **c. 2000 AF** is an **approximate campaign-era date**, suitable for a historical timeline and biography fact box, **not a newly confirmed year**. It does not imply that the court possesses a record of the day, month, or exact AF year of each death. A later exact-date ruling can replace this approximation without changing the event order.
+## Original Misfits campaign — 2000 AF
 
-A person's **bodily death**, their **magically sustained later existence**, an **unresolved disappearance**, and **defeat in battle** are separate outcomes. No one receives a death date merely because an adventure ended.
-
-## Dated historical deaths before the Misfits
-
-| Person or event | Recorded date | Status |
+| Campaign period | Confirmed casualties and outcomes | Precision |
 |---|---|---|
-| Lord Osmo and Bradgem Glav | **Before 1 AF** | Both died in the founding struggle at Heroes Hill; exact battle year unrecorded. |
-| Aldus Greystone III's mortal form | **c. 10 AF** | Mortal form died at the Black Tower, but Aldus endured as Cid; **not** a permanent ultimate death date. |
-| Queen Elyra Frozenroar | **893 AF** | Died after declining health during the conclusion of the War of the Two Lions. |
-| King Gerran Frozenroar | **Reign ended 1982 AF** | **No verified death date**; the end of a reign and Gradvum's 1983 accession do not establish Gerran's death. |
+| Month 1 | Moonville Manor; first royal commission | No new deaths dated by this proposal. |
+| Month 2 | Gol'Goroth; Noki sheep incident; search for Lowkee's Keeper | Noki survives, later known as Noke. |
+| **Month 3: Stanleyville** | **Jack** dies bodily but remains a conscious ghost. The **Stalker kills Kel'Maris**; **Captain Funkin brings her body to Renada**. | Same month, Jack/Kel'Maris exact relative order not newly established. |
+| **Month 3: later Hydra temple** | **Captain Funkin**, **Inspector Sihnion**, and guards die. **Fo'Gurn truly dies**, staying behind to confront the Hydra. | Stalker before Hydra. Individual temple death order not fixed. |
+| **Month 4** | **Jaznaar dies** after the party leaves his refuge, before Gradvum vindicates him. The Rotten Husk liberation also belongs to the period. | Day unassigned. |
+| **Month 5** | Tournament, Queen Melmiri's abduction, Ros Furband's captivity, real defeat of Jinlin | **Jinlin is defeated, not proven killed.** |
+| **Month 6** | **Zauks is killed by Amara**; then in the Shadowfell **Fo'Gurn frees himself from Jaaris's control while Jaaris still lives**. Jaaris dies afterward, ending Fo'Gurn's restored existence. Cid is defeated and taken into the Beyond. | Cid's ultimate death is not confirmed; Fo'Gurn's later appearance remains unexplained. |
+| **Unplaced within 2000 AF** | **Karina** and **Black Agnes Mudwallow** are killed by the Misfits. | Year confirmed; encounter location, month and exact date not established. |
 
-## Original Misfits campaign: provisional death sequence
+**Important distinction:** Fo'Gurn's original bodily death at the Hydra and the later end of his necromantically sustained existence in the Shadowfell are separately recorded, **both in 2000 AF**. His appearance with Samuel approximately twenty years later is not attributed to a new resurrection without creator approval.
 
-The following confirmed deaths are recorded within the **campaign around 2000 AF**. Events are ordered by the established adventures, but **not every death has a known position within the individual encounter**.
+## Frozenroar royalty: deaths and abdications
 
-| Event order | People | Established fate | Date precision |
-|---|---|---|---|
-| Stanleyville, **before Hydra** | **Jack** | Murdered by a concealed Fireball manuscript; persists as a conscious ghost. | **c. 2000 AF**, bodily death only; exact date unknown. |
-| Stanleyville, **before Hydra** | **Kel'Maris** | Pierced and killed by the Stalker; Captain Funkin later returned her body to Renada. | **c. 2000 AF**, exact date unknown. |
-| Ruined temple and Hydra, **after Stalker** | **Captain Funkin** and **Inspector Sihnion**, along with guards | Killed in the temple disaster. Funkin had been alive to return Kel'Maris's body. | **c. 2000 AF**, exact date unknown. |
-| Same Hydra escape | **Fo'Gurn — original death** | Truly died confronting the hydra so the Misfits could escape. | **c. 2000 AF**, exact date unknown. |
-| After the visit to his refuge | **Jaznaar** | Died after the Misfits departed and before Cid's final defeat and Jaznaar's public vindication. | **c. 2000 AF**, exact date unknown. |
-| After the real defeat of Jinlin | **Zauks** | Amara killed him, breaking his hold over the companions' cocoons. | **c. 2000 AF**, exact date unknown. |
-| Shadowfell finale | **Jaaris** | Killed **after** Fo'Gurn had already recovered his freedom by choosing to protect Lavitz. | **c. 2000 AF**, exact date unknown. |
-| Following Jaaris's death, same finale | **Fo'Gurn — end of necromantically sustained existence** | The borrowed existence maintained by Jaaris failed; Fo'Gurn remained in the Shadowfell to rest again. | **c. 2000 AF**, approximate and **distinct from the original Hydra death**. |
+All **34 sovereigns** are blood relatives belonging to a **continuous House Frozenroar dynasty**. A successor may be a child, grandchild, sibling, niece, nephew or member of another collateral branch. The current official register, including every reign-end circumstance, is in [[House Frozenroar]] (`content/articles/house-frozenroar.md`).
 
-**Additional confirmed deaths without a fixed scene:** **Karina** and **Black Agnes Mudwallow** were killed by the Misfits during the original campaign, also approximately **c. 2000 AF**. Karina's death is sometimes associated with the Rotten Husk period, but the precise battle is not settled. Neither is assigned a specific day, encounter, or confirmed year.
+Previously documented royal fates retained:
+- **Sylavor** abdicated voluntarily in **298 AF** and died peacefully in **312 AF**.
+- **Elyra** died after illness in **893 AF**, during the War of the Two Lions (not assassination).
+- **Wolfram** abdicated under political settlement in **1511 AF** and died in **1528 AF**.
+- **Maerith** died of illness in **1734 AF**.
+- **Gerran** died peacefully in **1982 AF**; **Gradvum** became king in **1983 AF** and remains sovereign in **2020 AF**.
 
-**Earlier tragedy outside that campaign:** **Tristan and Kristofer** died in Jaaris's necromantic ritual **before Sven became one of the Misfits**. Their exact year remains unassigned. Their deaths must not be retroactively set at c. 2000 AF simply because Jaaris himself was killed around then.
+Distinctive recorded causes newly approved to enrich the dynasty:
+- **Benedikt**, winter fever (71 AF); **Halton**, sudden fever (178 AF); **Solenne**, long illness (579 AF); **Orrec**, winter fever (721 AF); **Ilyan**, severe fever (1038 AF); **Oren**, stroke (1119 AF); **Dain**, sudden illness (1654 AF); **Kastor**, lung illness (1881 AF).
+- **Merek** fell in **430 AF** while defending coastal shipping from pirates in a **limited coastal operation, not a major war**.
+- **Brannic the Greencloak** died following a fall on a wilderness expedition in **633 AF**.
+- **Sered** died in **1258 AF** from wounds sustained in a **limited frontier skirmish**, not a newly invented large conflict.
+- **Willem** died during a storm at sea in **1461 AF**.
+- **Talira** died in **1700 AF** of injuries sustained during a flood inspection.
+- Other sovereigns whose reign ended in death are recorded as dying of age or unexceptional natural causes, according to the register. No additional named foes, wars, pirate captains, cities, or conspiracies have been established.
 
-The relative order of **Jack's death and Kel'Maris's death within the Stanleyville affair** need not be treated as precisely known: both are before the later Hydra. Likewise, the order of the individual temple casualties is not separately documented.
+**Dynastic age:** Halton's marriage to elven **Dathyra Blueshadow** brought elven ancestry into the Frozenroar bloodline. Later generations have varied human and elven ancestry, which accounts for some long reigns without imposing one fixed species or an inherited magical blessing upon every monarch.
 
-## Defeated, missing, retired, or otherwise not established as dead
+## Genealogical anchors now accepted
 
-| Person | Established record | Why no death date |
-|---|---|---|
-| **Cid / Aldus** | Defeated, sealed against Material Plane return, then taken into the Beyond by unknown black hands. | Ultimate death unproven; earlier destruction of his mortal form was not final. |
-| **Jinlin Vechon** | Defeated in a real battle before Zauks. | Defeat is **not** a confirmed death, even though some older accounts use different language. |
-| **Ros Furband** | Captured the Misfits after the Tournament and delivered them toward Jinlin. | His fate afterward is not established. |
-| **Noki / Noke** | Survived the sheep encounter and later served the Den Mother. | The Misfits' belief that Noki had died was mistaken. |
-| **Jack** | Bodily death established; conscious ghost persisted and traveled onward. | Cannot record his spirit as having ceased without new canon. |
-| **Fo'Gurn** | Two death-related events during the original campaign; later appeared with Samuel about twenty years afterward. | Later appearance mechanism unresolved; do not date a new death in the interval. |
-| **King Gerran** | Royal reign ended 1982 AF. | A reign ending does not establish the monarch's death. |
-| **Kurt Reyginald** | Retired from the Lord Marshal office. | Retirement is not death. |
+- Rynhold → Benedikt (father and son)
+- Benedikt → Aldara → Dietmar → Halton → Sylavor (successive parent/child relationships; Sylavor's mother is Dathyra)
+- Sylavor → Arelis (father/daughter)
+- Aveline → Orrec (mother/younger son; Alaric was his elder brother)
+- Rhaena → Elyra (grandmother/granddaughter through an unreigning child); Elyra/Corven twins; Elyra → Torenna (mother/daughter)
+- Arnaud → Reina (father/daughter; reforming queen following an oppressive father)
+- Wolfram → Ysoria (uncle/niece)
+- Maerith → Neria (mother/daughter)
+- Gerran → Gradvum (father/son)
 
-## The approximately twenty-year interval after Cid
+The exact links among every other accession have not been individually enumerated here, but **unbroken blood descent is confirmed**. Do not frame the dynasty's continuity as uncertain merely because a complete 34-generation chart has not yet been drawn.
 
-**Keeper ruling:** **No established named cast members died in the approximately twenty years following the original defeat of Cid.** This supersedes the previous open question about whether we should invent or assign additional cast deaths in the gap.
+## Fate categories that remain unchanged
 
-This rule applies to the established characters and histories under development; it does **not** assert that no ordinary inhabitant of Avalor died of natural causes or otherwise during twenty years of world history. The public wiki should not invent deaths, replacements, funerals, or royal succession to make the time period seem full.
+- **Cid/Aldus:** defeated and taken into the Beyond; not confirmed ultimately dead.
+- **Jinlin:** defeated in reality; not confirmed dead.
+- **Noki/Noke:** survived the sheep incident; later servant of the Den Mother.
+- **Ros Furband:** ultimate fate not established.
+- **Jack:** physically dead but continues as a ghost.
+- **Fo'Gurn:** both 2000 AF death-related events are confirmed; later appearance with Samuel is unexplained.
 
-The Age of Ascendancy remains deliberately open for further creator-approved campaigns. The **rise of the Black Diamond** must be developed before **Blackwater Bay** is integrated into the public archive. Nothing in this dating register establishes those future events.
+## Publishing rules
 
-## Publication rules and further decisions
-
-1. In the wiki's historical timeline and character fact boxes, **c. 2000 AF** means only a **provisional campaign-era approximation**.
-2. Keep the **Stalker before Hydra**. Preserve the order **Jinlin's real defeat → Zauks's death → Shadowfell finale** and **Fo'Gurn's free choice → Jaaris's death → end of Fo'Gurn's borrowed existence**.
-3. Do not assign dates to Cid, Jinlin, Ros, Noke, a retired officer, or King Gerran from mere inference.
-4. **Exact AF years, months and days remain open.** If the Keeper later gives dates, update the timeline, relevant biographies, the public overrides, and the cumulative addendum together.
-5. If a later campaign explicitly changes a current character's fate, record its actual event rather than rewriting the interval retroactively.
+Use the exact year **2000 AF**, not c. 2000 AF, for original-campaign deaths and the finale. **1997 AF** is the confirmed year of Tristan and Kristofer's murders. **2020 AF** is the current-year reference for the original post-Cid historical frame. Preserve uncertain days, open character fates, and future Black Diamond/Blackwater Bay campaign details. Later creator corrections override these dates only when explicitly approved.

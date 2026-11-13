@@ -9,6 +9,7 @@ facts: |-
   House: Frozenroar
   Office: King of Avalor
   Reign: 1946-1982 AF
+  Death: 1982 AF (peaceful, at the end of his reign)
   Son and successor: Gradvum Frozenroar
   Royal swordmaster appointed: Kel'Maris
   Naval counselor appointed: Beldir Willowrun, Sentinel of the Seas
@@ -17,7 +18,7 @@ source: "Living Chronicle, Royal Register (sovereign 33); creator-supplied Kel'M
 featured: false
 ---
 
-**King Gerran Frozenroar** ruled Avalor from **1946 to 1982 AF**, immediately before the accession of his son **[[King Gradvum Frozenroar|Gradvum]]**. His reign forms the older royal generation remembered by officials still serving Gradvum's court. Whatever else those years contained, the surviving personal histories show a king attentive to preparing people for the responsibilities they would inherit.
+**King Gerran Frozenroar** ruled Avalor from **1946 to 1982 AF**. He **died peacefully in 1982 AF**, and his son **[[King Gradvum Frozenroar|Gradvum]]** inherited the throne in **1983 AF**. His reign forms the older royal generation remembered by officials still serving Gradvum's court. Whatever else those years contained, the surviving personal histories show a king attentive to preparing people for the responsibilities they would inherit.
 
 Gerran summoned **[[kel-maris|Kel'Maris]]**, a gifted young high-elven swordswoman from Ilyanamel, to [[renada|Renada]] to teach Prince Gradvum the sword. She became his son's friend and later the Lord Marshal known as the Lion's Shadow. Gerran also appointed the seasoned admiral **[[Beldir Willowrun]]** as **Sentinel of the Seas** on [[The Aegis]]. Both decisions had consequences beyond his reign: Kel'Maris protected the new king until her death at Stanleyville, and Beldir continued serving the crown under Gradvum.
 

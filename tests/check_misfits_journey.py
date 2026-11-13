@@ -272,8 +272,8 @@ event_ids = [event["id"] for event in events]
 assert [event_ids.index(i) for i in ordered_death_ids] == sorted(event_ids.index(i) for i in ordered_death_ids)
 for event_id in ordered_death_ids:
     event = event_by_id[event_id]
-    assert event["date_kind"] == "approximate", event_id
-    assert "2000 AF" in event["date"], event_id
+    assert event["date_kind"] == "exact", event_id
+    assert event["date"] == "2000 AF", event_id
 assert "Jinlin" in event_by_id["zauks-end"]["text"]
 assert "Jaaris" in event_by_id["misfits-victory"]["text"]
 assert "ultimate death is unconfirmed" in event_by_id["misfits-victory"]["text"]
@@ -281,15 +281,37 @@ for slug in (
     "kel-maris", "jack-of-stanleyville", "fo-gurn", "jaaris",
     "zauks", "jaznaar", "the-stalker", "shadowfell-confrontation",
 ):
-    assert "c. 2000 AF" in source(slug), slug
-assert "c. 2000 AF" in source("minor-heroes-and-allies")
-assert "c. 2000 AF" in source("minor-villains-and-adversaries")
-assert "c. 2000 AF" not in source("jinlin-vechon"), "Defeat is not a death date."
+    assert "2000 AF" in source(slug), slug
+assert "2000 AF" in source("minor-heroes-and-allies")
+assert "2000 AF" in source("minor-villains-and-adversaries")
+assert "Death year:" not in source("jinlin-vechon"), "Defeat is not a death date."
 register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
-assert "No established named cast members died" in register
+assert "no established named cast member died during the twenty-year interval" in register.lower()
 assert "Tristan and Kristofer" in register
 assert "precise year" in register or "exact year" in register
 assert "Addendum 006" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+
+# Addendum 007: unbroken lineage, approval of campaign calendar and mixed royal endings.
+assert event_by_id["ascendancy"]["date"] == "2020 AF"
+assert event_by_id["ascendancy"]["date_kind"] == "exact"
+assert "1997 AF" in source("svendyal-shadowwhisper")
+assert "1997 AF" in source("jaaris")
+assert "2000 AF" in source("the-misfits")
+royal = source("house-frozenroar")
+assert "one unbroken Frozenroar bloodline" in royal
+assert "| 34 | Gradvum Frozenroar | 1983–present |" in royal
+assert "killed defending coastal shipping against pirates" in royal
+assert "Sered" in royal and "frontier skirmish" in royal
+assert "Brannic" in royal and "wilderness expedition" in royal
+assert "298 AF; died peacefully, 312 AF" in royal
+assert "1511 AF; died, 1528 AF" in royal
+assert "1982 AF" in source("king-gerran-frozenroar")
+assert "father of Benedikt" in source("rynhold-frozenroar") or "Son Benedikt" in source("rynhold-frozenroar")
+fate_register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
+assert "**2000 AF** is now the **confirmed calendar year**" in fate_register
+assert "1997 AF" in fate_register
+assert "2020 AF" in fate_register
+assert "Addendum 007" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 

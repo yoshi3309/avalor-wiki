@@ -14,11 +14,11 @@ facts: |-
   Fellowship: Original Misfits
   Remembered sacrifice: Hydra encounter
   Death: Truly died confronting the hydra
-  Estimated original death: c. 2000 AF (provisional campaign-era estimate)
+  Original death: 2000 AF (third month, Hydra temple)
   Restoration: Raised and controlled through Jaaris's necromancy
   Redemption: Broke conditioning by protecting Lavitz, before Jaaris's death
   Final fate: Remained in Shadowfell to rest again
-  Estimated end of borrowed existence: c. 2000 AF (provisional; during original campaign)
+  End of borrowed existence: 2000 AF (sixth month, Shadowfell)
   Appearance twenty years later: Means unresolved
 related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)

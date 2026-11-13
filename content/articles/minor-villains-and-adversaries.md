@@ -22,13 +22,13 @@ The Blood King, [[Jaaris]], [[Zauks]], [[noki-the-sheep|Noki/Noke]], and [[jinli
 
 **Karina** was a **vampiric centaur** in the service of [[Cid the Blood King]]. Before the Misfits understood her allegiance, she had already inflicted a personal tragedy upon them: **she murdered the mother of [[Tel'Lora Ebbenflow]]** while seeking the woman's spellbook and ice-blue crystal. That crystal later helped the wizard reach [[jaznaar|Jaznaar's]] refuge, making Karina's crime part of a much older struggle over knowledge.
 
-Karina was among Cid's servants implicated in the ruined-temple affair near Stanleyville. The **Misfits later defeated and killed her**, during the original campaign provisionally dated **c. 2000 AF**. Later recollections associate her defeat with the period of the [[rotten-husk-liberation|Rotten Husk liberation]], but the precise scene remains unconfirmed. Her death could not restore Tel'Lora's mother or the years he had lived without her.
+Karina was among Cid's servants implicated in the ruined-temple affair near Stanleyville. The **Misfits later defeated and killed her**, during the original campaign in **2000 AF**. Later recollections associate her defeat with the period of the [[rotten-husk-liberation|Rotten Husk liberation]], but the precise scene remains unconfirmed. Her death could not restore Tel'Lora's mother or the years he had lived without her.
 
 ## Black Agnes Mudwallow
 
 **Black Agnes Mudwallow** was a **night hag** counted among Cid's servants at the [[hydra-temple-disaster|ruined temple near Stanleyville]]. The prisoners faced a blood rite, magical restraints and a circle of enemies that included Jaaris, Karina and Zauks. Agnes belonged to that circle, though sharing Cid's service did not establish any deeper common ideology.
 
-The **Misfits defeated and killed Black Agnes** during their original campaign, provisionally dated **c. 2000 AF**. The circumstances of the final encounter have not been established. She remains in the archive as a dangerous servant of the Blood King, without an invented personal quest or later return.
+The **Misfits defeated and killed Black Agnes** during their original campaign in **2000 AF**. The circumstances of the final encounter have not been established. She remains in the archive as a dangerous servant of the Blood King, without an invented personal quest or later return.
 
 ## Ros Furband
 
