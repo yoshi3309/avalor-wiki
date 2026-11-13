@@ -23,9 +23,22 @@ facts: >-
   creatures
 
   Character: Long-lived fellowship of wilderness specialists
-related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot
+related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot,minor-characters,distant-lands-of-the-hunter
 source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
   creator-approved Faelynn World Anvil backstory and expansion (November 2026)
+callouts:
+  - type: reflection
+    text: "The guild calls itself a family not because every hunter was born into it, but because those who leave the safety of Wayward Sun expect someone to remember whether they return."
+    attribution: Editorial reflection on the family business
+    after: the-family-business-in-secret
+    paragraph: 2
+highlight_sections:
+  - section: from-a-ruined-village-to-a-hunter-s-vow
+    tone: remembrance
+  - section: the-family-business-in-secret
+    tone: turning-point
+  - section: the-guild-in-the-present-age
+    tone: legacy
 featured: false
 ---
 ## A watch older than most institutions

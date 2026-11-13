@@ -18,6 +18,24 @@ facts: |-
 related: hunters-guild,wayword-sun,dead-marshes,forest-of-the-fey,the-six,lowkee
 source: The Living Chronicle, Chapters II–IV; Compendium II · II.003, public
   Scholar's Account; author-approved World Anvil story (November 2026)
+callouts:
+  - type: reflection
+    text: "The fiend's cruelty lay not only in the lives it took, but in forcing Faelynn to witness a betrayal committed by her own unwilling hands."
+    attribution: Editorial reflection on the night at the treetop village
+    after: the-boar-and-the-gate
+    paragraph: 4
+  - type: reflection
+    text: "The Night Mistress did not build the Hunters Guild to recover her village. She built a fellowship so that other people facing darkness might not have to face it alone."
+    attribution: Editorial reflection on the origin of the hunters
+    after: the-wayward-sun
+    paragraph: 3
+highlight_sections:
+  - section: the-boar-and-the-gate
+    tone: turning-point
+  - section: the-first-sunrise
+    tone: remembrance
+  - section: the-wayward-sun
+    tone: legacy
 featured: false
 ---
 
@@ -25,13 +43,13 @@ featured: false
 
 Long before the kingdom knew her as **the Night Mistress**, **Faelynn Naïlo** was a free-spirited wood elf roaming the high branches of the [[Forest of the Fey]]. She was a gifted archer and tracker, more at home among leaves and birdsong than in any crowded hall. From the canopy she hunted game, explored the forest's secrets, and reported what she discovered to the chieftess of her village.
 
-The village itself was built among the tallest trees, its homes turned toward the east to catch the warmth of the rising sun. Faelynn was not simply an archer hired to guard its outskirts. She was the chieftess's trusted scout, a friend whose judgment had helped preserve the village through many ordinary dangers. That friendship would make the night's betrayal nearly unbearable. Below lay a forest so thick that daylight sometimes struggled to reach its floor. For the villagers, the morning light offered more than beauty; it meant another day beneath the protections that kept the darker wilderness at bay.
+The village rose among the tallest trees, its homes turned eastward to welcome the first warmth of sunrise through a canopy so thick that daylight often struggled to reach the forest floor. Faelynn was the chieftess's trusted scout **and friend**; her judgment helped protect the people who had raised her. The dawn promised another day behind wards that held the darker wilderness at bay.
 
-Faelynn enjoyed the chieftess's complete confidence. She was a trusted scout, an honest friend, and one of the first people the village would turn to when trouble stirred beyond its borders. That trust was the very thing an enemy would use to destroy them.
+That closeness made the betrayal to come especially cruel. An enemy could use Faelynn's own trust, and her knowledge of the village's defenses, against everyone she had sworn to protect.
 
 ## The boar and the gate
 
-One evening Faelynn followed an enormous boar through miles of forest. She tracked it for hours, waiting until it approached a cave she took for its den. Within, the temperature climbed, the air became oppressive, and an urge she did not understand drew her deeper. She expected to corner it in a cave. Instead she found the air turning oppressively hot and, deeper inside, a swirling portal. Beyond it stood the crooked wrought-iron gate of a city whose twisted shapes seemed wrong to the eye. She had never seen a passage between worlds, and she was so transfixed that the boar nearly vanished from her thoughts.
+One evening Faelynn followed an enormous boar through miles of forest. She tracked it for hours, waiting until it approached a cave she took for its den. Within, the air grew feverishly hot, and an urge she did not understand drew her deeper. She expected to corner the boar in its den. Instead she found a swirling portal. Beyond it stood the crooked wrought-iron gate of a city whose twisted shapes seemed wrong to the eye. She had never seen a passage between worlds, and she was so transfixed that the boar nearly vanished from her thoughts.
 
 The boar passed toward the gate and changed. Its body twisted into something monstrous. When the thing turned back toward Faelynn, she fled, running through the night until she reached the familiar treetops of home.
 
@@ -49,7 +67,7 @@ Faelynn could see the destruction. She could grieve. She could not stop it.
 
 At dawn the spell finally broke. Faelynn collapsed, then crawled outside and called for anyone who might have survived. No voice answered.
 
-When she rose again, grief gave way to a vow: she would find the creature responsible and make it answer for what it had done. She completed the funeral pyres and rites herself, because the clerics who might have guided her were among the dead. Only after the last villager had been laid to rest could she leave. She buried and burned what remained of her people, performing the rites as best she could without the village's slain clerics.
+When she rose again, grief gave way to a vow: she would find the creature responsible and make it answer for what it had done. She completed the funeral pyres and rites herself. The clerics who might have guided her were among the dead, so she buried and burned what remained of her people as best she could. Only when every neighbor had been laid to rest did she leave.
 
 Then she left the home she had once defended.
 

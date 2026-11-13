@@ -28,7 +28,7 @@ Karina was among Cid's servants implicated in the ruined-temple affair near Stan
 
 **Black Agnes Mudwallow** was a **night hag** counted among Cid's servants at the [[hydra-temple-disaster|ruined temple near Stanleyville]]. The prisoners faced a blood rite, magical restraints and a circle of enemies that included Jaaris, Karina and Zauks. Agnes belonged to that circle, though sharing Cid's service did not establish any deeper common ideology.
 
-The **Misfits defeated and killed Black Agnes** during their original campaign in **2000 AF**. The circumstances of the final encounter have not been established. She remains in the archive as a dangerous servant of the Blood King, without an invented personal quest or later return.
+The **Misfits defeated and killed Black Agnes** during their original campaign in **2000 AF**. The circumstances of the final encounter have not been established. Her part in Cid's circle and the danger she posed to his prisoners are sufficient to explain why the company remembered her.
 
 ## Ros Furband
 

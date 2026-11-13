@@ -23,3 +23,9 @@ The public Archives of Avalor are written as historical scholarship produced by 
 | "The public record cannot confirm..." repeated throughout | Explain the one concrete evidentiary limit once |
 
 A finished article should read like a coherent piece of historical writing. Missing evidence is material for scholarship, not an apology from the author.
+
+## Long-form biography presentation (13 November 2026)
+
+Lavitz's narrative remains the reference for consequential biographies: readable chapters, supported thematic highlights, contextual artwork with accurate captions, and editorial reflections identifying themselves as such. Heyden, Faelynn, Jaaris, Cid, Amara, Fo'Gurn, Jaznaar and Rynhold have been given this treatment where they previously lacked it. Reflections must not be represented as newly discovered in-world eyewitness quotations or assigned to fictional scholars without a source.
+
+**Short entries stay short.** Do not turn incidental characters or minor locations into expansive invented histories to imitate the visual treatment of the central cast.

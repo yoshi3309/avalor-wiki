@@ -18,6 +18,24 @@ facts: |-
   Known defeat: Confrontation with the Misfits
 related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,aldus-greystone-iii,the-six,sundering-of-the-six,black-tower,blood-sickness,jaznaar,betrayers-legend,the-misfits,the-stalker,tournament-of-champions,jaznaars-vindication
 source: The Living Chronicle, Chapters III–IV and VI–VII; Master Canon Bible Volume I; creator's World Anvil physical and psychological description (November 2026)
+callouts:
+  - type: reflection
+    text: "The healer's fear of death became an excuse to make other people suffer. It is the passage from care to coercion that gives the Blood King's history its terrible weight."
+    attribution: Editorial reflection on the Black Tower catastrophe
+    after: the-catastrophe-at-the-black-tower
+    paragraph: 2
+  - type: reflection
+    text: "The discovery that Cid had been Aldus changed more than a name in the annals. The kingdom had honored a man whose actions it had taught generations to blame on his friend."
+    attribution: Editorial reflection on Avalor's recovered history
+    after: the-kingdom-after-the-lie
+    paragraph: 2
+highlight_sections:
+  - section: the-catastrophe-at-the-black-tower
+    tone: turning-point
+  - section: the-lie-that-condemned-a-friend
+    tone: remembrance
+  - section: the-final-confrontation
+    tone: legacy
 featured: false
 ---
 

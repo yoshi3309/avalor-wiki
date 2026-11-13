@@ -48,6 +48,6 @@ Then **a tremendous black hand, or hands in other accounts, seized Cid and pulle
 
 The Emerald's effects were consequential, but they were not the entire victory. It gave Samuel a moment of connection with Lowkee and became the seal Fo'Gurn wielded at Cid's attempted escape. Those are historical events, not secrets withheld from today's readers.
 
-What remains uncertain is the jewel's **origin, complete planar mechanism and wider limits**. It is not established as a general instrument capable of destroying gods or commanding the Beyond. The identity of the force that carried Cid away is similarly unresolved.
+What remains uncertain is the jewel's **origin, complete planar mechanism and wider limits**. No witness describes the Emerald as a general weapon against gods or as an instrument commanding the Beyond. The identity of the force that carried Cid away is similarly unresolved.
 
 The Misfits still had to rescue Melmiri, endure Jaaris and Cid, and stand beside Fo'Gurn as he resisted the will imposed upon him. No magical object replaces those choices.

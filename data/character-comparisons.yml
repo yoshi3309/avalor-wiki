@@ -223,6 +223,58 @@ profiles:
     legacy:
       text: "Combines celestial devotion with a deliberately direct, deeply engaged mortal presence."
       chapter: "a-divinity-with-a-mortal-heart"
+  - article: "heyden-of-the-goldenfoot"
+    role:
+      text: "Leonin fourth prince of Labos, renowned among the hunters as Shadow."
+      chapter: "the-prince-who-chose-the-trail"
+    affiliations:
+      text: "A member of the Hunters Guild of the Dead Marshes, welcomed through Gomo's coin."
+      chapter: "a-prince-in-avalor"
+    turning:
+      text: "The death of fellow hunters taught him that belonging meant facing loss."
+      chapter: "a-hunter-s-family"
+    legacy:
+      text: "Chose to remain among the companions who knew him as a hunter, not a prince."
+      chapter: "the-prince-who-learned-to-stay"
+  - article: "malikeah"
+    role:
+      text: "Veteran monster hunter and de facto leader of the Hunters Guild."
+      chapter: "the-hunter-at-the-heart-of-the-guild"
+    affiliations:
+      text: "Shares care of the Wayward Sun with his wife Mera."
+      chapter: "an-equal-partnership-at-the-wayward-sun"
+    turning:
+      text: "Confronts the fear that the long-lived guild may be nearing an end."
+      chapter: "the-burden-of-keeping-the-family-alive"
+    legacy:
+      text: "Offers his hunters protection, experience and a place to belong."
+      chapter: "not-merely-the-last-hunter-standing"
+  - article: "mera-ashenfall"
+    role:
+      text: "Spirit bard and inventive caretaker of the Hunters Guild refuge."
+      chapter: "a-different-kind-of-hunter"
+    affiliations:
+      text: "Operates Wayward Sun as an equal partner with Malikeah."
+      chapter: "the-ashenfalls-and-their-refuge"
+    turning:
+      text: "Maintains warmth and curiosity despite frightening experiences."
+      chapter: "a-warmth-deliberately-kept"
+    legacy:
+      text: "Creates a welcoming home for hunters and the child called Hope."
+      chapter: "hope-and-the-crow-called-pecker"
+  - article: "kel-maris"
+    role:
+      text: "High-elven swordmaster and the first elf to serve as Lord Marshal."
+      chapter: "a-swordswoman-from-ilyanamel"
+    affiliations:
+      text: "Trained Prince Gradvum and later led the Lion's Bane guard."
+      chapter: "sword-instructor-to-a-prince"
+    turning:
+      text: "Was killed by the Stalker while investigating Stanleyville."
+      chapter: "death-at-stanleyville"
+    legacy:
+      text: "Her memory survives in royal service and the forest where her ashes were scattered."
+      chapter: "a-lifetime-beside-the-lion"
 presets:
   - id: "two-paladins"
     title: "The Oath Across Ages"
@@ -259,3 +311,18 @@ presets:
     left: "heureux"
     right: "tellora-ebbenflow"
     description: "An oral historian and an institutional scholar after the Misfits' triumph."
+  - id: "two-generations-of-hunters"
+    title: "A Hunter's Inheritance"
+    left: "faelynn"
+    right: "heyden-of-the-goldenfoot"
+    description: "The founder's purpose beside the wandering prince who found a family in her guild; no meeting is assumed."
+  - id: "the-wayward-sun"
+    title: "Two Hearts of the Wayward Sun"
+    left: "malikeah"
+    right: "mera-ashenfall"
+    description: "Two very different kinds of protection in the shared stewardship of the Hunters Guild."
+  - id: "two-lord-marshals"
+    title: "The Lion's Shadow and the Lion's Shield"
+    left: "kel-maris"
+    right: "lavitz-shawe"
+    description: "The former Lord Marshal and her later successor, linked by office, service and sacrifice."

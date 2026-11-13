@@ -193,7 +193,7 @@ To the south, the **Kingdom of Birid** is ruled by **King Zurik**, an aarakocra 
 
 Birid and Krahan have approached war while Avalor has remained **neutral**, preserving diplomatic and commercial relations with both. Neutrality is a policy with consequences: merchants, travelers, and officials must still confront the tensions of neighboring states.
 
-The **Kingdom of Labos**, ruled by **King Geoff and Queen Viviliv**, also maintains diplomatic relations with Avalor. Their children are **Jeothor**, **Verbos**, **Seals**, and **[[heyden-of-the-goldenfoot|Heyden Goldenfoot]]**. Avalor's wider world cannot be reduced to the rivalry immediately south of its border.
+The **[[distant-lands-of-the-hunter#the-kingdom-of-labos|Kingdom of Labos]]**, ruled by **King Geoff and Queen Viviliv**, also maintains diplomatic relations with Avalor. Their children are **Jeothor**, **Verbos**, **Seals**, and **[[heyden-of-the-goldenfoot|Heyden Goldenfoot]]**. A delegation visited Renada to consider closer relations; no concluded alliance is implied by the visit. Avalor's wider world cannot be reduced to the rivalry immediately south of its border.
 
 ## The burden of prosperity
 
@@ -211,12 +211,12 @@ Along the coast, [[Cove City]] and [[Tinsel]], once rivals, share the rich and d
 
 Beyond them, [[East Port]] serves the eastern navy and [[Osmostown]] the western fleet. [[Port Orange]] became a cosmopolitan harbor after beginning as a wartime fort; [[River City]] supplies fish to the heartlands. The busy quays of [[Stannisport]] and the lake harbor of [[Tarnapolus]] distribute goods from different routes, while [[Taveras]] draws artists to the River Rhys. Inland, [[Jogar Village]] stands above the ruins of Illmire and fortified [[Briyan's Autumn]] watches the eastern approaches.
 
-Smaller communities have stories too: [[The Smaller Settlements of Avalor#alexiverde|Alexiverde]], [[The Smaller Settlements of Avalor#ferrymen-village|Ferrymen Village]], and [[The Smaller Settlements of Avalor#olivruch|Olivruch]] each deserve their place in the kingdom's memory.
+Smaller communities have stories too: [[The Smaller Settlements of Avalor#alexiverde|Alexiverde]], [[The Smaller Settlements of Avalor#ferrymen-village|Ferrymen Village]], [[The Smaller Settlements of Avalor#olivruch|Olivruch]], and [[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]], birthplace of the Lion's Shadow, each deserve their place in the kingdom's memory.
 
 
 ## What the lion must defend
 
-Avalor's endurance is exceptional, but it was never inevitable. The kingdom survived competing interests, changes of dynasty and policy, unjust laws, reform, war, and a history deliberately distorted by Cid's agents.
+Avalor's endurance is exceptional, but it was never inevitable. The kingdom survived competing interests, changes of policy under an **unbroken Frozenroar royal bloodline**, unjust laws, reform, war, and a history deliberately distorted by Cid's agents.
 
 Its founding achievement was not the disappearance of different peoples, but the creation of a political order within which they might share protection and still remember their particular inheritances.
 

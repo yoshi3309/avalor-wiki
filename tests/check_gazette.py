@@ -5,7 +5,10 @@ ROOT=Path(__file__).resolve().parent.parent
 SITE=ROOT/'_site'
 issues=[yaml.safe_load(path.read_text(encoding='utf-8')) for path in (ROOT/'content/gazette').glob('*.yml')]
 published=[issue for issue in issues if issue.get('published') is True]
-assert published
+assert len(published)>=2, len(published)
+latest=next((issue for issue in published if issue['id']=='the-roads-between-the-records'),None)
+assert latest and latest['date']=='2026-11-13' and len(latest['dispatches'])==6
+assert {d['article'] for d in latest['dispatches']} >= {'heyden-of-the-goldenfoot','house-frozenroar','minor-characters','minor-villains-and-adversaries','distant-lands-of-the-hunter'}
 home=(SITE/'gazette/index.html').read_text(encoding='utf-8')
 assert 'The Royal' in home and 'Gazette' in home and 'assets/gazette.css' in home
 assert 'href="../gazette/"' in (SITE/'archive/index.html').read_text(encoding='utf-8')

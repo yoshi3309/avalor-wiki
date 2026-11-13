@@ -20,6 +20,24 @@ facts: |-
   Distinct from: Necromancer of the first royal commission
 related: svendyal-shadowwhisper,fo-gurn,lavitz-shawe,cid-the-blood-king,shadowfell-confrontation,hydra-temple-disaster,the-first-commission,the-misfits,zauks-false-lives
 source: "Avalor Master Canon Bible, Misfits-era biography and Sven's history; creator-approved expansion, November 12, 2026"
+callouts:
+  - type: reflection
+    text: "Jaaris called the power to command another person's body mastery. The history of Sven's family shows the terror concealed beneath that word."
+    attribution: Editorial reflection on Jaaris's necromancy
+    after: a-home-destroyed-before-sven-s-eyes
+    paragraph: 2
+  - type: reflection
+    text: "Fo'Gurn's final refusal mattered because Jaaris was still alive to see it. Obedience had never been the same as loyalty."
+    attribution: Editorial reflection on the last struggle
+    after: the-last-refusal
+    paragraph: 2
+highlight_sections:
+  - section: a-home-destroyed-before-sven-s-eyes
+    tone: remembrance
+  - section: the-hydra-and-the-paladin-he-could-not-own
+    tone: turning-point
+  - section: the-last-refusal
+    tone: legacy
 featured: false
 ---
 

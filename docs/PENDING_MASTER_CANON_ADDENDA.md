@@ -327,3 +327,50 @@ The creator provided a long, detailed personal history. Its wiki adaptation is `
 - **Four master volumes:** Bible: add character identities and overview; Living Chronicle: preserve Avalor/Labos diplomatic contact and hunters narrative without dates not supplied; Compendium I: character and guild references; Compendium II: Labos, Chult, Weyland/Valiant, Dead Marshes locations as **named but not newly mapped**.
 
 **The first hunter's entry is not the end of this roster**: additional creator-supplied hunters may be given new pages or suitably brief entries according to their narrative importance. No unsolicited future lore is canonized.
+
+## Addendum 009 - Whole-Wiki Cross-Feature Reconciliation (November 13, 2026)
+
+**Status: CREATOR-REQUESTED EDITORIAL INTEGRATION AND SOURCE-LIMITED EXPANSION. This adds NO new historical dates, character deaths, undocumented relationships, supernatural explanations or Black Diamond revelations.**
+
+### Catalog audit and narrative repair
+
+- Reviewed the **131 existing public article files** as a catalog for structure, word length, image assignment, headings, long-form treatment and modern editorial-language markers. New short source-grounded gazetteer brings the post-review collection to **132 articles**. This was a whole-catalog inventory with **selective close reading**, not line-by-line proof of every sentence against session recordings.
+- **Heyden Goldenfoot (BIO.061)** received Lavitz-style narrative treatment: improved beginning/end, three clearly attributed **editorial reflections**, highlighted chapters for the Great Elk, his Shadow identity and the loss that taught him family, and a **contextual image of the Hunters Guild explicitly not represented as Heyden's portrait**. All changes interpret the supplied biography; none changes his hunts, parentage or future.
+- Added editorial reflections and thematic chapter highlights to **Faelynn, Jaaris, Cid, Amara, Fo'Gurn, Jaznaar, and Rynhold Frozenroar**, retaining original historical events. Sven, Tel'Lora, Heureux and The Six already possessed equivalent reflective treatments and were not padded.
+- Consolidated repeated passages in **Lowkee Nicklebane's** Keeper/Emerald account and **Faelynn Naïlo's** early village history. Lowkee's sword **Cid's Bane** remains distinct from the Emerald of Armanti. General article prose is revised to sound like in-world history rather than authoring instructions, especially in **Minor Characters, Minor Heroes, Minor Villains, Age of Ascendancy and the Emerald's article**.
+- Corrected `content/articles/kingdom-of-avalor.md`: Avalor's **unbroken Frozenroar dynastic bloodline** must not be described as a succession of different dynasties. Linked **Ilyanamel** alongside other short-settlement entries.
+- Corrected the geographical claim that **King's Forest, Forest of the Westfold and Drought await their first map placement**: the Cartographer's Table currently displays all three. Existing atlas pins for **King's Forest (Kel'Maris's ashes), Stanleyville (Stalker before Hydra) and Wayward Sun (Guild and Shadow)** received descriptive updates. **No existing coordinates changed**.
+
+### New minor geography without fabricated locations
+
+- Added `content/articles/distant-lands-of-the-hunter.md`, **LOC.042: Distant Lands and the Hunter's Road**. It provides brief anchored accounts of **the Kingdom of Labos, Chult, Weyland Forest, the Woodland Elves of Valiant, and the Wood of the Fey**, all from the creator-supplied Heyden material.
+- **Labos:** King Geoff and Queen Viviliv and sons Jeothor, Verbos, Seals, Heyden; the diplomatic visit to Avalor explored an alliance but **did not itself prove a treaty was concluded**.
+- **Chult:** distant jungle beyond the sea, Heyden's Allosaurus hunt and facial scar.
+- **Weyland Forest:** two-year pursuit of the Great Elk; **Valiant** is associated with the Woodland Elves who taught Heyden, tattooed his thigh and gave him the Revenant Double-Bladed Scimitar.
+- **Wood of the Fey:** place of Heyden's unusual concealment lessons, **not automatically identical** to the separately named **Forest of the Fey** of Avalor. No invented foreign capitals, local rulership, distances or map coordinates.
+- Places navigation, Heyden's biography, the Hunters Guild and the diplomatic Kingdom overview now link to the new short page.
+
+### Discovery features brought into line with current lore
+
+- **Character Comparisons:** expanded from **17 profiles / 7 preset pairs to 21 profiles / 10 pairs**. Added source-chapter-supported dossiers for **Heyden, Malikeah, Mera and Kel'Maris**, plus comparisons **Faelynn/Heyden**, **Malikeah/Mera** and **Kel'Maris/Lavitz**. Pairs do not claim that figures from different generations met.
+- **Connections Explorer:** expanded to **60 nodes and 88 sourced relationships**. New nodes include **Heyden, Gomo, Silver of Moonlight, Gerran, Jinlin, Kel'Maris, Cid, Jaaris, Zauks, Karina, Black Agnes, Dead Marshes, Beldir, the Stalker, Kingdom of Avalor and the Misfits-era independent factions**. Each new edge is based on facts already in the public articles; duplicate or unlinked nodes are forbidden. The Aldus/Cid link explicitly describes **two names of the same individual**, not two people.
+- **Minor Characters:** new short person-slug redirects `/articles/gomo/` and `/articles/silver-of-moonlight/` point to their headings on the existing neutral collection. Older redirects for Jinlin and Gerran remain intact.
+- **Royal Gazette:** second published **editorial circular** `the-roads-between-the-records` dated **November 13, 2026**, with six source-linked notes on Heyden, the Frozenroar dynasty, Kel'Maris, Jinlin, neutral supporting characters and distant hunting locations. This is **an editorial publication date, not a new 2020 AF event**.
+
+### Preservation limits
+
+- No new deaths in the twenty-year interval after Cid's defeat; no modification to the official **1997, 2000 and 2020 AF** chronology.
+- The **Stalker precedes Hydra**; **Jinlin's real defeat precedes Zauks**; **Jinlin is defeated, not confirmed dead**.
+- Fo'Gurn's appearance with Samuel about twenty years later remains unexplained; **Cid's ultimate fate**, Jaznaar's wizard/sorcerer class and the Black Diamond insignia link remain unresolved.
+- No new Black Diamond origin, Blackwater Bay narrative, royal succession, or character portraits.
+- Whole-catalog metadata audit documented in `docs/WIKI_CROSS_FEATURE_AUDIT_2026_11_13.md`; it does **not** mean every sentence in every article has been verified against the original manuscripts.
+
+### Later master-volume update map
+
+- **Master Canon Bible:** incorporate source-grounded Heyden narrative and existing Guild links as concise references, not a change to the Misfits or Six's central chronology.
+- **Living Chronicle:** retain the 2000-to-2020 AF historical framework; use source-verified character/place links without invented historical events.
+- **Compendium Volume I:** maintain clear relic distinctions (Lowkee's sword and the Emerald), history of Jaaris and Fo'Gurn, and public scholarly voice.
+- **Compendium Volume II:** include the modest named locales of Heyden's travels only where their location is known; distinguish unplaced foreign regions and the Wood of the Fey from existing confirmed Avalorian geography.
+- Keep all original master-candidate PDFs unchanged until the user approves a dedicated master reconciliation.
+
+**This addendum is an editorial synchronization release, not authority to invent additional plot.**

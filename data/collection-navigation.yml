@@ -69,11 +69,12 @@ kingdoms-places:
         - spine-of-the-world
         - geography-of-avalor
     - id: other-places
-      title: Other Places
-      eyebrow: MORE OF THE MAP
+      title: Distant Lands & Other Places
+      eyebrow: BEYOND THE ROYAL CHART
       icon: "✧"
-      description: New locations and less easily categorized places.
-      articles: []
+      description: Traveler accounts, named foreign lands and places beyond the mapped royal settlements.
+      articles:
+        - distant-lands-of-the-hunter
 organizations-factions:
   featured: the-aegis
   intro: Discover the councils, orders, guilds, and institutions that sustain, protect, and sometimes challenge the realm.

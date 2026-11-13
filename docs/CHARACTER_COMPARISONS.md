@@ -4,7 +4,7 @@ An interactive, canon-conscious side-by-side reading tool at /compare/ within th
 
 ## Scope and provenance
 
-- Seventeen reviewed public People & Legends biographies are in the first collection, with seven curated pairings.
+- Twenty-one source-reviewed public People & Legends biographies are available, with ten curated pairings. Four profiles and three pairings were added in the November 13, 2026 cross-feature review.
 - The reviewed statements live in data/character-comparisons.yml. Each profile supplies four fields: public identity and calling, institutions and affiliations, defining decisions, and historical legacy.
 - Each field specifies text (a brief editorial synopsis) and chapter (the exact h2 slug in that same public biography).
 - The site build validates every person belongs to People & Legends and every cited chapter actually exists. Missing or mistyped chapters fail the build.
@@ -26,4 +26,10 @@ Edit data/character-comparisons.yml to add a new reviewed public person or curat
 
 ## Quality assurance
 
-GitHub Actions runs node --check assets/comparisons.js and python tests/check_comparisons.py. The checks cover reviewed profiles and existing article chapters, seven pair routes and canonical social metadata, cross-links from articles and Connections, and the generated files. Manual mobile and assistive technology checks are recommended before making formal compliance claims.
+GitHub Actions runs node --check assets/comparisons.js and python tests/check_comparisons.py. The checks cover reviewed profiles and existing article chapters, ten pair routes and canonical social metadata, cross-links from articles and Connections, and the generated files. Manual mobile and assistive technology checks are recommended before making formal compliance claims.
+
+## Cross-feature expansion (13 November 2026)
+
+The review added **Heyden Goldenfoot, Malikeah Ashenfall, Mera Ashenfall and Kel'Maris** to the comparisons. Their four fields are anchored to headings in their own established biographies. Three new curated pairings contrast the founder Faelynn with later hunter Heyden, the two Ashenfall caretakers of Wayward Sun, and the former Lord Marshal Kel'Maris with her later successor Lavitz. These connections **do not imply that people from different ages met**.
+
+The dataset now contains **21 profiles and 10 featured pairings**. Its supporting tests and source anchors are updated as part of the same change.

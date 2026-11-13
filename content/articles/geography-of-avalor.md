@@ -51,4 +51,4 @@ The Drought has its own name in the stories of those who cross it. Whether it fo
 
 These names are part of Avalor's geography without requiring three more full-length articles. Each can be linked directly to its section here, while the [[The Smaller Settlements of Avalor|settlements gazetteer]] describes the communities that know these places best.
 
-They can also be marked individually on **the Cartographer's Table** as their positions are confirmed. Their names are ready for the map; their precise points will follow the established geography rather than reshape it.
+The **Cartographer's Table** now marks the King's Forest, Forest of the Westfold, and Drought with their own selectable locations. These are the archive's mapped representations; their geographical associations with nearby settlements remain the more important evidence, and the map does not settle whether the Drought is part of the Great Desert.

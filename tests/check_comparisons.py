@@ -9,10 +9,10 @@ m=re.search(r'<script id="dossier-data" type="application/json">(.*?)</script>',
 assert m,'Comparison dataset missing from public page'
 data=json.loads(m.group(1))
 profiles=data['profiles'];presets=data['presets']
-assert len(profiles)==17,len(profiles)
-assert len(presets)==7,len(presets)
+assert len(profiles)==21,len(profiles)
+assert len(presets)==10,len(presets)
 ids={p['id'] for p in profiles}
-assert len(ids)==17
+assert len(ids)==21
 expected=('role','affiliations','turning','legacy')
 assert [row['key'] for row in data['fields']]==list(expected)
 assert len(source['profiles'])==len(profiles)
@@ -48,7 +48,7 @@ for preset in presets:
     assert 'data-initial-left="'+preset['left']+'"' in pair,preset['id']
     assert 'data-initial-right="'+preset['right']+'"' in pair,preset['id']
     assert '<meta property="og:url" content="https://yoshi3309.github.io/avalor-wiki/compare/pairs/'+preset['id']+'/">' in pair
-    assert preset['title'] in pair
+    assert preset['title'] in html_utils.unescape(pair)
 connections=(SITE/'connections/index.html').read_text(encoding='utf-8')
 assert 'href="../compare/"' in connections
 assert 'Character Comparison Dossiers' in connections
@@ -58,4 +58,4 @@ script=(SITE/'assets/comparisons.js').read_text(encoding='utf-8')
 for phrase in ("new URL(site+'compare/'","navigator.clipboard?.writeText","window.addEventListener('popstate'",
                "recordURL(p.id)+'#'","p.facts[field.key]","sourceURL(p,field.key)","srcset"):
     assert phrase in script,phrase
-print('Character comparisons verified: 17 cited profiles, 7 curated pair previews, deep source links and site navigation.')
+print('Character comparisons verified: 21 cited profiles, 10 curated pair previews, deep source links and site navigation.')

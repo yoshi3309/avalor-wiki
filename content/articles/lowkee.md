@@ -49,14 +49,11 @@ The sword's passage from one paladin to another carried a meaning greater than i
 
 ## The Keeper who followed his memory
 
-The history of Lowkee's Keeper became clearer after the Misfits' victory. **Anna was Erevan Ilesere in disguise**, and the **[[Emerald of Armanti]]** she carried enabled Samuel to channel Lowkee's spirit **briefly**, while also being intended to bar Cid from returning to the Material Plane. **Lowkee was not permanently resurrected**. The Emerald remained separate from his sword **Cid's Bane**, which Jaznaar entrusted to Lavitz.
+The Misfits first knew **[[Anna, Lowkee's Keeper|Anna]]** as a tavern waitress who joined their travels without taking up arms. She carried the **[[Emerald of Armanti]]**, an heirloom central to their search for Lowkee's Keeper. Only after the company returned to Renada did the truth emerge: Anna had been **Erevan Ilesere in disguise**.
 
+During the final confrontation with Cid, Samuel used the Emerald to **channel Lowkee's spirit for a brief time**. Lowkee faced Aldus, the old friend who had become the Blood King, but Cid gravely wounded Samuel and the manifestation ended. The paladin was not permanently restored to mortal life. Later in that same struggle, Fo'Gurn pressed the Emerald into Cid's chest, fulfilling its separate purpose of barring the Blood King's return to the Material Plane.
 
-The Misfits' search for knowledge concerning **Lowkee's Keeper** brought them to **[[Anna, Lowkee's Keeper|Anna]]**, a tavern waitress who became their noncombatant traveling companion. She was associated with the **[[Emerald of Armanti]]**, a jewel remembered in the history of the final struggle with the Blood King.
-
-The title *Keeper* has invited speculation about an office or a formal guardianship, but the institution's exact history remains unsettled. What is now established is that Anna was Erevan Ilesere in disguise and that the Emerald permitted Samuel to channel Lowkee's spirit temporarily during the confrontation with Cid. This was not Lowkee's permanent return.
-
-Lowkee's legacy therefore reached the company in more than one form. His sword **Cid's Bane** came to Lavitz through Jaznaar. The emerald belonged to another history: it was borne by Anna and appeared during the last struggle. Neither relic proves that Lowkee returned permanently to mortal life.
+Lowkee's legacy thus reached Lavitz and the company by two different paths. **Cid's Bane**, the sword once carried by Lowkee, passed through Jaznaar into Lavitz's hands; the Emerald enabled a final, fleeting encounter with his spirit. The weapon and the jewel were never one relic, nor did either erase the centuries separating the First Teaching from the Misfits' choice to honor it.
 
 ## A promise tested after his lifetime
 

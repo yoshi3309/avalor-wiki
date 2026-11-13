@@ -29,7 +29,7 @@ Each name below has a permanent section link. Readers looking for more extensive
 
 **Kurt Reyginald** was **Lord Marshal of Lion's Bane** under King [[king-gerran-frozenroar|Gerran Frozenroar]]. He commanded the royal guard while [[kel-maris|Kel'Maris]] rose through its ranks to become his second in command. Her skill and the trust she gained at court were formed in part during those years of service under Kurt.
 
-Kurt **retired**, and Kel'Maris succeeded him before Prince Gradvum inherited the throne. The old marshal's private life and earlier campaigns are not established; his place in the archive is as the officer who led Lion's Bane before the Lion's Shadow.
+Kurt **retired**, and Kel'Maris succeeded him before Prince Gradvum inherited the throne. The old marshal's place in the royal record is the office he held before the Lion's Shadow; his years of private life remain outside the surviving histories.
 
 ## Captain Funkin
 
@@ -59,7 +59,7 @@ Mira answers to Lord Marshal Lavitz, but her role is not interchangeable with th
 
 **Nimbus**, an **aarakocra**, leads the **Skyward Guard**, the aerial division of Lion's Bane associated with gryffion riders. Unlike the riders he commands, Nimbus **flies on his own wings**, meeting his troops in the air without a gryffion mount.
 
-He serves under Lavitz alongside Quill and Mira. His unusual form of flight distinguishes him from his riders; the record does not require a newly invented campaign or personal legend to justify his command.
+He serves under Lavitz alongside Quill and Mira. His unusual form of flight distinguishes him from his riders, and it shapes the way he leads a division that most commanders must guide from a saddle.
 
 ## Nadja Akayrn
 

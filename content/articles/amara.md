@@ -16,6 +16,22 @@ facts: |-
   Public record: Increasingly rare accounts and folklore
 related: anna-lowkees-keeper,emerald-of-armanti,ros-furband,the-misfits,petris,the-six,the-sacred-balance,zauks-false-lives,heureux,lavitz-shawe,rotten-husk-clan,the-first-commission
 source: The Living Chronicle, Chapters III and VI–VII; Compendium II · Entry II.001, public Scholar's Account
+callouts:
+  - type: reflection
+    text: "When Zauks gave the companions worlds made of wishes, the one who could still see the deception was the druid watching from outside."
+    attribution: Editorial reflection on the lives that never were
+    after: the-owl-and-the-lives-that-never-were
+    paragraph: 2
+  - type: reflection
+    text: "A life remembered less often in court is not necessarily a life less fully lived. Amara's service did not end where the official record became sparse."
+    attribution: Editorial reflection on the years after the Misfits
+    after: a-life-away-from-the-citadel
+    paragraph: 2
+highlight_sections:
+  - section: the-owl-and-the-lives-that-never-were
+    tone: turning-point
+  - section: a-life-away-from-the-citadel
+    tone: legacy
 featured: false
 ---
 
