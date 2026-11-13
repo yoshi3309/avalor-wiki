@@ -12,7 +12,7 @@ facts: |-
   Calling: Necromancer; practitioner of binding and compulsion
   Origins: Mortal settlements near the Feywild
   Earlier leadership: A faction of hostile fey elves
-  Crimes against Sven: Ritual killing of Tristan and Kristofer
+  Crimes against Sven: Ritual killing of Tristan and Kristofer in 1997 AF
   Later allegiance: Cid the Blood King
   Crime against Fo'Gurn: Necromantic resurrection and compelled service
   Final campaign: Killed during the Shadowfell confrontation
@@ -45,7 +45,7 @@ Among the people Jaaris's followers watched was **[[svendyal-shadowwhisper|Sven]
 
 Toward the end of the fourth year, the watchers disappeared. **Jaaris had ordered their withdrawal**, recognizing that constant threats kept Sven vigilant. When the family began to feel safe, the necromancer waited for an opportunity. Sven eventually left the house to seek a gift for Kristofer's approaching tenth birthday.
 
-Jaaris's followers seized Tristan and Kristofer and burned the home. When Sven returned, they bound him and forced him to witness their deaths. **Jaaris himself consumed their life energy in a necromantic rite**, attempting also to take Sven's soul. Something prevented that final theft; its nature remains unknown.
+In **1997 AF**, Jaaris's followers seized Tristan and Kristofer and burned the home. When Sven returned, they bound him and forced him to witness their deaths. **Jaaris himself consumed their life energy in a necromantic rite**, attempting also to take Sven's soul. Something prevented that final theft; its nature remains unknown.
 
 To Jaaris, a family founded upon freely chosen love was a defiance of the control he considered natural. Its destruction gave him power, but it was also meant to teach Sven that no bond could protect what the necromancer chose to take. The cruelty was Jaaris's own. **Cid had not sent him to destroy Sven's family.**
 
