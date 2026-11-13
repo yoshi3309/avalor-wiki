@@ -283,7 +283,7 @@ assert "## The farewell to the Lion's Shadow" in source("great-cathedral")
 assert "three days" in source("great-cathedral")
 assert "ashes were scattered" in source("geography-of-avalor")
 assert "## Ilyanamel" in source("lesser-settlements-of-avalor")
-assert "exact location" in source("lesser-settlements-of-avalor")
+assert "The settlement has yet to be placed upon the kingdom's published maps." in source("lesser-settlements-of-avalor")
 assert "Status:" in (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
 assert "Addendum 005" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
