@@ -23,6 +23,24 @@ related: lord-osmo,house-frozenroar,founding-wars,unification-of-avalor,renada,t
 source: The Living Chronicle, Chapters II–III and V, public historical account
   and Royal Register; Compendium II · Entries II.001–II.002, public Scholar's
   Accounts
+callouts:
+  - type: reflection
+    text: "Rynhold won the chance to build a kingdom through the sacrifices of people who would never wear its crown."
+    attribution: Editorial reflection on Heroes Hill
+    after: the-price-of-heroes-hill
+    paragraph: 2
+  - type: reflection
+    text: "The founding lion's greater test came after the battle: to make institutions that could outlast the goodwill, memory and lifespan of any one king."
+    attribution: Editorial reflection on the founding of the Aegis
+    after: the-aegis-and-the-problem-of-permanence
+    paragraph: 2
+highlight_sections:
+  - section: the-price-of-heroes-hill
+    tone: remembrance
+  - section: the-aegis-and-the-problem-of-permanence
+    tone: turning-point
+  - section: the-first-reign-and-the-royal-succession
+    tone: legacy
 featured: false
 ---
 ## Before the first lion banner
