@@ -1,15 +1,17 @@
 ---
 title: "Moonville Manor: Before the Crown Called"
-subtitle: "A living house and the beginnings of trust"
-summary: "The earliest known adventure of the Misfits, inside the living halls of Moonville Manor before their first royal commission."
+subtitle: A living house and the beginnings of trust
+summary: The earliest known adventure of the Misfits, inside the living halls of
+  Moonville Manor before their first royal commission.
 category: History & Chronicles
+image: /assets/uploads/moonville-manor-before-the-crown-called.png
 entry: HIS.026
 era: Age of the Misfits
 related: the-misfits,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,amara,fo-gurn,the-first-commission
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
-
 ## An adventure before the crown called
 
 Long before their names were spoken in royal halls, five travelers entered [[Moonville Manor]]. The house was alive, or near enough to living that the distinction brought little comfort to those inside it. Its passages and interiors defied the dependable arrangement of an ordinary building. The company that would become [[The Misfits]] began its recorded history in a place where even the setting could not be taken for granted.
