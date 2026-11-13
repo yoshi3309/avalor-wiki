@@ -1,5 +1,5 @@
 ---
-title: Lowkee
+title: Lowkee Nicklebane
 subtitle: The Paladin Who Gave Duty Its Purpose
 summary: Lowkee Nicklebane, a founding companion of the Six, established the Cathedral Paladins and taught that strength must serve those who cannot defend themselves.
 category: People & Legends
