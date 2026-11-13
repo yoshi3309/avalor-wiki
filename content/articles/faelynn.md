@@ -18,6 +18,24 @@ facts: |-
 related: hunters-guild,wayword-sun,dead-marshes,forest-of-the-fey,the-six,lowkee
 source: The Living Chronicle, Chapters II–IV; Compendium II · II.003, public
   Scholar's Account; author-approved World Anvil story (November 2026)
+callouts:
+  - type: reflection
+    text: "The fiend's cruelty lay not only in the lives it took, but in forcing Faelynn to witness a betrayal committed by her own unwilling hands."
+    attribution: Editorial reflection on the night at the treetop village
+    after: the-boar-and-the-gate
+    paragraph: 4
+  - type: reflection
+    text: "The Night Mistress did not build the Hunters Guild to recover her village. She built a fellowship so that other people facing darkness might not have to face it alone."
+    attribution: Editorial reflection on the origin of the hunters
+    after: the-wayward-sun
+    paragraph: 3
+highlight_sections:
+  - section: the-boar-and-the-gate
+    tone: turning-point
+  - section: the-first-sunrise
+    tone: remembrance
+  - section: the-wayward-sun
+    tone: legacy
 featured: false
 ---
 
