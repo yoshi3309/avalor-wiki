@@ -21,6 +21,24 @@ related: rynhold-frozenroar,king-gradvum-frozenroar,queen-melmiri,belgram-mounta
 source: Compendium II · Entry II.001, Section VI, public royal offices; The
   Living Chronicle, public constitutional history; author-approved councilor
   details (November 2026)
+callouts:
+  - type: note
+    scholar: professor-xiomara-thal
+    text: "Intelligence can warn a council of danger, but it cannot by itself justify a punishment. The moment a report becomes an order is precisely where the scrutiny of evidence matters most."
+    after: intelligence-and-public-order
+    paragraph: 2
+  - type: reflection
+    text: "Aldus's ruin taught Avalor that extraordinary talent is not an exemption from scrutiny. The eighth seat gives the realm a way to examine arcane power without surrendering judgment to the person who wields it."
+    attribution: Editorial reflection on the eighth seat
+    after: the-eighth-seat-high-wizard
+    paragraph: 3
+highlight_sections:
+  - section: the-devoted-and-the-limits-of-obedience
+    tone: remembrance
+  - section: the-eighth-seat-high-wizard
+    tone: turning-point
+  - section: beyond-the-council-chamber
+    tone: legacy
 featured: true
 ---
 ## A council meant to outlast a king
@@ -39,8 +57,6 @@ The division reflected the practical needs of a newly united kingdom. Revenues h
 
 One office, the Third Hand, held a particularly important coordinating role. Its purpose was to connect responsibilities that were too easily treated as separate matters, not to replace the king or claim all other seats as subordinates.
 
-Only fragments of the earliest council's procedures and charter survive. The names of every founding officer have not been recovered.
-
 ## The modern eight seats
 
 
@@ -51,14 +67,14 @@ Only fragments of the earliest council's procedures and charter survive. The nam
 | **Silver Hand** | [[Katiri Tenderfoot]] | Official intelligence and assessment of threats |
 | **Warden of Order** | [[Rastrin Diltir]] | Internal order and lawful administration |
 | **Sentinel of the Seas** | [[Beldir Willowrun]] | Maritime affairs, ports, and coastal interests |
-| **The Devoted** | [[Samuel the Devoted | Samuel]] |
+| **The Devoted** | [[Samuel the Devoted]] | Sacred counsel, justice, and protection of the vulnerable |
 | **Lord Marshal** | [[Lavitz Shawe]] | Senior military advice and command of Lion's Bane |
 | **High Wizard** | [[Tel'Lora Ebbenflow]] | Arcane affairs and their implications for government |
 
 
 These offices are distinct even when their responsibilities overlap. The kingdom's safety depends in part upon a councilor recognizing when an apparently simple proposal carries consequences outside the councilor's own field.
 
-The Aegis **typically meets weekly**. Its full voting procedures and the provisions governing extraordinary sessions are not preserved in the Commission's present holdings.
+The Aegis **typically meets weekly**, bringing matters of finance, security, faith, magic, regional governance, and military protection before the crown.
 
 ## The Third Hand and the Golden Hand
 
@@ -76,7 +92,7 @@ The **Warden of Order**, presently [[Rastrin Diltir]], has a different responsib
 
 The history of [[Arnaud's Edicts]] demonstrates why this separation of concerns matters. Government can preserve outward quiet while doing profound injustice to the people whose rights it has failed to protect.
 
-Katiri directs the **crown's spy network**. Outside the Aegis, [[svendyal-shadowwhisper|Sven]] directs a **separate intelligence network**. Their efforts sometimes interfere with one another, but Sven's organization is not an arm of the Silver Hand and does not give him a council seat. No roster of their agents, operations, or methods is established for public disclosure.
+Katiri directs the **crown's spy network**. Outside the Aegis, [[svendyal-shadowwhisper|Sven]] directs a **separate intelligence network**. Their efforts sometimes interfere with one another, but Sven's organization is not an arm of the Silver Hand and does not give him a council seat.
 
 ## The sea and the regions
 
@@ -128,19 +144,15 @@ A proposed expedition may be defensible from the Lord Marshal's perspective whil
 
 The High Wizard may judge an experiment promising, while the Devoted raises concerns about those exposed to its risks. The Sentinel of the Seas may find a trade arrangement useful, while the Third Hand asks whether regional authorities can actually carry out its requirements.
 
-These are illustrations of the kinds of tensions an eight-seat council exists to consider, **not verified records of particular confrontations between the named officeholders**.
-
 The Aegis has value precisely because its members do not all approach a question in the same way. If a council merely echoes the sovereign, it provides little protection against error. If every seat acts as a separate government, it cannot coordinate a united kingdom.
 
 ## Continuity, restraint, and the royal household
 
 [[King Gradvum Frozenroar]] retains sovereign authority; Queen Melmiri exercises substantial influence in the ordinary administration of the kingdom. Their responsibilities are not replaced by the Aegis.
 
-Avalor's constitutional history also includes moments when royal ambition was challenged. After **Wolfram's overseas war**, the political settlement surrounding his abdication strengthened expectations that major foreign military commitments should receive serious consultation. It did **not** establish a fully defined modern parliament or reduce the king to a purely ceremonial role.
+Avalor's constitutional history also includes moments when royal ambition was challenged. After **Wolfram's overseas war**, the political settlement surrounding his abdication strengthened expectations that major foreign military commitments should receive serious consultation. The crown retained sovereign authority, while the need for serious consultation on foreign war acquired greater weight.
 
 The present council inherits that lesson, just as it inherits the founding ideal that the kingdom's offices should continue after individual rulers depart.
-
-The details of the Aegis's internal staff, formal voting practices, and complete legal charter remain unresolved. The Royal Archives do not invent them to make the council appear tidier than the surviving evidence permits.
 
 ## Beyond the council chamber
 
