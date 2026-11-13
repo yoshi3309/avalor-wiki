@@ -392,5 +392,5 @@ assert "player-character" not in misfits.lower()
 assert "the sealing of the Emerald and the removal of Cid were distinct events" in misfits
 assert "broke Jaaris's control while the necromancer was still alive" in misfits
 assert "The Misfits defeated Jinlin in a real battle" in shadowfell
-assert "Fo'Gurn chose to protect Lavitz" in shadowfell
+assert "He chose to protect Lavitz" in shadowfell and "before** Jaaris was killed" in shadowfell
 print("Phase 6 canon reconciliation passed.")
