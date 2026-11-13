@@ -32,7 +32,7 @@ for record in profiles:
         assert (SITE/record['image']).exists(),slug
         assert record['image_alt'],slug
         assert record['media'] and record['media']['variants'],slug
-    assert 'Compare '+record['name'] in html_utils.unescape(html),slug
+    assert 'compare/?left='+slug in html,slug
 assert 'assets/comparisons.js' in page and 'assets/comparisons.css' in page
 for needle in ('id="dossier-left"','id="dossier-right"','id="dossier-swap"',
                'id="dossier-copy"','id="dossier-rows"','id="dossier-portraits"'):
