@@ -1,12 +1,15 @@
 ---
-title: "The Sheep Incident"
-subtitle: "The Misfits and the mage later called Noke"
-summary: "The early confrontation with Noki, his sheep transformation, disfigurement at the encounter's end, and later survival as Noke."
+title: The Sheep Incident
+subtitle: The Misfits and the mage later called Noke
+summary: The early confrontation with Noki, his sheep transformation,
+  disfigurement at the encounter's end, and later survival as Noke.
 category: History & Chronicles
+image: /assets/uploads/the-sheep-incident.png
 entry: HIS.028
 era: Age of the Misfits
 related: the-misfits,noki-the-sheep,golgoroth-second-commission,zauks-false-lives
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
 ## A mage made into a sheep
