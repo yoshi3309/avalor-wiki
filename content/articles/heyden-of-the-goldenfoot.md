@@ -1,50 +1,76 @@
 ---
 title: Heyden of the Goldenfoot
 subtitle: The Shadow of the Hunters Guild
-summary: Fourth prince of Labos and a Leonin tracker who earned his place among the Hunters Guild of the Dead Marshes, where he became known as Shadow.
+summary: Fourth prince of Labos and a Leonin tracker who earned his place among
+  the Hunters Guild of the Dead Marshes, where he became known as Shadow.
 category: People & Legends
+image: /assets/uploads/heyden-of-the-goldenfoot-portrait.png
 entry: BIO.061
 era: Age of Ascendancy
-facts: |-
+facts: >-
   Full name: Heyden Goldenfoot
+
   Honorific: Fourth Prince of Labos
+
   Known as: Shadow
+
   Species: Leonin
+
   Age: 32
+
   Alignment: Chaotic Good
+
   Sex: Male
+
   Eyes: Amber-gold
+
   Mane: Tawny gold with dark brown undertones
+
   Weight: 265 lb
+
   Parents: King Geoff and Queen Viviliv of Labos
+
   Brothers: Jeothor, Verbos and Seals
+
   Primary affiliation: Hunters Guild of the Dead Marshes
+
   Other affiliations: Royal House of Labos; Woodland Elves of Valiant
+
   Notable weapon: Revenant Double-Bladed Scimitar
+
   Tokens: Goldenfoot signet; Hunters Guild coin from Gomo
-  Distinctive marks: Scar through right face and mane; Woodland Elf sigil tattoo on left thigh
+
+  Distinctive marks: Scar through right face and mane; Woodland Elf sigil tattoo
+  on left thigh
 related: hunters-guild,wayword-sun,dead-marshes,kingdom-of-avalor,malikeah,mera-ashenfall,minor-characters,distant-lands-of-the-hunter,faelynn
-source: "Creator-supplied Heyden of the Goldenfoot World Anvil character history and physical/personality profile, November 2026; existing Kingdom of Avalor and Hunters Guild lore"
+source: Creator-supplied Heyden of the Goldenfoot World Anvil character history
+  and physical/personality profile, November 2026; existing Kingdom of Avalor
+  and Hunters Guild lore
+featured: false
 illustrations:
   - image: /assets/uploads/hunters-guild.png
     alt: Archival artwork associated with the Hunters Guild of Avalor
-    caption: The Hunters Guild of the Dead Marshes; archival artwork, not a confirmed portrait of Heyden.
+    caption: The Hunters Guild of the Dead Marshes; archival artwork, not a
+      confirmed portrait of Heyden.
     after: a-hunter-s-family
     paragraph: 2
     layout: inset-right
 callouts:
   - type: reflection
-    text: "No crown could follow a trail for him; no amount of wealth could steady his hand. In the wilderness, Heyden's skill belonged to Heyden alone."
+    text: No crown could follow a trail for him; no amount of wealth could steady
+      his hand. In the wilderness, Heyden's skill belonged to Heyden alone.
     attribution: Editorial reflection on the fourth prince's choice
     after: the-prince-who-chose-the-trail
     paragraph: 3
   - type: reflection
-    text: "The elk was proof that he could endure a difficult pursuit. The Woodland Elves' honor was proof that someone had seen the man behind his title."
+    text: The elk was proof that he could endure a difficult pursuit. The Woodland
+      Elves' honor was proof that someone had seen the man behind his title.
     attribution: Editorial reflection on the Weyland hunt
     after: the-great-elk-of-weyland
     paragraph: 4
   - type: reflection
-    text: "The Hunters Guild's grief reminds us that skill does not cancel loss. Belonging means that an empty place at the fire matters to someone."
+    text: The Hunters Guild's grief reminds us that skill does not cancel loss.
+      Belonging means that an empty place at the fire matters to someone.
     attribution: Editorial reflection on the hunters' chosen family
     after: a-hunter-s-family
     paragraph: 4
@@ -55,9 +81,7 @@ highlight_sections:
     tone: legacy
   - section: a-hunter-s-family
     tone: remembrance
-featured: false
 ---
-
 ## The prince who chose the trail
 
 There were four princes in the royal house of Labos, but only three grew up with a clear path toward public duty. The fourth would carry his family's name into jungles, marshes and forests where no one cared who his father was. In time, the greatest change in **Heyden Goldenfoot's** life would come not from what he hunted, but from the people who taught him how to stay.
