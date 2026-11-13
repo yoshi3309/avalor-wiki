@@ -1,0 +1,82 @@
+/* Phase 3: one coherent continuation area for every public article.
+   Text, routes and assets still come from the existing curated archive data. */
+.page-article .article-explore{
+  margin-top:30px;
+  padding:clamp(19px,3vw,28px);
+  border:1px solid #716044;
+  background:linear-gradient(145deg,#1e3038 0%,#172830 70%,#19262d 100%);
+  box-shadow:0 12px 35px #0003;
+  color:#e6dccb;
+}
+.article-explore-header{padding-bottom:20px}
+.article-explore-kicker,.article-explore-meta{
+  display:block;font:700 10px/1.55 var(--font-body);
+  letter-spacing:.13em;color:#cbb184
+}
+.article-explore-header h2{
+  font:500 clamp(24px,2.6vw,30px)/1.28 var(--font-display);
+  color:#f1e2c7;margin:8px 0 7px;
+}
+.article-explore-header p{font:13px/1.75 var(--font-literary);color:#b7c1bd;margin:0;max-width:55ch}
+.article-explore-group{padding:21px 0;border-top:1px solid #48534d}
+.article-explore-group:last-child{padding-bottom:0}
+.article-explore-group h3{
+  font:500 20px/1.35 var(--font-display);color:#ecddbf;
+  margin:0 0 14px;
+}
+.article-explore-journeys{display:grid;gap:11px}
+.article-explore-journey{min-width:0;padding:16px 18px;border:1px solid #5c604e;background:#22333a}
+.article-explore-journey h4{font:500 17px/1.4 var(--font-display);margin:4px 0 10px;color:#efe3cd}
+.article-explore-journey h4 a{color:inherit;text-decoration:none}
+.article-explore-journey h4 a:hover{text-decoration:underline;text-underline-offset:3px}
+.article-explore-journey-links{display:flex;gap:8px 17px;align-items:center;flex-wrap:wrap}
+.article-explore-next{font:600 12px/1.6 var(--font-body);color:#f1d299}
+.article-explore-previous{font:11px/1.6 var(--font-body);color:#bfc9bf}
+.article-explore-finished{font:11px/1.6 var(--font-body);color:#e0c999}
+.article-explore-next:hover,.article-explore-previous:hover{text-decoration:underline;text-underline-offset:3px}
+.article-explore-disclosure{margin-top:13px;min-width:0}
+.article-explore-disclosure summary{
+  cursor:pointer;list-style:revert;
+  font:600 11px/1.65 var(--font-body);color:#e1c694;
+  padding:9px 10px;border:1px solid #526057;background:#23363b;
+}
+.article-explore-disclosure summary:hover{background:#2d4042}
+.article-explore-disclosure[open] summary{margin-bottom:10px}
+.article-explore-deeper ul{list-style:none;padding:1px 0 0;margin:0;display:grid;gap:10px}
+.article-explore-deeper li{font:12px/1.55 var(--font-body);color:#c5cfca}
+.article-explore-deeper li a{display:block;color:#e8cd9b;font-weight:600}
+.article-explore-deeper li span{display:block;margin-top:2px;font-size:11px;color:#b9c5c1}
+.article-explore-action-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.article-explore-action{
+  display:flex;flex-direction:column;position:relative;gap:5px;
+  padding:15px 27px 15px 15px;
+  background:#23343a;border:1px solid #546052;text-decoration:none;
+}
+.article-explore-action:hover{background:#2a3d41;border-color:#b9a16d}
+.article-explore-action strong{font:500 16px/1.38 var(--font-display);color:#ebdcc0}
+.article-explore-action>span:not(.article-explore-arrow){font:11px/1.55 var(--font-body);color:#b7c7c1}
+.article-explore-arrow{position:absolute;right:12px;top:14px;color:#dbc48f}
+.article-explore-art,.article-explore-exhibits{margin-top:10px}
+.article-explore .gallery-related-card{min-width:0}
+.article-explore .gallery-related-card img{width:72px;height:80px;object-fit:cover}
+.article-explore .gallery-related-card strong{font-size:14px;line-height:1.3}
+.article-explore .gallery-related-card small{font-size:10px;margin-top:4px}
+.article-explore .exhibit-article-links a{padding:9px}
+.article-explore .related-grid{gap:9px}
+.article-explore .related-card{padding:14px 15px}
+.article-explore .related-card h4{
+  font:500 15px/1.35 var(--font-display);
+  color:#efe4d0;margin:8px 0 9px;
+}
+.article-explore .related-card:hover{border-color:#bea16e}
+.article-explore .related-card .readmore{font:10px/1.4 var(--font-body);color:#d3b988}
+.article-explore a:focus-visible,.article-explore summary:focus-visible{outline:3px solid #e4c28b;outline-offset:3px}
+@media(max-width:760px){
+  .article-explore-action-grid,.article-explore .gallery-related-grid,
+  .article-explore .exhibit-article-links,.article-explore .related-grid{grid-template-columns:1fr}
+}
+@media(max-width:420px){
+  .page-article .article-explore{padding:16px}
+  .article-explore-journey{padding:13px}
+  .article-explore-header h2{font-size:24px}
+}

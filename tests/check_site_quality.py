@@ -49,6 +49,7 @@ for page in (SITE/'articles').glob('*/index.html'):
     assert 'Public historical attribution under review.' not in html, page
     assert 'Interpretations reflect the testimony and records available to the scholars of this age.' not in html, page
     assert 'The archive records what may be known, while acknowledging the limits of surviving evidence.' not in html, page
+    assert 'creator approval in November 2026' not in html.lower(), page
 
 print('Site quality passed:',len(urls),'canonical sitemap pages;',
       report['pages_checked'],'HTML pages;',

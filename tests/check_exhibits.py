@@ -20,6 +20,6 @@ for record in published:
         if slug.strip(): assert (SITE/'articles'/slug.strip()/'index.html').exists(),slug
     article=(SITE/'articles'/record['source_article']/'index.html').read_text(encoding='utf-8')
     assert 'exhibits/'+record['id']+'/' in article
-    assert 'exhibit-article-related' in article
+    assert 'article-explore-exhibits' in article
 assert 'exhibits/' in (SITE/'index.html').read_text(encoding='utf-8')
 print('Documentary Cabinet passed: five reconstructed folios, source links, labels and article navigation.')

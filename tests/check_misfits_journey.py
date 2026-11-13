@@ -97,7 +97,7 @@ assert any("/articles/cid-the-blood-king/" in u for u in scan.links), (
 finale = ROOT / "_site" / "articles" / "shadowfell-confrontation" / "index.html"
 assert finale.is_file()
 final_html = finale.read_text(encoding="utf-8")
-assert "journey-article-deeper" in final_html
+assert "article-explore-deeper" in final_html
 assert "Next: The Queen Returns" in final_html
 
 # Other journeys still build with their original event/biography choices and without

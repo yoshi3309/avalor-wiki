@@ -168,3 +168,28 @@ assert "creator approval in November" not in royal
 renada, _ = audit("renada")
 assert 'the-city-made-by-the-river' not in renada
 print("Restoration of five major entries verified.")
+
+
+# Phase 3: one coherent article exploration region, with all pathways retained.
+for slug in ('lavitz-shawe', 'renada', 'the-misfits', 'house-frozenroar', 'the-aegis'):
+    html, parsed = audit(slug)
+    assert html.count('class="article-explore"') == 1, f'{slug}: exploration region missing or duplicated'
+    assert html.count('id="article-explore-title"') == 1, f'{slug}: exploration heading missing or duplicated'
+    assert 'Continue exploring' in html
+    assert 'comparison-article-prompt' not in html, f'{slug}: duplicate comparison panel remains'
+    assert 'connection-web-article-prompt' not in html, f'{slug}: duplicate connections panel remains'
+    assert 'journey-article-prompt' not in html, f'{slug}: duplicate journey panel remains'
+    assert 'assets/article-explore.css' in html
+for slug in ('lavitz-shawe', 'the-misfits'):
+    html, _ = audit(slug)
+    assert 'article-explore-action--connections' in html, f'{slug}: connections explorer lost'
+    assert 'article-explore-journey' in html, f'{slug}: guided reading lost'
+    assert 'article-explore-deeper' in html, f'{slug}: optional chapter reading lost'
+    assert 'article-explore-action--compare' in html, f'{slug}: character comparison lost'
+    assert 'gallery-related-card' in html, f'{slug}: gallery links lost'
+    assert 'article-explore-related' in html, f'{slug}: related record links lost'
+royal, _ = audit('house-frozenroar')
+assert 'creator approval' not in royal.lower()
+assert 'The **Royal Register**' not in royal # Markdown should have rendered to HTML
+assert '34 sovereigns' in royal
+print('Phase 3 article discovery verified: one region, preserved routes, compact disclosure and in-world royal history.')
