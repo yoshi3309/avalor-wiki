@@ -14,13 +14,13 @@ source: "Living Chronicle, Royal Register; King Gerran's previously published ac
 featured: false
 ---
 
-Not everyone important to a history can be categorized as a hero or villain. Rulers who performed the ordinary work of government, fellow hunters met along the road, and travelers whose actions helped another person find a home deserve a place in the archive. The individuals below have **short, individually linkable entries**; neither a moral judgment nor a lengthy invented biography is required.
+Not everyone important to a history can be categorized as a hero or villain. Rulers who performed the ordinary work of government, fellow hunters met along the road, and travelers whose actions helped another person find a home deserve a place in the archive. Each of these lives is recorded under its own name, without forcing a moral judgment upon the deeds by which that person is remembered.
 
 ## King Gerran Frozenroar
 
 **King Gerran Frozenroar** was Avalor's **thirty-third sovereign**, ruling from **1946 to 1982 AF**. He was the father of [[King Gradvum Frozenroar|Gradvum]], and **died peacefully in 1982 AF**; his son inherited the throne in 1983 AF. The years of his reign formed the royal generation from which many important appointments in Gradvum's court emerged.
 
-Gerran summoned the young elven swordswoman **[[kel-maris|Kel'Maris]]** from Ilyanamel to teach Prince Gradvum swordsmanship. She became a trusted friend and eventually Lord Marshal, the Lion's Shadow. Gerran also appointed Admiral **[[Beldir Willowrun]]** as **Sentinel of the Seas** on [[The Aegis]]. These decisions outlasted his reign. His place in history needs no invented conspiracy or war: he prepared the people who would help guide the kingdom under his son.
+Gerran summoned the young elven swordswoman **[[kel-maris|Kel'Maris]]** from Ilyanamel to teach Prince Gradvum swordsmanship. She became a trusted friend and eventually Lord Marshal, the Lion's Shadow. Gerran also appointed Admiral **[[Beldir Willowrun]]** as **Sentinel of the Seas** on [[The Aegis]]. These decisions outlasted his reign. He prepared the people who would help guide the kingdom under his son, and the consequences of those appointments continued long after his peaceful death.
 
 ## Gomo
 
