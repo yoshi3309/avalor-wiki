@@ -14,6 +14,7 @@ facts: |-
   Bloodline: Unbroken descent from Rynhold Frozenroar
   Recorded abdications: Sylavor (298 AF); Wolfram (1511 AF)
   Current calendar: 2020 AF
+  Reign-end distinction: Death, abdication, or other documented succession
   Current sovereign: Gradvum Frozenroar
   Royal consort: Queen Melmiri
 related: rynhold-frozenroar,founding-wars,unification-of-avalor,arnauds-edicts,reinas-reforms,jaznaars-vindication
