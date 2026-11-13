@@ -22,6 +22,24 @@ facts: |-
   Appearance twenty years later: Means unresolved
 related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
+callouts:
+  - type: reflection
+    text: "Fo'Gurn's courage at the hydra did not make his death less real to the friends who escaped. Their survival was the cost he chose to bear."
+    attribution: Editorial reflection on the Hydra temple
+    after: the-hydra-and-the-decision-to-remain
+    paragraph: 2
+  - type: reflection
+    text: "The final triumph was not that his body could be forced to fight again. It was that he made one last choice of his own while the necromancer still held power."
+    attribution: Editorial reflection on the return from Jaaris's control
+    after: the-companion-at-the-final-confrontation
+    paragraph: 2
+highlight_sections:
+  - section: the-hydra-and-the-decision-to-remain
+    tone: remembrance
+  - section: jaaris-and-the-stolen-return
+    tone: turning-point
+  - section: an-original-misfit-not-an-afterthought
+    tone: legacy
 featured: false
 ---
 
