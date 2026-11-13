@@ -13,6 +13,7 @@ facts: |-
   Other traveling companions: Anna (Lowkee's Keeper); Jack of Stanleyville
   Publicly celebrated five: Lavitz, Tel'Lora, Sven, Heureux, Amara
   First commission: Investigation assigned by Kel'Maris
+  Campaign: 2000 AF (established year, approximately six months)
   Defining achievement: Defeat of Cid and rescue of Queen Melmiri
   Historical legacy: Vindication of Jaznaar; Age of Ascendancy
 related: kel-maris,shadowfell-confrontation,lavitz-shawe,tellora-ebbenflow,svendyal-shadowwhisper,heureux,amara,fo-gurn,anna-lowkees-keeper,jack-of-stanleyville,emerald-of-armanti,ros-furband,rotten-husk-clan,independent-factions-of-the-misfits-era,the-first-commission,cid-the-blood-king,jaznaars-vindication
