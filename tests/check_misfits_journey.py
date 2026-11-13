@@ -328,7 +328,7 @@ assert "1997 AF" in source("svendyal-shadowwhisper")
 assert "1997 AF" in source("jaaris")
 assert "2000 AF" in source("the-misfits")
 royal = source("house-frozenroar")
-assert "one unbroken Frozenroar bloodline" in royal
+assert "All belong to the Frozenroar bloodline" in royal
 assert "| 34 | Gradvum Frozenroar | 1983–present |" in royal
 assert "killed defending coastal shipping against pirates" in royal
 assert "Sered" in royal and "frontier skirmish" in royal
