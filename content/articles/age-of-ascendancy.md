@@ -45,6 +45,6 @@ They remained bound by friendship even as their duties diverged. Their remembere
 
 ## The years not yet written
 
-This article records the **established shape** of the Age of Ascendancy, not an exhaustive history of every undertaking between Cid's defeat and the present day. Its growing international influence, renewed scholarship, and changing institutions are documented. Other campaigns, organizations, political shifts, and individual fates must be developed from evidence or later creator-approved lore rather than supplied to fill a blank decade.
+The name **Age of Ascendancy** embraces twenty years of change without claiming that a single chronicle can recover every life within them. Trade, diplomacy, scholarship and royal service are remembered in public accounts. In other parts of the kingdom, households and communities lived through years for which the Commission possesses few firsthand records. Their histories may yet enlarge this account without altering the events already known.
 
 The enduring question of the age is whether a kingdom capable of correcting its old history can also govern more wisely because of what it learned.
