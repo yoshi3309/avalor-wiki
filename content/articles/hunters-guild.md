@@ -23,7 +23,7 @@ facts: >-
   creatures
 
   Character: Long-lived fellowship of wilderness specialists
-related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six
+related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot
 source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
   creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 featured: false
