@@ -11,7 +11,6 @@ facts: |-
   Remembered character: Extraordinary learning and invention
   Reported ambition: Overcoming mortal limitations, especially death
   Reported ending: Sudden, unexplained disappearance
-  Location and chronology: Not established
   Authenticated surviving inhabitants or ruins: None
   Principal scholarly dispute: The guilt of a people versus the acts of its researchers
   Historical remembrance: The Scribe's Question; Professor Thal's Blank Folio
@@ -128,7 +127,7 @@ Halden teaches this reading as a warning that authority and power must remain an
 
 Thal raises a still more difficult distinction: an act intended to **punish wrongdoing** and one undertaken to **prevent a greater disaster** might appear identical to observers who witnessed only destruction. The motive would change the moral meaning profoundly.
 
-The Royal Commission preserves the disagreement. No present public evidence establishes the true purpose or precise nature of any divine action.
+The Royal Commission preserves these rival interpretations, each with profound implications for how Aethrion's disappearance is remembered.
 
 ## A silence in sacred history
 
@@ -138,7 +137,7 @@ The Great Cathedral preserves accounts of other interventions and obligations. R
 
 There are many possible explanations. Sacred texts are not necessarily chronicles. Writings can be lost, copied selectively, or valued differently as centuries pass.
 
-The silence is noteworthy, but it does **not** prove a deliberate conspiracy or a concealed record. Historians cannot supply a missing history simply because concealment would make a compelling explanation.
+The silence has become part of the debate itself, prompting questions about how sacred traditions preserve—or lose—the memory of great calamities.
 
 ## The shadow of the Black Tower
 
@@ -148,7 +147,7 @@ For centuries, [[Aldus Greystone III]] was honored as a heroic healer and [[Jazn
 
 The parallel is methodological, not proof that Aethrion suffered a comparable manipulation. Two stories may concern extraordinary learning and catastrophe without documenting the same working or cause.
 
-**[[The Black Tower|The Black Tower's]]** history is known through a different body of evidence. Linking the two catastrophes as one established phenomenon would turn comparison into invention.
+The [[The Black Tower|Black Tower]] provides a different history of magical ambition and catastrophe. Its documented events offer a comparison, not a common origin for the two traditions.
 
 ## A blank folio for the forgotten
 

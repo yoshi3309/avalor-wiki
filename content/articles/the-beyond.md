@@ -48,7 +48,7 @@ Ancient records have preserved countless names whose meanings no longer survive.
 
 Few provoke as much speculation upon so little evidence as **the Beyond**.
 
-Its appearances are rare. Its earliest uses cannot be securely dated or interpreted. No surviving public testimony establishes the geography of a place, the actions of a power, or the identity of a being answering to that name.
+The name appears only rarely in ancient writings, where it evokes something beyond ordinary mortal boundaries. Its meaning has remained a subject of profound disagreement among the scholars who study those fragments.
 
 The difficulty is not that scholars have searched and failed to find a remote country. **They do not know whether the word was ever intended to identify a place at all.**
 
