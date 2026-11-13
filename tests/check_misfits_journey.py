@@ -361,7 +361,7 @@ assert "not a confirmed portrait of Heyden" in " ".join(heyden_dossier.split()),
 assert "The Hunters Guild" in source("hunters-guild")
 assert "changes of dynasty" not in source("kingdom-of-avalor")
 assert "unbroken Frozenroar royal bloodline" in source("kingdom-of-avalor")
-assert "The **Cartographer's Table** now marks" in source("geography-of-avalor")
+assert "The **Cartographer's Table** places their names upon the kingdom's atlas" in source("geography-of-avalor")
 assert "creator-approved lore" not in source("age-of-ascendancy")
 for illustrated in ("faelynn","jaaris","cid-the-blood-king","amara","fo-gurn","jaznaar","rynhold-frozenroar"):
     assert "callouts:" in source(illustrated), illustrated
