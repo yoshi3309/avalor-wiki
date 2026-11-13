@@ -39,7 +39,6 @@ groups:
     description: The royal household, Aegis councilors, and appointed officers.
     articles:
       - rynhold-frozenroar
-      - king-gerran-frozenroar
       - king-gradvum-frozenroar
       - queen-melmiri
       - kel-maris
@@ -68,6 +67,23 @@ groups:
       - lady-miren-dast
       - samuel-the-devoted
       - tellora-ebbenflow
+  - id: hunters
+    title: Hunters Guild Members
+    eyebrow: THE FAMILY BUSINESS
+    icon: "🜃"
+    description: Hunters who work and find family around the Wayward Sun and the Dead Marshes.
+    articles:
+      - heyden-of-the-goldenfoot
+      - malikeah
+      - mera-ashenfall
+      - faelynn
+  - id: minor-neutral
+    title: Minor Characters
+    eyebrow: OTHER LIVES
+    icon: "✧"
+    description: Brief accounts of rulers, hunters, travelers and other figures not framed as heroes or villains.
+    articles:
+      - minor-characters
   - id: minor-heroes
     title: Minor Heroes & Allies
     eyebrow: THOSE WHO SERVED
@@ -92,7 +108,6 @@ groups:
       - lord-osmo
       - malikeah
       - mera-ashenfall
-      - jinlin-vechon
       - zauks
       - jaaris
       - noki-the-sheep
