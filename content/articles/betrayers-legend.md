@@ -1,10 +1,12 @@
 ---
-title: "The Betrayer’s Legend"
-subtitle: "When a False History Became the Accepted One"
-summary: "The false account of the Black Tower that named Jaznaar a traitor and Aldus a savior, strengthened across centuries."
+title: The Betrayer’s Legend
+subtitle: When a False History Became the Accepted One
+summary: The false account of the Black Tower that named Jaznaar a traitor and
+  Aldus a savior, strengthened across centuries.
 category: History & Chronicles
+image: /assets/uploads/the-betrayers-legend.png
 entry: HIS.020
-era: "Founding Age through Age of Ascendancy"
+era: Founding Age through Age of Ascendancy
 facts: |-
   Victim of false accusation: Jaznaar
   False hero: Aldus Greystone III
@@ -12,10 +14,10 @@ facts: |-
   Dissemination: Cid's agents and later institutional repetition
   Public correction: After the Misfits' victory
 related: jaznaar,sundering-of-the-six,arnauds-edicts,jaznaars-vindication,royal-commission-historical-inquiry
-source: "The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry II.001, public historical account"
+source: The Living Chronicle, Chapters IV, V and VII; Compendium II · Entry
+  II.001, public historical account
 featured: false
 ---
-
 ## The comfortable story
 
 For centuries, Avalor's children were taught that **Aldus Greystone III** had tried to save the realm from dangerous magic and that [[Jaznaar]], the drow among [[The Six]], had betrayed him at the [[Black Tower]].
