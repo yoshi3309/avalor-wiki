@@ -12,4 +12,4 @@ def public_sources(raw):
         part = re.sub(r"\s*(?:and\s+)?(?:(?:political|Volume II)\s+)?canon ledger.*$", "", part, flags=re.I).strip(" ,;-")
         if re.search(r"Compendium\s+(?:I|II)\b|Living Chronicle|Royal Register", part, re.I):
             accepted.append(part)
-    return "; ".join(accepted) if accepted else "Public historical attribution under review."
+    return "; ".join(accepted)

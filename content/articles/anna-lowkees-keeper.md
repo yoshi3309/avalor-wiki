@@ -27,7 +27,7 @@ featured: false
 
 For much of their campaign, [[The Misfits]] knew **Anna** as a tavern waitress who had joined their travels during the search for Lowkee's Keeper. She seemed to be an ordinary woman, a noncombatant who needed their protection. She traveled with them through danger, shared captivity and became one of the people they counted as family.
 
-**Anna was Erevan Ilesere in disguise.** After the campaign's victory and the royal audience in Renada, Erevan revealed that he had accompanied the fellowship in this form. The revelation belongs to the completed history of the Misfits, not to a secret that must remain hidden from readers twenty years later.
+**Anna was Erevan Ilesere in disguise.** After the victory and the royal audience in Renada, Erevan revealed that he had traveled beside the fellowship under her name.
 
 The distinction between appearance and truth matters. Erevan was not a mortal waitress in danger of annihilation. The companions who believed they were protecting Anna, however, faced **real dangers**. Their friendship, sacrifices and decisions did not become meaningless because the person they guarded was a god.
 
@@ -67,7 +67,7 @@ The voyage led toward Jinlin Vechon and the Wrath of Innocent, not directly to t
 
 The Misfits finally reached Cid's fortress in the **Shadowfell**. As Cid threatened the company, Anna appeared with a radiant warrior who seemed to be the long-dead **Lowkee**. The warrior was **Samuel**, temporarily channeling Lowkee's spirit through the **Emerald of Armanti**. Cid wounded Samuel and broke that manifestation, but the intervention allowed the Misfits to press the fight against Jaaris and the Blood King's defenders.
 
-Later, the emerald passed from Anna to Fo'Gurn while the battle was underway. **Fo'Gurn drove it against Cid's chest**, carrying out the jewel's intended barrier against the Blood King's return to the Material Plane. The black hands that then took Cid into the Beyond have no established owner and cannot automatically be attributed to Erevan, the Emerald or the later Godkiller.
+Later, the emerald passed from Anna to Fo'Gurn while the battle was underway. **Fo'Gurn drove the Emerald against Cid's chest**, fulfilling its intended protection against the Blood King's return to the Material Plane. Soon afterward, vast black hands seized Cid and dragged him into the Beyond.
 
 Erevan's disguise had survived an entire journey of companionship and difficult choices. Its meaning would be made plain only after the queen was safely returned.
 

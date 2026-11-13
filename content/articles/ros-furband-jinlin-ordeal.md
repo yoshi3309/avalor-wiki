@@ -21,7 +21,7 @@ The encounter was a reminder of how many dangers could interrupt even an urgent 
 
 The surviving accounts recall the practical indignities of captivity. **Lavitz and Heureux labored at the oars**; **Tel'Lora and Anna worked in the galley**; Sven was among those assigned lookout duties.
 
-The admiral **[[Beldir Willowrun]]** was also present. His precise reason for being aboard has not been conclusively established. The Commission will not fill that gap by guessing that he was an accomplice, a willing passenger, or the author of some undisclosed naval mission.
+Admiral **[[Beldir Willowrun]]** was aboard as well and was among the lookouts. Captivity had reduced distinguished adventurers and naval officers alike to the tasks assigned by their captors.
 
 These small details matter because they expose the distance between the image of celebrated heroes and the daily helplessness captivity could impose. The Misfits had promised to rescue a queen and were themselves made to perform labor at a stranger's command.
 

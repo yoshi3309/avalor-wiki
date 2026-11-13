@@ -17,9 +17,7 @@ featured: false
 ---
 ## The older watch
 
-The **Great Fork Tower** is associated with the protection of the **First Men**. Their earliest history is incompletely preserved, and the names of the tower's original builders are not securely recovered in the public record.
-
-Its remembered purpose is less uncertain: it served as a defensive work, meant to hold a threatened place and protect people exposed to danger.
+**The Great Fork Tower** is an ancient stronghold associated with the **First Men** and remembered for its defensive role. Long before the Kingdom of Avalor existed, it stood as a place of protection amid the dangers of the northern lands.
 
 ## Ancient stone, present service
 

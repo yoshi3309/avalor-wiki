@@ -13,7 +13,7 @@ featured: false
 
 There are dangers in the Misfits' early adventures that inspire solemn histories, and others that have been preserved largely because their absurdity proved impossible to forget. The confrontation with **[[Noki]]**, a disgraced mage, belongs uneasily to both kinds.
 
-The companions did not meet a hulking, disfigured creature. **Noki was not disfigured when they fought him.** During the encounter, the Misfits turned the mage into a sheep. The exact sequence of every spell, exchange, and misunderstanding has not been preserved with equal confidence, but the transformation itself has remained central to the account.
+The companions did not meet a hulking, disfigured creature. **Noki was not disfigured when they fought him.** During the encounter, the Misfits turned the mage into a sheep. The transformation became one of the most memorable episodes in the Misfits' early adventures.
 
 The event has been performed and retold for the strange image of a wizard in animal form. The humor has sometimes obscured the serious consequences for the person at its center.
 

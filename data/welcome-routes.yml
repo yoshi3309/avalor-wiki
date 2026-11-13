@@ -40,7 +40,7 @@ routes:
     symbol: "⌛"
     tagline: Remembered stories. Reconsidered truths.
     intro: "Begin at the founding and follow the Six toward the difficult questions that later scholars had to revisit."
-    welcome: "History is not simply what survived in a royal inscription. The Commission compares inherited stories with witness accounts, later discoveries, and uncertainties that remain."
+    welcome: "History is not only what kings carved into stone. The Royal Commission follows the lives of those who shaped Avalor, the stories the kingdom inherited, and the discoveries that changed how its past is remembered."
     articles:
       - article: unification-of-avalor
         invitation: "Start with the political agreement that begins the AF calendar."

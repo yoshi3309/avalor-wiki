@@ -199,7 +199,7 @@ events:
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: The Hydra temple disaster
-    text: Later in the third month of the 2000 AF campaign, Captain Funkin, Inspector Sihnion and guards die at Cid's ruined temple. Fo'Gurn truly dies confronting the hydra to save the Misfits. The within-battle order and precise days are not established.
+    text: Later in the third month of the 2000 AF campaign, Captain Funkin, Inspector Sihnion and guards die at Cid's ruined temple. Fo'Gurn truly dies confronting the hydra to save the Misfits. Their sacrifices became a defining loss for the fellowship.
     article: hydra-temple-disaster
   - id: jaznaar-final-rest
     date: 2000 AF
@@ -208,7 +208,7 @@ events:
     topic: heroes
     era: THE MISFITS' CAMPAIGN
     title: Jaznaar's last testimony
-    text: During the fourth month of the 2000 AF campaign, Jaznaar dies after the Misfits depart his refuge, before the final confrontation with Cid and before King Gradvum vindicates him. The exact day is unrecorded.
+    text: During the fourth month of the 2000 AF campaign, Jaznaar dies after the Misfits depart his refuge, before the final confrontation with Cid and before King Gradvum vindicates him.
     article: jaznaar-refuge-revelation
   - id: zauks-end
     date: 2000 AF
