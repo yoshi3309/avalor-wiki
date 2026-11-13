@@ -120,6 +120,13 @@ assert "bar Cid" in source("emerald-of-armanti")
 assert "subsequently raised his body" in source("fo-gurn")
 assert "before Jaaris died" in source("fo-gurn")
 assert "rest one final time" in source("fo-gurn")
+# The approved retrospective covers the Misfits' completed campaign, not a later summons.
+for slug in ("fo-gurn", "death-souls-and-the-afterlife"):
+    retrospective = source(slug)
+    assert "next summons" not in retrospective
+    assert "appearance twenty years later" not in retrospective.lower()
+    assert "reappearance beside Samuel" not in retrospective
+    assert "appears alongside Samuel roughly twenty years afterward" not in retrospective
 assert "Blood Sickness" in source("independent-factions-of-the-misfits-era")
 assert "unwanted vampirism" in source("independent-factions-of-the-misfits-era")
 assert "hands" in source("shadowfell-confrontation")
