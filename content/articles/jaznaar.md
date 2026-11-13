@@ -19,6 +19,24 @@ facts: |-
   Historic status: Publicly vindicated by King Gradvum
 related: the-six,aldus-greystone-iii,sundering-of-the-six,black-tower,betrayers-legend,jaznaars-vindication,tellora-ebbenflow,rynhold-park
 source: The Living Chronicle, Chapters III–IV, VI–VII; Compendium II · Entry II.001; author-confirmed World Anvil surname, Cid's Bane and crystal history (November 2026)
+callouts:
+  - type: reflection
+    text: "A defender of the kingdom was made into its Betrayer so that the kingdom could continue admiring the man he had opposed."
+    attribution: Editorial reflection on the false founding legend
+    after: how-a-defender-became-the-betrayer
+    paragraph: 2
+  - type: reflection
+    text: "Jaznaar did not hear the proclamation that cleared his name. Those who inherited his reputation had to decide what to do with the truth he preserved."
+    attribution: Editorial reflection on the vindication
+    after: the-homecoming-he-did-not-see
+    paragraph: 2
+highlight_sections:
+  - section: the-guardian-no-one-thanked
+    tone: turning-point
+  - section: the-homecoming-he-did-not-see
+    tone: remembrance
+  - section: a-name-that-now-belongs-among-the-six
+    tone: legacy
 featured: false
 ---
 
