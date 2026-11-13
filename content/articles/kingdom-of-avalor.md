@@ -1,8 +1,11 @@
 ---
 title: The Kingdom of Avalor
 subtitle: The Northern Realm
-summary: The northern union founded by Rynhold Frozenroar, governed through crown and council, and sustained by many peoples whose separate histories remain part of Avalor.
+summary: The northern union founded by Rynhold Frozenroar, governed through
+  crown and council, and sustained by many peoples whose separate histories
+  remain part of Avalor.
 category: Kingdoms & Places
+image: /assets/uploads/the-kingdom-of-avalor.png
 entry: II.001
 era: Age of Ascendancy
 facts: |-
@@ -19,25 +22,35 @@ facts: |-
   Present era: Age of Ascendancy
   Southern neighbors: Kingdom of Birid; United Krahan Empire; Kingdom of Labos
 related: peoples-of-avalor,ringtree-clan,unification-of-avalor,founding-wars,king-gradvum-frozenroar,queen-melmiri,four-sheriffdoms,geography-of-avalor,lesser-settlements-of-avalor,taveras,house-frozenroar,rynhold-frozenroar,the-aegis,renada,avalorian-forces,faiths-and-gods-of-avalor,threefold-devotion,age-of-ascendancy,jaznaars-vindication,arnauds-edicts,reinas-reforms,lord-osmo,heroes-hill,bradgem-glav,kingdom-of-avalor
-source: Compendium II · Entry II.001, public Scholar's Account, Sections I–XX; The Living Chronicle, Chapters II–VII; author-approved regional government and force structures (November 2026)
+source: Compendium II · Entry II.001, public Scholar's Account, Sections I–XX;
+  The Living Chronicle, Chapters II–VII; author-approved regional government and
+  force structures (November 2026)
+featured: true
 callouts:
   - type: reflection
-    text: "The men who opposed Osmo could win a battle together without surrendering their former allegiances. The harder achievement began after the fighting, when they chose to keep negotiating."
+    text: The men who opposed Osmo could win a battle together without surrendering
+      their former allegiances. The harder achievement began after the fighting,
+      when they chose to keep negotiating.
     attribution: Editorial reflection on the founding settlement
     after: from-divided-crowns-to-a-single-banner
     paragraph: 2
   - type: note
+    text: A list of sovereigns records continuity, not uniform virtue. Abdication,
+      compromise, persecution, and reform all belong to the same royal history.
     scholar: lady-miren-dast
-    text: "A list of sovereigns records continuity, not uniform virtue. Abdication, compromise, persecution, and reform all belong to the same royal history."
     after: thirty-four-sovereigns-one-uneven-history
     paragraph: 3
   - type: note
+    text: The difference between an expanded market and a flourishing kingdom lies
+      partly in who can use the roads, find protection in the law, and benefit
+      from the wealth being celebrated.
     scholar: professor-xiomara-thal
-    text: "The difference between an expanded market and a flourishing kingdom lies partly in who can use the roads, find protection in the law, and benefit from the wealth being celebrated."
     after: the-burden-of-prosperity
     paragraph: 3
   - type: reflection
-    text: "Avalor's lion may stand above many banners. It will deserve their loyalty only while the people beneath them can disagree, remember, and still belong."
+    text: Avalor's lion may stand above many banners. It will deserve their loyalty
+      only while the people beneath them can disagree, remember, and still
+      belong.
     attribution: Editorial reflection on the kingdom's promise
     after: what-the-lion-must-defend
     paragraph: 3
@@ -48,9 +61,7 @@ highlight_sections:
     tone: turning-point
   - section: what-the-lion-must-defend
     tone: legacy
-featured: true
 ---
-
 ## A kingdom of many peoples
 
 Avalor is often described through its royal line, but the kingdom is more than the history of its crowns. Merchants follow the River Rhys, farmers supply the Royal Heartlands, soldiers guard the northern approaches, and communities of many ancestries and customs share the banner of the lion. The royal court sits in [[Renada]], but the character of the realm is found well beyond the citadel's walls.
@@ -179,11 +190,9 @@ These regions are more than obstacles between settlements. Each has its own hist
 
 Smaller landscapes, including the **King's Forest**, **Forest of the Westfold**, and **the Drought**, are gathered in [[The Geography of Avalor]], where travelers can follow the names without needing a separate chronicle for each.
 
-
 ## Strongholds and contested shores
 
 The [[Great Citadel]] anchors royal government in Renada; the [[Great Fork Tower]] trains the realm's soldiers. Farther from the capital, [[Land's End]] helps secure the Northern March. On the eastern peninsula, [[Karhold]] maintains independent institutions despite the crown's disputed territorial claim. Such places demonstrate that administration, defense, and allegiance are not identical matters.
-
 
 ## Across the southern borders
 
@@ -212,7 +221,6 @@ Along the coast, [[Cove City]] and [[Tinsel]], once rivals, share the rich and d
 Beyond them, [[East Port]] serves the eastern navy and [[Osmostown]] the western fleet. [[Port Orange]] became a cosmopolitan harbor after beginning as a wartime fort; [[River City]] supplies fish to the heartlands. The busy quays of [[Stannisport]] and the lake harbor of [[Tarnapolus]] distribute goods from different routes, while [[Taveras]] draws artists to the River Rhys. Inland, [[Jogar Village]] stands above the ruins of Illmire and fortified [[Briyan's Autumn]] watches the eastern approaches.
 
 Smaller communities have stories too: [[The Smaller Settlements of Avalor#alexiverde|Alexiverde]], [[The Smaller Settlements of Avalor#ferrymen-village|Ferrymen Village]], [[The Smaller Settlements of Avalor#olivruch|Olivruch]], and [[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]], birthplace of the Lion's Shadow, each deserve their place in the kingdom's memory.
-
 
 ## What the lion must defend
 
