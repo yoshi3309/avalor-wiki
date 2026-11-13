@@ -1,12 +1,15 @@
 ---
-title: "Gol'Goroth and the Second Commission"
-subtitle: "The cult inquiry and the arrival of Heureux"
-summary: "The Lord Marshal's second commission against the cult of Gol'Goroth, during which Heureux joined the Misfits."
+title: Gol'Goroth and the Second Commission
+subtitle: The cult inquiry and the arrival of Heureux
+summary: The Lord Marshal's second commission against the cult of Gol'Goroth,
+  during which Heureux joined the Misfits.
 category: History & Chronicles
+image: /assets/uploads/golgoroth-the-second-commission.png
 entry: HIS.027
 era: Age of the Misfits
 related: kel-maris,the-first-commission,the-misfits,heureux,ringtree-clan,independent-factions-of-the-misfits-era
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
 ## A second summons
