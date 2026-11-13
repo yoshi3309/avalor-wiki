@@ -1,8 +1,10 @@
 ---
 title: Distant Lands and the Hunter's Road
 subtitle: Labos, Chult, Weyland, Valiant, and the Fey Woods
-summary: A short gazetteer of kingdoms, forests and peoples encountered beyond the familiar settlements of Avalor in Heyden Goldenfoot's travels.
+summary: A short gazetteer of kingdoms, forests and peoples encountered beyond
+  the familiar settlements of Avalor in Heyden Goldenfoot's travels.
 category: Kingdoms & Places
+image: /assets/uploads/distant-lands-of-the-hunter.png
 entry: LOC.042
 era: Age of Ascendancy
 facts: |-
@@ -13,10 +15,10 @@ facts: |-
   Principal traveler: Heyden of the Goldenfoot
   Cartographic precision: No new positions assigned
 related: heyden-of-the-goldenfoot,kingdom-of-avalor,hunters-guild,dead-marshes,forest-of-the-fey
-source: "Creator-supplied Heyden of the Goldenfoot history, November 2026; Kingdom of Avalor public diplomatic overview"
+source: Creator-supplied Heyden of the Goldenfoot history, November 2026;
+  Kingdom of Avalor public diplomatic overview
 featured: false
 ---
-
 ## Places known from a hunter's travels
 
 Avalor's royal atlas charts the kingdom and the places its surveyors can reasonably identify. The life of **[[heyden-of-the-goldenfoot|Heyden Goldenfoot]]**, fourth prince of Labos and hunter of the Dead Marshes, reaches beyond those familiar roads. His travels name a foreign kingdom, faraway jungle, a forest of extraordinary quarry, and communities that taught him to hunt.
