@@ -6,7 +6,12 @@ SITE=ROOT/'_site'
 events=yaml.safe_load((ROOT/'data/living-chronicle.yml').read_text(encoding='utf-8'))['events']
 map_src=yaml.safe_load((ROOT/'data/avalor-map.yml').read_text(encoding='utf-8'))
 links=yaml.safe_load((ROOT/'data/atlas-history.yml').read_text(encoding='utf-8'))['links']
-assert len(events)==18, len(events)
+# Addendum 006 preserves the earlier 18 events and adds four c. 2000 AF
+# Misfits death milestones. Atlas pins are not invented for these events.
+assert len(events)==22, len(events)
+assert all(e['id'] in {x['id'] for x in events} for e in
+           ({'id':'stanleyville-deaths'}, {'id':'hydra-temple-deaths'},
+            {'id':'jaznaar-final-rest'}, {'id':'zauks-end'}))
 assert len(links)==6, len(links)
 map_by_id={loc['id']:loc for loc in map_src['locations']}
 events_by_id={e['id']:e for e in events}

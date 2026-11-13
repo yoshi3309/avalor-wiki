@@ -7,6 +7,7 @@ entry: HIS.025
 era: Age of the Misfits
 facts: |-
   Location: Shadowfell, the Blood King's fortress
+  Date: c. 2000 AF (provisional, precise year unconfirmed)
   Campaign: The Misfits' final confrontation with Cid
   Objective: Rescue Queen Melmiri
   Threats: Cid the Blood King; Jaaris and other defenders

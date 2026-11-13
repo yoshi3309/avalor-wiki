@@ -17,6 +17,7 @@ facts: |-
   Tournament record: Twice overall champion of the Avalor Games
   Final office: Lord Marshal and commander of Lion's Bane
   Death: Killed by the Stalker at Stanleyville
+  Estimated death date: c. 2000 AF (provisional campaign-era estimate; precise year unknown)
   Funeral: Three days at the Great Cathedral; private cremation
   Final resting place: Ashes scattered in the King's Forest
 related: king-gradvum-frozenroar,lavitz-shawe,the-stalker,stanleyville,the-first-commission,golgoroth-second-commission,avalorian-forces,great-cathedral,the-misfits

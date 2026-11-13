@@ -14,6 +14,7 @@ facts: |-
   Eight trials: Altered echoes of the Misfits' past
   Final temptation: Ideal lives without their real losses
   Death: Killed by Amara after she approached in owl form
+  Estimated death date: c. 2000 AF (provisional; after Jinlin's defeat)
   Unresolved: Earlier life, purpose, relationship to Cid
 related: zauks-false-lives,the-misfits,cid-the-blood-king,amara,noki-the-sheep,jaaris,hydra-temple-disaster,jack-of-stanleyville
 source: "The Living Chronicle, Chapter VI, IX; Master Canon Bible, Volume I; the reconciled Misfits historical account"

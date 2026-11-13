@@ -1,70 +1,72 @@
-# Avalor — Character Fate and Death-Date Review
-**Prepared:** November 12, 2026  
-**Status:** Keeper review worksheet; contains NO newly assigned death dates and NO unreleased story outcomes.  
-**Sources:** Current public wiki and approved canon addenda 001–004; older candidate master PDFs only where explicitly distinguished.
+# Avalor — Character Fates and Approximate Death Chronology
 
-## Date conventions
+**Revised:** November 12, 2026  
+**Status:** Creator-approved no-deaths-in-gap ruling; provisional campaign-era dating based on existing canon; **no new exact death years established**.  
+**Sources:** Public Living Chronicle (around 2000 AF); Master Canon Bible (the original campaign unfolded over months); approved canon addenda 001–005; the creator's clarification that no established cast members died in the intervening twenty years.
 
-- **AF** means the Avalor calendar. Use an exact year only when a source explicitly supports that year **for the death**, not merely for a reign or a different event.
-- The Misfits' final battle is placed **around 2000 AF** in the public Living Chronicle. That is an approximate anchor for a **campaign of months**, NOT a precise death year for everyone in it.
-- **Death / defeated / disappeared / spirit present / magically sustained / unknown** are different outcomes. Never automatically assign a grave date to a character who was only defeated or removed.
-- The wiki's archival vantage is approximately **twenty years after Cid's original defeat**. Many characters' status during those intervening years remains creator-controlled.
-- An **attributed year**, a calendar year **confirmed** in-world, and a **date of ritual/funeral** may be different facts.
-- This worksheet is for decision-making. Do not copy a tentative death year into public biographies, timelines, headstones, or the master PDFs without creator approval.
+## What the dates mean
 
-## Events with usable calendar anchors
+The defeat of Cid is anchored to **around 2000 AF**. The Keeper-era Master Canon Bible explicitly calls that year **PROVISIONAL** and says the Misfits' original adventures unfolded over months; it does not establish a precisely six-month duration or prove that every event fell within one numbered calendar year.
 
-| Person/event | Known anchor | What can be dated now |
+Therefore the label **c. 2000 AF** is an **approximate campaign-era date**, suitable for a historical timeline and biography fact box, **not a newly confirmed year**. It does not imply that the court possesses a record of the day, month, or exact AF year of each death. A later exact-date ruling can replace this approximation without changing the event order.
+
+A person's **bodily death**, their **magically sustained later existence**, an **unresolved disappearance**, and **defeat in battle** are separate outcomes. No one receives a death date merely because an adventure ended.
+
+## Dated historical deaths before the Misfits
+
+| Person or event | Recorded date | Status |
 |---|---|---|
-| Lord Osmo and Bradgem Glav | **Before 1 AF**, at Heroes Hill / the founding wars | Both die at the decisive battle; the exact year is not established. |
-| Aldus Greystone III, mortal body | **Around 10 AF**, Black Tower catastrophe | Mortal form was killed, but Aldus survived as Cid; this is **not** a permanent death date. |
-| Queen Elyra Frozenroar | **893 AF**, end of the War of the Two Lions | The Living Chronicle records her death after declining health in this year. |
-| King Gerran Frozenroar | **Reign ended 1982 AF** | Accession of Gradvum in 1983 AF is documented; do **not** confuse Gerran's reign-end with a verified death year. |
-| Cid's original defeat | **Around 2000 AF**, approximate | Removed into the Beyond after the Emerald was pressed into him; ultimate death is **not** demonstrated. |
+| Lord Osmo and Bradgem Glav | **Before 1 AF** | Both died in the founding struggle at Heroes Hill; exact battle year unrecorded. |
+| Aldus Greystone III's mortal form | **c. 10 AF** | Mortal form died at the Black Tower, but Aldus endured as Cid; **not** a permanent ultimate death date. |
+| Queen Elyra Frozenroar | **893 AF** | Died after declining health during the conclusion of the War of the Two Lions. |
+| King Gerran Frozenroar | **Reign ended 1982 AF** | **No verified death date**; the end of a reign and Gradvum's 1983 accession do not establish Gerran's death. |
 
-## Confirmed original Misfits-era deaths — calendar year not yet fixed
+## Original Misfits campaign: provisional death sequence
 
-These events are ordered; all occur within the broader Misfits-era period around Cid's original defeat unless an earlier history is explicitly noted.
+The following confirmed deaths are recorded within the **campaign around 2000 AF**. Events are ordered by the established adventures, but **not every death has a known position within the individual encounter**.
 
-| Character(s) | Confirmed outcome | Chronology / date status |
+| Event order | People | Established fate | Date precision |
+|---|---|---|---|
+| Stanleyville, **before Hydra** | **Jack** | Murdered by a concealed Fireball manuscript; persists as a conscious ghost. | **c. 2000 AF**, bodily death only; exact date unknown. |
+| Stanleyville, **before Hydra** | **Kel'Maris** | Pierced and killed by the Stalker; Captain Funkin later returned her body to Renada. | **c. 2000 AF**, exact date unknown. |
+| Ruined temple and Hydra, **after Stalker** | **Captain Funkin** and **Inspector Sihnion**, along with guards | Killed in the temple disaster. Funkin had been alive to return Kel'Maris's body. | **c. 2000 AF**, exact date unknown. |
+| Same Hydra escape | **Fo'Gurn — original death** | Truly died confronting the hydra so the Misfits could escape. | **c. 2000 AF**, exact date unknown. |
+| After the visit to his refuge | **Jaznaar** | Died after the Misfits departed and before Cid's final defeat and Jaznaar's public vindication. | **c. 2000 AF**, exact date unknown. |
+| After the real defeat of Jinlin | **Zauks** | Amara killed him, breaking his hold over the companions' cocoons. | **c. 2000 AF**, exact date unknown. |
+| Shadowfell finale | **Jaaris** | Killed **after** Fo'Gurn had already recovered his freedom by choosing to protect Lavitz. | **c. 2000 AF**, exact date unknown. |
+| Following Jaaris's death, same finale | **Fo'Gurn — end of necromantically sustained existence** | The borrowed existence maintained by Jaaris failed; Fo'Gurn remained in the Shadowfell to rest again. | **c. 2000 AF**, approximate and **distinct from the original Hydra death**. |
+
+**Additional confirmed deaths without a fixed scene:** **Karina** and **Black Agnes Mudwallow** were killed by the Misfits during the original campaign, also approximately **c. 2000 AF**. Karina's death is sometimes associated with the Rotten Husk period, but the precise battle is not settled. Neither is assigned a specific day, encounter, or confirmed year.
+
+**Earlier tragedy outside that campaign:** **Tristan and Kristofer** died in Jaaris's necromantic ritual **before Sven became one of the Misfits**. Their exact year remains unassigned. Their deaths must not be retroactively set at c. 2000 AF simply because Jaaris himself was killed around then.
+
+The relative order of **Jack's death and Kel'Maris's death within the Stanleyville affair** need not be treated as precisely known: both are before the later Hydra. Likewise, the order of the individual temple casualties is not separately documented.
+
+## Defeated, missing, retired, or otherwise not established as dead
+
+| Person | Established record | Why no death date |
 |---|---|---|
-| Tristan and Kristofer | Murdered in Jaaris's necromantic ritual | **Before Sven joined the Misfits**, after years living as a family. Exact AF year **unknown**. |
-| Jack of Stanleyville | Killed by a hidden Fireball spell; persists as a **conscious ghost** | Stanleyville, **before** Hydra. Date of bodily death **unknown**; do not present the spirit as extinguished. |
-| Kel'Maris | Killed by the **Stalker** | Stanleyville, **before** the Hydra disaster. Funkin brought her body home; three-day lying in state, private cremation, ashes in King's Forest. Exact AF year **unknown**. |
-| Captain Funkin and Inspector Sihnion | Killed at the ruined temple | **After** the Stalker. Funkin was alive to return Kel'Maris's body; exact AF year **unknown**. |
-| Fo'Gurn | Truly died stopping the Hydra; later Jaaris necromantically restored him and his borrowed existence ended in the Shadowfell | **Two distinct death-related events in the same original campaign**. Do not treat the second as proof that the first death was unreal. Exact AF year(s) **unknown**. His appearance with Samuel about twenty years later has **no established mechanism**. |
-| Karina | Killed by the Misfits | Original campaign; precise battle and AF year **unknown**. |
-| Black Agnes Mudwallow | Killed by the Misfits | Original campaign; precise battle and AF year **unknown**. |
-| Zauks | Killed by Amara outside the cocoons | **After** the real defeat of Jinlin, **before** Shadowfell. Exact AF year **unknown**. |
-| Jaaris | Died during Shadowfell confrontation | **After** Fo'Gurn had chosen to break his control. Exact AF year **unknown**. |
-| Jaznaar | Died after the Misfits departed his refuge | **Before** Cid's final defeat and **before** Gradvum vindicated him. Exact AF year **unknown**. |
-| Temple guards and other unnamed losses | Killed during the Hydra catastrophe | Individuals' names and precise date **unknown**. Do not invent a roster or assign dates to absent names. |
+| **Cid / Aldus** | Defeated, sealed against Material Plane return, then taken into the Beyond by unknown black hands. | Ultimate death unproven; earlier destruction of his mortal form was not final. |
+| **Jinlin Vechon** | Defeated in a real battle before Zauks. | Defeat is **not** a confirmed death, even though some older accounts use different language. |
+| **Ros Furband** | Captured the Misfits after the Tournament and delivered them toward Jinlin. | His fate afterward is not established. |
+| **Noki / Noke** | Survived the sheep encounter and later served the Den Mother. | The Misfits' belief that Noki had died was mistaken. |
+| **Jack** | Bodily death established; conscious ghost persisted and traveled onward. | Cannot record his spirit as having ceased without new canon. |
+| **Fo'Gurn** | Two death-related events during the original campaign; later appeared with Samuel about twenty years afterward. | Later appearance mechanism unresolved; do not date a new death in the interval. |
+| **King Gerran** | Royal reign ended 1982 AF. | A reign ending does not establish the monarch's death. |
+| **Kurt Reyginald** | Retired from the Lord Marshal office. | Retirement is not death. |
 
-## Defeated, missing, or not established as dead
+## The approximately twenty-year interval after Cid
 
-| Character | Publicly established status | Why a death date would be improper |
-|---|---|---|
-| **Cid / Aldus** | Defeated, barred from returning to the Material Plane, pulled into the Beyond by unknown hands | **No proven ultimate death.** The apparent Black Tower mortal death was not final. |
-| **Jinlin Vechon** | Defeated in a **real** battle before Zauks | The newer public canon records defeat, not confirmed death. One older master-candidate passage uses "killed"; do not silently adopt it without a new creator ruling. |
-| **Ros Furband** | Took the Misfits captive, delivered them toward Jinlin | Subsequent fate **not established**. |
-| **Noki / Noke** | Survived the original sheep encounter, later servant of Den Mother | Death in the original encounter was a **mistaken belief**. |
-| **Anna / Erevan Ilesere** | Divinity in disguise, revealed after the royal audience | Not a mortal death subject of the original campaign. |
-| **King Gerran** | His reign ended in 1982 AF | Death, abdication, and later lifespan have not been independently established in the checked public record. |
-| **Kurt Reyginald** | Retired as Lord Marshal | Retirement is not death. |
+**Keeper ruling:** **No established named cast members died in the approximately twenty years following the original defeat of Cid.** This supersedes the previous open question about whether we should invent or assign additional cast deaths in the gap.
 
-## The unresolved twenty-year question
+This rule applies to the established characters and histories under development; it does **not** assert that no ordinary inhabitant of Avalor died of natural causes or otherwise during twenty years of world history. The public wiki should not invent deaths, replacements, funerals, or royal succession to make the time period seem full.
 
-**Not approved for new deaths:** The current wiki describes the work of **Gradvum, Melmiri, Lavitz, Tel'Lora, Sven, Heureux, Amara, Samuel, the Aegis councilors, and other present-age figures** but does not supply a confirmed death year during the intervening two decades. The fact that they were prominent during the original campaign or now appear older is not proof of death. **Do not retire, kill, resurrect, or replace any of them for editorial completeness.**
+The Age of Ascendancy remains deliberately open for further creator-approved campaigns. The **rise of the Black Diamond** must be developed before **Blackwater Bay** is integrated into the public archive. Nothing in this dating register establishes those future events.
 
-### Keeper decisions requested
+## Publication rules and further decisions
 
-1. **Which named people died between Cid's defeat and the current campaign's date?** Begin with the crown, Aegis, original Misfits, and a few major allies—not a census of everyone.
-2. **When and how precise are those dates?** Exact AF year, approximate period (e.g. a few years after the defeat), or still unassigned.
-3. **Was death final?** Especially important for ghosts, necromancy, immortals, celestials, and characters whose appearance in a later era is already canon but unexplained.
-4. **Should a death be public, private, or unknown to in-world historians?** Public entries must respect the players' current-knowledge boundary.
-
-## Publication and master-document integration
-
-- New confirmed death dates should first be approved by the creator, then copied into relevant biography `facts`, event narrative, public timeline (when date confidence justifies an entry), and the **next cumulative canon addendum**.
-- **Do not publish guesses**, including guessed deaths in the twenty-year gap, extrapolated royal dates, or unresolved Black Diamond / Blackwater Bay story events.
-- Existing known deaths remain in public narrative even where the precise AF year is unknown. An invented year is less useful than a correct relative sequence.
+1. In the wiki's historical timeline and character fact boxes, **c. 2000 AF** means only a **provisional campaign-era approximation**.
+2. Keep the **Stalker before Hydra**. Preserve the order **Jinlin's real defeat → Zauks's death → Shadowfell finale** and **Fo'Gurn's free choice → Jaaris's death → end of Fo'Gurn's borrowed existence**.
+3. Do not assign dates to Cid, Jinlin, Ros, Noke, a retired officer, or King Gerran from mere inference.
+4. **Exact AF years, months and days remain open.** If the Keeper later gives dates, update the timeline, relevant biographies, the public overrides, and the cumulative addendum together.
+5. If a later campaign explicitly changes a current character's fate, record its actual event rather than rewriting the interval retroactively.
