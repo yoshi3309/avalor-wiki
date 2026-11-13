@@ -17,11 +17,27 @@ facts: |-
   Tournament record: Twice overall champion of the Avalor Games
   Final office: Lord Marshal and commander of Lion's Bane
   Death: Killed by the Stalker at Stanleyville
-  Death year: 2000 AF (third month of campaign; precise day unknown)
+  Death year: 2000 AF (third campaign month)
   Funeral: Three days at the Great Cathedral; private cremation
   Final resting place: Ashes scattered in the King's Forest
 related: king-gradvum-frozenroar,lavitz-shawe,the-stalker,stanleyville,the-first-commission,golgoroth-second-commission,avalorian-forces,great-cathedral,the-misfits
 source: "Creator-supplied Kel'Maris backstory, November 12, 2026; corrected public history of the Misfits"
+callouts:
+  - type: reflection
+    text: "For decades the king scarcely stood without the Lion's Shadow nearby. Her absence would be felt not only in the defenses of the throne, but in the trust she had placed in an unknown fellowship."
+    attribution: Editorial reflection on the Lion's Shadow
+    after: the-lion-s-shadow
+    paragraph: 2
+  - type: reflection
+    text: "Kel'Maris did not live to see the adventurers she first entrusted with royal service become Avalor's celebrated champions. The judgment that sent them onto the road became part of the legacy she left behind."
+    attribution: Editorial reflection on her royal commissions
+    after: death-at-stanleyville
+    paragraph: 2
+highlight_sections:
+  - section: the-lion-s-shadow
+    tone: legacy
+  - section: death-at-stanleyville
+    tone: remembrance
 featured: false
 ---
 

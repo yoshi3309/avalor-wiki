@@ -29,9 +29,34 @@ facts: >-
   Civic market: Lantern Market and the Hall of Measures
 
   Festival: Riverlight Fair
-related: rynhold-frozenroar,great-citadel,great-cathedral,lavitz-shawe,the-aegis,peoples-of-avalor,kingdom-of-avalor,rynhold-frozenroar,heureux,jaznaar,jaznaars-vindication,king-gradvum-frozenroar,queen-melmiri,threefold-devotion,royal-commission-historical-inquiry,heavens-heart
+related: rynhold-frozenroar,great-citadel,great-cathedral,lavitz-shawe,the-aegis,peoples-of-avalor,kingdom-of-avalor,heureux,jaznaar,jaznaars-vindication,king-gradvum-frozenroar,queen-melmiri,threefold-devotion,royal-commission-historical-inquiry,heavens-heart
 source: Compendium II · Entry II.002, public Sections II–XVI; The Living
   Chronicle, public historical record
+illustrations:
+  - image: /assets/uploads/the-great-citadel.png
+    alt: Painterly view of the Great Citadel above Renada.
+    caption: The Great Citadel, seat of royal life and the labor that sustains it. Archival illustration.
+    after: the-citadel-as-a-workplace
+    paragraph: 2
+    layout: wide
+callouts:
+  - type: reflection
+    text: "From Crownrise, the Rhys is a view across the capital. From the Mudsteps, it is the next shift, the next arriving vessel, and the next chance to keep a household fed. The same river gives very different meanings to a city's prosperity."
+    attribution: Editorial reflection on the city's unequal geography
+    after: the-mudsteps
+    paragraph: 2
+  - type: note
+    scholar: professor-xiomara-thal
+    text: "The corrected inscription in Rynhold Park tells the truth about Aldus. The old inscription, preserved in the Great Library, tells another truth: how long his false reputation possessed public authority. Both must be faced if the city hopes to learn from the harm."
+    after: rynhold-park-and-public-memory
+    paragraph: 2
+highlight_sections:
+  - section: the-mudsteps
+    tone: remembrance
+  - section: rynhold-park-and-public-memory
+    tone: turning-point
+  - section: the-city-belongs-to-its-people
+    tone: legacy
 featured: true
 ---
 ## The city beneath the lion
@@ -56,17 +81,11 @@ To a visitor from Crownrise, its towers can signify strength and ceremony. To a 
 
 ## The River Rhys and the city's crossings
 
-The **River Rhys** joins the capital to the movement of inland goods and routes toward the coast. Two bridges illustrate the different tasks performed by a shared waterway. The **Great Stone Bridge** is familiar from royal ceremonies as well as daily journeys; **Millers' Bridge** is known especially to grain carriers and riverside workers.
+The **River Rhys** carries goods and travelers between the capital, the interior, and routes toward the coast. The **Great Stone Bridge** serves royal ceremonies and everyday traffic alike: carts, animals, workers, and petitioners cross the same span that occasionally bears a procession. **Millers' Bridge** is closely associated with the movement of grain to the mills and riverside trade.
 
-The water connects the prosperity of the capital to people whose names seldom appear in an official register. Along the quays, boats, carts, inns, ropewalks, and warehouses turn river traffic into the work of thousands.
+Along the quays, boats, carts, inns, ropewalks, and warehouses turn river traffic into the labor of thousands. Smaller landings and ferries connect the working waterfront, while a damaged bridge, high water, or crowded markets can disrupt journeys upon which entire neighborhoods depend.
 
-## The city made by the river
-
-The Great Stone Bridge is more than a ceremonial approach. It carries carts, animals, petitioners, and people on their way to work through the same streets that occasionally host royal processions. **Millers' Bridge** serves the movement of grain toward the mills and the river trade, often better suited to practical business than the delays attending occasions of state.
-
-The city's waterfront also depends on ferries and smaller landings. A damaged bridge, an unusually high river, or crowded markets can disrupt the journeys upon which whole neighborhoods depend.
-
-The River Rhys has made Renada wealthy, but it has never made all its inhabitants equally secure. Trade is shared work; profit is not always shared in the same way.
+The Rhys has helped make Renada wealthy, but prosperity has never followed the river equally into every household. Trade is shared work; profit is not always shared in the same way.
 
 ## Five districts, many lives
 
@@ -192,18 +211,12 @@ The city wakes earlier than its grand celebrations suggest. Porters gather at th
 
 A fair may be recorded by its date and ceremonies. The everyday city survives through countless less celebrated mornings.
 
-## A capital still becoming itself
-
-Renada benefits from the Age of Ascendancy, though the rewards of prosperity do not reach every district equally. One visitor may know the city through the Great Citadel and Great Cathedral. Another may know it through the Three Moorings, the Hall of Measures, or the climb from the Mudsteps toward Crownrise.
-
-Those views are not competing locations on the world map. They are parts of one capital—and the history of Renada is diminished if any of them is mistaken for the whole.
-
 ## The city belongs to its people
 
-Renada's future will depend upon the relation between its position as the center of a kingdom and its ability to remain a home for people of different origins, stations, and beliefs.
+Renada benefits from the Age of Ascendancy, though the rewards of prosperity do not reach every district equally. One visitor may know the city through the Great Citadel and Great Cathedral; another through the Three Moorings, the Hall of Measures, or the climb from the Mudsteps toward Crownrise. All are part of the same capital.
 
 Growth can improve trade and security while putting pressure on housing, routes, and the ability of workers to live near their livelihoods. A council may celebrate a prosperous season while families below Crownrise still fear one missed wage.
 
-The correction of Aldus's monument has offered the city a different sort of challenge: whether it can become more faithful to history by acknowledging its former mistakes rather than protecting them from criticism.
+The correction of Aldus's monument challenges the city in another way: to become more faithful to its history by acknowledging its old mistakes rather than shielding them from criticism.
 
 The lion above the citadel deserves its place in the kingdom's imagination. Yet Renada was also built by people who carried supplies, mended ropes, copied records, tended children, buried the dead, and asked their neighbors to share the work of the city. **The heart of Avalor is not only the height upon which the lion flies. It is the life carried on beneath it.**

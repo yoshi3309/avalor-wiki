@@ -70,3 +70,12 @@ node --check assets/article-reading.js
 ```
 
 After GitHub Pages deploys, visually verify the Lavitz biography on both mobile and desktop. The code-level smoke test cannot replace a real visual review, especially for different image proportions.
+
+## Major-article restoration (13 November 2026)
+
+- **Renada:** two consolidated narrative chapters, a contextual existing Great Citadel illustration, reflections on labor and memory, and three thematic chapter highlights. The five named districts and the Mudsteps within Rhys Quays remain unchanged.
+- **The Aegis:** complete eight-seat council table, two interpretive notes, and visual emphasis on religious duty, the eighth seat, and the work of government. Rynhold's original seven seats remain distinct from Tel'Lora's later addition.
+- **House Frozenroar:** retain the full thirty-four-sovereign register, use a documented founding-wars illustration and two archival perspectives, and highlight foundation and living dynasty. Parentage and succession remain exactly as approved.
+- **Lowkee and Kel'Maris:** restrained two-reflection treatment that follows the First Teaching, inherited duty, the Lion's Shadow, and the distinct Stalker-to-Hydra chronology.
+
+All reflective callouts are newly written **editorial synthesis**, not purported historical dialogue. Main article portraits and previously approved site colors are retained. Short entries are not expanded to satisfy a visual quota.

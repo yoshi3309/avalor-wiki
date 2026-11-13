@@ -17,6 +17,24 @@ facts: |-
 related: anna-lowkees-keeper,emerald-of-armanti,the-six,cathedral-paladins,heavens-heart,threefold-devotion,black-tower,jaznaar,lavitz-shawe
 source: The Living Chronicle, Chapter III; Compendium I · I.004, public
   Scholar's Account; Compendium II · II.003; author-confirmed Cid's Bane history (November 2026)
+callouts:
+  - type: reflection
+    text: "A kingdom may honor a paladin with statues and vows, yet the measure of his teaching lies in the moment a protector refuses an unjust command. Lowkee's influence survived wherever someone chose the helpless over the powerful."
+    attribution: Editorial reflection on the First Teaching
+    after: the-first-teaching
+    paragraph: 2
+  - type: reflection
+    text: "A sword carried across two thousand years might have been valued as a symbol of conquest. In Lavitz's hands, Lowkee's blade became instead a reminder that strength inherits responsibility."
+    attribution: Editorial reflection on Cid's Bane
+    after: the-sword-that-outlived-him
+    paragraph: 2
+highlight_sections:
+  - section: the-first-teaching
+    tone: turning-point
+  - section: the-sword-that-outlived-him
+    tone: remembrance
+  - section: a-promise-tested-after-his-lifetime
+    tone: legacy
 featured: false
 ---
 ## The strength to stand for others
