@@ -13,6 +13,8 @@ facts: |-
   Previous throne: King of Kroubia
   Royal house: House Frozenroar
   Reign: 1–37 AF
+  Death: 37 AF, of old age
+  Successor: Son Benedikt Frozenroar
   Defining achievement: Unification of Avalor
   Capital selected: Renada
   Council founded: The Aegis
