@@ -459,3 +459,37 @@ assert mapped["kings-forest"]["article"]=="geography-of-avalor#king-s-forest"
 assert mapped["forest-of-the-westfold"]["article"]=="geography-of-avalor#forest-of-the-westfold"
 assert mapped["the-drought"]["article"]=="geography-of-avalor#the-drought"
 print("Phase 6 geography: genealogy, regional boundaries, public atlas entries and historical institutions verified.")
+
+
+# Trade routes and institutions reconciliation (Phase 6 continuing).
+spine=source("spine-of-the-world")
+sanctuary=source("heavens-heart")
+stannisport=source("stannisport")
+taveras=source("taveras")
+renada=source("renada")
+bardguild=source("bard-guild")
+academy=source("heureuxs-bard-academy")
+cathedral=source("great-cathedral")
+avalor=source("kingdom-of-avalor")
+rivercity=source("river-city")
+assert "Black Stair]] climbs toward the **[[The Black Tower]]**" in spine
+assert "not toward Heaven's Heart" in spine
+assert "Black Stair]] is the difficult ascent **to the Black Tower**" in sanctuary
+assert "distinct" in sanctuary and "Silver Forge" in sanctuary and "Astronoph" in sanctuary
+assert "**River Juce**" in stannisport and "**Heroes Bridge**" in stannisport
+assert "1 AF" in stannisport and "Healing Hand" in stannisport
+assert "Guiding Light" in stannisport and "Shield of Mercy" in stannisport
+assert "Petris" in stannisport and "Aldus Greystone III" in stannisport
+assert "The Society gathers **working performers**; Heureux's academy is a **school**." in taveras
+assert "Myxi Twinefoot" in taveras and "River Rhys" in taveras
+assert "River Juce" in taveras and "River Rhys" in renada and "Lake Noch" in renada
+assert "not make them branches of the Rhys" in renada
+assert "guild does not govern the academy" in taveras
+assert "Not every singer on a country road belongs to it" in bardguild
+assert "develop a voice before deciding what to do with it" in academy
+assert "Silver Forge" in cathedral and "Astronoph" in cathedral
+assert "River Juce" in avalor and "River Rhys" in avalor and "Lake Noch" in avalor
+assert "Edran Halwick" in rivercity and "Renada" in rivercity
+for body in (academy, bardguild):
+    assert "exact curriculum" not in body and "exact charter" not in body
+print("Trade and institutions reconciliation passed: waterways, Black Stair destination, clerical and bardic separation.")

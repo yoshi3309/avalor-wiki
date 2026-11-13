@@ -46,4 +46,6 @@ In accordance with Kel'Maris's wishes, she was **cremated privately afterward** 
 
 [[Heaven's Heart]] shares the cathedral's religious inheritance but remains a separate sanctuary and settlement near the [[Spine of the World]]. Its paladins are not merely guards stationed in Cathedral Ward. Their training reflects Lowkee's principle that an oath is owed above all to those who cannot stand without protection.
 
+The **[[The Guilds of Avalor#the-clerics-guild|Silver Forge]]** in [[Stannisport]] is separate again: a clerical fellowship that welcomes many deities and places empathy at the center of its practice. The Great Cathedral honors Tyr, Helm, and Torm under **Astronoph's** leadership; neither the Silver Forge nor Heaven's Heart is a subordinate ward of that cathedral.
+
 The Great Cathedral is therefore best understood as a living institution within a living city. Its lasting measure is not only what has been proclaimed beneath its vaults, but what its people do for those who enter.

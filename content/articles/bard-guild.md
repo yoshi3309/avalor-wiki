@@ -37,7 +37,7 @@ The Society's significance reaches beyond Taveras. Performers travel where audie
 
 A professional guild gives such people a common identity even when their work and ambitions differ. Some seek distinguished patrons or theatrical success. Others prefer the independence of the road. Still others care less for acclaim than for keeping an inherited tale alive.
 
-The Society's exact charter, membership requirements, and offices have not been established in the surviving account. Its professional character does not, by itself, imply that it licenses every performance or commands every bard in the kingdom.
+The Society's influence comes from the practitioners who share its name and calling. Not every singer on a country road belongs to it, and its fellowship has never been the only source of music or memory in Avalor.
 
 ## The keeping of living memory
 
@@ -61,7 +61,7 @@ That variety gives the Society its particular importance. Avalor's culture is no
 
 After the defeat of Cid, **[[Heureux]]** founded a **[[Heureux’s Bard Academy|bardic academy]]** in Taveras. The school and the Society share a city and an interest in the arts, but they are **distinct institutions**.
 
-The academy is a place of education, founded to teach a new generation. The Society is a professional fellowship whose concern extends to the lives and work of practitioners. The surviving charters name no formal governing bond between Heureux's school and the Society. Each pursues its own calling: one instructs aspiring bards, while the other serves working performers.
+The academy is a place of education, founded to teach a new generation. The Society is a professional fellowship concerned with the lives and work of practitioners. Each pursues its own calling: one instructs aspiring bards, while the other serves working performers. Sharing Taveras and an affection for storytelling has not made them a single institution.
 
 Heureux's own history nevertheless illustrates the importance of their shared vocation. He traveled with **[[The Misfits]]**, witnessed events that overturned a kingdom's accepted past, and later helped carry that revised history to a wider public. His work showed that telling a story well and taking responsibility for its truth need not be opposing ambitions.
 
