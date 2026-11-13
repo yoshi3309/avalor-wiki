@@ -19,7 +19,6 @@ facts: |-
   Redemption: Broke conditioning by protecting Lavitz, before Jaaris's death
   Final fate: Remained in Shadowfell to rest again
   End of borrowed existence: 2000 AF (sixth month, Shadowfell)
-  Appearance twenty years later: Means unresolved
 related: shadowfell-confrontation,anna-lowkees-keeper,emerald-of-armanti,ros-furband,lavitz-shawe,heavens-heart,the-misfits,jaaris,zauks-false-lives,tournament-of-champions,cid-the-blood-king
 source: The Living Chronicle, Chapter VI, Sections I, III and VIII–IX; Compendium I; author-approved World Anvil history (November 2026)
 callouts:
@@ -113,15 +112,13 @@ As the Blood King tried to escape, **Fo'Gurn pressed the emerald into Cid's ches
 
 Fo'Gurn's choice had brought him back to his friends for the end of the struggle, but **it could not preserve his borrowed existence**. Jaaris had been killed, and the necromantic bond sustaining Fo'Gurn was failing. He could not return to the Material Plane with the companions and **remained in the Shadowfell to rest one final time**. He and Lavitz were granted the goodbye that the Hydra's collapse had denied them.
 
-Nearly twenty years later, **Fo'Gurn appeared again beside Samuel** at the next summons—a sight that would bring the old fellowship's history into a new age.
-
 ## An original Misfit, not an afterthought
 
 The five names most commonly celebrated in Avalor's public histories belong to Lavitz, Tel'Lora, Sven, Heureux, and Amara. Their continued public activity after the victory made them familiar figures of the [[The Age of Ascendancy|Age of Ascendancy]].
 
 Fo'Gurn's place is different, but no less real. He was a member of the early company and the dearest friend of one of its most visible heroes. He shared their first commissions and their dangers before their fellowship became a legend.
 
-His later necromantic restoration and final rest did not erase that earlier membership. The question of his reappearance beside Samuel two decades later belongs to another chapter; the friend who stood beside Lavitz at Heaven's Heart and on the road remains at the center of this one.
+His later necromantic restoration and final rest did not erase that earlier membership. The friend who stood beside Lavitz at Heaven's Heart and on the road remains at the center of the story, even after his last farewell in the Shadowfell.
 
 Avalor's best account of the Misfits should have room for those whose deeds cannot be neatly reduced to the famous five.
 
