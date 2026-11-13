@@ -1,16 +1,23 @@
 ---
-title: "The Threefold Devotion"
-subtitle: "Justice, Vigilance, and Duty"
-summary: "The connected worship of Tyr, Helm, and Torm that shapes the Great Cathedral and the paladin traditions of Heaven's Heart."
+title: The Threefold Devotion
+subtitle: Justice, Vigilance, and Duty
+summary: The connected worship of Tyr, Helm, and Torm that shapes the Great
+  Cathedral and the paladin traditions of Heaven's Heart.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-threefold-devotion-1.png
 entry: REL.001
-era: "Founding Age to Age of Ascendancy"
-facts: "Honored gods: Tyr, Helm, and Torm\nVirtues: Justice, Vigilance, Duty\nRitual: The Three Lights\nMajor institutions: Great Cathedral; Cathedral Paladins\nCurrent clergy: Astronoph and Samuel in distinct offices"
+era: Founding Age to Age of Ascendancy
+facts: |-
+  Honored gods: Tyr, Helm, and Torm
+  Virtues: Justice, Vigilance, Duty
+  Ritual: The Three Lights
+  Major institutions: Great Cathedral; Cathedral Paladins
+  Current clergy: Astronoph and Samuel in distinct offices
 related: faiths-and-gods-of-avalor,great-cathedral,cathedral-paladins,lowkee,samuel-the-devoted
-source: "Compendium I · I.004, public Scholar's Account; Compendium II · II.001, public Scholar's Account; The Living Chronicle, Chapter III"
+source: Compendium I · I.004, public Scholar's Account; Compendium II · II.001,
+  public Scholar's Account; The Living Chronicle, Chapter III
 featured: false
 ---
-
 ## Three lights, one set of obligations
 
 The **Threefold Devotion** honors **Tyr**, **Helm**, and **Torm**, the gods whose connected traditions have a prominent place in the religious life of [[The Kingdom of Avalor|Avalor]].
