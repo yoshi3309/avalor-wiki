@@ -11,7 +11,7 @@ facts: |-
   Home: Stanleyville
   Nature: Conscious ghost
   Cause of death: Concealed Fireball spell
-  Estimated bodily death date: c. 2000 AF (provisional; spirit remained conscious)
+  Bodily death: 2000 AF (third month of campaign; spirit remained conscious)
   Companions: The Misfits
   Later companionship: Remained with the Misfits; often traveled with Heureux
 related: anna-lowkees-keeper,heureux,stanleyville,the-stalker,the-misfits,cid-the-blood-king,zauks-false-lives
