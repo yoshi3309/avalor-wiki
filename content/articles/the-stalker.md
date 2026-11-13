@@ -11,7 +11,7 @@ facts: |-
   Location: Stanleyville
   Known as: The Stalker
   Notable victim: Kel'Maris, Lord Marshal
-  Date of deaths: c. 2000 AF (provisional; precise year unknown)
+  Date of deaths: 2000 AF (third campaign month; precise days unrecorded)
   Direction: Attributed to Cid
   Political aftermath: Lord Marshal's office vacant
 related: stanleyville,jack-of-stanleyville,the-misfits,kel-maris,lavitz-shawe,cid-the-blood-king
