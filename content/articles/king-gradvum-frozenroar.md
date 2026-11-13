@@ -10,6 +10,8 @@ facts: |-
   Office: King of Avalor
   House: Frozenroar
   Accession: 1983 AF
+  Father: King Gerran Frozenroar (died peacefully, 1982 AF)
+  Present calendar: 2020 AF
   Consort: Queen Melmiri
   Heir: Prince Theodric
   Griffin: Fis Uskeche
@@ -21,7 +23,7 @@ featured: false
 
 ## An approachable king
 
-**Gradvum Frozenroar**, sovereign of [[The Kingdom of Avalor|Avalor]] since **1983 AF**, is known as a good and approachable ruler. The reputation is more personal than a title: he is remembered as a king who does not consider the concerns of ordinary Avalorians beneath his attention.
+**Gradvum Frozenroar**, sovereign of [[The Kingdom of Avalor|Avalor]] since **1983 AF** following the peaceful death of his father Gerran in 1982 AF, is known as a good and approachable ruler. The reputation is more personal than a title: he is remembered as a king who does not consider the concerns of ordinary Avalorians beneath his attention.
 
 Approachability, however, is not the same as agreeing with everyone who petitions the crown. Gradvum governs a kingdom of competing interests, and his popularity does not mean that his choices have been universally welcomed.
 
