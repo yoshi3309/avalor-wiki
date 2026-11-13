@@ -48,7 +48,7 @@ for preset in presets:
     assert 'data-initial-left="'+preset['left']+'"' in pair,preset['id']
     assert 'data-initial-right="'+preset['right']+'"' in pair,preset['id']
     assert '<meta property="og:url" content="https://yoshi3309.github.io/avalor-wiki/compare/pairs/'+preset['id']+'/">' in pair
-    assert preset['title'] in pair
+    assert preset['title'] in html_utils.unescape(pair)
 connections=(SITE/'connections/index.html').read_text(encoding='utf-8')
 assert 'href="../compare/"' in connections
 assert 'Character Comparison Dossiers' in connections
