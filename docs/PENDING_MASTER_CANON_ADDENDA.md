@@ -188,3 +188,43 @@ The **`docs/CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md`** worksheet disting
 4. **Compendium Volume II:** Record the Great Cathedral funeral, King's Forest ashes, and Ilyanamel as a named unlocated elven settlement. Preserve the map's uncertainty.
 
 **Addendum 005 contains no newly approved death year, no newly established post-Cid character deaths, and no new Black Diamond/Blackwater Bay lore.**
+
+## Addendum 006 — Provisional Death Dates and the Twenty-Year Gap (November 12, 2026)
+
+**Status: CREATOR-APPROVED CHRONOLOGY / APPROXIMATE DATES ONLY. No exact death year or new death is established.**
+
+### Calendar evidence and precision
+
+- The published Living Chronicle anchors **the defeat of Cid at around 2000 AF**. The Master Canon Bible labels the same date **PROVISIONAL** and confirms the original Misfits campaign unfolded over **months**, not years. It explicitly warns against treating its proposed six-month pacing as a confirmed exact duration.
+- Therefore **c. 2000 AF** is adopted as a **provisional campaign-era date label** for known deaths during the original Misfits adventures. This is a useful shared historical era, **not** a creator-approved exact calendar year for each individual, nor proof that all events took place within the same numbered year.
+- The separate established date of **Queen Elyra's death (893 AF)** remains a recorded historical year. The end of **King Gerran's reign in 1982 AF** does **not** establish his death date.
+
+### Named original-campaign deaths (all c. 2000 AF, provisional)
+
+1. **Stanleyville (before Hydra):** Jack dies bodily from the concealed Fireball and continues as a conscious ghost. The Stalker kills **Kel'Maris**; **Captain Funkin returns her body**. The internal order of Jack's death and Kel'Maris's death is not given an exact timestamp.
+2. **Later ruined temple and Hydra:** **Captain Funkin**, **Inspector Sihnion**, and guards die; **Fo'Gurn truly dies** buying the Misfits time to escape. Their within-encounter order is not assigned.
+3. **After refuge visit, before final confrontation:** **Jaznaar dies**, without living to hear his vindication.
+4. **After real Jinlin defeat, before Shadowfell:** **Zauks is killed by Amara**.
+5. **Shadowfell finale:** **Fo'Gurn breaks Jaaris's hold before Jaaris dies**. Jaaris's death then ends the necromantic life sustaining Fo'Gurn, and Fo'Gurn remains in the Shadowfell for final rest. **Fo'Gurn has an original Hydra death and a distinct end of restored existence; neither is erased.**
+6. **Other confirmed deaths in original campaign:** **Karina** and **Black Agnes Mudwallow** die at unspecified encounters. Do not assign a particular place, battle, or within-campaign ordering without approval.
+
+**Earlier, not provisionally dated c. 2000 AF:** Jaaris murdered **Tristan and Kristofer** before Sven joined the Misfits; no calendar year established.
+
+**Not confirmed dead:** **Cid** (taken into Beyond); **Jinlin Vechon** (defeated); **Ros Furband** (subsequent fate unknown); **Noki/Noke** (survived); **King Gerran** (reign ended, death unverified); **Kurt Reyginald** (retired). Jack remains a ghost, and Fo'Gurn's appearance alongside Samuel roughly twenty years later has no established cause.
+
+### Twenty-year gap ruling
+
+**The creator confirmed that no established named cast member died in the approximately twenty-year interval after the original defeat of Cid.** This is not a claim that every anonymous citizen of Avalor was immortal or no mortal deaths occurred anywhere. Do **not** invent named funerals, deaths, replacements, succession crises or resurrections to fill this gap.
+
+The rise of the Black Diamond and the Blackwater Bay campaign remain **reserved for separate creator-led development**; this death-register update does not add those plot events.
+
+### Wiki synchronization and volume integration
+
+- **Public wiki:** Four new approximate entries on the Living Chronicle (Stanleyville, Hydra, Jaznaar, Zauks); expanded finale text at the existing c. 2000 AF milestone; approximate fact-box dates for Jack, Kel'Maris, Fo'Gurn, Jaznaar, Zauks and Jaaris; dates in the minor-character hero and villain collections. Dates explicitly say *provisional* where possible.
+- **Source of truth:** `docs/CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md` now records the death event sequence, uncertainty classes and no-deaths-in-gap rule.
+- **Master Canon Bible:** Preserve approximate around-2000-AF chronology and exact order, without retroactively establishing dates for individual deaths.
+- **Living Chronicle:** Include this provisional original-campaign grouping alongside previously established exact dynastic dates.
+- **Compendium Volume I:** Distinguish bodily death and spirit persistence (Jack); actual death, necromantic restoration, later failure (Fo'Gurn); defeat vs death (Jinlin/Cid).
+- **Compendium Volume II:** No new geography or invented cemetery, funerary day or mapped grave site.
+
+**If exact dates are later approved**, the approximate labels can be replaced in a single coordinated change. This addition should not be interpreted as settling those dates.
