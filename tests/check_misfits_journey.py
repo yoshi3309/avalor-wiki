@@ -231,7 +231,7 @@ journey_html = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.htm
 assert "articles/minor-heroes-and-allies/#captain-funkin" in journey_html
 assert "articles/minor-heroes-and-allies/#inspector-sihnion" in journey_html
 assert "articles/minor-villains-and-adversaries/#karina" in journey_html
-assert "articles/minor-villains-and-adversaries/#ros-furband" in journey_html
+assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_html
 assert "Noke" in source("noki-the-sheep")
 assert "Den Mother" in source("noki-the-sheep")
 assert "Amara" in source("zauks")
