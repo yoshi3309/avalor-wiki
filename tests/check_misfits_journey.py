@@ -257,6 +257,40 @@ assert "exact location" in source("lesser-settlements-of-avalor")
 assert "Status:" in (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
 assert "Addendum 005" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
 
+# Addendum 006: approximate original-campaign death chronology and Keeper's gap ruling.
+chronicle = yaml.safe_load((ROOT / "data" / "living-chronicle.yml").read_text(encoding="utf-8"))
+events = chronicle["events"]
+event_by_id = {event["id"]: event for event in events}
+ordered_death_ids = [
+    "stanleyville-deaths",
+    "hydra-temple-deaths",
+    "jaznaar-final-rest",
+    "zauks-end",
+    "misfits-victory",
+]
+event_ids = [event["id"] for event in events]
+assert [event_ids.index(i) for i in ordered_death_ids] == sorted(event_ids.index(i) for i in ordered_death_ids)
+for event_id in ordered_death_ids:
+    event = event_by_id[event_id]
+    assert event["date_kind"] == "approximate", event_id
+    assert "2000 AF" in event["date"], event_id
+assert "Jinlin" in event_by_id["zauks-end"]["text"]
+assert "Jaaris" in event_by_id["misfits-victory"]["text"]
+assert "ultimate death is unconfirmed" in event_by_id["misfits-victory"]["text"]
+for slug in (
+    "kel-maris", "jack-of-stanleyville", "fo-gurn", "jaaris",
+    "zauks", "jaznaar", "the-stalker", "shadowfell-confrontation",
+):
+    assert "c. 2000 AF" in source(slug), slug
+assert "c. 2000 AF" in source("minor-heroes-and-allies")
+assert "c. 2000 AF" in source("minor-villains-and-adversaries")
+assert "c. 2000 AF" not in source("jinlin-vechon"), "Defeat is not a death date."
+register = (ROOT / "docs" / "CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md").read_text(encoding="utf-8")
+assert "No established named cast members died" in register
+assert "Tristan and Kristofer" in register
+assert "precise year" in register or "exact year" in register
+assert "Addendum 006" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").read_text(encoding="utf-8")
+
 print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
 
 print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
