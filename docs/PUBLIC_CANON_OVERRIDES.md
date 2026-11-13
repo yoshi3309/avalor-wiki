@@ -221,3 +221,16 @@ The creator explicitly selected the organizational options listed here, supersed
 **Distinctive historical details:** His scar comes from killing an Allosaurus in Chult; his left-thigh tattoo and Revenant Double-Bladed Scimitar were gifts from the Woodland Elves of Valiant after nearly two years hunting the Great Elk of Weyland Forest. After helping gnomes destroy a Giant Constrictor Snake, he met **Gomo**, a halfling hunter who gave him the coin needed to approach the guild and referred him to **Silver of Moonlight**, a female hunter who later helped him settle in the guild. His fey-woods training in concealment earned him the name **Shadow**. Several unnamed guild hunters died after Heyden arrived; this does **not** contradict the ruling against deaths of **established named cast members** in the post-Cid interval. No location for Labos, Weyland Forest or Valiant beyond the supplied material is mapped anew.
 
 **Unresolved:** Heyden's later quests, specific ages/dates of his major hunts, precise identity of the fey who taught him, Gomo's ultimate fate, Silver's family name and their later stories. No future Blackwater Bay or Black Diamond continuity is invented.
+
+## Addendum 009 - cross-feature editorial boundaries (November 13, 2026)
+
+The creator requested a full review of the expanded wiki, including Connections Explorer, Character Comparisons, Gazette, minor locales and Lavitz-style treatment of long biographies. This release is principally **presentation and discoverability**. It supersedes outdated prose, not established story events.
+
+- **Unbroken House Frozenroar:** the kingdom overview must never imply multiple unrelated dynasties. Retain the 34-ruler continuous descent from Rynhold to Gradvum.
+- **Existing atlas:** King's Forest, Forest of the Westfold and the Drought already have public map pins. Correct claims that they are wholly unplaced. Do not invent coordinates for **Chult, Labos, Weyland Forest, Valiant, or Wood of the Fey**.
+- **Heyden Goldenfoot:** use his supplied history, with Lavitz-level editorial reflections and highlights, while **never representing Hunters Guild contextual art as a confirmed portrait of Heyden**. New minor geography is recorded at `distant-lands-of-the-hunter` (LOC.042), in five short anchored sections.
+- **Comparisons:** Heyden, Malikeah, Mera and Kel'Maris have source-supported profiles. Faelynn/Heyden and Kel'Maris/Lavitz comparisons involve shared traditions/roles across generations; do not imply meetings.
+- **Connections:** references to Aldus and Cid identify the **same person in different eras**. Jinlin remains **defeated**, ultimate death unconfirmed. Gomo and Silver retain direct individual links to the neutral Minor Characters index. All new graph edges require evidence in a public article.
+- **Gazette:** its November 13, 2026 second issue describes historical and editorial discoveries, **not events occurring in the in-world year 2020 AF**.
+- **Narrative voice:** remove repetitious caveats and modern authoring vocabulary from player-facing articles, but keep genuine uncertainty about unresolved lore and geographical identity.
+- For the full editorial scope and source limits see `docs/WIKI_CROSS_FEATURE_AUDIT_2026_11_13.md` and Addendum 009 of `docs/PENDING_MASTER_CANON_ADDENDA.md`.
