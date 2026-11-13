@@ -25,9 +25,9 @@ featured: false
 
 Long before the kingdom knew her as **the Night Mistress**, **Faelynn Naïlo** was a free-spirited wood elf roaming the high branches of the [[Forest of the Fey]]. She was a gifted archer and tracker, more at home among leaves and birdsong than in any crowded hall. From the canopy she hunted game, explored the forest's secrets, and reported what she discovered to the chieftess of her village.
 
-The village itself was built among the tallest trees, its homes turned toward the east to catch the warmth of the rising sun. Faelynn was not simply an archer hired to guard its outskirts. She was the chieftess's trusted scout, a friend whose judgment had helped preserve the village through many ordinary dangers. That friendship would make the night's betrayal nearly unbearable. Below lay a forest so thick that daylight sometimes struggled to reach its floor. For the villagers, the morning light offered more than beauty; it meant another day beneath the protections that kept the darker wilderness at bay.
+The village rose among the tallest trees, its homes turned eastward to welcome the first warmth of sunrise through a canopy so thick that daylight often struggled to reach the forest floor. Faelynn was the chieftess's trusted scout **and friend**; her judgment helped protect the people who had raised her. The dawn promised another day behind wards that held the darker wilderness at bay.
 
-Faelynn enjoyed the chieftess's complete confidence. She was a trusted scout, an honest friend, and one of the first people the village would turn to when trouble stirred beyond its borders. That trust was the very thing an enemy would use to destroy them.
+That closeness made the betrayal to come especially cruel. An enemy could use Faelynn's own trust, and her knowledge of the village's defenses, against everyone she had sworn to protect.
 
 ## The boar and the gate
 
