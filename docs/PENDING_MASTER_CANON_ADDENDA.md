@@ -228,3 +228,55 @@ The rise of the Black Diamond and the Blackwater Bay campaign remain **reserved 
 - **Compendium Volume II:** No new geography or invented cemetery, funerary day or mapped grave site.
 
 **If exact dates are later approved**, the approximate labels can be replaced in a single coordinated change. This addition should not be interpreted as settling those dates.
+
+## Addendum 007 — The Unbroken Frozenroar Line and Varied Royal Fates (November 12, 2026)
+
+**Status: KEEPER APPROVED; SUPERSEDES earlier provisional date and partial-lineage assumptions.**
+
+### Approved calendar
+
+The **Misfits' original campaign took place during 2000 AF**, with approximately six months between Moonville Manor and Cid's final defeat. **Months 1–6** are useful narrative pacing markers only; calendar month names and precise dates remain unassigned.
+
+- Month 1: Moonville Manor, first royal commission.
+- Month 2: Gol'Goroth, Noki's sheep confrontation, search for Lowkee's Keeper; Anna joins.
+- Month 3: Stanleyville — Jack's bodily death and the Stalker killing Kel'Maris; Funkin returns the body. **Later** in Month 3, the Hydra temple — Captain Funkin, Inspector Sihnion, guards, and Fo'Gurn die.
+- Month 4: Rotten Husk liberation, Jaznaar's revelation and death after the refuge meeting.
+- Month 5: Tournament, Melmiri's kidnapping, Ros Furband's captivity, real Jinlin confrontation (defeated, not confirmed dead).
+- Month 6: Zauks killed by Amara; Shadowfell — Fo'Gurn breaks Jaaris's control while Jaaris lives, Jaaris dies, Fo'Gurn's borrowed existence fails, Cid is taken into the Beyond; homecoming and public vindication.
+
+**Tristan and Kristofer died in 1997 AF** at Jaaris's hands, before Sven joined the Misfits. The post-Cid present is **2020 AF**, with no deaths among the established named cast in the intervening twenty years.
+
+### Approved royal succession
+
+**House Frozenroar is one unbroken descent line of 34 rulers from Rynhold to Gradvum.** Succession is familial, not invariably parent-child. Abbreviated pedigrees should not falsely imply undocumented links are absent from the family.
+
+**Previously established unusual endings:** Sylavor voluntarily abdicated in 298 AF (later died peacefully, 312 AF); Wolfram abdicated as part of a political settlement in 1511 AF (died 1528 AF); Elyra died of illness 893 AF; Maerith died of illness 1734 AF. **Gerran died peacefully 1982 AF**, and his son Gradvum acceded 1983 AF.
+
+**Newly approved distinct fates:**
+- 71 AF — **Benedikt:** winter fever; 178 AF — **Halton:** sudden fever; 579 AF — **Solenne:** extended illness; 721 AF — **Orrec:** winter fever; 1038 AF — **Ilyan:** severe fever; 1119 AF — **Oren:** sudden stroke; 1654 AF — **Dain:** sudden illness; 1881 AF — **Kastor:** lung illness.
+- 430 AF — **Merek:** killed defending coastal shipping in a **small action against pirates**, not a major war.
+- 633 AF — **Brannic:** died after a fall on a wilderness expedition.
+- 1258 AF — **Sered:** died of wounds from a **minor frontier skirmish**.
+- 1461 AF — **Willem:** died in a storm at sea.
+- 1700 AF — **Talira:** died from injuries during an inspection of flooding.
+- Other sovereigns not noted above lived to older age and died of unexceptional natural causes; the full named register with all 34 outcomes is in `content/articles/house-frozenroar.md`.
+
+**Genealogy accepted:** Rynhold → Benedikt → Aldara → Dietmar → Halton → Sylavor are parent-to-child transfers (with Sylavor's mother **Dathyra Blueshadow**). Sylavor's daughter Arelis succeeded after his abdication. Aveline was Orrec's mother; Alaric was his elder brother. Rhaena was Elyra's grandmother; Elyra and Corven were twins; Torenna was Elyra's daughter. Arnaud was Reina's father. Wolfram was Ysoria's uncle. Maerith was Neria's mother. Gerran was Gradvum's father. Other succession relationships remain to be charted, but **all share Rynhold's bloodline**.
+
+**Ancestral longevity:** Dathyra's elven ancestry entered the dynasty through Halton; later generations exhibit varied human-elven ancestry and longevity. No blanket immortal ancestry or invented magical blessing.
+
+### Audit and public synchronization
+
+- Updated `content/articles/house-frozenroar.md` with the full 34-ruler register, fate columns, known genealogy, and modest descriptions of unusual deaths.
+- Updated `data/relationship-maps.yml` (selectively shown connections) and the individual pages for Rynhold, Gerran and Gradvum; historical dates in `data/living-chronicle.yml`, Misfits biographies and minor hero/villain collections.
+- Replaced the provisional fate review with `docs/CHARACTER_FATE_AND_DEATH_DATE_REVIEW_2026-11.md`, reflecting the approved precise year and maintaining unknown day/month, unknown enemy deaths, and unexplained supernatural returns.
+- Other wartime histories remain unchanged unless the royal fate directly affects them. The pirate encounter, frontier clash and storm do not establish new national conflicts.
+
+### Later incorporation into four master PDFs
+
+1. **Master Canon Bible**: Confirm 2000 AF, six-month pacing, Sven's 1997 tragedy, 2020 AF present, and all existing Misfits event and fate boundaries.
+2. **Living Chronicle**: Replace provisional campaign date, strengthen House Frozenroar royal register, and annotate unusual but local reign endings.
+3. **Compendium Volume I**: Update historical date references and living/dead status without fabricating supernatural afterlives.
+4. **Compendium Volume II**: Replace "partial / uncertain dynasty" language with unbroken descent, add the 34 monarchs' fates and confirmed family links, and leave unresolved geography undisturbed.
+
+**No rise-of-the-Black-Diamond or Blackwater Bay material is added here.** This update provides stable historical background without consuming those future campaign stories.
