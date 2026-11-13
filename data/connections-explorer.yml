@@ -45,6 +45,22 @@ nodes:
   - {article: "sundering-of-the-six", kind: "events"}
   - {article: "jaznaars-vindication", kind: "events"}
   - {article: "the-first-commission", kind: "events"}
+  - {article: "heyden-of-the-goldenfoot", kind: "people"}
+  - {article: "gomo", kind: "people", summary: "Halfling hunter whose coin opened a way to the Hunters Guild for Heyden Goldenfoot."}
+  - {article: "silver-of-moonlight", kind: "people", summary: "Hunter who welcomed Heyden to the Dead Marshes and taught him the guild's customs."}
+  - {article: "king-gerran-frozenroar", kind: "people", summary: "Former king of Avalor, father of Gradvum, and patron of Kel'Maris and Beldir."}
+  - {article: "jinlin-vechon", kind: "people", summary: "Dragonborn vampire and founder of the Wrath of Innocent, defeated but not confirmed killed by the Misfits."}
+  - {article: "kel-maris", kind: "people"}
+  - {article: "cid-the-blood-king", kind: "people"}
+  - {article: "jaaris", kind: "people"}
+  - {article: "zauks", kind: "people"}
+  - {article: "dead-marshes", kind: "places"}
+  - {article: "kingdom-of-avalor", kind: "places"}
+  - {article: "independent-factions-of-the-misfits-era", kind: "organizations"}
+  - {article: "karina", kind: "people", summary: "Vampiric centaur in Cid's service who murdered Tel'Lora's mother."}
+  - {article: "black-agnes-mudwallow", kind: "people", summary: "Night hag and servant of Cid killed during the original Misfits campaign."}
+  - {article: "beldir-willowrun", kind: "people"}
+  - {article: "the-stalker", kind: "events"}
 edges:
   - {from: "lavitz-shawe", to: "the-misfits", label: "Original member of the adventuring company", evidence: "the-misfits", type: "fellowship"}
   - {from: "fo-gurn", to: "the-misfits", label: "Travelled with the original company and died protecting his companions", evidence: "fo-gurn", type: "fellowship"}
@@ -107,3 +123,30 @@ edges:
   - {from: "royal-commission-historical-inquiry", to: "jaznaars-vindication", label: "Preserves scholarship and the corrected public account", evidence: "royal-commission-historical-inquiry", type: "record"}
   - {from: "heavens-heart", to: "great-cathedral", label: "Distinct institutions sharing part of the Threefold tradition", evidence: "great-cathedral", type: "faith"}
   - {from: "svendyal-shadowwhisper", to: "lavitz-shawe", label: "Fellow adventurers and trusted friends", evidence: "svendyal-shadowwhisper", type: "friendship"}
+  - {from: "heyden-of-the-goldenfoot", to: "hunters-guild", label: "Joined the guild of the Dead Marshes after arriving with Gomo's coin", evidence: "heyden-of-the-goldenfoot", type: "fellowship"}
+  - {from: "heyden-of-the-goldenfoot", to: "gomo", label: "Gomo gave the prince a Hunters Guild coin and introduced the marshes by reputation", evidence: "heyden-of-the-goldenfoot", type: "record"}
+  - {from: "heyden-of-the-goldenfoot", to: "silver-of-moonlight", label: "Silver welcomed Heyden into the guild and became his friend", evidence: "heyden-of-the-goldenfoot", type: "friendship"}
+  - {from: "heyden-of-the-goldenfoot", to: "dead-marshes", label: "Found challenging hunts and a chosen family in the Dead Marshes", evidence: "heyden-of-the-goldenfoot", type: "location"}
+  - {from: "dead-marshes", to: "hunters-guild", label: "Wayward Sun and the Hunters Guild are based among the marshes", evidence: "hunters-guild", type: "location"}
+  - {from: "gomo", to: "silver-of-moonlight", label: "Gomo directed Heyden to Silver as a trusted guild contact", evidence: "minor-characters", type: "record"}
+  - {from: "king-gerran-frozenroar", to: "king-gradvum-frozenroar", label: "Father and predecessor of Gradvum; died peacefully in 1982 AF", evidence: "minor-characters", type: "kinship"}
+  - {from: "king-gerran-frozenroar", to: "kel-maris", label: "Summoned Kel'Maris from Ilyanamel to instruct the young prince", evidence: "minor-characters", type: "history"}
+  - {from: "king-gerran-frozenroar", to: "beldir-willowrun", label: "Appointed Beldir to the royal council as Sentinel of the Seas", evidence: "minor-characters", type: "office"}
+  - {from: "kel-maris", to: "king-gradvum-frozenroar", label: "Taught Gradvum swordsmanship and guarded him as Lord Marshal", evidence: "kel-maris", type: "training"}
+  - {from: "kel-maris", to: "the-misfits", label: "Commissioned the companions to investigate deaths at Stanleyville", evidence: "kel-maris", type: "history"}
+  - {from: "kel-maris", to: "the-stalker", label: "The Stalker killed her during the investigation at Stanleyville", evidence: "the-stalker", type: "opposition"}
+  - {from: "cid-the-blood-king", to: "aldus-greystone-iii", label: "Cid was the later identity of Aldus, not a separate person", evidence: "cid-the-blood-king", type: "history"}
+  - {from: "cid-the-blood-king", to: "the-misfits", label: "The Misfits defeated the Blood King in the Shadowfell", evidence: "shadowfell-confrontation", type: "opposition"}
+  - {from: "jaaris", to: "cid-the-blood-king", label: "Jaaris served Cid after his earlier crimes against Sven's family", evidence: "jaaris", type: "office"}
+  - {from: "jaaris", to: "svendyal-shadowwhisper", label: "Led the fey who killed Sven's partner Tristan and son Kristofer", evidence: "jaaris", type: "opposition"}
+  - {from: "jaaris", to: "fo-gurn", label: "Restored Fo'Gurn through necromancy and attempted to enslave his will", evidence: "jaaris", type: "opposition"}
+  - {from: "zauks", to: "amara", label: "Amara killed Zauks from outside the illusions and freed her companions", evidence: "zauks-false-lives", type: "opposition"}
+  - {from: "zauks", to: "the-misfits", label: "Held members of the company in cocoons and subjected them to counterfeit lives", evidence: "zauks-false-lives", type: "opposition"}
+  - {from: "jinlin-vechon", to: "cid-the-blood-king", label: "Sought vengeance on Cid for a vampiric condition imposed by his experiments", evidence: "minor-villains-and-adversaries", type: "opposition"}
+  - {from: "jinlin-vechon", to: "independent-factions-of-the-misfits-era", label: "Founded the Wrath of Innocent to pursue the Blood King", evidence: "independent-factions-of-the-misfits-era", type: "founding"}
+  - {from: "jinlin-vechon", to: "ros-furband", label: "Ros delivered the captive Misfits to Jinlin aboard his pirate vessel", evidence: "ros-furband-jinlin-ordeal", type: "history"}
+  - {from: "karina", to: "cid-the-blood-king", label: "Served among Cid's lieutenants at the ruined temple", evidence: "minor-villains-and-adversaries", type: "office"}
+  - {from: "karina", to: "tellora-ebbenflow", label: "Murdered Tel'Lora's mother while seeking a spellbook and crystal", evidence: "minor-villains-and-adversaries", type: "opposition"}
+  - {from: "black-agnes-mudwallow", to: "cid-the-blood-king", label: "Served Cid as a night hag in the ruined temple affair", evidence: "minor-villains-and-adversaries", type: "office"}
+  - {from: "kingdom-of-avalor", to: "king-gradvum-frozenroar", label: "Gradvum rules the kingdom from Renada", evidence: "kingdom-of-avalor", type: "office"}
+  - {from: "heyden-of-the-goldenfoot", to: "kingdom-of-avalor", label: "Arrived with a Labos diplomatic delegation before joining the hunters", evidence: "heyden-of-the-goldenfoot", type: "history"}
