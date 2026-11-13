@@ -65,7 +65,7 @@ No single speech brought the crowns together. It took repeated persuasion and a 
 
 ## The gathering of crowns
 
-The coalition against Osmo emerged through agreements whose precise sequence is no longer known. They may have included passage for allied troops, shared scouts, supply arrangements, and promises to defend threatened settlements. Those examples are historical reconstructions of the period's practical needs, not the terms of a surviving treaty.
+The coalition against Osmo required agreements among rulers who had previously guarded their borders against one another. The allied armies needed roads, supplies, communication, and protection for the settlements they passed. Such practical demands tested the alliance long before the battle at Heroes Hill.
 
 What distinguished Rynhold's leadership was an understanding that resistance would fail if every ruler measured success solely by the security of his own borders.
 
@@ -91,7 +91,7 @@ The founding required a **second achievement**: negotiation of a lasting politic
 
 The complete provisions of the founding agreements have not survived. Historians nevertheless distinguish the process from the forcible annexation of all neighboring realms.
 
-In **1 After Founding (AF)**, the [[The Kingdom of Avalor|Kingdom of Avalor]] was established with Rynhold as its first sovereign. The Avalorian calendar takes its beginning from this settlement. The first year must not automatically be treated as the independently verified date of Osmo's death at Heroes Hill.
+In **1 After Founding (AF)**, the [[The Kingdom of Avalor|Kingdom of Avalor]] was established with Rynhold as its first sovereign. The Avalorian calendar begins with that political settlement, following the victory over Osmo at Heroes Hill.
 
 The founding is described in greater detail in [[The Unification of Avalor]].
 
@@ -109,11 +109,11 @@ Over time, Renada grew into a city of courtly ceremony and working districts. Th
 
 A kingdom held together only by admiration for one ruler is a fragile kingdom. In the years after unification, laws, defenses, trade obligations, and competing local rights required attention that no individual could provide alone.
 
-Rynhold founded the council known as **[[The Aegis]]**. Its original seven offices addressed responsibilities such as military defense, intelligence, public order, maritime affairs, finance, and sacred duty. The exact procedures of the earliest council are not fully reconstructed in surviving sources.
+Rynhold founded the council known as **[[The Aegis]]**. Its original **seven offices** brought counsel on military defense, intelligence, public order, maritime affairs, finance, and sacred duty into the king's government.
 
 The institution's importance was that it **could outlast its founder**. Rynhold's reign ended, but the council remained part of the political structure through which later sovereigns governed.
 
-In the Age of Ascendancy, the appointment of [[Tel'Lora Ebbenflow]] as High Wizard created an independent eighth seat. This later development should not be projected backward into Rynhold's original seven-member arrangement.
+Only in the Age of Ascendancy would [[Tel'Lora Ebbenflow]], appointed High Wizard under Gradvum, hold the council's **independent eighth seat**.
 
 The endurance of the Aegis expresses one of the founding reign's central achievements: unity needed institutions, not merely victories.
 
@@ -125,7 +125,7 @@ Rynhold's age is inseparable from the people whose actions made the kingdom poss
 
 The circumstances in which the Six first gathered remain debated. Some traditions credit Rynhold with recognizing the value of champions able to act beyond normal military structures. Others describe an independent fellowship developing from smaller groups whose paths crossed during the founding wars. Neither view is established as the sole authenticated account.
 
-It would be misleading to portray every member of the Six as a royal servant simply because their deeds helped secure Rynhold's kingdom. Their friendships, loyalties, and disagreements belonged to them as well as to Avalor's history.
+The Six helped secure Rynhold's kingdom, but their friendships, loyalties, and disagreements also belonged to the lives they led beyond the royal court.
 
 ## What he knew, and what later generations forgot
 
@@ -135,7 +135,7 @@ Rynhold **knew Jaznaar had not betrayed the fellowship**, although he did not kn
 
 The false legend took hold in later generations, as direct testimony receded and Cid's agents encouraged a story in which Aldus was the innocent savior and Jaznaar the saboteur.
 
-That distinction matters to Rynhold's biography. It would be inaccurate to make him the author of a lie that later harmed drow communities. It would be equally inaccurate to suggest that one king's knowledge automatically protected the kingdom from the manipulation of history after his lifetime.
+Rynhold did not condemn Jaznaar as the Betrayer. Yet his knowledge could not protect later generations from the false account fostered by Cid's agents—a lie that would deepen the persecution of drow communities long after the founding king's death.
 
 The correction of Jaznaar's reputation would come nearly two thousand years later, under [[King Gradvum Frozenroar]].
 

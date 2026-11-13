@@ -42,7 +42,7 @@ That makes him influential without turning the guild into a regiment with ranks 
 
 There are **whispers that Salt answers to someone called *the Ragged Man***. No one has established whether the Ragged Man is a real superior, a name used to frighten rivals, or something else. The rumor remains a rumor.
 
-Olivruch is one branch's home. **Other branches exist elsewhere across the world**, but their people, locations, and affairs are not part of Avalor's established history. Nor should the town's ordinary residents be confused with the thieves who have made it their meeting place.
+Olivruch is the Avalorian branch's home, while **other branches operate elsewhere in the world**. The Sea Serpents' presence does not make the town's ordinary residents members of the guild or participants in its affairs.
 
 ## The Clerics Guild
 
@@ -84,4 +84,4 @@ Two other guilds already have histories substantial enough to tell separately. [
 
 The academy is a school, distinct from the Bard Guild. And neither the hunters nor the bards are branches of the smaller guilds described here.
 
-The Silver Forge's founding and the names of Salt and the Ragged Man have added depth to these guilds, but both still have stories to tell. Their shared account can grow with the people who shape them, without dividing their histories into unnecessary volumes.
+The Silver Forge and the Sea Serpents remain very different presences in Avalor: one founded upon healing and respect across faiths, the other upon dangerous bargains and the cooperation of independent thieves. Together with the hunters and bards, they reveal how many forms of fellowship can take root beneath the lion banner.

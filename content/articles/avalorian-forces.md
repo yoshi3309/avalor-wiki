@@ -125,7 +125,7 @@ One circle might remain **closest to the queen**, another watch the way ahead an
 
 The arrangement also gives the order a close-knit character. Four women learn one another's strengths in detail; all twelve learn how their circles work together when time is short.
 
-**Nadja Akayrn**, a **female dragonborn**, commands Dina Hyanda. She is **one of the Twelve**, not an additional thirteenth guard. The choice of how the order selects its commander, and the individual stories of the other eleven women, belong to later chapters of its history.
+**Nadja Akayrn**, a **female dragonborn**, commands Dina Hyanda. She serves **as one of the Twelve**, sharing the duties and dangers of the women she leads. The order is small enough that the queen's safety depends on every member, not only the commander.
 
 ### In the queen's service
 
