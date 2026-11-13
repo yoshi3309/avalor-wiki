@@ -41,3 +41,7 @@ The searchable explorer draws only from a curated list of public article nodes a
 ## Enhancement roadmap
 
 See `docs/WIKI_ENHANCEMENT_ROADMAP.md` for the six-part running checklist. The six initial enhancement milestones are complete; later phases are planned independently.
+
+## Connections Explorer review (13 November 2026)
+
+The **Connections Explorer** is distinct from the visual family/fellowship Relationship Atlas. Its curated evidence-backed graph has been expanded to **60 nodes and 88 relationships**, adding Heyden, Gomo, Silver, Gerran, Jinlin, Kel'Maris and the Misfits-era adversaries. Retired biographies (Jinlin and Gerran) and the newly registered short character entries (Gomo and Silver) retain stable direct section links. Connections describe **documented relationships only**: e.g. King Gerran is Gradvum's father, but Jinlin's ancient opposition to Cid does not prove Jinlin's death. A separate source article is attached to each relation.
