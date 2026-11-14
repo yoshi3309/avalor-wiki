@@ -1,26 +1,33 @@
 ---
 title: Minor Heroes & Allies
 subtitle: The Supporting Lives of Avalor
-summary: Brief accounts of royal officers, loyal protectors, and other allies whose actions deserve a place in the record without requiring individual biographies.
+summary: Brief accounts of royal officers, loyal protectors, and other allies
+  whose actions deserve a place in the record without requiring individual
+  biographies.
 category: People & Legends
+image: /assets/uploads/minor-heroes-and-allies.png
 entry: BIO.059
 era: Age of the Misfits to the Present Age
-facts: |-
+facts: >-
   Record type: Collected minor character biographies
+
   Focus: Officers, royal protectors and supporting allies
-  Includes: Kurt Reyginald, Captain Funkin, Inspector Sihnion, Quill, Mira, Nimbus and Nadja Akayrn
+
+  Includes: Kurt Reyginald, Captain Funkin, Inspector Sihnion, Quill, Mira,
+  Nimbus and Nadja Akayrn
 related: avalorian-forces,kel-maris,king-gradvum-frozenroar,queen-melmiri,the-misfits,hydra-temple-disaster,the-stalker
-source: "Creator-approved Kel'Maris and Stalker/Hydra histories; Living Chronicle; Avalorian Forces and Queen Melmiri public records"
+source: Creator-approved Kel'Maris and Stalker/Hydra histories; Living
+  Chronicle; Avalorian Forces and Queen Melmiri public records
 featured: false
 illustrations:
-  - after: quill
+  - image: /assets/uploads/the-avalorian-forces.png
+    alt: An artist's depiction of Avalor's organized military forces
+    caption: The Avalorian Forces, as represented in the public gallery; this is not
+      a confirmed likeness of Quill or any other named officer.
+    after: quill
     paragraph: 1
     layout: inset-right
-    image: /assets/uploads/the-avalorian-forces.png
-    alt: An artist's depiction of Avalor's organized military forces
-    caption: "The Avalorian Forces, as represented in the public gallery; this is not a confirmed likeness of Quill or any other named officer."
 ---
-
 Avalor's history is shaped by people who did not lead famous fellowships or sit upon the throne. Some served the kingdom for years; others appear in the record only through a final duty. These **short biographies** preserve what is known without inventing lengthy private histories to fill the gaps.
 
 Each name below has a permanent section link. Readers looking for more extensive histories can follow the related accounts of [[The Avalorian Forces|Avalor's royal forces]], [[kel-maris|Kel'Maris]], and [[Queen Melmiri]].
