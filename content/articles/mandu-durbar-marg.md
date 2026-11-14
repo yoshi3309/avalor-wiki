@@ -1,8 +1,11 @@
 ---
 title: Mandu Durbar-Marg
 subtitle: The Painter Who Followed the Sea
-summary: A Goliath artist and traveler of the Hunters Guild, exiled from his northern clan for loving a Triton, who records the world's peoples in color while seeking a lost love.
+summary: A Goliath artist and traveler of the Hunters Guild, exiled from his
+  northern clan for loving a Triton, who records the world's peoples in color
+  while seeking a lost love.
 category: People & Legends
+image: /assets/uploads/mandu-durbar-marg.png
 entry: BIO.063
 era: Undated travels
 facts: |-
@@ -23,17 +26,22 @@ source: Creator-supplied history of Mandu Durbar-Marg (November 2026)
 featured: false
 callouts:
   - type: reflection
-    text: "The punishment drove Mandu from his people. It could not erase the cliffs on which he had learned to speak in color, or the person who had first answered from the sea."
+    text: The punishment drove Mandu from his people. It could not erase the cliffs
+      on which he had learned to speak in color, or the person who had first
+      answered from the sea.
     attribution: Editorial reflection on the exile
     after: the-cliff-and-the-eighteenth-birthday
     paragraph: 3
   - type: reflection
-    text: "Where a collector might have taken an object home, Mandu carried its colors and shapes in a journal. The distinction was not merely one of method, but of attention."
+    text: Where a collector might have taken an object home, Mandu carried its
+      colors and shapes in a journal. The distinction was not merely one of
+      method, but of attention.
     attribution: Editorial reflection on Mandu's travels
     after: a-world-recorded-in-color
     paragraph: 3
   - type: reflection
-    text: "He had destroyed portraits because he feared losing the truth of a living face. For Milos, he drew because he could no longer see that face again."
+    text: He had destroyed portraits because he feared losing the truth of a living
+      face. For Milos, he drew because he could no longer see that face again.
     attribution: Editorial reflection on the charcoal portrait
     after: the-charcoal-portrait
     paragraph: 3
@@ -45,7 +53,6 @@ highlight_sections:
   - section: the-charcoal-portrait
     tone: remembrance
 ---
-
 ## The artist of the Neck
 
 High along the **[[Spine of the World]]**, where the mountains narrow toward Avalor's northern coast, lies a country sometimes called **the Neck**. Few outsiders encountered the nomadic Goliath clan that moved along its windward slopes. Those who did might have remembered a people of strength, endurance, old customs, and fierce competition. They were less likely to know what the clan reserved for its artists.
