@@ -1,34 +1,51 @@
 ---
 title: The Beyond
 subtitle: A Word Without a World
-summary: An obscure term in ancient cosmological writings whose meaning remains disputed, and which responsible Avalorian scholars refuse to classify as a confirmed plane, power, or destination.
+summary: An obscure term in ancient cosmological writings whose meaning remains
+  disputed, and which responsible Avalorian scholars refuse to classify as a
+  confirmed plane, power, or destination.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-beyond.png
 entry: COS.005
 era: Before the Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Known evidence: Rare and fragmentary ancient references
-  Principal disagreement: Metaphor for the limits of knowledge or an unidentified reality
+
+  Principal disagreement: Metaphor for the limits of knowledge or an
+  unidentified reality
+
   Confirmed planar status: None
+
   Confirmed inhabitants or geography: None
+
   Scholarly document: The Unfinished Gloss
+
   Research practice: Shamman’s Tower Unplaced Index
+
   Principal commentators: Brother Halden Korr and Professor Xiomara Thal
+
   Current classification: Unresolved
 related: primordial-powers,planes-of-existence,aethrion,magic-and-the-arcane,shammans-tower,brother-halden-korr,professor-xiomara-thal,lady-miren-dast,faiths-and-gods-of-avalor
 source: Compendium I · Entry I.003, The Beyond, public Scholar's Account, pp. 30–33
+featured: false
 callouts:
   - type: reflection
-    text: "Not every word that survives from antiquity names a place. Sometimes it preserves a question whose original form has been lost."
+    text: Not every word that survives from antiquity names a place. Sometimes it
+      preserves a question whose original form has been lost.
     attribution: Editorial reflection on the word Beyond
     after: a-word-without-a-world
     paragraph: 3
   - type: note
+    text: The failure to describe a thing does not establish that the thing is
+      imaginary. Equally, the survival of a name cannot establish the thing's
+      reality. Both errors begin where inquiry becomes certainty too soon.
     scholar: professor-xiomara-thal
-    text: "The failure to describe a thing does not establish that the thing is imaginary. Equally, the survival of a name cannot establish the thing's reality. Both errors begin where inquiry becomes certainty too soon."
     after: a-metaphor-or-a-reality
     paragraph: 3
   - type: reflection
-    text: "The space left empty on the map is not a hidden road waiting for a bold traveler. It is the difference between what the archives possess and what someone has merely imagined."
+    text: The space left empty on the map is not a hidden road waiting for a bold
+      traveler. It is the difference between what the archives possess and what
+      someone has merely imagined.
     attribution: Editorial reflection on the limits of maps
     after: why-it-is-not-a-confirmed-plane
     paragraph: 3
@@ -39,9 +56,7 @@ highlight_sections:
     tone: remembrance
   - section: the-silence-beyond-the-answer
     tone: legacy
-featured: false
 ---
-
 ## A word without a world
 
 Ancient records have preserved countless names whose meanings no longer survive. Some once referred to cities and vanished kingdoms. Others belonged to gods, rituals, lost languages, or ideas abandoned by later generations.
