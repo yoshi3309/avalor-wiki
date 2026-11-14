@@ -1,8 +1,11 @@
 ---
 title: Ferris Rumbuckle
 subtitle: The Hunter Who Went Anyway
-summary: A curious and frequently frightened gnome hunter from Tumbledown, raised in a leatherworker's household after his ranger parents died defending their village, who now follows the trail of a headless rider.
+summary: A curious and frequently frightened gnome hunter from Tumbledown,
+  raised in a leatherworker's household after his ranger parents died defending
+  their village, who now follows the trail of a headless rider.
 category: People & Legends
+image: /assets/uploads/ferris-rumbuckle.png
 entry: BIO.064
 era: Undated travels
 facts: |-
@@ -24,17 +27,20 @@ source: Creator-supplied Ferris Rumbuckle history, November 2026
 featured: false
 callouts:
   - type: reflection
-    text: "The bow was not restored so completely that its damage disappeared. Ferris made it useful again without pretending that nothing had happened to it."
+    text: The bow was not restored so completely that its damage disappeared. Ferris
+      made it useful again without pretending that nothing had happened to it.
     attribution: Editorial reflection on Rowena's bow
     after: a-bow-that-could-fire-again
     paragraph: 3
   - type: reflection
-    text: "Ferris did not discover that fear was an illusion. He discovered that fear could accompany the decision to stand between danger and someone he loved."
+    text: Ferris did not discover that fear was an illusion. He discovered that fear
+      could accompany the decision to stand between danger and someone he loved.
     attribution: Editorial reflection on courage in Tumbledown
     after: the-answer-behind-him
     paragraph: 3
   - type: reflection
-    text: "Thaddius could not make the wilderness safe for his grandson. He could, at least, make sure the leather would hold."
+    text: Thaddius could not make the wilderness safe for his grandson. He could, at
+      least, make sure the leather would hold.
     attribution: Editorial reflection on the grandfather's farewell
     after: the-leather-that-held
     paragraph: 3
@@ -46,7 +52,6 @@ highlight_sections:
   - section: the-leather-that-held
     tone: legacy
 ---
-
 ## A boy with more questions than courage
 
 In the woods around **Tumbledown**, a small gnome village near the edges of the **Feywild**, strange sounds could send a child hurrying home before dusk. They could also send **Ferris Rumbuckle** looking for their source.
