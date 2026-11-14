@@ -278,7 +278,7 @@ assert "Addendum 008" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").rea
 # Addendum 005: keep retrospective truths aligned across reference articles.
 assert "Fo'Gurn chose to protect Lavitz" in source("death-souls-and-the-afterlife")
 assert "his final rest" in source("death-souls-and-the-afterlife")
-assert "roughly twenty years afterward" in source("death-souls-and-the-afterlife")
+assert "roughly twenty years afterward" not in source("death-souls-and-the-afterlife")
 assert "## Two interventions in the Misfits' campaign" in source("samuel-the-devoted")
 assert "At the ruined temple near Stanleyville" in source("samuel-the-devoted")
 assert "Later, during the final struggle in the Shadowfell" in source("samuel-the-devoted")
