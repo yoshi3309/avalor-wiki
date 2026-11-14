@@ -14,7 +14,7 @@ facts: |-
   Arms: Spear and shield
   Notable site: Submerged ruins near the delta caverns of Vey'thal
   Later commission: Recruited by Lord Marshal Lavitz Shawe
-related: lavitz-shawe,planes-of-existence,magic-and-the-arcane,kingdom-of-avalor
+related: lavitz-shawe,planes-of-existence,magic-and-the-arcane,kingdom-of-avalor,blackwater-bay
 source: Creator-supplied Naeris Thorne backstory for the Blackwater Bay crew (November 2026)
 featured: false
 callouts:
