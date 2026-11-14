@@ -13,7 +13,7 @@ facts: |-
   Weapon: Charm Twister, a bow fashioned from a black-thornwood broom
   Haunting: Dreams of a walking cottage in the Dead Marshes
   Later commission: Recruited by Lord Marshal Lavitz Shawe
-related: dead-marshes,lavitz-shawe,hunters-guild,primordial-powers,planes-of-existence
+related: dead-marshes,lavitz-shawe,planes-of-existence,blackwater-bay
 source: Creator-supplied Silas Dreadmore backstory for the Blackwater Bay crew (November 2026)
 featured: false
 callouts:
