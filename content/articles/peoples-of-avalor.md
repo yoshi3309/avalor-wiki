@@ -1,35 +1,57 @@
 ---
 title: The Peoples of Avalor
 subtitle: Of Ancestry, Homeland, and Belonging
-summary: A cultural history of Avalor's many peoples, from forest communities and mountain halls to drow families, northern tribes, and mixed-ancestry cities.
+summary: A cultural history of Avalor's many peoples, from forest communities
+  and mountain halls to drow families, northern tribes, and mixed-ancestry
+  cities.
 category: History & Chronicles
+image: /assets/uploads/the-peoples-of-avalor.png
 entry: CUL.001
 era: Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Scope: Peoples, ancestries, communities, and belonging across Avalor
+
   Founding principle: Union among distinct preexisting kingdoms and peoples
+
   Major ancestral territory: Forest of the Fey
+
   Significant historical accord: Elven Concord
+
   Drow historical records: Books of Names
+
   Firbolg remembrance: Kelsalor’s Waystones; Ringtree oral histories
+
   Northern communities: Northern Desert Tribes, not a single ancestry
-  Present legal position: Restored legal equality after earlier anti-drow persecution
+
+  Present legal position: Restored legal equality after earlier anti-drow
+  persecution
+
   Central principle: Ancestry does not determine allegiance, faith, or character
 related: kingdom-of-avalor,renada,forest-of-the-fey,ringtree-clan,the-faiths-of-families-and-peoples,rynhold-frozenroar,house-frozenroar,arnauds-edicts,reinas-reforms,jaznaar,jaznaars-vindication,lavitz-shawe,heavens-heart,queen-melmiri,the-sacred-balance
-source: Compendium I · Entry I.009, The Peoples of Avalor, public Scholar’s Account; Compendium II · Entry II.001, public Scholar’s Account; The Living Chronicle, Chapters II–V; creator-approved Ringtree Clan history (November 2026)
+source: Compendium I · Entry I.009, The Peoples of Avalor, public Scholar’s
+  Account; Compendium II · Entry II.001, public Scholar’s Account; The Living
+  Chronicle, Chapters II–V; creator-approved Ringtree Clan history (November
+  2026)
+featured: false
 callouts:
   - type: note
+    text: To describe a people only through the injuries inflicted upon them is to
+      omit the births, work, laughter, devotion, and everyday courage by which
+      their lives have always continued.
     scholar: professor-xiomara-thal
-    text: "To describe a people only through the injuries inflicted upon them is to omit the births, work, laughter, devotion, and everyday courage by which their lives have always continued."
     after: the-drow-and-the-burden-of-the-betrayer
     paragraph: 3
   - type: reflection
-    text: "A boundary can be acknowledged by a king and still require two communities to walk it together. The Concord was a settlement; the Concord Walk is a decision to continue honoring it."
+    text: A boundary can be acknowledged by a king and still require two communities
+      to walk it together. The Concord was a settlement; the Concord Walk is a
+      decision to continue honoring it.
     attribution: Editorial reflection on the Elven Concord
     after: elves-and-the-forest-of-the-fey
     paragraph: 4
   - type: reflection
-    text: "The lion banner did not create the people beneath it. At its best, the kingdom offered them a way to share a future without demanding they forget their separate pasts."
+    text: The lion banner did not create the people beneath it. At its best, the
+      kingdom offered them a way to share a future without demanding they forget
+      their separate pasts.
     attribution: Editorial reflection on the founding
     after: what-it-means-to-belong
     paragraph: 3
@@ -40,9 +62,7 @@ highlight_sections:
     tone: turning-point
   - section: what-it-means-to-belong
     tone: legacy
-featured: false
 ---
-
 ## A kingdom of more than one people
 
 The people of [[The Kingdom of Avalor|Avalor]] did not begin their histories when the lion banner was first raised. Some belonged to ancient settlements that eventually accepted the new crown. Others came from kingdoms whose rulers had once considered themselves rivals. Still others lived in forests, mountains, marshlands, and coastal towns where the affairs of kings were distant concerns.
