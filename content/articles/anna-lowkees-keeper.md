@@ -5,6 +5,7 @@ summary: Anna was the guise of Erevan Ilesere, who traveled with the Misfits as
   a seemingly vulnerable companion, carried the Emerald of Armanti, and revealed
   his identity after their victory.
 category: People & Legends
+image: /assets/uploads/anna-lowkees-keeper.png
 entry: BIO.037
 era: Age of the Misfits
 facts: |-
