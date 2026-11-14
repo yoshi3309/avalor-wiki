@@ -19,9 +19,9 @@ facts: |-
   Exile: Banishment from his clan at eighteen
   Magical benefactor: An unnamed Marid
   Notable possession: Shell pendant marked with ancient glyphs
-  Friend remembered: Milos, a childhood companion
+  Childhood friend: Milos Digan, later found alive in the Crucible
   Associated places: The Neck; Stanleyville; Stannisport (through Joy's hopes)
-related: hunters-guild,spine-of-the-world,stanleyville,stannisport,wayword-sun,dead-marshes
+related: hunters-guild,spine-of-the-world,stanleyville,stannisport,wayword-sun,dead-marshes,minor-heroes-and-allies
 source: Creator-supplied history of Mandu Durbar-Marg (November 2026)
 featured: false
 callouts:
@@ -40,8 +40,8 @@ callouts:
     after: a-world-recorded-in-color
     paragraph: 3
   - type: reflection
-    text: He had destroyed portraits because he feared losing the truth of a living
-      face. For Milos, he drew because he could no longer see that face again.
+    text: He had destroyed portraits for fear of losing a remembered face. With
+      Milos, he drew because the news of his friend's death made every detail feel precious.
     attribution: Editorial reflection on the charcoal portrait
     after: the-charcoal-portrait
     paragraph: 3
@@ -129,17 +129,17 @@ Those abilities belong naturally beside a guild tradition that values patience, 
 
 ## A night of laughter in Stanleyville
 
-Long after he had left the Neck, Mandu encountered a familiar face in **[[Stanleyville]]**. **Milos**, a childhood friend, was there with **Joy**, a pregnant Tiefling whose hand he held. Milos had departed the clan for Joy before Mandu's banishment and had not witnessed the judgment against his friend.
+Long after he had left the Neck, Mandu encountered a familiar face in **[[Stanleyville]]**. **[[minor-heroes-and-allies#milos-digan|Milos Digan]]**, a childhood friend, was there with **Joy**, a pregnant Tiefling whose hand he held. Milos had departed the clan for Joy before Mandu's banishment and had not witnessed the judgment against his friend.
 
 The three spent the night talking, drinking, and laughing. Milos recalled his hunting adventures, to Joy's considerable annoyance. Joy spoke of the quieter life she hoped they might build near **[[Stannisport]]**. With them, Mandu rediscovered a companionship he had believed banishment might have severed forever.
 
 His clan had rejected him, but **not everyone he had known had done so**. For one evening the years of separation seemed less important than the ease with which old friends could speak to one another.
 
-It was the last time Mandu saw Milos.
+For years afterward, it was the last time Mandu had seen Milos.
 
 ## The charcoal portrait
 
-A little more than a year later, **a letter arrived from Joy**. Milos was dead.
+A little more than a year later, **a letter arrived from Joy** with word that Milos was dead. Mandu had no reason then to question the report.
 
 Mandu returned to the same inn in Stanleyville and took the same table where they had laughed together. He sat with an untouched ale in one hand and Joy's letter in the other. As the fire sank low, he reached into the cold hearth and drew out a piece of charcoal.
 
@@ -147,6 +147,8 @@ On the back of the letter, he began to draw Milos from memory. First came the ou
 
 When the portrait was finished, he laid it upon the table and remained there until morning. He watched the face of the friend he would not see again, and he wept.
 
-For years, Mandu had destroyed portraits of Kathis for fear that paint might distort the memory of someone he hoped to find. With Milos there could be no future meeting to correct a mistaken line. All he had was memory, charcoal, and the time it took to draw.
+For years, Mandu had destroyed portraits of Kathis for fear that paint might distort the memory of someone he hoped to find. Believing Milos lost forever, Mandu thought there could be no future meeting to correct a mistaken line. All he had that night was memory, charcoal, and the time it took to draw.
 
 The boy who had learned to speak through color in the Neck had carried that language across the world. On that night in Stanleyville, with no pigments and no sea before him, **it was still how he remembered someone he loved**.
+
+Later, the hunters learned that Milos had been **found alive in the Crucible as the Den Mother's champion**, after a vision of his apparent petrification and destruction had seemed to confirm his death. Mandu and Milos had not yet spoken again. The discovery did not make the letter, the night of grief, or the charcoal portrait any less real; it changed what Mandu could know about the fate of the friend he mourned.
