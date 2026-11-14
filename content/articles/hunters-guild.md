@@ -131,6 +131,8 @@ Among the hunters who have found a place in the guild is **[[heyden-of-the-golde
 
 **[[ferris-rumbuckle|Ferris Rumbuckle]]**, a gnome hunter from Tumbledown, came to the fellowship with a repaired longbow that had belonged to his mother and the daggers of his father. Both parents died defending their village when he was a child; years later, a headless rider attacked Tumbledown and gravely wounded the grandparents who raised him. Fearful but determined, Ferris left home to pursue the rider, wearing leather made by his grandfather and carrying the skills his family had taught him.
 
+**[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall]]**, daughter of Malikeah and Mera, leads a four-person party with **[[minor-heroes-and-allies#milos-digan|Milos Digan]]**, **[[minor-heroes-and-allies#ko-trailseeker|Ko Trailseeker]]**, and **[[minor-heroes-and-allies#daki-kallista|Daki Kallista]]**. The squad's disappearance in the [[Dead Marshes]] troubled those who knew them. Milos was reported dead, but later evidence overturned that report: he was found alive in the Crucible as the Den Mother's champion. The other members' fates remain uncertain in the surviving account.
+
 The old refuge is therefore more than a base from which dangerous work begins. It remains a place of belonging for those who return to it, and a reminder that the family Faelynn founded must be protected as carefully as the people its hunters serve.
 
 Hunters continue to journey into the Dead Marshes to pay their respects and ask Faelynn to watch over them. Their founder's memory lives in more than an emblem; it survives in the decision to protect the next stranger found alone on the road.
