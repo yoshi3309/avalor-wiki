@@ -1,8 +1,10 @@
 ---
 title: Death, Souls, and the Afterlife
 subtitle: The Many Roads of the Departed
-summary: How Avalorians mourn, understand souls, approach resurrection, distinguish ghosts from echoes, and honor the rights of the dead.
+summary: How Avalorians mourn, understand souls, approach resurrection,
+  distinguish ghosts from echoes, and honor the rights of the dead.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/death-souls-and-the-afterlife.png
 entry: COS.003
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -14,16 +16,22 @@ facts: |-
   Important distinction: Genuine ghost versus supernatural echo
   Ethical concern: Consent, remains, and the rights of departed persons
 related: planes-of-existence,magic-and-the-arcane,jack-of-stanleyville,fo-gurn,jaaris,aldus-greystone-iii,blood-sickness,heavens-heart,threefold-devotion,lathander-and-the-dawn,jaznaar
-source: Compendium I · Entry I.007, Death, Souls, and the Afterlife, public Scholar's Account, pp. 63–70; The Living Chronicle, Chapter VI
+source: Compendium I · Entry I.007, Death, Souls, and the Afterlife, public
+  Scholar's Account, pp. 63–70; The Living Chronicle, Chapter VI
+featured: false
 callouts:
   - type: reflection
-    text: "When return from death is possible but not guaranteed, grief gains a terrible uncertainty. The living may be asked to hope without being promised that hope can be fulfilled."
+    text: When return from death is possible but not guaranteed, grief gains a
+      terrible uncertainty. The living may be asked to hope without being
+      promised that hope can be fulfilled.
     attribution: Editorial reflection on resurrection
     after: resurrection-and-the-known-wish
     paragraph: 3
   - type: note
+    text: An apparition that remembers is not automatically a person, and an
+      apparition that frightens us is not automatically without rights. The
+      distinction demands evidence and care.
     scholar: professor-xiomara-thal
-    text: "An apparition that remembers is not automatically a person, and an apparition that frightens us is not automatically without rights. The distinction demands evidence and care."
     after: ghosts-and-echoes
     paragraph: 2
 highlight_sections:
@@ -33,9 +41,7 @@ highlight_sections:
     tone: turning-point
   - section: the-duties-of-those-who-remain
     tone: legacy
-featured: false
 ---
-
 ## Death among the living
 
 Death comes to the farms and workshops of Avalor as readily as its palaces. Yet the kingdom inhabits a world in which powerful healing, lingering spirits, and the possibility of resurrection complicate the ordinary meaning of a final farewell.
