@@ -1,8 +1,10 @@
 ---
 title: The Geography of Avalor
 subtitle: Forests, Crossings, and Regional Names
-summary: A guide to the smaller named landscapes of Avalor, including the King's Forest, the Forest of the Westfold, and the Drought.
+summary: A guide to the smaller named landscapes of Avalor, including the King's
+  Forest, the Forest of the Westfold, and the Drought.
 category: Kingdoms & Places
+image: /assets/uploads/the-geography-of-avalor.png
 entry: LOC.041
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -11,10 +13,11 @@ facts: |-
   The Drought: Region crossed by the Ferrymen
   Scope: Named geographic areas within Avalor
 related: lesser-settlements-of-avalor,briyans-autumn,dead-marshes,great-desert,forest-of-the-fey,kingdom-of-avalor,kel-maris,great-cathedral
-source: World Anvil, Alexiverde, Briyan's Autumn, and Ferrymen Village (creator-supplied descriptions); confirmed editorial consolidation (November 2026)
+source: World Anvil, Alexiverde, Briyan's Autumn, and Ferrymen Village
+  (creator-supplied descriptions); confirmed editorial consolidation (November
+  2026)
 featured: false
 ---
-
 ## A kingdom beyond its great landmarks
 
 The great [[Spine of the World]], the [[Dead Marshes]], and the [[Forest of the Fey]] have histories large enough to fill their own volumes. Other names are woven more quietly through the lives of farmers, travelers, merchants, and the people who know the local roads.
