@@ -1,8 +1,10 @@
 ---
 title: Lathander and the Devotion of the Dawn
 subtitle: Hope, Renewal, and the First Loaf
-summary: How Avalorian devotees of the Morninglord mark new beginnings through dawn worship, care for neighbors, and the example of Petris.
+summary: How Avalorian devotees of the Morninglord mark new beginnings through
+  dawn worship, care for neighbors, and the example of Petris.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/lathander-and-the-devotion-of-the-dawn.png
 entry: REL.002
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Historical devotee: Petris of the Six
   Organization: Diverse local and family traditions
 related: faiths-and-gods-of-avalor,petris,the-six,threefold-devotion
-source: Compendium I · Entry I.004, Section V, public Scholar's Account; The Living Chronicle, Chapter III
+source: Compendium I · Entry I.004, Section V, public Scholar's Account; The
+  Living Chronicle, Chapter III
 featured: false
 ---
-
 ## A beginning worth honoring
 
 Among Avalor's many religious traditions, the worship of **Lathander**, the Morninglord, places particular importance upon the promise of a new beginning. Those who honor him speak of renewal, restoration after suffering, and the courage required to begin again when an earlier hope has been lost.
