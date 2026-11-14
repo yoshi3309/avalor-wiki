@@ -13,10 +13,11 @@ facts: |-
   Calling: Spirit bard
   Home: Wayward Sun, Dead Marshes
   Spouse: Malikeah Ashenfall
+  Daughter: Blithe Ashenfall, Eldritch Knight
   Stewardship: Equal partner in the Wayward Sun's operations
   Known for: Curiosity, magical ingenuity, hopeful disposition
   Close bond: Maternal affection for Hope (Amber)
-related: malikeah,hunters-guild,wayword-sun,faelynn,dead-marshes
+related: malikeah,hunters-guild,wayword-sun,faelynn,dead-marshes,minor-heroes-and-allies
 source: The Living Chronicle, Chapter V; Compendium II · Entry II.003, public
   Scholar's Account; creator-supplied Ashenfall household history
 featured: false
@@ -52,6 +53,8 @@ Mera maintains the [[Wayward Sun]] **as an equal partner with her husband, [[Mal
 Their differences are part of the strength of the household. Neither is merely the other's support. Together they make the refuge both a center of operations and a place to which exhausted hunters can return.
 
 A hall that is only a place to prepare for the next danger may slowly become indistinguishable from a barracks. Mera helps preserve something more human: conversation, humor, affection and the permission to feel safe, however briefly, among companions who understand the cost of the work.
+
+Malikeah and Mera also have a daughter, **[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall]]**, a pragmatic Eldritch Knight who grew up in the guild and came to lead a party of four hunters. Blithe and her companions were reported missing in the Dead Marshes. Her disappearance remains unresolved, adding a particular sorrow to the wider uncertainties faced by the Ashenfall household.
 
 ## Hope and the crow called Pecker
 
