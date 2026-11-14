@@ -32,6 +32,17 @@ groups:
       - fo-gurn
       - anna-lowkees-keeper
       - jack-of-stanleyville
+  - id: blackwater-bay
+    title: Blackwater Bay Crew
+    eyebrow: OPERATIVES OF THE LORD MARSHAL
+    icon: "⚓"
+    description: The unlikely specialists recruited by Lavitz Shawe for a maritime undertaking.
+    articles:
+      - silas-dreadmore
+      - notfred
+      - naeris-thorne
+      - mg-the-fixer
+      - ambrose-burntwood
   - id: crown
     title: Crown & Kingdom
     eyebrow: THE PEOPLE WHO GOVERN
