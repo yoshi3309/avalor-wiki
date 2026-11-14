@@ -19,7 +19,7 @@ facts: |-
   Heirlooms: Rowena's repaired longbow; Graham's daggers
   Final gift from home: Protective leather made by Pawpaw
   Pursuit: The headless rider who attacked Tumbledown
-related: hunters-guild,wayword-sun,dead-marshes,planes-of-existence,forest-of-the-fey,mandu-durbar-marg,heyden-of-the-goldenfoot
+related: tumbledown,hunters-guild,wayword-sun,dead-marshes,planes-of-existence,forest-of-the-fey,mandu-durbar-marg,heyden-of-the-goldenfoot
 source: Creator-supplied Ferris Rumbuckle history, November 2026
 featured: false
 callouts:
@@ -49,7 +49,7 @@ highlight_sections:
 
 ## A boy with more questions than courage
 
-In the woods around **Tumbledown**, a small gnome village near the edges of the **Feywild**, strange sounds could send a child hurrying home before dusk. They could also send **Ferris Rumbuckle** looking for their source.
+In the woods around **[[Tumbledown]]**, a small gnome village near the edges of the **Feywild**, strange sounds could send a child hurrying home before dusk. They could also send **Ferris Rumbuckle** looking for their source.
 
 Ferris was curious about almost everything and frightened of a surprising amount of it. An unfamiliar track beneath wet leaves might make him imagine the worst creature the forest could conceal. He would hesitate, consider turning back, and then realize he could not bear to leave the question unanswered.
 
