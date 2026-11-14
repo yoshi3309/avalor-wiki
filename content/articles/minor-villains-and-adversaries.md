@@ -1,8 +1,10 @@
 ---
 title: Minor Villains & Adversaries
 subtitle: Smaller Shadows in the Misfits' History
-summary: Short biographies of Cid's enforcers, opportunistic captors, and other opponents whose roles mattered without requiring complete life histories.
+summary: Short biographies of Cid's enforcers, opportunistic captors, and other
+  opponents whose roles mattered without requiring complete life histories.
 category: People & Legends
+image: /assets/uploads/minor-villains-and-adversaries.png
 entry: BIO.060
 era: Age of the Misfits
 facts: |-
@@ -10,10 +12,10 @@ facts: |-
   Includes: Karina, Black Agnes Mudwallow, Ros Furband and Jinlin Vechon
   Related major adversaries: Cid, Jaaris, Zauks and Noki/Noke
 related: cid-the-blood-king,jaaris,zauks,noki-the-sheep,independent-factions-of-the-misfits-era,hydra-temple-disaster,ros-furband-jinlin-ordeal,the-misfits
-source: "Master Canon Bible, Misfits-era accounts; Living Chronicle; creator-approved supporting-character additions (November 2026)"
+source: Master Canon Bible, Misfits-era accounts; Living Chronicle;
+  creator-approved supporting-character additions (November 2026)
 featured: false
 ---
-
 Not every adversary in [[The Misfits]]' history needs a separate, exhaustive biography. Some are remembered through a crime, a contract, or the danger they represented in a single adventure. These are **brief accounts**, not conjectural life histories.
 
 The Blood King, [[Jaaris]], [[Zauks]], and [[noki-the-sheep|Noki/Noke]] retain their own articles because their histories span larger conflicts or still matter to Avalor's present. The figures below, including [[jinlin-vechon|Jinlin Vechon]], have permanent links to their individual sections.
