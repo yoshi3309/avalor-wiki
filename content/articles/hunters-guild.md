@@ -23,7 +23,7 @@ facts: >-
   creatures
 
   Character: Long-lived fellowship of wilderness specialists
-related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot,minor-characters,distant-lands-of-the-hunter,mandu-durbar-marg
+related: malikeah,mera-ashenfall,faelynn,wayword-sun,dead-marshes,forest-of-the-fey,cathedral-paladins,the-six,heyden-of-the-goldenfoot,minor-characters,distant-lands-of-the-hunter,mandu-durbar-marg,ferris-rumbuckle
 source: The Living Chronicle, Chapters II–III and V; Compendium II · II.003;
   creator-approved Faelynn World Anvil backstory and expansion (November 2026)
 callouts:
@@ -128,6 +128,8 @@ At the [[Wayward Sun]], Malikeah maintains the refuge in **equal partnership wit
 Among the hunters who have found a place in the guild is **[[heyden-of-the-goldenfoot|Heyden of the Goldenfoot]]**, a Leonin prince of Labos who came to the Dead Marshes with a coin given to him by the halfling hunter Gomo. Known in the guild as **Shadow**, Heyden learned that belonging to a family of hunters meant mourning those who did not return, not merely celebrating the chase. His arrival is one chapter in the guild's continuing history, not an account of its final fate.
 
 **[[mandu-durbar-marg|Mandu Durbar-Marg]]**, a Goliath painter from the northern Neck, also belongs to the fellowship. Exiled from his clan, he traveled among coastal and island communities, preserving their traditions in painted journals while searching for Kathis, the Triton he loved. His careful observation and knowledge of different peoples offer a distinct kind of strength within the family of hunters.
+
+**[[ferris-rumbuckle|Ferris Rumbuckle]]**, a gnome hunter from Tumbledown, came to the fellowship with a repaired longbow that had belonged to his mother and the daggers of his father. Both parents died defending their village when he was a child; years later, a headless rider attacked Tumbledown and gravely wounded the grandparents who raised him. Fearful but determined, Ferris left home to pursue the rider, wearing leather made by his grandfather and carrying the skills his family had taught him.
 
 The old refuge is therefore more than a base from which dangerous work begins. It remains a place of belonging for those who return to it, and a reminder that the family Faelynn founded must be protected as carefully as the people its hunters serve.
 
