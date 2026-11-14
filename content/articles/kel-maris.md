@@ -1,8 +1,11 @@
 ---
-title: "Kel'Maris"
-subtitle: "The Lion's Shadow"
-summary: "High-elven swordmaster of Ilyanamel, Gradvum Frozenroar's teacher and longtime protector, and the Lord Marshal killed by the Stalker at Stanleyville."
+title: Kel'Maris
+subtitle: The Lion's Shadow
+summary: High-elven swordmaster of Ilyanamel, Gradvum Frozenroar's teacher and
+  longtime protector, and the Lord Marshal killed by the Stalker at
+  Stanleyville.
 category: People & Legends
+image: /assets/uploads/kelmaris.png
 entry: BIO.050
 era: Late reign of Gerran to the Age of the Misfits
 facts: |-
@@ -21,15 +24,21 @@ facts: |-
   Funeral: Three days at the Great Cathedral; private cremation
   Final resting place: Ashes scattered in the King's Forest
 related: king-gradvum-frozenroar,lavitz-shawe,the-stalker,stanleyville,the-first-commission,golgoroth-second-commission,avalorian-forces,great-cathedral,the-misfits
-source: "Creator-supplied Kel'Maris backstory, November 12, 2026; corrected public history of the Misfits"
+source: Creator-supplied Kel'Maris backstory, November 12, 2026; corrected
+  public history of the Misfits
+featured: false
 callouts:
   - type: reflection
-    text: "For decades the king scarcely stood without the Lion's Shadow nearby. Her absence would be felt not only in the defenses of the throne, but in the trust she had placed in an unknown fellowship."
+    text: For decades the king scarcely stood without the Lion's Shadow nearby. Her
+      absence would be felt not only in the defenses of the throne, but in the
+      trust she had placed in an unknown fellowship.
     attribution: Editorial reflection on the Lion's Shadow
     after: the-lion-s-shadow
     paragraph: 2
   - type: reflection
-    text: "Kel'Maris did not live to see the adventurers she first entrusted with royal service become Avalor's celebrated champions. The judgment that sent them onto the road became part of the legacy she left behind."
+    text: Kel'Maris did not live to see the adventurers she first entrusted with
+      royal service become Avalor's celebrated champions. The judgment that sent
+      them onto the road became part of the legacy she left behind.
     attribution: Editorial reflection on her royal commissions
     after: death-at-stanleyville
     paragraph: 2
@@ -38,9 +47,7 @@ highlight_sections:
     tone: legacy
   - section: death-at-stanleyville
     tone: remembrance
-featured: false
 ---
-
 ## A swordswoman from Ilyanamel
 
 **Kel'Maris** came from **[[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]]**, an elven village whose name would become familiar to the courts of Avalor through one of its daughters. She was the first daughter of a prominent elven family, raised in a tradition that valued mastery of arms. She trained from an early age with several kinds of weaponry, although two blades together became her particular distinction.
