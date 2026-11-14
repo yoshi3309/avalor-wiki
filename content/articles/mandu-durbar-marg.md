@@ -40,8 +40,8 @@ callouts:
     after: a-world-recorded-in-color
     paragraph: 3
   - type: reflection
-    text: He had destroyed portraits because he feared losing the truth of a living
-      face. For Milos, he drew because he could no longer see that face again.
+    text: He had destroyed portraits for fear of losing a remembered face. With
+      Milos, he drew because the news of his friend's death made every detail feel precious.
     attribution: Editorial reflection on the charcoal portrait
     after: the-charcoal-portrait
     paragraph: 3
