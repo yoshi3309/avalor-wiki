@@ -1,29 +1,46 @@
 ---
 title: Magic and the Arcane
 subtitle: Power, Inquiry, and Responsibility
-summary: The traditions, schools, institutions, and ethical questions of magic in Avalor, where extraordinary power is real but never a substitute for judgment.
+summary: The traditions, schools, institutions, and ethical questions of magic
+  in Avalor, where extraordinary power is real but never a substitute for
+  judgment.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/magic-and-the-arcane.png
 entry: COS.004
 era: Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Common approaches: Arcane, divine, primal, innate
-  Schools: Abjuration; conjuration; divination; enchantment; evocation; illusion; necromancy; transmutation
+
+  Schools: Abjuration; conjuration; divination; enchantment; evocation;
+  illusion; necromancy; transmutation
+
   Universal Weave: A matter of scholarly debate
+
   Major research institution: Shamman’s Tower
+
   Historical repository: Great Library of Aldus Greystone
+
   Royal adviser: Tel'Lora Ebbenflow, High Wizard and eighth seat of the Aegis
+
   Research practices: Second Witness; Lantern Ledger
+
   Core distinction: Cost, limitation, and consequence
 related: aethrion,the-beyond,planes-of-existence,death-souls-and-the-afterlife,shammans-tower,tellora-ebbenflow,great-library-aldus-greystone,the-aegis,aldus-greystone-iii,blood-sickness,jack-of-stanleyville,jaznaar
-source: Compendium I · Entry I.008, Magic and the Arcane, public Scholar's Account, pp. 75–83; The Living Chronicle, Chapters III and VI–VII
+source: Compendium I · Entry I.008, Magic and the Arcane, public Scholar's
+  Account, pp. 75–83; The Living Chronicle, Chapters III and VI–VII
+featured: false
 callouts:
   - type: note
+    text: A school of magic describes a method, not a verdict on a practitioner's
+      character. Ethical judgment must examine what the working accomplishes and
+      whom it harms.
     scholar: professor-xiomara-thal
-    text: "A school of magic describes a method, not a verdict on a practitioner's character. Ethical judgment must examine what the working accomplishes and whom it harms."
     after: eight-schools-and-more-than-one-tradition
     paragraph: 3
   - type: reflection
-    text: "One spell can save a life. A page containing another can take one from a child who never knew it was a spell. Magic demands attention not only to power, but to the people upon whom that power acts."
+    text: One spell can save a life. A page containing another can take one from a
+      child who never knew it was a spell. Magic demands attention not only to
+      power, but to the people upon whom that power acts.
     attribution: Editorial reflection on Stanleyville
     after: wonders-and-ordinary-lives
     paragraph: 3
@@ -34,9 +51,7 @@ highlight_sections:
     tone: turning-point
   - section: the-responsibilities-of-the-learned
     tone: legacy
-featured: false
 ---
-
 ## Wonders and ordinary lives
 
 Magic in Avalor is neither so rare as to belong only to legends nor so common that farming, trade, and ordinary labor have ceased to matter.
