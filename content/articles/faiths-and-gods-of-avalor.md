@@ -1,8 +1,10 @@
 ---
 title: The Faiths and Gods of Avalor
 subtitle: Devotion Across a Diverse Kingdom
-summary: The temples, teachings, and daily customs through which the peoples of Avalor understand duty, hope, and the divine.
+summary: The temples, teachings, and daily customs through which the peoples of
+  Avalor understand duty, hope, and the divine.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/faiths-and-gods-of-avalor.png
 entry: I.004
 era: Age of Ascendancy
 facts: |-
@@ -11,10 +13,10 @@ facts: |-
   Notable traditions: Lathander, Corellon, Moradin, Eilistraee
   Ancient cosmology: The Creator, the Formless One, Her, and the One Below
 related: the-beyond,aethrion,primordial-powers,threefold-devotion,lathander-and-the-dawn,the-sacred-balance,the-faiths-of-families-and-peoples,cathedral-paladins,great-cathedral,petris
-source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II · Entry II.001
+source: Compendium I · Entry I.004, public Scholar’s Account; Compendium II ·
+  Entry II.001
 featured: false
 ---
-
 ## The many forms of devotion
 
 Religion in Avalor is woven into daily life through temples, family traditions, sacred obligations, and acts of service. Though the [[The Kingdom of Avalor|kingdom]] is home to influential religious institutions, its peoples do not share a single manner of worship. Faith may be expressed in formal rites, in care for those without shelter, in the work of a craftsman, or in the remembrance of those who came before.
