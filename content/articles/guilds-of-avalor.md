@@ -16,7 +16,7 @@ facts: |-
   Silver Forge disciplines: Healing Hand; Guiding Light; Shield of Mercy
   Other notable guilds: Hunters Guild; Society of Silk & Story
   Relationship: Distinct guilds, not a single governing body
-related: lesser-settlements-of-avalor,stannisport,hunters-guild,bard-guild,taveras,petris,aldus-greystone-iii,kingdom-of-avalor
+related: lesser-settlements-of-avalor,stannisport,hunters-guild,bard-guild,taveras,petris,aldus-greystone-iii,kingdom-of-avalor,mg-the-fixer
 source: World Anvil, Olivruch and Stannisport; creator-approved guild histories,
   structures and organization names (November 2026)
 featured: false
@@ -42,6 +42,8 @@ A crew might be skilled in a particular kind of theft or accustomed to working w
 That makes him influential without turning the guild into a regiment with ranks and orders for every member. The branch works because thieves who value their freedom can still recognize the usefulness of shared contacts and mutual assistance.
 
 There are **whispers that Salt answers to someone called *the Ragged Man***. No one has established whether the Ragged Man is a real superior, a name used to frighten rivals, or something else. The rumor remains a rumor.
+
+The elusive problem-solver **[[mg-the-fixer|MG the Fixer]]** is associated with the guild's Olivruch world of quiet contacts and favors, although the Fixer's exact identity and work are seldom matters of reliable public testimony.
 
 Olivruch is the Avalorian branch's home, while **other branches operate elsewhere in the world**. The Sea Serpents' presence does not make the town's ordinary residents members of the guild or participants in its affairs.
 

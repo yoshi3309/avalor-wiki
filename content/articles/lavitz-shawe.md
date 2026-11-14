@@ -224,6 +224,12 @@ That last lesson was perhaps the hardest. Lavitz had survived because Fo'Gurn on
 
 The title took something from him. Where an adventurer could follow the next road with his companions, the Lord Marshal was expected to remain, prepare, and answer for what happened even when he was far from the fighting.
 
+## Recruiting beyond the royal ranks
+
+Some undertakings called for abilities that ordinary military units could not readily provide. For the operation later associated with **[[Blackwater Bay]]**, Lavitz assembled an unusual group: **[[Silas Dreadmore]]**, whose experience of curses came at personal cost; **[[Notfred]]**, an outcast with a sheriff's forgotten lessons; **[[Naeris Thorne]]**, a maritime archaeologist whose strange echo accompanied him into dangerous places; **[[mg-the-fixer|MG the Fixer]]**, known for discreet solutions and elusive contacts; and **[[Ambrose Burntwood]]**, the well-connected keeper of the Burntwood Tavern.
+
+They were not another company of royal guards. Their experiences and motives differed, and their value lay partly in the methods and knowledge they could bring to work requiring discretion. The course of their assignment belongs to the separate chronicle of the Blackwater Bay undertaking.
+
 ## The companions who remained
 
 The Misfits did not spend the next twenty years assembled around the same campfire. [[Heureux]] continued his travels and teaching, and [[Amara]] followed paths that carried her far from the royal court. Their absence did not mean the fellowship had ended.
