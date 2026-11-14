@@ -122,7 +122,7 @@ The moral distinction depends upon what is actually done. An animated corpse may
 
 **[[Jaaris]]** had restored Fo'Gurn by necromancy and compelled him against the people he loved. In the final struggle, Lavitz refused to destroy his friend. **Fo'Gurn chose to protect Lavitz and broke Jaaris's control while Jaaris still lived.** When the necromancer subsequently died, the force sustaining Fo'Gurn's unnatural existence failed. Fo'Gurn could not return to the Material Plane and remained in the Shadowfell for his final rest.
 
-This history differs from the willing, reachable-soul resurrection described above. Jaaris's work was an act of domination, not a consensual restoration, and the precise magic that sustained it has not been established. The mystery that remains is **how Fo'Gurn appears alongside Samuel roughly twenty years afterward**, not whether Jaaris raised him or whether he freely resisted. No public record currently explains that later appearance.
+This history differs from the willing, reachable-soul resurrection described above. Jaaris's work was an act of domination, not a consensual restoration, and the precise magic that sustained it has not been established. The return of a body cannot be mistaken for the willing restoration of a life, nor the ability to compel movement for the power to command a person's final choice.
 
 ## Can a soul be destroyed?
 

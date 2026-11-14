@@ -120,6 +120,13 @@ assert "bar Cid" in source("emerald-of-armanti")
 assert "subsequently raised his body" in source("fo-gurn")
 assert "before Jaaris died" in source("fo-gurn")
 assert "rest one final time" in source("fo-gurn")
+# The approved retrospective covers the Misfits' completed campaign, not a later summons.
+for slug in ("fo-gurn", "death-souls-and-the-afterlife"):
+    retrospective = source(slug)
+    assert "next summons" not in retrospective
+    assert "appearance twenty years later" not in retrospective.lower()
+    assert "reappearance beside Samuel" not in retrospective
+    assert "appears alongside Samuel roughly twenty years afterward" not in retrospective
 assert "Blood Sickness" in source("independent-factions-of-the-misfits-era")
 assert "unwanted vampirism" in source("independent-factions-of-the-misfits-era")
 assert "hands" in source("shadowfell-confrontation")
@@ -271,7 +278,7 @@ assert "Addendum 008" in (ROOT / "docs" / "PENDING_MASTER_CANON_ADDENDA.md").rea
 # Addendum 005: keep retrospective truths aligned across reference articles.
 assert "Fo'Gurn chose to protect Lavitz" in source("death-souls-and-the-afterlife")
 assert "his final rest" in source("death-souls-and-the-afterlife")
-assert "roughly twenty years afterward" in source("death-souls-and-the-afterlife")
+assert "roughly twenty years afterward" not in source("death-souls-and-the-afterlife")
 assert "## Two interventions in the Misfits' campaign" in source("samuel-the-devoted")
 assert "At the ruined temple near Stanleyville" in source("samuel-the-devoted")
 assert "Later, during the final struggle in the Shadowfell" in source("samuel-the-devoted")
