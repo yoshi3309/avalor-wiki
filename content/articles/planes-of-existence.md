@@ -1,8 +1,10 @@
 ---
 title: The Planes of Existence
 subtitle: Worlds Beyond the World
-summary: The known planes, their uncertain connections, the dangers of crossing between them, and the scholarship that helps Avalorian travelers return.
+summary: The known planes, their uncertain connections, the dangers of crossing
+  between them, and the scholarship that helps Avalorian travelers return.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-planes-of-existence.png
 entry: COS.002
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -14,16 +16,21 @@ facts: |-
   Family custom: The Returning Thread
   Cosmological status of the Beyond: Unresolved
 related: the-beyond,aethrion,primordial-powers,forest-of-the-fey,svendyal-shadowwhisper,black-tower,cid-the-blood-king,tellora-ebbenflow,shammans-tower,zauks-false-lives,death-souls-and-the-afterlife,magic-and-the-arcane
-source: Compendium I · Entry I.006, The Planes of Existence, public Scholar's Account, pp. 54–59; The Living Chronicle, Chapters III and VI
+source: Compendium I · Entry I.006, The Planes of Existence, public Scholar's
+  Account, pp. 54–59; The Living Chronicle, Chapters III and VI
+featured: false
 callouts:
   - type: reflection
-    text: "A traveler may reach another world in a single step and still be farther from home than a sailor crossing an ocean. Finding the way in is not the same as keeping a way back."
+    text: A traveler may reach another world in a single step and still be farther
+      from home than a sailor crossing an ocean. Finding the way in is not the
+      same as keeping a way back.
     attribution: Editorial reflection on planar crossings
     after: the-three-questions-before-a-crossing
     paragraph: 3
   - type: note
+    text: A map of reported crossings is a map of testimony, not a complete diagram
+      of existence. Its blank spaces must remain visible.
     scholar: professor-xiomara-thal
-    text: "A map of reported crossings is a map of testimony, not a complete diagram of existence. Its blank spaces must remain visible."
     after: diagrams-that-are-not-the-world
     paragraph: 2
 highlight_sections:
@@ -33,9 +40,7 @@ highlight_sections:
     tone: turning-point
   - section: journeys-with-a-way-home
     tone: legacy
-featured: false
 ---
-
 ## The world is not alone
 
 The land of [[The Kingdom of Avalor|Avalor]] is one part of the **Material Plane**, but the Material Plane is not the whole of existence. Other realities hold their own landscapes, inhabitants, and histories. Some can be described using the words for mortal forests, seas, and settlements. Others resist such comparisons.
