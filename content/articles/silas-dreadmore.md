@@ -25,14 +25,14 @@ callouts:
   - type: reflection
     text: The letters of kings and the bargains of hags have little in common, except that both may ask a man to surrender more than he realizes.
     attribution: Editorial reflection on the royal summons
-    after: the-marsh-and-the-marshals-letter
+    after: the-marsh-and-the-marshal-s-letter
     paragraph: 2
 highlight_sections:
   - section: the-widow-in-the-walking-cottage
     tone: turning-point
   - section: charm-twister
     tone: legacy
-  - section: the-marsh-and-the-marshals-letter
+  - section: the-marsh-and-the-marshal-s-letter
     tone: remembrance
 ---
 
