@@ -10,6 +10,8 @@ The **player-facing Scholar's Edition of the World of Avalor** — a static, ill
 
 **Current roadmap:** [Wiki Enhancement Roadmap](docs/WIKI_ENHANCEMENT_ROADMAP.md)
 
+**Adding new canon:** [Canon Intake & Publication Playbook](docs/CANON_INTAKE_PLAYBOOK.md) · [Public Canon Release Log](docs/CANON_PUBLIC_RELEASE_LOG.md). Add approved player-visible lore to the wiki first; consolidate Keeper volumes later.
+
 ## What's inside?
 
 As of November 10, 2026, the repository holds **112 public encyclopedia articles** across five collections, **29 curated illustration exhibits**, and **five editorial historical exhibits**. These counts change as editors publish new material.
