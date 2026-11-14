@@ -4,6 +4,7 @@ subtitle: The Silver Forge and the Sea Serpents
 summary: The Silver Forge welcomes clerics of every faith, while Salt directs
   the Sea Serpents, Avalor's loose network of thieves based in Olivruch.
 category: Organizations & Factions
+image: /assets/uploads/the-guilds-of-avalor.png
 entry: ORG.016
 era: Founding Age to Age of Ascendancy
 facts: |-
