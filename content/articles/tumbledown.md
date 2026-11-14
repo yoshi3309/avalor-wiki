@@ -45,7 +45,7 @@ The nature of the threat that killed the rangers has not been identified in the 
 
 ## The headless rider
 
-Six years after the deaths of Ferris's parents, Tumbledown faced another attack. A **headless rider** arrived upon a nightmarish horse, wielding an ebony blade wreathed in unnatural green flame. The violence reached the village itself, injuring Ferris's grandparents and taking the lives of people he had known since childhood.
+Six years after the deaths of Ferris's parents, Tumbledown faced another attack. A **headless rider** arrived upon a nightmarish horse, wielding an ebony blade wreathed in unnatural green flame. The violence reached the village itself, injuring Ferris's grandparents and leaving other villagers fallen in the chaos.
 
 Ferris was **seventeen** by then. He fought despite his fear, standing between the attacker and the family still alive behind him. Tumbledown survived, as did Thaddius and Grams, though both suffered serious wounds.
 
