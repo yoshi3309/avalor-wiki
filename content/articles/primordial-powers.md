@@ -1,40 +1,61 @@
 ---
 title: The Primordial Powers
 subtitle: Four Names Before the Histories of the Gods
-summary: The Creator, the Formless One, Her, and the One Below appear in Avalor's oldest surviving accounts of existence, provoking questions about creation, transformation, and the nature of the divine.
+summary: The Creator, the Formless One, Her, and the One Below appear in
+  Avalor's oldest surviving accounts of existence, provoking questions about
+  creation, transformation, and the nature of the divine.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-primordial-powers.png
 entry: COS.001
 era: Before the Founding Age to Age of Ascendancy
-facts: |-
+facts: >-
   Ancient presences: The Creator; the Formless One; Her; the One Below
+
   Principal question: The origins and ordering of existence
+
   Remembered relationship: Creator and Formless One as ancient companions
+
   Her: Becoming, growth, decay, renewal, and transformation
+
   The One Below: Hidden depths and things concealed
-  Public scholarship: Brother Halden Korr, Professor Xiomara Thal, Lady Miren Dast
+
+  Public scholarship: Brother Halden Korr, Professor Xiomara Thal, Lady Miren
+  Dast
+
   Contemporary tradition: The Ringtree Clan honors Her
+
   Relationship to the gods: Undetermined in the public account
 related: faiths-and-gods-of-avalor,the-faiths-of-families-and-peoples,heureux,threefold-devotion,the-sacred-balance,lathander-and-the-dawn,brother-halden-korr,professor-xiomara-thal,lady-miren-dast,shammans-tower,great-library-aldus-greystone
-source: Compendium I · Entry I.001, The Primordial Powers, public Scholar's Account; creator-supplied Ringtree Clan and Heureux history (November 2026)
+source: Compendium I · Entry I.001, The Primordial Powers, public Scholar's
+  Account; creator-supplied Ringtree Clan and Heureux history (November 2026)
+featured: false
 callouts:
   - type: reflection
-    text: "A name may survive a thousand years after the story that explained it has vanished. The temptation is to replace what was lost with a story so complete that no one notices it is new."
+    text: A name may survive a thousand years after the story that explained it has
+      vanished. The temptation is to replace what was lost with a story so
+      complete that no one notices it is new.
     attribution: Editorial reflection on the four primordial names
     after: four-names-not-one-pantheon
     paragraph: 3
   - type: note
+    text: The oldest testimony is not rendered worthless by its uncertainty. An
+      ancient belief may preserve a genuine insight into the beginning of
+      creation without giving us a chronology that can be verified.
     scholar: brother-halden-korr
-    text: "The oldest testimony is not rendered worthless by its uncertainty. An ancient belief may preserve a genuine insight into the beginning of creation without giving us a chronology that can be verified."
     after: the-creator-and-the-first-ordering
     paragraph: 4
   - type: reflection
-    text: "To call Her the presence of becoming is to leave room for both the seed and the fallen tree. The Ringtree understood that a story, too, changes whenever someone carries it into another life."
+    text: To call Her the presence of becoming is to leave room for both the seed
+      and the fallen tree. The Ringtree understood that a story, too, changes
+      whenever someone carries it into another life.
     attribution: Editorial reflection on becoming and the Ringtree
     after: the-ringtree-clan-and-a-living-devotion
     paragraph: 3
   - type: note
+    text: A myth of origins can hold profound meaning for a community. It cannot
+      establish that another ancestry was made lesser, or erase the history that
+      people have lived since.
     scholar: professor-xiomara-thal
-    text: "A myth of origins can hold profound meaning for a community. It cannot establish that another ancestry was made lesser, or erase the history that people have lived since."
     after: stories-of-creation-and-the-peoples-of-avalor
     paragraph: 3
 highlight_sections:
@@ -44,9 +65,7 @@ highlight_sections:
     tone: remembrance
   - section: what-the-scholars-can-preserve
     tone: legacy
-featured: false
 ---
-
 ## Before the names of kings
 
 The beginning of **Avalor** can be dated to the founding of a kingdom. The beginning of the world cannot.
