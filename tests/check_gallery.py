@@ -31,7 +31,12 @@ for collection, minimum in expected.items():
         assert item['id'] not in seen, 'Duplicate gallery exhibit: ' + item['id']
         seen.add(item['id'])
         assert item['alt'] and item['caption'] and item['related'], item['id']
-        assert 'keeper' not in item['id'].lower(), 'Restricted reference in gallery ID'
+        # Anna's public title, Lowkee's Keeper, is explicitly cleared for players.
+        # Continue to reject all other potentially restricted Keeper gallery IDs.
+        assert ('keeper' not in item['id'].lower()
+                or item['id'] == 'portrait-anna-lowkees-keeper'), (
+            'Restricted reference in gallery ID: ' + item['id']
+        )
         assert (SITE / item['image'].lstrip('/')).exists(), 'Gallery image not found: '+item['image']
         for rec in item['related']:
             assert (SITE / 'articles'/rec['slug']/'index.html').exists(), rec['slug']
