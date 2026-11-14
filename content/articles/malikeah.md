@@ -12,10 +12,11 @@ facts: |-
   Position: Figurehead and de facto leader of the Hunters Guild
   Home: Wayward Sun, Dead Marshes
   Spouse: Mera Ashenfall
+  Daughter: Blithe Ashenfall, Eldritch Knight
   Stewardship: Shared with Mera
   Reputation: Gruff, resourceful, fiercely protective
   Present concern: The guild's uncertain future
-related: mera-ashenfall,hunters-guild,wayword-sun,faelynn,dead-marshes
+related: mera-ashenfall,hunters-guild,wayword-sun,faelynn,dead-marshes,minor-heroes-and-allies
 source: The Living Chronicle, Chapter V; Compendium II · Entry II.003, public Scholar's Account; creator-supplied Ashenfall household history
 featured: false
 ---
@@ -43,6 +44,10 @@ Malikeah calls **[[Wayward Sun]]** home. The old refuge in the [[Dead Marshes]] 
 Its operation is maintained **in equal partnership with his wife, [[Mera Ashenfall]]**. Malikeah may be the guild's familiar public figure, but Mera is neither an assistant nor an ornament of his authority. She has her own gifts, judgments and ways of solving the problems that reach their door. Where Malikeah sees danger in a seemingly harmless detail, Mera may see an unexpected possibility worth investigating. Their different instincts serve the same people.
 
 Those who mistake Malikeah's gruffness for coldness misunderstand the household. His concern is not abstract. He knows the hunters who come and go, recognizes how much they carry, and wishes to see them return safely. Mera's warmth and inventiveness give the refuge a different kind of protection, one that complements rather than weakens his watchfulness.
+
+## The hunter who followed them
+
+Malikeah and Mera's daughter, **[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall]]**, grew up within the guild's family and became a disciplined Eldritch Knight. She leads a four-person hunting party with Milos Digan, Ko Trailseeker, and Daki Kallista. Their reported disappearance in the Dead Marshes gives personal weight to Malikeah's longstanding fear that hunters may go out from the Wayward Sun and never return. Blithe's fate has not been confirmed.
 
 ## The child called Hope
 
