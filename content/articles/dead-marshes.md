@@ -43,6 +43,12 @@ It was within these dangerous reaches that **Faelynn**, the wood elf ranger reme
 
 The guild's work is more than the pursuit of monsters. It calls for the judgment to guide travelers, safeguard settlements, understand changing terrain, and recognize danger before it reaches the vulnerable.
 
+## Lanterns and the Sisters of the Night Garden
+
+Among the warnings carried through the marshes are accounts of misleading lanterns, witches who wear borrowed faces, and a hut able to move on great twisted roots. The traveler **[[Silas Dreadmore]]** encountered one such dwelling and its occupant, **Mother Vey**, a hag associated with the **Sisters of the Night Garden**, who serve a power called the **Den Mother**. His attempt to rob the hag ended in a bargain that changed him and placed him under a lasting obligation.
+
+Such stories help explain the caution of people who know the marshes well. They also recall a particular danger: a traveler may mistake hospitality for safety or assume that a bargain ends when the agreed price is paid.
+
 ## Shelter, routes, and remembrance
 
 Accounts of journeys through the Dead Marshes frequently recall the **Leaking Bucket Inn**, a place of relative safety amid otherwise unreliable country. Its modest shelter reminds the reader that a dependable roof may mean more to a traveler than a heroic monument.
