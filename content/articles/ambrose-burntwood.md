@@ -14,7 +14,7 @@ facts: |-
   Known for: Hospitality, strong memory for faces, calm judgment
   Familiar possession: Copper mule mug
   Later commission: Operative recruited by Lord Marshal Lavitz Shawe
-related: lavitz-shawe,kingdom-of-avalor
+related: lavitz-shawe,kingdom-of-avalor,blackwater-bay
 source: Creator-supplied Ambrose Burntwood character account (November 2026)
 featured: false
 ---
