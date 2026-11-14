@@ -1,8 +1,10 @@
 ---
 title: Independent Factions of the Misfits Era
 subtitle: The Cult of Gol’Goroth and the Wrath of Innocent
-summary: Two separate organizations defeated during the Misfits' adventures, with no confirmed account of whether either survives in the present age.
+summary: Two separate organizations defeated during the Misfits' adventures,
+  with no confirmed account of whether either survives in the present age.
 category: Organizations & Factions
+image: /assets/uploads/independent-factions-of-the-misfits-era.png
 entry: ORG.017
 era: Age of the Misfits
 facts: |-
@@ -12,10 +14,10 @@ facts: |-
   Known outcome: Defeats during the Misfits' adventures
   Present activity: Unconfirmed
 related: the-misfits,the-first-commission,heureux,cid-the-blood-king,ros-furband,zauks-false-lives,jaznaar
-source: The Living Chronicle, Chapter VI; Master Canon Bible Volume I, public Misfits events; creator-approved grouping
+source: The Living Chronicle, Chapter VI; Master Canon Bible Volume I, public
+  Misfits events; creator-approved grouping
 featured: false
 ---
-
 ## Two enemies, two histories
 
 Not every adversary of [[The Misfits]] served the same master. Among the groups the fellowship faced were **the Cult of Gol’Goroth** and **the Wrath of Innocent**, distinct organizations whose encounters with the adventurers left a mark upon their story.
