@@ -75,6 +75,7 @@ kingdoms-places:
       description: Traveler accounts, named foreign lands and places beyond the mapped royal settlements.
       articles:
         - distant-lands-of-the-hunter
+        - tumbledown
 organizations-factions:
   featured: the-aegis
   intro: Discover the councils, orders, guilds, and institutions that sustain, protect, and sometimes challenge the realm.
