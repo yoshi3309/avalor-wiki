@@ -1,15 +1,17 @@
 ---
-title: "In Search of Lowkee's Keeper"
-subtitle: "The tavern meeting, Anna, and the Emerald of Armanti"
-summary: "The search for Lowkee's Keeper that brought Anna into the Misfits' traveling fellowship with the Emerald of Armanti."
+title: In Search of Lowkee's Keeper
+subtitle: The tavern meeting, Anna, and the Emerald of Armanti
+summary: The search for Lowkee's Keeper that brought Anna into the Misfits'
+  traveling fellowship with the Emerald of Armanti.
 category: History & Chronicles
+image: /assets/uploads/the-search-for-lowkees-keeper.png
 entry: HIS.029
 era: Age of the Misfits
 related: the-misfits,anna-lowkees-keeper,lowkee,emerald-of-armanti,svendyal-shadowwhisper,hydra-temple-disaster
-source: "The Living Chronicle, Chapter VI, public historical account; the Royal Commission's testimony on the Misfits campaign"
+source: The Living Chronicle, Chapter VI, public historical account; the Royal
+  Commission's testimony on the Misfits campaign
 featured: false
 ---
-
 ## Following a founder's name
 
 The Misfits had already answered royal commissions and survived stranger adventures when their search turned toward **[[Lowkee]]**, the paladin of the founding Six. They sought information concerning the person or tradition called **Lowkee's Keeper**. What that title meant in full was not yet clear to them; it was a question on the road, not an office whose holder the crown had appointed them to inspect.
