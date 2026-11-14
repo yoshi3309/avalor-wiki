@@ -1,8 +1,11 @@
 ---
 title: The Faiths of Families and Peoples
 subtitle: Worship Beyond the Great Cathedral
-summary: Diverse local traditions of art, craft, song, ancestors, and community remembrance across Avalor, including devotion to Corellon, Moradin, and Eilistraee.
+summary: Diverse local traditions of art, craft, song, ancestors, and community
+  remembrance across Avalor, including devotion to Corellon, Moradin, and
+  Eilistraee.
 category: Faith, Magic & Cosmology
+image: /assets/uploads/the-faiths-of-families-and-peoples.png
 entry: REL.004
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -11,10 +14,10 @@ facts: |-
   Major principle: No ancestry follows one universal faith
   Historical concern: Traditions distorted by discrimination
 related: peoples-of-avalor,ringtree-clan,primordial-powers,heureux,faiths-and-gods-of-avalor,forest-of-the-fey,arnauds-edicts,jaznaar,jaznaars-vindication
-source: Compendium I · Entry I.004, Section VII, public Scholar's Account; The Living Chronicle, Chapters IV–V
+source: Compendium I · Entry I.004, Section VII, public Scholar's Account; The
+  Living Chronicle, Chapters IV–V
 featured: false
 ---
-
 ## The faiths beyond the capital
 
 A visitor who knows Avalor only through the [[The Great Cathedral|Great Cathedral]] might mistake the kingdom's most influential religious institution for the measure of all its devotion. In reality, beliefs and observances vary among households, settlements, and peoples whose histories reach far beyond the walls of [[Renada]].
