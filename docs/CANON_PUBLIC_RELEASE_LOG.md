@@ -6,3 +6,4 @@ Each new release gets one row. Include only material already cleared for public 
 
 | Intake ID | Publication date | Public subject(s) and treatment | Public article links / anchors | PR / release commit |
 |---|---|---|---|---|
+| INT-2026-11-13-01 | 2026-11-13 | Mandu Durbar-Marg (Level I biography); Neck (short regional addition); Hunters Guild (cross-reference) | `mandu-durbar-marg`; `spine-of-the-world#the-neck-and-its-coastal-clan`; `hunters-guild#the-guild-in-the-present-age` | [PR #33](https://github.com/yoshi3309/avalor-wiki/pull/33) |
