@@ -1,7 +1,9 @@
 ---
 title: Anna, Lowkee's Keeper
 subtitle: Erevan Ilesere's Disguise and the Friend They Protected
-summary: Anna was the guise of Erevan Ilesere, who traveled with the Misfits as a seemingly vulnerable companion, carried the Emerald of Armanti, and revealed his identity after their victory.
+summary: Anna was the guise of Erevan Ilesere, who traveled with the Misfits as
+  a seemingly vulnerable companion, carried the Emerald of Armanti, and revealed
+  his identity after their victory.
 category: People & Legends
 entry: BIO.037
 era: Age of the Misfits
@@ -19,10 +21,10 @@ facts: |-
   Purpose of disguise: To test Sven's compassion and commitment to justice
   Revelation: After the royal audience in Renada
 related: the-misfits,lowkee,emerald-of-armanti,svendyal-shadowwhisper,lavitz-shawe,tellora-ebbenflow,fo-gurn,ros-furband,samuel-the-devoted,threefold-devotion,misfits-return-to-renada
-source: The Living Chronicle, Chapter VI, public historical account; public testimony of the Misfits
+source: The Living Chronicle, Chapter VI, public historical account; public
+  testimony of the Misfits
 featured: false
 ---
-
 ## The woman the ballads almost missed
 
 For much of their campaign, [[The Misfits]] knew **Anna** as a tavern waitress who had joined their travels during the search for Lowkee's Keeper. She seemed to be an ordinary woman, a noncombatant who needed their protection. She traveled with them through danger, shared captivity and became one of the people they counted as family.
