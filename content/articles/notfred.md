@@ -15,7 +15,7 @@ facts: |-
   Defining loss: Exile after the death of Susan
   Later calling: Mercenary and occasional smuggler
   Later commission: Recruited by Lord Marshal Lavitz Shawe
-related: lavitz-shawe,planes-of-existence,death-souls-and-the-afterlife
+related: lavitz-shawe,planes-of-existence,death-souls-and-the-afterlife,blackwater-bay
 source: Creator-supplied Notfred backstory for the Blackwater Bay crew (November 2026)
 featured: false
 callouts:
