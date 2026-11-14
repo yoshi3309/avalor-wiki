@@ -14,10 +14,11 @@ facts: >-
   Focus: Officers, royal protectors and supporting allies
 
   Includes: Kurt Reyginald, Captain Funkin, Inspector Sihnion, Quill, Mira,
-  Nimbus and Nadja Akayrn
-related: avalorian-forces,kel-maris,king-gradvum-frozenroar,queen-melmiri,the-misfits,hydra-temple-disaster,the-stalker
+  Nimbus, Nadja Akayrn, Blithe Ashenfall, Milos Digan, Ko Trailseeker,
+  and Daki Kallista
+related: avalorian-forces,kel-maris,king-gradvum-frozenroar,queen-melmiri,the-misfits,hydra-temple-disaster,the-stalker,hunters-guild,malikeah,mera-ashenfall,mandu-durbar-marg,dead-marshes
 source: Creator-approved Kel'Maris and Stalker/Hydra histories; Living
-  Chronicle; Avalorian Forces and Queen Melmiri public records
+  Chronicle; Avalorian Forces and Queen Melmiri public records; creator-supplied Hunters Guild squad histories (November 2026)
 featured: false
 illustrations:
   - image: /assets/uploads/the-avalorian-forces.png
@@ -71,3 +72,27 @@ He serves under Lavitz alongside Quill and Mira. His unusual form of flight dist
 **Nadja Akayrn** is a **female dragonborn** who commands **Dina Hyanda**, the royal protective order of twelve women established by **[[Queen Melmiri]]** after her captivity under Cid. The queen's decision created an intimate guard with a distinct identity from Lion's Bane and the standing army.
 
 Nadja leads the Twelve **as one of their own members**. The order trains with the kingdom's finest teachers, including some former adventurers. Its separate identity matters: Nadja is the commander of Melmiri's protectors, not another division leader beneath Lord Marshal Lavitz.
+
+## Blithe Ashenfall
+
+**Blithe Ashenfall** is a **human fighter and Eldritch Knight**, the daughter of **[[Malikeah Ashenfall]]** and **[[Mera Ashenfall]]**. Raised among the Hunters Guild, she learned early that the family's dangerous work carries an obligation to those who undertake it. Practical, decisive, and difficult to sway once her judgment is formed, Blithe blends weapons and magic with a measured efficiency. She rarely allows emotion to interfere with the task immediately before her.
+
+Blithe leads a four-person hunting party consisting of **[[minor-heroes-and-allies#milos-digan|Milos Digan]]**, **[[minor-heroes-and-allies#ko-trailseeker|Ko Trailseeker]]**, and **[[minor-heroes-and-allies#daki-kallista|Daki Kallista]]**. She trusts them as family, weighing their safety alongside the demands of each mission. The party was believed to have disappeared somewhere within the **[[Dead Marshes]]**. Accounts of the group's later fate are incomplete, and no confirmed death is established for Blithe.
+
+## Milos Digan
+
+**Milos Digan** is a **Stone Goliath fighter and War Domain cleric of Artemis**, known within the Hunters Guild for strength, loyalty, and readiness to stand between danger and those unable to protect themselves. A patient and selfless defender, he grew up in the same northern clan as **[[Mandu Durbar-Marg]]**. Milos later married **Joy**, a Tiefling, and the couple had a daughter. His friendship with Mandu survived their departures from the clan, although they were separated by years of travel.
+
+Milos served in **[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall's]]** four-person party. When the squad vanished, reports of his death reached Mandu and helped draw him toward the Hunters Guild. The party later witnessed a vision in which Milos was petrified and crumbled apart; it appeared to confirm the worst. Yet **Milos was subsequently found alive in the Crucible, serving as the Den Mother's champion**. The old death reports must therefore not be treated as proof of his demise. Mandu and Milos had **not yet spoken again** at the time of that discovery, and how Milos came to his present position remains unresolved.
+
+## Ko Trailseeker
+
+**Ko Trailseeker** is a **dark-furred Tabaxi rogue and thief** with sharp grey eyes, quick reflexes, and a gift for passing unnoticed. A private and watchful hunter, he prefers the margins of a room or a concealed vantage point to the attention of a crowd. He served as the scout and observer of **[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall's]]** squad, gathering information and recognizing dangers before the others stepped into view.
+
+Ko can seem aloof, though his silence often reflects a preference for observing rather than speaking. His fascination with shiny objects sometimes overcomes his caution and leads him into trouble. He is capable of drawing steel when necessary, but much of his usefulness comes from not needing to. Little is known of his life before joining the guild. Following the disappearance of Blithe's party in the **[[Dead Marshes]]**, **Ko's fate remained unknown**.
+
+## Daki Kallista
+
+**Daki Kallista** is a **petite Tiefling sorcerer** whose draconic magic is associated with **acid**, with poison also prominent among her spells. Her dark olive-green skin, long silver hair, and almost pearlescent teeth make a distinctive impression; the scars she carries are a reminder that her amiable demeanor does not reflect a life free of danger. Daki supplied formidable magic to **[[minor-heroes-and-allies#blithe-ashenfall|Blithe Ashenfall's]]** party while also serving as its exceptionally talkative and persuasive negotiator.
+
+Before joining these hunters, Daki worked as an **envoy**. During a visit to a village to meet its chief, she befriended **Keke**, the chief's daughter. Daki's cheerful manner could give way to an unexpectedly ruthless resolve when circumstances demanded it. She vanished with Blithe's party in the **[[Dead Marshes]]**, and **her ultimate fate has not been confirmed**.
