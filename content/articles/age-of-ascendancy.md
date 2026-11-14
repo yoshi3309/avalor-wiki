@@ -1,8 +1,10 @@
 ---
 title: The Age of Ascendancy
 subtitle: An Age of New Possibilities
-summary: A scholarly name for the two decades of remembrance, new responsibilities, and expanding influence after the Misfits defeated Cid.
+summary: A scholarly name for the two decades of remembrance, new
+  responsibilities, and expanding influence after the Misfits defeated Cid.
 category: History & Chronicles
+image: /assets/uploads/the-age-of-ascendancy.png
 entry: HIS.005
 era: Age of Ascendancy
 facts: |-
@@ -14,7 +16,6 @@ related: anna-lowkees-keeper,emerald-of-armanti,jack-of-stanleyville,heureux,ama
 source: The Living Chronicle, Chapter VII; Compendium II · Entry II.001
 featured: false
 ---
-
 ## An age named after the victory
 
 The **Age of Ascendancy** is the name later historians gave the period following [[The Misfits]]' defeat of [[Cid the Blood King]] in **2000 AF**. The present royal chronology places Avalor approximately twenty years later, in **2020 AF**. The kingdom recovered [[Queen Melmiri]], learned that its celebrated founder Aldus Greystone III had been the Blood King, and began correcting the centuries-old accusation against [[Jaznaar]]. Avalor's growing reputation abroad belonged to that same period, but it should not be confused with one unbroken triumph.
