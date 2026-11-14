@@ -13,7 +13,7 @@ facts: |-
   Reputation: No reliable agreed description
   Known methods: Information, leverage, persuasion, quiet recoveries
   Later commission: Recruited by Lord Marshal Lavitz Shawe
-related: lesser-settlements-of-avalor,guilds-of-avalor,lavitz-shawe,kingdom-of-avalor
+related: lesser-settlements-of-avalor,guilds-of-avalor,lavitz-shawe,kingdom-of-avalor,blackwater-bay
 source: Creator-supplied MG the Fixer player account (November 2026); creator-approved public Sea Serpents guild name
 featured: false
 ---
