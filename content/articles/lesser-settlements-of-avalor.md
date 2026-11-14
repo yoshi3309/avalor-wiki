@@ -1,8 +1,10 @@
 ---
 title: The Smaller Settlements of Avalor
 subtitle: Communities beyond the Great Cities
-summary: Short accounts of Alexiverde, Ferrymen Village, Olivruch, and the elven village of Ilyanamel.
+summary: Short accounts of Alexiverde, Ferrymen Village, Olivruch, and the elven
+  village of Ilyanamel.
 category: Kingdoms & Places
+image: /assets/uploads/the-smaller-settlements-of-avalor.png
 entry: LOC.039
 era: Founding Age to Age of Ascendancy
 facts: |-
@@ -10,10 +12,11 @@ facts: |-
   Character: Small communities
   Known associations: Bradgem Glav; desert passage; Thieves Guild
 related: bradgem-glav,dead-marshes,great-desert,geography-of-avalor,guilds-of-avalor,kingdom-of-avalor,kel-maris,king-gradvum-frozenroar
-source: World Anvil, Alexiverde, Ferrymen Village and Olivruch (creator-supplied locations; November 2026); creator-approved Kel'Maris biography (Ilyanamel, November 12, 2026)
+source: World Anvil, Alexiverde, Ferrymen Village and Olivruch (creator-supplied
+  locations; November 2026); creator-approved Kel'Maris biography (Ilyanamel,
+  November 12, 2026)
 featured: false
 ---
-
 ## Alexiverde
 
 **Alexiverde** is a small town between the **[[Dead Marshes]]** and the **[[The Geography of Avalor#king-s-forest|King's Forest]]**. Farmers and woodworkers make their livelihoods here, attending to fields and timber rather than the affairs of great ports.
