@@ -978,11 +978,11 @@ for i,item in enumerate(EXHIBITS):
     item['next'] = EXHIBITS[i+1] if i+1 < len(EXHIBITS) else None
 
 GALLERY_COLLECTIONS = [
+    # Highlight finished historical scenes first, while retaining portrait and place galleries.
+    {'id':'historical-scenes', 'title':'Historical Scenes', 'description':'Illustrated moments from the kingdom’s remembered past.'},
     {'id':'characters', 'title':'Characters', 'description':'Portraits of the people whose lives shaped Avalor.'},
     {'id':'locations', 'title':'Locations', 'description':'Cities, landscapes, sanctuaries, and distant horizons.'},
-    {'id':'historical-scenes', 'title':'Historical Scenes', 'description':'Moments from the kingdom’s remembered past.'},
-    {'id':'artifacts-symbols', 'title':'Artifacts & Symbols', 'description':'Objects, insignia, and meaningful emblems.'},
-    {'id':'maps-heraldry', 'title':'Maps & Heraldry', 'description':'The realm depicted in maps, banners, and arms.'},
+    {'id':'maps-symbols', 'title':'Maps & Symbols', 'description':'Cartography and heraldic or editorial emblems, each identified by its original purpose.', 'cover_id':'avalor-royal-map'},
 ]
 GALLERY_COLLECTION_BY_ID = {wing['id']: wing for wing in GALLERY_COLLECTIONS}
 GALLERY_ITEMS = []
@@ -1109,7 +1109,11 @@ GALLERY_ITEMS.sort(key=lambda item: (not item['featured'], item['title'].casefol
 for wing in GALLERY_COLLECTIONS:
     members = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
     wing['count'] = len(members)
-    wing['cover'] = members[0]['image'] if members else ''
+    preferred_cover = wing.get('cover_id')
+    wing['cover'] = next(
+        (item['image'] for item in members if item['id'] == preferred_cover),
+        members[0]['image'] if members else ''
+    )
 
 # Dated editorial circulars; publication dates are not dates in Avalor's history.
 GAZETTE_ISSUES=[]
@@ -1423,6 +1427,23 @@ render('gallery.html','gallery/index.html',depth=1,page_type='gallery',title='Il
 for wing in GALLERY_COLLECTIONS:
     member_items = [item for item in GALLERY_ITEMS if item['collection'] == wing['id']]
     render('gallery.html',f'gallery/{wing["id"]}/index.html',depth=2,page_type='gallery',title=wing['title'] + ' · Illustration Gallery',crumbs=wing['title'],description=wing['description'],gallery_items=member_items,gallery_collections=GALLERY_COLLECTIONS,active_gallery_collection=wing,gallery_data=member_items)
+# Retain old collection URLs and exhibit IDs for existing player bookmarks.
+# These are redirects, not additional gallery collections.
+for old_wing in ('artifacts-symbols', 'maps-heraldry'):
+    old_page = PUBLIC / 'gallery' / old_wing / 'index.html'
+    old_page.parent.mkdir(parents=True, exist_ok=True)
+    canonical = html.escape(urljoin(SITE_URL, 'gallery/maps-symbols/'), quote=True)
+    old_page.write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<title>Gallery collection moved · Archives of Avalor</title>'
+        '<meta name="robots" content="noindex">'
+        '<link rel="canonical" href="' + canonical + '">'
+        '<script>window.location.replace("../maps-symbols/"+window.location.search+window.location.hash);</script>'
+        '<meta http-equiv="refresh" content="0;url=../maps-symbols/">'
+        '</head><body><main><h1>Gallery collection moved</h1>'
+        '<p>This collection now belongs to <a href="../maps-symbols/">Maps &amp; Symbols</a>.</p>'
+        '</main></body></html>', encoding='utf-8'
+    )
 # All search data is intentionally public-facing. Aliases refer only to published
 # articles; consolidated records link directly to their actual parent sections.
 SEARCH_ALIASES = (yaml.safe_load((ROOT / 'data' / 'search-aliases.yml').read_text(encoding='utf-8')) or {}).get('aliases', {})
