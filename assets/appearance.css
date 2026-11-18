@@ -49,3 +49,93 @@ html[data-appearance="vellum"][data-reading-contrast="high"] body { background:#
 html[data-appearance="vellum"][data-reading-contrast="high"] .sidebar,html[data-appearance="vellum"][data-reading-contrast="high"] .topbar { background:#f1e8d8; border-color:#59462f }
 @media(max-width:710px){ .appearance-toggle{padding:6px 8px;min-width:43px} .appearance-toggle-label{display:none} }
 @media print { .appearance-toggle{display:none!important} }
+
+/* Phase 0 review: complete the Start Here reading shelf, secondary navigation,
+   and the home entrance instead of leaving dark-only components on Vellum. */
+html[data-appearance="vellum"] .reading-desk-top-link,
+html[data-appearance="vellum"] .icon-button,
+html[data-appearance="vellum"] .menu-trigger { color:#543e27; border-color:#a99574 }
+html[data-appearance="vellum"] .reading-desk-top-link:hover,
+html[data-appearance="vellum"] .reading-desk-top-link.active { background:#e4d2b5 }
+html[data-appearance="vellum"] .nav-subgroup { border-color:#ad9877 }
+html[data-appearance="vellum"] .nav-subgroup[open]>summary,
+html[data-appearance="vellum"] .nav-subgroup-links small { color:#634823 }
+html[data-appearance="vellum"] .welcome-choice-arrow { border-color:#b5a07e }
+html[data-appearance="vellum"] .welcome-choice:before { background:#88673c }
+html[data-appearance="vellum"] .welcome-reading-heading,
+html[data-appearance="vellum"] .welcome-step-number,
+html[data-appearance="vellum"] .welcome-step-body h3,
+html[data-appearance="vellum"] .welcome-step-body h3 a,
+html[data-appearance="vellum"] .welcome-step-body p,
+html[data-appearance="vellum"] .welcome-step-body h3 span,
+html[data-appearance="vellum"] .welcome-longer-overline,
+html[data-appearance="vellum"] .welcome-longer-road p,
+html[data-appearance="vellum"] .welcome-longer-road>a { color:#433522 }
+html[data-appearance="vellum"] .welcome-reading-heading,
+html[data-appearance="vellum"] .welcome-steps li,
+html[data-appearance="vellum"] .welcome-longer-road>a { border-color:#bcaa8b }
+html[data-appearance="vellum"] .welcome-step-first { color:#513a1e; border-color:#ab8d58 }
+html[data-appearance="vellum"] .welcome-longer-road { background:#e9dbbf; border-color:#b39a74 }
+html[data-appearance="vellum"] .welcome-afterword { border-color:#aa9471 }
+html[data-appearance="vellum"] .welcome-afterword-links a { background:#f8efdd; color:#513a22; border-color:#bea984 }
+html[data-appearance="vellum"] .welcome-afterword-links a:hover { background:#ecdbbd }
+html[data-appearance="vellum"] .home-welcome-ribbon,
+html[data-appearance="vellum"] .page-home .archive-wing-nav { background:#e2d2b5; border-color:#b49d78 }
+html[data-appearance="vellum"] .home-welcome-ribbon strong,
+html[data-appearance="vellum"] .home-welcome-ribbon div span,
+html[data-appearance="vellum"] .home-welcome-ribbon>a,
+html[data-appearance="vellum"] .page-home .archive-wing-nav>span { color:#49371f }
+html[data-appearance="vellum"] .page-home .archive-wing-nav a { background:#f8efdf; color:#473522; border-color:#ae9875 }
+html[data-appearance="vellum"] .page-home .archive-wing {
+ --accent:#704f29; --edge:#b59a73; --base:#f3e8d5;
+ background:#f3e8d5; border-color:var(--edge); border-left-color:var(--accent);
+ box-shadow:0 9px 22px #69512f1d;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--featured,
+html[data-appearance="vellum"] .page-home .archive-wing--collections,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys,
+html[data-appearance="vellum"] .page-home .archive-wing--connections,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle { --accent:#704f29; --edge:#b59a73; --base:#f3e8d5 }
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading { border-color:#c1af90 }
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading h2,
+html[data-appearance="vellum"] .page-home .archive-wing .kicker,
+html[data-appearance="vellum"] .page-home .archive-wing .section-link,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas p,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle p,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas a,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle a { color:#493722 }
+html[data-appearance="vellum"] .page-home .archive-wing--featured .featured-card,
+html[data-appearance="vellum"] .page-home .archive-wing--collections .collection-card,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card { background:#fffaef }
+html[data-appearance="vellum"] .page-home .archive-wing :is(.collection-card,.featured-card):hover { background:#f2e3cb }
+html[data-appearance="vellum"] .intro-line h2,html[data-appearance="vellum"] .intro-line p { color:#433727 }
+html[data-appearance="vellum"] .chronicle-banner { background:#e5d5b9; border-color:#b39b71 }
+html[data-appearance="vellum"] .chronicle-banner h2,
+html[data-appearance="vellum"] .chronicle-banner p,
+html[data-appearance="vellum"] .chronicle-banner a { color:#473522 }
+html[data-appearance="vellum"] .hero { background:#d9ccb4 }
+html[data-appearance="vellum"] .hero-sky { opacity:.38 }
+html[data-appearance="vellum"] .hero-copy { background:linear-gradient(90deg,#e9ddc6f0,#e9ddc6ca 75%,transparent); padding-block:30px }
+html[data-appearance="vellum"] .hero h1,
+html[data-appearance="vellum"] .hero h1 em,
+html[data-appearance="vellum"] .hero-copy p,
+html[data-appearance="vellum"] .hero-overline,
+html[data-appearance="vellum"] .hero-number { color:#3e3021 }
+html[data-appearance="vellum"] .hero-button { background:#684d2e;color:#fff8e9 }
+html[data-appearance="vellum"] .hero-catalogue-link { color:#48331f;border-color:#94744b }
+html[data-appearance="vellum"] .hero-divider i { background:#90744a }
+/* Vellum high contrast has a light base and dark ink. Night high contrast
+   continues to use the existing dark accessibility palette. */
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-step-body h3,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-step-body p,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-reading-heading,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-longer-road p,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-longer-road>a { color:#17242c }
+html[data-appearance="vellum"][data-reading-contrast="high"] .document-paper { background:#fffef8;color:#14232c }
+html[data-appearance="vellum"] :is(a,button,summary):focus-visible { outline-color:#6c4624!important }
+html[data-appearance="vellum"] .document-paper :is(a,button,summary):focus-visible { outline-color:#1c526d!important }
+@media(max-width:710px) {
+ html[data-appearance="vellum"] .hero-copy { padding-inline:clamp(19px,5vw,38px); max-width:100% }
+}
