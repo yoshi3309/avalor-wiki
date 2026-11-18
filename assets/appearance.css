@@ -1,0 +1,51 @@
+/* Vellum & Binding / Phase 0.
+   Night remains the default. Vellum is an explicit reader choice.
+   Reading Comfort remains independent and is loaded afterward. */
+:root { --archive-radius: 3px; --archive-transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+.appearance-toggle { display:inline-flex; align-items:center; justify-content:center; gap:7px; min-height:42px; padding:7px 11px; white-space:nowrap; border:1px solid #77684e; background:#25353d; color:#f0d7a8; font:600 11px var(--font-body); border-radius:var(--archive-radius); transition:var(--archive-transition) }
+.appearance-toggle:hover { border-color:#dfbd83; background:#394b4c }
+.appearance-toggle-icon { font-size:16px; line-height:1 }
+.appearance-toggle:focus-visible { outline:3px solid #e8bd73; outline-offset:3px }
+html[data-appearance="vellum"] { color-scheme:light; --dark:#e9e1d2; --dark2:#f3eddf; --dark3:#e5d8bf; --gold:#79562d; --gold-light:#9a713b; --warm:#39342d; --paper:#fffaf0; --ink:#272e32; --mute:#625d54; --rule:rgba(106,82,48,.29) }
+html[data-appearance="vellum"] body { background:#e9e1d2; color:#302d28 }
+html[data-appearance="vellum"] .sidebar { background:#e0d4bf; border-color:#bba98a }
+html[data-appearance="vellum"] .sidebar-brand strong,html[data-appearance="vellum"] .sidebar-brand small,html[data-appearance="vellum"] .sidebar-overline { color:#4a3b28 }
+html[data-appearance="vellum"] .sidebar-search { background:#f5efdf; color:#423a2e; border-color:#a99777 }
+html[data-appearance="vellum"] .side-nav .nav-caption,html[data-appearance="vellum"] .nav-link,html[data-appearance="vellum"] .nav-subgroup-links a,html[data-appearance="vellum"] .nav-subgroup summary { color:#433b30 }
+html[data-appearance="vellum"] .nav-link:hover,html[data-appearance="vellum"] .nav-link.active,html[data-appearance="vellum"] .nav-subgroup-links a:hover { background:#f4ebd8; color:#5b3f22 }
+html[data-appearance="vellum"] .side-bottom strong,html[data-appearance="vellum"] .side-bottom p { color:#584831 }
+html[data-appearance="vellum"] .topbar { background:#f0e7d5; border-color:#bba98a }
+html[data-appearance="vellum"] .topbar-label,html[data-appearance="vellum"] .crumb-text,html[data-appearance="vellum"] .crumb-slash { color:#514534 }
+html[data-appearance="vellum"] .site-footer { background:#e2d6c1; color:#54493b; border-color:#bba98a }
+html[data-appearance="vellum"] .appearance-toggle,html[data-appearance="vellum"] .reading-prefs-trigger { background:#fffbf1; color:#513a20; border-color:#9d865f }
+html[data-appearance="vellum"] .reading-prefs-panel { background:#f9f2e5; color:#342d24; border-color:#a58a60; box-shadow:0 18px 40px #31250f36 }
+html[data-appearance="vellum"] .reading-prefs-heading h2,html[data-appearance="vellum"] .reading-prefs-intro,html[data-appearance="vellum"] .reading-prefs-fieldset legend,html[data-appearance="vellum"] .reading-prefs-toggle strong,html[data-appearance="vellum"] .reading-prefs-toggle small,html[data-appearance="vellum"] .reading-prefs-footer span,html[data-appearance="vellum"] .reading-prefs-status { color:#443829 }
+html[data-appearance="vellum"] .reading-prefs-choices button,html[data-appearance="vellum"] .reading-prefs-footer button,html[data-appearance="vellum"] .reading-prefs-heading button { background:#eee2cd; color:#3a3024; border-color:#b6a07e }
+html[data-appearance="vellum"] .reading-prefs-choices button[aria-pressed="true"] { background:#d8c39e; border-color:#77572c; color:#2b261e }
+html[data-appearance="vellum"] .reading-prefs-fieldset,html[data-appearance="vellum"] .reading-prefs-toggle,html[data-appearance="vellum"] .reading-prefs-footer { border-color:#c4b394 }
+html[data-appearance="vellum"] .breadcrumbs,html[data-appearance="vellum"] .breadcrumbs>span:last-child,html[data-appearance="vellum"] .article-deck { color:#585143 }
+html[data-appearance="vellum"] .article-head h1,html[data-appearance="vellum"] .catalog-heading h1,html[data-appearance="vellum"] .section-heading h2,html[data-appearance="vellum"] .related-section h2 { color:#373128 }
+html[data-appearance="vellum"] .article-subtitle { color:#755632 }
+html[data-appearance="vellum"] .document-paper { border-color:#c7b69a; box-shadow:0 12px 34px #5c442227 }
+html[data-appearance="vellum"] .fact-panel,html[data-appearance="vellum"] .reference-panel,html[data-appearance="vellum"] .toc-panel,html[data-appearance="vellum"] .related-card,html[data-appearance="vellum"] .collection-card,html[data-appearance="vellum"] .featured-card { background:#f6ecdb; border-color:#c1ac89; color:#38332b }
+html[data-appearance="vellum"] .fact-heading,html[data-appearance="vellum"] .fact-item span,html[data-appearance="vellum"] .fact-item strong,html[data-appearance="vellum"] .fact-footer,html[data-appearance="vellum"] .toc-title,html[data-appearance="vellum"] .toc-link,html[data-appearance="vellum"] .reference-panel span,html[data-appearance="vellum"] .related-card h3,html[data-appearance="vellum"] .collection-card h3,html[data-appearance="vellum"] .collection-card p,html[data-appearance="vellum"] .featured-card h3,html[data-appearance="vellum"] .featured-card p { color:#423a2e }
+html[data-appearance="vellum"] .welcome-hero { background:#e8dac1; border-color:#a18b64; box-shadow:0 15px 40px #4e3b1f29 }
+html[data-appearance="vellum"] .welcome-hero-scenery { opacity:.28 }
+html[data-appearance="vellum"] .welcome-hero-scenery:after { background:linear-gradient(90deg,#efe4d3 0%,#efe4d3e8 36%,#eee1cb76 100%) }
+html[data-appearance="vellum"] .welcome-overline,html[data-appearance="vellum"] .welcome-hero h1,html[data-appearance="vellum"] .welcome-hero h1 em,html[data-appearance="vellum"] .welcome-hero-copy>p,html[data-appearance="vellum"] .welcome-hero-copy .welcome-hero-message,html[data-appearance="vellum"] .welcome-hero-edition { color:#453623 }
+html[data-appearance="vellum"] .welcome-hero-action { background:#654b2f; color:#fff6e5; border-color:#654b2f }
+html[data-appearance="vellum"] .welcome-section-heading h2,html[data-appearance="vellum"] .welcome-section-heading>p,html[data-appearance="vellum"] .welcome-choices-note,html[data-appearance="vellum"] .welcome-afterword h2,html[data-appearance="vellum"] .welcome-afterword p { color:#40372b }
+html[data-appearance="vellum"] .welcome-choice { background:#f8efdd; border-color:#b8a27d }
+html[data-appearance="vellum"] .welcome-choice:hover,html[data-appearance="vellum"] .welcome-choice.is-chosen { background:#ebdbbf; border-color:#81643d }
+html[data-appearance="vellum"] .welcome-choice strong,html[data-appearance="vellum"] .welcome-choice-tagline,html[data-appearance="vellum"] .welcome-choice-index,html[data-appearance="vellum"] .welcome-choice-symbol,html[data-appearance="vellum"] .welcome-choice-arrow { color:#453622 }
+html[data-appearance="vellum"] .welcome-panel { background:#f8efdd; border-color:#ac946d; box-shadow:0 12px 25px #5540281f }
+html[data-appearance="vellum"] .welcome-panel-heading { background:#e8d9be; border-color:#bca784 }
+html[data-appearance="vellum"] .welcome-panel-heading h2,html[data-appearance="vellum"] .welcome-panel-heading p,html[data-appearance="vellum"] .welcome-panel-kicker,html[data-appearance="vellum"] .welcome-panel-symbol { color:#433522 }
+html[data-appearance="vellum"] .welcome-archivist-letter { background:#fff9ed; color:#3c3429 }
+html[data-appearance="vellum"] .welcome-reading-shelf { background:#f7edda; color:#3d3429 }
+html[data-appearance="vellum"] .welcome-public-note { color:#544839 }
+html[data-appearance="vellum"][data-reading-contrast="high"] { --paper:#fffef8; --ink:#14232c; --rule:rgba(43,37,28,.6) }
+html[data-appearance="vellum"][data-reading-contrast="high"] body { background:#fffef8; color:#17242c }
+html[data-appearance="vellum"][data-reading-contrast="high"] .sidebar,html[data-appearance="vellum"][data-reading-contrast="high"] .topbar { background:#f1e8d8; border-color:#59462f }
+@media(max-width:710px){ .appearance-toggle{padding:6px 8px;min-width:43px} .appearance-toggle-label{display:none} }
+@media print { .appearance-toggle{display:none!important} }
