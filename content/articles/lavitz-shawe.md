@@ -11,6 +11,9 @@ portrait_variants:
   - label: Misfits Adventurer - Oath of Vengeance
     image: /assets/uploads/lavitz-shawe-1.jpg
     alt: Lavitz Shawe, a drow paladin in battle armor
+  - label: Lavitz and Rodrigo
+    image: /assets/uploads/lavitz-and-rodrigo.png
+    alt: Lavitz and his Velociraptor companion Rodrigo
 entry: BIO.001
 era: Age of the Misfits to Age of Ascendancy
 facts: |-
