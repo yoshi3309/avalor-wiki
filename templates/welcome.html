@@ -2,8 +2,9 @@
 {% block main %}
 <div class="content-container welcome-page">
   <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archive Home</a><span>›</span><span>Start Here</span></nav>
-  <header class="welcome-hero">
+  <header class="welcome-hero welcome-hero--editorial">
     <div class="welcome-hero-scenery" aria-hidden="true"><img class="welcome-hero-art" src="{{root}}{{welcome_hero_image}}" alt="" decoding="async" fetchpriority="high" style="object-position:{{welcome_hero_focus}}"></div>
+    <div class="welcome-hero-frame" aria-hidden="true"><span class="welcome-hero-frame-top">THE WORLD OF AVALOR</span><span class="welcome-hero-frame-mark">✦</span></div>
     <div class="welcome-hero-copy">
       <span class="welcome-overline">THE ROYAL COMMISSION · AN INVITATION TO EXPLORE</span>
       <img class="welcome-crest" src="{{root}}assets/crest.svg" width="80" height="80" alt="" decoding="async">
@@ -23,10 +24,11 @@
     <nav class="welcome-choice-grid" aria-label="Choose an introduction to Avalor">
       {% for route in welcome_routes %}
       <a class="welcome-choice welcome-choice-{{route.id}}" href="#welcome-{{route.id}}" data-welcome-choice="{{route.id}}" aria-controls="welcome-{{route.id}}">
+        <div class="welcome-choice-illustration" aria-hidden="true"><span class="welcome-choice-arch"><span class="welcome-choice-sun"></span><span class="welcome-choice-horizon"></span><span class="welcome-choice-sigil">{{route.symbol}}</span></span></div>
         <div class="welcome-choice-upper"><span class="welcome-choice-index">PATH {{'%02d'|format(loop.index)}}</span><span class="welcome-choice-symbol" aria-hidden="true">{{route.symbol}}</span></div>
         <strong>{{route.title}}</strong>
         <span class="welcome-choice-tagline">{{route.tagline}}</span>
-        <span class="welcome-choice-arrow">Enter this wing <span aria-hidden="true">↗</span></span>
+        <span class="welcome-choice-arrow">Open this doorway <span aria-hidden="true">↗</span></span>
       </a>
       {% endfor %}
     </nav>

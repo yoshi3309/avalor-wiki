@@ -1,0 +1,59 @@
+/* Phase 1 — Start Here: an illustrated invitation, shared by Night and Vellum.
+   Decorative architectural motifs are editorial design, not in-world artifacts. */
+.page-welcome .welcome-page{max-width:1360px}
+.page-welcome .welcome-hero--editorial{min-height:490px;margin-bottom:55px}
+.page-welcome .welcome-hero--editorial .welcome-hero-copy{padding-top:55px;padding-bottom:72px}
+.page-welcome .welcome-hero--editorial .welcome-crest{width:67px;height:67px}
+.page-welcome .welcome-hero-frame{position:absolute;inset:25px;z-index:1;display:flex;align-items:flex-start;justify-content:space-between;border:1px solid rgba(205,174,117,.3);padding:9px 16px;color:#d8be8d;pointer-events:none;font:600 9px/1.4 var(--font-display);letter-spacing:.22em}
+.page-welcome .welcome-hero-frame:before,.page-welcome .welcome-hero-frame:after{content:"";position:absolute;width:25px;height:25px;border-color:#c7ac7a;opacity:.75}
+.page-welcome .welcome-hero-frame:before{left:-1px;bottom:-1px;border-left:2px solid;border-bottom:2px solid}
+.page-welcome .welcome-hero-frame:after{right:-1px;top:-1px;border-right:2px solid;border-top:2px solid}
+.page-welcome .welcome-hero-frame-mark{font-size:17px;line-height:1}
+.page-welcome .welcome-choices{border-top:1px solid var(--rule);padding-top:29px}
+.page-welcome .welcome-section-heading{margin-bottom:27px}
+.page-welcome .welcome-choice-grid{gap:16px}
+.page-welcome .welcome-choice{min-height:342px;padding:0 19px 17px;overflow:hidden;gap:8px;isolation:isolate}
+.page-welcome .welcome-choice:before{z-index:2;height:2px}
+.page-welcome .welcome-choice-illustration{height:148px;margin:0 -19px 11px;position:relative;overflow:hidden;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 85%,#9d825447,transparent 62%),linear-gradient(150deg,#30474d,#182a34);border-bottom:1px solid #7c745c}
+.page-welcome .welcome-choice-illustration:before{content:"";position:absolute;inset:15px 22px 0;background:repeating-linear-gradient(90deg,transparent 0 32px,#d4b57d0d 33px 34px);opacity:.6}
+.page-welcome .welcome-choice-arch{position:relative;display:block;width:117px;height:150px;margin-top:24px;border:3px solid #b99c6a;border-bottom:0;border-radius:60px 60px 0 0;box-shadow:0 0 0 7px #b99c6a20,inset 0 0 0 7px #d7b98615;background:linear-gradient(#203540 10%,#45565b 58%,#1c2c35)}
+.page-welcome .welcome-choice-arch:before{content:"";position:absolute;inset:7px 7px 0;border:1px solid #d2b37a60;border-bottom:0;border-radius:50px 50px 0 0}
+.page-welcome .welcome-choice-sun{position:absolute;width:49px;height:49px;border-radius:50%;left:calc(50% - 24px);top:30px;background:#c7a66b60;box-shadow:0 0 29px 12px #c7a66b26}
+.page-welcome .welcome-choice-horizon{position:absolute;bottom:0;left:0;right:0;height:51px;background:linear-gradient(142deg,transparent 43%,#172a32 44% 63%,transparent 64%),linear-gradient(26deg,#182c33 22%,transparent 23%),linear-gradient(160deg,transparent 35%,#263b42 36%);opacity:.9}
+.page-welcome .welcome-choice-sigil{position:absolute;z-index:1;left:0;right:0;top:44px;text-align:center;color:#f0d7a0;font:42px/1 var(--font-display);text-shadow:0 3px 11px #111e25}
+.page-welcome .welcome-choice-heroes .welcome-choice-illustration{background:radial-gradient(ellipse at 50% 85%,#ab714346,transparent 63%),linear-gradient(150deg,#443b40,#202c36)}
+.page-welcome .welcome-choice-heroes .welcome-choice-arch{background:linear-gradient(#43323b,#654b44 60%,#242b34)}
+.page-welcome .welcome-choice-history .welcome-choice-illustration{background:radial-gradient(ellipse at 50% 85%,#9f936346,transparent 63%),linear-gradient(150deg,#3c4640,#23333a)}
+.page-welcome .welcome-choice-history .welcome-choice-arch{background:linear-gradient(#30433f,#5b5e4c 60%,#253239)}
+.page-welcome .welcome-choice-world .welcome-choice-illustration{background:radial-gradient(ellipse at 50% 85%,#598a8560,transparent 63%),linear-gradient(150deg,#2c454b,#142d3c)}
+.page-welcome .welcome-choice-world .welcome-choice-arch{background:linear-gradient(#183a45,#2c5960 65%,#192e39)}
+.page-welcome .welcome-choice-upper{align-items:center}
+.page-welcome .welcome-choice-symbol{font-size:22px;opacity:.7}
+.page-welcome .welcome-choice strong{font-size:clamp(16px,1.5vw,20px)}
+.page-welcome .welcome-choice-tagline{font-size:12px;line-height:1.65}
+.page-welcome .welcome-choice-arrow{margin-top:auto}
+.page-welcome .welcome-choice.is-chosen{box-shadow:inset 0 0 0 1px #cfb17d55,0 7px 20px #101a2135}
+.page-welcome .welcome-panel{margin-top:38px}
+.page-welcome .welcome-panel-heading{padding:31px clamp(21px,3.2vw,43px)}
+.page-welcome .welcome-panel-grid{grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr)}
+.page-welcome .welcome-archivist-letter{padding-top:36px;padding-bottom:28px}
+.page-welcome .welcome-reading-shelf{padding-top:30px;padding-bottom:35px}
+.page-welcome .welcome-step-number{min-width:36px}
+.page-welcome .welcome-steps li{gap:23px;padding:22px 0}
+.page-welcome .welcome-afterword{padding-block:38px}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-frame{border-color:#9b7b4e;color:#685131}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-frame:before,html[data-appearance="vellum"] .page-welcome .welcome-hero-frame:after{border-color:#806039}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-illustration{border-color:#b29a75;background:radial-gradient(ellipse at 50% 85%,#99764635,transparent 62%),linear-gradient(150deg,#d8c6a8,#bda17b)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-heroes .welcome-choice-illustration{background:linear-gradient(150deg,#d6b9a5,#b68f7f)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-history .welcome-choice-illustration{background:linear-gradient(150deg,#d6d3b6,#a9ab8d)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-world .welcome-choice-illustration{background:linear-gradient(150deg,#bdd5cc,#82aaac)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-arch{border-color:#7c6343;box-shadow:0 0 0 7px #74512d20;background:linear-gradient(#c8b18a,#9c825c)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-heroes .welcome-choice-arch{background:linear-gradient(#bd9686,#876966)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-history .welcome-choice-arch{background:linear-gradient(#b7b89a,#85937c)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-world .welcome-choice-arch{background:linear-gradient(#8ab5b0,#527e84)}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-sun{background:#f6e4b28c}
+html[data-appearance="vellum"] .page-welcome .welcome-choice-sigil{color:#fff5de;text-shadow:0 2px 5px #463b32}
+@media(max-width:1120px){.page-welcome .welcome-choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.page-welcome .welcome-choice{min-height:330px}}
+@media(max-width:760px){.page-welcome .welcome-hero--editorial{min-height:0;margin-bottom:35px}.page-welcome .welcome-hero--editorial .welcome-hero-copy{padding:45px 25px 75px}.page-welcome .welcome-hero-frame{inset:13px;padding:7px}.page-welcome .welcome-hero-frame-top{font-size:7px}.page-welcome .welcome-panel-grid{grid-template-columns:1fr}.page-welcome .welcome-choice{min-height:326px}}
+@media(max-width:520px){.page-welcome .welcome-choice-grid{gap:9px}.page-welcome .welcome-choice{min-height:308px;padding:0 11px 12px;gap:7px}.page-welcome .welcome-choice-illustration{height:118px;margin-inline:-11px}.page-welcome .welcome-choice-arch{width:88px;height:125px;margin-top:25px}.page-welcome .welcome-choice-sigil{font-size:32px;top:39px}.page-welcome .welcome-choice-sun{width:37px;height:37px;left:calc(50% - 18px)}.page-welcome .welcome-choice strong{font-size:14px}.page-welcome .welcome-choice-tagline{font-size:10px}.page-welcome .welcome-choice-arrow{font-size:9px}.page-welcome .welcome-choice-symbol{font-size:16px}.page-welcome .welcome-hero-frame-top{display:none}}
+@media(prefers-reduced-motion:reduce){.page-welcome .welcome-choice{transition:none}}
