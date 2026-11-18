@@ -1,0 +1,97 @@
+# Search labels for already-published public articles only.
+# These are discoverability aliases, NOT new characters, titles, or lore.
+# Do not include Keeper secrets or misleading historical claims.
+aliases:
+  faelynn:
+    - Night Mistress
+    - Faelynn Naïlo
+    - Faelynn Nailo
+  cid-the-blood-king:
+    - Blood King
+    - Cid
+  fo-gurn:
+    - FoGurn
+    - Fo Gurn
+  tellora-ebbenflow:
+    - Tel Lora
+    - TelLora
+  svendyal-shadowwhisper:
+    - Sven
+    - Svendyal Shadowwhisper
+    - S'vendyal Shadowwhisper
+    - Svendyal Shadowwhisperer
+    - S'vendyal Gwathrenflos
+    - Iron Shadow
+  kel-maris:
+    - Kel Maris
+    - Kelmaris
+    - Lion's Shadow
+    - Lions Shadow
+  lavitz-shawe:
+    - Lavitz
+  heureux:
+    - Heureux the Bard
+  jack-of-stanleyville:
+    - Jack
+    - Ghost Boy
+  jaznaar:
+    - Jaznaar Mizzrorzza
+  the-six:
+    - Founding Six
+    - Original Six
+  the-misfits:
+    - The Misfits adventurers
+  house-frozenroar:
+    - Frozenroar Dynasty
+    - Royal Register
+  guilds-of-avalor:
+    - The Silver Forge
+    - The Sea Shadows
+    - Silver Forge
+    - Sea Shadows
+  bard-guild:
+    - Society of Silk & Story
+    - Society of Silk and Story
+  hunters-guild:
+    - Hunters Guild
+  forest-of-the-fey:
+    - Wood of the Fey
+    - Fey Forest
+  tumbletown:
+    - Tumbledown
+  other-locations-of-avalor:
+    - Vey'thal
+  lesser-settlements-of-avalor:
+    - Phandalin
+    - Phandalkin
+  heyden-of-the-goldenfoot:
+    - Heyden Goldenfoot
+    - Prince Heyden
+    - Fourth Prince of Labos
+    - Shadow
+  lowkee:
+    - Lowkee the Paladin
+    - Lowkee Nicklebane
+  royal-commission-historical-inquiry:
+    - Royal Commission
+    - Royal Commission of Historical Inquiry
+  the-aegis:
+    - Aegis Council
+
+  anna-lowkees-keeper:
+    - Anna
+    - Lowkee's Keeper
+    - Anna the Keeper
+  emerald-of-armanti:
+    - Armanti Emerald
+  mera-ashenfall:
+    - Mera
+    - Spirit bard Mera
+  malikeah:
+    - Malikeah Ashenfall
+  zauks:
+    - Zauks the Mind Flayer
+    - Zauks Mind Flayer
+  noki-the-sheep:
+    - Noke
+    - Noki the wizard

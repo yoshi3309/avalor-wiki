@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="article-reading-track" role="progressbar" aria-label="Progress through this article" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="article-reading-fill"></div></div>
+<div class="content-container article-container" data-article-reading data-reading-slug="{{article.slug}}" data-reading-title="{{article.title}}" data-reading-category="{{article.category}}">
+  <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
+  <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT{% if article.brief_entry %}<span class="brief-record-label" title="A concise entry in the Royal Archives">· BRIEF ENTRY</span>{% endif %}<div class="reading-article-tools" aria-label="Save this record"><button type="button" id="reading-bookmark" aria-pressed="false" aria-label="Save record to Reading Desk" title="Save record to Reading Desk">☆</button><span id="reading-action-status" role="status" aria-live="polite"></span></div></div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>
+    {% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
+  {% if article.category == 'Kingdoms & Places' and article.image_url %}
+  <figure class="article-illustration article-illustration--landscape">
+    <picture>{% if article.image_media and article.image_media.variants %}<source type="image/webp" srcset="{% for variant in article.image_media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(max-width: 710px) calc(100vw - 40px), (max-width: 1100px) 88vw, 1100px">{% endif %}<img src="{{article.image_url}}" alt="{{article.image_alt or article.title}}" decoding="async" fetchpriority="high"{% if article.image_media %} width="{{article.image_media.width}}" height="{{article.image_media.height}}"{% endif %}></picture>
+    {% if article.image_caption %}<figcaption>{{article.image_caption}}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="article-split"><div class="article-column">
+    <div class="document-paper"><div class="paper-top"><span class="ornamental-letter">A</span><span>THE ROYAL COMMISSION OF HISTORICAL INQUIRY</span><span class="paper-sigil">✦</span></div>
+      {% if article.headings %}<details class="article-mobile-toc"><summary>In this record <span aria-hidden="true">⌄</span></summary><nav aria-label="Article chapters">{% for h in article.headings %}<a href="#{{h.id}}">{{h.text}}</a>{% endfor %}</nav></details>{% endif %}
+      <div class="article-body">{{ article.html | safe }}</div>
+      <div class="end-ornament" aria-hidden="true">❦</div>
+      {% if article.public_source %}<div class="source-note"><div class="kicker">ARCHIVAL REFERENCES</div><p>{{article.public_source}}</p></div>{% endif %}
+    </div>
+    {% if reading_paths or web_connection or relationship_maps or comparison_available or gallery_items or historical_exhibits or related %}
+    <section class="article-explore" aria-labelledby="article-explore-title">
+      <header class="article-explore-header">
+        <div class="article-explore-kicker">THE ARCHIVIST'S ROUTES · BEYOND THIS RECORD</div>
+        <h2 id="article-explore-title">Continue exploring</h2>
+        <p>Follow the next chapter, trace connected lives, or open another record from the Royal Archives.</p>
+      </header>
+
+      {% if reading_paths %}
+      <section class="article-explore-group" aria-labelledby="article-explore-journeys-title">
+        <h3 id="article-explore-journeys-title">Follow the story</h3>
+        <div class="article-explore-journeys">
+          {% for path in reading_paths %}
+          <div class="article-explore-journey">
+            <span class="article-explore-meta">GUIDED JOURNEY · CHAPTER {{path.number}} OF {{path.total}}</span>
+            <h4><a href="{{root}}journeys/{{path.journey_id}}/">{{path.journey_title}}</a></h4>
+            <div class="article-explore-journey-links">
+              {% if path.next %}<a class="article-explore-next" href="{{root}}articles/{{path.next.article.slug}}/">Continue: {{path.next.label}} <span aria-hidden="true">↗</span></a>{% else %}<span class="article-explore-finished">Journey complete ✦</span>{% endif %}
+              {% if path.previous %}<a class="article-explore-previous" href="{{root}}articles/{{path.previous.article.slug}}/">← {{path.previous.label}}</a>{% endif %}
+            </div>
+            {% if path.deeper_reading %}
+            <details class="article-explore-disclosure article-explore-deeper">
+              <summary>Additional reading within this journey ({{path.deeper_reading|length}})</summary>
+              <ul>{% for extra in path.deeper_reading %}<li><a href="{{root}}articles/{{extra.article.slug}}/{% if extra.fragment %}#{{extra.fragment}}{% endif %}">{% if extra.fragment %}{{extra.fragment|replace('-', ' ')|title}}{% else %}{{extra.article.title}}{% endif %}</a>{% if extra.note %}<span>{{extra.note}}</span>{% endif %}</li>{% endfor %}</ul>
+            </details>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if web_connection or relationship_maps or comparison_available %}
+      <section class="article-explore-group" aria-labelledby="article-explore-connections-title">
+        <h3 id="article-explore-connections-title">People and connections</h3>
+        <div class="article-explore-action-grid">
+          {% if web_connection %}
+          <a class="article-explore-action article-explore-action--connections" href="{{root}}connections/?focus={{article.slug}}#cross-explorer-title"><strong>Connections explorer</strong><span>Trace this record through people, places and events</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          {% endif %}
+          {% for graph in relationship_maps %}
+          <a class="article-explore-action article-explore-action--relationships" href="{{root}}connections/{{graph.id}}/"><strong>{{graph.title}}</strong><span>Explore a curated relationship map</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          {% endfor %}
+          {% if comparison_available %}
+          <a class="article-explore-action article-explore-action--compare" href="{{root}}compare/?left={{article.slug}}"><strong>Compare this life</strong><span>Examine two biographies side by side</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          {% endif %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if gallery_items or historical_exhibits %}
+      <section class="article-explore-group" aria-labelledby="article-explore-gallery-title">
+        <h3 id="article-explore-gallery-title">Illustrations and exhibits</h3>
+        {% if gallery_items %}
+        <div class="gallery-related-grid article-explore-art">
+          {% for piece in gallery_items[:2] %}
+          <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗</small></span></a>
+          {% endfor %}
+        </div>
+        {% if gallery_items|length > 2 %}
+        <details class="article-explore-disclosure">
+          <summary>View {{gallery_items|length - 2}} more gallery plates</summary>
+          <div class="gallery-related-grid article-explore-art">
+            {% for piece in gallery_items[2:] %}
+            <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗</small></span></a>
+            {% endfor %}
+          </div>
+        </details>
+        {% endif %}
+        {% endif %}
+        {% if historical_exhibits %}
+        <div class="exhibit-article-links article-explore-exhibits">
+          {% for exhibit in historical_exhibits[:2] %}
+          <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗</span></a>
+          {% endfor %}
+        </div>
+        {% if historical_exhibits|length > 2 %}
+        <details class="article-explore-disclosure">
+          <summary>View {{historical_exhibits|length - 2}} more exhibits</summary>
+          <div class="exhibit-article-links article-explore-exhibits">
+            {% for exhibit in historical_exhibits[2:] %}
+            <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗</span></a>
+            {% endfor %}
+          </div>
+        </details>
+        {% endif %}
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if related %}
+      <section class="article-explore-group" aria-labelledby="article-explore-related-title">
+        <h3 id="article-explore-related-title">Related records</h3>
+        <div class="related-grid article-explore-related">
+          {% for a in related[:4] %}
+          <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗</span></a>
+          {% endfor %}
+        </div>
+        {% if related|length > 4 %}
+        <details class="article-explore-disclosure">
+          <summary>Browse {{related|length - 4}} more related records</summary>
+          <div class="related-grid article-explore-related">
+            {% for a in related[4:] %}
+            <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗</span></a>
+            {% endfor %}
+          </div>
+        </details>
+        {% endif %}
+      </section>
+      {% endif %}
+    </section>
+    {% endif %}
+  </div>
+  <aside class="article-rail">{% if article.image_url and article.category != 'Kingdoms & Places' %}<figure class="article-illustration{% if article.portrait_stages %} character-portrait-gallery{% endif %}"{% if article.portrait_stages %} data-portrait-gallery{% endif %}>
+  <picture>{% if article.image_media and article.image_media.variants %}<source type="image/webp" srcset="{% for variant in article.image_media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(max-width: 920px) 90vw, 240px">{% endif %}
+    <img src="{{article.image_url}}" alt="{{article.image_alt or article.title}}" loading="lazy" decoding="async"{% if article.image_media %} width="{{article.image_media.width}}" height="{{article.image_media.height}}"{% endif %}>
+  </picture>
+  {% if article.portrait_stages %}
+    <figcaption class="portrait-stage-caption" data-portrait-caption>{{article.portrait_stages[0].caption}}</figcaption>
+    <div class="portrait-stage-controls" role="group" aria-label="Choose an appearance of {{article.title}}">
+      {% for stage in article.portrait_stages %}
+      <a class="portrait-stage-choice{% if loop.first %} is-selected{% endif %}" href="{{stage.src}}" data-portrait-stage
+         data-stage-src="{{stage.src}}" data-stage-srcset="{{stage.srcset}}" data-stage-alt="{{stage.alt}}" data-stage-caption="{{stage.caption}}"
+         data-stage-width="{{stage.width}}" data-stage-height="{{stage.height}}"
+         aria-label="View {{article.title}}: {{stage.label}}" {% if loop.first %}aria-current="true"{% endif %}>
+        <img src="{{stage.thumb_src}}" alt="" loading="lazy"><span>{{stage.label}}</span>
+      </a>
+      {% endfor %}
+    </div>
+  {% elif article.image_caption %}<figcaption>{{article.image_caption}}</figcaption>{% endif %}
+</figure>{% endif %}<div class="fact-panel"><div class="fact-heading">AT A GLANCE <span>◇</span></div><div class="fact-line-top"></div>{% for fact in article.facts_parsed %}<div class="fact-item"><span>{{fact.label}}</span><strong>{{fact.value_html | safe}}</strong></div>{% endfor %}<div class="fact-footer">{{article.era}}</div></div><div class="toc-panel"><div class="toc-title">IN THIS RECORD</div><nav aria-label="Sections of this article">{% for h in article.headings %}<a href="#{{h.id}}" class="toc-link">{{h.text}}</a>{% endfor %}</nav></div></aside></div>
+</div>
+{% endblock %}

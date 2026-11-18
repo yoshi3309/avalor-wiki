@@ -1,0 +1,528 @@
+"""Validate the event-driven Rise of the Misfits and optional deeper reading.
+
+Runs after python build.py. Does not load private Keeper materials.
+"""
+from pathlib import Path
+from html.parser import HTMLParser
+import re
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+SOURCE = yaml.safe_load((ROOT / "data" / "reading-journeys.yml").read_text(encoding="utf-8"))
+journeys = {j["id"]: j for j in SOURCE["journeys"]}
+route = journeys["rise-of-the-misfits"]
+steps = route["steps"]
+
+expected = [
+    "moonville-manor-incident",
+    "the-first-commission",
+    "golgoroth-second-commission",
+    "noki-sheep-incident",
+    "search-for-lowkees-keeper",
+    "the-stalker",
+    "hydra-temple-disaster",
+    "rotten-husk-liberation",
+    "jaznaar-refuge-revelation",
+    "tournament-of-champions",
+    "ros-furband-jinlin-ordeal",
+    "zauks-false-lives",
+    "shadowfell-confrontation",
+    "misfits-return-to-renada",
+    "jaznaars-vindication",
+]
+actual = [s["article"] for s in steps]
+assert actual == expected, f"Misfits event order changed: {actual}"
+assert len(steps) == 15
+assert sum(bool(s.get("act")) for s in steps) == 4
+assert len(set(actual)) == len(actual)
+
+extra_count = 0
+for s in steps:
+    article_path = ROOT / "content" / "articles" / (s["article"] + ".md")
+    assert article_path.is_file(), f"Missing historical account {article_path}"
+    article_text = article_path.read_text(encoding="utf-8")
+    front = article_text.split("---", 2)[1]
+    narrative = article_text.split("---", 2)[2].rstrip()
+    last_line = narrative.splitlines()[-1].strip()
+    assert not re.match(r"^#{1,6}\s+\S", last_line), (
+        f"Unfinished trailing section heading in {s['article']}: {last_line}"
+    )
+    assert "category: History & Chronicles" in front, (
+        f"Main chapter must be a historical event, not a biography: {s['article']}"
+    )
+    extra = s.get("deeper_reading", [])
+    assert extra, f"No optional deeper reading for {s['article']}"
+    assert 1 <= len(extra) <= 5
+    assert s["article"] not in [e["article"] for e in extra]
+    for e in extra:
+        assert (ROOT / "content" / "articles" / (e["article"] + ".md")).is_file()
+        assert e["note"].strip()
+        extra_count += 1
+assert extra_count >= 30
+
+class Scan(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.classes = []
+        self.links = []
+        self.tags = []
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        self.tags.append(tag)
+        self.classes.extend((attrs.get("class") or "").split())
+        if tag == "a":
+            self.links.append(attrs.get("href", ""))
+
+page = ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html"
+assert page.is_file()
+html = page.read_text(encoding="utf-8")
+scan = Scan()
+scan.feed(html)
+assert scan.classes.count("journey-chapter") == 15
+assert scan.classes.count("journey-deeper-reading") == 15
+assert scan.classes.count("journey-act-kicker") == 4
+assert scan.tags.count("details") >= 15
+assert "Shadowfell Confrontation" in html
+assert 'CHAPTER 13' in html
+assert 'Cid the Blood King' in html  # supplemental reading, not the main chapter
+assert 'The Last Battle in the Shadowfell' in html
+for slug in actual:
+    assert any("/articles/" + slug + "/" in u for u in scan.links), (
+        f"Journey does not link to main event article: {slug}"
+    )
+assert any("/articles/cid-the-blood-king/" in u for u in scan.links), (
+    "The Blood King's biography should be available as deeper reading."
+)
+
+finale = ROOT / "_site" / "articles" / "shadowfell-confrontation" / "index.html"
+assert finale.is_file()
+final_html = finale.read_text(encoding="utf-8")
+assert "article-explore-deeper" in final_html
+assert "Continue: The Queen Returns" in final_html
+
+# Other journeys still build with their original event/biography choices and without
+# automatically acquiring supplemental blocks or act headers.
+other = ROOT / "_site" / "journeys" / "frozenroar-dynasty" / "index.html"
+assert other.is_file()
+assert 'class="journey-deeper-reading"' not in other.read_text(encoding="utf-8")
+assert "Follow the main chapters in order" not in other.read_text(encoding="utf-8")
+assert "Read each chapter in sequence" in other.read_text(encoding="utf-8")
+
+
+# Twenty-year retrospective truths are intentionally public; absence is a regression.
+def source(slug):
+    return (ROOT / "content" / "articles" / (slug + ".md")).read_text(encoding="utf-8")
+assert "Erevan Ilesere in disguise" in source("anna-lowkees-keeper")
+assert "Vandria Gilmadrith" in source("misfits-return-to-renada")
+assert "Sven gave no answer" in source("misfits-return-to-renada")
+assert "temporary spiritual connection" in source("emerald-of-armanti")
+assert "bar Cid" in source("emerald-of-armanti")
+assert "subsequently raised his body" in source("fo-gurn")
+assert "before Jaaris died" in source("fo-gurn")
+assert "rest one final time" in source("fo-gurn")
+# The approved retrospective covers the Misfits' completed campaign, not a later summons.
+for slug in ("fo-gurn", "death-souls-and-the-afterlife"):
+    retrospective = source(slug)
+    assert "next summons" not in retrospective
+    assert "appearance twenty years later" not in retrospective.lower()
+    assert "reappearance beside Samuel" not in retrospective
+    assert "appears alongside Samuel roughly twenty years afterward" not in retrospective
+assert "Blood Sickness" in source("independent-factions-of-the-misfits-era")
+assert "unwanted vampirism" in source("independent-factions-of-the-misfits-era")
+assert "hands" in source("shadowfell-confrontation")
+assert "unknown" in source("shadowfell-confrontation")
+# Completed-campaign truths stay public and Fo'Gurn's short original-campaign absence
+# must not be mistaken for the separate twenty-year interval after his final rest.
+assert "contested in the public record" not in source("the-misfits")
+assert "not fully established for public readers" not in source("the-misfits")
+assert "believed dead for years" not in source("the-misfits")
+assert "## The years of mourning" not in source("fo-gurn")
+assert "what the five faced together" not in source("zauks-false-lives")
+assert "Jaaris later raised" in source("the-misfits")
+for slug in ("shadowfell-confrontation", "emerald-of-armanti"):
+    article = source(slug)
+    assert "Auren's later retrieval" not in article
+    assert "later Godkiller" not in article
+# Stage B narrative pass: preserve chronology, public revelations, and limits of testimony.
+assert "ice-blue crystal" in source("jaznaar-refuge-revelation")
+assert "Karina" in source("jaznaar-refuge-revelation")
+assert "temple of Bane" in source("hydra-temple-disaster")
+assert "mortal vessel for divine power" in source("hydra-temple-disaster")
+assert "after the Tournament of Champions" in source("hydra-temple-disaster")
+assert "assumed identities" in source("tournament-of-champions")
+assert "cocoons" in source("zauks-false-lives")
+assert "Amara killed the mind flayer" in source("zauks-false-lives")
+assert "Erevan Ilesere" not in source("search-for-lowkees-keeper"), (
+    "Anna's identity should be revealed in the Renada homecoming, not at the first meeting."
+)
+assert "Erevan Ilesere" in source("misfits-return-to-renada")
+assert "Sven gave no answer" in source("misfits-return-to-renada")
+for slug in (
+    "moonville-manor-incident",
+    "search-for-lowkees-keeper",
+    "hydra-temple-disaster",
+    "jaznaar-refuge-revelation",
+    "tournament-of-champions",
+    "zauks-false-lives",
+    "misfits-return-to-renada",
+):
+    body = source(slug).split("---", 2)[2]
+    assert len(body.split()) >= 500, f"Stage B main account unexpectedly abbreviated: {slug}"
+
+# New lore approved 12 November 2026: Kel'Maris and the standalone Zauks account.
+assert "Kel'Maris" in source("kel-maris")
+assert "Kurt Reyginald" in source("kel-maris")
+assert "Kel Scythe" in source("kel-maris")
+assert "Stanleyville" in source("kel-maris")
+assert "Captain Funkin returned her body safely to Renada" in source("kel-maris"), (
+    "Funkin returned Kel'Maris's body before his later death at the Hydra temple."
+)
+assert "Captain Funkin returned her body" in source("kel-maris")
+assert "Captain Funkin" in source("the-stalker")
+assert "Kel'Maris could not be among the survivors" in source("hydra-temple-disaster")
+assert "Anna escaped" in source("hydra-temple-disaster")
+assert "Kel'Maris" in source("the-stalker")
+assert "Kel'Maris" in source("the-first-commission")
+assert "Kel'Maris" in source("golgoroth-second-commission")
+assert "Kel'Maris" in source("lavitz-shawe")
+assert "Lion's Shadow" in source("king-gradvum-frozenroar")
+assert "Zauks" in source("zauks")
+assert "Amara" in source("zauks")
+assert "cocoons" in source("zauks")
+
+assert "Master of Broken Wills" in source("jaaris")
+assert "Jaaris had previously led the hostile fey who murdered Tristan and Kristofer" in source("cid-the-blood-king")
+assert "Jaaris" in source("svendyal-shadowwhisper")
+assert "Fo'Gurn chose to protect Lavitz" in source("jaaris")
+assert "The earlier necromancer" in source("jaaris")
+
+# Addendum 003 identities retained within two compact character indexes.
+minor_heroes = source("minor-heroes-and-allies")
+minor_villains = source("minor-villains-and-adversaries")
+for slug, hub in (
+    ("kurt-reyginald", "minor-heroes-and-allies"),
+    ("captain-funkin", "minor-heroes-and-allies"),
+    ("inspector-sihnion", "minor-heroes-and-allies"),
+    ("ros-furband", "minor-villains-and-adversaries"),
+    ("karina", "minor-villains-and-adversaries"),
+    ("black-agnes-mudwallow", "minor-villains-and-adversaries"),
+):
+    assert not (ROOT / "content" / "articles" / f"{slug}.md").exists(), slug
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[slug]["parent"] == hub
+    assert merges[slug]["section"] == slug
+    redirect = ROOT / "_site" / "articles" / slug / "index.html"
+    assert redirect.is_file()
+    assert f"articles/{hub}/#{slug}" in redirect.read_text(encoding="utf-8")
+    destination = ROOT / "_site" / "articles" / hub / "index.html"
+    assert f'id="{slug}"' in destination.read_text(encoding="utf-8")
+for heading in ("Kurt Reyginald", "Captain Funkin", "Inspector Sihnion",
+                "Quill", "Mira", "Nimbus", "Nadja Akayrn"):
+    assert f"## {heading}" in minor_heroes
+for heading in ("Karina", "Black Agnes Mudwallow", "Ros Furband"):
+    assert f"## {heading}" in minor_villains
+assert "ice-blue crystal" in minor_villains
+assert "Tel'Lora" in minor_villains
+assert "Misfits defeated and killed Black Agnes" in minor_villains
+assert "Jinlin was defeated in a real confrontation" in source("minor-villains-and-adversaries")
+assert "Captain Funkin" in minor_heroes
+assert "Stalker" in minor_heroes
+assert "Hydra temple" in minor_heroes
+assert "Kel'Maris" in minor_heroes
+assert "1946 to 1982 AF" in source("minor-characters")
+# Deeper-reading links retain direct anchors to individuals inside the indexes.
+journey_html = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
+assert "articles/minor-heroes-and-allies/#captain-funkin" in journey_html
+assert "articles/minor-heroes-and-allies/#inspector-sihnion" in journey_html
+assert "articles/minor-villains-and-adversaries/#karina" in journey_html
+assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_html
+assert "Noke" in source("noki-the-sheep")
+assert "Den Mother" in source("noki-the-sheep")
+assert "Amara" in source("zauks")
+assert "cocoons" in source("zauks")
+
+# Addendum 008: short neutral/villain collections and the first new hunter.
+for slug, parent in (
+    ("jinlin-vechon", "minor-villains-and-adversaries"),
+    ("king-gerran-frozenroar", "minor-characters"),
+):
+    assert not (ROOT / "content" / "articles" / (slug + ".md")).exists(), slug
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[slug]["parent"] == parent
+    assert merges[slug]["section"] == slug
+    redirect = ROOT / "_site" / "articles" / slug / "index.html"
+    assert redirect.is_file()
+    assert f"articles/{parent}/#{slug}" in redirect.read_text(encoding="utf-8")
+    target = ROOT / "_site" / "articles" / parent / "index.html"
+    assert f'id="{slug}"' in target.read_text(encoding="utf-8")
+assert "## Jinlin Vechon" in source("minor-villains-and-adversaries")
+assert "## King Gerran Frozenroar" in source("minor-characters")
+assert "## Gomo" in source("minor-characters")
+assert "## Silver of Moonlight" in source("minor-characters")
+assert "title: Lowkee Nicklebane" in source("lowkee")
+assert "title: Faelynn Naïlo" in source("faelynn")
+heyden=source("heyden-of-the-goldenfoot")
+assert "title: Heyden of the Goldenfoot" in heyden
+for detail in ("Allosaurus", "Great Elk", "Gomo", "Silver of Moonlight",
+               "Shadow", "Jeothor", "Verbos", "Seals", "Revenant Double-Bladed Scimitar",
+               "Hunters Guild coin"):
+    assert detail in heyden, detail
+journey_08 = (ROOT / "_site" / "journeys" / "rise-of-the-misfits" / "index.html").read_text(encoding="utf-8")
+assert "articles/minor-villains-and-adversaries/#jinlin-vechon" in journey_08
+
+# Addendum 005: keep retrospective truths aligned across reference articles.
+assert "Fo'Gurn chose to protect Lavitz" in source("death-souls-and-the-afterlife")
+assert "his final rest" in source("death-souls-and-the-afterlife")
+assert "roughly twenty years afterward" not in source("death-souls-and-the-afterlife")
+assert "## Two interventions in the Misfits' campaign" in source("samuel-the-devoted")
+assert "At the ruined temple near Stanleyville" in source("samuel-the-devoted")
+assert "Later, during the final struggle in the Shadowfell" in source("samuel-the-devoted")
+assert "## The years not yet written" in source("age-of-ascendancy")
+assert "Royal Commission of Historical Inquiry" in source("age-of-ascendancy")
+assert "## The Blackwater Bay affair" in source("age-of-ascendancy")
+assert "Black Diamond" in source("age-of-ascendancy")
+assert "[[Escape from Blackwater Bay]]" in source("age-of-ascendancy")
+assert "Kel'Maris" in source("the-aegis")
+assert "## The farewell to the Lion's Shadow" in source("great-cathedral")
+assert "three days" in source("great-cathedral")
+assert "ashes were scattered" in source("geography-of-avalor")
+assert "## Ilyanamel" in source("lesser-settlements-of-avalor")
+assert "the precise position of the village within the woodland has not yet been marked" in source("lesser-settlements-of-avalor")
+
+# Addendum 006: approximate original-campaign death chronology and Keeper's gap ruling.
+chronicle = yaml.safe_load((ROOT / "data" / "living-chronicle.yml").read_text(encoding="utf-8"))
+events = chronicle["events"]
+event_by_id = {event["id"]: event for event in events}
+ordered_death_ids = [
+    "stanleyville-deaths",
+    "hydra-temple-deaths",
+    "jaznaar-final-rest",
+    "zauks-end",
+    "misfits-victory",
+]
+event_ids = [event["id"] for event in events]
+assert [event_ids.index(i) for i in ordered_death_ids] == sorted(event_ids.index(i) for i in ordered_death_ids)
+for event_id in ordered_death_ids:
+    event = event_by_id[event_id]
+    assert event["date_kind"] == "exact", event_id
+    assert event["date"] == "2000 AF", event_id
+assert "Jinlin" in event_by_id["zauks-end"]["text"]
+assert "Jaaris" in event_by_id["misfits-victory"]["text"]
+assert "ultimate death is unconfirmed" in event_by_id["misfits-victory"]["text"]
+for slug in (
+    "kel-maris", "jack-of-stanleyville", "fo-gurn", "jaaris",
+    "zauks", "jaznaar", "the-stalker", "shadowfell-confrontation",
+):
+    assert "2000 AF" in source(slug), slug
+assert "2000 AF" in source("minor-heroes-and-allies")
+assert "2000 AF" in source("minor-villains-and-adversaries")
+assert "His ultimate death has not been confirmed" in source("minor-villains-and-adversaries"), "Defeat is not a death date."
+
+# Addendum 007: unbroken lineage, approval of campaign calendar and mixed royal endings.
+assert event_by_id["ascendancy"]["date"] == "2020 AF"
+assert event_by_id["ascendancy"]["date_kind"] == "exact"
+assert "1997 AF" in source("svendyal-shadowwhisper")
+assert "1997 AF" in source("jaaris")
+assert "2000 AF" in source("the-misfits")
+royal = source("house-frozenroar")
+assert "All belong to the Frozenroar bloodline" in royal
+assert "| 34 | Gradvum Frozenroar | 1983–present |" in royal
+assert "killed defending coastal shipping against pirates" in royal
+assert "Sered" in royal and "frontier skirmish" in royal
+assert "Brannic" in royal and "wilderness expedition" in royal
+assert "298 AF; died peacefully, 312 AF" in royal
+assert "1511 AF; died, 1528 AF" in royal
+assert "1982 AF" in source("minor-characters")
+assert "father of Benedikt" in source("rynhold-frozenroar") or "Son Benedikt" in source("rynhold-frozenroar")
+
+# Editorial cross-feature review (November 13, 2026).
+for person in ("gomo", "silver-of-moonlight"):
+    merges = yaml.safe_load((ROOT / "data" / "article-merges.yml").read_text(encoding="utf-8"))["retired"]
+    assert merges[person]["parent"] == "minor-characters", person
+    redirect = (ROOT / "_site" / "articles" / person / "index.html").read_text(encoding="utf-8")
+    assert "articles/minor-characters/#" + person in redirect
+traveler_places = source("distant-lands-of-the-hunter")
+for heading in ("## The Kingdom of Labos","## Chult","## Weyland Forest",
+                "## Valiant and the Woodland Elves","## The Wood of the Fey"):
+    assert heading in traveler_places, heading
+heyden_dossier = source("heyden-of-the-goldenfoot")
+assert "## The prince who learned to stay" in heyden_dossier
+assert "highlight_sections:" in heyden_dossier
+assert "callouts:" in heyden_dossier
+assert "not a confirmed portrait of Heyden" in " ".join(heyden_dossier.split()), "Contextual Hunters Guild plate must not be misidentified as Heyden"
+assert "The Hunters Guild" in source("hunters-guild")
+assert "changes of dynasty" not in source("kingdom-of-avalor")
+assert "unbroken Frozenroar royal bloodline" in source("kingdom-of-avalor")
+assert "The **Cartographer's Table** places their names upon the kingdom's atlas" in source("geography-of-avalor")
+assert "creator-approved lore" not in source("age-of-ascendancy")
+for illustrated in ("faelynn","jaaris","cid-the-blood-king","amara","fo-gurn","jaznaar","rynhold-frozenroar"):
+    assert "callouts:" in source(illustrated), illustrated
+    assert "highlight_sections:" in source(illustrated), illustrated
+atlas_data = (ROOT / "data" / "avalor-map.yml").read_text(encoding="utf-8").lower()
+for unknown_position in ("weyland forest", "chult", "valiant"):
+    assert unknown_position not in atlas_data, unknown_position
+
+print("Twenty-year retrospective revelations are public; future/open mysteries remain protected.")
+
+print(f"Misfits event reading journey passed: {len(steps)} historical chapters, {extra_count} deeper records.")
+
+# Phase 6: source-led chronology and historical voice.
+cid = source("cid-the-blood-king")
+misfits = source("the-misfits")
+shadowfell = source("shadowfell-confrontation")
+assert cid.index("## The suffering at Stanleyville") < cid.index("## Prisoners at the ruined temple")
+assert "Captain Funkin brought her body home to Renada" in cid
+assert "Captain Funkin" in cid and "Inspector Sihnion" in cid
+assert "Cid was removed from the battle, not confirmed dead" in cid
+assert "Jinlin Vechon" in cid and "real defeat" in cid
+assert "broke Jaaris's hold before the necromancer died" in cid
+assert "Lowkee" in cid and "Erevan Ilesere" in cid
+assert "The Emerald's seal and Cid's removal were distinct events" in cid
+assert misfits.index("## III. Stanleyville and the Stalker") < misfits.index("## IV. The hydra and the missing companion")
+assert "player-character" not in misfits.lower()
+assert "the sealing of the Emerald and the removal of Cid were distinct events" in misfits
+assert "broke Jaaris's control while the necromancer was still alive" in misfits
+assert "The Misfits defeated Jinlin in a real battle" in shadowfell
+assert "He chose to protect Lavitz" in shadowfell and "before** Jaaris was killed" in shadowfell
+print("Phase 6 canon reconciliation passed.")
+
+# Source-reconciliation pass: approved people, genealogy and institution roles.
+fo = source("fo-gurn")
+rynhold = source("rynhold-frozenroar")
+guilds = source("guilds-of-avalor")
+forces = source("avalorian-forces")
+samuel = source("samuel-the-devoted")
+astronoph = source("astronoph")
+tel = source("tellora-ebbenflow")
+assert "third month of the Misfits' 2000 AF campaign" in fo
+assert "after their investigation at [[Stanleyville]]" in fo
+assert "He died confronting the hydra" in fo
+assert "His freedom was reclaimed before Jaaris died" in fo
+assert "remained in the Shadowfell to rest one final time" in fo
+assert "Benedikt Frozenroar**, Rynhold's son" in rynhold
+assert "original **seven offices**" in rynhold
+assert "independent eighth seat" in rynhold
+assert "Rynhold did not condemn Jaznaar as the Betrayer" in rynhold
+assert "Sea Shadows" in guilds and "Salt" in guilds
+assert "Silver Forge" in guilds and "Healing Hand" in guilds
+assert "Guiding Light" in guilds and "Shield of Mercy" in guilds
+assert "Society of Silk & Story" in guilds
+for name in ("Quill","Mira","Nimbus","Nadja Akayrn"):
+    assert name in forces, f"Missing approved royal commander: {name}"
+assert "three circles of four women" in forces
+assert "one of the Twelve" in forces
+assert "Monadic Deva" in samuel and "Tyr and Helm" in samuel
+assert "female deva" in astronoph and "High Priest" in astronoph
+assert "independent eighth seat" in tel
+for name,body in (("guilds",guilds),("forces",forces),("rynhold",rynhold)):
+    assert "unnecessary volumes" not in body, name
+    assert "later chapters of its history" not in body, name
+print("Source reconciliation: named offices, founder relationships, Fo'Gurn's choices and institutional distinctions preserved.")
+
+
+# Continuing Phase 6: geography, dynastic genealogy, and four-sheriff jurisdictions.
+forest=source("forest-of-the-fey")
+geo=source("geography-of-avalor")
+desert=source("great-desert")
+marsh=source("dead-marshes")
+karhold=source("karhold")
+sheriffs=source("four-sheriffdoms")
+settlements=source("lesser-settlements-of-avalor")
+unification=source("unification-of-avalor")
+assert "Dietmar's **son and heir, Halton Frozenroar**" in forest
+assert "Their son **Sylavor**" in forest
+assert "Dathyra Blueshadow" in forest and "Concord Walk" in forest
+assert "Forest of the Westfold lies near" in geo and "Eastern Reach" in geo
+assert "King's Forest" in geo and "Kel'Maris" in geo
+assert "The Drought and the Great Desert retain distinct names" in geo
+assert "Black Tower" in desert and "over time rather than in a single instant" in desert
+assert "predate Osmo's final defeat" in marsh and "Black Tower" in marsh
+assert "territory claimed" in karhold.lower() and "authority exercised" in karhold.lower()
+assert "Royal Heartlands" in sheriffs and "Tarnapolus" in sheriffs
+assert "Northern March" in sheriffs and "Eastern Reach" in sheriffs and "Western Verge" in sheriffs
+assert "Ilyanamel remains known chiefly through the life of Kel'Maris" in settlements
+assert "1 After Founding (AF)" in unification and "Heroes Hill" in unification
+map_data=yaml.safe_load((ROOT/"data"/"avalor-map.yml").read_text(encoding="utf-8"))
+mapped={item["id"]: item for item in map_data["locations"]}
+for locid in ("kings-forest","forest-of-the-westfold","the-drought","tarnapolus","briyans-autumn"):
+    assert mapped[locid]["published"] is True and mapped[locid]["provisional"] is False,locid
+assert mapped["kings-forest"]["article"]=="geography-of-avalor#king-s-forest"
+assert mapped["forest-of-the-westfold"]["article"]=="geography-of-avalor#forest-of-the-westfold"
+assert mapped["the-drought"]["article"]=="geography-of-avalor#the-drought"
+print("Phase 6 geography: genealogy, regional boundaries, public atlas entries and historical institutions verified.")
+
+
+# Trade routes and institutions reconciliation (Phase 6 continuing).
+spine=source("spine-of-the-world")
+sanctuary=source("heavens-heart")
+stannisport=source("stannisport")
+taveras=source("taveras")
+renada=source("renada")
+bardguild=source("bard-guild")
+academy=source("heureuxs-bard-academy")
+cathedral=source("great-cathedral")
+avalor=source("kingdom-of-avalor")
+rivercity=source("river-city")
+assert "Black Stair]] climbs toward the **[[The Black Tower]]**" in spine
+assert "not toward Heaven's Heart" in spine
+assert "Black Stair]] is the difficult ascent **to the Black Tower**" in sanctuary
+assert "do not make the two institutions one order" in sanctuary and "Silver Forge" in sanctuary and "Astronoph" in sanctuary
+assert "**River Juce**" in stannisport and "**Heroes Bridge**" in stannisport
+assert "1 AF" in stannisport and "Healing Hand" in stannisport
+assert "Guiding Light" in stannisport and "Shield of Mercy" in stannisport
+assert "Petris" in stannisport and "Aldus Greystone III" in stannisport
+assert "The Society gathers **working performers**; Heureux's academy is a **school**." in taveras
+assert "Myxi Twinefoot" in taveras and "River Rhys" in taveras
+assert "River Juce" in taveras and "River Rhys" in renada and "Lake Noch" in renada
+assert "not make them branches of the Rhys" in renada
+assert "guild does not govern the academy" in taveras
+assert "Not every singer on a country road belongs to it" in bardguild
+assert "develop a voice before deciding what to do with it" in academy
+assert "Silver Forge" in cathedral and "Astronoph" in cathedral
+assert "River Juce" in avalor and "River Rhys" in avalor and "Lake Noch" in avalor
+assert "Edran Halwick" in rivercity and "Renada" in rivercity
+for body in (academy, bardguild):
+    assert "exact curriculum" not in body and "exact charter" not in body
+print("Trade and institutions reconciliation passed: waterways, Black Stair destination, clerical and bardic separation.")
+
+
+# November 14 keeper clarification: the Feywild's material extension is one Forest.
+forest = source("forest-of-the-fey")
+feyplanes = source("planes-of-existence")
+wood = source("distant-lands-of-the-hunter")
+tumbledown = source("tumbletown")
+ferris = source("ferris-rumbuckle")
+settlements = source("lesser-settlements-of-avalor")
+kel = source("kel-maris")
+assert "an extension of the Feywild into the mortal world" in forest
+assert "Feywild remains its own plane" in forest
+assert "the **[[Forest of the Fey]]**" in wood
+assert "not two different forests" in wood
+assert "an extension of the Feywild into that plane" in feyplanes
+assert "at the border of the [[Forest of the Fey]]" in tumbledown
+assert "at the border of Avalor's **[[Forest of the Fey]]**" in ferris
+assert "an **elven village within the [[Forest of the Fey]]**" in settlements
+assert "Ilyanamel, Forest of the Fey" in kel
+assert "ashes were scattered" in kel and "King's Forest" in kel
+assert "not automatically be equated" not in wood
+assert "should not be mistaken for proof that it lies within Avalor's separate Forest of the Fey" not in tumbledown
+assert "the resemblance of their names" not in forest.lower()
+assert "Sea Shadows" in source("guilds-of-avalor")
+print("Fey forest continuity: Wood of the Fey alias, Tumbletown border, Ilyanamel and planar distinction verified.")
+
+
+# Keeper's November 14 superseding corrections: one home and one guild identity.
+assert "Tumbletown" in source("ferris-rumbuckle")
+assert "[[Tumbletown]]" in source("ferris-rumbuckle")
+assert "Tumbletown" in source("forest-of-the-fey")
+assert "Sea Shadows" in source("mg-the-fixer")
+assert "Sea Shadows" in source("lesser-settlements-of-avalor")
+assert "Salt" in source("guilds-of-avalor")
+other_places = source("other-locations-of-avalor")
+assert "## Phandalin" not in other_places and "## Vey'thal" in other_places
+assert "## Phandalin" in source("lesser-settlements-of-avalor")
+assert "lesser-settlements-of-avalor#phandalin" in source("notfred")
+assert "other-locations-of-avalor#vey-thal" in source("naeris-thorne")
+assert "tumbledown" not in source("forest-of-the-fey").lower()
+assert "sea serpents" not in source("guilds-of-avalor").lower()
+print("Superseding location and guild canon: Tumbletown, Sea Shadows, Salt, Phandalin, and Vey'thal verified.")

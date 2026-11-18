@@ -1,0 +1,84 @@
+# The publication date belongs to the modern editorial archive, not to the 2020 AF setting.
+id: the-roads-between-the-records
+title: The Roads Between the Records
+subtitle: Hunters, royal memory, and the names behind familiar places
+date: "2026-11-13"
+published: true
+intro: >-
+  The archive grows as its histories become connected. A prince of another
+  kingdom finds a home among the hunters; the reigns of House Frozenroar
+  acquire faces and endings; and familiar names find their proper place
+  in shorter records. This circular points readers toward those histories
+  without claiming that they are new events in Avalor's present day.
+dispatches:
+  - kicker: Lead Account · The Hunters Guild
+    title: The Prince Who Learned to Stay
+    summary: Heyden Goldenfoot's long road led from royal ceremony to a fellowship of hunters.
+    body: >-
+      Heyden was the fourth prince of Labos, free to pursue the wilderness
+      rather than an appointed throne or command. He survived a close
+      encounter with an Allosaurus in Chult and spent nearly two years
+      pursuing the Great Elk of Weyland. A coin from the halfling Gomo
+      later led him to Avalor's Hunters Guild, where Silver of Moonlight
+      helped him settle. Called Shadow for his uncanny concealment,
+      Heyden came to value the people who would notice when a hunter
+      did not return more than any trophy he might carry home.
+    article: heyden-of-the-goldenfoot
+  - kicker: Royal Register · Dynastic History
+    title: Thirty-Four Sovereigns, One Bloodline
+    summary: The succession of House Frozenroar has never passed to an unrelated dynasty.
+    body: >-
+      From Rynhold to Gradvum, all thirty-four sovereigns belong to a
+      continuous Frozenroar bloodline. Their reigns did not end alike:
+      Sylavor and Wolfram abdicated, while Merek died defending coastal
+      shipping against pirates, Brannic in a wilderness fall, Sered
+      after a frontier skirmish, and others through illness or age.
+      The register distinguishes a ruler's abdication from the
+      later end of that ruler's life.
+    article: house-frozenroar
+  - kicker: Royal Service · Memorial
+    title: The Lion's Shadow and the Forest
+    summary: Kel'Maris's death at Stanleyville connects the Cathedral to the King's Forest.
+    body: >-
+      Kel'Maris trained Prince Gradvum before becoming the first elf
+      to serve as Lord Marshal. The Stalker killed her during the
+      Misfits' investigation at Stanleyville in 2000 AF. Captain
+      Funkin carried her body to Renada, where it lay in state at
+      the Great Cathedral for three days. After a private cremation,
+      her ashes were scattered over the King's Forest. The memory
+      belongs to places as well as to the royal guard.
+    article: kel-maris
+  - kicker: Character Index · Adversaries
+    title: The Vampire Who Sought an Ending
+    summary: Jinlin Vechon's grievance and the harm of the Wrath of Innocent now share a concise index entry.
+    body: >-
+      Jinlin Vechon became a vampire against his will in the aftermath
+      of Aldus Greystone III's experiments. He founded the Wrath of
+      Innocent to pursue the man later known as Cid, but his faction
+      also harmed others. The Misfits defeated Jinlin in a real encounter
+      before Zauks imprisoned members of the party in illusions.
+      Defeat, however, does not establish Jinlin's ultimate death.
+    article: minor-villains-and-adversaries
+  - kicker: People & Legends · Smaller Lives
+    title: A King's Appointments and a Hunter's Coin
+    summary: King Gerran, Gomo and Silver of Moonlight are gathered in the neutral Minor Characters index.
+    body: >-
+      A historical name need not stand for heroism or villainy.
+      Gerran's appointment of Kel'Maris and Beldir shaped service
+      under his son Gradvum. Gomo's coin brought Heyden toward the
+      Hunters Guild, and Silver's welcome made the stranger less
+      alone. Their shorter biographies can be found by individual
+      name without demanding invented decades of private history.
+    article: minor-characters
+  - kicker: Gazetteer · Traveler's Accounts
+    title: Lands That the Royal Map Cannot Yet Place
+    summary: Labos, Chult, Weyland Forest and Valiant are preserved without speculative pins.
+    body: >-
+      Heyden's travels supply names for a foreign royal homeland,
+      the jungle where an Allosaurus scarred him, the forest of
+      the Great Elk and the woodland people who welcomed him.
+      They are recorded as distinct places and associations in
+      a short gazetteer. No coordinates have been assigned,
+      and his Wood of the Fey is not silently identified with
+      Avalor's Forest of the Fey.
+    article: distant-lands-of-the-hunter

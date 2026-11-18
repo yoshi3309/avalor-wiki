@@ -1,0 +1,18 @@
+# Character-design attribution for individual People & Legends BIO records.
+# The default applies to individual biography pages without a named exception;
+# collection articles are excluded. It is not an artist/illustration credit.
+default: Gilbert Ramirez
+exceptions:
+  svendyal-shadowwhisper: Danny Davis
+  ferris-rumbuckle: Danny Davis
+  ambrose-burntwood: Danny Davis
+  naeris-thorne: John Payne Rios
+  mandu-durbar-marg: John Payne Rios
+  heureux: John Payne Rios
+  mg-the-fixer: Scott Singleton
+  notfred: Joey Williams
+  tellora-ebbenflow: Eric Astacio
+  malikeah: Eric Astacio
+  mera-ashenfall: Eric Astacio
+  silas-dreadmore: Eric Astacio
+  amara: Xiomara Ramirez

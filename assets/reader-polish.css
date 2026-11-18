@@ -1,0 +1,37 @@
+/* Reader-facing navigation and article economy. Secondary material is discoverable, not overwhelming. */
+.nav-subgroup{margin:2px 7px 6px 28px;border-left:1px solid #40514f}
+.nav-subgroup>summary{min-height:36px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:7px 12px;color:#b7c5bb;font:11px/1.5 var(--font-body);list-style:none}
+.nav-subgroup>summary::-webkit-details-marker{display:none}
+.nav-subgroup[open]>summary{color:#e5c88e}
+.nav-subgroup-links{display:grid;padding:3px 5px 9px 10px;gap:2px}
+.nav-subgroup-links a{min-height:34px;display:flex;align-items:center;justify-content:space-between;padding:7px 10px;font:11px/1.45 var(--font-body);color:#b9c8c7;border-radius:3px}
+.nav-subgroup-links a:hover,.nav-subgroup-links a:focus-visible{color:#f2ddae;background:#314249}
+.nav-subgroup-links small{color:#d0b488}
+.reading-desk-top-link{display:inline-flex;align-items:center;gap:7px;border:1px solid #667365;padding:8px 10px;color:#ead5a7;min-height:39px;font:11px/1 var(--font-body);white-space:nowrap}
+.reading-desk-top-link>span:first-child{font-size:19px}
+.reading-desk-top-link:hover,.reading-desk-top-link.active{background:#35443e;border-color:#ccb17e}
+.article-entry{flex-wrap:wrap}
+.article-entry .reading-article-tools{margin:0 0 0 auto}
+.article-entry .reading-article-tools button{display:grid;place-items:center;width:40px;height:40px;min-height:40px;padding:0;font-size:27px;line-height:1;color:#dfc392;background:#273943;border:1px solid #796b50;cursor:pointer}
+.article-entry .reading-article-tools button[aria-pressed="true"]{color:#ffe0a2;background:#625039}
+.article-entry .reading-article-tools button:hover{border-color:#e7c88e}
+.article-entry .reading-article-tools button:focus-visible{outline:2px solid #f2d295;outline-offset:3px}
+.article-entry #reading-action-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.brief-record-label{color:#b5c8bd;font:700 9px/1.5 var(--font-body);letter-spacing:.12em;border:1px solid #66776c;padding:4px 7px}
+.page-home .home-journeys .journeys-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.atlas-history-drawer{margin:24px 0;border:1px solid #887451;background:#1e3038}
+.atlas-history-drawer>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:17px 22px;color:#f4e2c3;min-height:65px}
+.atlas-history-drawer>summary::-webkit-details-marker{display:none}
+.atlas-history-drawer>summary:after{content:'⌄';font-size:24px;margin-left:auto;color:#dec38f}
+.atlas-history-drawer[open]>summary:after{transform:rotate(180deg)}
+.atlas-history-drawer>summary span{color:#d5b680;font:700 10px/1.5 var(--font-body);letter-spacing:.11em}
+.atlas-history-drawer>summary strong{font:500 20px/1.3 var(--font-display)}
+.atlas-history-drawer>summary small{font:11px/1.5 var(--font-body);color:#b9c7bc}
+.atlas-history-drawer>summary:focus-visible,.atlas-cartographer-drawer>summary:focus-visible{outline:2px solid #e6ce9e;outline-offset:3px}
+.atlas-history-drawer>.atlas-time{margin:0;border:0;border-top:1px solid #76674e}
+.atlas-cartographer-drawer{margin:20px 0;background:#1c2c33;border:1px solid #53645b}
+.atlas-cartographer-drawer>summary{cursor:pointer;padding:14px 18px;color:#d8c7a4;font:13px var(--font-body)}
+.atlas-cartographer-drawer>.atlas-unplaced{margin:0;border:0;border-top:1px solid #53645b}
+html[data-reading-contrast="high"] .nav-subgroup-links a,html[data-reading-contrast="high"] .reading-desk-top-link{color:#fff6dd}
+@media(max-width:1110px){.page-home .home-journeys .journeys-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.page-home .home-journeys .journeys-card:last-child:nth-child(odd){grid-column:1/-1}}
+@media(max-width:710px){.reading-desk-top-link{padding:7px 9px}.reading-desk-top-link>span:last-child{display:none}.page-home .home-journeys .journeys-grid{grid-template-columns:1fr}.page-home .home-journeys .journeys-card:last-child:nth-child(odd){grid-column:auto}.atlas-history-drawer>summary{gap:8px}.atlas-history-drawer>summary span{flex:1 1 100%}.atlas-history-drawer>summary strong{font-size:18px}}

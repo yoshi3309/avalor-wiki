@@ -1,0 +1,421 @@
+# Pages CMS: https://app.pagescms.org
+# Only the public content collection is editable. Keeper material must live elsewhere.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: welcome-hero
+    label: Welcome page hero banner
+    type: file
+    path: data/welcome-hero.yml
+    format: yaml
+    fields:
+      - name: image
+        label: Hero illustration
+        type: image
+        description: "Upload an approved 16:9 or wider landscape JPEG/WebP (ideally 1920×1080, under 3 MB). The original skyline remains until you choose an image and Save."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp]
+          rename: safe
+      - name: focus
+        label: Where to center the illustration
+        type: select
+        options:
+          values: ["right center", "center center", "left center"]
+  - name: gazette
+    label: Royal Gazette issues
+    type: collection
+    path: content/gazette
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: title
+      fields: [date, published]
+    fields:
+      - {name: id, label: Stable issue ID, type: string, required: true, pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+      - {name: title, label: Issue headline, type: string, required: true}
+      - {name: subtitle, label: Issue subtitle, type: string, required: true}
+      - {name: date, label: Editorial date YYYY-MM-DD, type: string, required: true}
+      - {name: intro, label: Introductory letter, type: text, required: true}
+      - {name: published, label: Publish issue, type: boolean, default: false}
+      - name: dispatches
+        label: Source-linked dispatches (2–8)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - {name: title, label: Dispatch headline, type: string, required: true}
+          - {name: kicker, label: Section label, type: string, required: true}
+          - {name: summary, label: Brief summary, type: text, required: true}
+          - {name: body, label: Scholarly commentary, type: text, required: true}
+          - {name: article, label: Source article slug, type: string, required: true}
+  - name: articles
+    label: Public archive articles
+    type: collection
+    path: content/articles
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, category, era, featured]
+    fields:
+      - name: title
+        label: Article title
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: summary
+        label: Short summary
+        type: text
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: ["Kingdoms & Places", "People & Legends", "Organizations & Factions", "History & Chronicles", "Faith, Magic & Cosmology"]
+      - name: image
+        label: Main image / character portrait
+        type: image
+        description: "Upload a public image, preferably a JPEG or WebP under 3 MB. Larger files can trigger Pages CMS error 413; compress or resize before uploading."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+      - name: image_brief
+        label: Optional image-generation direction
+        type: text
+        description: "Editorial prompt for commissioning a new illustration. Does not generate or upload an image. Keep future-story secrets out of this public field."
+      - name: character_creator
+        label: Character created by (optional override)
+        type: string
+        description: "Shown in the right-hand At a Glance panel for individual character biographies. Leave empty to use the verified character-creator attribution register. This is not an artist credit."
+      - name: image_alt
+        label: Image description (accessibility)
+        type: string
+        description: "Describe what is pictured, e.g. Lavitz Shawe in ceremonial armor."
+      - name: image_caption
+        label: Image caption or artist credit
+        type: string
+      - name: portrait_label
+        label: Main portrait appearance label
+        type: string
+        description: "Optional for characters with alternate portraits: e.g. Lord Marshal · Oath of Devotion. This labels the existing main image."
+      - name: portrait_variants
+        label: Alternate character portraits (optional; up to 5)
+        type: object
+        description: "Show approved alternate appearances alongside the main portrait on People & Legends pages. Only existing uploaded public images may be used. Never upload future-story spoilers."
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - name: label
+            label: Appearance label (e.g. Misfits · Oath of Vengeance)
+            type: string
+            required: true
+          - name: image
+            label: Alternate public portrait
+            type: image
+            required: true
+            options:
+              categories: [image]
+              extensions: [jpg, jpeg, png, webp, gif]
+              rename: safe
+          - name: alt
+            label: Description for screen readers
+            type: string
+            required: true
+          - name: caption
+            label: Short appearance caption or artist credit
+            type: string
+      - name: entry
+        label: Archive number
+        type: string
+      - name: era
+        label: Historical period
+        type: string
+      - name: facts
+        label: "At a glance (one Label: Value per line)"
+        type: text
+      - name: related
+        label: Related article filenames (comma separated)
+        type: string
+      - name: source
+        label: Editorial source trail
+        type: string
+        description: "Retain original source citations for editors; internal-only references are omitted from the public site."
+      - name: featured
+        label: Feature on homepage
+        type: boolean
+      - name: illustrations
+        label: In-article illustrations (optional; up to 3)
+        type: object
+        description: "Place approved public images within a specific article chapter; keep to 1–2 for most articles."
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - name: image
+            label: Public image
+            type: image
+            required: true
+            options:
+              categories: [image]
+              extensions: [jpg, jpeg, png, webp, gif]
+              rename: safe
+          - name: alt
+            label: Image description (accessibility)
+            type: string
+            required: true
+          - name: caption
+            label: Archival caption or artwork credit
+            type: string
+            required: true
+          - name: after
+            label: Insert after chapter heading (heading ID)
+            type: string
+            required: true
+            description: "Use the article section ID, e.g. adventures-on-roads-without-a-single-destiny."
+          - name: paragraph
+            label: After paragraph number in this chapter (1, 2, 3...)
+            type: number
+            default: 1
+            description: "Counts prose paragraphs within the selected section."
+          - name: layout
+            label: Layout
+            type: select
+            default: wide
+            options:
+              values: [wide, inset-left, inset-right]
+      - name: callouts
+        label: Archival callouts and pull quotes (optional; up to 4)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{type}: {text}"
+        fields:
+          - name: type
+            label: Callout style
+            type: select
+            required: true
+            options:
+              values: [quote, reflection, note, contested]
+          - name: text
+            label: Pull quote or note text
+            type: text
+            required: true
+            description: "Reflections may be new editorial synthesis; direct quotes must appear verbatim in the article. Scholarly notes require a known Commission scholar."
+          - name: scholar
+            label: Commission scholar (required for scholarly notes)
+            type: select
+            options:
+              values: [lady-miren-dast, brother-halden-korr, professor-xiomara-thal]
+            description: "Interpretive commentary in the established scholar's voice, not a verbatim historical quotation."
+          - name: attribution
+            label: Optional source or attribution
+            type: string
+          - name: after
+            label: Insert after chapter heading (heading ID)
+            type: string
+            required: true
+          - name: paragraph
+            label: After paragraph number in this chapter (1, 2, 3...)
+            type: number
+            default: 1
+      - name: highlight_sections
+        label: Highlighted chapters (optional; up to 3)
+        type: object
+        description: "Reserve selective tinted backgrounds for consequential chapters, not routine exposition."
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{section}"
+        fields:
+          - name: section
+            label: Existing chapter heading ID
+            type: string
+            required: true
+            description: "Example: lord-marshal-of-avalor"
+          - name: tone
+            label: Chapter treatment
+            type: select
+            required: true
+            options:
+              values: [turning-point, remembrance, legacy]
+      - name: body
+        label: The Scholar's Account (PLAYER-VISIBLE)
+        type: rich-text
+        required: true
+  - name: gallery
+    label: Illustration Gallery
+    type: collection
+    path: content/gallery
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: id
+      fields: [title, collection, era, featured, published]
+    fields:
+      - name: id
+        label: Stable gallery ID
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        description: "Permanent entry ID, e.g. lavitz-shawe. Keep unchanged after publishing; it is used by gallery links."
+      - name: title
+        label: Artwork title
+        type: string
+        required: true
+      - name: collection
+        label: Gallery collection
+        type: select
+        required: true
+        options:
+          values: [characters, locations, historical-scenes, artifacts-symbols, maps-heraldry]
+      - name: image
+        label: Approved public illustration
+        type: image
+        required: true
+        description: "Select approved artwork from public uploads. Prefer JPEG/WebP under 3 MB."
+        options:
+          categories: [image]
+          extensions: [jpg, jpeg, png, webp, gif]
+          rename: safe
+      - name: alt
+        label: Accessible image description
+        type: string
+        required: true
+      - name: caption
+        label: Curatorial caption
+        type: text
+        required: true
+      - name: era
+        label: Era (optional)
+        type: string
+      - name: credit
+        label: Artist credit (optional)
+        type: string
+        description: "Leave blank when not known. Do not invent a credit."
+      - name: related_articles
+        label: Related article filenames
+        type: string
+        description: "Comma-separated public article slugs, e.g. lavitz-shawe,the-misfits."
+      - name: featured
+        label: Feature this exhibit
+        type: boolean
+        default: false
+      - name: published
+        label: Publish in the public gallery
+        type: boolean
+        default: false
+        description: "Draft exhibits stay hidden from the public site until explicitly enabled."
+  - name: exhibits
+    label: Historical archive exhibits
+    type: collection
+    path: content/exhibits
+    format: yaml
+    filename: "{id}.yml"
+    view:
+      primary: title
+      fields: [kind, period, period_group, published]
+    fields:
+      - {name: id, label: Stable exhibit ID, type: string, required: true, pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+      - {name: title, label: Exhibit title, type: string, required: true}
+      - {name: subtitle, label: Exhibit subtitle, type: string, required: true}
+      - {name: kind, label: Document category, type: string, required: true}
+      - {name: period, label: Historical date or reign, type: string, required: true}
+      - name: period_group
+        label: Historical period
+        type: select
+        required: true
+        options:
+          values: ["Founding Age", "Later Reigns", "Age of Ascendancy"]
+      - {name: symbol, label: Decorative symbol, type: string, required: true}
+      - {name: summary, label: Short public summary, type: text, required: true}
+      - {name: folio_title, label: Folio heading, type: string, required: true}
+      - name: folio_text
+        label: Modern reconstruction (paragraph per line; never purported original wording)
+        type: text
+        required: true
+      - {name: evidence, label: Established facts (one per line), type: text, required: true}
+      - {name: uncertainty, label: Unverified or missing details (one per line), type: text, required: true}
+      - {name: interpretation, label: Modern scholarly perspective, type: text, required: true}
+      - {name: source_article, label: Exact source article slug, type: string, required: true}
+      - {name: related_articles, label: Related article slugs (comma separated), type: string}
+      - {name: featured, label: Featured display, type: boolean, default: false}
+      - {name: published, label: Publish publicly, type: boolean, default: false}
+  - name: atlas
+    label: Map settings & locations
+    type: file
+    path: data/avalor-map.yml
+    format: yaml
+    fields:
+      - name: title
+        label: Map title
+        type: string
+      - name: image
+        label: Map illustration (upload your new Avalor map here)
+        type: image
+        description: "Public artwork only. Upload your Avalor map PNG/JPG/WebP here, then Save."
+        options:
+          categories: [image]
+          extensions: [png, jpg, jpeg, webp]
+          rename: safe
+      - name: image_alt
+        label: Map description
+        type: text
+      - name: image_credit
+        label: Image credit
+        type: string
+      - name: locations
+        label: Map locations and markers
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: id
+            label: Unique location key (keep unchanged)
+            type: string
+            required: true
+          - name: name
+            label: Display name
+            type: string
+            required: true
+          - name: type
+            label: Marker category
+            type: select
+            options:
+              values: [settlement, region, water, historic, institution]
+          - name: x
+            label: Horizontal position (0–100%; blank = not yet placed)
+            type: number
+            description: "Use the atlas's Position pins tool to measure exact coordinates."
+          - name: y
+            label: Vertical position (0–100%; blank = not yet placed)
+            type: number
+          - name: description
+            label: Player-facing summary
+            type: text
+          - name: article
+            label: Linked article filename (without .md)
+            type: string
+            description: "Example: renada, heavens-heart, heroes-hill. Leave empty for no link."
+          - name: related_places
+            label: Inside this location (comma-separated article filenames, no separate pins)
+            type: string
+            description: "Example for Renada: great-citadel,great-cathedral. Those articles appear in the city detail panel, not as overlapping map markers."
+          - name: published
+            label: Show marker to players (enable after positioning)
+            type: boolean
+          - name: provisional
+            label: Mark position as provisional
+            type: boolean

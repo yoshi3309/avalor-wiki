@@ -1,0 +1,52 @@
+/* Atlas Through Time — existing map coordinates + documented chronological context. */
+.atlas-time{border:1px solid #78674e;background:linear-gradient(155deg,#24363d,#182c35);margin:22px 0 28px;padding:clamp(16px,2.3vw,29px)}
+.atlas-time-header{display:flex;align-items:center;justify-content:space-between;gap:22px;border-bottom:1px solid #616757;padding-bottom:18px}
+.atlas-time-eyebrow,.atlas-time-detail-eyebrow{display:block;font:700 10px/1.6 var(--font-body);letter-spacing:.13em;color:#dfbc82}
+.atlas-time-header h2{font:500 clamp(23px,3vw,36px)/1.4 var(--font-display);color:#f0e2c4;margin:7px 0}
+.atlas-time-header h2 em{font:italic 400 .96em var(--font-literary);color:#e3c08b}
+.atlas-time-header p{font:12px/1.82 var(--font-body);color:#c5d1c7;max-width:850px;margin:7px 0}
+.atlas-time-tally{border-left:1px solid #8a7856;min-width:142px;padding-left:18px;text-align:right;color:#e6ce9f}
+.atlas-time-tally strong{display:block;font:500 33px/1.3 var(--font-display)}
+.atlas-time-tally strong span{font-size:18px;color:#a7c0b7}
+.atlas-time-tally small{display:block;font:10px/1.65 var(--font-body);color:#c1cfc5}
+.atlas-time-controls{display:flex;align-items:end;gap:16px;flex-wrap:wrap;padding:19px 0}
+.atlas-time-controls>label:first-child{display:flex;flex-direction:column;gap:6px;flex:0 1 260px;font:700 11px var(--font-body);color:#dbbd87}
+.atlas-time-controls select{min-height:42px;max-width:100%;background:#142832;border:1px solid #90846c;color:#e9dfcb;padding:8px 10px;font:12px var(--font-body)}
+.atlas-time-show-all{display:flex;gap:9px;align-items:center;flex:1 1 240px;min-height:42px;color:#d5d8c9;font:11px/1.6 var(--font-body);cursor:pointer}
+.atlas-time-show-all input{accent-color:#d9b981;width:18px;height:18px;flex:0 0 auto}
+.atlas-time-count{font:10px/1.7 var(--font-body);color:#c9b28a;flex:1 0 100%;overflow-wrap:anywhere}
+.atlas-time-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;max-height:280px;overflow-y:auto;overscroll-behavior:contain;padding:2px 4px 9px 0}
+.atlas-time-card{border:1px solid #5c6a5b;background:#233840;min-width:0;display:flex;flex-direction:column;min-height:139px}
+.atlas-time-card:hover{border-color:#d6b47b;background:#2c4649}
+.atlas-time-card.is-history-selected{border-color:#ead198;box-shadow:inset 0 0 0 1px #e3bd7f;background:#385048}
+.atlas-time-card[hidden]{display:none!important}
+.atlas-time-card-select{display:flex;flex-direction:column;gap:7px;padding:13px 14px 10px;flex:1;min-height:90px}
+.atlas-time-card-date{font:700 10px var(--font-body);color:#dec28f}
+.atlas-time-card-date span{font-size:11px;color:#c29e69}
+.atlas-time-card-title{font:500 15px/1.4 var(--font-display);color:#f1e1c3}
+.atlas-time-card-location{font:10px/1.6 var(--font-body);color:#b5d0c3}
+.atlas-time-card-foot{border-top:1px solid #4c6358;display:flex;justify-content:space-between;gap:7px;padding:10px 14px;color:#b8c8bc;font:9px/1.5 var(--font-body)}
+.atlas-time-card-foot a{color:#eac78d;text-decoration:underline;text-underline-offset:2px}
+.atlas-time-inspection{scroll-margin-top:20px;outline-offset:4px;margin-top:22px;display:flex;align-items:stretch;gap:18px;background:#182c34;border:1px solid #8e7959;padding:20px}
+.atlas-time-detail-mark{width:64px;flex:0 0 64px;display:grid;place-items:center;border-right:1px solid #756a51;color:#d0ad78;font:42px var(--font-display)}
+.atlas-time-detail-copy{flex:1;min-width:0}
+.atlas-time-detail-copy h3{font:500 clamp(19px,2vw,24px)/1.35 var(--font-display);color:#f4dfb9;margin:9px 0}
+.atlas-time-detail-copy>p{font:12px/1.85 var(--font-body);color:#c5d3c6;max-width:920px}
+.atlas-time-detail-note{background:#2c3d42;border-left:2px solid #c19e66;padding:10px 14px;color:#e2e3d5!important}
+.atlas-time-detail-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.atlas-time-detail-actions>a,.atlas-time-detail-actions>button{display:inline-flex;min-height:42px;align-items:center;padding:9px 12px;border:1px solid #92815d;background:#2b3d42;color:#f0d39e;font:700 11px/1.5 var(--font-body)}
+.atlas-time-detail-actions>a:hover,.atlas-time-detail-actions>button:hover:not(:disabled){background:#554b39}
+.atlas-time-detail-actions>button:disabled{opacity:.45;cursor:not-allowed}
+.atlas-time-detail-actions>a[hidden]{display:none!important}
+.atlas-time-caution{border-top:1px solid #65705e;margin:17px 0 0;padding:13px 0 0;font:11px/1.75 var(--font-body);color:#bbccc0}
+.atlas-time-caution strong{color:#e6c48b}
+.atlas-pin.is-historical{z-index:7;filter:drop-shadow(0 0 10px #f7d28d);outline:3px solid #f7d28d;outline-offset:2px}
+.atlas-viewport.is-history-view .atlas-pin:not(.is-historical):not(.is-selected){opacity:.53}
+.chronicle-atlas-link{color:#e9c993!important;font-weight:700}
+.chronicle-atlas-companion{border-color:#9b865d!important}
+html[data-reading-contrast="high"] .atlas-time-card{background:#102e39;border-color:#a7bcb2}
+html[data-reading-contrast="high"] .atlas-time-detail-note{background:#15323b;color:#fff8ec!important}
+html[data-reading-contrast="high"] .atlas-time-card-title,html[data-reading-contrast="high"] .atlas-time-card-date{color:#fff5e0}
+@media(max-width:970px){.atlas-time-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-time-tally{min-width:120px}}
+@media(max-width:640px){.atlas-time-header{align-items:flex-start;flex-direction:column}.atlas-time-tally{padding:0 0 0 15px;border-left:2px solid #b79b70;text-align:left}.atlas-time-tally strong{font-size:27px}.atlas-time-controls>label:first-child{flex:1 1 100%}.atlas-time-cards{grid-template-columns:1fr;max-height:330px}.atlas-time-card{min-height:0}.atlas-time-inspection{gap:10px;padding:14px}.atlas-time-detail-mark{width:29px;flex-basis:29px;font-size:26px}.atlas-time-detail-actions>*{flex:1 1 100%}.atlas-time-card-title{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.atlas-pin.is-historical{animation:none!important}}

@@ -1,0 +1,251 @@
+# Public collection navigation. Editorial groupings only: no Keeper information.
+# Multiple groups may link to the same article; content is never duplicated.
+# Unlisted/newly added articles are automatically added to a catch-all group.
+kingdoms-places:
+  featured: renada
+  intro: Explore Avalor from the royal capital to frontier towns, mountain strongholds, ancient landmarks, and untamed lands.
+  eyebrow: THE LANDS OF AVALOR
+  icon: "♜"
+  featured_label: START YOUR JOURNEY
+  browse_title: Explore by place
+  browse_description: Settlements, landscapes, landmarks, and the detailed districts within Renada.
+  group_label: PLACES
+  directory_title: All Places A–Z
+  directory_description: Every public place record, alphabetically arranged.
+  atlas_link: true
+  catchall: other-places
+  groups:
+    - id: settlements
+      title: Cities & Settlements
+      eyebrow: WHERE PEOPLE LIVE
+      icon: "⌂"
+      description: Capitals, ports, towns, and communities across the realm.
+      articles:
+        - renada
+        - cove-city
+        - stems-port
+        - lands-end
+        - tinsel
+        - stanleyville
+        - heavens-heart
+        - karhold
+        - wayword-sun
+        - siesta-ford
+        - briyans-autumn
+        - east-port
+        - jogar-village
+        - osmostown
+        - port-orange
+        - river-city
+        - stannisport
+        - tarnapolus
+        - taveras
+        - lesser-settlements-of-avalor
+        - tumbletown
+    - id: landmarks
+      title: Towers & Landmarks
+      eyebrow: STONES OF HISTORY
+      icon: "⚑"
+      description: Notable sites, ruins, fortifications, and centers of learning.
+      articles:
+        - black-tower
+        - great-fork-tower
+        - lord-osmos-tower
+        - heroes-hill
+        - shammans-tower
+        - great-library-aldus-greystone
+        - great-citadel
+        - great-cathedral
+    - id: wildlands
+      title: Regions & Wildlands
+      eyebrow: BEYOND THE ROADS
+      icon: "✥"
+      description: Broad territories, forests, mountains, and changed landscapes.
+      articles:
+        - kingdom-of-avalor
+        - forest-of-the-fey
+        - denzians-forest
+        - great-desert
+        - dead-marshes
+        - spine-of-the-world
+        - geography-of-avalor
+    - id: other-places
+      title: Distant Lands & Other Places
+      eyebrow: BEYOND THE ROYAL CHART
+      icon: "✧"
+      description: Traveler accounts, named foreign lands and places beyond the mapped royal settlements.
+      articles:
+        - distant-lands-of-the-hunter
+        - blackwater-bay
+        - other-locations-of-avalor
+organizations-factions:
+  featured: the-aegis
+  intro: Discover the councils, orders, guilds, and institutions that sustain, protect, and sometimes challenge the realm.
+  eyebrow: THE INSTITUTIONS OF AVALOR
+  icon: "⚜"
+  featured_label: FROM THE ARCHIVES
+  browse_title: Browse by purpose
+  browse_description: From the lion throne to the scholarly halls.
+  group_label: ORGANIZATIONS
+  directory_title: All Organizations A–Z
+  directory_description: Every public organization and faction record, alphabetically arranged.
+  catchall: other-organizations
+  groups:
+    - id: government
+      title: Crown & Government
+      eyebrow: GOVERNING THE REALM
+      icon: "♛"
+      description: Royal offices, institutions, and the structures of authority.
+      articles:
+        - the-aegis
+        - house-frozenroar
+        - four-sheriffdoms
+        - royal-commission-historical-inquiry
+    - id: defenders
+      title: Defenders & Orders
+      eyebrow: SERVICE AND PROTECTION
+      icon: "⚔"
+      description: Military forces, royal guards, and sworn defenders.
+      articles:
+        - avalorian-forces
+        - cathedral-paladins
+    - id: guilds
+      title: Guilds & Learning
+      eyebrow: SKILL AND SCHOLARSHIP
+      icon: "✦"
+      description: Fellowship, training, research, and shared crafts.
+      articles:
+        - hunters-guild
+        - bard-guild
+        - heureuxs-bard-academy
+        - guilds-of-avalor
+    - id: other-organizations
+      title: Other Factions
+      eyebrow: BEYOND THE INSTITUTIONS
+      icon: "⚜"
+      description: Other organized groups known to the public record.
+      articles:
+        - independent-factions-of-the-misfits-era
+        - black-diamond
+        - clans-and-communities-of-avalor
+        - ringtree-clan
+history-chronicles:
+  featured: unification-of-avalor
+  intro: Trace the kingdom's beginnings, the choices of its rulers, the Misfits' journeys, and the truths recovered by later historians.
+  eyebrow: THE HISTORY OF AVALOR
+  icon: "◷"
+  featured_label: A TURNING POINT
+  browse_title: Explore the chronicles
+  browse_description: Follow the eras and events that changed the kingdom.
+  group_label: CHRONICLES
+  directory_title: All Chronicles A–Z
+  directory_description: Every public history and chronicle record, alphabetically arranged.
+  timeline_link: true
+  catchall: other-history
+  groups:
+    - id: founding
+      title: Founding & Black Tower
+      eyebrow: BEGINNINGS AND CONSEQUENCES
+      icon: "✦"
+      description: The founding wars, the Six, and the catastrophe that followed.
+      articles:
+        - founding-wars
+        - unification-of-avalor
+        - sundering-of-the-six
+        - blood-sickness
+        - betrayers-legend
+    - id: crown-reform
+      title: Crown, Law & Reform
+      eyebrow: CENTURIES OF THE LION
+      icon: "♛"
+      description: Royal decrees, their consequences, and resistance to injustice.
+      articles:
+        - arnauds-edicts
+        - reinas-reforms
+        - sanctuary-at-heavens-heart
+    - id: misfits-journey
+      title: The Misfits' Journey
+      eyebrow: ADVENTURES AND ENCOUNTERS
+      icon: "⚔"
+      description: Investigations, allies, losses, and trials from the Misfits' adventures.
+      articles:
+        - the-first-commission
+        - the-stalker
+        - tournament-of-champions
+        - zauks-false-lives
+    - id: ancient-mysteries
+      title: Lost Civilizations & Ancient Mysteries
+      eyebrow: BEFORE THE KINGDOM
+      icon: "✧"
+      description: Disputed accounts of the oldest histories and vanished peoples.
+      articles:
+        - aethrion
+    - id: revelation
+      title: Truth & Ascendancy
+      eyebrow: HISTORY RECONSIDERED
+      icon: "✧"
+      description: The exposure of the old lie and the world that followed.
+      articles:
+        - jaznaars-vindication
+        - age-of-ascendancy
+        - escape-from-blackwater-bay
+    - id: cultures
+      title: Peoples & Cultural History
+      eyebrow: BELONGING AND INHERITANCE
+      icon: "✧"
+      description: The shared kingdom and the many peoples whose histories preceded it.
+      articles:
+        - peoples-of-avalor
+    - id: other-history
+      title: Other Chronicles
+      eyebrow: BEYOND THE CATALOGUE
+      icon: "◷"
+      description: New historical records that do not fit the established divisions.
+      articles: []
+faith-magic-cosmology:
+  featured: primordial-powers
+  intro: Explore Avalor's oldest cosmological traditions, the gods honored by its peoples, and the sacred obligations expressed in daily life.
+  eyebrow: BELIEF AND THE BEYOND
+  icon: "✧"
+  featured_label: THE SCHOLAR'S COLLECTION
+  browse_title: Explore the collection
+  group_label: RECORDS
+  directory_title: The Faith & Magic Records
+  directory_description: The public accounts currently held in this collection.
+  catchall: other-faiths
+  groups:
+    - id: primordial-traditions
+      title: The Oldest Questions
+      eyebrow: BEFORE THE GODS
+      icon: "✧"
+      description: Primordial presences and the beginnings of existence.
+      articles:
+        - primordial-powers
+        - the-beyond
+        - planes-of-existence
+        - death-souls-and-the-afterlife
+        - magic-and-the-arcane
+        - emerald-of-armanti
+    - id: worship-devotion
+      title: Gods & Devotion
+      eyebrow: LIVING WORSHIP
+      icon: "✦"
+      description: Divine traditions, prayer, sanctuary, and their obligations.
+      articles:
+        - faiths-and-gods-of-avalor
+        - threefold-devotion
+        - lathander-and-the-dawn
+    - id: communities
+      title: Faiths of the Peoples
+      eyebrow: TRADITIONS AND MEMORY
+      icon: "❖"
+      description: Spiritual traditions carried through communities and families.
+      articles:
+        - the-faiths-of-families-and-peoples
+        - the-sacred-balance
+    - id: other-faiths
+      title: Further Traditions
+      eyebrow: OTHER ACCOUNTS
+      icon: "◇"
+      description: Additional public studies of faith, magic, and cosmology.
+      articles: []

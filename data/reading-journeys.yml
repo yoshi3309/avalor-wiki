@@ -1,0 +1,301 @@
+# Public, curated reading routes through existing Scholar's Accounts.
+# The journeys add navigation and interpretation; they do not change historical canon.
+# Every "article" must be the slug of an existing PUBLIC content/articles/*.md record.
+journeys:
+  - id: fall-of-the-six
+    title: The Fall of the Six
+    subtitle: Six companions. One impossible choice. A truth buried for centuries.
+    overline: THE FOUNDING AGE · AN ARCHIVAL JOURNEY
+    summary: Follow the fellowship that helped shape young Avalor, the catastrophe that broke it, the false story that endured, and the long-delayed restoration of Jaznaar's name.
+    editorial_note: Follow the fellowship from the founding of Avalor through the Black Tower and the centuries-long lie that concealed its history. The Royal Commission's account is informed by the discoveries made after Cid's defeat.
+    era: From 1 AF to the Age of Ascendancy
+    steps:
+      - article: unification-of-avalor
+        label: A Kingdom Forged
+        introduction: Before there could be six celebrated companions, there had to be a kingdom worth serving. Begin with Rynhold's negotiated union in 1 AF.
+      - article: the-six
+        label: The Fellowship
+        introduction: Meet the six friends who came together in the kingdom's first generation, and the very different ideals that bound them.
+      - article: aldus-greystone-iii
+        label: The Healer's Ambition
+        introduction: Follow Aldus from genuine gifts of healing toward the dangerous conviction that mortality itself could be abolished.
+      - article: sundering-of-the-six
+        label: The Black Tower
+        introduction: The other five confront Aldus at the Black Tower, forced to oppose the healer whose ambitions endangered the world they had helped defend.
+      - article: betrayers-legend
+        label: The Lie That Outlived Them
+        introduction: Discover how later generations learned a reversed history, condemning Jaznaar and celebrating the man he had opposed.
+      - article: cid-the-blood-king
+        label: The Enemy in Shadow
+        introduction: Trace the person who survived Aldus's mortal death as Cid, and the long consequences of his concealment.
+      - article: the-misfits
+        label: The Fellowship That Found the Truth
+        introduction: Nearly two millennia later, another unlikely company encounters the old deception and brings its author to defeat.
+      - article: jaznaars-vindication
+        label: The Name Restored
+        introduction: End with Gradvum's proclamation, the corrected monuments, and the limits of what a kingdom can repair by telling the truth.
+
+  - id: rise-of-the-misfits
+    title: The Rise of the Misfits
+    subtitle: An unlikely fellowship. One long journey. A kingdom's forgotten truth.
+    overline: THE AGE OF THE MISFITS · A CHRONICLE IN FOUR ACTS
+    summary: "The campaign told as fifteen connected events, from the living halls of Moonville Manor to the return of Avalor's queen and the restoration of Jaznaar's name. Character histories and artifacts are available separately as deeper reading."
+    editorial_note: "Read the events in order. Optional biographies and source records add context but may reveal later campaign events, including identities and outcomes not yet known to the companions at that chapter. The main route follows what happened as the story unfolded."
+    era: The Age of the Misfits to the Age of Ascendancy
+    steps:
+      - article: moonville-manor-incident
+        label: "The House That Refused to Be a House"
+        introduction: "Before any royal commission, the first five companions learn to trust one another inside Moonville Manor. No prophecy has yet named them."
+        act: "ACT I · THE FELLOWSHIP FORMS"
+        deeper_reading:
+          - article: the-misfits
+            note: "The original companions and later members of the fellowship."
+          - article: lavitz-shawe
+            note: "A paladin whose choices will shape the company."
+          - article: tellora-ebbenflow
+            note: "The wizard who will one day become High Wizard."
+      - article: the-first-commission
+        label: "The Crown Calls"
+        introduction: "Kel'Maris, the Lion's Shadow, sends an already-traveling company against an unnamed necromancer. They succeed, recovering fragments of dangerous study."
+        deeper_reading:
+          - article: fo-gurn
+            note: "A dragonborn paladin of the original five."
+          - article: svendyal-shadowwhisper
+            note: "Sven's life before and beyond this commission."
+          - article: kel-maris
+            note: "The Lord Marshal who first entrusted the companions with royal service."
+      - article: golgoroth-second-commission
+        label: "A Cult and a New Companion"
+        introduction: "The second commission brings the company against Gol'Goroth and into the friendship of Heureux, a bard whose private history is already marked by loss."
+        deeper_reading:
+          - article: heureux
+            note: "The bard's Ringtree heritage, loss and later calling."
+          - article: ringtree-clan
+            note: "The people whose history Heureux carries."
+          - article: independent-factions-of-the-misfits-era
+            note: "The cult and other factions of this dangerous age."
+      - article: noki-sheep-incident
+        label: "The Mage and the Sheep"
+        introduction: "Noki is changed into a sheep during the encounter and disfigured at its end. The Misfits believe he has died; only afterward will he be known as Noke."
+        deeper_reading:
+          - article: noki-the-sheep
+            note: "The mage's survival, later transformation and service to the Den Mother."
+      - article: search-for-lowkees-keeper
+        label: "A Keeper on the Road"
+        introduction: "A search involving Lowkee's Keeper introduces Anna, a tavern waitress who joins the company as a noncombatant friend and carries an unusual emerald."
+        deeper_reading:
+          - article: anna-lowkees-keeper
+            note: "Retrospective biography: reveals Anna's identity after the final battle."
+          - article: lowkee
+            note: "The ancient paladin whose name drew them onward."
+          - article: emerald-of-armanti
+            note: "What witnesses know about the jewel, without private magical claims."
+      - article: the-stalker
+        label: "The Stalker of Stanleyville"
+        introduction: "The Stalker kills Kel'Maris, the Lord Marshal who first trusted the Misfits. Captain Funkin brings her body to Renada; Jack's ghost joins the travelers."
+        act: "ACT II · THE PRICE OF FRIENDSHIP"
+        deeper_reading:
+          - article: stanleyville
+            note: "The people and town enduring the losses."
+          - article: jack-of-stanleyville
+            note: "The ghost boy who joins the travelers."
+          - article: kel-maris
+            note: "The Lion's Shadow: Gradvum's swordmaster and fallen protector."
+          - article: minor-heroes-and-allies
+            fragment: captain-funkin
+            note: "The captain who brought the Lord Marshal home."
+      - article: hydra-temple-disaster
+        label: "The Temple and the Friend Who Stayed"
+        introduction: "After Kel'Maris's death at Stanleyville, Cid's servants hold prisoners near the town. Captain Funkin dies at the temple, and Fo'Gurn stays to face the hydra so his friends can escape."
+        deeper_reading:
+          - article: fo-gurn
+            note: "A life given for the companions he loved."
+          - article: jaaris
+            note: "The necromancer serving the Blood King."
+          - article: samuel-the-devoted
+            note: "The celestial ally whose pursuit intersects the Misfits' campaign."
+          - article: minor-heroes-and-allies
+            fragment: inspector-sihnion
+            note: "An officer killed in the temple disaster."
+          - article: minor-villains-and-adversaries
+            fragment: karina
+            note: "A vampiric enforcer whose crimes reached Tel'Lora's family."
+      - article: rotten-husk-liberation
+        label: "Freedom for the Rotten Husk"
+        introduction: "The adventurers free an orc community from an oppressive chief. The people they help matter independently of the greater conflict with Cid."
+        deeper_reading:
+          - article: clans-and-communities-of-avalor
+            fragment: the-rotten-husk-clan
+            note: "The community's own history beyond the rescue."
+          - article: amara
+            note: "The druid's care for lives beyond the crown's notice."
+      - article: jaznaar-refuge-revelation
+        label: "The Witness Called Betrayer"
+        introduction: "At Jaznaar's hidden refuge, the companions learn that Aldus and Cid are one. Tel'Lora receives instruction and Lavitz receives Lowkee's sword."
+        deeper_reading:
+          - article: jaznaar
+            note: "The founding hero long condemned for another's crimes."
+          - article: aldus-greystone-iii
+            note: "The healer whose choices gave rise to the Blood King."
+          - article: bradgem-glav
+            note: "The legacy involved in the route to the refuge."
+          - article: tellora-ebbenflow
+            note: "A wizard's encounter with history and his family's relics."
+      - article: tournament-of-champions
+        label: "The Queen Taken at the Games"
+        introduction: "Cid abducts Queen Melmiri at Renada's Tournament. The companions begin a rescue that will be delayed at every turn. Amara's capture occurs afterward."
+        act: "ACT III · THE BROKEN PURSUIT"
+        deeper_reading:
+          - article: queen-melmiri
+            note: "The ruler whose captivity changes the kingdom's course."
+          - article: renada
+            note: "The capital and the day celebration gave way to danger."
+      - article: ros-furband-jinlin-ordeal
+        label: "The Pirate, the Wrath and the Vampire"
+        introduction: "Ros Furband makes the rescuers captives aboard his galleon. They later confront and defeat Jinlin Vechon in reality, with the queen still missing."
+        deeper_reading:
+          - article: independent-factions-of-the-misfits-era
+            note: "The Wrath of Innocent and its pursuit of vengeance."
+          - article: beldir-willowrun
+            note: "The naval officer whose presence on the vessel remains unexplained."
+          - article: minor-villains-and-adversaries
+            fragment: jinlin-vechon
+            note: "The vampire whose ancient grievance became a destructive crusade."
+      - article: zauks-false-lives
+        label: "The Lives That Never Were"
+        introduction: "Zauks uses counterfeit adventures and perfect lives to entrap the companions. Amara comes from outside the illusions, returns from owl form and kills him."
+        deeper_reading:
+          - article: amara
+            note: "The druid's intervention and life beyond the party."
+          - article: jack-of-stanleyville
+            note: "One death the false adventures cannot undo."
+          - article: zauks
+            note: "The mind flayer behind the cocoons and false lives."
+      - article: shadowfell-confrontation
+        label: "The Last Battle in the Shadowfell"
+        introduction: "Jaaris falls and the companions confront Cid. Fo'Gurn chooses to protect Lavitz, Samuel joins the struggle, and Melmiri helps her rescuers escape."
+        deeper_reading:
+          - article: cid-the-blood-king
+            note: "The enemy's long, hidden history."
+          - article: fo-gurn
+            note: "The paladin's sacrifice and the mystery of his presence."
+          - article: samuel-the-devoted
+            note: "Samuel's long pursuit and the last battle."
+          - article: emerald-of-armanti
+            note: "The jewel witnessed in the confrontation."
+      - article: misfits-return-to-renada
+        label: "The Queen Returns, the Kingdom Mourns"
+        introduction: "After the rescue the company returns with Melmiri, honors the fallen and faces the court. The companions accept different responsibilities without losing their bond."
+        act: "ACT IV · WHAT VICTORY CHANGED"
+        deeper_reading:
+          - article: age-of-ascendancy
+            note: "The kingdom's widening horizons after Cid."
+          - article: lavitz-shawe
+            note: "The new Lord Marshal."
+          - article: tellora-ebbenflow
+            note: "The new High Wizard."
+          - article: heureux
+            note: "The bard who preserves the company's story."
+          - article: svendyal-shadowwhisper
+            note: "The Iron Shadow's less public path."
+      - article: jaznaars-vindication
+        label: "The Truth at Last Restored"
+        introduction: "Gradvum's public proclamation restores Jaznaar's honor. The Misfits' victory becomes the kingdom's obligation to correct centuries of accepted falsehood."
+        deeper_reading:
+          - article: betrayers-legend
+            note: "How the false legend endured for generations."
+          - article: king-gradvum-frozenroar
+            note: "The king who authorized the correction."
+          - article: the-six
+            note: "The founding fellowship behind the centuries of misunderstanding."
+
+  - id: frozenroar-dynasty
+    title: The Frozenroar Dynasty
+    subtitle: Thirty-four sovereigns. One enduring crown. Centuries of choices.
+    overline: THE LION THRONE · AN ARCHIVAL JOURNEY
+    summary: Follow the crown from Rynhold's alliance of northern kingdoms through the triumphs, injuries, reforms, and responsibilities that define the House of Frozenroar in the present age.
+    editorial_note: Thirty-four sovereigns of one royal bloodline carried Avalor from its founding to Gradvum's reign. Follow the choices that preserved the kingdom, tested its institutions, and sometimes forced the crown to correct its own wrongs.
+    era: Before 1 AF to the Age of Ascendancy
+    steps:
+      - article: founding-wars
+        label: Before There Was a Lion Throne
+        introduction: The kingdom begins in a coalition against Lord Osmo. Rynhold's leadership matters, but the victory at Heroes Hill belongs to more than one crown.
+      - article: unification-of-avalor
+        label: A Crown By Agreement
+        introduction: In 1 AF, victorious allies negotiate the founding of a united kingdom. Avalor is built through political settlement, not the erasure of every older realm.
+      - article: house-frozenroar
+        label: Thirty-four Reigns
+        introduction: Enter the royal register, from Rynhold to Gradvum. Its succession records abdications, loss, reform, dynastic conflict, and generations of service beneath the lion banner.
+      - article: the-aegis
+        label: Institutions Beyond the Monarch
+        introduction: The first king understood that a realm cannot rely forever on one ruler's judgment. Meet the council whose offices help carry government between reigns.
+      - article: arnauds-edicts
+        label: When the Crown Caused Harm
+        introduction: Arnaud turns an ancient false accusation into discriminatory royal policies. The dynasty's history must account for the injuries inflicted by its own authority.
+      - article: sanctuary-at-heavens-heart
+        label: Conscience Against Command
+        introduction: At Heaven's Heart, defenders of threatened families refuse to treat every royal order as righteous. The crisis tests the relationship between protection and obedience.
+      - article: reinas-reforms
+        label: The Work of Reversal
+        introduction: Queen Reina curtails the restrictions left by her predecessor. Reform begins long before Jaznaar's innocence is publicly proven, and its work remains incomplete.
+      - article: king-gradvum-frozenroar
+        label: The King Who Corrected the Record
+        introduction: Gradvum inherits an old crown with new responsibilities. His reign includes the public restoration of a founding hero's wrongfully condemned name.
+      - article: queen-melmiri
+        label: The Crown's Daily Work
+        introduction: Melmiri is no ornamental consort. Her oversight of the kingdom's daily administration reveals another side of royal authority, including her response to her own captivity.
+      - article: four-sheriffdoms
+        label: The Kingdom Beyond Renada
+        introduction: Four appointed sheriffs govern distinct regions on the crown's behalf. The power of the monarchy must work through people, places, and circumstances far from the capital.
+      - article: age-of-ascendancy
+        label: An Inheritance Still Unfinished
+        introduction: Avalor enters an age of wider influence after the Misfits' victory. The lion throne endures, but its legitimacy must still be measured by the choices of those who hold it.
+
+  - id: blackwater-escape
+    title: Escape from Blackwater Bay
+    subtitle: Five operatives. A stolen ship. One impossible day.
+    overline: THE AGE OF ASCENDANCY · A HARBOR CHRONICLE
+    summary: Follow the secret royal commission into Blackwater Bay, discover the people and powers behind the crisis, then trace the choices that brought the crew home and changed their lives.
+    editorial_note: This route presents a retrospective of an originally classified undertaking in 2020 AF. The principal campaign chapter recounts the mission and seven epilogues; the accompanying biographies provide context, not additional missions. No one-day voyage should be confused with the events that followed it.
+    era: 2020 AF — Age of Ascendancy
+    steps:
+      - article: age-of-ascendancy
+        label: Twenty Years After the Misfits
+        introduction: The kingdom is more influential than ever, but its celebrated champions cannot act openly in every troubled port.
+      - article: lavitz-shawe
+        label: The Lord Marshal's Commission
+        introduction: Lavitz chooses five specialists whose identities, abilities and interests do not resemble a formal military expedition.
+      - article: blackwater-bay
+        label: A City Beyond the Crown
+        introduction: Explore Blackwater's harbor, merchant checkpoint, Pier Seven and the Teeth before the affair reaches its breaking point.
+        deeper_reading:
+          - article: corvin-voss
+            note: The smuggler who knew every route through the guarded harbor.
+          - article: skrik
+            note: The Tide-Touched traveler who followed the crew from the ancient waterway.
+      - article: black-diamond
+        label: The Power Behind the Gate
+        introduction: Meet the guarded commercial network, its excavations and the blood magic surrounding its enormous artifact.
+      - article: escape-from-blackwater-bay
+        label: The Theft of an Impossible Ship
+        introduction: Follow the full day from the Tide Gate and Skrik's arrival to Corvin's choice, the flying ship, the living Anchor and the return to Renada.
+        deeper_reading:
+          - article: silas-dreadmore
+            note: The curse that made Silas fear what he might become.
+          - article: mg-the-fixer
+            note: The covert connections that made MG indispensable.
+          - article: notfred
+            note: The outcast who learned what a hero's choice could be.
+          - article: naeris-thorne
+            note: The diver whose contact with the Tide Gate changed his life.
+          - article: ambrose-burntwood
+            note: The former Crown operative whose family and freedom mattered.
+      - article: notfred
+        label: An Unlikely Hero Honored
+        introduction: Read the story of a former deputy who finally receives a public honor and chooses a new purpose.
+      - article: naeris-thorne
+        label: The Scars and the Unanswered Questions
+        introduction: Naeris survives his decision to serve as Anchor and continues seeking the history hidden beneath the waters.
+      - article: ambrose-burntwood
+        label: The Freedom to Choose
+        introduction: End at Port Orange, where Lavitz fulfills a promise without demanding another debt.

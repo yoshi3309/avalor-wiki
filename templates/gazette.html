@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container gazette-page">
+<nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>The Royal Gazette</span></nav>
+<header class="gazette-masthead"><span class="gazette-crest" aria-hidden="true">❦</span><div class="gazette-kicker">THE ROYAL COMMISSION OF HISTORICAL INQUIRY</div><h1>The Royal <em>Gazette</em></h1><p>Dated dispatches from the Archives: historical studies, newly arranged records, and questions still open to inquiry.</p><div class="gazette-rule" aria-hidden="true">✦</div></header>
+<div class="gazette-strap"><span>THE COMMISSION'S CIRCULARS</span><span>{{gazette_issues|length}} EDITION{% if gazette_issues|length != 1 %}S{% endif %}</span></div>
+{% if gazette_issues %}
+{% set latest = gazette_issues[0] %}
+<div class="gazette-label">THE LATEST EDITION · {{latest.date_display}}</div><h2 class="gazette-latest-title">{{latest.title}}</h2><p class="gazette-intro">{{latest.intro}}</p>
+<section class="gazette-lead"><div><span class="gazette-label">ISSUE {{'%02d'|format(latest.issue_number)}} · {{latest.dispatches[0].kicker}}</span><h2>{{latest.dispatches[0].title}}</h2><p>{{latest.dispatches[0].summary}}</p><a href="{{root}}gazette/{{latest.id}}/">Read the edition ↗</a></div><span class="gazette-seal" aria-hidden="true">✦</span></section>
+<div class="gazette-label gazette-label--spaced">OTHER DISPATCHES</div><div class="gazette-cards">{% for note in latest.dispatches[1:4] %}<article><span class="gazette-label">{{note.kicker}}</span><h3>{{note.title}}</h3><p>{{note.summary}}</p><a href="{{root}}gazette/{{latest.id}}/#dispatch-{{note.number}}">Read dispatch ↗</a></article>{% endfor %}</div>
+{% if gazette_issues|length > 1 %}<h2 class="gazette-latest-title">Earlier Editions</h2>{% for issue in gazette_issues[1:] %}<article class="gazette-previous"><strong>ISSUE {{'%02d'|format(issue.issue_number)}} · {{issue.date_display}}</strong><h3>{{issue.title}}</h3><p>{{issue.subtitle}}</p><a href="{{root}}gazette/{{issue.id}}/">Open edition ↗</a></article>{% endfor %}{% endif %}
+{% else %}<p class="gazette-intro">The Commission's first edition is being prepared.</p>{% endif %}
+<footer class="gazette-footer">Issue dates mark publication in the Archives, not the historical dates of the events discussed. Every dispatch refers readers to an existing record.<p><a href="{{root}}articles/royal-commission-historical-inquiry/">About the Royal Commission ↗</a></p></footer>
+</div>
+{% endblock %}

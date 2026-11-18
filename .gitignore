@@ -1,0 +1,13 @@
+
+# Local build output and Keeper work never belong in the public archive
+_site/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+keeper/
+private/
+dm-notes/
+master-canon/
+*.keeper.md
+*.private.md

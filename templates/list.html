@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container catalog-container"><nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>{{heading}}</span></nav><div class="catalog-heading"><div class="kicker">{{overline}}</div><h1>{{heading}}</h1><p>{{intro}}</p></div>
+<div class="catalog-tools"><span>{{ items|length }} RECORDS INDEXED</span><label>Filter records <input class="filter-input" type="search" id="catalog-filter" placeholder="Find within this collection..."></label></div>
+<div class="catalog-list" id="catalog-list">{% for a in items %}<a class="catalog-item" data-filter="{{a.title|lower}} {{a.summary|lower}} {{a.category|lower}}" href="{{root}}articles/{{a.slug}}/"><span class="catalog-entry">{{a.entry}}</span><div class="catalog-description"><h2>{{a.title}}</h2><p>{{a.summary}}</p></div><div class="catalog-category">{{a.category}}</div><span class="catalog-chevron">↗</span></a>{% endfor %}</div><div class="no-catalog-results" id="catalog-empty" hidden>No matching public records found.</div></div>
+{% endblock %}

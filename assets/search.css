@@ -1,0 +1,18 @@
+/* Smart archive search: additive styles to preserve the existing navy and gold UI. */
+.search-dialog{max-width:760px;max-height:88vh;display:flex;flex-direction:column;overflow:hidden}
+.search-form{flex-shrink:0}
+.search-close{background:#253640;color:#dfc38f;border:1px solid #64705f;border-radius:3px;min-width:42px;padding:6px;font:10px var(--font-body)}
+.search-close:hover,.search-close:focus-visible{background:#37484a}
+.search-result-heading{padding-bottom:8px;flex-shrink:0}
+.search-categories{display:flex;flex-wrap:wrap;gap:7px;padding:0 22px 14px;flex-shrink:0;border-bottom:1px solid #3d4a48}
+.search-category{font:10px var(--font-body);color:#bbc6c2;background:#1e3039;border:1px solid #51625d;border-radius:3px;padding:8px 10px;min-height:34px}
+.search-category:hover,.search-category:focus-visible{border-color:#d9b77c}
+.search-category.is-selected{color:#15252c;background:#d5b581;border-color:#d5b581;font-weight:700}
+.search-status{padding:10px 24px;font-size:11px;color:#b8c4bd;flex-shrink:0}
+.search-results{min-height:110px;min-width:0;overscroll-behavior:contain;flex:1}
+.search-result.is-keyboard-selected{background:#31444a;outline:1px solid #c5aa78;outline-offset:-1px}
+.search-result strong{overflow-wrap:anywhere}
+.search-dialog-footer{flex-shrink:0}
+.search-form input:focus-visible{outline:2px solid #e6c48d;outline-offset:4px}
+@media(max-width:710px){.search-dialog{max-height:88vh}.search-categories{gap:5px;padding:0 13px 12px}.search-category{padding:7px 9px;font-size:9px}.search-status{padding:9px 15px}.search-dialog-footer{display:block;line-height:1.8}.search-dialog-footer span{display:block}.search-results{max-height:48vh}}
+@media(prefers-reduced-motion:reduce){.search-result{scroll-behavior:auto}}

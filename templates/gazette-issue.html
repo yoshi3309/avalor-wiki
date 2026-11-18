@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container gazette-page">
+<nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}gazette/">The Royal Gazette</a><span>›</span><span>Issue {{'%02d'|format(gazette_issue.issue_number)}}</span></nav>
+<header class="gazette-masthead"><span class="gazette-crest" aria-hidden="true">❦</span><div class="gazette-kicker">THE ROYAL COMMISSION · THE SCHOLAR'S EDITION</div><h1>{{gazette_issue.title}}</h1><p>{{gazette_issue.subtitle}}</p><div class="gazette-rule" aria-hidden="true">✦</div></header>
+<div class="gazette-strap"><span>ISSUE {{'%02d'|format(gazette_issue.issue_number)}}</span><span>EDITORIAL PUBLICATION · {{gazette_issue.date_display}}</span></div>
+<div class="gazette-label">A LETTER FROM THE ARCHIVIST</div><p class="gazette-intro">{{gazette_issue.intro}}</p>
+{% set lead = gazette_issue.dispatches[0] %}
+<section class="gazette-lead" id="dispatch-1"><div><span class="gazette-label">{{lead.kicker}}</span><h2>{{lead.title}}</h2><p><strong>{{lead.summary}}</strong></p><p>{{lead.body}}</p><a href="{{root}}articles/{{lead.article.slug}}/">Examine the source: {{lead.article.title}} ↗</a></div><span class="gazette-seal" aria-hidden="true">✦</span></section>
+<div class="gazette-label gazette-label--spaced">NOTICES FROM THE COLLECTIONS</div>
+<div class="gazette-cards">{% for note in gazette_issue.dispatches[1:] %}<article id="dispatch-{{note.number}}"><span class="gazette-label">{{note.kicker}}</span><h3>{{note.title}}</h3><p><strong>{{note.summary}}</strong></p><p>{{note.body}}</p><a href="{{root}}articles/{{note.article.slug}}/">Examine {{note.article.title}} ↗</a></article>{% endfor %}</div>
+<footer class="gazette-footer">This circular revisits recorded history. Its date marks editorial publication, not a new event in Avalor.<p><a href="{{root}}gazette/">← All Gazette editions</a></p></footer>
+</div>
+{% endblock %}

@@ -1,0 +1,108 @@
+# Public-facing browse groups for People & Legends.
+# An article can be listed in more than one group. Group membership is
+# editorial navigation, not a claim that every member holds a formal office.
+# Newly published people not listed here appear automatically in "Other Figures".
+featured: lavitz-shawe
+groups:
+  - id: founding-six
+    title: The Founding Six
+    eyebrow: THE FIRST HEROES
+    icon: "✦"
+    description: The fellowship whose triumphs and tragedy shaped early Avalor.
+    articles:
+      - the-six
+      - aldus-greystone-iii
+      - lowkee
+      - faelynn
+      - petris
+      - kelsalor
+      - jaznaar
+  - id: misfits
+    title: Misfits & Companions
+    eyebrow: HEROES OF A LATER AGE
+    icon: "⚔"
+    description: The adventurers and traveling companions whose deeds changed the realm.
+    articles:
+      - the-misfits
+      - lavitz-shawe
+      - tellora-ebbenflow
+      - svendyal-shadowwhisper
+      - heureux
+      - amara
+      - fo-gurn
+      - anna-lowkees-keeper
+      - jack-of-stanleyville
+  - id: blackwater-bay
+    title: Blackwater Bay Crew
+    eyebrow: OPERATIVES & COMPANIONS
+    icon: "⚓"
+    description: The five specialists recruited by Lavitz Shawe and the friends who joined their Blackwater Bay voyage.
+    articles:
+      - silas-dreadmore
+      - notfred
+      - naeris-thorne
+      - mg-the-fixer
+      - ambrose-burntwood
+      - corvin-voss
+      - skrik
+  - id: crown
+    title: Crown & Kingdom
+    eyebrow: THE PEOPLE WHO GOVERN
+    icon: "♛"
+    description: The royal household, Aegis councilors, and appointed officers.
+    articles:
+      - rynhold-frozenroar
+      - king-gradvum-frozenroar
+      - queen-melmiri
+      - kel-maris
+      - belgram-mountain-hall
+      - myxi-twinefoot
+      - katiri-tenderfoot
+      - rastrin-diltir
+      - beldir-willowrun
+      - samuel-the-devoted
+      - lavitz-shawe
+      - tellora-ebbenflow
+      - sebastian-rubelda
+      - edran-halwick
+      - seren-thornwyck
+      - cassian-veyran
+      - lady-miren-dast
+  - id: scholars-faith
+    title: Faith & Scholarship
+    eyebrow: SEEKERS AND STEWARDS
+    icon: "✧"
+    description: Religious leaders, historians, archivists, and arcane scholars.
+    articles:
+      - astronoph
+      - brother-halden-korr
+      - professor-xiomara-thal
+      - lady-miren-dast
+      - samuel-the-devoted
+      - tellora-ebbenflow
+  - id: hunters
+    title: Hunters Guild Members
+    eyebrow: THE FAMILY BUSINESS
+    icon: "🜃"
+    description: Hunters who work and find family around the Wayward Sun and the Dead Marshes.
+    articles:
+      - heyden-of-the-goldenfoot
+      - mandu-durbar-marg
+      - ferris-rumbuckle
+      - malikeah
+      - mera-ashenfall
+      - faelynn
+  - id: other-figures
+    title: Other Figures
+    eyebrow: FURTHER LIVES
+    icon: "⚜"
+    description: Allies, adversaries, and unusual names remembered in the archives.
+    articles:
+      - bradgem-glav
+      - lord-osmo
+      - malikeah
+      - mera-ashenfall
+      - zauks
+      - jaaris
+      - noki-the-sheep
+      - cid-the-blood-king

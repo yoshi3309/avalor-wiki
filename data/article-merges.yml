@@ -1,0 +1,34 @@
+# Approved editorial consolidations; public wiki entries replaced by anchor sections.
+# Keep old slugs for permanent redirects and stable old title links.
+# Do not repurpose these slugs for future unrelated pages.
+retired:
+  mudsteps: {title: "Mudsteps", parent: renada, section: the-mudsteps}
+  lantern-ward: {title: "Lantern Ward", parent: renada, section: lantern-ward-and-the-markets}
+  rynhold-park: {title: "Rynhold Park", parent: renada, section: rynhold-park-and-public-memory}
+  old-renada: {title: "Old Renada", parent: renada, section: old-renada}
+  crownrise: {title: "Crownrise", parent: renada, section: crownrise}
+  rhys-quays: {title: "Rhys Quays", parent: renada, section: rhys-quays}
+  cathedral-ward: {title: "Cathedral Ward", parent: renada, section: cathedral-ward}
+  black-stair: {title: "The Black Stair", parent: black-tower, section: the-black-stair}
+  moonville-manor: {title: "Moonville Manor", parent: the-misfits, section: moonville-manor}
+  the-ripped-beard: {title: "The Ripped Beard", parent: the-misfits, section: the-liberation-of-the-rotten-husk}
+  fo-gurn-and-the-hydra: {title: "Fo’Gurn and the Hydra", parent: fo-gurn, section: the-hydra-and-the-decision-to-remain}
+  jaznaars-refuge: {title: "Jaznaar’s Hidden Refuge", parent: jaznaar, section: the-refuge-beyond-ordinary-knowledge}
+  rotten-husk: {title: "The Liberation of the Rotten Husk", parent: the-misfits, section: the-liberation-of-the-rotten-husk}
+  jinlin-vechon-wrath-of-innocent: {title: "Jinlin Vechon and the Wrath of Innocent", parent: the-misfits, section: jinlin-vechon-and-the-wrath-of-innocent}
+  avalorian-standing-army: {title: "The Avalorian Standing Army", parent: avalorian-forces, section: the-avalorian-standing-army}
+  lions-bane: {title: "Lion's Bane", parent: avalorian-forces, section: lion-s-bane}
+  dina-hyanda: {title: "Dina Hyanda", parent: avalorian-forces, section: dina-hyanda}
+  cult-of-golgoroth: {title: "The Cult of Gol’Goroth", parent: independent-factions-of-the-misfits-era, section: the-cult-of-gol-goroth}
+  wrath-of-innocent: {title: "The Wrath of Innocent", parent: independent-factions-of-the-misfits-era, section: the-wrath-of-innocent}
+  kurt-reyginald: {title: "Kurt Reyginald", parent: minor-heroes-and-allies, section: kurt-reyginald}
+  captain-funkin: {title: "Captain Funkin", parent: minor-heroes-and-allies, section: captain-funkin}
+  inspector-sihnion: {title: "Inspector Sihnion", parent: minor-heroes-and-allies, section: inspector-sihnion}
+  ros-furband: {title: "Ros Furband", parent: minor-villains-and-adversaries, section: ros-furband}
+  karina: {title: "Karina", parent: minor-villains-and-adversaries, section: karina}
+  black-agnes-mudwallow: {title: "Black Agnes Mudwallow", parent: minor-villains-and-adversaries, section: black-agnes-mudwallow}
+  jinlin-vechon: {title: "Jinlin Vechon", parent: minor-villains-and-adversaries, section: jinlin-vechon}
+  king-gerran-frozenroar: {title: "King Gerran Frozenroar", parent: minor-characters, section: king-gerran-frozenroar}
+  gomo: {title: "Gomo", parent: minor-characters, section: gomo}
+  silver-of-moonlight: {title: "Silver of Moonlight", parent: minor-characters, section: silver-of-moonlight}
+  rotten-husk-clan: {title: "The Rotten Husk Clan", parent: clans-and-communities-of-avalor, section: the-rotten-husk-clan}

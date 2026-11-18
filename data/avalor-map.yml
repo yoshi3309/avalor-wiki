@@ -1,0 +1,443 @@
+title: The Cartographer's Table
+image: /assets/uploads/avalor-official-map.webp
+image_alt: An illustrated parchment map of Avalor, with its mountains, forests,
+  waterways, and surrounding seas.
+image_credit: New official map of Avalor
+locations:
+  - id: forest-of-the-fey
+    name: Forest of the Fey
+    type: region
+    x: 47
+    y: 20.5
+    description: Material Plane extension of the Feywild, with elven and other
+      woodland communities preserving rights older than the kingdom.
+    article: forest-of-the-fey
+    published: true
+    provisional: false
+  - id: great-desert
+    name: Great Desert
+    type: region
+    x: 67.7
+    y: 25.8
+    description: A landscape transformed by the consequences of the Black Tower catastrophe.
+    article: great-desert
+    published: true
+    provisional: false
+  - id: denzians-forest
+    name: Denzians Forest
+    type: region
+    x: 81.3
+    y: 30.9
+    description: The forest named for the wizard Denzian, with tales of vanished
+      treasure seekers and guarded relics.
+    article: denzians-forest
+    published: true
+    provisional: false
+  - id: dead-marshes
+    name: Dead Marshes
+    type: region
+    x: 53.2
+    y: 39.7
+    description: A dangerous wetland bearing the traces of ancient conflict and
+      later magical upheaval.
+    article: dead-marshes
+    published: true
+    provisional: false
+  - id: spine-of-the-world
+    name: Spine of the World
+    type: region
+    x: 31.22
+    y: 16.68
+    description: The mountain range associated with Heaven's Heart and the ancient
+      Black Tower.
+    article: spine-of-the-world
+    published: true
+    provisional: false
+  - id: river-rhys
+    name: River Rhys
+    type: water
+    x: 44.6
+    y: 64.8
+    description: The river that links the royal capital with wider routes of travel
+      and commerce.
+    article: renada
+    published: true
+    provisional: false
+  - id: valoran-gulf
+    name: Valoran Gulf
+    type: water
+    x: 32.5
+    y: 49
+    description: The gulf named on the northern kingdom's new map.
+    published: true
+    provisional: false
+  - id: ember-bay
+    name: Ember Bay
+    type: water
+    x: 58.4
+    y: 53.7
+    description: A broad inlet marked on the new map of Avalor.
+    published: true
+    provisional: false
+  - id: the-white-sea
+    name: The White Sea
+    type: water
+    x: 13.5
+    y: 17
+    description: The waters lying to the northwest of the kingdom's mountains.
+    published: true
+    provisional: false
+  - id: the-avarick-ocean
+    name: The Avarick Ocean
+    type: water
+    x: 22
+    y: 83.3
+    description: The ocean named on the western reaches of the new map.
+    published: true
+    provisional: false
+  - id: gulf-of-serath
+    name: Gulf of Serath
+    type: water
+    x: 71
+    y: 70.3
+    description: The gulf bordering the southeastern coast.
+    published: true
+    provisional: false
+  - id: sea-of-obroz
+    name: Sea of Obroz
+    type: water
+    x: 67.8
+    y: 84.6
+    description: The sea named off the southern shores of Avalor.
+    published: true
+    provisional: false
+  - id: renada
+    name: Renada
+    type: settlement
+    x: 43.27
+    y: 58.66
+    description: Royal capital of Avalor, on the River Rhys; home to the Great
+      Citadel and royal court.
+    article: renada
+    related_places: great-citadel,great-cathedral,renada#crownrise,renada#old-renada,renada#lantern-ward-and-the-markets,renada#rhys-quays,renada#cathedral-ward,renada#rynhold-park-and-public-memory,renada#the-mudsteps
+    published: true
+    provisional: false
+  - id: heavens-heart
+    name: Heaven's Heart
+    type: institution
+    x: 31.8
+    y: 30.24
+    description: Sacred and scholarly settlement near the foot of the Spine of the World.
+    article: heavens-heart
+    related_places: cathedral-paladins,great-library-aldus-greystone
+    published: true
+    provisional: false
+  - id: stanleyville
+    name: Stanleyville
+    type: settlement
+    x: 38.65
+    y: 40.89
+    description: Metalworking town on the King's Road where the Stalker killed
+      Lord Marshal Kel'Maris before the later Hydra temple disaster.
+    article: stanleyville
+    published: true
+    provisional: false
+  - id: heroes-hill
+    name: Heroes Hill
+    type: historic
+    x: 43.9
+    y: 41.28
+    description: The founding-war battlefield where Bradgem Glav defeated Lord Osmo
+      at the cost of his own life.
+    article: heroes-hill
+    published: true
+    provisional: false
+  - id: shammans-tower
+    name: Shamman’s Tower
+    type: institution
+    x: 83.18
+    y: 45.72
+    description: Arcane institution off the eastern coast, revived by High Wizard
+      Tel'Lora Ebbenflow.
+    article: shammans-tower
+    published: true
+    provisional: false
+  - id: wayword-sun
+    name: Wayward Sun
+    type: settlement
+    x: 52.49
+    y: 46.24
+    description: Hunters Guild refuge within the Dead Marshes, founded by
+      Faelynn and later home to Malikeah, Mera and the hunter called Shadow.
+    article: wayword-sun
+    related_places: hunters-guild
+    published: true
+    provisional: false
+  - id: black-tower
+    name: The Black Tower
+    type: historic
+    x: 23.78
+    y: 23.33
+    description: The ruinous site of Aldus Greystone III's experiments within the
+      Spine of the World.
+    article: black-tower
+    published: true
+    provisional: false
+  - id: lands-end
+    name: Land's End
+    type: settlement
+    x: 67.97
+    y: 35.02
+    description: Fortified seat of the Northern March's sheriff, Sebastian Rubelda.
+    article: lands-end
+    published: true
+    provisional: false
+  - id: karhold
+    name: Karhold
+    type: settlement
+    x: 78.7
+    y: 74.86
+    description: Disputed eastern-peninsula freeport; its independent government is
+      not settled by Avalorian claims.
+    article: karhold
+    published: true
+    provisional: false
+  - id: black-stair
+    name: The Black Stair
+    type: historic
+    x: 27.79
+    y: 29.76
+    description: Steep approach leading to the Black Tower; Heaven's Heart is nearby
+      but not the destination.
+    article: black-tower#the-black-stair
+    published: true
+    provisional: false
+  - id: lord-osmos-tower
+    name: Lord Osmo's Tower
+    type: historic
+    x: 47.12
+    y: 33.55
+    description: A military landmark of the mortal conqueror who fell at Heroes Hill.
+    article: lord-osmos-tower
+    published: true
+    provisional: false
+  - id: great-fork-tower
+    name: The Great Fork Tower
+    type: institution
+    x: 41.08
+    y: 76.07
+    description: Ancient defensive tower now used to train Avalor's standing army.
+    article: great-fork-tower
+    published: true
+    provisional: false
+  - id: cove-city
+    name: Cove City
+    type: settlement
+    x: 24
+    y: 54.026
+    description: A port of Avalor connected to the King's Road and the kingdom's
+      inland commercial routes.
+    article: cove-city
+    published: true
+    provisional: false
+  - id: tinsel
+    name: Tinsel
+    type: settlement
+    x: 27.04
+    y: 51.98
+    description: A coastal port linked to the King's Road and the wider Avalorian
+      trade network.
+    article: tinsel
+    published: true
+    provisional: false
+  - id: siesta-ford
+    name: Siesta Ford
+    type: settlement
+    x: 16.97
+    y: 74.8
+    description: A coastal settlement known for prosperity, leisure, and retreat.
+    article: siesta-ford
+    published: true
+    provisional: false
+  - id: stems-port
+    name: Stems Port
+    type: settlement
+    x: 21.05
+    y: 64.27
+    description: A freeport with distinct commercial privileges and local
+      arrangements; not to be confused with disputed Karhold.
+    article: stems-port
+    published: true
+    provisional: false
+  - id: kings-forest
+    name: King's Forest
+    type: region
+    x: 49.41
+    y: 56.45
+    description: Woodland near Alexiverde, remembered as the place where the
+      ashes of Lord Marshal Kel'Maris were scattered after her state funeral.
+    article: geography-of-avalor#king-s-forest
+    published: true
+    provisional: false
+  - id: forest-of-the-westfold
+    name: Forest of the Westfold
+    type: region
+    x: 77.13
+    y: 51.1
+    description: Named woodland near Briyan's Autumn in the Eastern Reach.
+    article: geography-of-avalor#forest-of-the-westfold
+    published: true
+    provisional: false
+  - id: the-drought
+    name: The Drought
+    type: region
+    x: 60.35
+    y: 68.22
+    description: Difficult region crossed by travelers using the Ferrymen from
+      Ferrymen Village.
+    article: geography-of-avalor#the-drought
+    published: true
+    provisional: false
+  - id: tarnapolus
+    name: Tarnapolus
+    type: settlement
+    x: 57.88
+    y: 97.07
+    description: Lake Noch trade port and home of Edran Halwick, sheriff of the
+      Royal Heartlands.
+    article: tarnapolus
+    published: true
+    provisional: false
+  - id: briyans-autumn
+    name: Briyan's Autumn
+    type: settlement
+    x: 72.44
+    y: 56.46
+    description: Heavily fortified city near the Forest of the Westfold, governed by
+      Cassian Veyran in the Eastern Reach.
+    article: briyans-autumn
+    published: true
+    provisional: false
+  - id: east-port
+    name: East Port
+    type: settlement
+    x: 65.21
+    y: 40.68
+    description: Naval harbor and military town serving Avalor's eastern fleet and
+      its inland trade routes.
+    article: east-port
+    published: true
+    provisional: false
+  - id: jogar-village
+    name: Jogar Village
+    type: settlement
+    x: 43.06
+    y: 74.03
+    description: Mixed halfling, human, and gnome village built over the ruins of
+      ancient Illmire.
+    article: jogar-village
+    published: true
+    provisional: false
+  - id: osmostown
+    name: Osmostown
+    type: settlement
+    x: 15.95
+    y: 62.68
+    description: Western naval city associated with Smugglers Isle and the crown's justice.
+    article: osmostown
+    published: true
+    provisional: false
+  - id: port-orange
+    name: Port Orange
+    type: settlement
+    x: 55.7
+    y: 79.84
+    description: Cosmopolitan trade harbor originally built as Fort Orange during
+      the war against Lord Osmo.
+    article: port-orange
+    published: true
+    provisional: false
+  - id: river-city
+    name: River City
+    type: settlement
+    x: 36.64
+    y: 85.22
+    description: Growing fishing port supplying Renada and the Royal Heartlands.
+    article: river-city
+    published: true
+    provisional: false
+  - id: stannisport
+    name: Stannisport
+    type: settlement
+    x: 60.49
+    y: 47.68
+    description: Trade port on the River Juce joined by Heroes Bridge; home of the
+      Clerics Guild.
+    article: stannisport
+    published: true
+    provisional: false
+  - id: taveras
+    name: Taveras
+    type: settlement
+    x: 47.49
+    y: 71.98
+    description: Cultural city on the River Rhys with the Great Opera House and Bard Guild.
+    article: taveras
+    published: true
+    provisional: false
+  - id: alexiverde
+    name: Alexiverde
+    type: settlement
+    x: 50
+    y: 50.96
+    description: Village of farmers and woodworkers between the Dead Marshes and the
+      King's Forest.
+    article: lesser-settlements-of-avalor#alexiverde
+    published: true
+    provisional: false
+  - id: ferrymen-village
+    name: Ferrymen Village
+    type: settlement
+    x: 57.23
+    y: 74.09
+    description: Mixed-ancestry community at the Drought's edge, known for guiding
+      travelers across it.
+    article: lesser-settlements-of-avalor#ferrymen-village
+    published: true
+    provisional: false
+  - id: olivruch
+    name: Olivruch
+    type: settlement
+    x: 10.48
+    y: 72.7
+    description: Small town associated with the Thieves Guild.
+    article: lesser-settlements-of-avalor#olivruch
+    published: true
+    provisional: false
+  - id: lake-noch
+    name: Lake Noch
+    type: water
+    x: 55.39
+    y: 98.36
+    description: Large lake on which Tarnapolus is situated.
+    article: tarnapolus
+    published: true
+    provisional: false
+  - id: river-juce
+    name: River Juce
+    type: water
+    x: 55.81
+    y: 43.92
+    description: River passing through Stannisport beneath Heroes Bridge.
+    article: stannisport
+    published: true
+    provisional: false
+  - id: smugglers-isle
+    name: Smugglers Isle
+    type: region
+    x: 11.65
+    y: 76.69
+    description: Island associated with Osmostown and the western navy.
+    article: osmostown
+    published: true
+    provisional: false

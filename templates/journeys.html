@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container journeys-container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Archives</a><span>›</span><span>Reading journeys</span></nav>
+  <header class="journeys-heading">
+    <div class="kicker">THE CURATOR'S COLLECTION · GUIDED READING</div>
+    <h1>Journeys through the Archives</h1>
+    <p>Some histories are best understood one record at a time, in the company of the people who lived them. These curated reading paths draw connections between the Royal Commission's existing public accounts.</p>
+  </header>
+  <div class="journeys-grid">
+    {% for journey in journeys %}
+    <a class="journeys-card" href="{{root}}journeys/{{journey.id}}/">
+      <span class="journeys-card-overline">ARCHIVAL JOURNEY {{ '%02d'|format(loop.index) }}</span>
+      <span class="journeys-card-symbol" aria-hidden="true">✦</span>
+      <h2>{{journey.title}}</h2>
+      <p class="journeys-card-subtitle">{{journey.subtitle}}</p>
+      <p>{{journey.summary}}</p>
+      <span class="journeys-card-footer">{{journey.steps|length}} records <span>Explore journey ↗</span></span>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="journeys-principle"><span aria-hidden="true">◇</span><p>Every journey draws upon public historical accounts. Where the evidence is uncertain, the path acknowledges uncertainty rather than replacing it with legend.</p></div>
+</div>
+{% endblock %}
