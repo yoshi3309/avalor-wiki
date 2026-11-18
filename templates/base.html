@@ -36,6 +36,7 @@
 {% if page_type == "timeline" %}<script defer src="{{ root }}assets/chronicle.js?v=20261108-chronicle-v2"></script>{% endif %}
 {% if page_type == "map" %}<link rel="stylesheet" href="{{ root }}assets/map.css?v=atlas-renada-20261107b"><link rel="stylesheet" href="{{root}}assets/atlas-time.css?v=20261110-time-1">{% endif %}
 <script>window.AVALOR_ROOT = {{ root|tojson }};</script>
+<script src="{{root}}assets/appearance.js?v=phase0-v1"></script>
 {% if page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/article-reading.css?v=20261111-location-plates-1"><link rel="stylesheet" href="{{ root }}assets/article-explore.css?v=20261113-continue-exploring-1">{% endif %}
 {% if page_type == "article" %}<script defer src="{{ root }}assets/article-reading.js?v=20261108-article-reading-1"></script><script defer src="{{ root }}assets/portrait-stages.js?v=20261114-stages-1"></script>{% endif %}
 {% if page_type == "gallery" or page_type == "article" %}<link rel="stylesheet" href="{{ root }}assets/gallery.css?v=20261108-gallery-1">{% endif %}
@@ -50,6 +51,7 @@
 <link rel="stylesheet" href="{{root}}assets/reader-polish.css?v=20261110-polish-1">
 {% if page_type == 'home' %}<link rel="stylesheet" href="{{root}}assets/archive-home.css?v=20261110-hub-v1">{% endif %}
 {% if page_type in ('home','gazette') %}<link rel="stylesheet" href="{{root}}assets/gazette.css?v=20261110-gazette-1">{% endif %}
+<link rel="stylesheet" href="{{root}}assets/appearance.css?v=phase0-v1">
 <script src="{{root}}assets/reading-comfort.js?v=20261109-comfort-1"></script>
 <script defer src="{{ root }}assets/search.js?v=20261108-smart-search-1"></script>
 <script defer src="{{ root }}assets/app.js?v=20261108-smart-search-1"></script>
@@ -93,7 +95,7 @@
     <header class="topbar">
       <button type="button" class="menu-trigger" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false" id="menu-trigger">☰</button>
       <div class="topbar-crumb"><span class="topbar-label">THE WORLD OF AVALOR</span>{% if crumbs %}<span class="crumb-slash">/</span><span class="crumb-text">{{ crumbs }}</span>{% endif %}</div>
-      <div class="topbar-actions"><div class="reading-prefs" id="reading-prefs">
+      <div class="topbar-actions"><button type="button" class="appearance-toggle" id="appearance-toggle" aria-label="Switch to Vellum appearance" aria-pressed="false" title="Switch archive appearance"><span class="appearance-toggle-icon" aria-hidden="true">☾</span><span class="appearance-toggle-label">Night</span></button><div class="reading-prefs" id="reading-prefs">
   <button type="button" id="reading-prefs-trigger" class="reading-prefs-trigger" aria-label="Reading comfort settings" aria-controls="reading-prefs-panel" aria-expanded="false"><span aria-hidden="true">Aa</span><span class="reading-prefs-trigger-label">Reading</span></button>
   <section class="reading-prefs-panel" id="reading-prefs-panel" aria-labelledby="reading-prefs-heading" hidden>
     <div class="reading-prefs-heading"><h2 id="reading-prefs-heading">Reading comfort</h2><button type="button" id="reading-prefs-close" aria-label="Close reading settings">✕</button></div>

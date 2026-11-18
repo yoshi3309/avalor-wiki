@@ -1,0 +1,37 @@
+name: Vellum & Night Browser Review (No Deployment)
+
+on:
+  pull_request:
+    paths:
+      - "assets/**"
+      - "templates/**"
+      - "tests/visual_review.py"
+      - ".github/workflows/visual-review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  visual-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install renderer and Chromium
+        run: |
+          python -m pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+      - name: Build public website (no deployment)
+        run: python build.py
+      - name: Render both appearances and check interactive controls
+        run: python tests/visual_review.py
+      - name: Save desktop/mobile comparisons
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vellum-night-browser-review
+          path: visual-review/
+          if-no-files-found: warn

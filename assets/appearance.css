@@ -1,0 +1,195 @@
+/* Vellum & Binding / Phase 0.
+   Night remains the default. Vellum is an explicit reader choice.
+   Reading Comfort remains independent and is loaded afterward. */
+:root { --archive-radius: 3px; --archive-transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+.appearance-toggle { display:inline-flex; align-items:center; justify-content:center; gap:7px; min-height:42px; padding:7px 11px; white-space:nowrap; border:1px solid #77684e; background:#25353d; color:#f0d7a8; font:600 11px var(--font-body); border-radius:var(--archive-radius); transition:var(--archive-transition) }
+.appearance-toggle:hover { border-color:#dfbd83; background:#394b4c }
+.appearance-toggle-icon { font-size:16px; line-height:1 }
+.appearance-toggle:focus-visible { outline:3px solid #e8bd73; outline-offset:3px }
+html[data-appearance="vellum"] { color-scheme:light; --dark:#e9e1d2; --dark2:#f3eddf; --dark3:#e5d8bf; --gold:#79562d; --gold-light:#9a713b; --warm:#39342d; --paper:#fffaf0; --ink:#272e32; --mute:#625d54; --rule:rgba(106,82,48,.29) }
+html[data-appearance="vellum"] body { background:#e9e1d2; color:#302d28 }
+html[data-appearance="vellum"] .sidebar { background:#e0d4bf; border-color:#bba98a }
+html[data-appearance="vellum"] .sidebar-brand strong,html[data-appearance="vellum"] .sidebar-brand small,html[data-appearance="vellum"] .sidebar-overline { color:#4a3b28 }
+html[data-appearance="vellum"] .sidebar-search { background:#f5efdf; color:#423a2e; border-color:#a99777 }
+html[data-appearance="vellum"] .side-nav .nav-caption,html[data-appearance="vellum"] .nav-link,html[data-appearance="vellum"] .nav-subgroup-links a,html[data-appearance="vellum"] .nav-subgroup summary { color:#433b30 }
+html[data-appearance="vellum"] .nav-link:hover,html[data-appearance="vellum"] .nav-link.active,html[data-appearance="vellum"] .nav-subgroup-links a:hover { background:#f4ebd8; color:#5b3f22 }
+html[data-appearance="vellum"] .side-bottom strong,html[data-appearance="vellum"] .side-bottom p { color:#584831 }
+html[data-appearance="vellum"] .topbar { background:#f0e7d5; border-color:#bba98a }
+html[data-appearance="vellum"] .topbar-label,html[data-appearance="vellum"] .crumb-text,html[data-appearance="vellum"] .crumb-slash { color:#514534 }
+html[data-appearance="vellum"] .site-footer { background:#e2d6c1; color:#54493b; border-color:#bba98a }
+html[data-appearance="vellum"] .appearance-toggle,html[data-appearance="vellum"] .reading-prefs-trigger { background:#fffbf1; color:#513a20; border-color:#9d865f }
+html[data-appearance="vellum"] .reading-prefs-panel { background:#f9f2e5; color:#342d24; border-color:#a58a60; box-shadow:0 18px 40px #31250f36 }
+html[data-appearance="vellum"] .reading-prefs-heading h2,html[data-appearance="vellum"] .reading-prefs-intro,html[data-appearance="vellum"] .reading-prefs-fieldset legend,html[data-appearance="vellum"] .reading-prefs-toggle strong,html[data-appearance="vellum"] .reading-prefs-toggle small,html[data-appearance="vellum"] .reading-prefs-footer span,html[data-appearance="vellum"] .reading-prefs-status { color:#443829 }
+html[data-appearance="vellum"] .reading-prefs-choices button,html[data-appearance="vellum"] .reading-prefs-footer button,html[data-appearance="vellum"] .reading-prefs-heading button { background:#eee2cd; color:#3a3024; border-color:#b6a07e }
+html[data-appearance="vellum"] .reading-prefs-choices button[aria-pressed="true"] { background:#d8c39e; border-color:#77572c; color:#2b261e }
+html[data-appearance="vellum"] .reading-prefs-fieldset,html[data-appearance="vellum"] .reading-prefs-toggle,html[data-appearance="vellum"] .reading-prefs-footer { border-color:#c4b394 }
+html[data-appearance="vellum"] .breadcrumbs,html[data-appearance="vellum"] .breadcrumbs>span:last-child,html[data-appearance="vellum"] .article-deck { color:#585143 }
+html[data-appearance="vellum"] .article-head h1,html[data-appearance="vellum"] .catalog-heading h1,html[data-appearance="vellum"] .section-heading h2,html[data-appearance="vellum"] .related-section h2 { color:#373128 }
+html[data-appearance="vellum"] .article-subtitle { color:#755632 }
+html[data-appearance="vellum"] .document-paper { border-color:#c7b69a; box-shadow:0 12px 34px #5c442227 }
+html[data-appearance="vellum"] .fact-panel,html[data-appearance="vellum"] .reference-panel,html[data-appearance="vellum"] .toc-panel,html[data-appearance="vellum"] .related-card,html[data-appearance="vellum"] .collection-card,html[data-appearance="vellum"] .featured-card { background:#f6ecdb; border-color:#c1ac89; color:#38332b }
+html[data-appearance="vellum"] .fact-heading,html[data-appearance="vellum"] .fact-item span,html[data-appearance="vellum"] .fact-item strong,html[data-appearance="vellum"] .fact-footer,html[data-appearance="vellum"] .toc-title,html[data-appearance="vellum"] .toc-link,html[data-appearance="vellum"] .reference-panel span,html[data-appearance="vellum"] .related-card h3,html[data-appearance="vellum"] .collection-card h3,html[data-appearance="vellum"] .collection-card p,html[data-appearance="vellum"] .featured-card h3,html[data-appearance="vellum"] .featured-card p { color:#423a2e }
+html[data-appearance="vellum"] .welcome-hero { background:#e8dac1; border-color:#a18b64; box-shadow:0 15px 40px #4e3b1f29 }
+html[data-appearance="vellum"] .welcome-hero-scenery { opacity:.28 }
+html[data-appearance="vellum"] .welcome-hero-scenery:after { background:linear-gradient(90deg,#efe4d3 0%,#efe4d3e8 36%,#eee1cb76 100%) }
+html[data-appearance="vellum"] .welcome-overline,html[data-appearance="vellum"] .welcome-hero h1,html[data-appearance="vellum"] .welcome-hero h1 em,html[data-appearance="vellum"] .welcome-hero-copy>p,html[data-appearance="vellum"] .welcome-hero-copy .welcome-hero-message,html[data-appearance="vellum"] .welcome-hero-edition { color:#453623 }
+html[data-appearance="vellum"] .welcome-hero-action { background:#654b2f; color:#fff6e5; border-color:#654b2f }
+html[data-appearance="vellum"] .welcome-section-heading h2,html[data-appearance="vellum"] .welcome-section-heading>p,html[data-appearance="vellum"] .welcome-choices-note,html[data-appearance="vellum"] .welcome-afterword h2,html[data-appearance="vellum"] .welcome-afterword p { color:#40372b }
+html[data-appearance="vellum"] .welcome-choice { background:#f8efdd; border-color:#b8a27d }
+html[data-appearance="vellum"] .welcome-choice:hover,html[data-appearance="vellum"] .welcome-choice.is-chosen { background:#ebdbbf; border-color:#81643d }
+html[data-appearance="vellum"] .welcome-choice strong,html[data-appearance="vellum"] .welcome-choice-tagline,html[data-appearance="vellum"] .welcome-choice-index,html[data-appearance="vellum"] .welcome-choice-symbol,html[data-appearance="vellum"] .welcome-choice-arrow { color:#453622 }
+html[data-appearance="vellum"] .welcome-panel { background:#f8efdd; border-color:#ac946d; box-shadow:0 12px 25px #5540281f }
+html[data-appearance="vellum"] .welcome-panel-heading { background:#e8d9be; border-color:#bca784 }
+html[data-appearance="vellum"] .welcome-panel-heading h2,html[data-appearance="vellum"] .welcome-panel-heading p,html[data-appearance="vellum"] .welcome-panel-kicker,html[data-appearance="vellum"] .welcome-panel-symbol { color:#433522 }
+html[data-appearance="vellum"] .welcome-archivist-letter { background:#fff9ed; color:#3c3429 }
+html[data-appearance="vellum"] .welcome-reading-shelf { background:#f7edda; color:#3d3429 }
+html[data-appearance="vellum"] .welcome-public-note { color:#544839 }
+html[data-appearance="vellum"][data-reading-contrast="high"] { --paper:#fffef8; --ink:#14232c; --rule:rgba(43,37,28,.6) }
+html[data-appearance="vellum"][data-reading-contrast="high"] body { background:#fffef8; color:#17242c }
+html[data-appearance="vellum"][data-reading-contrast="high"] .sidebar,html[data-appearance="vellum"][data-reading-contrast="high"] .topbar { background:#f1e8d8; border-color:#59462f }
+@media(max-width:710px){ .appearance-toggle{padding:6px 8px;min-width:43px} .appearance-toggle-label{display:none} }
+@media print { .appearance-toggle{display:none!important} }
+
+/* Phase 0 review: complete the Start Here reading shelf, secondary navigation,
+   and the home entrance instead of leaving dark-only components on Vellum. */
+html[data-appearance="vellum"] .reading-desk-top-link,
+html[data-appearance="vellum"] .icon-button,
+html[data-appearance="vellum"] .menu-trigger { color:#543e27; border-color:#a99574 }
+html[data-appearance="vellum"] .reading-desk-top-link:hover,
+html[data-appearance="vellum"] .reading-desk-top-link.active { background:#e4d2b5 }
+html[data-appearance="vellum"] .nav-subgroup { border-color:#ad9877 }
+html[data-appearance="vellum"] .nav-subgroup[open]>summary,
+html[data-appearance="vellum"] .nav-subgroup-links small { color:#634823 }
+html[data-appearance="vellum"] .welcome-choice-arrow { border-color:#b5a07e }
+html[data-appearance="vellum"] .welcome-choice:before { background:#88673c }
+html[data-appearance="vellum"] .welcome-reading-heading,
+html[data-appearance="vellum"] .welcome-step-number,
+html[data-appearance="vellum"] .welcome-step-body h3,
+html[data-appearance="vellum"] .welcome-step-body h3 a,
+html[data-appearance="vellum"] .welcome-step-body p,
+html[data-appearance="vellum"] .welcome-step-body h3 span,
+html[data-appearance="vellum"] .welcome-longer-overline,
+html[data-appearance="vellum"] .welcome-longer-road p,
+html[data-appearance="vellum"] .welcome-longer-road>a { color:#433522 }
+html[data-appearance="vellum"] .welcome-reading-heading,
+html[data-appearance="vellum"] .welcome-steps li,
+html[data-appearance="vellum"] .welcome-longer-road>a { border-color:#bcaa8b }
+html[data-appearance="vellum"] .welcome-step-first { color:#513a1e; border-color:#ab8d58 }
+html[data-appearance="vellum"] .welcome-longer-road { background:#e9dbbf; border-color:#b39a74 }
+html[data-appearance="vellum"] .welcome-afterword { border-color:#aa9471 }
+html[data-appearance="vellum"] .welcome-afterword-links a { background:#f8efdd; color:#513a22; border-color:#bea984 }
+html[data-appearance="vellum"] .welcome-afterword-links a:hover { background:#ecdbbd }
+html[data-appearance="vellum"] .home-welcome-ribbon,
+html[data-appearance="vellum"] .page-home .archive-wing-nav { background:#e2d2b5; border-color:#b49d78 }
+html[data-appearance="vellum"] .home-welcome-ribbon strong,
+html[data-appearance="vellum"] .home-welcome-ribbon div span,
+html[data-appearance="vellum"] .home-welcome-ribbon>a,
+html[data-appearance="vellum"] .page-home .archive-wing-nav>span { color:#49371f }
+html[data-appearance="vellum"] .page-home .archive-wing-nav a { background:#f8efdf; color:#473522; border-color:#ae9875 }
+html[data-appearance="vellum"] .page-home .archive-wing {
+ --accent:#704f29; --edge:#b59a73; --base:#f3e8d5;
+ background:#f3e8d5; border-color:var(--edge); border-left-color:var(--accent);
+ box-shadow:0 9px 22px #69512f1d;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--featured,
+html[data-appearance="vellum"] .page-home .archive-wing--collections,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys,
+html[data-appearance="vellum"] .page-home .archive-wing--connections,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle { --accent:#704f29; --edge:#b59a73; --base:#f3e8d5 }
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading { border-color:#c1af90 }
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading h2,
+html[data-appearance="vellum"] .page-home .archive-wing .kicker,
+html[data-appearance="vellum"] .page-home .archive-wing .section-link,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas p,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle p,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas a,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle a { color:#493722 }
+html[data-appearance="vellum"] .page-home .archive-wing--featured .featured-card,
+html[data-appearance="vellum"] .page-home .archive-wing--collections .collection-card,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card { background:#fffaef }
+html[data-appearance="vellum"] .page-home .archive-wing :is(.collection-card,.featured-card):hover { background:#f2e3cb }
+html[data-appearance="vellum"] .intro-line h2,html[data-appearance="vellum"] .intro-line p { color:#433727 }
+html[data-appearance="vellum"] .chronicle-banner { background:#e5d5b9; border-color:#b39b71 }
+html[data-appearance="vellum"] .chronicle-banner h2,
+html[data-appearance="vellum"] .chronicle-banner p,
+html[data-appearance="vellum"] .chronicle-banner a { color:#473522 }
+html[data-appearance="vellum"] .hero { background:#d9ccb4 }
+html[data-appearance="vellum"] .hero-sky { opacity:.38 }
+html[data-appearance="vellum"] .hero-copy { background:linear-gradient(90deg,#e9ddc6f0,#e9ddc6ca 75%,transparent); padding-block:30px }
+html[data-appearance="vellum"] .hero h1,
+html[data-appearance="vellum"] .hero h1 em,
+html[data-appearance="vellum"] .hero-copy p,
+html[data-appearance="vellum"] .hero-overline,
+html[data-appearance="vellum"] .hero-number { color:#3e3021 }
+html[data-appearance="vellum"] .hero-button { background:#684d2e;color:#fff8e9 }
+html[data-appearance="vellum"] .hero-catalogue-link { color:#48331f;border-color:#94744b }
+html[data-appearance="vellum"] .hero-divider i { background:#90744a }
+/* Vellum high contrast has a light base and dark ink. Night high contrast
+   continues to use the existing dark accessibility palette. */
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-step-body h3,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-step-body p,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-reading-heading,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-longer-road p,
+html[data-appearance="vellum"][data-reading-contrast="high"] .welcome-longer-road>a { color:#17242c }
+html[data-appearance="vellum"][data-reading-contrast="high"] .document-paper { background:#fffef8;color:#14232c }
+html[data-appearance="vellum"] :is(a,button,summary):focus-visible { outline-color:#6c4624!important }
+html[data-appearance="vellum"] .document-paper :is(a,button,summary):focus-visible { outline-color:#1c526d!important }
+@media(max-width:710px) {
+ html[data-appearance="vellum"] .hero-copy { padding-inline:clamp(19px,5vw,38px); max-width:100% }
+}
+
+/* Global search stays readable in either appearance. */
+html[data-appearance="vellum"] .search-dialog { background:#faf1e1; color:#342e26; border-color:#9d835d; box-shadow:0 25px 80px #241a0f65 }
+html[data-appearance="vellum"] .search-backdrop { background:rgba(25,20,15,.58) }
+html[data-appearance="vellum"] .search-form,
+html[data-appearance="vellum"] .search-categories,
+html[data-appearance="vellum"] .search-result,
+html[data-appearance="vellum"] .search-dialog-footer { border-color:#c6b391 }
+html[data-appearance="vellum"] .search-form input { color:#342d24 }
+html[data-appearance="vellum"] .search-form input::placeholder { color:#746755 }
+html[data-appearance="vellum"] .search-result-heading,
+html[data-appearance="vellum"] .search-form>span,
+html[data-appearance="vellum"] .search-result span { color:#70502b }
+html[data-appearance="vellum"] .search-status,
+html[data-appearance="vellum"] .search-dialog-footer,
+html[data-appearance="vellum"] .search-empty { color:#544737 }
+html[data-appearance="vellum"] .search-result strong { color:#302a22 }
+html[data-appearance="vellum"] .search-result p { color:#5a5144 }
+html[data-appearance="vellum"] .search-result:hover,
+html[data-appearance="vellum"] .search-result:focus,
+html[data-appearance="vellum"] .search-result.is-keyboard-selected { background:#e7d6b9 }
+html[data-appearance="vellum"] .search-category,
+html[data-appearance="vellum"] .search-close { background:#f4e6cf; color:#463522; border-color:#ad9876 }
+html[data-appearance="vellum"] .search-category.is-selected { background:#73502b; color:#fffaf0; border-color:#73502b }
+/* Reader's Desk and saved reading tools are part of the same archive. */
+html[data-appearance="vellum"] .reading-desk-heading h1,
+html[data-appearance="vellum"] .reading-desk-heading h1 em,
+html[data-appearance="vellum"] .reading-desk-heading>p,
+html[data-appearance="vellum"] .reading-desk-section-heading h2,
+html[data-appearance="vellum"] .reading-desk-footer,
+html[data-appearance="vellum"] .reading-desk-status { color:#403327 }
+html[data-appearance="vellum"] .reading-desk-heading .reading-desk-privacy,
+html[data-appearance="vellum"] .reading-desk-summary>div,
+html[data-appearance="vellum"] .reading-desk-card,
+html[data-appearance="vellum"] .reading-desk-empty { background:#f8efde; border-color:#bea681; color:#493c2c }
+html[data-appearance="vellum"] .reading-desk-summary strong,
+html[data-appearance="vellum"] .reading-desk-summary span,
+html[data-appearance="vellum"] .reading-desk-category,
+html[data-appearance="vellum"] .reading-desk-card h3,
+html[data-appearance="vellum"] .reading-desk-card p,
+html[data-appearance="vellum"] .reading-desk-card-foot a,
+html[data-appearance="vellum"] .reading-desk-footer a { color:#4a3823 }
+html[data-appearance="vellum"] .reading-desk-card-foot,
+html[data-appearance="vellum"] .reading-desk-section-heading,
+html[data-appearance="vellum"] .reading-desk-footer { border-color:#bcaa89 }
+html[data-appearance="vellum"] .reading-desk-card-foot button,
+html[data-appearance="vellum"] .reading-article-tools button,
+html[data-appearance="vellum"] .reading-desk-entry,
+html[data-appearance="vellum"] .reading-article-tools #reading-resume,
+html[data-appearance="vellum"] .article-entry .reading-article-tools button { background:#f0e0c4; color:#4a3520; border-color:#9a8058 }
+html[data-appearance="vellum"] .reading-article-tools button[aria-pressed="true"],
+html[data-appearance="vellum"] .article-entry .reading-article-tools button[aria-pressed="true"] { background:#79572f; color:#fff8ea; border-color:#79572f }
+html[data-appearance="vellum"] .reading-desk-card-foot button:hover,
+html[data-appearance="vellum"] .reading-article-tools button:hover { background:#e4cfaa }

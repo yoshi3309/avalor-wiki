@@ -52,6 +52,7 @@ jobs:
           node --check assets/exhibits.js
           node --check assets/reading-desk.js
           node --check assets/reading-comfort.js
+          node --check assets/appearance.js
           node --check assets/welcome.js
           node --check assets/comparisons.js
       - name: Test smart archive search and chapter sharing
@@ -96,6 +97,8 @@ jobs:
         run: python tests/check_connections_web.py
       - name: Check Reading Comfort & Accessibility
         run: python tests/check_reading_comfort.py
+      - name: Check Vellum & Night appearance
+        run: python tests/check_appearance.py
       - name: Check Historical Exhibits
         run: python tests/check_exhibits.py
       - name: Check Personal Reading Desk
