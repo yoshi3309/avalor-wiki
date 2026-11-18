@@ -38,4 +38,21 @@ assert "menuTrigger?.setAttribute('aria-expanded',String(open))" in app
 assert 'sidebar.querySelectorAll' in app and 'e.shiftKey' in app
 assert "heading.focus({preventScroll:true})" in article_js, 'Chapter jump does not move keyboard focus'
 assert "document.documentElement.dataset.readingMotion==='reduce'" in map_js
+
+# Phase 0 Vellum/Night controls are distinct from reading comfort.
+for page in (home, article, exhibit, reading_desk):
+    for token in ('assets/appearance.js', 'assets/appearance.css',
+                  'id="appearance-toggle"', 'aria-pressed="false"'):
+        assert token in page, 'Missing appearance control/asset: '+token
+appearance_js=(SITE/'assets'/'appearance.js').read_text(encoding='utf-8')
+appearance_css=(SITE/'assets'/'appearance.css').read_text(encoding='utf-8')
+for token in ('avalor-appearance-v1','dataset.appearance','localStorage.getItem',
+              'localStorage.setItem', "addEventListener('storage'",'Vellum appearance'):
+    assert token in appearance_js, 'Missing theme behavior '+token
+assert 'avalor-reading-comfort-v1' not in appearance_js
+for token in ('data-appearance="vellum"', '.welcome-step-body',
+              '.page-home .archive-wing','data-reading-contrast="high"'):
+    assert token in appearance_css, 'Missing appearance CSS '+token
+print('Vellum/Night appearance integration checks passed.')
+
 print('Reading Comfort and Accessibility smoke tests passed.')
