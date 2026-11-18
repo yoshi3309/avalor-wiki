@@ -1,0 +1,117 @@
+name: Publish the Archives of Avalor
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "data/**"
+      - ".pages.yml"
+      - "assets/**"
+      - "templates/**"
+      - "tests/**"
+      - "build.py"
+      - "media_optimization.py"
+      - "social_cards.py"
+      - "site_quality.py"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Pages CMS commonly uploads an image and then updates its article in
+# separate commits. Publish the newest snapshot, not every intermediate one.
+# An interrupted older build is safe: the latest run rebuilds the entire wiki.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install build packages
+        run: pip install 'Jinja2>=3.1,<4' 'PyYAML>=6,<7' 'mistune>=3,<4' 'Pillow>=10,<13'
+      - name: Check public Keeper boundary
+        run: python tests/check_public_repo_boundary.py
+      - name: Check browser JavaScript syntax
+        run: |
+          node --check assets/map.js
+          node --check assets/atlas-time.js
+          node --check assets/app.js
+          node --check assets/search.js
+          node --check assets/chronicle.js
+          node --check assets/connections.js
+          node --check assets/connections-web.js
+          node --check assets/article-reading.js
+          node --check assets/portrait-stages.js
+          node --check assets/gallery.js
+          node --check assets/exhibits.js
+          node --check assets/reading-desk.js
+          node --check assets/reading-comfort.js
+          node --check assets/welcome.js
+          node --check assets/comparisons.js
+      - name: Test smart archive search and chapter sharing
+        run: node --test tests/test_search.js tests/test_chapter_sharing.js
+      - name: Check public canon and article links
+        run: python tests/check_public_canon.py
+      - name: Build public website
+        run: python build.py
+      - name: Check Public Sitemap, Links & Accessibility
+        run: python tests/check_site_quality.py
+      - name: Check enhanced article output
+        run: python tests/check_article_reading.py
+      - name: Check portrait stages and people navigation
+        run: python tests/check_portrait_stages.py
+      - name: Check Blackwater Bay foundational canon
+        run: python tests/check_blackwater_foundations.py
+      - name: Check Blackwater supporting factions and communities
+        run: python tests/check_blackwater_supporting.py
+      - name: Check complete Blackwater Bay campaign and epilogues
+        run: python tests/check_blackwater_campaign.py
+      - name: Check Skrik and Corvin biographies
+        run: python tests/check_blackwater_new_profiles.py
+      - name: Check expanded Black Diamond public canon
+        run: python tests/check_black_diamond_public_expansion.py
+      - name: Validate character creator credits and place relocation
+        run: python tests/check_creator_credits_and_location.py
+      - name: Check Illustration Gallery
+        run: python tests/check_gallery.py
+      - name: Check Responsive Media
+        run: python tests/check_media_performance.py
+      - name: Check Discord & Social Previews
+        run: python tests/check_social_previews.py
+      - name: Check Archivist Welcome
+        run: python tests/check_welcome.py
+      - name: Check Character Comparison Dossiers
+        run: python tests/check_comparisons.py
+      - name: Check Atlas exploration controls
+        run: python tests/check_atlas_explore.py
+      - name: Check Atlas Through Time
+        run: python tests/check_atlas_time.py
+      - name: Check Cross-Archive Connections
+        run: python tests/check_connections_web.py
+      - name: Check Reading Comfort & Accessibility
+        run: python tests/check_reading_comfort.py
+      - name: Check Historical Exhibits
+        run: python tests/check_exhibits.py
+      - name: Check Personal Reading Desk
+        run: python tests/check_reading_desk.py
+      - name: Check Royal Gazette
+        run: python tests/check_gazette.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
