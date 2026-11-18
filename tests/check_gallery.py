@@ -12,12 +12,12 @@ assert 'gallery-share-link' in index, 'Exhibit sharing control missing'
 assert 'Copy exhibit link' in index, 'Accessible share label missing'
 
 expected = {
+    'historical-scenes': 10,
     'characters': 35,
     'locations': 5,
-    'historical-scenes': 2,
-    'artifacts-symbols': 1,
-    'maps-heraldry': 1,
+    'maps-symbols': 2,
 }
+assert index.count('class="gallery-wing"') == 4, 'Expected four visible gallery wings'
 seen=set()
 for collection, minimum in expected.items():
     p=SITE / 'gallery' / collection / 'index.html'
@@ -44,7 +44,22 @@ assert len(seen)>=40, 'Gallery is missing public character portraits'
 for article, exhibit in [('lavitz-shawe','lavitz-shawe'),('heureux','heureux'),('the-six','the-six-fellowship'),('kingdom-of-avalor','avalor-royal-map'),('jaznaar','portrait-jaznaar'),('samuel-the-devoted','portrait-samuel-the-devoted'),('katiri-tenderfoot','portrait-katiri-tenderfoot'),('renada','renada'),('black-tower','the-black-tower'),('heavens-heart','heavens-heart'),('stanleyville','stanleyville')]:
     page=(SITE/'articles'/article/'index.html').read_text(encoding='utf-8')
     assert 'gallery-related' in page and ('image='+exhibit) in page, (article,exhibit)
-print('Illustration Gallery passed: five populated collections, vetted images, per-article exhibit links, and share control.')
+# Validate new collection memberships and old gallery deep-links.
+combined = (SITE / 'gallery/maps-symbols/index.html').read_text(encoding='utf-8')
+match = re.search(r'<script id="gallery-data" type="application/json">(.*?)</script>', combined, re.S)
+assert match, 'Combined gallery data missing'
+combined_ids = {item['id'] for item in json.loads(match.group(1))}
+assert {'archive-lion-emblem', 'avalor-royal-map'} <= combined_ids
+scenes_html = (SITE / 'gallery/historical-scenes/index.html').read_text(encoding='utf-8')
+scenes_match = re.search(r'<script id="gallery-data" type="application/json">(.*?)</script>', scenes_html, re.S)
+assert scenes_match, 'Historical scene gallery data missing'
+scenes = json.loads(scenes_match.group(1))
+assert {'founding-wars','unification-of-avalor','sundering-of-the-six','stalker-stanleyville','hydra-temple-disaster','tournament-of-champions','shadowfell-confrontation','escape-from-blackwater-bay'} <= {item['id'] for item in scenes}
+for old in ('artifacts-symbols', 'maps-heraldry'):
+    legacy_page = (SITE / 'gallery' / old / 'index.html').read_text(encoding='utf-8')
+    assert '../maps-symbols/' in legacy_page, old
+    assert 'window.location.search+window.location.hash' in legacy_page, old
+print('Illustration Gallery passed: four populated wings, verified artwork, and preserved deep links.')
 
 # Curated location exhibits are the primary reference for published landscapes.
 # The builder also admits later place-image assignments without duplicate entries.

@@ -278,7 +278,7 @@ content:
         type: select
         required: true
         options:
-          values: [characters, locations, historical-scenes, artifacts-symbols, maps-heraldry]
+          values: [historical-scenes, characters, locations, maps-symbols]
       - name: image
         label: Approved public illustration
         type: image
