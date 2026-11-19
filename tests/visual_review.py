@@ -261,6 +261,25 @@ def main():
                             check(page.locator("#reading-bookmark-count").inner_text() == "0",
                                   f"{size}/{theme}: removing bookmark failed")
                             page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
+                        if name == "home":
+                            artwork = page.locator(".hero-landscape-image, .archive-wing-plate img")
+                            check(artwork.count() == 7,
+                                  f"{size}/{theme}: expected spine hero and 6 illustrated wing bands")
+                            for art in artwork.all():
+                                art.scroll_into_view_if_needed()
+                                art.evaluate("(img) => img.loading = 'eager'")
+                                try:
+                                    art.evaluate("""img => new Promise((resolve, reject) => {
+                                      if (img.complete) return img.naturalWidth ? resolve(true) : reject(new Error('image failed'));
+                                      img.addEventListener('load', () => resolve(true), {once: true});
+                                      img.addEventListener('error', () => reject(new Error('image failed')), {once: true});
+                                    })""")
+                                except Exception:
+                                    ISSUES.append(f"{size}/{theme}: failed art image {art.get_attribute('src')}")
+                        if name == "start" and theme == "vellum":
+                            opacity = page.locator(".welcome-hero-scenery").evaluate(
+                                "(el) => Number(getComputedStyle(el).opacity)")
+                            check(opacity >= .7, f"{size}: Vellum hero art still too faint ({opacity})")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
