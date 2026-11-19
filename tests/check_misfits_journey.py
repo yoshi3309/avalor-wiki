@@ -316,7 +316,7 @@ for slug in (
     assert "2000 AF" in source(slug), slug
 assert "2000 AF" in source("minor-heroes-and-allies")
 assert "2000 AF" in source("minor-villains-and-adversaries")
-assert "His ultimate death has not been confirmed" in source("minor-villains-and-adversaries"), "Defeat is not a death date."
+assert "his death is not among the events the surviving accounts confirm" in source("minor-villains-and-adversaries"), "Defeat is not a death date."
 
 # Addendum 007: unbroken lineage, approval of campaign calendar and mixed royal endings.
 assert event_by_id["ascendancy"]["date"] == "2020 AF"
