@@ -37,7 +37,7 @@ routes:
   - id: history
     title: Uncover the History
     kicker: THE COMMISSION'S ACCOUNT
-    symbol: "⌛"
+    symbol: "⌛︎"
     tagline: Remembered stories. Reconsidered truths.
     intro: "Begin at the founding and follow the Six toward the difficult questions that later scholars had to revisit."
     welcome: "History is not only what kings carved into stone. The Royal Commission follows the lives of those who shaped Avalor, the stories the kingdom inherited, and the discoveries that changed how its past is remembered."

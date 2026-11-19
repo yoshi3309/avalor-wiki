@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="content-container gazette-page">
-<nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}gazette/">The Royal Gazette</a><span>›</span><span>Issue {{'%02d'|format(gazette_issue.issue_number)}}</span></nav>
+<nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><a href="{{root}}gazette/">The Royal Gazette</a><span>›</span><span>Issue {{'%02d'|format(gazette_issue.issue_number)}}</span></nav>
 <header class="gazette-masthead"><span class="gazette-crest" aria-hidden="true">❦</span><div class="gazette-kicker">THE ROYAL COMMISSION · THE SCHOLAR'S EDITION</div><h1>{{gazette_issue.title}}</h1><p>{{gazette_issue.subtitle}}</p><div class="gazette-rule" aria-hidden="true">✦</div></header>
 <div class="gazette-strap"><span>ISSUE {{'%02d'|format(gazette_issue.issue_number)}}</span><span>EDITORIAL PUBLICATION · {{gazette_issue.date_display}}</span></div>
 <div class="gazette-label">A LETTER FROM THE ARCHIVIST</div><p class="gazette-intro">{{gazette_issue.intro}}</p>
