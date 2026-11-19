@@ -36,6 +36,8 @@ PAGES = {
     "connections": "/connections/",
     "six-connection": "/connections/the-six/",
     "compare": "/compare/",
+    "gazette": "/gazette/",
+    "reading-desk": "/reading-desk/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
@@ -176,6 +178,43 @@ def main():
                             page.locator("#dossier-swap").click()
                             check(page.locator("#dossier-left").input_value() == right and page.locator("#dossier-right").input_value() == left,
                                   f"{size}/{theme}: dossier swap failed")
+                        if name == "gazette":
+                            check(page.locator(".gazette-masthead").count() == 1,
+                                  f"{size}/{theme}: Gazette masthead missing")
+                            issue_link = page.locator('a[href*="/gazette/"]').filter(has_text="Read the edition")
+                            check(issue_link.count() > 0,
+                                  f"{size}/{theme}: Gazette issue link missing")
+                            if issue_link.count():
+                                issue_href = issue_link.first.get_attribute("href")
+                                from urllib.parse import urljoin
+                                issue_page = context.new_page()
+                                issue_page.goto(urljoin(origin + url, issue_href), wait_until="load")
+                                check(issue_page.locator("#dispatch-1").count() == 1,
+                                      f"{size}/{theme}: first Gazette dispatch missing")
+                                check(issue_page.locator('.gazette-lead a[href*="articles/"]').count() == 1,
+                                      f"{size}/{theme}: Gazette source record link missing")
+                                issue_page.screenshot(path=str(OUT / f"{size}-gazette-issue-{theme}.png"),
+                                                      full_page=True, animations="disabled")
+                                issue_page.close()
+                        if name == "reading-desk":
+                            page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
+                            page.reload(wait_until="load")
+                            page.locator("#reading-bookmark-count").wait_for()
+                            check(page.locator(".reading-desk-empty").count() == 4,
+                                  f"{size}/{theme}: empty private shelf sections missing")
+                            # Seed browser-only state to confirm that a saved record renders.
+                            page.evaluate("""() => localStorage.setItem('avalor-reading-desk-v1',
+                              JSON.stringify({'lavitz-shawe':{bookmarked:true,visited:Date.now()}}))""")
+                            page.reload(wait_until="load")
+                            page.locator("#reading-bookmarked-list .reading-desk-card").first.wait_for()
+                            check(page.locator("#reading-bookmark-count").inner_text() == "1",
+                                  f"{size}/{theme}: saved record count wrong")
+                            check(page.locator('#reading-bookmarked-list a[href*="lavitz-shawe"]').count() > 0,
+                                  f"{size}/{theme}: saved link missing")
+                            page.locator('#reading-bookmarked-list button[data-reading-action="unsave"]').click()
+                            check(page.locator("#reading-bookmark-count").inner_text() == "0",
+                                  f"{size}/{theme}: removing bookmark failed")
+                            page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
