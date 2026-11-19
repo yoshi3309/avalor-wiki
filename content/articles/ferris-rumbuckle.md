@@ -1,7 +1,7 @@
 ---
 title: Ferris Rumbuckle
 subtitle: The Hunter Who Went Anyway
-summary: A curious and frequently frightened gnome hunter from Tumbletown,
+summary: A curious and frequently frightened gnome hunter from Tumbledown,
   raised in a leatherworker's household after his ranger parents died defending
   their village, who now follows the trail of a headless rider.
 category: People & Legends
@@ -11,18 +11,18 @@ era: Undated travels
 facts: |-
   Name: Ferris Rumbuckle
   Ancestry: Gnome
-  Home: Tumbletown, at the Forest of the Fey's border in Avalor
-  Parents: Rowena and Graham Rumbuckle, rangers of Tumbletown
+  Home: Tumbledown, at the Forest of the Fey's border in Avalor
+  Parents: Rowena and Graham Rumbuckle, rangers of Tumbledown
   Grandfather: Thaddius Thimblewood, known as Pawpaw
-  Grandmother: Grams (given name unrecorded)
+  Grandmother: Winnifred, called Winnie; Ferris calls her Grams
   Skills: Tracking, hunting, wilderness survival, daggers and leatherworking
   Affiliation: Hunters Guild
   Age at his parents' deaths: Eleven
-  Age during the attack on Tumbletown: Seventeen
+  Age during the attack on Tumbledown: Seventeen
   Heirlooms: Rowena's repaired longbow; Graham's daggers
   Final gift from home: Protective leather made by Pawpaw
-  Pursuit: The headless rider who attacked Tumbletown
-related: tumbletown,hunters-guild,wayword-sun,dead-marshes,planes-of-existence,forest-of-the-fey,mandu-durbar-marg,heyden-of-the-goldenfoot
+  Pursuit: The headless rider who attacked Tumbledown
+related: tumbledown,hunters-guild,wayword-sun,dead-marshes,planes-of-existence,forest-of-the-fey,mandu-durbar-marg,heyden-of-the-goldenfoot
 source: Creator-supplied Ferris Rumbuckle history, November 2026
 featured: false
 callouts:
@@ -35,7 +35,7 @@ callouts:
   - type: reflection
     text: Ferris did not discover that fear was an illusion. He discovered that fear
       could accompany the decision to stand between danger and someone he loved.
-    attribution: Editorial reflection on courage in Tumbletown
+    attribution: Editorial reflection on courage in Tumbledown
     after: the-answer-behind-him
     paragraph: 3
   - type: reflection
@@ -54,13 +54,13 @@ highlight_sections:
 ---
 ## A boy with more questions than courage
 
-In the woods around **[[Tumbletown]]**, a small gnome village at the border of Avalor's **[[Forest of the Fey]]**, strange sounds could send a child hurrying home before dusk. They could also send **Ferris Rumbuckle** looking for their source.
+In the woods around **[[Tumbledown]]**, a small gnome village at the border of Avalor's **[[Forest of the Fey]]**, strange sounds could send a child hurrying home before dusk. They could also send **Ferris Rumbuckle** looking for their source.
 
 Ferris was curious about almost everything and frightened of a surprising amount of it. An unfamiliar track beneath wet leaves might make him imagine the worst creature the forest could conceal. He would hesitate, consider turning back, and then realize he could not bear to leave the question unanswered.
 
 Sometimes he came back with a discovery. Sometimes he came back running. In those early years, he always came home.
 
-Tumbletown raised a child who was not especially large, not particularly fearless, and seldom content with an explanation that did not answer the next question. It also gave him four people whose lessons would remain with him long after he took to the road.
+Tumbledown raised a child who was not especially large, not particularly fearless, and seldom content with an explanation that did not answer the next question. It also gave him four people whose lessons would remain with him long after he took to the road.
 
 ## The ranger and the leatherworker's daughter
 
@@ -68,7 +68,7 @@ Ferris's mother, **Rowena Rumbuckle**, grew up in the workshop of her father, **
 
 Rowena learned the trade. Then she chose the woods.
 
-Her talent for finding paths and navigating the wilderness carried her into the service of Tumbletown's rangers. There she met **Graham Rumbuckle**, a ranger who had come to the village from beyond its familiar woods and shared her curiosity about the wild. They married, and Ferris was born into a family whose two callings—making things that lasted and venturing into dangerous country—would shape him in different ways.
+Her talent for finding paths and navigating the wilderness carried her into the service of Tumbledown's rangers. There she met **Graham Rumbuckle**, a ranger who had come to the village from beyond its familiar woods and shared her curiosity about the wild. They married, and Ferris was born into a family whose two callings—making things that lasted and venturing into dangerous country—would shape him in different ways.
 
 Rowena taught her son to read the forest. A bent stem, a shallow impression, or a trail lost beneath leaves might tell him what had passed through and how recently. She taught him to wait, to move quietly, to distinguish one sign from another, and to keep looking when the path seemed to disappear.
 
@@ -76,7 +76,7 @@ Graham taught him what to do when following a trail brought him face to face wit
 
 ## A home made by four teachers
 
-Ferris's grandmother, known to him as **Grams**, taught another sort of survival. She knew which plants nourished and which made travelers ill; where to find water; how to build a fire; and how to turn an uncomfortable stretch of wilderness into somewhere people could rest. More than that, she taught Ferris to care for the companions who might have to share such a place with him.
+Ferris's grandmother, **Winnifred**, was known as **Winnie** and called **Grams** by Ferris. She taught another sort of survival. She knew which plants nourished and which made travelers ill; where to find water; how to build a fire; and how to turn an uncomfortable stretch of wilderness into somewhere people could rest. More than that, she taught Ferris to care for the companions who might have to share such a place with him.
 
 Pawpaw taught him leatherworking. At the workbench, a rough hide could become something useful through cutting, punching, stitching, and fitting. Ferris enjoyed the small certainty of the work: a seam could be inspected, a mistake corrected, a worn piece strengthened. The process rewarded patience, steady hands, and close attention.
 
@@ -86,7 +86,7 @@ There was a time when Ferris might have spent his life at the bench beside his g
 
 ## The rangers who did not return
 
-When Ferris was **eleven**, something dangerous was sighted in the forest near Tumbletown. The village's rangers set out to stop it before it could reach the settlement. **Rowena and Graham** went with them.
+When Ferris was **eleven**, something dangerous was sighted in the forest near Tumbledown. The village's rangers set out to stop it before it could reach the settlement. **Rowena and Graham** went with them.
 
 Ferris had watched such departures before. His mother took her longbow, his father his daggers, and the rangers went where the village needed them. They had always come home.
 
@@ -98,7 +98,7 @@ Sylvie put a hand upon his shoulder and told him she was sorry.
 
 **Rowena's longbow came back broken. Graham's daggers came back without him. Neither parent returned.**
 
-The villagers told Ferris that Rowena and Graham had died protecting Tumbletown. They spoke of courage and sacrifice, of people spared because the rangers stood between them and the danger in the woods.
+The villagers told Ferris that Rowena and Graham had died protecting Tumbledown. They spoke of courage and sacrifice, of people spared because the rangers stood between them and the danger in the woods.
 
 Ferris understood what the words meant. He could not understand why anyone believed they should make him feel better.
 
@@ -128,9 +128,9 @@ He made sure it could fire again.
 
 The weapon was not a replacement for Rowena, nor a promise that Ferris would follow precisely in her footsteps. It was something he could carry. When he took up the repaired bow and his father's daggers, the work of all four people who raised him traveled with him: **Rowena taught him to find; Graham to survive; Pawpaw to make and mend; Grams to live and care for others.**
 
-## The rider at Tumbletown
+## The rider at Tumbledown
 
-Six years after his parents' deaths, when Ferris was **seventeen**, a terrible danger reached Tumbletown.
+Six years after his parents' deaths, when Ferris was **seventeen**, a terrible danger reached Tumbledown.
 
 A **headless rider** came upon a nightmarish horse, wielding an **ebony blade wrapped in unnatural green flame**. Its arrival brought the violence the village's rangers had spent years trying to keep beyond the woods.
 
@@ -142,7 +142,7 @@ He was frightened in a way that his childhood explorations had never prepared hi
 
 ## The answer behind him
 
-For six years Ferris had carried the question of why his parents had not come home. During the attack on Tumbletown, with Pawpaw and Grams endangered behind him, he began to understand a possible answer.
+For six years Ferris had carried the question of why his parents had not come home. During the attack on Tumbledown, with Pawpaw and Grams endangered behind him, he began to understand a possible answer.
 
 Rowena and Graham had not gone into the woods because they had forgotten their son. They had stood where danger would have to pass them **because Ferris was behind them**.
 
@@ -152,13 +152,13 @@ Ferris had thought they chose the village instead of him. Now, standing between 
 
 He fought while afraid. He did not suddenly become stronger than the rider. He did not cease to feel small or helpless. But for the first time, he knew why a frightened person might stand their ground when those behind them depended upon it.
 
-**Tumbletown survived the attack. So did Pawpaw and Grams, though barely. Ferris survived too.** The rider's ultimate fate was another matter.
+**Tumbledown survived the attack. So did Pawpaw and Grams, though barely. Ferris survived too.** The rider's ultimate fate was another matter.
 
 ## The leather that held
 
 After the attack, Ferris carried a different kind of uncertainty. He understood something of his parents' choice, yet feared he had failed the village when it needed him. He remembered people falling and wondered whether Rowena or Graham would have done better.
 
-He trained and resolved to leave Tumbletown **to hunt the headless rider**.
+He trained and resolved to leave Tumbledown **to hunt the headless rider**.
 
 Pawpaw objected. He had already watched his daughter abandon the expected life of the workshop for the dangers of ranger service. He had already buried her. Now the grandson he had helped raise—stubborn, fearful, curious, and determined—meant to follow the same dangerous path.
 
