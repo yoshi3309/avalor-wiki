@@ -1411,7 +1411,7 @@ for exhibit in EXHIBITS:
 render('compare.html','compare/index.html',depth=1,page_type='compare',title='Character Comparison Dossiers',description='Examine documented lives side by side: public identity, institutions, turning points, and legacies, with sources for every claim.',crumbs='Character Comparisons',comparison_data=COMPARISON_DATA,comparison_pair=None)
 for pair in COMPARISON_PRESETS:
     render('compare.html',f'compare/pairs/{pair["id"]}/index.html',depth=3,page_type='compare',title=pair['title']+' · Character Dossiers',description=pair['description'],crumbs=pair['title'],comparison_data=COMPARISON_DATA,comparison_pair=pair)
-render('connections.html','connections/index.html',depth=1,page_type='connections',title='People & Connections',crumbs='People & Connections',relationship_maps=RELATIONSHIP_MAPS,connection_web=CONNECTION_WEB)
+render('connections.html','connections/index.html',depth=1,page_type='connections',title='Connections Explorer',crumbs='Connections Explorer',relationship_maps=RELATIONSHIP_MAPS,connection_web=CONNECTION_WEB)
 for graph in RELATIONSHIP_MAPS:
     render('connection.html',f'connections/{graph["id"]}/index.html',depth=2,page_type='connections',title=graph['title'] + ' · Connections',description=graph['summary'],crumbs=graph['title'],graph=graph)
 render('journeys.html','journeys/index.html',depth=1,page_type='journeys',title='Reading Journeys',crumbs='Reading Journeys',journeys=JOURNEYS)
