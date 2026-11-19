@@ -27,6 +27,9 @@ PAGES = {
     "people-collection": "/collections/people-legends/",
     "places-collection": "/collections/kingdoms-places/",
     "faith-collection": "/collections/faith-magic-cosmology/",
+    "chronicle": "/chronicle/",
+    "journeys": "/journeys/",
+    "founding-journey": "/journeys/fall-of-the-six/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
@@ -92,6 +95,23 @@ def main():
                                 page.locator("#people-filter").fill("zz-nonexistent-record-xyz")
                                 check(page.locator(".people-record:visible").count() == 0, f"{size}/{name}/{theme}: collection filter did not narrow results")
                                 page.locator("#people-filter").fill("")
+                        if name == "chronicle":
+                            check(page.locator("[data-chronicle-event]").count() > 0,
+                                  f"{size}/{theme}: Chronicle missing events")
+                            check(page.locator("#chronicle-search").count() == 1,
+                                  f"{size}/{theme}: Chronicle search absent")
+                            page.locator("#chronicle-search").fill("zz-nonexistent-event-xyz")
+                            check(page.locator("[data-chronicle-event]:visible").count() == 0,
+                                  f"{size}/{theme}: Chronicle search did not hide unmatched events")
+                            page.locator("#chronicle-search").fill("")
+                        if name == "journeys":
+                            check(page.locator(".journeys-card").count() > 0,
+                                  f"{size}/{theme}: journey directory empty")
+                        if name == "founding-journey":
+                            check(page.locator(".journey-chapter").count() > 0,
+                                  f"{size}/{theme}: journey chapters absent")
+                            check(page.locator(".journey-primary-link").get_attribute("href"),
+                                  f"{size}/{theme}: primary chapter link absent")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
