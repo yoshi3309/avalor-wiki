@@ -133,3 +133,36 @@ html[data-reading-contrast="high"][data-appearance="vellum"] .page-exhibits{
  .page-exhibits .exhibits-card-leaf{min-height:125px}
 }
 @media(prefers-reduced-motion:reduce){.page-gallery .gallery-card{transition:none}.page-exhibits .exhibits-card{transition:none}}
+
+/* Atlas Vellum controls: light panels require light controls with readable labels. */
+html[data-appearance="vellum"] .page-map .atlas-filter-row button,
+html[data-appearance="vellum"] .page-map .atlas-area-controls button,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button,
+html[data-appearance="vellum"] .page-map .atlas-share-row button{
+ background:#fdf7ec;color:#4e371c;border-color:#ad9470;
+}
+html[data-appearance="vellum"] .page-map .atlas-filter-row button.is-active{
+ background:#674920;color:#fff9ef;border-color:#674920;
+}
+html[data-appearance="vellum"] .page-map .atlas-filter-row button:not(.is-active):hover,
+html[data-appearance="vellum"] .page-map .atlas-area-controls button:not(:disabled):hover,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button:not(:disabled):hover,
+html[data-appearance="vellum"] .page-map .atlas-share-row button:hover{
+ background:#e5d2af;color:#3b2918;
+}
+html[data-appearance="vellum"] .page-map .atlas-area-controls button:disabled,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button:disabled{
+ background:#e6dccb;color:#746756;border-color:#b9aa93;opacity:1;cursor:not-allowed;
+}
+html[data-appearance="vellum"] .page-map .atlas-trail-status,
+html[data-appearance="vellum"] .page-map .atlas-topline-right,
+html[data-appearance="vellum"] .page-map .atlas-explore-note,
+html[data-appearance="vellum"] .page-map .atlas-share-row #atlas-share-status{color:#584936}
+html[data-appearance="vellum"] .page-map .atlas-share-row{background:#f1e3cd;border-color:#b8a07b}
+html[data-appearance="vellum"] .page-map .atlas-list button{color:#3f3427;border-color:#c8b499}
+html[data-appearance="vellum"] .page-map .atlas-list button:hover,
+html[data-appearance="vellum"] .page-map .atlas-list button.is-selected{background:#e7d3b4;color:#382b1b}
+html[data-appearance="vellum"] .page-map .atlas-list small{color:#66533b}
+html[data-appearance="vellum"] .page-map .atlas-detail{background:#fff7e7;border-color:#b8a07b}
+html[data-appearance="vellum"] .page-map .atlas-detail :is(h3,p,.atlas-detail-empty,.atlas-detail-status){color:#443625}
+html[data-appearance="vellum"] .page-map .atlas-detail a{color:#63431f;border-color:#a88b62}
