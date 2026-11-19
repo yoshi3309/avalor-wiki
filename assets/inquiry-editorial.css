@@ -1,0 +1,113 @@
+/* Vellum & Binding — Phase 6: investigation surfaces.
+   Visual changes only. Public relationship edges, evidence and comparisons untouched. */
+.page-connections,.page-compare{
+ --inquiry-surface:#20313a;--inquiry-card:#263840;--inquiry-edge:#69715e;
+ --inquiry-title:#f0e3ca;--inquiry-copy:#c1cdc7;--inquiry-accent:#dfbf89;
+}
+.page-connections .connections-container,.page-connections .connection-container,
+.page-compare .dossier-page{max-width:1340px;padding-bottom:100px}
+.page-connections .connections-heading,.page-connections .connection-heading,
+.page-compare .dossier-intro{padding-top:43px;padding-bottom:38px}
+.page-connections .connections-heading h1,.page-connections .connection-heading h1,
+.page-compare .dossier-intro h1{font-size:clamp(36px,4.2vw,57px);line-height:1.17;letter-spacing:-.025em;color:var(--inquiry-title)}
+.page-connections .connections-heading p,.page-connections .connection-intro,
+.page-compare .dossier-deck,.page-compare .dossier-intro p{color:var(--inquiry-copy)}
+.page-connections .connections-grid{gap:20px}
+.page-connections .connections-card{background:var(--inquiry-surface);border-color:var(--inquiry-edge);min-height:320px}
+.page-connections .connections-card:hover{border-color:var(--inquiry-accent)}
+.page-connections .connections-card h2{color:var(--inquiry-title)}
+.page-connections .connections-card-eyebrow,.page-connections .connections-card-glyph,
+.page-connections .connections-card-bottom span{color:var(--inquiry-accent)}
+.page-connections .connections-card>p:not(.connections-card-subtitle),
+.page-connections .connections-card-bottom,.page-connections .connections-guidance p{color:var(--inquiry-copy)}
+.page-connections .connections-guidance,.page-connections .connection-scholars-note,
+.page-connections .connection-more,.page-connections .comparison-explorer-entry{background:var(--inquiry-surface);border-color:var(--inquiry-edge)}
+.page-connections .connection-explorer,.page-connections .cross-explorer{background:var(--inquiry-surface);border-color:var(--inquiry-edge)}
+.page-connections .connection-explorer-top h2,.page-connections .cross-head h2{color:var(--inquiry-title)}
+.page-connections .connection-explorer-top p,.page-connections .cross-head p{color:var(--inquiry-copy)}
+.page-connections .connection-map-scroll{scrollbar-color:#aa8a5d #24343a}
+.page-connections .connection-map-plot{border-color:var(--inquiry-edge)}
+.page-connections .connection-detail,.page-connections .connection-directory,
+.page-connections .cross-directory,.page-connections .cross-detail{background:var(--inquiry-card);border-color:var(--inquiry-edge)}
+.page-connections .connection-detail h3,.page-connections .cross-detail h3,
+.page-connections .cross-directory h3{color:var(--inquiry-title)}
+.page-connections .connection-detail p,.page-connections .cross-detail p,
+.page-connections .cross-note,.page-connections .connection-scholars-note p{color:var(--inquiry-copy)}
+.page-connections .connection-record-link,.page-connections .cross-detail a,
+.page-connections .connection-more a,.page-connections .connection-scholars-note a{color:var(--inquiry-accent)}
+.page-connections .cross-controls{border-color:var(--inquiry-edge);background:var(--inquiry-card)}
+.page-connections .cross-controls :is(input,select){min-height:44px;border-color:#8a8b77}
+.page-connections .cross-results button:focus-visible,.page-connections .connection-node:focus-visible,
+.page-connections .connection-directory button:focus-visible,.page-connections .cross-controls :is(input,select):focus-visible{outline:3px solid var(--inquiry-accent);outline-offset:2px}
+.page-compare .dossier-truth,.page-compare .dossier-workspace,.page-compare .dossier-method-note,
+.page-compare .dossier-afterword{border-color:var(--inquiry-edge);background:var(--inquiry-surface)}
+.page-compare .dossier-section-heading h2,.page-compare .dossier-research-heading h2,
+.page-compare .dossier-person-name,.page-compare .dossier-afterword h2{color:var(--inquiry-title)}
+.page-compare .dossier-section-heading .kicker,.page-compare .dossier-record-count,
+.page-compare .dossier-kicker,.page-compare .dossier-research-overline{color:var(--inquiry-accent)}
+.page-compare .dossier-controls{background:var(--inquiry-card);border-color:var(--inquiry-edge)}
+.page-compare .dossier-selector select{min-height:44px;border-color:#888876}
+.page-compare .dossier-swap,.page-compare .dossier-share{min-height:44px}
+.page-compare .dossier-controls :is(button,select):focus-visible{outline:3px solid var(--inquiry-accent);outline-offset:2px}
+.page-compare .dossier-person,.page-compare .dossier-preset,
+.page-compare .dossier-comparison-cell{background:var(--inquiry-card);border-color:var(--inquiry-edge)}
+.page-compare .dossier-preset:hover{border-color:var(--inquiry-accent)}
+.page-compare .dossier-preset h3,.page-compare .dossier-comparison-subject{color:var(--inquiry-title)}
+.page-compare .dossier-preset p,.page-compare .dossier-person-summary,
+.page-compare .dossier-comparison-statement,.page-compare .dossier-method-note{color:var(--inquiry-copy)}
+.page-compare .dossier-preset-no,.page-compare .dossier-preset-footer,
+.page-compare .dossier-comparison-source,.page-compare .dossier-person-link{color:var(--inquiry-accent)}
+html[data-appearance="vellum"] .page-connections,
+html[data-appearance="vellum"] .page-compare{
+ --inquiry-surface:#f2e6d2;--inquiry-card:#fff8ed;--inquiry-edge:#b7a07d;
+ --inquiry-title:#3c3125;--inquiry-copy:#564939;--inquiry-accent:#69471f;
+}
+html[data-appearance="vellum"] .page-connections .connections-card,
+html[data-appearance="vellum"] .page-connections .connection-explorer,
+html[data-appearance="vellum"] .page-connections .cross-explorer{background:var(--inquiry-surface)}
+html[data-appearance="vellum"] .page-connections .connection-map-plot{background:radial-gradient(ellipse at 50% 40%,#e9dbc1,#c4b08e 80%);background-image:linear-gradient(90deg,#69553a12 1px,transparent 1px),linear-gradient(#69553a12 1px,transparent 1px),radial-gradient(ellipse at 50% 40%,#e9dbc1,#c4b08e 80%)}
+html[data-appearance="vellum"] .page-connections .connection-node{background:#fff9ed;color:#392d20;border-color:#896c45;box-shadow:0 2px 8px #49372030}
+html[data-appearance="vellum"] .page-connections .connection-node-group{background:#ead7b6}
+html[data-appearance="vellum"] .page-connections .connection-node-royal{background:#e6d4dc}
+html[data-appearance="vellum"] .page-connections .connection-node.is-selected{background:#65471f;color:#fff8e9}
+html[data-appearance="vellum"] .page-connections .connection-node-mark{color:#79552b}
+html[data-appearance="vellum"] .page-connections .connection-node.is-selected .connection-node-mark{color:#fff0ca}
+html[data-appearance="vellum"] .page-connections .connection-line{stroke:#796143}
+html[data-appearance="vellum"] .page-connections .connection-line.is-muted{opacity:.16}
+html[data-appearance="vellum"] .page-connections .connection-line.is-active{stroke:#382e22}
+html[data-appearance="vellum"] .page-connections .cross-controls :is(input,select){background:#fffbf3;color:#3e3325;border-color:#aa916e}
+html[data-appearance="vellum"] .page-connections .cross-controls label{color:#60451f}
+html[data-appearance="vellum"] .page-connections .cross-option,
+html[data-appearance="vellum"] .page-connections .connection-directory button{background:#fff8ed;color:#423525;border-color:#b8a17c}
+html[data-appearance="vellum"] .page-connections .cross-option:hover,
+html[data-appearance="vellum"] .page-connections .connection-directory button:hover{background:#e8d4b3}
+html[data-appearance="vellum"] .page-connections .cross-detail :is(h4,span),
+html[data-appearance="vellum"] .page-connections .connection-detail-links,
+html[data-appearance="vellum"] .page-connections .connection-legend{color:#584736}
+html[data-appearance="vellum"] .page-compare .dossier-controls :is(select,button){background:#fff9ee;color:#423322;border-color:#ad9774}
+html[data-appearance="vellum"] .page-compare .dossier-swap:hover,
+html[data-appearance="vellum"] .page-compare .dossier-share:hover{background:#e9d5b2}
+html[data-appearance="vellum"] .page-compare .dossier-person,
+html[data-appearance="vellum"] .page-compare .dossier-preset,
+html[data-appearance="vellum"] .page-compare .dossier-comparison-cell{background:var(--inquiry-card)}
+html[data-appearance="vellum"] .page-compare .dossier-status,
+html[data-appearance="vellum"] .page-compare .dossier-selector label,
+html[data-appearance="vellum"] .page-compare .dossier-preset-names,
+html[data-appearance="vellum"] .page-compare .dossier-comparison-label{color:#534230}
+html[data-appearance="vellum"] .page-compare .dossier-person-subtitle,
+html[data-appearance="vellum"] .page-compare .dossier-person-era{color:#74532b}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-connections,
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-compare{
+ --inquiry-surface:#fffdf7;--inquiry-card:#fffaf0;--inquiry-edge:#645039;
+ --inquiry-title:#1b2b32;--inquiry-copy:#263941;--inquiry-accent:#553511;
+}
+@media(max-width:760px){
+ .page-connections .connections-heading,.page-connections .connection-heading,
+ .page-compare .dossier-intro{padding-top:27px}
+ .page-connections .connections-grid{grid-template-columns:1fr;gap:13px}
+ .page-connections .connections-card{min-height:285px;padding:25px}
+ .page-connections .cross-controls{gap:9px}
+ .page-compare .dossier-controls{gap:12px}
+ .page-compare .dossier-preset-grid{gap:12px}
+}
+@media(prefers-reduced-motion:reduce){.page-connections .connections-card,.page-compare .dossier-preset{transition:none}}
