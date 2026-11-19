@@ -29,6 +29,16 @@ assert 'ARCHIVIST' in page
 assert 'What brings you to Avalor, traveler?' in page
 assert 'href="./start/"' in home and 'New to Avalor? Start Here' in home
 assert 'assets/archive-home.css' in home
+assert 'assets/final-art-polish.css' in home and 'assets/final-art-polish.css' in page
+assert 'class="hero-sky home-hero-sky"' in home
+# Published images are approved public uploads, transformed by the media pipeline.
+for asset in ('spine-of-the-world', 'the-kingdom-of-avalor',
+              'the-misfits-first-commission', 'the-six-beneath-golden-ruins',
+              'the-misfits-return-to-renada', 'the-geography-of-avalor',
+              'avalors-founding-wars'):
+    assert 'assets/optimized/uploads/' + asset in home, 'Home art missing: ' + asset
+assert home.count('class="archive-wing-plate"') == 6
+
 assert 'id="archive-collections"' in home and 'id="archive-chronicle"' in home
 assert 'href="../"' in page
 assert 'name="robots" content="noindex"' in legacy_archive

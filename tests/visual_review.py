@@ -89,7 +89,7 @@ def main():
                                   f"{size}/{theme}: expected six illustrated home wings")
                             for plate in plates.all():
                                 # Lazy off-screen imagery is not loaded until requested;
-                                # decode() forces a real image-load check on the SVG asset.
+                                # decode() forces a real image-load check on the approved artwork.
                                 check(plate.evaluate("""(img) => {
                                     img.loading = 'eager';
                                     return Promise.race([
@@ -100,9 +100,12 @@ def main():
                                       f"{size}/{theme}: illustrated wing plate failed to load")
                             check(page.locator(".hero-sky").count() == 1,
                                   f"{size}/{theme}: missing hero illustration")
-                            bg = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).backgroundImage")
-                            check("hero-scene.svg" in bg,
-                                  f"{size}/{theme}: missing hero-scene artwork")
+                            hero_art = page.locator(".home-hero-art")
+                            check(hero_art.count() == 1,
+                                  f"{size}/{theme}: missing Spine of the World hero")
+                            if hero_art.count():
+                                check(hero_art.evaluate("(img) => img.complete && img.naturalWidth > 0 && img.currentSrc.includes('spine-of-the-world')"),
+                                      f"{size}/{theme}: Spine of the World hero failed to load")
                             if theme == "vellum":
                                 opacity = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).opacity")
                                 check(float(opacity) >= 0.95,
@@ -262,6 +265,9 @@ def main():
                                   f"{size}/{theme}: removing bookmark failed")
                             page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
                         if name == "start":
+                            if theme == "vellum":
+                                opacity = page.locator(".welcome-hero-scenery").evaluate("(el) => Number(getComputedStyle(el).opacity)")
+                                check(opacity >= .70, f"{size}: Vellum welcome scenery too faint: {opacity}")
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
                             choices.nth(1).click()
