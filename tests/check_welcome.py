@@ -46,7 +46,7 @@ assert 'aria-controls="welcome-' in page
 assert 'data-welcome-panel="kingdom"' in page and 'data-welcome-panel="world"' in page
 # Inline SVG icons prevent iOS from substituting colorful emoji for swords/arrows.
 assert page.count('class="welcome-swords-icon"') == 3, 'Heroes doorway/panel must use consistent vector swords'
-assert page.count('class="welcome-link-arrow"') == 8, 'Reading path links must use vector arrows'
+assert page.count('class="welcome-link-arrow"') == 25, 'All four doorways, twelve reading links, four onward paths, and five footer links need vector arrows'
 assert '↗' not in page, 'Unicode northeast arrow can render as emoji on iOS'
 assert '<svg class="welcome-swords-icon"' in page and 'stroke="currentColor"' in page
 
