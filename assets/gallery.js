@@ -67,7 +67,7 @@
       for (const record of entry.related) {
         const a = document.createElement('a');
         a.href = root + 'articles/' + record.slug + '/';
-        a.textContent = record.title + ' ↗';
+        a.textContent = record.title + ' ↗︎';
         links.append(a);
       }
     } else {
