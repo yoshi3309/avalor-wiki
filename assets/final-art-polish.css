@@ -1,0 +1,66 @@
+/* Phase 9: existing public artwork for Archive Home and a clearer Vellum welcome.
+   Artwork is editorial illustration; it does not establish additional setting facts. */
+.page-home .hero-sky.home-hero-sky {
+  background:none;
+  opacity:1;
+  overflow:hidden;
+  isolation:isolate;
+}
+.page-home .home-hero-art {
+  display:block;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center 44%;
+  filter:saturate(.86) contrast(1.06);
+}
+.page-home .hero-sky.home-hero-sky::after {
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(90deg,rgba(13,25,33,.98) 0%,rgba(13,25,33,.94) 24%,rgba(13,25,33,.80) 42%,rgba(13,25,33,.36) 70%,rgba(13,25,33,.16) 100%);
+}
+.page-home .archive-wing-plate img {
+  filter:saturate(.87) contrast(1.05);
+  object-position:center 42%;
+}
+.page-home .archive-wing--featured .archive-wing-plate img{object-position:center 34%}
+.page-home .archive-wing--journeys .archive-wing-plate img{object-position:center 46%}
+.page-home .archive-wing--connections .archive-wing-plate img{object-position:center 39%}
+.page-home .archive-wing--atlas .archive-wing-plate img{object-position:center 48%}
+.page-home .archive-wing--chronicle .archive-wing-plate img{object-position:center 42%}
+html[data-appearance="vellum"] .page-home .hero-sky.home-hero-sky {
+  background:none;
+  opacity:1;
+}
+html[data-appearance="vellum"] .page-home .home-hero-art {
+  filter:saturate(.98) contrast(1.04);
+}
+html[data-appearance="vellum"] .page-home .hero-sky.home-hero-sky::after{
+  background:linear-gradient(90deg,rgba(239,225,203,.99) 0%,rgba(239,225,203,.95) 22%,rgba(239,225,203,.76) 42%,rgba(239,225,203,.23) 68%,rgba(239,225,203,.06) 100%);
+}
+html[data-appearance="vellum"] .page-home .hero-copy{
+  background:linear-gradient(90deg,rgba(242,229,208,.30),transparent 92%);
+}
+html[data-appearance="vellum"] .page-home .archive-wing-plate img{
+  opacity:1;filter:sepia(.06) saturate(.95) contrast(1.06);
+}
+/* Only the Vellum rendering needed the welcome art lifted out of its fog. */
+html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery{opacity:.94}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery:after{
+  background:linear-gradient(90deg,rgba(239,227,208,.99) 0%,rgba(239,227,208,.92) 22%,rgba(239,227,208,.62) 45%,rgba(239,227,208,.14) 76%,rgba(239,227,208,.04) 100%);
+}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-art{
+  filter:saturate(.96) contrast(1.04);
+}
+@media(max-width:710px){
+ .page-home .home-hero-art{object-position:62% center}
+ .page-home .hero-sky.home-hero-sky::after{
+  background:linear-gradient(90deg,rgba(13,25,33,.97) 0%,rgba(13,25,33,.88) 43%,rgba(13,25,33,.42) 83%,rgba(13,25,33,.28) 100%);
+ }
+ html[data-appearance="vellum"] .page-home .hero-sky.home-hero-sky::after{
+  background:linear-gradient(90deg,rgba(239,225,203,.99) 0%,rgba(239,225,203,.89) 44%,rgba(239,225,203,.42) 83%,rgba(239,225,203,.27) 100%);
+ }
+ .page-home .archive-wing-plate img{object-position:58% center}
+ html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery{opacity:.86}
+ html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery:after{
+  background:linear-gradient(90deg,rgba(239,227,208,.96) 0%,rgba(239,227,208,.86) 48%,rgba(239,227,208,.44) 86%,rgba(239,227,208,.25) 100%);
+ }
+}
