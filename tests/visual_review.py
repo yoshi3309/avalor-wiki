@@ -88,7 +88,9 @@ def main():
                             check(wings.count() == 6 and plates.count() == 6,
                                   f"{size}/{theme}: expected six illustrated home wings")
                             for plate in plates.all():
-                                check(plate.evaluate("(img) => img.complete && img.naturalWidth > 0"),
+                                # Lazy off-screen imagery is not loaded until requested;
+                                # decode() forces a real image-load check on the SVG asset.
+                                check(plate.evaluate("(img) => img.decode().then(() => img.naturalWidth > 0).catch(() => false)"),
                                       f"{size}/{theme}: illustrated wing plate failed to load")
                             check(page.locator(".hero-sky").count() == 1,
                                   f"{size}/{theme}: missing hero illustration")
@@ -99,7 +101,9 @@ def main():
                                 opacity = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).opacity")
                                 check(float(opacity) >= 0.95,
                                       f"{size}/{theme}: hero artwork still too faded: {opacity}")
-                            check(page.locator(".archive-wing .section-link").count() >= 4,
+                            check(page.locator(".archive-wing .section-link").count() >= 3 and
+                                  page.locator('.archive-wing--atlas a[href$="/map/"]').count() == 1 and
+                                  page.locator('.archive-wing--chronicle a[href$="/chronicle/"]').count() == 1,
                                   f"{size}/{theme}: home wing navigation changed")
                         if name in ("lavitz", "renada", "short-record"):
                             check(page.locator(".document-paper .article-body").count() == 1,
