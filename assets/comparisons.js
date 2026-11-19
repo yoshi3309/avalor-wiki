@@ -61,7 +61,7 @@
     era.append(el('span','', 'RECORDED ERA  '),document.createTextNode(p.era||'Not recorded'));
     body.append(era);
     body.append(el('p','dossier-person-summary',p.summary));
-    const anchor=el('a','dossier-person-link','Read full biography ↗');
+    const anchor=el('a','dossier-person-link','Read full biography ↗︎');
     anchor.href=recordURL(p.id);
     body.append(anchor);
     container.append(imgWrap,body);
@@ -77,7 +77,7 @@
         const cell=el('div','dossier-comparison-cell');
         cell.append(el('span','dossier-comparison-subject',slot+' · '+p.name));
         cell.append(el('p','dossier-comparison-statement',fact.text));
-        const source=el('a','dossier-comparison-source','Read '+fact.source+' ↗');
+        const source=el('a','dossier-comparison-source','Read '+fact.source+' ↗︎');
         source.href=sourceURL(p,field.key);
         cell.append(source);
         pair.append(cell);
