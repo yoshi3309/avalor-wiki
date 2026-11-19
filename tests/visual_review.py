@@ -199,7 +199,7 @@ def main():
                         if name == "reading-desk":
                             page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
                             page.reload(wait_until="load")
-                            page.locator("#reading-bookmark-count").wait_for()
+                            page.locator(".reading-desk-empty").first.wait_for()
                             check(page.locator(".reading-desk-empty").count() == 4,
                                   f"{size}/{theme}: empty private shelf sections missing")
                             # Seed browser-only state to confirm that a saved record renders.
