@@ -4,7 +4,7 @@
 <div class="content-container article-container" data-article-reading data-reading-slug="{{article.slug}}" data-reading-title="{{article.title}}" data-reading-category="{{article.category}}">
   <nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
   <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT{% if article.brief_entry %}<span class="brief-record-label" title="A concise entry in the Royal Archives">· BRIEF ENTRY</span>{% endif %}<div class="reading-article-tools" aria-label="Save this record"><button type="button" id="reading-bookmark" aria-pressed="false" aria-label="Save record to Reading Desk" title="Save record to Reading Desk">☆</button><span id="reading-action-status" role="status" aria-live="polite"></span></div></div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>
-    {% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
+    {% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗︎</a>{% endif %}</div>
   {% if article.category == 'Kingdoms & Places' and article.image_url %}
   <figure class="article-illustration article-illustration--landscape">
     <picture>{% if article.image_media and article.image_media.variants %}<source type="image/webp" srcset="{% for variant in article.image_media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(max-width: 710px) calc(100vw - 40px), (max-width: 1100px) 88vw, 1100px">{% endif %}<img src="{{article.image_url}}" alt="{{article.image_alt or article.title}}" decoding="async" fetchpriority="high"{% if article.image_media %} width="{{article.image_media.width}}" height="{{article.image_media.height}}"{% endif %}></picture>
@@ -35,7 +35,7 @@
             <span class="article-explore-meta">GUIDED JOURNEY · CHAPTER {{path.number}} OF {{path.total}}</span>
             <h4><a href="{{root}}journeys/{{path.journey_id}}/">{{path.journey_title}}</a></h4>
             <div class="article-explore-journey-links">
-              {% if path.next %}<a class="article-explore-next" href="{{root}}articles/{{path.next.article.slug}}/">Continue: {{path.next.label}} <span aria-hidden="true">↗</span></a>{% else %}<span class="article-explore-finished">Journey complete ✦</span>{% endif %}
+              {% if path.next %}<a class="article-explore-next" href="{{root}}articles/{{path.next.article.slug}}/">Continue: {{path.next.label}} <span aria-hidden="true">↗︎</span></a>{% else %}<span class="article-explore-finished">Journey complete ✦</span>{% endif %}
               {% if path.previous %}<a class="article-explore-previous" href="{{root}}articles/{{path.previous.article.slug}}/">← {{path.previous.label}}</a>{% endif %}
             </div>
             {% if path.deeper_reading %}
@@ -55,13 +55,13 @@
         <h3 id="article-explore-connections-title">People and connections</h3>
         <div class="article-explore-action-grid">
           {% if web_connection %}
-          <a class="article-explore-action article-explore-action--connections" href="{{root}}connections/?focus={{article.slug}}#cross-explorer-title"><strong>Connections explorer</strong><span>Trace this record through people, places and events</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          <a class="article-explore-action article-explore-action--connections" href="{{root}}connections/?focus={{article.slug}}#cross-explorer-title"><strong>Connections explorer</strong><span>Trace this record through people, places and events</span><span class="article-explore-arrow" aria-hidden="true">↗︎</span></a>
           {% endif %}
           {% for graph in relationship_maps %}
-          <a class="article-explore-action article-explore-action--relationships" href="{{root}}connections/{{graph.id}}/"><strong>{{graph.title}}</strong><span>Explore a curated relationship map</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          <a class="article-explore-action article-explore-action--relationships" href="{{root}}connections/{{graph.id}}/"><strong>{{graph.title}}</strong><span>Explore a curated relationship map</span><span class="article-explore-arrow" aria-hidden="true">↗︎</span></a>
           {% endfor %}
           {% if comparison_available %}
-          <a class="article-explore-action article-explore-action--compare" href="{{root}}compare/?left={{article.slug}}"><strong>Compare this life</strong><span>Examine two biographies side by side</span><span class="article-explore-arrow" aria-hidden="true">↗</span></a>
+          <a class="article-explore-action article-explore-action--compare" href="{{root}}compare/?left={{article.slug}}"><strong>Compare this life</strong><span>Examine two biographies side by side</span><span class="article-explore-arrow" aria-hidden="true">↗︎</span></a>
           {% endif %}
         </div>
       </section>
@@ -73,7 +73,7 @@
         {% if gallery_items %}
         <div class="gallery-related-grid article-explore-art">
           {% for piece in gallery_items[:2] %}
-          <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗</small></span></a>
+          <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗︎</small></span></a>
           {% endfor %}
         </div>
         {% if gallery_items|length > 2 %}
@@ -81,7 +81,7 @@
           <summary>View {{gallery_items|length - 2}} more gallery plates</summary>
           <div class="gallery-related-grid article-explore-art">
             {% for piece in gallery_items[2:] %}
-            <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗</small></span></a>
+            <a class="gallery-related-card" href="{{root}}gallery/{{piece.collection}}/?image={{piece.id}}"><picture>{% if piece.media and piece.media.variants %}<source type="image/webp" srcset="{% for variant in piece.media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="72px">{% endif %}<img src="{{root}}{{piece.image}}" alt="{{piece.alt}}" loading="lazy" decoding="async"{% if piece.media %} width="{{piece.media.width}}" height="{{piece.media.height}}"{% endif %}></picture><span><strong>{{piece.title}}</strong><small>Open gallery plate ↗︎</small></span></a>
             {% endfor %}
           </div>
         </details>
@@ -90,7 +90,7 @@
         {% if historical_exhibits %}
         <div class="exhibit-article-links article-explore-exhibits">
           {% for exhibit in historical_exhibits[:2] %}
-          <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗</span></a>
+          <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗︎</span></a>
           {% endfor %}
         </div>
         {% if historical_exhibits|length > 2 %}
@@ -98,7 +98,7 @@
           <summary>View {{historical_exhibits|length - 2}} more exhibits</summary>
           <div class="exhibit-article-links article-explore-exhibits">
             {% for exhibit in historical_exhibits[2:] %}
-            <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗</span></a>
+            <a href="{{root}}exhibits/{{exhibit.id}}/"><span class="exhibit-mini-symbol" aria-hidden="true">{{exhibit.symbol}}</span><span><strong>{{exhibit.title}}</strong><small>{{exhibit.period}} · Historical exhibit</small></span><span aria-hidden="true">↗︎</span></a>
             {% endfor %}
           </div>
         </details>
@@ -112,7 +112,7 @@
         <h3 id="article-explore-related-title">Related records</h3>
         <div class="related-grid article-explore-related">
           {% for a in related[:4] %}
-          <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗</span></a>
+          <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗︎</span></a>
           {% endfor %}
         </div>
         {% if related|length > 4 %}
@@ -120,7 +120,7 @@
           <summary>Browse {{related|length - 4}} more related records</summary>
           <div class="related-grid article-explore-related">
             {% for a in related[4:] %}
-            <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗</span></a>
+            <a href="{{root}}articles/{{a.slug}}/{% if a.fragment %}#{{a.fragment}}{% endif %}" class="related-card"><span>{{a.entry}} · {{a.category}}</span><h4>{{a.title}}</h4><span class="readmore">Explore record ↗︎</span></a>
             {% endfor %}
           </div>
         </details>
