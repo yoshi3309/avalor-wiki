@@ -82,9 +82,16 @@ def main():
                         if name == "all-records":
                             check(page.locator("#catalog-filter").count() == 1, f"{size}/{theme}: record filter missing")
                             check(page.locator(".catalog-item").count() > 20, f"{size}/{theme}: catalogue entries missing")
+                            page.locator("#catalog-filter").fill("zz-nonexistent-record-xyz")
+                            check(page.locator(".catalog-item:visible").count() == 0, f"{size}/{theme}: catalogue filter did not narrow results")
+                            page.locator("#catalog-filter").fill("")
                         if name.endswith("-collection"):
                             check(page.locator(".people-record").count() > 0, f"{size}/{name}/{theme}: collection empty")
                             check(page.locator(".people-record").first.get_attribute("href"), f"{size}/{name}/{theme}: record link missing")
+                            if page.locator("#people-filter").count():
+                                page.locator("#people-filter").fill("zz-nonexistent-record-xyz")
+                                check(page.locator(".people-record:visible").count() == 0, f"{size}/{name}/{theme}: collection filter did not narrow results")
+                                page.locator("#people-filter").fill("")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
