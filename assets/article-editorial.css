@@ -1,0 +1,103 @@
+/* Vellum & Binding — Phase 2: a restrained, legible scholar's article.
+   Editorial layout only; article data, links and tools are unchanged. */
+.page-article{
+ --reading-edge:#88724f;
+ --reading-surface:#f8f1e5;
+ --reading-inner-rule:#d7c8af;
+ --reading-heading:#27353a;
+ --reading-copy:#343c40;
+ --reading-deck:#c7cac3;
+ --reading-accent:#be9e69;
+}
+.page-article .article-container{width:min(100%,1380px);padding-bottom:105px}
+.page-article .breadcrumbs{border-bottom:1px solid var(--rule);padding:0 0 21px}
+.page-article .article-head{max-width:940px;padding:42px 0 37px}
+.page-article .article-head h1{font-size:clamp(36px,4.3vw,60px);line-height:1.14;letter-spacing:-.025em;max-width:20ch;margin-top:22px}
+.page-article .article-subtitle{font-size:clamp(14px,1.4vw,19px);line-height:1.6;margin-top:9px;margin-bottom:18px}
+.page-article .article-deck{max-width:68ch;line-height:1.9;margin:0 0 15px}
+.page-article .article-split{grid-template-columns:minmax(0,1fr) minmax(218px,260px);gap:clamp(24px,3vw,43px);align-items:start}
+.page-article .article-column{min-width:0}
+.page-article .document-paper{background:var(--reading-surface);border:1px solid var(--reading-edge);padding:clamp(28px,3.5vw,49px) clamp(26px,4.4vw,65px) 35px;box-shadow:0 16px 37px #050c1235}
+.page-article .document-paper:after{inset:12px;border-color:#ab90684b}
+.page-article .paper-top{position:relative;gap:15px;padding-bottom:23px;margin-bottom:15px;border-bottom:1px solid var(--reading-inner-rule);color:#806b4c;letter-spacing:.13em}
+.page-article .paper-top .ornamental-letter{font-size:39px}
+.page-article .article-body{max-width:72ch;margin-inline:auto;font-size:var(--reader-text-size);line-height:var(--reader-line-height);color:var(--reading-copy)}
+.page-article .article-body p{margin-block:0 1.18em}
+.page-article .article-body h2{margin-top:2.05em;margin-bottom:.85em;padding-bottom:.52em;line-height:1.35;color:var(--reading-heading);border-color:var(--reading-inner-rule);scroll-margin-top:45px}
+.page-article .article-body h3{margin-top:1.6em;line-height:1.45}
+.page-article .article-body li{margin-block:.35em}
+.page-article .article-body blockquote{margin-block:1.5em;padding-left:22px}
+.page-article .article-body :is(pre,table,img,figure){max-width:100%}
+.page-article .archive-callout{padding:24px 27px;margin-block:28px}
+.page-article .archive-highlight{margin-top:37px;margin-bottom:38px}
+.page-article .end-ornament{margin-top:20px}
+.page-article .source-note{max-width:72ch;margin-inline:auto}
+.page-article .article-rail{gap:16px}
+.page-article .article-rail>.article-illustration{margin:0}
+.page-article .article-rail>.article-illustration img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain}
+.page-article .article-rail .fact-panel{padding:21px 22px;border-color:#79694d}
+.page-article .article-rail .fact-heading{font-size:11px;line-height:1.5}
+.page-article .article-rail .toc-panel{position:sticky;top:24px;padding:17px 16px;border:1px solid #4d5d5d;background:#1d2c34;max-height:calc(100vh - 50px);overflow:auto}
+.page-article .article-rail .toc-panel .toc-title{margin-bottom:12px}
+.page-article .article-rail .toc-link{line-height:1.55;padding:8px 2px;font-size:12px}
+.page-article .article-explore{margin-top:37px}
+.page-article .article-illustration--landscape{max-width:100%;margin-bottom:31px}
+.page-article .article-illustration--landscape img{max-height:min(65vh,650px);object-fit:contain}
+/* A place with no portrait or no fact list still has a deliberate reading rail. */
+.page-article .fact-panel .fact-footer{border-top:1px solid #4c554c;padding-top:13px}
+html[data-appearance="vellum"] .page-article{
+ --reading-edge:#baa482;
+ --reading-surface:#fffaf1;
+ --reading-inner-rule:#d8c5a7;
+ --reading-heading:#302f2a;
+ --reading-copy:#343633;
+}
+html[data-appearance="vellum"] .page-article .document-paper{background:var(--reading-surface);box-shadow:0 15px 33px #42321720}
+html[data-appearance="vellum"] .page-article .paper-top{color:#6f5330}
+html[data-appearance="vellum"] .page-article .article-head h1,
+html[data-appearance="vellum"] .page-article .article-subtitle,
+html[data-appearance="vellum"] .page-article .article-deck{color:#3b342c}
+html[data-appearance="vellum"] .page-article .article-rail .fact-panel,
+html[data-appearance="vellum"] .page-article .article-rail .toc-panel{background:#f5e9d5;color:#383329;border-color:#b59e79}
+html[data-appearance="vellum"] .page-article .article-rail .fact-heading,
+html[data-appearance="vellum"] .page-article .article-rail .fact-item :is(span,strong),
+html[data-appearance="vellum"] .page-article .article-rail .fact-footer,
+html[data-appearance="vellum"] .page-article .article-rail .toc-title,
+html[data-appearance="vellum"] .page-article .article-rail .toc-link{color:#4a3c2a}
+html[data-appearance="vellum"] .page-article .article-rail .fact-item,
+html[data-appearance="vellum"] .page-article .fact-panel .fact-footer{border-color:#c4b194}
+html[data-appearance="vellum"] .page-article .article-rail .toc-link.is-current{color:#654421;border-color:#8d6942}
+html[data-appearance="vellum"] .page-article .article-explore{background:#efe2ca;color:#382e22;border-color:#b19b77}
+html[data-appearance="vellum"] .page-article .article-explore :is(.article-explore-header h2,.article-explore-header p,.article-explore-group h3,.article-explore-meta,.article-explore-kicker,.article-explore-journey h4,.article-explore-next,.article-explore-previous,.article-explore-finished,.article-explore-action strong,.article-explore-action>span,.article-explore-deeper li,.article-explore-deeper li a){color:#463521}
+html[data-appearance="vellum"] .page-article .article-explore :is(.article-explore-journey,.article-explore-action,.article-explore-disclosure summary,.related-card){background:#fff7e8;border-color:#c0a986;color:#463521}
+html[data-appearance="vellum"] .page-article .article-explore .article-explore-group,
+html[data-appearance="vellum"] .page-article .article-explore .article-explore-journey-links{border-color:#c7b494}
+html[data-appearance="vellum"] .page-article .article-explore .related-card :is(h4,.readmore),html[data-appearance="vellum"] .page-article .article-explore .article-explore-action>span:not(.article-explore-arrow){color:#51402c}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-article{--reading-surface:#fffef8;--reading-copy:#192d36;--reading-heading:#122e3a}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-article .article-body{color:#192d36}
+@media(max-width:920px){
+ .page-article .article-split{grid-template-columns:minmax(0,1fr) 215px;gap:19px}
+ .page-article .document-paper{padding-inline:clamp(20px,3vw,35px)}
+}
+@media(max-width:710px){
+ .page-article .article-container{padding-bottom:70px}
+ .page-article .article-head{padding-top:28px;padding-bottom:26px}
+ .page-article .article-head h1{font-size:clamp(30px,8vw,42px)}
+ .page-article .article-split{display:flex;flex-direction:column-reverse;gap:19px}
+ .page-article .article-rail{width:100%}
+ .page-article .article-rail .toc-panel{display:none}
+ .page-article .article-rail>.article-illustration{max-width:460px;margin-inline:auto}
+ .page-article .document-paper{padding:26px clamp(19px,5vw,27px) 27px}
+ .page-article .document-paper:after{inset:8px}
+ .page-article .article-body{max-width:100%}
+ .page-article .article-body h2{scroll-margin-top:30px}
+ .page-article .paper-top{gap:9px;font-size:8px}
+ .page-article .paper-top .ornamental-letter{font-size:32px}
+ .page-article .archive-callout{padding:17px 19px}
+ .page-article .article-explore{margin-top:26px}
+}
+@media print{
+ .page-article .document-paper{box-shadow:none}
+ .page-article .article-rail .toc-panel{display:none}
+ .page-article .article-body{max-width:72ch}
+}

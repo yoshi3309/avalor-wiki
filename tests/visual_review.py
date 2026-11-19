@@ -21,6 +21,8 @@ PAGES = {
     "home": "/",
     "start": "/start/",
     "lavitz": "/articles/lavitz-shawe/",
+    "renada": "/articles/renada/",
+    "short-record": "/articles/heavens-heart/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
@@ -65,6 +67,14 @@ def main():
                         })""")
                         check(metrics["scroll"] <= metrics["viewport"] + 3,
                               f"{size}/{name}/{theme}: horizontal overflow {metrics}")
+                        if name in ("lavitz", "renada", "short-record"):
+                            check(page.locator(".document-paper .article-body").count() == 1,
+                                  f"{size}/{name}/{theme}: article body missing")
+                            check(page.locator("#reading-bookmark").count() == 1,
+                                  f"{size}/{name}/{theme}: reading bookmark missing")
+                            measure = page.locator(".article-body").evaluate("(el) => getComputedStyle(el).maxWidth")
+                            check(measure in ("none", "100%") or measure.endswith(("px", "ch", "rem")),
+                                  f"{size}/{name}/{theme}: invalid reading measure {measure}")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
