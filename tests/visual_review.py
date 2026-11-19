@@ -29,7 +29,7 @@ PAGES = {
     "faith-collection": "/collections/faith-magic-cosmology/",
     "chronicle": "/chronicle/",
     "journeys": "/journeys/",
-    "founding-journey": "/journeys/frozenroar-dynasty/",
+    "founding-journey": "/journeys/fall-of-the-six/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
