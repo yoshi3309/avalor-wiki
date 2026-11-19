@@ -107,9 +107,9 @@ Even granting that Aethrion existed and that certain researchers undertook dange
 
 A great society contains farmers, artisans, caregivers, travelers, servants, families, and children. Its most learned or powerful members do not speak for every person within it. An experiment might be sponsored by rulers, conducted in secrecy, or opposed by those who learned of it.
 
-No public record establishes a collective vote, a law commanding participation, or testimony demonstrating general consent.
+Nothing in the surviving fragments tells of a decision made by Aethrion's people as a whole, a law requiring their participation, or their consent.
 
-Thal consequently rejects the argument that **the destruction of a civilization proves the guilt of its people**. Halden maintains that institutions can incur responsibility through tolerated misconduct, but the surviving evidence does not establish what the people or institutions of Aethrion actually did.
+Thal consequently rejects the argument that **the destruction of a civilization proves the guilt of its people**. Halden maintains that institutions can incur responsibility through tolerated misconduct, yet the surviving fragments leave the actions of Aethrion's people and institutions obscure.
 
 The distinction is more than an academic quarrel. It determines whether a story about catastrophe is permitted to erase the individuals who suffered it.
 
