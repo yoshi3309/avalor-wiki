@@ -48,7 +48,7 @@
   const awaitingPlacement = locations.filter(v => v.initiallyUnplaced);
   let view = {zoom:1, scale:1, x:0, y:0};
   let state = {filter:'all', query:'', selected:null, editing:false, placing:null, position:null, pointer:null};
-  const icons = {settlement:'⌂', region:'✦', water:'≈', historic:'⚔', institution:'♜'};
+  const icons = {settlement:'⌂', region:'✦', water:'≈', historic:'⚔︎', institution:'♜'};
   const types = {settlement:'Settlement',region:'Region',water:'Waterway or sea',historic:'Historic site',institution:'Institution'};
   const escape = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const clamp = (n,a,b) => Math.max(a,Math.min(b,n));
@@ -151,8 +151,8 @@
     if (!loc){detail.innerHTML='<span class="atlas-detail-empty">Choose a place to reveal its record.</span>';return}
     const status=!loc.placed ? '<div class="atlas-detail-status">✥ Not yet placed · select this location in the positioning desk</div>' : loc.provisional ? '<div class="atlas-detail-status">◇ Approximate placement · awaiting your confirmation</div>' : '';
     const href=loc.article ? `${data.root}articles/${encodeURIComponent(loc.article)}/${loc.article_anchor ? '#'+encodeURIComponent(loc.article_anchor) : ''}` : null;
-    const action=href ? `<a href="${href}">Open the related archive record ↗</a>` : '<span class="atlas-detail-no-link">A dedicated record has not yet been added.</span>';
-    const subplaces=(loc.subplaces||[]).map(p=>`<a class="atlas-subplace-link" href="${data.root}articles/${encodeURIComponent(p.slug)}/${p.anchor ? '#'+encodeURIComponent(p.anchor) : ''}">${escape(p.name)} ↗</a>`).join('');
+    const action=href ? `<a href="${href}">Open the related archive record ↗︎</a>` : '<span class="atlas-detail-no-link">A dedicated record has not yet been added.</span>';
+    const subplaces=(loc.subplaces||[]).map(p=>`<a class="atlas-subplace-link" href="${data.root}articles/${encodeURIComponent(p.slug)}/${p.anchor ? '#'+encodeURIComponent(p.anchor) : ''}">${escape(p.name)} ↗︎</a>`).join('');
     const nested=subplaces ? `<section class="atlas-subplaces"><strong>WITHIN THIS LOCATION</strong><div>${subplaces}</div></section>` : '';
     detail.innerHTML=`<div class="atlas-detail-tag">${escape(types[loc.type]||'Location')}</div><h3>${escape(loc.name)}</h3>${status}<p>${escape(loc.description)}</p>${action}${nested}`;
   }
@@ -200,7 +200,7 @@
     placementItems.innerHTML=awaitingPlacement.map(loc=>{
       const active=state.selected===loc.id;
       const status=loc.placed ? '✓ Preview placed' : 'Place on map';
-      return `<button type="button" data-place="${escape(loc.id)}" class="${active?'is-current':''}" aria-pressed="${active}"><span>${escape(loc.name)}</span><small>${status} ↗</small></button>`;
+      return `<button type="button" data-place="${escape(loc.id)}" class="${active?'is-current':''}" aria-pressed="${active}"><span>${escape(loc.name)}</span><small>${status} ↗︎</small></button>`;
     }).join('');
     if (state.editing && state.placing) {
       const chosen=find(state.placing);
