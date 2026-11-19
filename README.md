@@ -13,7 +13,7 @@ The **player-facing Scholar's Edition of the World of Avalor** — a static, ill
 
 ## What's inside?
 
-As of November 10, 2026, the repository holds **112 public encyclopedia articles** across five collections, **29 curated illustration exhibits**, and **five editorial historical exhibits**. These counts change as editors publish new material.
+The repository contains **more than 140 public encyclopedia articles** across five collections, alongside curated illustrations and historical exhibits. The exact totals change as editors publish new material.
 
 | Explore | URL | Purpose |
 |---|---|---|
