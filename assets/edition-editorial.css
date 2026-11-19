@@ -1,0 +1,95 @@
+/* Vellum & Binding Phase 7 — Gazette and personal Reading Desk.
+   Layout/theme only; dispatches, publication dates and saved browser data unchanged. */
+.page-gazette,.page-reading-desk{
+ --edition-panel:#22353c;--edition-card:#293c42;--edition-border:#7b755d;
+ --edition-ink:#f0e2c8;--edition-muted:#c3cdc4;--edition-gold:#e2c18a;
+}
+.page-gazette .gazette-page{max-width:1300px;padding-bottom:100px}
+.page-gazette .gazette-masthead{padding:clamp(34px,5vw,66px);border-color:var(--edition-border);box-shadow:0 14px 35px #09151b2c}
+.page-gazette .gazette-masthead h1{font-size:clamp(40px,5vw,68px);letter-spacing:-.028em}
+.page-gazette .gazette-masthead p{max-width:70ch}
+.page-gazette .gazette-strap{margin:31px 0 25px;border-color:var(--edition-border);color:var(--edition-gold)}
+.page-gazette .gazette-latest-title{color:var(--edition-ink)}
+.page-gazette .gazette-intro{max-width:77ch;color:var(--edition-muted);line-height:1.94}
+.page-gazette .gazette-lead{border-color:var(--edition-border);background:var(--edition-panel);box-shadow:0 8px 22px #09151b20}
+.page-gazette .gazette-lead h2{color:var(--edition-ink)}
+.page-gazette .gazette-lead p,.page-gazette .gazette-cards p{color:var(--edition-muted)}
+.page-gazette .gazette-label,.page-gazette .gazette-lead a,.page-gazette .gazette-cards a,.page-gazette .gazette-previous a,.page-gazette .gazette-footer a{color:var(--edition-gold)}
+.page-gazette .gazette-seal{background:var(--edition-card);border-color:var(--edition-border);color:var(--edition-gold)}
+.page-gazette .gazette-cards{gap:17px}
+.page-gazette .gazette-cards article{background:var(--edition-card);border-color:var(--edition-border);border-top-color:var(--edition-gold);padding:26px;min-height:230px}
+.page-gazette .gazette-cards h3,.page-gazette .gazette-previous h3{color:var(--edition-ink)}
+.page-gazette .gazette-cards article:nth-child(3n+2){border-top-color:#a6c3b0}
+.page-gazette .gazette-cards article:nth-child(3n){border-top-color:#b4acc8}
+.page-gazette .gazette-previous{background:var(--edition-panel);border-color:var(--edition-border)}
+.page-gazette .gazette-previous strong{color:var(--edition-gold)}
+.page-gazette .gazette-previous p,.page-gazette .gazette-footer{color:var(--edition-muted)}
+.page-gazette .gazette-footer{border-color:var(--edition-border)}
+.page-gazette :is(.gazette-cards a,.gazette-lead a,.gazette-footer a,.gazette-previous a):focus-visible{outline:3px solid var(--edition-gold);outline-offset:4px}
+.page-reading-desk .reading-desk-page{max-width:1280px;padding-top:44px;padding-bottom:105px}
+.page-reading-desk .reading-desk-heading{max-width:850px;padding:26px 0 32px}
+.page-reading-desk .reading-desk-heading h1{font-size:clamp(38px,4.7vw,60px);color:var(--edition-ink);letter-spacing:-.02em}
+.page-reading-desk .reading-desk-heading h1 em{color:var(--edition-gold)}
+.page-reading-desk .reading-desk-heading>p{color:var(--edition-muted);line-height:1.9}
+.page-reading-desk .reading-desk-heading .reading-desk-privacy{background:var(--edition-panel);color:var(--edition-muted);border-color:var(--edition-gold);padding:13px 18px}
+.page-reading-desk .reading-desk-summary{gap:15px;margin-bottom:47px}
+.page-reading-desk .reading-desk-summary>div{background:var(--edition-panel);border-color:var(--edition-border);padding:24px}
+.page-reading-desk .reading-desk-summary strong{color:var(--edition-gold)}
+.page-reading-desk .reading-desk-summary span{color:var(--edition-muted)}
+.page-reading-desk .reading-desk-section{margin:35px 0 44px}
+.page-reading-desk .reading-desk-section-heading{border-color:var(--edition-border);padding-bottom:17px}
+.page-reading-desk .reading-desk-section-heading h2{color:var(--edition-ink)}
+.page-reading-desk .reading-desk-grid{gap:16px}
+.page-reading-desk .reading-desk-card{background:var(--edition-card);border-color:var(--edition-border);padding:25px;min-height:200px}
+.page-reading-desk .reading-desk-card h3,.page-reading-desk .reading-desk-card h3 a{color:var(--edition-ink)}
+.page-reading-desk .reading-desk-category,.page-reading-desk .reading-desk-card-foot a{color:var(--edition-gold)}
+.page-reading-desk .reading-desk-card p{color:var(--edition-muted)}
+.page-reading-desk .reading-desk-card-foot{border-color:var(--edition-border)}
+.page-reading-desk .reading-desk-card-foot button{border-color:var(--edition-border)}
+.page-reading-desk .reading-desk-card-foot button:focus-visible{outline:3px solid var(--edition-gold);outline-offset:3px}
+.page-reading-desk .reading-desk-empty{background:var(--edition-panel);border-color:var(--edition-border);color:var(--edition-muted)}
+.page-reading-desk .reading-desk-footer{border-color:var(--edition-border);color:var(--edition-muted)}
+.page-reading-desk .reading-desk-footer a,.page-reading-desk .reading-desk-status{color:var(--edition-gold)}
+html[data-appearance="vellum"] .page-gazette,html[data-appearance="vellum"] .page-reading-desk{
+ --edition-panel:#f2e5ce;--edition-card:#fff9ef;--edition-border:#baa17b;
+ --edition-ink:#3c3125;--edition-muted:#584b3c;--edition-gold:#684720;
+}
+html[data-appearance="vellum"] .page-gazette .gazette-masthead{
+ background:radial-gradient(ellipse at 80% 0%,#eee2c9,#d8c49f 85%);box-shadow:0 12px 28px #42301522;
+}
+html[data-appearance="vellum"] .page-gazette .gazette-masthead h1,
+html[data-appearance="vellum"] .page-gazette .gazette-masthead h1 em,
+html[data-appearance="vellum"] .page-gazette .gazette-masthead p{color:#3c3125}
+html[data-appearance="vellum"] .page-gazette .gazette-crest,
+html[data-appearance="vellum"] .page-gazette .gazette-kicker,
+html[data-appearance="vellum"] .page-gazette .gazette-rule{color:#76542b}
+html[data-appearance="vellum"] .page-gazette .gazette-rule:before,
+html[data-appearance="vellum"] .page-gazette .gazette-rule:after{background:#ab8d61}
+html[data-appearance="vellum"] .page-gazette .gazette-masthead:before{border-color:#9c8058}
+html[data-appearance="vellum"] .page-gazette .gazette-lead,
+html[data-appearance="vellum"] .page-gazette .gazette-previous{background:var(--edition-panel)}
+html[data-appearance="vellum"] .page-gazette .gazette-cards article{background:var(--edition-card)}
+html[data-appearance="vellum"] .page-gazette .gazette-seal{background:#e0cbaa;color:#62471e}
+html[data-appearance="vellum"] .page-gazette .gazette-strap{color:#62451d}
+html[data-appearance="vellum"] .page-reading-desk .reading-desk-card,
+html[data-appearance="vellum"] .page-reading-desk .reading-desk-summary>div{background:var(--edition-card)}
+html[data-appearance="vellum"] .page-reading-desk .reading-desk-card-foot button{background:#f2e2c7;color:#47331e;border-color:#ac916b}
+html[data-appearance="vellum"] .page-reading-desk .reading-desk-card-foot button:hover{background:#e4cda6}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-gazette,
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-reading-desk{
+ --edition-panel:#fffdf6;--edition-card:#fffaf1;--edition-border:#685039;
+ --edition-ink:#1d2b31;--edition-muted:#2b3a3e;--edition-gold:#593714;
+}
+@media(max-width:760px){
+ .page-gazette .gazette-masthead{padding:30px 22px}
+ .page-gazette .gazette-cards{grid-template-columns:1fr}
+ .page-gazette .gazette-cards article{min-height:0;padding:22px}
+ .page-reading-desk .reading-desk-page{padding-top:20px}
+ .page-reading-desk .reading-desk-summary{gap:8px}
+ .page-reading-desk .reading-desk-summary>div{padding:14px 10px}
+ .page-reading-desk .reading-desk-card{padding:18px;min-height:0}
+}
+@media(max-width:390px){
+ .page-reading-desk .reading-desk-summary strong{font-size:25px}
+ .page-reading-desk .reading-desk-summary span{font-size:10px}
+}
