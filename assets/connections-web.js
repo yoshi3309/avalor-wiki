@@ -82,7 +82,7 @@
     nodes.name.textContent=n.label;nodes.summary.textContent=n.summary;
     nodes.edgeCount.textContent=String(connected.length);
     nodes.actions.replaceChildren();
-    const record=document.createElement('a');record.href=linkFor(n.article);record.textContent='Read complete record ↗';nodes.actions.append(record);
+    const record=document.createElement('a');record.href=linkFor(n.article);record.textContent='Read complete record ↗︎';nodes.actions.append(record);
     nodes.edges.replaceChildren();
     for(const rel of connected){
       const other=byId.get(rel.other);
@@ -91,7 +91,7 @@
       const select=document.createElement('button');select.type='button';select.textContent=other.label;select.addEventListener('click',()=>focus(other.id));
       const label=document.createElement('p');label.textContent=rel.edge.label;
       text.append(select,label);
-      const source=document.createElement('a');source.href=linkFor(rel.edge.evidence);source.textContent='Evidence: '+rel.edge.source_title+' ↗';
+      const source=document.createElement('a');source.href=linkFor(rel.edge.evidence);source.textContent='Evidence: '+rel.edge.source_title+' ↗︎';
       source.setAttribute('aria-label','Read source for '+rel.edge.label);
       row.append(text,source);nodes.edges.append(row);
     }
