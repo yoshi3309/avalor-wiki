@@ -1,0 +1,105 @@
+/* Vellum & Binding / Phase 3 — curated collection and catalogue presentation.
+   Styling only: no changes to categories, article ordering or filtering logic. */
+.page-all,.page-category{
+ --discovery-bg:#20313a;--discovery-card:#1b2e37;--discovery-ink:#f1e5d1;
+ --discovery-muted:#b7c5bf;--discovery-edge:#59685e;--discovery-accent:#d6b680;
+}
+.page-all .catalog-container,.page-category .catalog-container{max-width:1420px;padding-bottom:105px}
+.page-all .catalog-heading,.page-category .catalog-heading{max-width:930px;padding:48px 0 36px}
+.page-all .catalog-heading h1,.page-category .catalog-heading h1{font-size:clamp(36px,4.1vw,56px);line-height:1.14;letter-spacing:-.025em}
+.page-all .catalog-heading p,.page-category .catalog-heading p{max-width:68ch;font-size:14px;line-height:1.85}
+.page-all .catalog-tools{background:var(--discovery-bg);border:1px solid var(--discovery-edge);padding:18px clamp(16px,2.5vw,30px);margin-bottom:24px}
+.page-all .catalog-tools>span{color:var(--discovery-accent);font-weight:700}
+.page-all .catalog-tools label{font-size:12px;letter-spacing:normal;color:var(--discovery-ink);font-weight:600}
+.page-all .filter-input{background:#12242d;border:1px solid #89917f;color:#f3ead6;padding:12px 15px;min-height:44px;width:min(350px,100%)}
+.page-all .catalog-list{border-top:1px solid var(--discovery-edge)}
+.page-all .catalog-item{grid-template-columns:105px minmax(0,1fr) 180px 24px;gap:clamp(14px,2.4vw,31px);border-bottom:1px solid var(--discovery-edge);padding:22px 18px;min-height:106px;transition:background .2s ease,box-shadow .2s ease}
+.page-all .catalog-item:hover,.page-all .catalog-item:focus-visible{background:var(--discovery-bg);box-shadow:inset 3px 0 0 var(--discovery-accent)}
+.page-all .catalog-entry{color:var(--discovery-accent);font-size:11px;font-weight:700}
+.page-all .catalog-description h2{color:var(--discovery-ink);font-size:clamp(18px,1.6vw,22px)}
+.page-all .catalog-description p{color:var(--discovery-muted);font-size:12px;max-width:78ch;line-height:1.75}
+.page-all .catalog-category{color:var(--discovery-muted);font-size:11px;line-height:1.5}
+.page-all .catalog-chevron{color:var(--discovery-accent)}
+.page-category .people-heading-meta span{color:var(--discovery-accent);border-color:var(--discovery-edge);background:var(--discovery-bg)}
+.page-category .people-feature{background:var(--discovery-bg);border-color:var(--discovery-edge);box-shadow:0 12px 28px #07121a33}
+.page-category .people-feature-copy h2{font-size:clamp(25px,2.65vw,36px);color:var(--discovery-ink)}
+.page-category .people-feature-copy>p:not(.people-feature-subtitle){color:var(--discovery-muted);font-size:13px}
+.page-category .people-feature-copy>a{color:var(--discovery-accent);font-weight:600}
+.page-category .people-section-heading h2{color:var(--discovery-ink)}
+.page-category .people-section-heading>p{color:var(--discovery-muted)}
+.page-category .people-group-grid{gap:14px}
+.page-category .people-group-card{border:1px solid var(--discovery-edge);background:var(--discovery-bg);min-height:188px;padding:19px}
+.page-category .people-group-card:hover{border-color:var(--discovery-accent);background:#2d4149}
+.page-category .people-group-card.is-selected{border-color:var(--discovery-accent);box-shadow:inset 4px 0 0 var(--discovery-accent);background:#334346}
+.page-category .people-group-card strong{color:var(--discovery-ink)}
+.page-category .people-group-description,.page-category .people-group-count{color:var(--discovery-muted)}
+.page-category .people-group-icon,.page-category .people-group-eyebrow,.page-category .people-group-cta{color:var(--discovery-accent)}
+.page-category .people-directory{padding-top:45px}
+.page-category .people-directory-tools{border-color:var(--discovery-edge)}
+.page-category .people-directory-tools label span,.page-category .people-visible-count{color:var(--discovery-muted)}
+.page-category .people-directory-tools input{background:#172a34;border-color:#82907f;color:#f5eddc;min-height:44px}
+.page-category .people-clear{color:var(--discovery-accent);border-color:var(--discovery-edge);min-height:44px}
+.page-category .people-record-grid{gap:14px}
+.page-category .people-record{background:var(--discovery-card);border-color:var(--discovery-edge);min-height:142px}
+.page-category .people-record:hover{background:#2b4149;border-color:var(--discovery-accent)}
+.page-category .people-record-art{background:#2e3e44;border-color:var(--discovery-edge)}
+.page-category .people-record-number,.page-category .people-record-subtitle,.page-category .people-record-arrow{color:var(--discovery-accent)}
+.page-category .people-record-text strong{color:var(--discovery-ink)}
+.page-category .people-record-summary{color:var(--discovery-muted)}
+.page-category .collection-simple-note{background:var(--discovery-bg);border-color:var(--discovery-edge)}
+.page-category .collection-simple-note p{color:var(--discovery-muted)}
+.page-category .collection-simple-note strong,.page-category .collection-simple-mark{color:var(--discovery-ink)}
+html[data-appearance="vellum"] .page-all,html[data-appearance="vellum"] .page-category{
+ --discovery-bg:#f0e3cd;--discovery-card:#fff8ed;--discovery-ink:#3e3528;
+ --discovery-muted:#574b3c;--discovery-edge:#bca37e;--discovery-accent:#6c4826;
+}
+html[data-appearance="vellum"] .page-all .catalog-heading p,html[data-appearance="vellum"] .page-category .catalog-heading p{color:#54483a}
+html[data-appearance="vellum"] .page-all .catalog-tools{background:var(--discovery-bg)}
+html[data-appearance="vellum"] .page-all .catalog-tools label{color:#433526}
+html[data-appearance="vellum"] .page-all .filter-input,
+html[data-appearance="vellum"] .page-category .people-directory-tools input{background:#fffbf4;color:#3a3023;border-color:#ad9470}
+html[data-appearance="vellum"] .page-all .filter-input::placeholder,
+html[data-appearance="vellum"] .page-category .people-directory-tools input::placeholder{color:#776752}
+html[data-appearance="vellum"] .page-all .catalog-item:hover{background:#f5ead8}
+html[data-appearance="vellum"] .page-category .people-feature{background:var(--discovery-bg);box-shadow:0 10px 28px #4a371924}
+html[data-appearance="vellum"] .page-category .people-feature-copy h2,
+html[data-appearance="vellum"] .page-category .people-feature-copy .kicker,
+html[data-appearance="vellum"] .page-category .people-feature-subtitle{color:#503923}
+html[data-appearance="vellum"] .page-category .people-group-card,
+html[data-appearance="vellum"] .page-category .people-record{background:var(--discovery-card)}
+html[data-appearance="vellum"] .page-category .people-group-card:hover,
+html[data-appearance="vellum"] .page-category .people-record:hover{background:#f0dfc3}
+html[data-appearance="vellum"] .page-category .people-group-card.is-selected{background:#e5cfab}
+html[data-appearance="vellum"] .page-category .people-record-art{background:#ead9bf}
+html[data-appearance="vellum"] .page-category .people-record-empty{background:radial-gradient(circle at 50% 40%,#e7d3ae,#f7ecda)}
+html[data-appearance="vellum"] .page-category .people-record-empty span{color:#886943}
+html[data-appearance="vellum"] .page-category .people-feature-emblem{background:#d9c39e;color:#74552e}
+html[data-appearance="vellum"] .page-category .people-heading-meta a{color:#624422;border-color:#bba27e}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-category,
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-all{
+ --discovery-bg:#f5eddd;--discovery-card:#fffef8;--discovery-ink:#182832;
+ --discovery-muted:#253943;--discovery-edge:#63513a;--discovery-accent:#593817;
+}
+@media(max-width:920px){
+ .page-all .catalog-item{grid-template-columns:90px minmax(0,1fr) 130px 20px}
+ .page-category .people-group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:710px){
+ .page-all .catalog-heading,.page-category .catalog-heading{padding:29px 0 25px}
+ .page-all .catalog-heading h1,.page-category .catalog-heading h1{font-size:clamp(31px,8vw,42px)}
+ .page-all .catalog-tools{flex-direction:column;align-items:stretch;gap:13px}
+ .page-all .catalog-tools label{display:flex;flex-direction:column;align-items:stretch;gap:7px}
+ .page-all .filter-input{width:100%;max-width:100%}
+ .page-all .catalog-item{grid-template-columns:67px minmax(0,1fr) 16px;gap:12px;padding:18px 7px}
+ .page-all .catalog-category{display:none}
+ .page-all .catalog-description h2{font-size:18px}
+ .page-category .people-feature{grid-template-columns:1fr}
+ .page-category .people-feature-image{height:190px;min-height:190px}
+ .page-category .people-group-card{min-height:170px;padding:15px}
+ .page-category .people-record{min-height:137px}
+}
+@media(max-width:380px){
+ .page-category .people-group-grid{grid-template-columns:1fr}
+ .page-all .catalog-item{grid-template-columns:52px minmax(0,1fr) 13px}
+}
+@media(prefers-reduced-motion:reduce){.page-all .catalog-item,.page-category .people-group-card{transition:none}}
