@@ -14,6 +14,7 @@
 .page-all .filter-input{background:#12242d;border:1px solid #89917f;color:#f3ead6;padding:12px 15px;min-height:44px;width:min(350px,100%)}
 .page-all .catalog-list{border-top:1px solid var(--discovery-edge)}
 .page-all .catalog-item{grid-template-columns:105px minmax(0,1fr) 180px 24px;gap:clamp(14px,2.4vw,31px);border-bottom:1px solid var(--discovery-edge);padding:22px 18px;min-height:106px;transition:background .2s ease,box-shadow .2s ease}
+.page-all .catalog-item[hidden]{display:none!important}
 .page-all .catalog-item:hover,.page-all .catalog-item:focus-visible{background:var(--discovery-bg);box-shadow:inset 3px 0 0 var(--discovery-accent)}
 .page-all .catalog-entry{color:var(--discovery-accent);font-size:11px;font-weight:700}
 .page-all .catalog-description h2{color:var(--discovery-ink);font-size:clamp(18px,1.6vw,22px)}
