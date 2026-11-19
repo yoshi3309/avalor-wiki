@@ -76,6 +76,8 @@ jobs:
       - name: Check Discord & Social Previews
         run: python tests/check_social_previews.py
       - name: Check Archivist Welcome
+        run: python tests/check_ui_icons.py
+      - name: Verify welcome routes
         run: python tests/check_welcome.py
       - name: Check Character Comparison Dossiers
         run: python tests/check_comparisons.py
