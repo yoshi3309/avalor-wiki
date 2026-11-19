@@ -284,6 +284,15 @@ def main():
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
+                            # Text glyphs become emoji in iOS Safari; both sets of marks must be SVG.
+                            sword_icons = page.locator(".welcome-swords-icon")
+                            link_arrows = page.locator(".welcome-link-arrow")
+                            check(sword_icons.count() == 3, f"{size}/{theme}: expected three sword vectors")
+                            check(link_arrows.count() == 25, f"{size}/{theme}: expected 25 vector arrows")
+                            check(sword_icons.first.evaluate("(el) => {const b=el.getBoundingClientRect(); return b.width>15 && b.height>15 && b.width<80}"),
+                                  f"{size}/{theme}: crossed swords are clipped or unsized")
+                            check(link_arrows.first.evaluate("(el) => {const b=el.getBoundingClientRect(); return b.width>8 && b.width<20 && b.height>8}"),
+                                  f"{size}/{theme}: link arrow is clipped or unsized")
                             choices.nth(1).click()
                             check(page.locator('[data-welcome-panel="heroes"]').is_visible(),
                                   f"{size}/{theme}: heroes panel did not open")

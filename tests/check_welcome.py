@@ -36,6 +36,12 @@ assert 'location.hash' in legacy_archive
 assert 'Keeper material' not in page
 assert 'The Royal Commission welcomes all' in page
 assert 'data-welcome-panel' in page and 'data-welcome-choice' in page
+# Symbols are vector artwork: iOS must not convert swords or diagonal arrows into emoji.
+assert page.count('class="welcome-swords-icon"') == 3, "Crossed swords must be vector in the doorway, card label and reading panel"
+assert page.count('class="welcome-link-arrow"') == 25, "All Start Here diagonal arrows must be vector"
+assert "⚔" not in page and "↗" not in page, "Emoji-prone font glyph leaked into Start Here HTML"
+assert "stroke=\"currentColor\"" in page, "Vectors must inherit Night/Vellum ink color"
+assert 'assets/icons/crossed-swords.svg' not in page, "Swords must not depend on an unbundled icon"
 assert 'aria-controls="welcome-' in page
 assert 'data-welcome-panel="kingdom"' in page and 'data-welcome-panel="world"' in page
 journeys=yaml.safe_load((ROOT/'data/reading-journeys.yml').read_text(encoding='utf-8'))
