@@ -4,7 +4,7 @@
   <div class="atlas-heading">
     <nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><span>Cartographer's Table</span></nav>
     <div class="atlas-kicker">THE ROYAL COMMISSION · CARTOGRAPHIC COLLECTION</div>
-    <div class="atlas-heading-row"><div><h1>The Cartographer's Table</h1><p>Explore the lands, waters, and places of Avalor. Select a marker to uncover its record, or follow the atlas back into the archives.</p></div><a href="{{root}}articles/kingdom-of-avalor/" class="atlas-kingdom-link">The Kingdom of Avalor ↗</a></div>
+    <div class="atlas-heading-row"><div><h1>The Cartographer's Table</h1><p>Explore the lands, waters, and places of Avalor. Select a marker to uncover its record, or follow the atlas back into the archives.</p></div><a href="{{root}}articles/kingdom-of-avalor/" class="atlas-kingdom-link">The Kingdom of Avalor ↗︎</a></div>
   </div>
   <div class="atlas-topline"><div class="atlas-topline-left"><span class="atlas-star">✦</span> THE NORTHERN KINGDOM · EXPLORER'S EDITION</div><div class="atlas-topline-right"><span id="atlas-count">—</span> charted locations</div></div>
   <div class="atlas-layout" id="atlas-app">
@@ -33,7 +33,7 @@
       <div class="atlas-map-foot"><span>ⓘ Open circles mark places awaiting mapped coordinates.</span><span>The Commission continues to revise its surveys.</span></div>
       <div class="atlas-edit-workspace" id="atlas-editor" hidden>
         <div class="atlas-edit-title"><strong>Archivist's positioning desk</strong><span>Preview only · does not save to GitHub or Pages CMS</span></div>
-        <p>Choose an unplaced landmark from the tray directly on the map, or from the dropdown below. Click its correct location; a provisional preview pin will appear immediately. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗</a>. Enter <strong>both X and Y</strong>, enable <strong>Show marker to players</strong>, turn off <em>Provisional</em>, and <strong>Save</strong> in Pages CMS. Unplaced landmarks are hidden from the public map until you do so.</p>
+        <p>Choose an unplaced landmark from the tray directly on the map, or from the dropdown below. Click its correct location; a provisional preview pin will appear immediately. Copy the coordinates and enter them under <strong>Map settings → Locations</strong> in <a href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Pages CMS ↗︎</a>. Enter <strong>both X and Y</strong>, enable <strong>Show marker to players</strong>, turn off <em>Provisional</em>, and <strong>Save</strong> in Pages CMS. Unplaced landmarks are hidden from the public map until you do so.</p>
         <div class="atlas-edit-controls"><label for="atlas-edit-location">Place to position</label><select id="atlas-edit-location"></select><button id="atlas-copy-position" type="button" disabled>Copy coordinates</button></div>
         <div class="atlas-edit-coordinate" id="atlas-edit-output" aria-live="polite">Select a location and click the map to measure its position.</div>
       </div>
@@ -101,7 +101,7 @@
           <span class="atlas-time-card-title">{{e.title}}</span>
           <span class="atlas-time-card-location">{% if e.atlas %}<span aria-hidden="true">✥</span> {{e.atlas.place_name}}{% else %}Location unrecorded{% endif %}</span>
         </a>
-        <div class="atlas-time-card-foot"><span>{{e.date_label}}</span><a href="{{root}}chronicle/#event-{{e.id}}">Chronicle ↗</a></div>
+        <div class="atlas-time-card-foot"><span>{{e.date_label}}</span><a href="{{root}}chronicle/#event-{{e.id}}">Chronicle ↗︎</a></div>
       </article>
       {% endfor %}
     </div>
@@ -112,7 +112,7 @@
         <h3 id="atlas-history-detail-title">Choose a moment in history</h3>
         <p id="atlas-history-detail-text">Select a record above to read its historical context and, where established, focus its related place on the map below.</p>
         <p id="atlas-history-detail-note" class="atlas-time-detail-note">The chart marks sites, regions, and places associated with the accounts. The boundaries of earlier ages remain a subject of study.</p>
-        <div class="atlas-time-detail-actions"><a id="atlas-history-read" href="{{root}}chronicle/" >Read the Living Chronicle ↗</a><a id="atlas-history-source" href="{{root}}articles/kingdom-of-avalor/" hidden>Read supporting article ↗</a><button id="atlas-history-share" type="button" disabled>Copy this historical view ↗</button></div>
+        <div class="atlas-time-detail-actions"><a id="atlas-history-read" href="{{root}}chronicle/" >Read the Living Chronicle ↗︎</a><a id="atlas-history-source" href="{{root}}articles/kingdom-of-avalor/" hidden>Read supporting article ↗︎</a><button id="atlas-history-share" type="button" disabled>Copy this historical view ↗︎</button></div>
       </div>
     </div>
     <p class="atlas-time-caution">The map is the present approved cartographic illustration. These marks trace the places remembered in the Chronicle. Earlier boundaries and the paths of armies have not survived in comparable detail; approximate dates remain approximate.</p>
@@ -124,11 +124,11 @@
   <section class="atlas-unplaced" aria-label="Landmarks awaiting placement">
     <div class="atlas-unplaced-intro">
       <div><div class="atlas-unplaced-eyebrow">THE CARTOGRAPHER'S DESK · UNCHARTED PLACES</div><h2>{{ unplaced|length }} landmarks awaiting placement</h2><p>Their places have yet to be marked upon this chart. Select a location to examine the cartographer's desk.</p></div>
-      <a class="atlas-unplaced-start" href="{{root}}map/?edit=1#atlas-viewport">Open positioning desk ↗</a>
+      <a class="atlas-unplaced-start" href="{{root}}map/?edit=1#atlas-viewport">Open positioning desk ↗︎</a>
     </div>
     <div class="atlas-unplaced-grid">
       {% for location in unplaced %}
-      <a href="{{root}}map/?edit=1&amp;place={{ location.id }}#atlas-viewport"><span class="atlas-unplaced-glyph" aria-hidden="true">✥</span><span>{{ location.name }}</span><span class="atlas-unplaced-action">Place ↗</span></a>
+      <a href="{{root}}map/?edit=1&amp;place={{ location.id }}#atlas-viewport"><span class="atlas-unplaced-glyph" aria-hidden="true">✥</span><span>{{ location.name }}</span><span class="atlas-unplaced-action">Place ↗︎</span></a>
       {% endfor %}
     </div>
   </section>
