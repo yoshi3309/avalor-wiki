@@ -296,6 +296,15 @@ def main():
                             choices.nth(1).click()
                             check(page.locator('[data-welcome-panel="heroes"]').is_visible(),
                                   f"{size}/{theme}: heroes panel did not open")
+                            # Wait for the Start Here route's focus transfer to settle.
+                            # Otherwise full-page captures can paint the skip link
+                            # over the hero while Chromium is finishing a scroll.
+                            page.wait_for_function(
+                                "() => document.activeElement?.id === 'welcome-panel-title-heroes'",
+                                timeout=5000
+                            )
+                            check(page.locator(".skip-link").evaluate("(el) => !el.matches(':focus')"),
+                                  f"{size}/{theme}: skip link retained focus after choosing a path")
                         page.screenshot(path=str(OUT / f"{size}-{name}-{theme}.png"), full_page=True, animations="disabled")
                         page.close()
                 # Check both controls keep independent persisted state.
