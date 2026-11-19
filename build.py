@@ -1220,7 +1220,7 @@ def preview_subject(values):
         if pair:
             artwork = COMPARISON_BY_SLUG[pair['left']]['image'] or None
     elif kind == 'connections':
-        label = 'People & Connections'
+        label = 'Connections Explorer'
     elif kind == 'timeline':
         label = 'The Living Chronicle'
     elif kind == 'category':
