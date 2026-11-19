@@ -21,7 +21,7 @@ routes:
   - id: heroes
     title: Meet the Heroes
     kicker: THE FELLOWSHIPS
-    symbol: "⚔"
+    symbol: "⚔︎"
     tagline: The people who changed the record.
     intro: "Begin with the Misfits, meet a protector among them, and encounter the earlier fellowship that shaped Avalor's memory."
     welcome: "Legends grow around choices made by ordinary people. The records of Avalor's adventuring fellowships are as much about friendship and responsibility as they are about triumph."
