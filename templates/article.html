@@ -2,7 +2,7 @@
 {% block main %}
 <div class="article-reading-track" role="progressbar" aria-label="Progress through this article" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="article-reading-fill"></div></div>
 <div class="content-container article-container" data-article-reading data-reading-slug="{{article.slug}}" data-reading-title="{{article.title}}" data-reading-category="{{article.category}}">
-  <nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
+  <nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><a href="{{root}}collections/{{category_slug}}/">{{article.category}}</a><span>›</span><span>{{article.title}}</span></nav>
   <div class="article-head"><div class="article-entry"><span>✦</span> RECORD {{article.entry}} <span class="entry-rule"></span> THE SCHOLAR'S ACCOUNT{% if article.brief_entry %}<span class="brief-record-label" title="A concise entry in the Royal Archives">· BRIEF ENTRY</span>{% endif %}<div class="reading-article-tools" aria-label="Save this record"><button type="button" id="reading-bookmark" aria-pressed="false" aria-label="Save record to Reading Desk" title="Save record to Reading Desk">☆</button><span id="reading-action-status" role="status" aria-live="polite"></span></div></div><h1>{{article.title}}</h1><p class="article-subtitle">{{article.subtitle}}</p><p class="article-deck">{{article.summary}}</p>
     {% if map_location %}<a class="article-map-link" href="{{root}}map/?place={{map_location}}">✥ Locate on the map ↗</a>{% endif %}</div>
   {% if article.category == 'Kingdoms & Places' and article.image_url %}
