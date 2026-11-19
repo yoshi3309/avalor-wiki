@@ -85,7 +85,7 @@ jobs:
         run: python tests/check_media_performance.py
       - name: Check Discord & Social Previews
         run: python tests/check_social_previews.py
-      - name: Check Archivist Welcome
+      - name: Check monochrome UI symbols
         run: python tests/check_ui_icons.py
       - name: Verify welcome routes
         run: python tests/check_welcome.py
