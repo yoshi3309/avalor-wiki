@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <div class="content-container gazette-page">
-<nav class="breadcrumbs"><a href="{{root}}">Archives</a><span>›</span><span>The Royal Gazette</span></nav>
+<nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><span>The Royal Gazette</span></nav>
 <header class="gazette-masthead"><span class="gazette-crest" aria-hidden="true">❦</span><div class="gazette-kicker">THE ROYAL COMMISSION OF HISTORICAL INQUIRY</div><h1>The Royal <em>Gazette</em></h1><p>Dated dispatches from the Archives: historical studies, newly arranged records, and questions still open to inquiry.</p><div class="gazette-rule" aria-hidden="true">✦</div></header>
 <div class="gazette-strap"><span>THE COMMISSION'S CIRCULARS</span><span>{{gazette_issues|length}} EDITION{% if gazette_issues|length != 1 %}S{% endif %}</span></div>
 {% if gazette_issues %}
