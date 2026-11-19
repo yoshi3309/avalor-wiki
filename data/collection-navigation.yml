@@ -104,7 +104,7 @@ organizations-factions:
     - id: defenders
       title: Defenders & Orders
       eyebrow: SERVICE AND PROTECTION
-      icon: "⚔"
+      icon: "⚔︎"
       description: Military forces, royal guards, and sworn defenders.
       articles:
         - avalorian-forces
@@ -166,7 +166,7 @@ history-chronicles:
     - id: misfits-journey
       title: The Misfits' Journey
       eyebrow: ADVENTURES AND ENCOUNTERS
-      icon: "⚔"
+      icon: "⚔︎"
       description: Investigations, allies, losses, and trials from the Misfits' adventures.
       articles:
         - the-first-commission

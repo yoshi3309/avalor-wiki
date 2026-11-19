@@ -32,7 +32,7 @@
         <section class="exhibit-dossier-section" id="established"><h2>What the record establishes</h2><ul>{% for item in exhibit.evidence_lines %}<li>{{item}}</li>{% endfor %}</ul></section>
         <section class="exhibit-dossier-section exhibit-dossier-uncertainty" id="uncertainties"><h2>What remains unverified</h2><ul>{% for item in exhibit.uncertainty_lines %}<li>{{item}}</li>{% endfor %}</ul></section>
         <section class="exhibit-dossier-section exhibit-dossier-interpretation"><h2>Curatorial interpretation</h2><p>{{exhibit.interpretation}}</p></section>
-        <section class="exhibit-dossier-section exhibit-sources"><h2>Sources &amp; further reading</h2><a class="exhibit-primary-source" href="{{root}}articles/{{exhibit.source.slug}}/">{{exhibit.source.title}} ↗</a>{% if exhibit.related %}<div class="exhibit-related-sources">{% for article in exhibit.related %}<a href="{{root}}articles/{{article.slug}}/">{{article.title}} ↗</a>{% endfor %}</div>{% endif %}</section>
+        <section class="exhibit-dossier-section exhibit-sources"><h2>Sources &amp; further reading</h2><a class="exhibit-primary-source" href="{{root}}articles/{{exhibit.source.slug}}/">{{exhibit.source.title}} ↗︎</a>{% if exhibit.related %}<div class="exhibit-related-sources">{% for article in exhibit.related %}<a href="{{root}}articles/{{article.slug}}/">{{article.title}} ↗︎</a>{% endfor %}</div>{% endif %}</section>
       </div>
     </aside>
   </div>

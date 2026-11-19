@@ -22,7 +22,7 @@
       <h2 id="people-spotlight-heading">{{people_featured.title}}</h2>
       {% if people_featured.subtitle %}<p class="people-feature-subtitle">{{people_featured.subtitle}}</p>{% endif %}
       <p>{{people_featured.summary}}</p>
-      <a href="{{root}}articles/{{people_featured.slug}}/">Read the scholar's account <span aria-hidden="true">↗</span></a>
+      <a href="{{root}}articles/{{people_featured.slug}}/">Read the scholar's account <span aria-hidden="true">↗︎</span></a>
     </div>
   </section>
 
@@ -35,7 +35,7 @@
         <span class="people-group-eyebrow">{{group.eyebrow}}</span>
         <strong>{{group.title}}</strong>
         <span class="people-group-description">{{group.description}}</span>
-        <span class="people-group-cta">Explore records <span aria-hidden="true">↗</span></span>
+        <span class="people-group-cta">Explore records <span aria-hidden="true">↗︎</span></span>
       </button>
       {% endfor %}
       <button class="people-group-card people-group-all is-selected" type="button" data-people-group="all" aria-pressed="true" aria-controls="people-directory">
@@ -43,7 +43,7 @@
         <span class="people-group-eyebrow">THE COMPLETE INDEX</span>
         <strong>All People A–Z</strong>
         <span class="people-group-description">Every public biography and collective legend, alphabetically arranged.</span>
-        <span class="people-group-cta">Browse all <span aria-hidden="true">↗</span></span>
+        <span class="people-group-cta">Browse all <span aria-hidden="true">↗︎</span></span>
       </button>
     </div>
   </section>
@@ -65,7 +65,7 @@
           <span class="people-record-subtitle">{{a.subtitle or a.era or 'Public archive record'}}</span>
           <span class="people-record-summary">{{a.summary}}</span>
         </span>
-        <span class="people-record-arrow" aria-hidden="true">↗</span>
+        <span class="people-record-arrow" aria-hidden="true">↗︎</span>
       </a>
       {% endfor %}
     </div>

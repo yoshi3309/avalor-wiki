@@ -28,7 +28,7 @@
       <a class="gallery-wing" href="{{root}}gallery/{{wing.id}}/">
         {% if wing.cover %}<picture>{% if wing.cover_media and wing.cover_media.variants %}<source type="image/webp" srcset="{% for variant in wing.cover_media.variants %}{{root}}{{variant.path}} {{variant.width}}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(max-width: 710px) 90vw, 420px">{% endif %}<img src="{{root}}{{wing.cover}}" loading="lazy" decoding="async" alt="" aria-hidden="true"{% if wing.cover_media %} width="{{wing.cover_media.width}}" height="{{wing.cover_media.height}}"{% endif %}></picture>{% endif %}
         <span class="gallery-wing-shade"></span>
-        <span class="gallery-wing-content"><span class="gallery-wing-index">{{'%02d'|format(loop.index)}} · {{wing.count}} {% if wing.count == 1 %}exhibit{% else %}exhibits{% endif %}</span><strong>{{wing.title}}</strong><small>{{wing.description}}</small><span class="gallery-wing-cta">Enter collection ↗</span></span>
+        <span class="gallery-wing-content"><span class="gallery-wing-index">{{'%02d'|format(loop.index)}} · {{wing.count}} {% if wing.count == 1 %}exhibit{% else %}exhibits{% endif %}</span><strong>{{wing.title}}</strong><small>{{wing.description}}</small><span class="gallery-wing-cta">Enter collection ↗︎</span></span>
       </a>
       {% endfor %}
     </div>
@@ -50,13 +50,13 @@
           <span class="gallery-card-eyebrow">{{piece.collection_title}}{% if piece.era %} · {{piece.era}}{% endif %}</span>
           <strong>{{piece.title}}</strong>
           <span class="gallery-card-caption">{{piece.caption}}</span>
-          <span class="gallery-card-open">View illustration <span aria-hidden="true">↗</span></span>
+          <span class="gallery-card-open">View illustration <span aria-hidden="true">↗︎</span></span>
         </span>
       </button>
       {% endfor %}
     </div>
     {% else %}
-    <div class="gallery-empty"><span aria-hidden="true">✦</span><h3>This collection awaits its first approved illustration.</h3><p>Only curated, published artwork appears here. More exhibits will be added as the public archive grows.</p>{% if active_gallery_collection %}<a href="{{root}}gallery/">Return to all collections ↗</a>{% endif %}</div>
+    <div class="gallery-empty"><span aria-hidden="true">✦</span><h3>This collection awaits its first approved illustration.</h3><p>Only curated, published artwork appears here. More exhibits will be added as the public archive grows.</p>{% if active_gallery_collection %}<a href="{{root}}gallery/">Return to all collections ↗︎</a>{% endif %}</div>
     {% endif %}
   </section>
 </div>
@@ -74,7 +74,7 @@
       <div class="gallery-viewer-details"><span id="gallery-viewer-category" class="gallery-viewer-category"></span><h2 id="gallery-viewer-title"></h2><p id="gallery-viewer-caption"></p><p id="gallery-viewer-credit" class="gallery-viewer-credit" hidden></p></div>
       <div class="gallery-viewer-references"><span class="gallery-viewer-label">RELATED ARCHIVE RECORDS</span><div id="gallery-viewer-links"></div></div>
     </div>
-    <div class="gallery-share-tools"><a id="gallery-original-link" href="#" target="_blank" rel="noopener noreferrer">View high-resolution artwork ↗</a><button type="button" id="gallery-share-link" class="gallery-share-link" aria-label="Copy exhibit link">Copy exhibit link</button><span class="gallery-share-feedback" id="gallery-share-feedback" role="status" aria-live="polite"></span></div>
+    <div class="gallery-share-tools"><a id="gallery-original-link" href="#" target="_blank" rel="noopener noreferrer">View high-resolution artwork ↗︎</a><button type="button" id="gallery-share-link" class="gallery-share-link" aria-label="Copy exhibit link">Copy exhibit link</button><span class="gallery-share-feedback" id="gallery-share-feedback" role="status" aria-live="polite"></span></div>
     <p class="gallery-viewer-hint">Use ← → to browse · Esc to close</p>
   </div>
 </div>
