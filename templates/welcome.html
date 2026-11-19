@@ -24,11 +24,11 @@
     <nav class="welcome-choice-grid" aria-label="Choose an introduction to Avalor">
       {% for route in welcome_routes %}
       <a class="welcome-choice welcome-choice-{{route.id}}" href="#welcome-{{route.id}}" data-welcome-choice="{{route.id}}" aria-controls="welcome-{{route.id}}">
-        <div class="welcome-choice-illustration" aria-hidden="true"><span class="welcome-choice-arch"><span class="welcome-choice-sun"></span><span class="welcome-choice-horizon"></span><span class="welcome-choice-sigil">{{route.symbol}}</span></span></div>
-        <div class="welcome-choice-upper"><span class="welcome-choice-index">PATH {{'%02d'|format(loop.index)}}</span><span class="welcome-choice-symbol" aria-hidden="true">{{route.symbol}}</span></div>
+        <div class="welcome-choice-illustration" aria-hidden="true"><span class="welcome-choice-arch"><span class="welcome-choice-sun"></span><span class="welcome-choice-horizon"></span><span class="welcome-choice-sigil">{% if route.id == "heroes" %}<img class="welcome-swords-icon" src="{{root}}assets/icons/crossed-swords.svg" alt="" width="40" height="40" decoding="async">{% else %}{{route.symbol}}{% endif %}</span></span></div>
+        <div class="welcome-choice-upper"><span class="welcome-choice-index">PATH {{'%02d'|format(loop.index)}}</span><span class="welcome-choice-symbol" aria-hidden="true">{% if route.id == "heroes" %}<img class="welcome-swords-icon" src="{{root}}assets/icons/crossed-swords.svg" alt="" width="40" height="40" decoding="async">{% else %}{{route.symbol}}{% endif %}</span></div>
         <strong>{{route.title}}</strong>
         <span class="welcome-choice-tagline">{{route.tagline}}</span>
-        <span class="welcome-choice-arrow">Open this doorway <span aria-hidden="true">↗</span></span>
+        <span class="welcome-choice-arrow">Open this doorway <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></span>
       </a>
       {% endfor %}
     </nav>
@@ -43,7 +43,7 @@
           <h2 id="welcome-panel-title-{{route.id}}">{{route.title}}</h2>
           <p>{{route.intro}}</p>
         </div>
-        <span class="welcome-panel-symbol" aria-hidden="true">{{route.symbol}}</span>
+        <span class="welcome-panel-symbol" aria-hidden="true">{% if route.id == "heroes" %}<img class="welcome-swords-icon" src="{{root}}assets/icons/crossed-swords.svg" alt="" width="40" height="40" decoding="async">{% else %}{{route.symbol}}{% endif %}</span>
       </header>
       <div class="welcome-panel-grid">
         <div class="welcome-archivist-letter">
@@ -59,7 +59,7 @@
             <li>
               <span class="welcome-step-number">{{'%02d'|format(item.number)}}</span>
               <div class="welcome-step-body">
-                <h3><a href="{{root}}articles/{{item.article.slug}}/">{{item.article.title}} <span aria-hidden="true">↗</span></a></h3>
+                <h3><a href="{{root}}articles/{{item.article.slug}}/">{{item.article.title}} <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a></h3>
                 <p>{{item.invitation}}</p>
                 {% if loop.first %}<span class="welcome-step-first">BEGIN HERE</span>{% endif %}
               </div>
@@ -68,7 +68,7 @@
           </ol>
           <div class="welcome-longer-road">
             <div><span class="welcome-longer-overline">{{route.destination_type}}</span><p>Ready to follow the longer road?</p></div>
-            <a href="{{root}}{{route.destination}}">{{route.destination_label}} <span aria-hidden="true">↗</span></a>
+            <a href="{{root}}{{route.destination}}">{{route.destination_label}} <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
           </div>
         </div>
       </div>
@@ -80,11 +80,11 @@
     <div><div class="kicker">III · THE ARCHIVES ARE YOURS TO EXPLORE</div><h2>Stay curious. Follow the next thread.</h2>
       <p>This guide is only a doorway. The full Archives, Interactive Atlas, Living Chronicle, and your personal Reading Desk remain open whenever you wish to wander.</p></div>
     <div class="welcome-afterword-links">
-      <a href="{{root}}articles/">Browse every record <span aria-hidden="true">↗</span></a>
-      <a href="{{root}}map/">Open the Interactive Atlas <span aria-hidden="true">↗</span></a>
-      <a href="{{root}}chronicle/">Explore the Living Chronicle <span aria-hidden="true">↗</span></a>
-      <a href="{{root}}">Enter the Archive Home <span aria-hidden="true">↗</span></a>
-      <a href="{{root}}gazette/">Read the Royal Gazette <span aria-hidden="true">↗</span></a>
+      <a href="{{root}}articles/">Browse every record <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
+      <a href="{{root}}map/">Open the Interactive Atlas <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
+      <a href="{{root}}chronicle/">Explore the Living Chronicle <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
+      <a href="{{root}}">Enter the Archive Home <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
+      <a href="{{root}}gazette/">Read the Royal Gazette <svg class="welcome-link-arrow" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 13 13 3M5 3h8v8"/></svg></a>
     </div>
   </footer>
   <p class="welcome-public-note">The Royal Commission welcomes all who would study the realm's histories. Follow whichever thread first catches your curiosity.</p>
