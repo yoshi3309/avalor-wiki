@@ -1,0 +1,126 @@
+/* Vellum & Binding — Phase 8: final home illustration pass.
+   The six plates are original editorial motifs, never canonical artifacts. */
+.page-home .archive-wing{
+ --wing-art-height:clamp(110px,13vw,156px);
+ padding-top:calc(var(--wing-art-height) + clamp(22px,3vw,38px) + 18px);
+ overflow:hidden;
+}
+.page-home .archive-wing-plate{
+ position:absolute;z-index:0;top:0;left:0;right:0;
+ height:var(--wing-art-height);overflow:hidden;
+ border-bottom:1px solid var(--edge,#80694d);
+ background:#26373a;pointer-events:none;
+}
+.page-home .archive-wing-plate:after{
+ content:"";position:absolute;inset:0;
+ background:linear-gradient(180deg,transparent 60%,#101e2628);
+ pointer-events:none;
+}
+.page-home .archive-wing-plate img{
+ display:block;width:100%;height:100%;object-fit:cover;object-position:center;
+}
+.page-home .archive-wing>*:not(.archive-wing-plate){position:relative;z-index:1}
+.page-home .archive-wing--atlas,
+.page-home .archive-wing--chronicle{
+ padding-top:calc(var(--wing-art-height) + 33px);
+}
+.page-home .archive-wing--atlas .archive-wing-plate,
+.page-home .archive-wing--chronicle .archive-wing-plate{z-index:0}
+.page-home .archive-wing--atlas:after{content:none}
+/* Preserve the six-section rhythm in Vellum, not six identical tan panels. */
+html[data-appearance="vellum"] .page-home .archive-wing--collections{
+ --accent:#76522a;--edge:#b6956a;--base:#f5ead6;background:#f5ead6;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--featured{
+ --accent:#3f617a;--edge:#8ea6ae;--base:#e8eff0;background:#e8eff0;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys{
+ --accent:#3d654d;--edge:#94b19d;--base:#eaf1e6;background:#eaf1e6;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--connections{
+ --accent:#714c78;--edge:#b7a0b7;--base:#f0e8f1;background:#f0e8f1;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--atlas{
+ --accent:#316c68;--edge:#93b9ae;--base:#e4efeb;background:#e4efeb;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle{
+ --accent:#79502c;--edge:#c3a482;--base:#f3e6d7;background:#f3e6d7;
+}
+html[data-appearance="vellum"] .page-home .archive-wing-plate{
+ border-bottom-color:var(--edge);background:#e9d6bd;
+}
+html[data-appearance="vellum"] .page-home .archive-wing-plate img{
+ filter:sepia(.12) saturate(.80) contrast(1.03);opacity:.98;
+}
+html[data-appearance="vellum"] .page-home .archive-wing .kicker,
+html[data-appearance="vellum"] .page-home .archive-wing .section-link{
+ color:var(--accent);
+}
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading h2,
+html[data-appearance="vellum"] .page-home .archive-wing--atlas h2,
+html[data-appearance="vellum"] .page-home .archive-wing--chronicle h2{color:#302d27}
+html[data-appearance="vellum"] .page-home .archive-wing .section-heading{
+ border-color:var(--edge);
+}
+html[data-appearance="vellum"] .page-home .archive-wing .section-link:focus-visible{
+ outline:3px solid var(--accent);outline-offset:4px;
+}
+/* Vellum hero: keep the illustration visible on the right, while a
+   parchment-colored scrim makes the heading readable on the left. */
+html[data-appearance="vellum"] .page-home .hero{
+ background:#e8dcc6;
+}
+html[data-appearance="vellum"] .page-home .hero-sky{
+ opacity:1;
+ background-image:linear-gradient(90deg,
+  rgba(239,225,202,.98) 0%,rgba(239,225,202,.94) 24%,
+  rgba(239,225,202,.70) 43%,rgba(239,225,202,.18) 73%,
+  rgba(239,225,202,.04) 100%),url('./hero-scene.svg');
+ background-position:center center,center 44%;
+ background-size:cover,cover;
+}
+html[data-appearance="vellum"] .page-home .hero-copy{
+ background:linear-gradient(90deg,rgba(241,229,208,.66),transparent 95%);
+}
+html[data-appearance="vellum"] .page-home .hero-number{
+ color:#ffedca;background:#1d2b36da;
+ padding:8px 12px;border:1px solid #e0c38c77;
+}
+@media(max-width:710px){
+ .page-home .archive-wing{--wing-art-height:105px;padding-top:144px}
+ .page-home .archive-wing--atlas,.page-home .archive-wing--chronicle{padding-top:128px}
+ .page-home .archive-wing-plate img{object-position:64% center}
+ html[data-appearance="vellum"] .page-home .hero-sky{
+  background-image:linear-gradient(90deg,rgba(239,225,202,.96) 0%,rgba(239,225,202,.87) 46%,rgba(239,225,202,.42) 80%),url('./hero-scene.svg');
+  background-position:center center,60% center;
+ }
+ html[data-appearance="vellum"] .page-home .hero-number{right:17px;bottom:16px;font-size:8px}
+}
+
+/* Vellum home card ink: inherited Night-specific pale lettering must not sit on ivory. */
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card h2,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card h2{
+ color:#322f2a;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-subtitle,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-subtitle{
+ color:#674a2d!important;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card>p:not(.journeys-card-subtitle),
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card>p:not(.connections-card-subtitle){
+ color:#4a433b;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-footer,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-bottom{
+ color:#55493a;border-color:#bba98a;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-footer span,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-bottom span,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-overline,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-eyebrow{
+ color:#674521;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-symbol,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-glyph{
+ color:#846341;
+}

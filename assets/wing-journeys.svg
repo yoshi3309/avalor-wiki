@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Decorative engraved illustration for the journeys archive wing">
+<defs><linearGradient id="ground" x2="1" y2="1"><stop stop-color="#273f36"/><stop offset=".58" stop-color="#739781"/><stop offset="1" stop-color="#273f36"/></linearGradient><linearGradient id="mist"><stop stop-color="#273f36" stop-opacity=".75"/><stop offset=".5" stop-color="#273f36" stop-opacity=".20"/><stop offset="1" stop-color="#273f36" stop-opacity=".20"/></linearGradient></defs>
+<rect width="1200" height="220" fill="url(#ground)"/><g opacity=".27" stroke="#cce2ba" fill="none" stroke-width="1"><path d="M0 37h1200M0 185h1200M42 0v220M1158 0v220"/><path d="m0 172 129-72 140 57 162-102 129 83 158-89 151 88 161-75 170 110"/></g>
+<path d="M0 220V148c111-54 190 31 292-14 111-48 193-10 283 34 103 51 223-72 322-23 124 61 200-27 303-8v83Z" fill="#273f36" opacity=".48"/>
+<path d="M0 220V192c115-43 225-9 358-29 151-21 223 57 380 4s296 34 462-3v56Z" fill="#273f36" opacity=".59"/>
+<rect x="18" y="16" width="1164" height="188" rx="1" fill="none" stroke="#cce2ba" stroke-opacity=".55" stroke-width="2"/>
+<path d="M35 32h95M35 32v38M1165 188h-95M1165 188v-38" fill="none" stroke="#cce2ba" stroke-width="3" opacity=".85"/>
+<g opacity=".38" stroke="#cce2ba" fill="none" stroke-width="2"><path d="M150 68h230M150 82h165M150 98h198M150 115h123M150 154h229"/></g>
+<g fill="none" stroke="#c9ddbc" stroke-width="3.7"><path d="m668 137 90-93 52 62 75-88 116 121 90 13" opacity=".72"/><path d="m680 158 94-82 60 55 62-63 88 92 70 8" opacity=".5"/><path d="M901 216c-100-24-174-43-123-90 24-21 56-10 78-24 37-22-25-44-22-75" stroke-width="14" stroke-linecap="round" opacity=".37"/><path d="M901 216c-100-24-174-43-123-90 24-21 56-10 78-24 37-22-25-44-22-75" stroke-width="3" stroke-dasharray="4 13" opacity=".95"/></g><g fill="#e6e7ba"><circle cx="834" cy="27" r="8"/><circle cx="901" cy="216" r="7"/></g><rect width="1200" height="220" fill="url(#mist)"/>
+</svg>

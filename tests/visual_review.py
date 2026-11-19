@@ -82,6 +82,52 @@ def main():
                         })""")
                         check(metrics["scroll"] <= metrics["viewport"] + 3,
                               f"{size}/{name}/{theme}: horizontal overflow {metrics}")
+                        if name == "home":
+                            wings = page.locator(".archive-wing")
+                            plates = page.locator(".archive-wing-plate img")
+                            check(wings.count() == 6 and plates.count() == 6,
+                                  f"{size}/{theme}: expected six illustrated home wings")
+                            for plate in plates.all():
+                                # Lazy off-screen imagery is not loaded until requested;
+                                # decode() forces a real image-load check on the SVG asset.
+                                check(plate.evaluate("""(img) => {
+                                    img.loading = 'eager';
+                                    return Promise.race([
+                                      img.decode().then(() => img.naturalWidth > 0).catch(() => false),
+                                      new Promise(resolve => setTimeout(() => resolve(false), 5000))
+                                    ]);
+                                }"""),
+                                      f"{size}/{theme}: illustrated wing plate failed to load")
+                            check(page.locator(".hero-sky").count() == 1,
+                                  f"{size}/{theme}: missing hero illustration")
+                            bg = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).backgroundImage")
+                            check("hero-scene.svg" in bg,
+                                  f"{size}/{theme}: missing hero-scene artwork")
+                            if theme == "vellum":
+                                opacity = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).opacity")
+                                check(float(opacity) >= 0.95,
+                                      f"{size}/{theme}: hero artwork still too faded: {opacity}")
+                                # Pale Night-mode text is illegible on ivory cards.
+                                for selector in (
+                                    ".archive-wing--journeys .journeys-card h2",
+                                    ".archive-wing--journeys .journeys-card>p:not(.journeys-card-subtitle)",
+                                    ".archive-wing--connections .connections-card h2",
+                                    ".archive-wing--connections .connections-card>p:not(.connections-card-subtitle)",
+                                ):
+                                    luminance = page.locator(selector).first.evaluate("""(el) => {
+                                        const c = getComputedStyle(el).color.match(/[0-9.]+/g).slice(0,3).map(Number);
+                                        const [r,g,b] = c.map(v => {
+                                            v /= 255;
+                                            return v <= .04045 ? v/12.92 : ((v+.055)/1.055)**2.4;
+                                        });
+                                        return .2126*r + .7152*g + .0722*b;
+                                    }""")
+                                    check(luminance < 0.27,
+                                          f"{size}/{theme}: pale home card lettering at {selector}: {luminance}")
+                            check(page.locator(".archive-wing .section-link").count() >= 3 and
+                                  page.locator('.archive-wing--atlas a[href$="/map/"]').count() == 1 and
+                                  page.locator('.archive-wing--chronicle a[href$="/chronicle/"]').count() == 1,
+                                  f"{size}/{theme}: home wing navigation changed")
                         if name in ("lavitz", "renada", "short-record"):
                             check(page.locator(".document-paper .article-body").count() == 1,
                                   f"{size}/{name}/{theme}: article body missing")

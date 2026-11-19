@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Decorative engraved illustration for the featured archive wing">
+<defs><linearGradient id="ground" x2="1" y2="1"><stop stop-color="#243c4d"/><stop offset=".58" stop-color="#6387a6"/><stop offset="1" stop-color="#243c4d"/></linearGradient><linearGradient id="mist"><stop stop-color="#243c4d" stop-opacity=".75"/><stop offset=".5" stop-color="#243c4d" stop-opacity=".20"/><stop offset="1" stop-color="#243c4d" stop-opacity=".20"/></linearGradient></defs>
+<rect width="1200" height="220" fill="url(#ground)"/><g opacity=".27" stroke="#c6dff5" fill="none" stroke-width="1"><path d="M0 37h1200M0 185h1200M42 0v220M1158 0v220"/><path d="m0 172 129-72 140 57 162-102 129 83 158-89 151 88 161-75 170 110"/></g>
+<path d="M0 220V148c111-54 190 31 292-14 111-48 193-10 283 34 103 51 223-72 322-23 124 61 200-27 303-8v83Z" fill="#243c4d" opacity=".48"/>
+<path d="M0 220V192c115-43 225-9 358-29 151-21 223 57 380 4s296 34 462-3v56Z" fill="#243c4d" opacity=".59"/>
+<rect x="18" y="16" width="1164" height="188" rx="1" fill="none" stroke="#c6dff5" stroke-opacity=".55" stroke-width="2"/>
+<path d="M35 32h95M35 32v38M1165 188h-95M1165 188v-38" fill="none" stroke="#c6dff5" stroke-width="3" opacity=".85"/>
+<g opacity=".38" stroke="#c6dff5" fill="none" stroke-width="2"><path d="M150 68h230M150 82h165M150 98h198M150 115h123M150 154h229"/></g>
+<g fill="none" stroke="#cde1e7" stroke-width="4" stroke-linejoin="round"><path d="M861 41c34 22 73 29 105 32v53c-1 34-36 65-105 83-64-17-101-49-102-83V74c42-4 75-13 102-33Z" fill="#3c5770" fill-opacity=".42"/><path d="M861 60v133M786 104h148M811 151h101" stroke-width="2.3" opacity=".8"/><path d="m861 86 16 26-16 18-16-18Z" fill="#b9d4da" fill-opacity=".65"/><path d="m689 180 92-119m-67 33 63 5m-46 9 43 27" stroke-linecap="round"/></g><path d="m781 60 15-16 10 9-12 17" fill="#c8d7e3" opacity=".85"/><rect width="1200" height="220" fill="url(#mist)"/>
+</svg>
