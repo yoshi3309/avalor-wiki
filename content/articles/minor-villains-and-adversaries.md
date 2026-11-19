@@ -30,21 +30,21 @@ Karina was among Cid's servants implicated in the ruined-temple affair near Stan
 
 **Black Agnes Mudwallow** was a **night hag** counted among Cid's servants at the [[hydra-temple-disaster|ruined temple near Stanleyville]]. The prisoners faced a blood rite, magical restraints and a circle of enemies that included Jaaris, Karina and Zauks. Agnes belonged to that circle, though sharing Cid's service did not establish any deeper common ideology.
 
-The **Misfits defeated and killed Black Agnes** during their original campaign in **2000 AF**. The circumstances of the final encounter have not been established. Her part in Cid's circle and the danger she posed to his prisoners are sufficient to explain why the company remembered her.
+The **Misfits defeated and killed Black Agnes** during their original campaign in **2000 AF**. The final clash itself has faded from the surviving accounts. What remains is Agnes's place among Cid's servants and the danger she posed to his prisoners.
 
 ## Ros Furband
 
 **Ros Furband** was a **pirate captain for hire** whose galleon carried a substantial crew, more than forty pirates in some accounts. He captured the Misfits **after the Tournament of Champions**, when [[Queen Melmiri]] was already Cid's prisoner, and carried the companions toward the vampire **[[jinlin-vechon|Jinlin Vechon]]** and the Wrath of Innocent. His established role was a paid contract, not a proven devotion to Cid or Jinlin's cause.
 
-Around **2008 AF**, a shipment belonging to Ros was lost when the smuggler **[[Corvin Voss]]** sacrificed the cargo to save **[[minor-characters#seb-bramble|Seb Bramble]]** and his ship from a separate band of outlaws. Ros's response to the loss, the nature of the cargo, and any consequences for Corvin remain unrecorded. The outlaws are not established as Ros's servants.
+Around **2008 AF**, a shipment belonging to Ros was lost when the smuggler **[[Corvin Voss]]** sacrificed the cargo to save **[[minor-characters#seb-bramble|Seb Bramble]]** and his ship from a separate band of outlaws. The cargo's contents, Ros's response, and any consequences for Corvin are lost to later accounts. Nothing in those accounts links the separate band of outlaws to Ros.
 
-Ros deprived the companions of their weapons and held them under restraints intended to suppress their magic. **Lavitz and Heureux rowed, Tel'Lora and Anna labored in the galley, and Sven and [[Beldir Willowrun]] kept lookout.** The voyage delayed Melmiri's rescue and placed the adventurers in another person's power. Ros's exact fee, the identity of his payer, and his later fate are not established. What makes him consequential is simple: he profited by obstructing a rescue.
+Ros deprived the companions of their weapons and held them under restraints intended to suppress their magic. **Lavitz and Heureux rowed, Tel'Lora and Anna labored in the galley, and Sven and [[Beldir Willowrun]] kept lookout.** The voyage delayed Melmiri's rescue and placed the adventurers in another person's power. Neither the fee nor the identity of Ros's employer survives in the accounts, and his later fate is unclear. His place in this history is plain enough: he profited by obstructing a rescue.
 
 ## Jinlin Vechon
 
 **Jinlin Vechon** was a **dragonborn transformed into a vampire against his will** through experiments associated with the [[Blood Sickness]] in the time of [[Aldus Greystone III]]. Nearly two thousand years later, Aldus was known as [[Cid the Blood King]], and Jinlin's desire for an end to his condition had hardened into a determination to destroy the man responsible. He founded the **[[independent-factions-of-the-misfits-era#the-wrath-of-innocent|Wrath of Innocent]]**, but the faction's campaign also harmed people who had played no part in Jinlin's suffering.
 
-After [[ros-furband|Ros Furband]] delivered the captive Misfits to him, **Jinlin was defeated in a real confrontation during 2000 AF**. Only afterward did the mind flayer [[Zauks]] imprison the companions in false adventures and ideal lives. Jinlin's grievance was genuine; the harm he inflicted upon others was not justified by it. **His ultimate death has not been confirmed**, and the archive does not assign him a death date.
+After [[ros-furband|Ros Furband]] delivered the captive Misfits to him, **Jinlin was defeated in a real confrontation during 2000 AF**. Only afterward did the mind flayer [[Zauks]] imprison the companions in false adventures and ideal lives. Jinlin's grievance was genuine; the harm he inflicted upon others was not justified by it. What became of Jinlin after that confrontation is uncertain; his death is not among the events the surviving accounts confirm.
 
 ## Gladios and Shadowthorn
 
