@@ -8,9 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 UI_FILES = (
     *sorted((ROOT / "templates").glob("*.html")),
-    ROOT / "assets/map.js",
-    ROOT / "assets/gallery.js",
-    ROOT / "assets/reading-desk.js",
+    *sorted((ROOT / "assets").glob("*.js")),
+    ROOT / "data/welcome-routes.yml",
     ROOT / "data/collection-navigation.yml",
     ROOT / "data/relationship-maps.yml",
     ROOT / "data/people-navigation.yml",
