@@ -96,3 +96,31 @@ html[data-appearance="vellum"] .page-home .hero-number{
  }
  html[data-appearance="vellum"] .page-home .hero-number{right:17px;bottom:16px;font-size:8px}
 }
+
+/* Vellum home card ink: inherited Night-specific pale lettering must not sit on ivory. */
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card h2,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card h2{
+ color:#322f2a;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-subtitle,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-subtitle{
+ color:#674a2d!important;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card>p:not(.journeys-card-subtitle),
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card>p:not(.connections-card-subtitle){
+ color:#4a433b;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-footer,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-bottom{
+ color:#55493a;border-color:#bba98a;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-footer span,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-bottom span,
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-overline,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-eyebrow{
+ color:#674521;
+}
+html[data-appearance="vellum"] .page-home .archive-wing--journeys .journeys-card-symbol,
+html[data-appearance="vellum"] .page-home .archive-wing--connections .connections-card-glyph{
+ color:#846341;
+}
