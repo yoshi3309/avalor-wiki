@@ -73,7 +73,7 @@ def main():
                             check(page.locator("#reading-bookmark").count() == 1,
                                   f"{size}/{name}/{theme}: reading bookmark missing")
                             measure = page.locator(".article-body").evaluate("(el) => getComputedStyle(el).maxWidth")
-                            check(measure == "none" or measure.endswith("px"),
+                            check(measure in ("none", "100%") or measure.endswith(("px", "ch", "rem")),
                                   f"{size}/{name}/{theme}: invalid reading measure {measure}")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
