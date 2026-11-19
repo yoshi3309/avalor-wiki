@@ -20,7 +20,7 @@ groups:
   - id: misfits
     title: Misfits & Companions
     eyebrow: HEROES OF A LATER AGE
-    icon: "⚔"
+    icon: "⚔︎"
     description: The adventurers and traveling companions whose deeds changed the realm.
     articles:
       - the-misfits
