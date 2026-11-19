@@ -71,7 +71,7 @@ The organization he directed invested in dangerous magical discoveries. Its exca
 
 Those activities were not harmless scholarship conducted under an eccentric patron. Corvin had witnessed the abuse of unwilling people in the Diamond's experiments before being taken prisoner himself. **[[minor-characters#stavros-the-pale-man|Stavros]]**, another captive, knew parts of the magical restraints placed upon the organization's immense cargo.
 
-What Esogoth personally knew about every operation, and precisely which workings he could perform unaided, have not been established by the public testimony. His responsibility as a commanding figure is nevertheless inseparable from the dangerous enterprise he led.
+The surviving accounts do not reveal how deeply Esogoth understood each operation, or which workings he could perform himself. Yet the enterprise bore his direction, and its dangers cannot be separated from his command.
 
 The network's capacity to buy protection, move materials and keep operations concealed made these investigations possible on a scale far beyond that of an isolated practitioner.
 
@@ -101,7 +101,7 @@ Gladios nearly killed Corvin while attempting to take Naeris. The crew saved the
 
 The fugitive vessel reached **Renada** after a dangerous effort to separate the artifact from its workings. When the hold was examined, the object itself had disappeared.
 
-There was no confirmed recovery by Esogoth or the Diamond, and no public evidence establishing where the artifact had gone.
+The trail of the artifact vanished after the crew's escape. Neither Esogoth nor the Diamond was known to have recovered it.
 
 ## The cost of a failed recovery
 
@@ -113,13 +113,13 @@ The unrest was neither conclusively united nor proof that the organization had b
 
 When people saw that its authority could be defied, some were more willing to defy it.
 
-No account establishes Esogoth's personal fate in the weeks that followed. His authority had been challenged, not definitively ended.
+After Pier Seven, Esogoth passes from the surviving accounts. His authority had been challenged, not definitively ended.
 
 ## An unfinished reckoning
 
 Esogoth remains a consequential figure because the Diamond's methods could not be separated from his leadership. He brought together commercial reach, criminal enforcement, and occult ambition, and gave them the shape of an organization able to make whole neighborhoods accommodate its interests.
 
-Neither his early life nor the complete nature of his private objectives has been recovered in the public historical record. His species, birthplace, age, and the details of his personal magical practice remain unrecorded.
+The sources say little of Esogoth before the Black Diamond. His species, birthplace, age, and personal practice of magic remain obscure, as do the aims he kept closest to himself.
 
 What is known is enough to reject the idea that he was merely a distant patron of a failed expedition.
 
