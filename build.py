@@ -124,7 +124,7 @@ for obsolete_slug, rule in MERGES.items():
         ALIAS[name_key] = obsolete_slug
 MERGE_BY_DESTINATION={(r['parent'],r['section']):{'slug':old,'title':r['title']} for old,r in MERGES.items()}
 # Approved spelling corrections preserve old article bookmarks without duplicate entries.
-RENAMED_ARTICLES = {'tumbledown': 'tumbletown'}
+RENAMED_ARTICLES = {'tumbletown': 'tumbledown'}
 for old_slug, new_slug in RENAMED_ARTICLES.items():
     if old_slug in BY_SLUG or new_slug not in BY_SLUG or old_slug in MERGES:
         raise ValueError(f'Invalid article spelling redirect: {old_slug} -> {new_slug}')

@@ -35,6 +35,16 @@ assert all('/assets/' not in url for url in urls), 'Sitemap contains resources'
 assert all('/index.html' not in url for url in urls)
 assert all('/articles/rynhold-park/' not in url for url in urls), 'Retired redirect indexed'
 
+# Canonical location spelling changed; historical bookmarks still resolve.
+assert BASE + 'articles/tumbledown/' in urls, 'Correct Tumbledown article missing from sitemap'
+assert BASE + 'articles/tumbletown/' not in urls, 'Legacy spelling must not be indexed'
+canonical_place = (SITE/'articles'/'tumbledown'/'index.html').read_text(encoding='utf-8')
+legacy_place = (SITE/'articles'/'tumbletown'/'index.html').read_text(encoding='utf-8')
+assert 'Tumbledown' in canonical_place
+assert 'http-equiv="refresh"' in legacy_place
+assert '../../articles/tumbledown/' in legacy_place
+assert 'name="robots" content="noindex"' in legacy_place
+
 robots=(SITE/'robots.txt').read_text(encoding='utf-8')
 assert 'Sitemap: '+BASE+'sitemap.xml' in robots
 assert 'User-agent: *' in robots

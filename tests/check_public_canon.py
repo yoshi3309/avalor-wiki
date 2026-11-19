@@ -19,6 +19,16 @@ files = sorted(ARTICLES.glob("*.md"))
 if not files:
     sys.exit("No wiki articles found")
 
+# Ferris canon: the corrected village has one name, and Grams has a given name.
+assert (ARTICLES / "tumbledown.md").is_file(), "Tumbledown must be the canonical location"
+assert not (ARTICLES / "tumbletown.md").exists(), "Incorrect Tumbletown must not be published as a canonical article"
+ferris_raw = (ARTICLES / "ferris-rumbuckle.md").read_text(encoding="utf-8")
+place_raw = (ARTICLES / "tumbledown.md").read_text(encoding="utf-8")
+assert all(word in ferris_raw for word in ("Winnifred", "Winnie", "Grams")), "Ferris family correction missing"
+assert all(word in place_raw for word in ("Winnifred", "Winnie", "Grams")), "Village family correction missing"
+wrong_name = [p.name for p in files if "Tumbletown" in p.read_text(encoding="utf-8")]
+assert not wrong_name, f"Published records still use Tumbletown: {wrong_name}"
+
 entries = {}
 aliases = {}
 problems = []

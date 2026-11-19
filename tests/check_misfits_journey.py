@@ -490,7 +490,7 @@ print("Trade and institutions reconciliation passed: waterways, Black Stair dest
 forest = source("forest-of-the-fey")
 feyplanes = source("planes-of-existence")
 wood = source("distant-lands-of-the-hunter")
-tumbledown = source("tumbletown")
+tumbledown = source("tumbledown")
 ferris = source("ferris-rumbuckle")
 settlements = source("lesser-settlements-of-avalor")
 kel = source("kel-maris")
@@ -508,13 +508,13 @@ assert "not automatically be equated" not in wood
 assert "should not be mistaken for proof that it lies within Avalor's separate Forest of the Fey" not in tumbledown
 assert "the resemblance of their names" not in forest.lower()
 assert "Sea Shadows" in source("guilds-of-avalor")
-print("Fey forest continuity: Wood of the Fey alias, Tumbletown border, Ilyanamel and planar distinction verified.")
+print("Fey forest continuity: Wood of the Fey alias, Tumbledown border, Ilyanamel and planar distinction verified.")
 
 
 # Keeper's November 14 superseding corrections: one home and one guild identity.
-assert "Tumbletown" in source("ferris-rumbuckle")
-assert "[[Tumbletown]]" in source("ferris-rumbuckle")
-assert "Tumbletown" in source("forest-of-the-fey")
+assert "Tumbledown" in source("ferris-rumbuckle")
+assert "[[Tumbledown]]" in source("ferris-rumbuckle")
+assert "Tumbledown" in source("forest-of-the-fey")
 assert "Sea Shadows" in source("mg-the-fixer")
 assert "Sea Shadows" in source("lesser-settlements-of-avalor")
 assert "Salt" in source("guilds-of-avalor")
@@ -523,6 +523,6 @@ assert "## Phandalin" not in other_places and "## Vey'thal" in other_places
 assert "## Phandalin" in source("lesser-settlements-of-avalor")
 assert "lesser-settlements-of-avalor#phandalin" in source("notfred")
 assert "other-locations-of-avalor#vey-thal" in source("naeris-thorne")
-assert "tumbledown" not in source("forest-of-the-fey").lower()
+assert "tumbletown" not in source("forest-of-the-fey").lower()
 assert "sea serpents" not in source("guilds-of-avalor").lower()
-print("Superseding location and guild canon: Tumbletown, Sea Shadows, Salt, Phandalin, and Vey'thal verified.")
+print("Superseding location and guild canon: Tumbledown, Sea Shadows, Salt, Phandalin, and Vey'thal verified.")

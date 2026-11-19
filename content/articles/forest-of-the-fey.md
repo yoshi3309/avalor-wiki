@@ -11,9 +11,9 @@ facts: |-
   Communities: Elven clans and settlements
   Historical accord: The Elven Concord
   Planar character: Material Plane extension of the Feywild
-  Known villages: Ilyanamel within the forest; Tumbletown at its border
+  Known villages: Ilyanamel within the forest; Tumbledown at its border
   Royal house: Frozenroar
-related: peoples-of-avalor,ringtree-clan,planes-of-existence,kingdom-of-avalor,house-frozenroar,dead-marshes,denzians-forest,tumbletown,lesser-settlements-of-avalor,heyden-of-the-goldenfoot
+related: peoples-of-avalor,ringtree-clan,planes-of-existence,kingdom-of-avalor,house-frozenroar,dead-marshes,denzians-forest,tumbledown,lesser-settlements-of-avalor,heyden-of-the-goldenfoot
 source: Compendium II · Entries II.003, XVII and II.001, XII; Compendium I ·
   I.009, elven peoples; The Living Chronicle, Chapter V; creator-supplied
   Ringtree Clan history (November 2026); Keeper geographical clarification (November 14, 2026)
@@ -88,9 +88,9 @@ Neither an unfamiliar way of governing nor a hidden home makes a community less 
 
 The elven village of **[[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]]** lies **within the Forest of the Fey**. It is remembered as the birthplace of **[[kel-maris|Kel'Maris]]**, the swordmaster who later became Lord Marshal and was known as the Lion's Shadow. Its woodland setting belongs to the same inhabited forest whose ancestral rights were later recognized by the Elven Concord.
 
-At the forest's **border**, the gnome village of **[[Tumbletown]]** belongs to Avalor as well. Its leatherworkers and rangers lived close to the wild country where the Feywild's influence reaches into the material world. Its location does not establish a surveyed map coordinate, nor does every forest path constitute a known crossing into another plane.
+At the forest's **border**, the gnome village of **[[Tumbledown]]** belongs to Avalor as well. Its leatherworkers and rangers lived close to the wild country where the Feywild's influence reaches into the material world. Its location does not establish a surveyed map coordinate, nor does every forest path constitute a known crossing into another plane.
 
-The firbolg **[[The Ringtree Clan|Ringtree]]** communities are another part of the forest's varied living history. Neither Ilyanamel, Tumbletown, nor the Ringtree can stand for every settlement in the region.
+The firbolg **[[The Ringtree Clan|Ringtree]]** communities are another part of the forest's varied living history. Neither Ilyanamel, Tumbledown, nor the Ringtree can stand for every settlement in the region.
 
 ## The name and the plane
 
