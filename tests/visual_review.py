@@ -115,7 +115,7 @@ def main():
                                     ".archive-wing--connections .connections-card>p:not(.connections-card-subtitle)",
                                 ):
                                     luminance = page.locator(selector).first.evaluate("""(el) => {
-                                        const c = getComputedStyle(el).color.match(/[\\d.]+/g).slice(0,3).map(Number);
+                                        const c = getComputedStyle(el).color.match(/[0-9.]+/g).slice(0,3).map(Number);
                                         const [r,g,b] = c.map(v => {
                                             v /= 255;
                                             return v <= .04045 ? v/12.92 : ((v+.055)/1.055)**2.4;
