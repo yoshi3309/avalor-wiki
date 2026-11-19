@@ -111,3 +111,53 @@ html[data-reading-contrast="high"][data-appearance="vellum"] .page-compare{
  .page-compare .dossier-preset-grid{gap:12px}
 }
 @media(prefers-reduced-motion:reduce){.page-connections .connections-card,.page-compare .dossier-preset{transition:none}}
+
+/* Phase 6 visual QA: keep scholarly annotations legible on Vellum. */
+html[data-appearance="vellum"] .page-connections .cross-edge{
+ background:#fffaf0;border-color:#b7a07d;
+}
+html[data-appearance="vellum"] .page-connections .cross-edge button{
+ color:#57391d;
+}
+html[data-appearance="vellum"] .page-connections .cross-edge p{
+ color:#4c4133;
+}
+html[data-appearance="vellum"] .page-connections .cross-edge a{
+ color:#62401d;text-decoration:underline;text-underline-offset:2px;
+}
+html[data-appearance="vellum"] .page-connections .cross-note{
+ background:#e7d7b9;border-color:#b8a17e;color:#493929;
+}
+html[data-appearance="vellum"] .page-connections .cross-note strong{
+ color:#382818;
+}
+html[data-appearance="vellum"] .page-connections .cross-stats strong,
+html[data-appearance="vellum"] .page-connections .cross-stats span,
+html[data-appearance="vellum"] .page-connections .cross-previous h2,
+html[data-appearance="vellum"] .page-connections .cross-previous p{
+ color:#573c22;
+}
+html[data-appearance="vellum"] .page-compare .dossier-research{
+ background:#f4ead9;border-color:#b7a07d;
+}
+html[data-appearance="vellum"] .page-compare .dossier-research-heading{
+ background:#e7d5b7;border-color:#b7a07d;
+}
+html[data-appearance="vellum"] .page-compare .dossier-research-heading h2{
+ color:#362b1e;
+}
+html[data-appearance="vellum"] .page-compare .dossier-research-heading>span{
+ color:#654720;
+}
+html[data-appearance="vellum"] .page-compare .dossier-comparison-label{
+ background:#ead9bc;color:#4b341c;border-color:#bba27b;
+}
+html[data-appearance="vellum"] .page-compare .dossier-comparison-row{
+ border-color:#bca582;
+}
+html[data-appearance="vellum"] .page-compare .dossier-comparison-cell+.dossier-comparison-cell{
+ border-color:#c2aa88;
+}
+html[data-appearance="vellum"] .page-compare .dossier-comparison-subject{
+ color:#604522;
+}
