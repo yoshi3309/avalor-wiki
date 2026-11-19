@@ -38,6 +38,12 @@ assert 'The Royal Commission welcomes all' in page
 assert 'data-welcome-panel' in page and 'data-welcome-choice' in page
 assert 'aria-controls="welcome-' in page
 assert 'data-welcome-panel="kingdom"' in page and 'data-welcome-panel="world"' in page
+# Inline SVG icons prevent iOS from substituting colorful emoji for swords/arrows.
+assert page.count('class="welcome-swords-icon"') == 3, 'Heroes doorway/panel must use consistent vector swords'
+assert page.count('class="welcome-link-arrow"') == 8, 'Reading path links must use vector arrows'
+assert '↗' not in page, 'Unicode northeast arrow can render as emoji on iOS'
+assert '<svg class="welcome-swords-icon"' in page and 'stroke="currentColor"' in page
+
 journeys=yaml.safe_load((ROOT/'data/reading-journeys.yml').read_text(encoding='utf-8'))
 ids={r['id'] for r in journeys['journeys']}
 seen=set()
