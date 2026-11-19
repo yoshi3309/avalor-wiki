@@ -269,11 +269,10 @@ def main():
                                 art.scroll_into_view_if_needed()
                                 art.evaluate("(img) => img.loading = 'eager'")
                                 try:
-                                    art.evaluate("""img => new Promise((resolve, reject) => {
-                                      if (img.complete) return img.naturalWidth ? resolve(true) : reject(new Error('image failed'));
-                                      img.addEventListener('load', () => resolve(true), {once: true});
-                                      img.addEventListener('error', () => reject(new Error('image failed')), {once: true});
-                                    })""")
+                                    art.evaluate("""img => Promise.race([
+                                      img.decode().then(() => img.naturalWidth > 0 ? true : Promise.reject(new Error('image failed'))),
+                                      new Promise((_, reject) => setTimeout(() => reject(new Error('image load timeout')), 6000))
+                                    ])""")
                                 except Exception:
                                     ISSUES.append(f"{size}/{theme}: failed art image {art.get_attribute('src')}")
                         if name == "start" and theme == "vellum":
