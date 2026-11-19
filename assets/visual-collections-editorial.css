@@ -1,0 +1,168 @@
+/* Vellum & Binding / Phase 5 — visual collections and the Cartographer's Table.
+   No source imagery, map coordinates, artwork metadata or folio text are altered. */
+.page-map,.page-gallery,.page-exhibits{
+ --visual-surface:#20313a;--visual-card:#253941;--visual-edge:#68735f;
+ --visual-title:#f0e2c9;--visual-copy:#c1cbc3;--visual-accent:#dec08c;
+}
+.page-map .atlas-heading{padding-top:12px;padding-bottom:30px}
+.page-map .atlas-heading h1,
+.page-gallery .gallery-heading h1,
+.page-exhibits .exhibits-heading h1,
+.page-exhibits .exhibit-heading h1{letter-spacing:-.025em;color:var(--visual-title)}
+.page-map .atlas-heading p,
+.page-gallery .gallery-heading>p,
+.page-exhibits .exhibits-heading>p,
+.page-exhibits .exhibit-deck{color:var(--visual-copy);max-width:75ch}
+.page-map .atlas-kicker,.page-map .atlas-panel-kicker,
+.page-gallery .gallery-heading .kicker,
+.page-exhibits .exhibits-kicker{color:var(--visual-accent)}
+.page-map .atlas-topline,.page-map .atlas-tools,.page-map .atlas-map-foot{background:var(--visual-surface);border-color:var(--visual-edge);color:var(--visual-copy)}
+.page-map .atlas-layout{border-color:var(--visual-edge);box-shadow:0 12px 35px #07121b33}
+.page-map .atlas-panel{border-color:var(--visual-edge)}
+.page-map .atlas-panel-head,.page-map .atlas-explore{border-color:var(--visual-edge)}
+.page-map .atlas-kingdom-link{border-color:var(--visual-edge);color:var(--visual-accent)}
+.page-map .atlas-zoom-buttons button,.page-map .atlas-tool-note{color:var(--visual-accent)}
+.page-map .atlas-zoom-buttons button,.page-map .atlas-editor-toggle{border-color:var(--visual-edge)}
+.page-map .atlas-panel :is(input,select,button):focus-visible,
+.page-map .atlas-tools button:focus-visible{outline:3px solid var(--visual-accent);outline-offset:2px}
+.page-map .atlas-viewport{outline-offset:-3px}
+/* Keep the actual map artwork, pins and pan/zoom surface unchanged in both appearances. */
+.page-gallery .gallery-container,.page-exhibits .exhibits-index,.page-exhibits .exhibit-page{max-width:1340px}
+.page-gallery .gallery-heading,.page-exhibits .exhibits-heading{padding-top:45px;padding-bottom:32px}
+.page-gallery .gallery-heading h1,.page-exhibits .exhibits-heading h1{font-size:clamp(36px,4.4vw,60px)}
+.page-gallery .gallery-heading-footer{border-color:var(--visual-edge);color:var(--visual-copy)}
+.page-gallery .gallery-section-heading h2{color:var(--visual-title)}
+.page-gallery .gallery-section-heading p{color:var(--visual-copy)}
+.page-gallery .gallery-collection-grid,.page-gallery .gallery-grid{gap:18px}
+.page-gallery .gallery-wing{border-color:var(--visual-edge)}
+.page-gallery .gallery-wing:hover{border-color:var(--visual-accent)}
+.page-gallery .gallery-card{background:var(--visual-surface);border:1px solid var(--visual-edge);box-shadow:0 9px 26px #07141b22}
+.page-gallery .gallery-card:hover{border-color:var(--visual-accent)}
+.page-gallery .gallery-card-art{background:#14242d;border-color:var(--visual-edge)}
+.page-gallery .gallery-card-copy strong{color:var(--visual-title)}
+.page-gallery .gallery-card-caption{color:var(--visual-copy)}
+.page-gallery .gallery-card-eyebrow,.page-gallery .gallery-card-open{color:var(--visual-accent)}
+.page-gallery .gallery-card-open{border-color:var(--visual-edge)}
+.page-gallery .gallery-card:focus-visible{outline:3px solid var(--visual-accent);outline-offset:3px}
+.page-gallery .gallery-lightbox-dialog{border-color:var(--visual-edge)}
+.page-gallery .gallery-viewer-header,.page-gallery .gallery-viewer-description{border-color:var(--visual-edge)}
+.page-gallery .gallery-viewer-details h2{color:var(--visual-title)}
+.page-gallery .gallery-viewer-details p{color:var(--visual-copy)}
+.page-gallery .gallery-viewer-category,.page-gallery .gallery-viewer-label,
+.page-gallery .gallery-viewer-references a{color:var(--visual-accent)}
+.page-gallery .gallery-viewer-references{border-color:var(--visual-edge)}
+.page-gallery .gallery-viewer-hint,.page-gallery .gallery-viewer-counter{color:var(--visual-copy)}
+.page-gallery .gallery-viewer-close:focus-visible,.page-gallery .gallery-viewer-arrow:focus-visible{outline:3px solid var(--visual-accent)}
+.page-exhibits .exhibits-principle,.page-exhibits .exhibits-toolbar{background:var(--visual-surface);border-color:var(--visual-edge)}
+.page-exhibits .exhibits-principle p,.page-exhibits .exhibits-endnote p{color:var(--visual-copy)}
+.page-exhibits .exhibits-principle strong{color:var(--visual-title)}
+.page-exhibits .exhibits-toolbar label{color:var(--visual-accent)}
+.page-exhibits .exhibits-toolbar :is(input,select){min-height:44px;border-color:var(--visual-edge)}
+.page-exhibits .exhibits-toolbar :is(input,select):focus-visible{outline:3px solid var(--visual-accent);outline-offset:2px}
+.page-exhibits .exhibits-list-summary{border-color:var(--visual-edge);color:var(--visual-accent)}
+.page-exhibits .exhibits-card{background:var(--visual-surface);border-color:var(--visual-edge)}
+.page-exhibits .exhibits-card:hover{border-color:var(--visual-accent)}
+.page-exhibits .exhibits-card:focus-visible{outline:3px solid var(--visual-accent);outline-offset:3px}
+.page-exhibits .exhibits-card h2{color:var(--visual-title)}
+.page-exhibits .exhibits-card-body>p:not(.exhibits-card-subtitle){color:var(--visual-copy)}
+.page-exhibits .exhibits-card-meta,.page-exhibits .exhibits-card-foot strong{color:var(--visual-accent)}
+.page-exhibits .exhibits-card-foot{border-color:var(--visual-edge);color:var(--visual-copy)}
+.page-exhibits .exhibit-warning{border-color:var(--visual-accent);background:var(--visual-surface)}
+.page-exhibits .exhibit-warning strong{color:var(--visual-accent)}
+.page-exhibits .exhibit-warning p{color:var(--visual-copy)}
+.page-exhibits .exhibit-dossier{border-color:var(--visual-edge);background:var(--visual-surface)}
+.page-exhibits .exhibit-dossier-top,.page-exhibits .exhibit-dossier-section{border-color:var(--visual-edge)}
+.page-exhibits .exhibit-dossier-top,.page-exhibits .exhibit-dossier-section li:before{color:var(--visual-accent)}
+.page-exhibits .exhibit-dossier-section h2{color:var(--visual-title)}
+.page-exhibits .exhibit-dossier-section li,.page-exhibits .exhibit-dossier-interpretation p{color:var(--visual-copy)}
+.page-exhibits .exhibit-dossier-uncertainty{background:rgba(166,128,79,.08)}
+.page-exhibits .exhibit-sources a,.page-exhibits .exhibit-page-nav a{color:var(--visual-accent)}
+.page-exhibits .exhibit-transcription{border-color:var(--visual-edge)}
+.page-exhibits .exhibit-transcription h2{color:var(--visual-title)}
+.page-exhibits .exhibit-transcription>p,.page-exhibits .exhibit-display figcaption{color:var(--visual-copy)}
+/* Folios deliberately remain parchment in Night and Vellum: modern reconstructions, not originals. */
+html[data-appearance="vellum"] .page-map,
+html[data-appearance="vellum"] .page-gallery,
+html[data-appearance="vellum"] .page-exhibits{
+ --visual-surface:#f3e7d3;--visual-card:#fff8ed;--visual-edge:#b8a07b;
+ --visual-title:#382f23;--visual-copy:#554838;--visual-accent:#694820;
+}
+html[data-appearance="vellum"] .page-map .atlas-heading h1,
+html[data-appearance="vellum"] .page-gallery .gallery-heading h1,
+html[data-appearance="vellum"] .page-exhibits .exhibits-heading h1,
+html[data-appearance="vellum"] .page-exhibits .exhibit-heading h1{color:var(--visual-title)}
+html[data-appearance="vellum"] .page-map .atlas-kingdom-link{background:#fff7e8;color:#62441e}
+html[data-appearance="vellum"] .page-map .atlas-panel,
+html[data-appearance="vellum"] .page-map .atlas-panel-head,
+html[data-appearance="vellum"] .page-map .atlas-explore{background:#f6ecda;color:#453a2c;border-color:var(--visual-edge)}
+html[data-appearance="vellum"] .page-map .atlas-panel :is(h2,h3,p,label),
+html[data-appearance="vellum"] .page-map .atlas-panel .atlas-panel-kicker{color:#4b3b27}
+html[data-appearance="vellum"] .page-map .atlas-panel :is(input,select){background:#fffaf0;color:#3a3024;border-color:#b19a77}
+html[data-appearance="vellum"] .page-map .atlas-panel button{color:#463723;border-color:#b19a77}
+html[data-appearance="vellum"] .page-map .atlas-tool-note{color:#4b3b27}
+html[data-appearance="vellum"] .page-map .atlas-zoom-buttons button{background:#fff7e7;color:#503a21}
+html[data-appearance="vellum"] .page-gallery .gallery-card{background:var(--visual-card)}
+html[data-appearance="vellum"] .page-gallery .gallery-card-art{background:#e4d5bc}
+html[data-appearance="vellum"] .page-gallery .gallery-lightbox-dialog{background:#f4e9d7;color:#3b3125}
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-header,
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-description{background:#f4e9d7}
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-close,
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-arrow{background:#fdf5e6;color:#553d20;border-color:#ad9879}
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-media{background:#26333b}
+html[data-appearance="vellum"] .page-gallery .gallery-viewer-references a{color:#62411d}
+html[data-appearance="vellum"] .page-exhibits .exhibits-card{background:var(--visual-card)}
+html[data-appearance="vellum"] .page-exhibits .exhibits-card-leaf{border-color:var(--visual-edge)}
+html[data-appearance="vellum"] .page-exhibits .exhibits-card-subtitle,
+html[data-appearance="vellum"] .page-exhibits .exhibit-subtitle{color:#72512a!important}
+html[data-appearance="vellum"] .page-exhibits .exhibits-toolbar :is(input,select){background:#fffaf0;color:#392f23}
+html[data-appearance="vellum"] .page-exhibits .exhibit-dossier-uncertainty{background:#f1dfc5}
+html[data-appearance="vellum"] .page-exhibits .exhibit-paper{box-shadow:0 15px 35px #4f371d34}
+html[data-appearance="vellum"] .page-exhibits .exhibits-endnote a{color:#62411d}
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-map,
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-gallery,
+html[data-reading-contrast="high"][data-appearance="vellum"] .page-exhibits{
+ --visual-surface:#fffdf6;--visual-card:#fffefb;--visual-edge:#675037;
+ --visual-title:#1c2c32;--visual-copy:#283a40;--visual-accent:#563715;
+}
+@media(max-width:710px){
+ .page-map .atlas-heading{padding-bottom:18px}
+ .page-gallery .gallery-heading,.page-exhibits .exhibits-heading{padding-top:28px}
+ .page-gallery .gallery-collection-grid,.page-gallery .gallery-grid{gap:13px}
+ .page-gallery .gallery-card-art{height:245px}
+ .page-exhibits .exhibits-card{grid-template-columns:1fr}
+ .page-exhibits .exhibits-card-leaf{min-height:125px}
+}
+@media(prefers-reduced-motion:reduce){.page-gallery .gallery-card{transition:none}.page-exhibits .exhibits-card{transition:none}}
+
+/* Atlas Vellum controls: light panels require light controls with readable labels. */
+html[data-appearance="vellum"] .page-map .atlas-filter-row button,
+html[data-appearance="vellum"] .page-map .atlas-area-controls button,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button,
+html[data-appearance="vellum"] .page-map .atlas-share-row button{
+ background:#fdf7ec;color:#4e371c;border-color:#ad9470;
+}
+html[data-appearance="vellum"] .page-map .atlas-filter-row button.is-active{
+ background:#674920;color:#fff9ef;border-color:#674920;
+}
+html[data-appearance="vellum"] .page-map .atlas-filter-row button:not(.is-active):hover,
+html[data-appearance="vellum"] .page-map .atlas-area-controls button:not(:disabled):hover,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button:not(:disabled):hover,
+html[data-appearance="vellum"] .page-map .atlas-share-row button:hover{
+ background:#e5d2af;color:#3b2918;
+}
+html[data-appearance="vellum"] .page-map .atlas-area-controls button:disabled,
+html[data-appearance="vellum"] .page-map .atlas-trail-actions button:disabled{
+ background:#e6dccb;color:#746756;border-color:#b9aa93;opacity:1;cursor:not-allowed;
+}
+html[data-appearance="vellum"] .page-map .atlas-trail-status,
+html[data-appearance="vellum"] .page-map .atlas-topline-right,
+html[data-appearance="vellum"] .page-map .atlas-explore-note,
+html[data-appearance="vellum"] .page-map .atlas-share-row #atlas-share-status{color:#584936}
+html[data-appearance="vellum"] .page-map .atlas-share-row{background:#f1e3cd;border-color:#b8a07b}
+html[data-appearance="vellum"] .page-map .atlas-list button{color:#3f3427;border-color:#c8b499}
+html[data-appearance="vellum"] .page-map .atlas-list button:hover,
+html[data-appearance="vellum"] .page-map .atlas-list button.is-selected{background:#e7d3b4;color:#382b1b}
+html[data-appearance="vellum"] .page-map .atlas-list small{color:#66533b}
+html[data-appearance="vellum"] .page-map .atlas-detail{background:#fff7e7;border-color:#b8a07b}
+html[data-appearance="vellum"] .page-map .atlas-detail :is(h3,p,.atlas-detail-empty,.atlas-detail-status){color:#443625}
+html[data-appearance="vellum"] .page-map .atlas-detail a{color:#63431f;border-color:#a88b62}

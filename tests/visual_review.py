@@ -30,6 +30,9 @@ PAGES = {
     "chronicle": "/chronicle/",
     "journeys": "/journeys/",
     "founding-journey": "/journeys/fall-of-the-six/",
+    "atlas": "/map/",
+    "gallery": "/gallery/",
+    "exhibits": "/exhibits/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
@@ -112,6 +115,33 @@ def main():
                                   f"{size}/{theme}: journey chapters absent")
                             check(page.locator(".journey-primary-link").get_attribute("href"),
                                   f"{size}/{theme}: primary chapter link absent")
+                        if name == "atlas":
+                            check(page.locator("#atlas-viewport").count() == 1,
+                                  f"{size}/{theme}: atlas viewport missing")
+                            check(page.locator("#atlas-image").count() == 1,
+                                  f"{size}/{theme}: map art missing")
+                            check(page.locator("#atlas-zoom-in").count() == 1,
+                                  f"{size}/{theme}: zoom control missing")
+                            check(page.locator("#atlas-search").count() == 1,
+                                  f"{size}/{theme}: atlas location search missing")
+                        if name == "gallery":
+                            check(page.locator(".gallery-card").count() > 0,
+                                  f"{size}/{theme}: gallery artwork absent")
+                            page.locator(".gallery-card").first.click()
+                            check(page.locator("#gallery-lightbox").is_visible(),
+                                  f"{size}/{theme}: gallery viewer failed to open")
+                            check(page.locator("#gallery-viewer-image").get_attribute("src"),
+                                  f"{size}/{theme}: gallery viewer artwork absent")
+                            page.locator(".gallery-viewer-close").click()
+                            check(not page.locator("#gallery-lightbox").is_visible(),
+                                  f"{size}/{theme}: gallery viewer failed to close")
+                        if name == "exhibits":
+                            check(page.locator("[data-exhibit-card]").count() > 0,
+                                  f"{size}/{theme}: exhibit catalogue empty")
+                            page.locator("#exhibits-search").fill("zz-no-exhibit-xyz")
+                            check(page.locator("[data-exhibit-card]:visible").count() == 0,
+                                  f"{size}/{theme}: exhibit filter did not hide unmatched records")
+                            page.locator("#exhibits-search").fill("")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
