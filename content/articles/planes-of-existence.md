@@ -73,7 +73,7 @@ The eladrin **[[svendyal-shadowwhisper|Sven]]** came from the Feywild before he 
 
 The **[[Forest of the Fey]]** is an **Avalorian forest on the Material Plane** and also **an extension of the Feywild into that plane**. Its bond with the other realm is real, not simply a resemblance between names. The Feywild is still a distinct plane, while the woodland, its settlements, its ancestral claims, and its agreements with the crown are part of life in Avalor.
 
-The connection should not be mistaken for proof that every wooded path leads across the planes. **[[Tumbletown]]** stands at the forest's border, and the elven village of **[[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]]** lies within it; neither settlement ceases to belong to the Material Plane because of the forest's fey character.
+The connection should not be mistaken for proof that every wooded path leads across the planes. **[[Tumbledown]]** stands at the forest's border, and the elven village of **[[The Smaller Settlements of Avalor#ilyanamel|Ilyanamel]]** lies within it; neither settlement ceases to belong to the Material Plane because of the forest's fey character.
 
 ## The Shadowfell and the Blood King
 
