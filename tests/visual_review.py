@@ -100,9 +100,11 @@ def main():
                                       f"{size}/{theme}: illustrated wing plate failed to load")
                             check(page.locator(".hero-sky").count() == 1,
                                   f"{size}/{theme}: missing hero illustration")
-                            bg = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).backgroundImage")
-                            check("hero-scene.svg" in bg,
-                                  f"{size}/{theme}: missing hero-scene artwork")
+                            hero_art = page.locator(".hero-landscape-image")
+                            check(hero_art.count() == 1 and "spine-of-the-world" in (hero_art.get_attribute("src") or ""),
+                                  f"{size}/{theme}: Spine of the World hero artwork missing")
+                            check(hero_art.evaluate("(img) => img.complete && img.naturalWidth > 0"),
+                                  f"{size}/{theme}: Spine hero image failed to load")
                             if theme == "vellum":
                                 opacity = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).opacity")
                                 check(float(opacity) >= 0.95,
