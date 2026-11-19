@@ -90,7 +90,13 @@ def main():
                             for plate in plates.all():
                                 # Lazy off-screen imagery is not loaded until requested;
                                 # decode() forces a real image-load check on the SVG asset.
-                                check(plate.evaluate("(img) => img.decode().then(() => img.naturalWidth > 0).catch(() => false)"),
+                                check(plate.evaluate("""(img) => {
+                                    img.loading = 'eager';
+                                    return Promise.race([
+                                      img.decode().then(() => img.naturalWidth > 0).catch(() => false),
+                                      new Promise(resolve => setTimeout(() => resolve(false), 5000))
+                                    ]);
+                                }"""),
                                       f"{size}/{theme}: illustrated wing plate failed to load")
                             check(page.locator(".hero-sky").count() == 1,
                                   f"{size}/{theme}: missing hero illustration")
