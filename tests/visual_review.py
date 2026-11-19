@@ -100,9 +100,11 @@ def main():
                                       f"{size}/{theme}: illustrated wing plate failed to load")
                             check(page.locator(".hero-sky").count() == 1,
                                   f"{size}/{theme}: missing hero illustration")
-                            bg = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).backgroundImage")
-                            check("hero-scene.svg" in bg,
-                                  f"{size}/{theme}: missing hero-scene artwork")
+                            hero_art = page.locator(".hero-landscape-image")
+                            check(hero_art.count() == 1 and "spine-of-the-world" in (hero_art.get_attribute("src") or ""),
+                                  f"{size}/{theme}: Spine of the World hero artwork missing")
+                            check(hero_art.evaluate("(img) => img.complete && img.naturalWidth > 0"),
+                                  f"{size}/{theme}: Spine hero image failed to load")
                             if theme == "vellum":
                                 opacity = page.locator(".hero-sky").evaluate("(el) => getComputedStyle(el).opacity")
                                 check(float(opacity) >= 0.95,
@@ -261,6 +263,24 @@ def main():
                             check(page.locator("#reading-bookmark-count").inner_text() == "0",
                                   f"{size}/{theme}: removing bookmark failed")
                             page.evaluate("localStorage.removeItem('avalor-reading-desk-v1')")
+                        if name == "home":
+                            artwork = page.locator(".hero-landscape-image, .archive-wing-plate img")
+                            check(artwork.count() == 7,
+                                  f"{size}/{theme}: expected spine hero and 6 illustrated wing bands")
+                            for art in artwork.all():
+                                art.scroll_into_view_if_needed()
+                                art.evaluate("(img) => img.loading = 'eager'")
+                                try:
+                                    art.evaluate("""img => Promise.race([
+                                      img.decode().then(() => img.naturalWidth > 0 ? true : Promise.reject(new Error('image failed'))),
+                                      new Promise((_, reject) => setTimeout(() => reject(new Error('image load timeout')), 6000))
+                                    ])""")
+                                except Exception:
+                                    ISSUES.append(f"{size}/{theme}: failed art image {art.get_attribute('src')}")
+                        if name == "start" and theme == "vellum":
+                            opacity = page.locator(".welcome-hero-scenery").evaluate(
+                                "(el) => Number(getComputedStyle(el).opacity)")
+                            check(opacity >= .7, f"{size}: Vellum hero art still too faint ({opacity})")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")

@@ -57,3 +57,19 @@ html[data-appearance="vellum"] .page-welcome .welcome-choice-sigil{color:#fff5de
 @media(max-width:760px){.page-welcome .welcome-hero--editorial{min-height:0;margin-bottom:35px}.page-welcome .welcome-hero--editorial .welcome-hero-copy{padding:45px 25px 75px}.page-welcome .welcome-hero-frame{inset:13px;padding:7px}.page-welcome .welcome-hero-frame-top{font-size:7px}.page-welcome .welcome-panel-grid{grid-template-columns:1fr}.page-welcome .welcome-choice{min-height:326px}}
 @media(max-width:520px){.page-welcome .welcome-choice-grid{gap:9px}.page-welcome .welcome-choice{min-height:308px;padding:0 11px 12px;gap:7px}.page-welcome .welcome-choice-illustration{height:118px;margin-inline:-11px}.page-welcome .welcome-choice-arch{width:88px;height:125px;margin-top:25px}.page-welcome .welcome-choice-sigil{font-size:32px;top:39px}.page-welcome .welcome-choice-sun{width:37px;height:37px;left:calc(50% - 18px)}.page-welcome .welcome-choice strong{font-size:14px}.page-welcome .welcome-choice-tagline{font-size:10px}.page-welcome .welcome-choice-arrow{font-size:9px}.page-welcome .welcome-choice-symbol{font-size:16px}.page-welcome .welcome-hero-frame-top{display:none}}
 @media(prefers-reduced-motion:reduce){.page-welcome .welcome-choice{transition:none}}
+
+/* Phase 9: keep the existing Start Here art visible in Vellum.
+   The overlay shields the text area; the right-hand scene stays legible. */
+html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery{opacity:.96}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery:after{
+ background:linear-gradient(90deg,rgba(239,228,211,.99) 0%,rgba(239,228,211,.94) 28%,rgba(239,228,211,.67) 54%,rgba(239,228,211,.16) 84%,rgba(239,228,211,.04) 100%)
+}
+html[data-appearance="vellum"] .page-welcome .welcome-hero-art{
+ filter:saturate(.95) contrast(1.05)
+}
+@media(max-width:760px){
+ html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery{opacity:.86}
+ html[data-appearance="vellum"] .page-welcome .welcome-hero-scenery:after{
+  background:linear-gradient(90deg,rgba(239,228,211,.96),rgba(239,228,211,.83) 49%,rgba(239,228,211,.28) 100%)
+ }
+}
