@@ -33,6 +33,9 @@ PAGES = {
     "atlas": "/map/",
     "gallery": "/gallery/",
     "exhibits": "/exhibits/",
+    "connections": "/connections/",
+    "six-connection": "/connections/the-six/",
+    "compare": "/compare/",
 }
 SIZES = {"desktop": (1440, 900), "mobile": (390, 844)}
 ISSUES = []
@@ -142,6 +145,37 @@ def main():
                             check(page.locator("[data-exhibit-card]:visible").count() == 0,
                                   f"{size}/{theme}: exhibit filter did not hide unmatched records")
                             page.locator("#exhibits-search").fill("")
+                        if name == "connections":
+                            check(page.locator("#cross-search").count() == 1,
+                                  f"{size}/{theme}: cross-explorer search missing")
+                            page.locator("#cross-search").fill("zz-no-person-xyz")
+                            check(page.locator(".cross-option:visible").count() == 0,
+                                  f"{size}/{theme}: cross-explorer filter failed")
+                            page.locator("#cross-search").fill("")
+                            check(page.locator(".cross-option:visible").count() > 0,
+                                  f"{size}/{theme}: cross-explorer list did not recover")
+                            page.locator(".cross-option").first.click()
+                            check(page.locator("#cross-name").inner_text().strip() not in ("", "Choose a record"),
+                                  f"{size}/{theme}: cross-explorer selection failed")
+                        if name == "six-connection":
+                            nodes = page.locator(".connection-node")
+                            check(nodes.count() >= 6,
+                                  f"{size}/{theme}: relationship nodes missing")
+                            nodes.first.click()
+                            check(nodes.first.get_attribute("aria-pressed") == "true",
+                                  f"{size}/{theme}: relationship selection failed")
+                            check(page.locator("#connection-detail-name").inner_text().strip() != "Select a figure on the map",
+                                  f"{size}/{theme}: relationship details failed")
+                        if name == "compare":
+                            check(page.locator("#dossier-left").count() == 1 and page.locator("#dossier-right").count() == 1,
+                                  f"{size}/{theme}: comparison selectors missing")
+                            check(page.locator(".dossier-comparison-row").count() > 0,
+                                  f"{size}/{theme}: comparison facts missing")
+                            left = page.locator("#dossier-left").input_value()
+                            right = page.locator("#dossier-right").input_value()
+                            page.locator("#dossier-swap").click()
+                            check(page.locator("#dossier-left").input_value() == right and page.locator("#dossier-right").input_value() == left,
+                                  f"{size}/{theme}: dossier swap failed")
                         if name == "start":
                             choices = page.locator("[data-welcome-choice]")
                             check(choices.count() == 4, f"{size}/{theme}: expected 4 start paths")
