@@ -146,7 +146,7 @@
           const type = response.headers.get('content-type') || '';
           if (!(type.includes('text/html') || (path === 'search-index.json' && type.includes('json'))))
             throw new Error('Unexpected content received for ' + path);
-          if (new URL(response.url).origin !== base.origin)
+          if (new URL(response.url).origin !== base.origin || !new URL(response.url).pathname.startsWith(base.pathname))
             throw new Error('The source left the public Archives');
           await cache.put(url, response);
           done++;
