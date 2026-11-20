@@ -1405,6 +1405,7 @@ for old_slug, new_slug in RENAMED_ARTICLES.items():
     for a in ALL
 ],ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 render('reading-desk.html','reading-desk/index.html',depth=1,page_type='reading-desk',title='My Reading Desk',crumbs='My Reading Desk')
+render('flight-library.html','flight-library/index.html',depth=1,page_type='flight-library',title='Flight Library',crumbs='Flight Library',description='Save public Avalor reading journeys or the full encyclopedia for offline travel.')
 render('exhibits.html','exhibits/index.html',depth=1,page_type='exhibits',title='Historical Documents & Exhibits',crumbs='Historical Exhibits',exhibits=EXHIBITS)
 for exhibit in EXHIBITS:
     render('exhibit.html',f'exhibits/{exhibit["id"]}/index.html',depth=2,page_type='exhibits',title=exhibit['title'],description=exhibit['summary'],crumbs=exhibit['title'],exhibit=exhibit)
@@ -1482,6 +1483,93 @@ for old_slug, rule in MERGES.items():
 # All rendered references must be generated before optimized media packaging.
 # Keep original uploads in Git for CMS editing, but ship only lightweight
 # variants to GitHub Pages (except the detailed official map).
+# Public-only offline catalogue. Content revisions are derived from the rendered
+# public pages, never private source material. The full pack is text-first.
+def flight_revision(paths):
+    import hashlib
+    digest = hashlib.sha256()
+    for path in paths:
+        digest.update(path.encode('utf-8'))
+        digest.update((PUBLIC / path / 'index.html').read_bytes())
+    return digest.hexdigest()[:16]
+
+flight_base = ['index.html', 'start/index.html', 'articles/index.html',
+               'journeys/index.html', 'reading-desk/index.html', 'flight-library/index.html']
+flight_packs = []
+for journey in JOURNEYS:
+    paths = ['journeys/' + journey['id'] + '/'] + [
+        'articles/' + step['article']['slug'] + '/' for step in journey['steps']
+    ]
+    revision = flight_revision(paths)
+    flight_packs.append({
+        'id': 'journey-' + journey['id'], 'type': 'journey',
+        'title': str(journey['title']), 'description': str(journey['summary']),
+        'start': paths[0], 'paths': paths, 'revision': revision,
+        'bytes': sum((PUBLIC / path / 'index.html').stat().st_size for path in paths)
+    })
+article_paths = ['articles/' + a['slug'] + '/' for a in ALL]
+all_paths = ['articles/', 'journeys/', 'reading-desk/'] + article_paths
+# Search index is included for the full pack; its revision is hashed separately.
+import hashlib
+full_digest = hashlib.sha256(flight_revision(article_paths).encode('ascii'))
+full_digest.update((PUBLIC / 'search-index.json').read_bytes())
+flight_packs.insert(0, {
+    'id': 'public-encyclopedia', 'type': 'encyclopedia',
+    'title': 'The Complete Public Encyclopedia',
+    'description': 'All published public articles, the article directory, reading journeys index, and full public-text search. Images and the interactive atlas remain online-only.',
+    'start': 'articles/', 'paths': all_paths + ['search-index.json'],
+    'revision': full_digest.hexdigest()[:16],
+    'bytes': sum((PUBLIC / path / 'index.html').stat().st_size for path in all_paths)
+             + (PUBLIC / 'search-index.json').stat().st_size
+})
+(PUBLIC / 'offline-manifest.json').write_text(json.dumps({
+    'schema': 1, 'packs': flight_packs
+}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+fallback_dir = PUBLIC / 'offline' / 'unavailable'
+fallback_dir.mkdir(parents=True, exist_ok=True)
+shutil.copyfile(ROOT / 'assets' / 'offline-unavailable.html', fallback_dir / 'index.html')
+# Minimal shell: only the scripts and CSS actually used by saved pages.
+# An offline shell cannot be installed with stale/nonexistent URLs.
+flight_shell = [
+    '', 'flight-library/', 'offline/unavailable/',
+    'assets/style.css', 'assets/crest.svg', 'assets/offline.css',
+    'assets/offline.js', 'assets/offline-register.js',
+    'assets/appearance.js', 'assets/app.js', 'assets/search.js',
+    'assets/search.css', 'assets/appearance.css',
+    'assets/reading-desk.js', 'assets/reading-desk.css',
+    'assets/reading-comfort.js', 'assets/reading-comfort.css',
+    'assets/maintenance.css', 'assets/reader-polish.css',
+    'assets/article-reading.css', 'assets/article-explore.css',
+    'assets/article-editorial.css', 'assets/article-reading.js',
+    'assets/portrait-stages.js', 'assets/gallery.css',
+    'assets/exhibits.css', 'assets/connections.css',
+    'assets/comparisons.css', 'assets/journeys.css',
+    'assets/welcome.css', 'assets/welcome-editorial.css',
+    'assets/welcome.js', 'assets/reading-desk.css',
+    'assets/edition-editorial.css', 'assets/home-finale.css',
+    'assets/home-polish.css', 'assets/archive-home.css',
+    'assets/gazette.css', 'assets/reading-comfort.js',
+    'assets/reading-desk.js', 'assets/reading-comfort.css',
+    'assets/history-editorial.css', 'assets/discovery-editorial.css',
+    'assets/offline-manifest.json'
+]
+flight_shell = list(dict.fromkeys(flight_shell))
+for path in flight_shell:
+    file = PUBLIC / path / 'index.html' if not path or path.endswith('/') else PUBLIC / path
+    if not file.is_file():
+        raise ValueError(f'Offline shell references missing public file: {path}')
+shell_digest = hashlib.sha256()
+for path in flight_shell:
+    file = PUBLIC / path / 'index.html' if not path or path.endswith('/') else PUBLIC / path
+    shell_digest.update(path.encode('utf-8'))
+    shell_digest.update(file.read_bytes())
+worker_template = (ROOT / 'assets' / 'offline-worker.js').read_text(encoding='utf-8')
+(PUBLIC / 'sw.js').write_text(
+    worker_template.replace('__AVALOR_SHELL_REVISION__', shell_digest.hexdigest()[:16])
+                   .replace('__AVALOR_SHELL_FILES__', json.dumps(flight_shell)),
+    encoding='utf-8'
+)
+
 MEDIA_DELIVERY = publish_optimized_media(PUBLIC, MEDIA_CATALOG)
 SITEMAP_RESULT = write_sitemap(PUBLIC, SITE_URL)
 QUALITY_RESULT = audit_site(PUBLIC, SITE_URL)
