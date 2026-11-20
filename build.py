@@ -1551,7 +1551,7 @@ flight_shell = [
     'assets/gazette.css', 'assets/reading-comfort.js',
     'assets/reading-desk.js', 'assets/reading-comfort.css',
     'assets/history-editorial.css', 'assets/discovery-editorial.css',
-    'assets/offline-manifest.json'
+    'offline-manifest.json'
 ]
 flight_shell = list(dict.fromkeys(flight_shell))
 for path in flight_shell:
