@@ -55,12 +55,16 @@ jobs:
           node --check assets/appearance.js
           node --check assets/welcome.js
           node --check assets/comparisons.js
+          node --check assets/offline.js
+          node --check assets/offline-register.js
       - name: Test smart archive search and chapter sharing
         run: node --test tests/test_search.js tests/test_chapter_sharing.js
       - name: Check public canon and article links
         run: python tests/check_public_canon.py
       - name: Build public website
         run: python build.py
+      - name: Check offline flight library manifests and scope
+        run: python tests/check_offline_library.py
       - name: Check Public Sitemap, Links & Accessibility
         run: python tests/check_site_quality.py
       - name: Check enhanced article output

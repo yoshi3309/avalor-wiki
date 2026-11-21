@@ -26,7 +26,8 @@ assert len(public_pages)>=100, f'Expected published records and collection pages
 seen=set()
 for page in public_pages:
     html=page.read_text(encoding='utf-8')
-    if 'http-equiv="refresh"' in html:
+    # Utility fallbacks deliberately excluded from search engines need no social card.
+    if 'http-equiv="refresh"' in html or '<meta name="robots" content="noindex">' in html:
         continue
     parser=Head();parser.feed(html)
     tags=parser.meta
