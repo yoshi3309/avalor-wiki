@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/avalor-wiki/index.html",
+      "destination": "/avalor-wiki/",
       "permanent": false
     }
   ],
