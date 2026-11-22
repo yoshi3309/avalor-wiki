@@ -1,0 +1,23 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/avalor-wiki/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/avalor-wiki/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/avalor-wiki/:path*/",
+      "destination": "/:path*/index.html"
+    },
+    {
+      "source": "/avalor-wiki/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}

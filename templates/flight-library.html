@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="content-container flight-library-page" data-flight-library>
+  <nav class="breadcrumbs"><a href="{{root}}">Archive Home</a><span>›</span><a href="{{root}}reading-desk/">My Reading Desk</a><span>›</span><span>Flight Library</span></nav>
+  <header class="flight-library-heading">
+    <div class="kicker">THE ROYAL ARCHIVES · PREPARE FOR THE JOURNEY</div>
+    <h1>The <em>Flight Library</em></h1>
+    <p>Carry Avalor's public histories with you. Save a complete Reading Journey or the full public encyclopedia while you have internet access, then explore those saved records in airplane mode.</p>
+    <p><strong>Before departure:</strong> Finish the download, wait for <strong>Ready offline</strong>, open a saved record, then switch on Airplane Mode and test a few links. Browser storage can be cleared by your device, especially on iOS, so check again before boarding.</p>
+  </header>
+  <div class="flight-library-status" role="status" aria-live="polite" id="flight-library-status">Checking offline support…</div>
+  <p id="flight-library-summary" class="flight-library-summary"></p>
+  <div id="flight-pack-list" class="flight-pack-list"></div>
+  <section class="flight-library-note">
+    <h2>What comes with you?</h2>
+    <p>Saved public article text, selected journey pages, and essential site styling. The full encyclopedia also includes the public search index. Illustrations, the interactive map, and some rich visual features need an internet connection. No private Keeper records or campaign secrets are included.</p>
+    <p>Downloads stay on this device and in this browser. They may use storage space and can disappear if the browser clears its site data. Saving to your Reading Desk alone does <strong>not</strong> download an article.</p>
+    <a href="{{root}}reading-desk/">Return to My Reading Desk ↗︎</a>
+  </section>
+</div>
+{% endblock %}
