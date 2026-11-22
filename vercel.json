@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/avalor-wiki/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/avalor-wiki/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
